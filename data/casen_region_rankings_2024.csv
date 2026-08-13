@@ -1,0 +1,73 @@
+indicador,ranking,region,nombre_region,%
+Internet (cualquier acceso),Top 5,15,Región de Arica y Parinacota,98.9972
+Internet (cualquier acceso),Top 5,1,Región de Tarapacá,98.9704
+Internet (cualquier acceso),Top 5,13,Región Metropolitana de Santiago,98.6354
+Internet (cualquier acceso),Top 5,2,Región de Antofagasta,98.598
+Internet (cualquier acceso),Top 5,12,Región de Magallanes y de la Antártica Chilena,98.4422
+Internet (cualquier acceso),Bottom 5,16,Región de Ñuble,92.9665
+Internet (cualquier acceso),Bottom 5,9,Región de La Araucanía,94.2521
+Internet (cualquier acceso),Bottom 5,7,Región del Maule,95.4572
+Internet (cualquier acceso),Bottom 5,10,Región de Los Lagos,95.871
+Internet (cualquier acceso),Bottom 5,11,Región de Aysén del Gral. Carlos Ibáñez del Campo,96.0668
+Internet fijo,Top 5,12,Región de Magallanes y de la Antártica Chilena,83.7108
+Internet fijo,Top 5,13,Región Metropolitana de Santiago,82.1021
+Internet fijo,Top 5,2,Región de Antofagasta,77.0902
+Internet fijo,Top 5,15,Región de Arica y Parinacota,76.0393
+Internet fijo,Top 5,5,Región de Valparaíso,72.9074
+Internet fijo,Bottom 5,9,Región de La Araucanía,47.5023
+Internet fijo,Bottom 5,10,Región de Los Lagos,51.7351
+Internet fijo,Bottom 5,3,Región de Atacama,56.1755
+Internet fijo,Bottom 5,7,Región del Maule,58.3197
+Internet fijo,Bottom 5,16,Región de Ñuble,58.9948
+Solo móvil,Top 5,9,Región de La Araucanía,44.1997
+Solo móvil,Top 5,10,Región de Los Lagos,41.6303
+Solo móvil,Top 5,3,Región de Atacama,37.9841
+Solo móvil,Top 5,7,Región del Maule,35.3084
+Solo móvil,Top 5,14,Región de Los Ríos,34.9279
+Solo móvil,Bottom 5,12,Región de Magallanes y de la Antártica Chilena,14.1912
+Solo móvil,Bottom 5,13,Región Metropolitana de Santiago,16.1514
+Solo móvil,Bottom 5,2,Región de Antofagasta,20.875
+Solo móvil,Bottom 5,15,Región de Arica y Parinacota,22.0787
+Solo móvil,Bottom 5,5,Región de Valparaíso,24.8997
+Sin internet,Top 5,16,Región de Ñuble,7.0335
+Sin internet,Top 5,9,Región de La Araucanía,5.7479
+Sin internet,Top 5,7,Región del Maule,4.5428
+Sin internet,Top 5,10,Región de Los Lagos,4.129
+Sin internet,Top 5,11,Región de Aysén del Gral. Carlos Ibáñez del Campo,3.9332
+Sin internet,Bottom 5,15,Región de Arica y Parinacota,1.0028
+Sin internet,Bottom 5,1,Región de Tarapacá,1.0296
+Sin internet,Bottom 5,13,Región Metropolitana de Santiago,1.3646
+Sin internet,Bottom 5,2,Región de Antofagasta,1.402
+Sin internet,Bottom 5,12,Región de Magallanes y de la Antártica Chilena,1.5578
+Carencia conectividad digital (PM),Top 5,16,Región de Ñuble,24.9549
+Carencia conectividad digital (PM),Top 5,10,Región de Los Lagos,22.5282
+Carencia conectividad digital (PM),Top 5,3,Región de Atacama,21.8979
+Carencia conectividad digital (PM),Top 5,9,Región de La Araucanía,21.5713
+Carencia conectividad digital (PM),Top 5,6,Región del Libertador Gral. Bernardo O'Higgins,18.6624
+Carencia conectividad digital (PM),Bottom 5,12,Región de Magallanes y de la Antártica Chilena,7.3317
+Carencia conectividad digital (PM),Bottom 5,13,Región Metropolitana de Santiago,8.2356
+Carencia conectividad digital (PM),Bottom 5,2,Región de Antofagasta,10.6249
+Carencia conectividad digital (PM),Bottom 5,1,Región de Tarapacá,10.8542
+Carencia conectividad digital (PM),Bottom 5,5,Región de Valparaíso,11.3346
+Pobreza ingresos (ext+no ext),Top 5,9,Región de La Araucanía,28.5906
+Pobreza ingresos (ext+no ext),Top 5,7,Región del Maule,24.3408
+Pobreza ingresos (ext+no ext),Top 5,16,Región de Ñuble,23.8984
+Pobreza ingresos (ext+no ext),Top 5,14,Región de Los Ríos,22.2701
+Pobreza ingresos (ext+no ext),Top 5,15,Región de Arica y Parinacota,21.4332
+Pobreza ingresos (ext+no ext),Bottom 5,12,Región de Magallanes y de la Antártica Chilena,9.9403
+Pobreza ingresos (ext+no ext),Bottom 5,13,Región Metropolitana de Santiago,13.3387
+Pobreza ingresos (ext+no ext),Bottom 5,11,Región de Aysén del Gral. Carlos Ibáñez del Campo,14.3337
+Pobreza ingresos (ext+no ext),Bottom 5,2,Región de Antofagasta,16.3877
+Pobreza ingresos (ext+no ext),Bottom 5,10,Región de Los Lagos,16.477
+Doble pobreza (ingresos+digital),Top 5,9,Región de La Araucanía,9.3492
+Doble pobreza (ingresos+digital),Top 5,16,Región de Ñuble,8.5705
+Doble pobreza (ingresos+digital),Top 5,3,Región de Atacama,6.4388
+Doble pobreza (ingresos+digital),Top 5,4,Región de Coquimbo,6.1938
+Doble pobreza (ingresos+digital),Top 5,14,Región de Los Ríos,6.1932
+Doble pobreza (ingresos+digital),Bottom 5,12,Región de Magallanes y de la Antártica Chilena,1.6462
+Doble pobreza (ingresos+digital),Bottom 5,13,Región Metropolitana de Santiago,2.5011
+Doble pobreza (ingresos+digital),Bottom 5,5,Región de Valparaíso,3.6065
+Doble pobreza (ingresos+digital),Bottom 5,8,Región del Biobío,4.1384
+Doble pobreza (ingresos+digital),Bottom 5,2,Región de Antofagasta,4.1457
+Pobres conectados sin fijo (proxy),Top 5,8,Región del Biobío,6.7958
+Pobres conectados sin fijo (proxy),Bottom 5,8,Región del Biobío,6.7958
