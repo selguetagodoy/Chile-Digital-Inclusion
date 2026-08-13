@@ -1,124 +1,89 @@
 # Chile Digital Inclusion
 
-Repositorio abierto para analizar inclusión, exclusión y desigualdad digital en Chile a partir de evidencia territorial y social.
+Repositorio abierto para analizar inclusión, exclusión y desigualdad digital en Chile a partir de evidencia de Censo 2024, CASEN 2024, SUBTEL y calidad observada de red.
 
-El proyecto separa dos unidades que no deben confundirse. Censo 2024 y el Atlas permiten analizar principalmente hogares y territorio. CASEN 2024 permite analizar personas ponderadas y brechas sociales por edad, pobreza, región y tipo de acceso.
+El proyecto no trata acceso a Internet como sinónimo de inclusión digital. Mantiene separadas la desconexión dura, la dependencia móvil, la disponibilidad de Internet fijo, los dispositivos, las barreras de adopción y el desempeño real de las redes.
 
-## CASEN Digital Master 2024
+## Qué contiene hoy
 
-La capa CASEN contiene ocho módulos analíticos:
+La versión pública ya incorpora cuatro capas distintas.
 
-- nacional
-- macrozonas
-- rankings regionales
-- rankings comunales
-- detalle de las 52 comunas de la Región Metropolitana
-- indicadores nacionales por edad
-- indicadores región × edad
-- brecha comunal entre pobreza por ingresos e Internet fijo
+### Censo 2024 y Atlas público
 
-La base nacional pondera **20.131.682 personas**. Registra **97,49%** con algún acceso a Internet, **71,83%** con Internet fijo, **24,62%** solo móvil y **2,51%** sin Internet. La carencia de conectividad digital multidimensional alcanza **12,96%**, mientras la doble pobreza de ingresos y digital llega a **4,15%**.
+A escala de hogares, el snapshot nacional retiene 445.840 hogares sin Internet, una tasa de 6,8%, 64,2% con Internet fijo y 54,7% con computador. La capa regional muestra que La Araucanía y Ñuble alcanzan 12,9% de hogares sin Internet, mientras la Región Metropolitana concentra el mayor volumen absoluto entre las regiones retenidas, con 114.655 hogares.
 
-## Lectura territorial
+### CASEN Digital Master 2024
 
-| Macrozona | Internet fijo | Solo móvil | Sin Internet | Carencia digital | Doble pobreza |
+CASEN se mantiene como una capa de personas ponderadas, no de hogares. La estimación nacional representa 20.131.682 personas y registra 97,49% con algún acceso a Internet, 71,83% con fijo, 24,62% solo móvil y 2,51% sin Internet. La carencia de conectividad digital multidimensional alcanza 12,96% y la doble pobreza de ingresos y digital 4,15%.
+
+Las cuatro macrozonas muestran una gradiente clara.
+
+| Macrozona | Fijo | Solo móvil | Sin Internet | Carencia digital | Doble pobreza |
 |---|---:|---:|---:|---:|---:|
 | Centro | 77,11% | 20,36% | 1,89% | 10,53% | 3,16% |
 | Norte | 67,51% | 28,64% | 2,41% | 14,82% | 5,33% |
 | Sur | 61,31% | 32,62% | 4,33% | 17,94% | 6,48% |
 | Austral | 57,59% | 36,47% | 3,72% | 19,54% | 4,99% |
 
-La brecha territorial aparece incluso cuando el acceso general supera 95% en todas las macrozonas. Lo que cambia es la calidad funcional del acceso: fijo, dependencia móvil y carencia multidimensional.
+El repositorio incluye además rankings regionales y rankings comunales restringidos a variables de conectividad. Esto permite mostrar territorios con alta dependencia solo móvil o muy baja penetración fija sin publicar el modelo completo de vulnerabilidad.
 
-## Brecha generacional
+### SUBTEL
 
-| Edad | Internet fijo | Solo móvil | Sin Internet | Carencia digital |
-|---|---:|---:|---:|---:|
-| 15–29 | 75,33% | 22,89% | 0,82% | 10,40% |
-| 30–44 | 75,78% | 22,34% | 0,90% | 9,43% |
-| 45–59 | 70,70% | 25,72% | 2,47% | 13,18% |
-| 60–74 | 64,77% | 28,87% | 5,30% | 18,46% |
-| 75+ | 54,41% | 29,99% | 14,41% | 28,83% |
+La serie oficial de Encuestas de Acceso y Usos de Internet se mantiene como una fuente propia. El catálogo público incluye la Duodécima Encuesta, publicada bajo 2026 con trabajo de campo 2025, junto con la Undécima, Décima y olas anteriores.
 
-La caída con la edad no aparece solo en acceso. También aumenta la dependencia móvil y la carencia digital, lo que permite analizar autonomía y no únicamente cobertura.
+La Duodécima Encuesta utilizó 5.000 entrevistas presenciales en zonas urbanas y rurales de las 16 regiones. La sección de acceso se refiere a hogares y la sección de uso a personas de 16 años o más.
 
-## Regiones con mayor presión digital
+Para 2025, 96,6% de los hogares declara acceso propio y pagado a Internet fijo o móvil. La cifra llega a 96,8% en urbano y 95,1% en rural, pero baja a 83,2% entre hogares compuestos solo por personas mayores. El acceso fijo total, considerando fijo solo o combinado con móvil, alcanza 74,6%.
 
-| Indicador | 1° | 2° | 3° | 4° | 5° |
-|---|---|---|---|---|---|
-| Carencia digital | Ñuble 24,95% | Los Lagos 22,53% | Atacama 21,90% | La Araucanía 21,57% | O'Higgins 18,66% |
-| Solo móvil | La Araucanía 44,20% | Los Lagos 41,63% | Atacama 37,98% | Maule 35,31% | Los Ríos 34,93% |
-| Sin Internet | Ñuble 7,03% | La Araucanía 5,75% | Maule 4,54% | Los Lagos 4,13% | Aysén 3,93% |
-| Doble pobreza | La Araucanía 9,35% | Ñuble 8,57% | Atacama 6,44% | Coquimbo 6,19% | Los Ríos 6,19% |
+En formas de acceso pagado, 66,8% corresponde a fijo solamente, 21,8% a móvil solamente y 7,8% a la combinación fijo + móvil.
 
-## Comunas que muestran la brecha más dura
+En dispositivos de acceso del hogar, SUBTEL 2025 registra smartphone 99,1%, TV conectada 77,5%, computador portátil 61,0%, tablet 24,9%, reproductor de streaming 22,7%, consola 22,0% y computador fijo 19,9%.
 
-La carencia digital multidimensional alcanza sus valores más altos en **Camiña 84,51%**, **Cobquecura 73,93%**, **Colchane 73,41%**, **Lumaco 71,98%** y **Alto Biobío 70,86%**.
+### Calidad observada
 
-La doble pobreza de ingresos y digital se concentra especialmente en **Galvarino 35,67%**, **Lumaco 32,50%**, **Alto Biobío 31,82%**, **San Ignacio 27,81%** y **Teodoro Schmidt 27,16%**.
+La capa de desempeño mantiene separado el acceso de la experiencia de uso. Para Q4 2025, la red fija registra 391,9 Mbps de descarga, 332,6 Mbps de carga y 8,9 ms de latencia. La red móvil registra 105,5 Mbps, 23,2 Mbps y 30,9 ms.
 
-La dependencia solo móvil llega a **91,29% en Huara**, **90,83% en Putre**, **89,91% en Torres del Paine**, **85,00% en General Lagos** y **81,39% en Alto del Carmen**.
-
-## Región Metropolitana
-
-El detalle de las 52 comunas muestra que la brecha también existe dentro del principal mercado digital del país. En doble pobreza lideran **San José de Maipo 11,32%**, **Melipilla 9,27%**, **Lampa 8,00%**, **Tiltil 7,85%** y **Curacaví 7,05%**. San Pedro destaca además por una combinación particularmente frágil de baja penetración fija y alta dependencia móvil.
-
-## Pobreza e Internet fijo
-
-El maestro incluye 333 comunas con una medida descriptiva de brecha entre pobreza por ingresos y penetración de Internet fijo. Los mayores diferenciales positivos aparecen en **Saavedra**, **Lonquimay**, **Galvarino**, **Alto Biobío** y **Toltén**. Esta medida no es un índice oficial: se utiliza como señal exploratoria para detectar territorios donde la pobreza social convive con baja conectividad fija.
-
-## Calidad observada
-
-La inclusión digital también depende del desempeño real de la red. En el corte Ookla Q4 2025, la red fija alcanza **391,9 Mbps de descarga**, **332,6 Mbps de carga** y **8,9 ms de latencia**. La red móvil registra **105,5 Mbps**, **23,2 Mbps** y **30,9 ms**, respectivamente.
-
-El análisis territorial identifica **109 comunas en doble rezago de calidad**, con red fija y móvil simultáneamente por debajo de la mediana nacional. La Araucanía y Maule concentran 13 comunas cada una en esa situación.
-
-## Dispositivos y dependencia móvil
-
-El smartphone alcanza **91,8%** de penetración en hogares, pero el computador o notebook operativo llega a **54,9%** y la tablet a **39,8%**. Esta diferencia importa porque conexión no equivale a capacidad productiva digital.
-
-Ñuble muestra una de las mayores dependencias solo smartphone, con **55,0%**, seguida por Arica y Parinacota **46,8%** y Los Ríos **46,3%**.
-
-También existe una brecha dentro del propio acceso móvil: un contrato postpago utiliza en promedio **31,81 GB mensuales**, frente a **8,89 GB** en prepago. En 5G, **91,5%** de las conexiones observadas se concentra en postpago.
-
-## Género, habilidades y Estado digital
-
-El uso de Internet entre mayores de 15 años muestra una brecha de género de más de 18 puntos: **75,5% en hombres** frente a **57,3% en mujeres**.
-
-Las habilidades digitales caen con la edad. El uso de procesador de texto pasa de **79,5% en 16–29 años** a **22,5% en 60–74 años**. Solo **18,7%** del grupo 60–74 declara habilidades intermedias para instalar y configurar aplicaciones de forma autónoma.
-
-La interacción con el Estado digital muestra la misma pendiente. La descarga de formularios públicos baja desde 23,3% en 16–29 y 29,2% en 30–44 a 8,3% en 60–74 y 2,3% en 75+.
-
-## Pobreza y calidad del acceso
-
-La conexión general puede mantenerse alta incluso cuando la calidad del acceso se distribuye de forma desigual. En hogares en pobreza extrema, la banda ancha fija cae a **46,6%**, frente a **69,3%** en hogares no pobres.
-
-Este repositorio trata la desconexión, la dependencia móvil, la falta de dispositivos, las habilidades y la calidad como dimensiones distintas. No las colapsa en un único ranking público.
-
-## Fuentes principales
-
-- Censo de Población y Vivienda 2024 — INE
-- CASEN 2024 — Ministerio de Desarrollo Social y Familia
-- SUBTEL — estadísticas de conectividad, tecnologías y tráfico
-- Ookla Open Data — calidad de servicio
-- Elaboración propia a partir de bases públicas consolidadas
-
-## Estructura pública
+## Archivos publicados
 
 ```text
 Chile-Digital-Inclusion/
 ├── README.md
 ├── data/
-│   └── national_snapshot_2026.csv
+│   ├── national_snapshot_2026.csv
+│   ├── casen_national_2024.csv
+│   ├── casen_macrozones_2024.csv
+│   ├── casen_region_rankings_2024.csv
+│   ├── casen_commune_connectivity_rankings_2024.csv
+│   ├── censo_atlas_regional_households_2024.csv
+│   ├── network_quality_national_2025q4.csv
+│   ├── reasons_no_fixed_internet_2024.csv
+│   ├── subtel_survey_catalog.csv
+│   ├── subtel_2025_devices_total.csv
+│   └── subtel_2025_access_modes.csv
 └── docs/
     └── methodology.md
 ```
 
-La siguiente capa pública está diseñada para incorporar las ocho tablas agregadas del CASEN Digital Master. Los archivos preparados contienen 1 fila nacional, 4 macrozonas, 72 observaciones de rankings regionales, 200 observaciones de rankings comunales, 52 comunas RM, 7 grupos de edad, 112 cruces región×edad y 333 observaciones comunales de pobreza versus Internet fijo.
+## Cómo leer los datos
 
-## Principios de publicación
+No deben compararse directamente universos distintos. Censo/Atlas trabaja principalmente con hogares. CASEN utiliza personas ponderadas. SUBTEL usa hogares para acceso y personas de 16 años o más para la sección de usos. Ookla describe desempeño de red.
 
-El repositorio mantiene separadas las unidades de análisis, conserva datos faltantes cuando corresponde y no publica microdatos personales, el Índice de Vulnerabilidad Digital completo, ponderadores propietarios ni modelos comerciales.
+Por esa razón, 6,8% de hogares sin Internet en el agregado Censo/Atlas y 2,51% de personas sin Internet en CASEN no son cifras contradictorias: responden a unidades y diseños estadísticos distintos.
+
+Las estimaciones comunales derivadas de encuesta deben interpretarse con cautela y siempre junto al `N_ponderado` disponible.
+
+## Fuentes
+
+- INE — Censo de Población y Vivienda 2024
+- Ministerio de Desarrollo Social y Familia — CASEN 2024
+- SUBTEL — Encuestas de Acceso y Usos de Internet
+- Ookla Open Data — calidad observada de red
+
+Fuente SUBTEL: https://www.subtel.gob.cl/estudios/internet-y-sociedad-de-la-informacion/
+
+## Frontera de publicación
+
+La versión pública contiene datos agregados y trazables. No incorpora registros personales, identificadores directos, ponderadores internos ni el Índice de Vulnerabilidad Digital completo.
 
 ## Autor
 
