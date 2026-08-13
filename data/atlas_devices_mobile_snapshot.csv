@@ -1,0 +1,10 @@
+indicator,segment,value,unit,period
+smartphone_penetration,households,91.8,percent,2024-2025
+computer_or_notebook_operational,households,54.9,percent,2024-2025
+tablet_penetration,households,39.8,percent,2024-2025
+smartphone_only,Ñuble,55.0,percent,2024-2025
+smartphone_only,Arica y Parinacota,46.8,percent,2024-2025
+smartphone_only,Los Ríos,46.3,percent,2024-2025
+monthly_mobile_data,postpaid,31.81,GB,2025
+monthly_mobile_data,prepaid,8.89,GB,2025
+5g_connections,postpaid,91.5,percent,2025
