@@ -1,0 +1,3 @@
+network,download_mbps,upload_mbps,latency_ms,period,source
+fixed,391.9,332.6,8.9,2025 Q4,Ookla layer retained in Atlas 2026
+mobile,105.5,23.2,30.9,2025 Q4,Ookla layer retained in Atlas 2026
