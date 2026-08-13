@@ -1,0 +1,15 @@
+indicator,value,unit,reference_period,source_layer,notes
+households_without_internet,445840,households,2024,Censo 2024 / integrated public dataset,National total used in the public integrated dataset
+households_without_internet_pct,6.8,percent,2024,Censo 2024 / integrated public dataset,National disconnection rate
+mobile_dependency_pct,27.5,percent,2024-2025,Integrated Censo-CASEN-SUBTEL dataset,Public operational proxy for mobile-dependent households
+households_fixed_internet_pct,64.2,percent,2024-2025,Integrated Censo-CASEN-SUBTEL dataset,Households with fixed internet
+households_computer_pct,54.7,percent,2024,Censo 2024 / integrated public dataset,Households with computer
+households_mobile_phone_pct,97.8,percent,2024,Censo 2024 / integrated public dataset,Households with mobile phone
+households_mobile_internet_pct,86.6,percent,2024-2025,Integrated Censo-CASEN-SUBTEL dataset,Households with mobile internet
+households_satellite_internet_pct,4.4,percent,2024-2025,Integrated Censo-CASEN-SUBTEL dataset,Satellite internet share
+smartphone_penetration_pct,91.8,percent,2024-2025,Functional-access layer,Smartphone penetration in households
+computer_or_notebook_operational_pct,54.9,percent,2024-2025,Functional-access layer,Operational computer or notebook
+Tablet_penetration_pct,39.8,percent,2024-2025,Functional-access layer,Tablet penetration
+rural_without_internet_pct,11.6,percent,2024,Integrated public dataset,Rural disconnection rate
+urban_without_internet_pct,3.3,percent,2024,Integrated public dataset,Urban disconnection rate
+rural_fixed_internet_pct,26.8,percent,2024-2025,Integrated public dataset,Fixed internet penetration in rural areas
