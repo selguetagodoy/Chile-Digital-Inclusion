@@ -1,0 +1,6 @@
+source_id,publisher,dataset,role
+censo2024,INE,Censo de Población y Vivienda 2024,household and territorial indicators
+casen2024,Ministerio de Desarrollo Social y Familia,CASEN 2024,weighted-person and social-gap indicators
+subtel2025,SUBTEL,Encuestas de Acceso y Usos de Internet,household access and person 16+ use
+ookla2025q4,Ookla,Speedtest Open Data / retained Atlas quality layer,observed fixed and mobile quality
+atlas2026,Sebastian Elgueta Godoy / COTEL public outputs,Atlas de la Desconexión Digital 2026,integrated public analytical layer
