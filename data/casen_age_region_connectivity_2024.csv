@@ -1,0 +1,113 @@
+region,nombre_region,edad_grp,N_ponderado,Internet fijo,Solo móvil,Carencia conectividad digital (PM)
+1,Región de Tarapacá,0-5,38293,60.5907,37.0355,12.3403
+1,Región de Tarapacá,6-14,58529,63.6693,32.8521,12.1896
+1,Región de Tarapacá,15-29,90432,66.3604,30.9039,9.6294
+1,Región de Tarapacá,30-44,98913,67.9395,29.5659,9.7165
+1,Región de Tarapacá,45-59,65846,68.2714,29.2364,9.4221
+1,Región de Tarapacá,60-74,42757,66.6043,29.532,12.9498
+1,Región de Tarapacá,75+,13418,58.578,32.6278,17.8639
+2,Región de Antofagasta,0-5,57860,73.9768,24.4124,11.6435
+2,Región de Antofagasta,6-14,90966,76.9804,21.6125,11.2534
+2,Región de Antofagasta,15-29,153609,77.5586,21.2208,11.2348
+2,Región de Antofagasta,30-44,183235,78.5909,19.8445,8.921
+2,Región de Antofagasta,45-59,123473,77.0905,20.5349,10.7098
+2,Región de Antofagasta,60-74,83520,76.4571,20.1868,10.785
+2,Región de Antofagasta,75+,26718,73.1978,19.5074,13.5761
+3,Región de Atacama,0-5,25022,57.901,38.4861,20.8874
+3,Región de Atacama,6-14,41553,60.0149,35.6051,21.1112
+3,Región de Atacama,15-29,65270,59.6997,37.2101,19.8055
+3,Región de Atacama,30-44,73972,61.9451,33.4627,17.1201
+3,Región de Atacama,45-59,57415,53.4007,39.7631,21.4113
+3,Región de Atacama,60-74,41590,46.8526,43.9336,28.6489
+3,Región de Atacama,75+,15428,35.9217,45.8711,41.0732
+4,Región de Coquimbo,0-5,59514,69.6088,28.7932,14.363
+4,Región de Coquimbo,6-14,106740,66.2263,30.6333,15.4404
+4,Región de Coquimbo,15-29,177655,67.0491,30.0813,14.367
+4,Región de Coquimbo,30-44,187233,65.858,30.7985,14.8142
+4,Región de Coquimbo,45-59,168458,60.0832,33.5573,17.9158
+4,Región de Coquimbo,60-74,124339,54.0908,37.4396,25.6644
+4,Región de Coquimbo,75+,59367,41.8583,37.3928,36.8449
+5,Región de Valparaíso,0-5,132821,75.9097,23.689,10.3363
+5,Región de Valparaíso,6-14,222492,77.4289,21.959,8.5455
+5,Región de Valparaíso,15-29,394103,76.7591,22.184,9.0063
+5,Región de Valparaíso,30-44,454883,76.4227,22.6115,8.0106
+5,Región de Valparaíso,45-59,372346,72.0967,25.3756,12.0427
+5,Región de Valparaíso,60-74,316257,66.0662,30.4139,15.8679
+5,Región de Valparaíso,75+,138274,58.0355,32.1687,22.1193
+6,Región del Libertador Gral. Bernardo O'Higgins,0-5,71490,68.404,27.7437,17.1059
+6,Región del Libertador Gral. Bernardo O'Higgins,6-14,115992,74.5836,23.074,14.1242
+6,Región del Libertador Gral. Bernardo O'Higgins,15-29,193674,72.021,25.6859,15.3929
+6,Región del Libertador Gral. Bernardo O'Higgins,30-44,229301,72.8955,24.5926,12.7505
+6,Región del Libertador Gral. Bernardo O'Higgins,45-59,197116,62.5931,32.1298,19.7545
+6,Región del Libertador Gral. Bernardo O'Higgins,60-74,158201,53.566,36.7248,26.2033
+6,Región del Libertador Gral. Bernardo O'Higgins,75+,62823,43.5414,35.5984,38.1182
+7,Región del Maule,0-5,83353,64.5808,33.6161,12.4177
+7,Región del Maule,6-14,133561,66.9716,30.7507,13.7061
+7,Región del Maule,15-29,229146,65.1026,32.5753,13.2675
+7,Región del Maule,30-44,249172,62.2863,35.0232,13.2567
+7,Región del Maule,45-59,231272,56.6835,35.8487,20.1397
+7,Región del Maule,60-74,173972,46.016,41.7199,26.4693
+7,Región del Maule,75+,75176,35.6909,38.0587,44.2694
+8,Región del Biobío,0-5,109899,71.7422,26.1768,13.0438
+8,Región del Biobío,6-14,190598,75.8366,22.2683,9.3924
+8,Región del Biobío,15-29,343550,74.3775,23.4286,10.823
+8,Región del Biobío,30-44,364671,74.995,22.698,9.5771
+8,Región del Biobío,45-59,334788,70.5252,25.5108,13.6404
+8,Región del Biobío,60-74,243288,62.1309,30.3731,20.2181
+8,Región del Biobío,75+,101038,52.6822,31.3496,30.2298
+9,Región de La Araucanía,0-5,74412,47.6025,46.9602,20.1279
+9,Región de La Araucanía,6-14,120095,52.0929,43.1317,17.4441
+9,Región de La Araucanía,15-29,204391,52.7146,42.9075,16.6588
+9,Región de La Araucanía,30-44,215421,52.3398,42.7247,16.0471
+9,Región de La Araucanía,45-59,204353,45.5026,46.4931,22.9074
+9,Región de La Araucanía,60-74,145104,39.7384,45.517,29.8716
+9,Región de La Araucanía,75+,69815,31.3013,41.9781,40.5332
+10,Región de Los Lagos,0-5,59524,54.9409,42.0385,21.2179
+10,Región de Los Lagos,6-14,98348,56.2909,41.6328,18.8038
+10,Región de Los Lagos,15-29,179475,55.6339,40.76,17.9133
+10,Región de Los Lagos,30-44,200269,58.8199,37.8501,16.1485
+10,Región de Los Lagos,45-59,185218,50.7953,42.667,22.6857
+10,Región de Los Lagos,60-74,131755,41.0345,46.0749,32.6187
+10,Región de Los Lagos,75+,59351,31.9624,43.5022,42.6588
+11,Región de Aysén del Gral. Carlos Ibáñez del Campo,0-5,7315,69.296,22.9665,10.9638
+11,Región de Aysén del Gral. Carlos Ibáñez del Campo,6-14,13494,69.7569,25.8411,12.7909
+11,Región de Aysén del Gral. Carlos Ibáñez del Campo,15-29,18128,65.9367,30.6708,12.2501
+11,Región de Aysén del Gral. Carlos Ibáñez del Campo,30-44,27755,66.8888,28.3697,10.9977
+11,Región de Aysén del Gral. Carlos Ibáñez del Campo,45-59,21804,63.0985,31.3979,14.4979
+11,Región de Aysén del Gral. Carlos Ibáñez del Campo,60-74,14649,49.3686,39.5112,22.9507
+11,Región de Aysén del Gral. Carlos Ibáñez del Campo,75+,5417,38.213,38.3238,36
+12,Región de Magallanes y de la Antártica Chilena,0-5,12044,83.7097,15.1777,9.1664
+12,Región de Magallanes y de la Antártica Chilena,6-14,19754,89.3287,9.9777,4.1207
+12,Región de Magallanes y de la Antártica Chilena,15-29,32865,86.8705,12.4296,4.6828
+12,Región de Magallanes y de la Antártica Chilena,30-44,44594,86.2179,12.4456,5.1061
+12,Región de Magallanes y de la Antártica Chilena,45-59,37154,83.5199,14.8113,6.4896
+12,Región de Magallanes y de la Antártica Chilena,60-74,27277,80.3534,16.0062,10.2577
+12,Región de Magallanes y de la Antártica Chilena,75+,9771,60.3828,27.9603,25.6576
+13,Región Metropolitana de Santiago,0-5,592439,82.03,17.2617,8.4719
+13,Región Metropolitana de Santiago,6-14,936429,85.5543,13.5371,6.3543
+13,Región Metropolitana de Santiago,15-29,1727453,84.2814,14.8651,6.7191
+13,Región Metropolitana de Santiago,30-44,2109389,83.9848,15.0644,6.4045
+13,Región Metropolitana de Santiago,45-59,1557265,81.6006,16.9682,7.738
+13,Región Metropolitana de Santiago,60-74,1082798,78.2994,18.8041,11.4243
+13,Región Metropolitana de Santiago,75+,434279,68.2234,21.1265,20.7726
+14,Región de Los Ríos,0-5,29089,60.6552,37.1687,17.3411
+14,Región de Los Ríos,6-14,45998,60.4983,37.4038,15.4611
+14,Región de Los Ríos,15-29,81538,66.7958,31.7104,14.1548
+14,Región de Los Ríos,30-44,93138,65.9119,31.7293,11.3952
+14,Región de Los Ríos,45-59,75931,60.0058,35.1898,17.9832
+14,Región de Los Ríos,60-74,61303,52.4363,39.3749,25.3495
+14,Región de Los Ríos,75+,26249,41.4911,38.3062,36.112
+15,Región de Arica y Parinacota,0-5,20366,67.8091,30.875,18.2734
+15,Región de Arica y Parinacota,6-14,31845,77.0733,21.9783,12.5828
+15,Región de Arica y Parinacota,15-29,56323,75.5571,22.8415,12.3839
+15,Región de Arica y Parinacota,30-44,60385,78.0757,19.8625,10.0849
+15,Región de Arica y Parinacota,45-59,47354,77.7168,20.3151,10.0127
+15,Región de Arica y Parinacota,60-74,31229,75.9807,22.1525,10.5581
+15,Región de Arica y Parinacota,75+,14465,73.3633,21.8113,17.7886
+16,Región de Ñuble,0-5,31740,67.3756,26.9975,17.8747
+16,Región de Ñuble,6-14,54582,69.6878,26.3658,16.9755
+16,Región de Ñuble,15-29,95417,63.7559,30.3782,19.7868
+16,Región de Ñuble,30-44,107761,65.2258,29.622,17.9198
+16,Región de Ñuble,45-59,111268,57.721,34.1266,25.8706
+16,Región de Ñuble,60-74,82560,47.7132,36.5928,35.6831
+16,Región de Ñuble,75+,39155,35.952,36.4245,48.7488
