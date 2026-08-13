@@ -1,0 +1,121 @@
+indicador,ranking,region,nombre_region,comuna,nombre_comuna,N_ponderado,%
+Internet fijo,Top,13,Región Metropolitana de Santiago,13132,Vitacura,96913,99.0961
+Internet fijo,Top,13,Región Metropolitana de Santiago,13114,Las Condes,344511,94.8222
+Internet fijo,Top,13,Región Metropolitana de Santiago,13120,Ñuñoa,268286,91.4554
+Internet fijo,Top,13,Región Metropolitana de Santiago,13115,Lo Barnechea,131549,90.5199
+Internet fijo,Top,13,Región Metropolitana de Santiago,13123,Providencia,164384,89.777
+Internet fijo,Top,13,Región Metropolitana de Santiago,13105,El Bosque,169570,88.2644
+Internet fijo,Top,13,Región Metropolitana de Santiago,13125,Quilicura,277344,88.2218
+Internet fijo,Top,13,Región Metropolitana de Santiago,13119,Maipú,586960,87.9288
+Internet fijo,Top,13,Región Metropolitana de Santiago,13109,La Cisterna,101359,86.5153
+Internet fijo,Top,13,Región Metropolitana de Santiago,13502,Alhué,7907,86.4424
+Internet fijo,Top,13,Región Metropolitana de Santiago,13110,La Florida,407451,86.1299
+Internet fijo,Top,5,Región de Valparaíso,5801,Quilpué,174197,85.75
+Internet fijo,Top,13,Región Metropolitana de Santiago,13130,San Miguel,146610,85.4717
+Internet fijo,Top,13,Región Metropolitana de Santiago,13129,San Joaquín,103003,85.2849
+Internet fijo,Top,13,Región Metropolitana de Santiago,13401,San Bernardo,349711,85.2298
+Internet fijo,Top,13,Región Metropolitana de Santiago,13124,Pudahuel,262173,84.9672
+Internet fijo,Top,12,Región de Magallanes y de la Antártica Chilena,12101,Punta Arenas,146033,84.8459
+Internet fijo,Top,5,Región de Valparaíso,5804,Villa Alemana,148195,84.4691
+Internet fijo,Top,13,Región Metropolitana de Santiago,13118,Macul,138573,84.0344
+Internet fijo,Top,13,Región Metropolitana de Santiago,13113,La Reina,99013,83.9011
+Internet fijo,Bottom,15,Región de Arica y Parinacota,15102,Camarones,1246,0
+Internet fijo,Bottom,1,Región de Tarapacá,1402,Camiña,1375,0
+Internet fijo,Bottom,1,Región de Tarapacá,1403,Colchane,1561,0
+Internet fijo,Bottom,8,Región del Biobío,8314,Alto Biobío,6836,1.5506
+Internet fijo,Bottom,9,Región de La Araucanía,9205,Lonquimay,11108,2.1966
+Internet fijo,Bottom,1,Región de Tarapacá,1404,Huara,3113,2.5699
+Internet fijo,Bottom,3,Región de Atacama,3302,Alto del Carmen,5792,4.2818
+Internet fijo,Bottom,4,Región de Coquimbo,4305,Río Hurtado,4312,4.3599
+Internet fijo,Bottom,9,Región de La Araucanía,9105,Freire,25492,4.6407
+Internet fijo,Bottom,9,Región de La Araucanía,9118,Toltén,9931,6.0719
+Internet fijo,Bottom,6,Región del Libertador Gral. Bernardo O'Higgins,6205,Navidad,7166,6.168
+Internet fijo,Bottom,10,Región de Los Lagos,10306,San Juan de la Costa,7415,7.1881
+Internet fijo,Bottom,15,Región de Arica y Parinacota,15201,Putre,2180,7.7064
+Internet fijo,Bottom,4,Región de Coquimbo,4105,Paiguano,4717,8.7768
+Internet fijo,Bottom,10,Región de Los Lagos,10302,Puerto Octay,9042,9.2789
+Internet fijo,Bottom,3,Región de Atacama,3303,Freirina,7845,9.7132
+Internet fijo,Bottom,9,Región de La Araucanía,9116,Saavedra,12636,10.0823
+Internet fijo,Bottom,12,Región de Magallanes y de la Antártica Chilena,12402,Torres del Paine,1080,10.0926
+Internet fijo,Bottom,6,Región del Libertador Gral. Bernardo O'Higgins,6202,La Estrella,3099,10.4227
+Internet fijo,Bottom,9,Región de La Araucanía,9207,Lumaco,9901,11.5443
+Solo móvil,Top,1,Región de Tarapacá,1404,Huara,3113,91.2946
+Solo móvil,Top,15,Región de Arica y Parinacota,15201,Putre,2180,90.8257
+Solo móvil,Top,12,Región de Magallanes y de la Antártica Chilena,12402,Torres del Paine,1080,89.9074
+Solo móvil,Top,15,Región de Arica y Parinacota,15202,General Lagos,660,85
+Solo móvil,Top,3,Región de Atacama,3302,Alto del Carmen,5792,81.3881
+Solo móvil,Top,8,Región del Biobío,8314,Alto Biobío,6836,81.261
+Solo móvil,Top,15,Región de Arica y Parinacota,15102,Camarones,1246,80.4173
+Solo móvil,Top,1,Región de Tarapacá,1402,Camiña,1375,80
+Solo móvil,Top,10,Región de Los Lagos,10306,San Juan de la Costa,7415,78.6784
+Solo móvil,Top,9,Región de La Araucanía,9105,Freire,25492,78.2912
+Solo móvil,Top,7,Región del Maule,7106,Pelarco,9430,78.2609
+Solo móvil,Top,8,Región del Biobío,8207,Tirúa,11116,78.0317
+Solo móvil,Top,5,Región de Valparaíso,5404,Petorca,10613,77.4145
+Solo móvil,Top,11,Región de Aysén del Gral. Carlos Ibáñez del Campo,11102,Lago Verde,909,76.5677
+Solo móvil,Top,12,Región de Magallanes y de la Antártica Chilena,12103,Río Verde,210,76.1905
+Solo móvil,Top,9,Región de La Araucanía,9118,Toltén,9931,75.9037
+Solo móvil,Top,6,Región del Libertador Gral. Bernardo O'Higgins,6304,Lolol,7469,75.7263
+Solo móvil,Top,10,Región de Los Lagos,10302,Puerto Octay,9042,74.9945
+Solo móvil,Top,11,Región de Aysén del Gral. Carlos Ibáñez del Campo,11303,Tortel,580,74.6552
+Solo móvil,Top,6,Región del Libertador Gral. Bernardo O'Higgins,6206,Paredones,6233,74.5387
+Solo móvil,Bottom,13,Región Metropolitana de Santiago,13132,Vitacura,96913,0.9039
+Solo móvil,Bottom,13,Región Metropolitana de Santiago,13114,Las Condes,344511,4.9737
+Solo móvil,Bottom,13,Región Metropolitana de Santiago,13120,Ñuñoa,268286,8.0623
+Solo móvil,Bottom,13,Región Metropolitana de Santiago,13115,Lo Barnechea,131549,8.9837
+Solo móvil,Bottom,13,Región Metropolitana de Santiago,13105,El Bosque,169570,9.0069
+Solo móvil,Bottom,13,Región Metropolitana de Santiago,13123,Providencia,164384,9.7412
+Solo móvil,Bottom,13,Región Metropolitana de Santiago,13125,Quilicura,277344,10.8566
+Solo móvil,Bottom,13,Región Metropolitana de Santiago,13111,La Granja,118898,10.8908
+Solo móvil,Bottom,13,Región Metropolitana de Santiago,13119,Maipú,586960,11.44
+Solo móvil,Bottom,13,Región Metropolitana de Santiago,13110,La Florida,407451,11.4669
+Solo móvil,Bottom,13,Región Metropolitana de Santiago,13129,San Joaquín,103003,11.754
+Solo móvil,Bottom,13,Región Metropolitana de Santiago,13502,Alhué,7907,11.9388
+Solo móvil,Bottom,12,Región de Magallanes y de la Antártica Chilena,12301,Porvenir,7684,12.0901
+Solo móvil,Bottom,5,Región de Valparaíso,5801,Quilpué,174197,12.3154
+Solo móvil,Bottom,8,Región del Biobío,8106,Lota,45362,12.3826
+Solo móvil,Bottom,13,Región Metropolitana de Santiago,13109,La Cisterna,101359,12.4834
+Solo móvil,Bottom,13,Región Metropolitana de Santiago,13130,San Miguel,146610,13.0223
+Solo móvil,Bottom,13,Región Metropolitana de Santiago,13401,San Bernardo,349711,13.1231
+Solo móvil,Bottom,12,Región de Magallanes y de la Antártica Chilena,12101,Punta Arenas,146033,13.5456
+Solo móvil,Bottom,5,Región de Valparaíso,5804,Villa Alemana,148195,14.0403
+Sin internet,Top,16,Región de Ñuble,16105,Pemuco,8585,40.5708
+Sin internet,Top,12,Región de Magallanes y de la Antártica Chilena,12104,San Gregorio,648,31.0185
+Sin internet,Top,16,Región de Ñuble,16104,El Carmen,12170,29.1537
+Sin internet,Top,1,Región de Tarapacá,1403,Colchane,1561,28.8917
+Sin internet,Top,9,Región de La Araucanía,9207,Lumaco,9901,26.6539
+Sin internet,Top,4,Región de Coquimbo,4104,La Higuera,4539,24.0361
+Sin internet,Top,9,Región de La Araucanía,9205,Lonquimay,11108,22.6864
+Sin internet,Top,6,Región del Libertador Gral. Bernardo O'Higgins,6205,Navidad,7166,21.923
+Sin internet,Top,4,Región de Coquimbo,4302,Combarbalá,13837,20.7632
+Sin internet,Top,1,Región de Tarapacá,1402,Camiña,1375,20
+Sin internet,Top,7,Región del Maule,7202,Chanco,9238,19.528
+Sin internet,Top,16,Región de Ñuble,16206,Ranquil,6281,19.5033
+Sin internet,Top,16,Región de Ñuble,16202,Cobquecura,5216,19.4018
+Sin internet,Top,9,Región de La Araucanía,9110,Melipeuco,6302,19.3431
+Sin internet,Top,9,Región de La Araucanía,9102,Carahue,25528,18.5835
+Sin internet,Top,7,Región del Maule,7103,Curepto,9121,18.3204
+Sin internet,Top,9,Región de La Araucanía,9116,Saavedra,12636,18.1624
+Sin internet,Top,4,Región de Coquimbo,4305,Río Hurtado,4312,17.6484
+Sin internet,Top,6,Región del Libertador Gral. Bernardo O'Higgins,6203,Litueche,6967,16.5207
+Sin internet,Top,8,Región del Biobío,8307,Negrete,10610,15.7493
+Sin internet,Bottom,13,Región Metropolitana de Santiago,13132,Vitacura,96913,0
+Sin internet,Bottom,15,Región de Arica y Parinacota,15202,General Lagos,660,0
+Sin internet,Bottom,13,Región Metropolitana de Santiago,13601,Talagante,85879,0
+Sin internet,Bottom,5,Región de Valparaíso,5803,Olmué,20342,0
+Sin internet,Bottom,12,Región de Magallanes y de la Antártica Chilena,12103,Río Verde,210,0
+Sin internet,Bottom,2,Región de Antofagasta,2103,Sierra Gorda,1802,0
+Sin internet,Bottom,12,Región de Magallanes y de la Antártica Chilena,12402,Torres del Paine,1080,0
+Sin internet,Bottom,13,Región Metropolitana de Santiago,13114,Las Condes,344511,0.1106
+Sin internet,Bottom,2,Región de Antofagasta,2102,Mejillones,15952,0.2696
+Sin internet,Bottom,5,Región de Valparaíso,5103,Concón,48400,0.3926
+Sin internet,Bottom,13,Región Metropolitana de Santiago,13123,Providencia,164384,0.393
+Sin internet,Bottom,13,Región Metropolitana de Santiago,13124,Pudahuel,262173,0.3952
+Sin internet,Bottom,5,Región de Valparaíso,5606,Santo Domingo,12673,0.4103
+Sin internet,Bottom,13,Región Metropolitana de Santiago,13120,Ñuñoa,268286,0.4823
+Sin internet,Bottom,13,Región Metropolitana de Santiago,13115,Lo Barnechea,131549,0.4964
+Sin internet,Bottom,5,Región de Valparaíso,5702,Catemu,15767,0.5328
+Sin internet,Bottom,13,Región Metropolitana de Santiago,13108,Independencia,154296,0.55
+Sin internet,Bottom,13,Región Metropolitana de Santiago,13604,Padre Hurtado,82475,0.5905
+Sin internet,Bottom,13,Región Metropolitana de Santiago,13119,Maipú,586960,0.6312
+Sin internet,Bottom,13,Región Metropolitana de Santiago,13106,Estación Central,222676,0.6808
