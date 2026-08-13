@@ -1,0 +1,5 @@
+speed_tier,connections,pct_total
+up_to_10_mbps,186193,3.90
+over_10_to_50_mbps,551840,11.56
+over_50_to_100_mbps,991274,20.77
+over_100_mbps_to_1_gbps,3044893,63.77
