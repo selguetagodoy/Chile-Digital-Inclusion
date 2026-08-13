@@ -1,0 +1,53 @@
+region,nombre_region,comuna,nombre_comuna,N_ponderado,Internet fijo,Solo móvil,Sin internet,rank_Internet fijo,rank_Solo móvil,rank_Sin internet
+13,Región Metropolitana de Santiago,13203,San José de Maipo,19591,62.0897,33.4848,4.4255,47,7,6
+13,Región Metropolitana de Santiago,13501,Melipilla,149507,61.2734,34.2927,3.6386,49,6,9
+13,Región Metropolitana de Santiago,13302,Lampa,144496,61.4446,35.5345,1.3281,48,2,30
+13,Región Metropolitana de Santiago,13303,Tiltil,22524,64.247,35.0071,0.7459,45,4,40
+13,Región Metropolitana de Santiago,13503,Curacaví,38531,67.7403,26.0855,2.5486,42,11,16
+13,Región Metropolitana de Santiago,13202,Pirque,33259,62.2298,31.7328,6.0375,46,9,3
+13,Región Metropolitana de Santiago,13502,Alhué,7907,86.4424,11.9388,1.6188,10,41,24
+13,Región Metropolitana de Santiago,13602,El Monte,42410,60.6366,35.1757,4.1877,50,3,7
+13,Región Metropolitana de Santiago,13301,Colina,198897,64.2755,32.2564,1.2258,44,8,31
+13,Región Metropolitana de Santiago,13402,Buin,118757,75.3126,19.9811,1.1275,39,18,33
+13,Región Metropolitana de Santiago,13505,San Pedro,12580,30.7313,61.4706,7.7981,52,1,1
+13,Región Metropolitana de Santiago,13102,Cerrillos,90172,82.5556,16.5395,0.9049,22,27,37
+13,Región Metropolitana de Santiago,13131,San Ramón,83373,69.8811,23.955,6.1639,41,13,2
+13,Región Metropolitana de Santiago,13604,Padre Hurtado,82475,82.6469,16.7627,0.5905,21,25,44
+13,Región Metropolitana de Santiago,13116,Lo Espejo,100289,79.5341,15.8253,4.4322,30,30,5
+13,Región Metropolitana de Santiago,13105,El Bosque,169570,88.2644,9.0069,2.7287,6,48,14
+13,Región Metropolitana de Santiago,13106,Estación Central,222676,79.2645,20.0547,0.6808,33,17,42
+13,Región Metropolitana de Santiago,13122,Peñalolén,273273,79.3185,18.7501,1.7645,32,20,22
+13,Región Metropolitana de Santiago,13117,Lo Prado,101737,81.0767,15.3799,3.111,25,32,10
+13,Región Metropolitana de Santiago,13127,Recoleta,197216,66.9226,30.3956,2.6818,43,10,15
+13,Región Metropolitana de Santiago,13103,Cerro Navia,139270,77.9235,19.2784,2.0528,36,19,19
+13,Región Metropolitana de Santiago,13121,Pedro Aguirre Cerda,104037,83.2608,14.4526,2.2867,19,35,18
+13,Región Metropolitana de Santiago,13112,La Pintana,188841,80.5477,15.4956,3.9568,28,31,8
+13,Región Metropolitana de Santiago,13401,San Bernardo,349711,85.2298,13.1231,1.4595,14,38,27
+13,Región Metropolitana de Santiago,13504,María Pinto,15738,58.4445,34.9218,5.833,51,5,4
+13,Región Metropolitana de Santiago,13603,Isla de Maipo,42578,75.6001,22.575,1.8249,38,14,21
+13,Región Metropolitana de Santiago,13107,Huechuraba,118819,78.0936,18.5231,2.8598,35,22,13
+13,Región Metropolitana de Santiago,13101,Santiago,547332,73.7392,25.1104,1.0146,40,12,34
+13,Región Metropolitana de Santiago,13201,Puente Alto,669170,83.1955,15.0616,1.6627,20,33,23
+13,Región Metropolitana de Santiago,13605,Peñaflor,107412,79.3366,18.5938,0.7336,31,21,41
+13,Región Metropolitana de Santiago,13111,La Granja,118898,83.3269,10.8908,2.0412,18,45,20
+13,Región Metropolitana de Santiago,13108,Independencia,154296,80.8934,17.6839,0.55,26,23,45
+13,Región Metropolitana de Santiago,13128,Renca,163194,79.9539,16.5888,2.9535,29,26,11
+13,Región Metropolitana de Santiago,13403,Calera de Tango,30435,76.3825,21.6231,0.7787,37,16,38
+13,Región Metropolitana de Santiago,13126,Quinta Normal,142130,81.8399,16.3934,1.4839,23,28,26
+13,Región Metropolitana de Santiago,13109,La Cisterna,101359,86.5153,12.4834,1.0014,9,40,35
+13,Región Metropolitana de Santiago,13115,Lo Barnechea,131549,90.5199,8.9837,0.4964,4,49,46
+13,Región Metropolitana de Santiago,13110,La Florida,407451,86.1299,11.4669,1.5661,11,43,25
+13,Región Metropolitana de Santiago,13125,Quilicura,277344,88.2218,10.8566,0.7637,7,46,39
+13,Región Metropolitana de Santiago,13404,Paine,88782,81.6325,17.0181,1.3494,24,24,28
+13,Región Metropolitana de Santiago,13129,San Joaquín,103003,85.2849,11.754,2.3524,13,42,17
+13,Región Metropolitana de Santiago,13113,La Reina,99013,83.9011,14.7496,1.3493,17,34,29
+13,Región Metropolitana de Santiago,13119,Maipú,586960,87.9288,11.44,0.6312,8,44,43
+13,Región Metropolitana de Santiago,13601,Talagante,85879,78.2182,21.7818,0,34,15,51
+13,Región Metropolitana de Santiago,13130,San Miguel,146610,85.4717,13.0223,0.9099,12,39,36
+13,Región Metropolitana de Santiago,13120,Ñuñoa,268286,91.4554,8.0623,0.4823,3,50,47
+13,Región Metropolitana de Santiago,13124,Pudahuel,262173,84.9672,14.4489,0.3952,15,36,48
+13,Región Metropolitana de Santiago,13118,Macul,138573,84.0344,14.3556,1.2116,16,37,32
+13,Región Metropolitana de Santiago,13104,Conchalí,136219,80.8052,16.3296,2.8652,27,29,12
+13,Región Metropolitana de Santiago,13123,Providencia,164384,89.777,9.7412,0.393,5,47,49
+13,Región Metropolitana de Santiago,13114,Las Condes,344511,94.8222,4.9737,0.1106,2,51,50
+13,Región Metropolitana de Santiago,13132,Vitacura,96913,99.0961,0.9039,0,1,52,51
