@@ -67,12 +67,40 @@ El detalle de las 52 comunas muestra que la brecha también existe dentro del pr
 
 El maestro incluye 333 comunas con una medida descriptiva de brecha entre pobreza por ingresos y penetración de Internet fijo. Los mayores diferenciales positivos aparecen en **Saavedra**, **Lonquimay**, **Galvarino**, **Alto Biobío** y **Toltén**. Esta medida no es un índice oficial: se utiliza como señal exploratoria para detectar territorios donde la pobreza social convive con baja conectividad fija.
 
+## Calidad observada
+
+La inclusión digital también depende del desempeño real de la red. En el corte Ookla Q4 2025, la red fija alcanza **391,9 Mbps de descarga**, **332,6 Mbps de carga** y **8,9 ms de latencia**. La red móvil registra **105,5 Mbps**, **23,2 Mbps** y **30,9 ms**, respectivamente.
+
+El análisis territorial identifica **109 comunas en doble rezago de calidad**, con red fija y móvil simultáneamente por debajo de la mediana nacional. La Araucanía y Maule concentran 13 comunas cada una en esa situación.
+
+## Dispositivos y dependencia móvil
+
+El smartphone alcanza **91,8%** de penetración en hogares, pero el computador o notebook operativo llega a **54,9%** y la tablet a **39,8%**. Esta diferencia importa porque conexión no equivale a capacidad productiva digital.
+
+Ñuble muestra una de las mayores dependencias solo smartphone, con **55,0%**, seguida por Arica y Parinacota **46,8%** y Los Ríos **46,3%**.
+
+También existe una brecha dentro del propio acceso móvil: un contrato postpago utiliza en promedio **31,81 GB mensuales**, frente a **8,89 GB** en prepago. En 5G, **91,5%** de las conexiones observadas se concentra en postpago.
+
+## Género, habilidades y Estado digital
+
+El uso de Internet entre mayores de 15 años muestra una brecha de género de más de 18 puntos: **75,5% en hombres** frente a **57,3% en mujeres**.
+
+Las habilidades digitales caen con la edad. El uso de procesador de texto pasa de **79,5% en 16–29 años** a **22,5% en 60–74 años**. Solo **18,7%** del grupo 60–74 declara habilidades intermedias para instalar y configurar aplicaciones de forma autónoma.
+
+La interacción con el Estado digital muestra la misma pendiente. La descarga de formularios públicos baja desde 23,3% en 16–29 y 29,2% en 30–44 a 8,3% en 60–74 y 2,3% en 75+.
+
+## Pobreza y calidad del acceso
+
+La conexión general puede mantenerse alta incluso cuando la calidad del acceso se distribuye de forma desigual. En hogares en pobreza extrema, la banda ancha fija cae a **46,6%**, frente a **69,3%** en hogares no pobres.
+
+Este repositorio trata la desconexión, la dependencia móvil, la falta de dispositivos, las habilidades y la calidad como dimensiones distintas. No las colapsa en un único ranking público.
+
 ## Fuentes principales
 
 - Censo de Población y Vivienda 2024 — INE
 - CASEN 2024 — Ministerio de Desarrollo Social y Familia
-- SUBTEL — estadísticas de conectividad y dispositivos
-- Ookla Open Data — calidad de servicio cuando corresponde
+- SUBTEL — estadísticas de conectividad, tecnologías y tráfico
+- Ookla Open Data — calidad de servicio
 - Elaboración propia a partir de bases públicas consolidadas
 
 ## Estructura pública
