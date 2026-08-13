@@ -13,3 +13,8 @@ Tablet_penetration_pct,39.8,percent,2024-2025,Functional-access layer,Tablet pen
 rural_without_internet_pct,11.6,percent,2024,Integrated public dataset,Rural disconnection rate
 urban_without_internet_pct,3.3,percent,2024,Integrated public dataset,Urban disconnection rate
 rural_fixed_internet_pct,26.8,percent,2024-2025,Integrated public dataset,Fixed internet penetration in rural areas
+subtel_households_paid_internet_pct,96.6,percent,2025,SUBTEL Duodécima Encuesta,Households with own paid fixed or mobile Internet
+subtel_urban_households_paid_internet_pct,96.8,percent,2025,SUBTEL Duodécima Encuesta,Urban households
+subtel_rural_households_paid_internet_pct,95.1,percent,2025,SUBTEL Duodécima Encuesta,Rural households
+subtel_older_only_households_paid_internet_pct,83.2,percent,2025,SUBTEL Duodécima Encuesta,Households composed only of older people
+subtel_total_fixed_access_pct,74.6,percent,2025,SUBTEL Duodécima Encuesta,Fixed-only plus fixed-and-mobile household access
