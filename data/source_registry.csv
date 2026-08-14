@@ -2,5 +2,7 @@ source_id,publisher,dataset,role
 censo2024,INE,Censo de Población y Vivienda 2024,household and territorial indicators
 casen2024,Ministerio de Desarrollo Social y Familia,CASEN 2024,weighted-person and social-gap indicators
 subtel2025,SUBTEL,Encuestas de Acceso y Usos de Internet,household access and person 16+ use
-ookla2025q4,Ookla,Speedtest Open Data / retained Atlas quality layer,observed fixed and mobile quality
+subtel2026q1,SUBTEL,Informe del Sector Telecomunicaciones Primer Trimestre 2026,sector connections technology mix household fixed penetration and traffic
+ookla2025q4,Ookla,Speedtest Open Data Q4 2025,observed fixed and mobile quality control period
+ookla2026q1,Ookla,Speedtest Open Data Q1 2026,observed fixed and mobile quality national regional and communal
 atlas2026,Sebastian Elgueta Godoy / COTEL public outputs,Atlas de la Desconexión Digital 2026,integrated public analytical layer
