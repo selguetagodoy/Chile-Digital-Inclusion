@@ -1,0 +1,46 @@
+dataset_id,variable,label,positive_share,distinct_values,score,selected
+2025_XII_bbddsubtel2025_031225,FE_HOGAR,Factor de Expansión Hogar,1.0,47,7,False
+2025_XII_bbddsubtel2025_031225,FE_PERSONAS,Factor de Expansión persnas,1.0,243,7,False
+2025_XII_bbddsubtel2025_031225,POND_HOGAR,Ponderador Hogar,1.0,47,7,False
+2024_XI_bbdd_subtel2024_03022025,POND_HOGAR,Ponderador de Hogar,1.0,32,7,False
+2024_XI_bbdd_subtel2024_03022025,POND_HOGAR_FE,Factor de Expansión Hogar,1.0,32,7,False
+2024_XI_bbdd_subtel2024_03022025,PON_PER_SIN_GSE,Ponderador de Personas,1.0,244,7,False
+2024_XI_bbdd_subtel2024_03022025,PON_PER_SIN_GSE_FE,Factor de Expansión Personas,1.0,244,7,False
+2024_XI_bbdd_subtel2024_03022025,A7,Las primeras preguntas están relacionadas con información sobre el uso de internet (...) ¿La persona seleccionada podrá responder estas preguntas?,1.0,2,6,False
+2023_X_source_2023_x,FE_HOGAR,Factor de Expansión Hogar,1.0,32,7,False
+2023_X_source_2023_x,FE_USO,Factor de Expansión persnas,1.0,240,7,False
+2023_X_source_2023_x,POND_HOGAR,Ponderador Hogar,1.0,32,7,False
+2023_X_source_2023_x,A7,"A7.- Las primeras preguntas están relacionadas con información sobre el uso de internet fija, móvil y de telefonía celular del hogar y las distintas personas que viven en él. La persona seleccionada es menor de edad, ¿Ud. cree que podrá responder estas pre",1.0,2,6,False
+2017_IX_source_2017_ix,FACTOR_HOGAR,,1.0,30,7,False
+2017_IX_source_2017_ix,FACTOR_PERSONA,,1.0,60,7,False
+2016_VIII_source_2016_viii,FACT_HOGAR,Factor de Expansión Hogares,1.0,59,7,False
+2016_VIII_source_2016_viii,FACT_PER,Factor de Expansión Personas,1.0,75,7,False
+2015_VII_source_2015_vii,FACT_PER,Ponderador Persona módulo Q,1.0,75,7,False
+2015_VII_source_2015_vii,FAC_HOG,Factor de expansión hogar,1.0,367,7,False
+2015_VII_source_2015_vii,factor_hogar_2016,,1.0,57,7,False
+2014_VI_source_2014_vi,FACTOR,FACTOR,1.0,1088,11,True
+2013_V_source_2013_v,fact_hog,factor de expansión hogar,1.0,30,7,False
+2013_V_source_2013_v,fact_selec,factor de expansión seleccionado,1.0,191,7,False
+2013_V_source_2013_v,q34_1,factores que evitaron o limitaron que realice ventas de bienes o servicios por i,1.0,1,6,False
+2013_V_source_2013_v,q34_10,factores que evitaron o limitaron que realice ventas de bienes o servicios por i,1.0,1,6,False
+2013_V_source_2013_v,q34_11,factores que evitaron o limitaron que realice ventas de bienes o servicios por i,1.0,1,6,False
+2013_V_source_2013_v,q34_2,factores que evitaron o limitaron que realice ventas de bienes o servicios por i,1.0,1,6,False
+2013_V_source_2013_v,q34_3,factores que evitaron o limitaron que realice ventas de bienes o servicios por i,1.0,1,6,False
+2013_V_source_2013_v,q34_4,factores que evitaron o limitaron que realice ventas de bienes o servicios por i,1.0,1,6,False
+2013_V_source_2013_v,q34_5,factores que evitaron o limitaron que realice ventas de bienes o servicios por i,1.0,1,6,False
+2013_V_source_2013_v,q34_6,factores que evitaron o limitaron que realice ventas de bienes o servicios por i,1.0,1,6,False
+2013_V_source_2013_v,q34_8,factores que evitaron o limitaron que realice ventas de bienes o servicios por i,1.0,1,6,False
+2013_V_source_2013_v,q34_9,factores que evitaron o limitaron que realice ventas de bienes o servicios por i,1.0,1,6,False
+2012_IV_base_hogares_2012,q37_1,q37. ¿qué factores evitaron o limitaron que realice ventas de bienes o servicios,1.0,1,6,False
+2012_IV_base_hogares_2012,q37_10,q37. ¿qué factores evitaron o limitaron que realice ventas de bienes o servicios,1.0,1,6,False
+2012_IV_base_hogares_2012,q37_11,q37. ¿qué factores evitaron o limitaron que realice ventas de bienes o servicios,1.0,5,6,False
+2012_IV_base_hogares_2012,q37_2,q37. ¿qué factores evitaron o limitaron que realice ventas de bienes o servicios,1.0,1,6,False
+2012_IV_base_hogares_2012,q37_3,q37. ¿qué factores evitaron o limitaron que realice ventas de bienes o servicios,1.0,1,6,False
+2012_IV_base_hogares_2012,q37_4,q37. ¿qué factores evitaron o limitaron que realice ventas de bienes o servicios,1.0,1,6,False
+2012_IV_base_hogares_2012,q37_5,q37. ¿qué factores evitaron o limitaron que realice ventas de bienes o servicios,1.0,1,6,False
+2012_IV_base_hogares_2012,q37_6,q37. ¿qué factores evitaron o limitaron que realice ventas de bienes o servicios,1.0,1,6,False
+2012_IV_base_hogares_2012,q37_7,q37. ¿qué factores evitaron o limitaron que realice ventas de bienes o servicios,1.0,2,6,False
+2012_IV_base_hogares_2012,q37_8,q37. ¿qué factores evitaron o limitaron que realice ventas de bienes o servicios,1.0,1,6,False
+2012_IV_base_hogares_2012,q37_9,q37. ¿qué factores evitaron o limitaron que realice ventas de bienes o servicios,1.0,1,6,False
+2011_III_baselinealfinal_expandida_v2,Factor_Transv,Factor de Expansion Tranversal,1.0,243,11,True
+2011_III_baselinealfinal_expandida_v2,Factor_Long,Factor de Expansion Longitudinal,0.08856,163,9,False

@@ -1,0 +1,10 @@
+{
+  "surveys_requested": 10,
+  "datasets_processed": 10,
+  "variables_profiled": 4514,
+  "categorical_rows_published": 6812,
+  "numeric_rows_published": 175,
+  "processing_errors": 3,
+  "small_cell_rule": "categorical cells with unweighted n < 30 are not published",
+  "raw_microdata_committed": false
+}

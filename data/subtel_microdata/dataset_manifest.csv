@@ -1,0 +1,11 @@
+dataset_id,reference_year,survey_wave,survey_label,rows,columns,selected_weight,weight_candidates,source_url
+2025_XII_bbddsubtel2025_031225,2025,XII,Duodecima Encuesta Acceso y Usos de Internet,5000,587,,FE_HOGAR;FE_PERSONAS;POND_HOGAR,https://www.subtel.gob.cl/wp-content/uploads/2026/02/BBDDSubtel2025_031225.sav_.zip
+2024_XI_bbdd_subtel2024_03022025,2024,XI,Undecima Encuesta Acceso y Usos de Internet,4700,375,,POND_HOGAR;POND_HOGAR_FE;PON_PER_SIN_GSE;PON_PER_SIN_GSE_FE;A7,https://www.subtel.gob.cl/wp-content/uploads/2025/02/BBDD_Subtel2024_03022025.sav_.zip
+2023_X_source_2023_x,2023,X,Decima Encuesta Acceso y Usos de Internet,4710,543,,FE_HOGAR;FE_USO;POND_HOGAR;A7,https://www.subtel.gob.cl/wp-content/uploads/2024/05/BBDD_Acceso_y_uso_Internet_v4.sav
+2017_IX_source_2017_ix,2017,IX,Novena Encuesta Acceso y Usos de Internet,3600,490,,FACTOR_HOGAR;FACTOR_PERSONA,https://www.subtel.gob.cl/wp-content/uploads/2018/07/BBDD_IX_Encuesta_VFINAL_PUB.sav
+2016_VIII_source_2016_viii,2016,VIII,Octava Encuesta Acceso y Usos de Internet,3623,526,,FACT_HOGAR;FACT_PER,https://www.subtel.gob.cl/wp-content/uploads/2018/02/BASE_DATOS_SUBTEL_8A_ENCUESTA_ACCESO_VF.sav
+2015_VII_source_2015_vii,2015,VII,Septima Encuesta Acceso y Usos de Internet - factor corregido,3600,487,,FACT_PER;FAC_HOG;factor_hogar_2016,https://www.subtel.gob.cl/wp-content/uploads/2018/02/Base_septima_encuesta_Internet_factor_hogar_2016.sav
+2014_VI_source_2014_vi,2014,VI,Sexta Encuesta Acceso y Usos de Internet,3633,388,FACTOR,FACTOR,https://www.subtel.gob.cl/wp-content/uploads/2015/04/SUB_NACIONAL_ENTREVISTADO_VF_VPUBL.sav
+2013_V_source_2013_v,2013,V,Quinta Encuesta Acceso y Usos de Internet,9050,454,,fact_hog;fact_selec;q34_1;q34_10;q34_11;q34_2;q34_3;q34_4;q34_5;q34_6;q34_8;q34_9,https://www.subtel.gob.cl/wp-content/uploads/2015/04/encuesta_subtel_2013_20140522_publica.sav
+2012_IV_base_hogares_2012,2012,IV,Cuarta Encuesta Acceso y Usos de Internet,3756,395,,q37_1;q37_10;q37_11;q37_2;q37_3;q37_4;q37_5;q37_6;q37_7;q37_8;q37_9,https://www.subtel.gob.cl/images/stories/apoyo_articulos/estudios/base_hogares_2012.zip
+2011_III_baselinealfinal_expandida_v2,2011,III,Tercera Encuesta Acceso y Usos de Internet,2010,269,Factor_Transv,Factor_Transv;Factor_Long,https://www.subtel.gob.cl/images/stories/apoyo_articulos/estudios/base_datos_final_2.zip

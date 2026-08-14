@@ -1,0 +1,176 @@
+dataset_id,reference_year,survey_wave,variable,variable_label,n_unweighted,mean,p25,median,p75,min,max,weighted_mean,weight_variable
+2025_XII_bbddsubtel2025_031225,2025,XII,REGISTRO,Número de registro,5000,3151.5166,1571.75,3140.0,4724.25,1.0,6347.0,,
+2025_XII_bbddsubtel2025_031225,2025,XII,COMUNA_DEF,,5000,8533.2282,5501.0,8103.0,12101.0,1101.0,16302.0,,
+2025_XII_bbddsubtel2025_031225,2025,XII,P11, P11. ¿Y cuánto pagó el último mes por este servicio?,3280,495942.267683,20000.0,28990.0,39990.0,1500.0,9999999.0,,
+2025_XII_bbddsubtel2025_031225,2025,XII,Q1_1,Q1_1.- ¿Cuál es su edad?,5000,47.6106,33.0,47.5,62.0,16.0,97.0,,
+2025_XII_bbddsubtel2025_031225,2025,XII,Q7_4,Q7_4.- ¿Y cuánto pagó el último mes por..?,4696,311818.692717,9999.0,12000.0,18000.0,1500.0,9999999.0,,
+2025_XII_bbddsubtel2025_031225,2025,XII,Q42,Q42. ¿Cuánto es lo máximo que estaría dispuesto a pagar por un servicio de conexión a Internet Fijo en el hogar?,5000,1543376.4262,15000.0,24000.0,37000.0,2000.0,9999999.0,,
+2025_XII_bbddsubtel2025_031225,2025,XII,Q42_1,Q42.1. ¿Cuánto es lo máximo que estaría dispuesto a pagar por un servicio de conexión a Internet Móvil en el hogar?,5000,841291.3462,10000.0,15000.0,20000.0,1500.0,9999999.0,,
+2025_XII_bbddsubtel2025_031225,2025,XII,A12_1,A12.- ¿a cuál de los siguientes tramos corresponde el promedio total de los ingresos familiares?,5000,183.5522,23.0,34.0,52.0,11.0,999.0,,
+2025_XII_bbddsubtel2025_031225,2025,XII,POND_HOGAR,Ponderador Hogar,5000,1.0,0.44128,0.59157,0.90581,0.17181,4.94027,,
+2025_XII_bbddsubtel2025_031225,2025,XII,FE_HOGAR,Factor de Expansión Hogar,5000,1130.3274,498.78653,668.67233,1023.864,194.2,5584.12042,,
+2025_XII_bbddsubtel2025_031225,2025,XII,POND_PERSONAS,PONDORADOR PERSONAS,5000,1.0,0.42046,0.60328,0.8901,0.14675,8.00871,,
+2025_XII_bbddsubtel2025_031225,2025,XII,FE_PERSONAS,Factor de Expansión persnas,5000,2762.1522,1161.37395,1666.35189,2458.59327,405.35516,22121.27096,,
+2024_XI_bbdd_subtel2024_03022025,2024,XI,REGISTRO,Número de registro,4700,3099.684468,1657.5,3155.5,4590.25,3.0,6024.0,,
+2024_XI_bbdd_subtel2024_03022025,2024,XI,COMUNA_DEF,Comuna,4700,8568.360426,5801.0,8103.0,12101.0,1101.0,16303.0,,
+2024_XI_bbdd_subtel2024_03022025,2024,XI,P11,P11.- ¿Y cuánto pagó el último mes por (P10)?,2770,68948.948375,17000.0,26000.0,35000.0,0.0,99999999.0,,
+2024_XI_bbdd_subtel2024_03022025,2024,XI,Q1_1,Q1.1.- ¿Cuál es su edad?,4700,54.622966,33.0,47.0,60.0,0.4,15900.0,,
+2024_XI_bbdd_subtel2024_03022025,2024,XI,Q7_4,Q7.4.- ¿Y cuánto pagó el último mes por ....?,4376,61561.015539,9000.0,12000.0,18000.0,0.0,99999999.0,,
+2024_XI_bbdd_subtel2024_03022025,2024,XI,Q42,Q42.- ¿Cuánto es lo máximo que estaría dispuesto a pagar por un servicio de conexión a Internet Fijo en el hogar?,4700,19666.490851,10000.0,20000.0,27000.0,0.0,400000.0,,
+2024_XI_bbdd_subtel2024_03022025,2024,XI,Q42_1,Q42.1.- ¿Cuánto es lo máximo que estaría dispuesto a pagar por un servicio de conexión a Internet Móvil en el hogar?,4700,14858.551277,10000.0,12000.0,18250.0,0.0,500000.0,,
+2024_XI_bbdd_subtel2024_03022025,2024,XI,A12_1,A12.1.- ¿A cuál de los siguientes tramos corresponde el promedio total de los ingresos familiares?,4700,160.362766,23.0,33.0,45.0,11.0,999.0,,
+2024_XI_bbdd_subtel2024_03022025,2024,XI,EDAD_ENTREVISTADO,,4700,47.028511,33.0,47.0,60.0,16.0,96.0,,
+2024_XI_bbdd_subtel2024_03022025,2024,XI,PON_PER_SIN_GSE,Ponderador de Personas,4700,1.0,0.42018,0.59657,0.92679,0.17318,9.29347,,
+2024_XI_bbdd_subtel2024_03022025,2024,XI,PON_PER_SIN_GSE_FE,Factor de Expansión Personas,4700,2938.459787,1234.68055,1753.00558,2723.34029,508.88723,27308.49479,,
+2023_X_source_2023_x,2023,X,REGISTRO,Número de registro (Variable del sistema),4710,3362.655414,1675.25,3423.5,4993.75,1.0,6609.0,,
+2023_X_source_2023_x,2023,X,COMUNA_DEF,Comuna,4710,8076.263907,5801.0,8102.0,10301.0,1101.0,15101.0,,
+2023_X_source_2023_x,2023,X,A2_EDAD_1,A2.- Edad Miembro 1,4710,53.441614,40.0,54.0,66.0,0.0,100.0,,
+2023_X_source_2023_x,2023,X,A2_EDAD_2,A2.- Edad Miembro 2,4058,44.374322,30.0,45.0,58.0,0.0,96.0,,
+2023_X_source_2023_x,2023,X,A2_EDAD_3,A2.- Edad Miembro 3,2760,27.238043,16.0,24.0,36.0,0.0,98.0,,
+2023_X_source_2023_x,2023,X,A2_EDAD_4,A2.- Edad Miembro 4,1583,21.196462,10.0,18.0,28.0,0.0,90.0,,
+2023_X_source_2023_x,2023,X,A2_EDAD_5,A2.- Edad Miembro 5,734,17.865123,7.0,15.0,23.0,0.0,96.0,,
+2023_X_source_2023_x,2023,X,A2_EDAD_6,A2.- Edad Miembro 6,273,17.787546,7.0,13.0,23.0,0.0,97.0,,
+2023_X_source_2023_x,2023,X,P11,P11.- ¿Y cuánto pagó el último mes por (P10)?,2769,27508.801372,17000.0,26000.0,35000.0,99.0,100000.0,,
+2023_X_source_2023_x,2023,X,POND_USO,PONDORADOR PERSONAS,4710,1.0,0.38864,0.55742,0.90324,0.16529,8.91477,,
+2023_X_source_2023_x,2023,X,FE_USO,Factor de Expansión persnas,4710,2932.221019,1139.58124,1634.47561,2648.51016,484.67176,26140.08258,,
+2017_IX_source_2017_ix,2017,IX,IDENTIFICADOR,,3600,1800.5,900.75,1800.5,2700.25,1.0,3600.0,,
+2017_IX_source_2017_ix,2017,IX,DURACION,Duración de la entrevista,3600,1670.094444,1092.0,1440.5,1834.25,0.0,87486.0,,
+2017_IX_source_2017_ix,2017,IX,COMUNA,,3600,7949.991667,5106.0,8101.0,10501.0,1101.0,15101.0,,
+2017_IX_source_2017_ix,2017,IX,P10_1,P10_1.- ¿Y cuánto pagó el último mes por @1 @2 ?,1994,45554.479438,18000.0,25000.0,35000.0,0.0,26092017.0,,
+2017_IX_source_2017_ix,2017,IX,P12_1,P12_1.- ¿Cuánto paga y/o gasta en promedio mensualmente en recargas cada mes por su(s) acceso(s) a Banda Ancha Móvil en CARGO FIJO PLAN $ ?,302,28612.142384,10000.0,16000.0,25000.0,0.0,999999.0,,
+2017_IX_source_2017_ix,2017,IX,P13_1,P13_1.- ¿Cuánto paga o gasta cada mes por el acceso a Internet del Smartphone en CARGO FIJO MENSUAL DEL PLAN $ ?,1665,1361239.169369,10000.0,18000.0,30000.0,0.0,999999999.0,,
+2017_IX_source_2017_ix,2017,IX,P13_2,P13_2.- ¿Cuánto paga o gasta cada mes por el acceso a Internet del Smartphone en Bolsa internet/recargas (sin incluir llamadas o SMS) $ ?,1665,1040316.937538,0.0,0.0,5000.0,0.0,444444444.0,,
+2017_IX_source_2017_ix,2017,IX,P13A_2,P13A_2.- ¿Cuál es el límite de descarga/cuota de tráfico de datos su plan de internet de su smartphone GIGAS (GB)?,1177,58.519116,4.0,6.0,12.0,0.0,30000.0,,
+2017_IX_source_2017_ix,2017,IX,FACTOR_PERSONA,,3600,4012.646972,2002.9,2611.2,4301.7,749.2,14360.0,,
+2017_IX_source_2017_ix,2017,IX,EDAD_ACCESO,EDAD_ACCESO,3600,43.312778,29.0,42.0,55.0,18.0,90.0,,
+2017_IX_source_2017_ix,2017,IX,EDAD_USOS,EDAD_USOS,3600,40.860556,27.0,39.0,53.0,16.0,90.0,,
+2016_VIII_source_2016_viii,2016,VIII,SbjNUM,SbjNum,3623,41132793.762352,40636783.5,41069830.0,41656669.5,39712169.0,42975112.0,,
+2016_VIII_source_2016_viii,2016,VIII,comuna_cod,Comuna,3623,7952.995032,5109.0,8101.0,10301.0,1101.0,15101.0,,
+2016_VIII_source_2016_viii,2016,VIII,P10_1,P10.1. ¿Y cuánto pagó el último mes por ellos? (TOTAL GASTO),1864,35347.349249,22000.0,35000.0,45000.0,0.0,500000.0,,
+2016_VIII_source_2016_viii,2016,VIII,P12_1,Cargo fijo plan,296,19122.638514,10000.0,16000.0,29000.0,0.0,71000.0,,
+2016_VIII_source_2016_viii,2016,VIII,P13_1,Cargo fijo mensual del plan,1238,17492.063005,10000.0,16000.0,25000.0,0.0,95000.0,,
+2016_VIII_source_2016_viii,2016,VIII,P19A,P19.A ¿Cuál es el costo de referencia que Ud. tiene de ese servicio?   Servicio: {0},250,27668.796,17000.0,30000.0,40000.0,0.0,80000.0,,
+2016_VIII_source_2016_viii,2016,VIII,S2A_1,Netflix,244,4920.688525,4000.0,5000.0,6000.0,0.0,18000.0,,
+2016_VIII_source_2016_viii,2016,VIII,edad_ent,Edad entrevistado,3623,41.180237,27.0,41.0,54.0,16.0,75.0,,
+2016_VIII_source_2016_viii,2016,VIII,FACT_PER,Factor de Expansión Personas,3623,3739.086954,1882.40625,2441.206897,4155.952941,456.761905,12417.24476,,
+2016_VIII_source_2016_viii,2016,VIII,FACT_HOGAR,Factor de Expansión Hogares,3623,1481.859233,611.0,901.0,1733.0,35.0,7492.0,,
+2016_VIII_source_2016_viii,2016,VIII,ING_PCAP2,,3623,246793.571612,114285.71,194000.0,269500.0,10500.0,9333333.33,,
+2016_VIII_source_2016_viii,2016,VIII,edad_JH,Edad del Jefe de Hogar,3623,42.914712,29.0,43.0,55.0,18.0,75.0,,
+2015_VII_source_2015_vii,2015,VII,SbjNUM,SbjNum,3600,26412773.471389,26073853.5,26461180.5,26710151.25,25370264.0,27542922.0,,
+2015_VII_source_2015_vii,2015,VII,comuna,Comuna,3600,9493.071111,6026.0,10701.0,13119.0,1101.0,15101.0,,
+2015_VII_source_2015_vii,2015,VII,P10_1,P10.1. ¿Y cuánto pagó el último mes por ellos? (TOTAL GASTO),1717,39107.299359,24000.0,35000.0,45000.0,98.0,500000.0,,
+2015_VII_source_2015_vii,2015,VII,P12_1,Cargo fijo plan,255,27709.427451,15000.0,25000.0,35000.0,1000.0,94000.0,,
+2015_VII_source_2015_vii,2015,VII,P13_1,Cargo fijo mensual del plan,630,23890.809524,15000.0,20000.0,30000.0,999.0,100000.0,,
+2015_VII_source_2015_vii,2015,VII,P13_2,Bolsa internet/recargas (sin incluir llamadas o SMS),240,11469.916667,5000.0,8500.0,15000.0,1000.0,60000.0,,
+2015_VII_source_2015_vii,2015,VII,P19A,P19.A ¿Cuál es el costo de referencia que Ud. tiene de ese servicio?   Servicio: {0},323,31234.052632,20000.0,30000.0,40000.0,0.0,150000.0,,
+2015_VII_source_2015_vii,2015,VII,edad_ent,Edad entrevistado,3600,41.153056,27.0,40.0,54.0,16.0,75.0,,
+2015_VII_source_2015_vii,2015,VII,Edad_JH,Edad 1,3531,49.797791,39.0,50.0,60.0,0.0,100.0,,
+2015_VII_source_2015_vii,2015,VII,IngrTot,IngrTot,3600,724590.110833,302000.0,500000.0,832895.5,33000.0,9500000.0,,
+2015_VII_source_2015_vii,2015,VII,Ing_PerC_vf,Ingreso PerCapita,3600,287733.8675,100500.0,175000.0,328974.25,14500.0,9500000.0,,
+2015_VII_source_2015_vii,2015,VII,FAC_HOG,Factor de expansión hogar,3600,1295.07128,483.209366,843.015173,1405.685038,51.847984,19615.411906,,
+2015_VII_source_2015_vii,2015,VII,FACT_PER,Ponderador Persona módulo Q,3600,3732.278056,2640.090909,4260.683735,4727.756757,482.195122,31667.0,,
+2015_VII_source_2015_vii,2015,VII,factor_hogar_2016,,3600,1476.264722,777.0,1749.0,1798.0,57.0,4578.0,,
+2014_VI_source_2014_vi,2014,VI,FOLIO,id Entrevistado,3633,6922.455546,2267.0,6148.0,12104.0,1.0,15216.0,9046.20813,FACTOR
+2014_VI_source_2014_vi,2014,VI,COMUNA,Comuna,3633,58.522709,18.0,61.0,99.0,1.0,125.0,79.623626,FACTOR
+2014_VI_source_2014_vi,2014,VI,P10_GASTO,Gasto BAF,1522,37916.965834,30000.0,37000.0,46000.0,10000.0,110000.0,39787.621872,FACTOR
+2014_VI_source_2014_vi,2014,VI,P12_CARGO_FIJO,Señale cuánto paga mensualmente y/o gasta en promedio en recargas cada mes por s,128,16862.796875,10000.0,15000.0,22000.0,99.0,60000.0,14314.418405,FACTOR
+2014_VI_source_2014_vi,2014,VI,P13_CARGO_FIJO,Señale cuánto paga o gasta cada mes por el acceso a Internet del Smartphone del,653,22546.618683,15000.0,20000.0,29990.0,99.0,128000.0,21972.80076,FACTOR
+2014_VI_source_2014_vi,2014,VI,P13_BOLSA,Señale cuánto paga o gasta cada mes por el acceso a Internet del Smartphone del,293,9601.651877,3000.0,5000.0,12000.0,99.0,57000.0,9095.668148,FACTOR
+2014_VI_source_2014_vi,2014,VI,P16_OTRO,especifique Otro,104,29.913462,23.75,33.0,33.0,3.0,56.0,28.816694,FACTOR
+2014_VI_source_2014_vi,2014,VI,P19A,¿Cuál es el costo de referencia que Ud. tiene de ese servicio?,422,32461.635071,20000.0,30000.0,40000.0,99.0,350000.0,34944.262444,FACTOR
+2014_VI_source_2014_vi,2014,VI,S2A,¿Cuánto paga Ud. por estos servicios o aplicaciones?,179,8578.195531,3000.0,5000.0,7950.0,99.0,200000.0,7582.251827,FACTOR
+2014_VI_source_2014_vi,2014,VI,FACTOR,FACTOR,3633,3685.306634,533.0,1465.0,3993.0,34.0,86497.0,13860.710305,FACTOR
+2014_VI_source_2014_vi,2014,VI,EDAD_ENTREVISTADO,Edad,3633,47.906964,33.0,49.0,61.0,16.0,96.0,47.117423,FACTOR
+2014_VI_source_2014_vi,2014,VI,EDAD_JH,Edad,3633,56.518855,42.0,53.0,64.0,19.0,999.0,54.587205,FACTOR
+2014_VI_source_2014_vi,2014,VI,Ingreso_Hogar,Ingreso Hogar,3331,648062.450916,257500.5,414001.0,727501.0,17500.0,10000003.0,745826.636425,FACTOR
+2014_VI_source_2014_vi,2014,VI,Ingreso_Percapita,Ingreso Per Capita,3331,222483.304773,95725.35,161200.2,262562.85,2500.0,3451500.5,227409.493627,FACTOR
+2013_V_source_2013_v,2013,V,recno,correlativo,9050,4531.084972,2263.25,4533.5,6796.75,1.0,9060.0,,
+2013_V_source_2013_v,2013,V,serie,id_encuesta,9049,300994912125.3575,811130302.0,1310630202.0,560101710403.0,110130101.0,1510201320112.0,,
+2013_V_source_2013_v,2013,V,segmento,segmento,9049,3008851368.373632,8111303.0,13106302.0,5601017104.0,1101301.0,15102013201.0,,
+2013_V_source_2013_v,2013,V,comuna,comuna,9049,9162.232843,5808.0,9108.0,13114.0,1101.0,15102.0,,
+2013_V_source_2013_v,2013,V,tarjeta,tarjeta,9049,47.021328,8.0,21.0,52.0,1.0,269.0,,
+2013_V_source_2013_v,2013,V,p13b_1,sólo internet:  solo tengo contratado internet,863,60292.661645,15000.0,19000.0,22000.0,0.0,999999.0,,
+2013_V_source_2013_v,2013,V,p13a_2,plan básico:  internet + telefonía fija,610,54647.677049,24000.0,29000.0,33292.5,5000.0,999999.0,,
+2013_V_source_2013_v,2013,V,p13b_2,sólo internet:  internet + telefonía fija,609,339755.7422,15000.0,20000.0,999999.0,6000.0,999999.0,,
+2013_V_source_2013_v,2013,V,p13a_3,plan básico:  internet + tv,497,67046.207243,28000.0,33500.0,40000.0,3500.0,999999.0,,
+2013_V_source_2013_v,2013,V,p13b_3,sólo internet:  internet + tv,496,435066.370968,15000.0,25000.0,999999.0,5000.0,999999.0,,
+2013_V_source_2013_v,2013,V,p13a_4,plan básico:  internet + tv + telefonía fija,1766,78453.834655,35000.0,41000.0,50000.0,3000.0,999999.0,,
+2013_V_source_2013_v,2013,V,p13b_4,sólo internet:  internet + tv + telefonía fija,1765,372636.060057,15000.0,20000.0,999999.0,5000.0,999999.0,,
+2013_V_source_2013_v,2013,V,p15a,pago mensual y/o gasto promedio en recargas por su acceso por banda ancha móvil:,1037,80696.469624,0.0,6000.0,20000.0,0.0,999999.0,,
+2013_V_source_2013_v,2013,V,p15b,señale cuánto paga mensualmente y/o gasta en promedio en recargas cada mes por s,1036,115016.565637,0.0,5000.0,15000.0,0.0,999999.0,,
+2013_V_source_2013_v,2013,V,p16a,pago mensual y/o gasto promedio en recargas por su acceso por smartphone j. hoga,1339,94851.057506,11500.0,20000.0,30000.0,0.0,999999.0,,
+2013_V_source_2013_v,2013,V,p16b,pago mensual y/o gasto promedio en recargas por su acceso por smartphone j. hoga,1309,167456.948816,0.0,1200.0,15000.0,0.0,999999.0,,
+2013_V_source_2013_v,2013,V,p21_ref,¿cuál es el costo de referencia que usted tiene de ese equipo?,404,311431.834158,200000.0,250000.0,350000.0,0.0,999999.0,,
+2013_V_source_2013_v,2013,V,p22_ref,¿cuál es el costo de referencia que usted tiene de ese servicio?,881,116232.904654,20000.0,30000.0,40000.0,0.0,999999.0,,
+2013_V_source_2013_v,2013,V,p22_max,¿cuánto es lo máximo que estaria usted dispuesto a pagar por un servicio de cone,881,140112.125993,10000.0,14000.0,20000.0,0.0,999999.0,,
+2013_V_source_2013_v,2013,V,p35b_1,ingresos del trabajo 1,6138,375256.912349,200000.0,300000.0,450000.0,0.0,10000000.0,,
+2013_V_source_2013_v,2013,V,p35c_1,jubilaciones o pensiones 1,2504,114453.433706,0.0,85000.0,150000.0,0.0,1400000.0,,
+2013_V_source_2013_v,2013,V,p35d_1,subsidios 1,1037,292392.683703,0.0,0.0,0.0,0.0,99999999.0,,
+2013_V_source_2013_v,2013,V,p35e_1,otros ingresos 1,1007,26809.831182,0.0,0.0,0.0,0.0,1500000.0,,
+2013_V_source_2013_v,2013,V,p35b_2,ingresos del trabajo 2,3891,266388.143151,130000.0,220000.0,350000.0,0.0,5000000.0,,
+2013_V_source_2013_v,2013,V,p35c_2,jubilaciones o pensiones 2,1632,76217.802696,0.0,70000.0,100000.0,0.0,1200000.0,,
+2013_V_source_2013_v,2013,V,p35d_2,subsidios 2,992,307622.569556,0.0,0.0,0.0,0.0,99999999.0,,
+2013_V_source_2013_v,2013,V,p35e_2,otros ingresos 2,889,17704.16198,0.0,0.0,0.0,0.0,500000.0,,
+2013_V_source_2013_v,2013,V,p35b_3,ingresos del trabajo 3,1823,204723.53209,0.0,200000.0,300000.0,0.0,4000000.0,,
+2013_V_source_2013_v,2013,V,p35c_3,jubilaciones o pensiones 3,782,34779.411765,0.0,0.0,60000.0,0.0,1000000.0,,
+2013_V_source_2013_v,2013,V,p35b_4,ingresos del trabajo 4,866,158242.494226,0.0,100000.0,250000.0,0.0,2000000.0,,
+2013_V_source_2013_v,2013,V,q25_ref,¿cuál es el costo de referencia que usted tiene de ese servicio?,264,203960.727273,22750.0,30000.0,50000.0,1000.0,999999.0,,
+2013_V_source_2013_v,2013,V,localidad,localidad,9049,9162249.207095,5808002.0,9108023.0,13114001.0,1101008.0,15102003.0,,
+2013_V_source_2013_v,2013,V,h4,edad (entrevistado),9049,42.080561,27.0,41.0,55.0,2.0,89.0,,
+2013_V_source_2013_v,2013,V,h8a,fecha de nacimiento: año (entrevistado),9049,1977.208642,1958.0,1972.0,1986.0,1913.0,9999.0,,
+2013_V_source_2013_v,2013,V,fact_selec,factor de expansión seleccionado,9049,1456.68968,668.781982,1191.506958,1872.208008,16.156,8424.935547,,
+2013_V_source_2013_v,2013,V,h4_jh,edad (jefe de hogar),9049,51.854791,41.0,52.0,62.0,16.0,99.0,,
+2013_V_source_2013_v,2013,V,h8a_jh,fecha de nacimiento: año (jefe de hogar),9049,1971.017571,1951.0,1962.0,1972.0,1913.0,9999.0,,
+2013_V_source_2013_v,2013,V,inghog,Ingreso Aut—nomo total del hogar,8023,550254.270722,250000.0,410000.0,700000.0,10000.0,10000000.0,,
+2013_V_source_2013_v,2013,V,inghpc,Ingreso Aut—nomo per c‡pita hogar,8023,189118.026172,83333.333333,137500.0,225000.0,3333.333333,10000000.0,,
+2012_IV_base_hogares_2012,2012,IV,segmento,id_segmento,3756,7986183979.69968,5101001104.0,8108002101.0,13106001101.0,1401002201.0,15201023201.0,,
+2012_IV_base_hogares_2012,2012,IV,iden_enc,identificación,3756,78117.347444,50281.75,81505.0,130055.25,10415.0,151548.0,,
+2012_IV_base_hogares_2012,2012,IV,comuna,comuna,3756,7986.171991,5101.0,8108.0,13106.0,1401.0,15201.0,,
+2012_IV_base_hogares_2012,2012,IV,localidad,localidad,3756,7986183.834931,5101001.0,8108002.0,13106001.0,1401002.0,15201023.0,,
+2012_IV_base_hogares_2012,2012,IV,tarjeta,número de tarjeta,3756,19.102503,5.0,10.0,32.0,1.0,70.0,,
+2012_IV_base_hogares_2012,2012,IV,p14_si,p14. Último mes de pago solo de internet,214,17412.084112,13000.0,17000.0,20000.0,0.0,44300.0,,
+2012_IV_base_hogares_2012,2012,IV,p14_2_pb,p14. Último mes de pago internet más telefonía fija plan básico,185,29586.972973,24990.0,29000.0,32000.0,10000.0,75000.0,,
+2012_IV_base_hogares_2012,2012,IV,p14_2_si,p14. Último mes de pago internet más telefonía fija solo internet,185,16757.172973,13000.0,17000.0,19990.0,9.0,43200.0,,
+2012_IV_base_hogares_2012,2012,IV,p14_3_pb,p14. Último mes de pago internet más tv plan básico,170,32058.770588,28000.0,32800.0,38450.0,9.0,70000.0,,
+2012_IV_base_hogares_2012,2012,IV,p14_3_si,p14. Último mes de pago internet más tv solo internet,170,16304.629412,13440.0,16000.0,19200.0,6000.0,38400.0,,
+2012_IV_base_hogares_2012,2012,IV,p14_4_pb,p14. Último mes de pago internet más tv más telefonía fija plan básico,720,44747.734722,36750.0,44000.0,51925.0,9.0,130000.0,,
+2012_IV_base_hogares_2012,2012,IV,p14_4_si,p14. Último mes de pago internet más tv más telefonía fija solo internet,720,15738.193056,12580.0,15000.0,17780.0,1080.0,44200.0,,
+2012_IV_base_hogares_2012,2012,IV,p16,p16. señale cuánto paga mensualmente o gasta en promedio en recargas cada mes po,649,13969.795069,8000.0,12900.0,19990.0,0.0,70000.0,,
+2012_IV_base_hogares_2012,2012,IV,p17_pm_pm,p17. plan multimedia / blackberry / club pago mensual,192,18431.71875,9990.0,16000.0,25000.0,0.0,60000.0,,
+2012_IV_base_hogares_2012,2012,IV,p34_1_it,p34.1 ingresos del trabajo,3755,245851.398136,0.0,190000.0,350000.0,0.0,10000000.0,,
+2012_IV_base_hogares_2012,2012,IV,p34_1_jp,p34.1 jubilaciones o pensiones,3756,37006.86901,0.0,0.0,0.0,0.0,1200000.0,,
+2012_IV_base_hogares_2012,2012,IV,p34_1_sub,p34.1 subsidios,3754,568.333777,0.0,0.0,0.0,0.0,120000.0,,
+2012_IV_base_hogares_2012,2012,IV,p34_1_otros,p34.1 otros ingresos,3751,6082.191416,0.0,0.0,0.0,0.0,1000000.0,,
+2012_IV_base_hogares_2012,2012,IV,p34_2_it,p34.2 ingresos del trabajo,3306,133118.874773,0.0,0.0,200000.0,0.0,3000000.0,,
+2012_IV_base_hogares_2012,2012,IV,p34_2_jp,p34.2 jubilaciones o pensiones,3305,18884.877458,0.0,0.0,0.0,0.0,1000000.0,,
+2012_IV_base_hogares_2012,2012,IV,p34_2_sub,p34.2 subsidios,3305,1201.370651,0.0,0.0,0.0,0.0,400000.0,,
+2012_IV_base_hogares_2012,2012,IV,p34_3_it,p34.3 ingresos del trabajo,2329,90985.830829,0.0,0.0,186000.0,0.0,2800000.0,,
+2012_IV_base_hogares_2012,2012,IV,p34_3_jp,p34.3 jubilaciones o pensiones,2328,6654.712199,0.0,0.0,0.0,0.0,800000.0,,
+2012_IV_base_hogares_2012,2012,IV,p34_4_it,p34.4 ingresos del trabajo,1488,64125.672043,0.0,0.0,0.0,0.0,1300000.0,,
+2012_IV_base_hogares_2012,2012,IV,p35_cmi,p35. costo mensual del internet,1975,16253.591899,11605.0,15000.0,19990.0,0.0,999999.0,,
+2012_IV_base_hogares_2012,2012,IV,q26,"q26. ¿qué cantidad de terreno dispone actualmente, en há?",258,1563.004841,0.01,1.0,4.0,0.0,99999.0,,
+2012_IV_base_hogares_2012,2012,IV,q27,"q27. ¿qué cantidad de terreno tiene actualmente en actividad productiva, en há?",258,1560.677362,0.0,0.5,2.0,0.0,99999.0,,
+2012_IV_base_hogares_2012,2012,IV,h4,h4. edad del entrevistado,3756,43.57934,30.0,43.0,57.0,14.0,86.0,,
+2012_IV_base_hogares_2012,2012,IV,a__o,h8b. año de nacimiento,3756,1968.299255,1955.0,1969.0,1982.0,1926.0,2004.0,,
+2012_IV_base_hogares_2012,2012,IV,fexp_hog,,3756,1029.612447,297.290009,862.593994,1030.857056,8.191,4464.008789,,
+2012_IV_base_hogares_2012,2012,IV,fexp_sel,,3756,2737.268348,689.521973,1800.864014,3393.693115,8.191,23868.767578,,
+2011_III_baselinealfinal_expandida_v2,2011,III,ntarjeta,,2000,37.754,14.0,28.0,55.0,1.0,999.0,46.874555,Factor_Transv
+2011_III_baselinealfinal_expandida_v2,2011,III,p10_monto,,774,1584903.527132,25000.0,35000.0,44000.0,8000.0,99999999.0,1525878.69789,Factor_Transv
+2011_III_baselinealfinal_expandida_v2,2011,III,p18,,2010,51.531841,41.0,51.0,62.0,18.0,99.0,52.013003,Factor_Transv
+2011_III_baselinealfinal_expandida_v2,2011,III,p26_1_ingreso_trabajo,,1339,3673904.671397,181000.0,250000.0,400000.0,0.0,99999999.0,3744564.788226,Factor_Transv
+2011_III_baselinealfinal_expandida_v2,2011,III,p26_1_jubilaciones,,390,661158.051282,78000.0,120000.0,170000.0,0.0,99999999.0,1121734.139627,Factor_Transv
+2011_III_baselinealfinal_expandida_v2,2011,III,p26_2_ingreso_trabajo,,700,430452.857143,180000.0,200000.0,300000.0,0.0,99999999.0,385864.39456,Factor_Transv
+2011_III_baselinealfinal_expandida_v2,2011,III,p26_2_jubilaciones,,207,140485.507246,75000.0,98000.0,170000.0,0.0,1200000.0,140128.271557,Factor_Transv
+2011_III_baselinealfinal_expandida_v2,2011,III,p26_3_ingreso_trabajo,,254,247161.429134,180000.0,200000.0,272500.0,0.0,1600000.0,267826.559144,Factor_Transv
+2011_III_baselinealfinal_expandida_v2,2011,III,rc_2,,774,148423.001292,15750.0,18850.0,21600.0,8000.0,99999999.0,91564.015349,Factor_Transv
+2011_III_baselinealfinal_expandida_v2,2011,III,q1,,2010,42.751244,27.0,42.0,57.0,14.0,90.0,42.424261,Factor_Transv
+2011_III_baselinealfinal_expandida_v2,2011,III,q18_1,,945,10.340741,2.0,5.0,10.0,1.0,999.0,10.006878,Factor_Transv
+2011_III_baselinealfinal_expandida_v2,2011,III,horainicio,,1640,1530.207927,1306.5,1550.0,1743.25,13.0,2212.0,1542.388981,Factor_Transv
+2011_III_baselinealfinal_expandida_v2,2011,III,horatermino,,1658,1567.349216,1330.0,1612.5,1805.0,300.0,2240.0,1579.551864,Factor_Transv
+2011_III_baselinealfinal_expandida_v2,2011,III,precio_bam,,186,21364.397849,12000.0,19750.0,27000.0,1000.0,99999.0,23159.159033,Factor_Transv
+2011_III_baselinealfinal_expandida_v2,2011,III,ID,ID,2010,1481070.51393,1050299.25,1130401.5,1130914.75,1021101.0,3131800.0,1328142.344789,Factor_Transv
+2011_III_baselinealfinal_expandida_v2,2011,III,ID_Segm,,2010,14848537.087562,10560103.0,11310801.0,11360201.0,10210101.0,31360302.0,13317326.747347,Factor_Transv
+2011_III_baselinealfinal_expandida_v2,2011,III,c_comuna,,2010,8783.722886,5501.0,8301.0,13113.0,2101.0,13603.0,10467.375421,Factor_Transv
+2011_III_baselinealfinal_expandida_v2,2011,III,F_Panel,Folio 2009 Encuesta Panel,178,2015.477528,1372.75,1974.5,2556.5,1026.0,3107.0,1948.406653,Factor_Transv
+2011_III_baselinealfinal_expandida_v2,2011,III,Factor_Transv,Factor de Expansion Tranversal,2010,1266.422383,434.5,891.5589,1783.1169,102.9148,10698.7032,2178.888041,Factor_Transv
+2011_III_baselinealfinal_expandida_v2,2011,III,Factor_Long,Factor de Expansion Longitudinal,2010,1181.73388,0.0,0.0,0.0,0.0,62321.261,2000.813597,Factor_Transv

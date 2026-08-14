@@ -1,0 +1,4 @@
+reference_year,survey_wave,source_url,error
+2025,XII,https://www.subtel.gob.cl/wp-content/uploads/2026/02/BBDDSubtel2025_031225.sav_.zip,"ReadstatError('Invalid file, or file has unsupported features')"
+2024,XI,https://www.subtel.gob.cl/wp-content/uploads/2025/02/BBDD_Subtel2024_03022025.sav_.zip,"ReadstatError('Invalid file, or file has unsupported features')"
+2011,III,https://www.subtel.gob.cl/images/stories/apoyo_articulos/estudios/base_datos_final_2.zip,ReadstatError('Unable to convert string to the requested encoding (invalid byte sequence)')
