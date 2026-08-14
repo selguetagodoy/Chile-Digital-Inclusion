@@ -1,0 +1,2077 @@
+comuna,comuna_nombre,service_key,operator,network_role,record_count_intersecting,status
+12202,Antártica,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,no_commune_geometry
+12202,Antártica,claro_redacceso,Claro,RedAcceso,0,no_commune_geometry
+12202,Antártica,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,no_commune_geometry
+12202,Antártica,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,no_commune_geometry
+12202,Antártica,infraco_redacceso,Infraco,RedAcceso,0,no_commune_geometry
+12202,Antártica,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,no_commune_geometry
+1101,Iquique,claro_redacceso_hfc,Claro,RedAcceso_HFC,244,ok
+1101,Iquique,claro_redacceso,Claro,RedAcceso,823,ok
+1101,Iquique,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,1172,ok
+1101,Iquique,entel_redacceso_primarias,Entel,RedAcceso_primarias,100,ok
+1101,Iquique,infraco_redacceso,Infraco,RedAcceso,4729,ok
+1101,Iquique,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,63,ok
+1107,Alto Hospicio,claro_redacceso_hfc,Claro,RedAcceso_HFC,180,ok
+1107,Alto Hospicio,claro_redacceso,Claro,RedAcceso,4,ok
+1107,Alto Hospicio,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,620,ok
+1107,Alto Hospicio,entel_redacceso_primarias,Entel,RedAcceso_primarias,11,ok
+1107,Alto Hospicio,infraco_redacceso,Infraco,RedAcceso,3061,ok
+1107,Alto Hospicio,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,58,ok
+1401,Pozo Almonte,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+1401,Pozo Almonte,claro_redacceso,Claro,RedAcceso,5,ok
+1401,Pozo Almonte,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,192,ok
+1401,Pozo Almonte,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+1401,Pozo Almonte,infraco_redacceso,Infraco,RedAcceso,342,ok
+1401,Pozo Almonte,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+1402,Camiña,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+1402,Camiña,claro_redacceso,Claro,RedAcceso,0,ok
+1402,Camiña,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+1402,Camiña,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+1402,Camiña,infraco_redacceso,Infraco,RedAcceso,0,ok
+1402,Camiña,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+1403,Colchane,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+1403,Colchane,claro_redacceso,Claro,RedAcceso,0,ok
+1403,Colchane,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+1403,Colchane,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+1403,Colchane,infraco_redacceso,Infraco,RedAcceso,0,ok
+1403,Colchane,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+1404,Huara,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+1404,Huara,claro_redacceso,Claro,RedAcceso,0,ok
+1404,Huara,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,2,ok
+1404,Huara,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+1404,Huara,infraco_redacceso,Infraco,RedAcceso,0,ok
+1404,Huara,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+1405,Pica,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+1405,Pica,claro_redacceso,Claro,RedAcceso,0,ok
+1405,Pica,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,47,ok
+1405,Pica,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+1405,Pica,infraco_redacceso,Infraco,RedAcceso,0,ok
+1405,Pica,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+2101,Antofagasta,claro_redacceso_hfc,Claro,RedAcceso_HFC,611,ok
+2101,Antofagasta,claro_redacceso,Claro,RedAcceso,1178,ok
+2101,Antofagasta,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,2149,ok
+2101,Antofagasta,entel_redacceso_primarias,Entel,RedAcceso_primarias,209,ok
+2101,Antofagasta,infraco_redacceso,Infraco,RedAcceso,1176,ok
+2101,Antofagasta,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,92,ok
+2102,Mejillones,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+2102,Mejillones,claro_redacceso,Claro,RedAcceso,20,ok
+2102,Mejillones,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,88,ok
+2102,Mejillones,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+2102,Mejillones,infraco_redacceso,Infraco,RedAcceso,454,ok
+2102,Mejillones,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,9,ok
+2103,Sierra Gorda,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+2103,Sierra Gorda,claro_redacceso,Claro,RedAcceso,2,ok
+2103,Sierra Gorda,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,39,ok
+2103,Sierra Gorda,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+2103,Sierra Gorda,infraco_redacceso,Infraco,RedAcceso,0,ok
+2103,Sierra Gorda,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+2104,Taltal,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+2104,Taltal,claro_redacceso,Claro,RedAcceso,0,ok
+2104,Taltal,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,53,ok
+2104,Taltal,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+2104,Taltal,infraco_redacceso,Infraco,RedAcceso,0,ok
+2104,Taltal,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,9,ok
+2201,Calama,claro_redacceso_hfc,Claro,RedAcceso_HFC,293,ok
+2201,Calama,claro_redacceso,Claro,RedAcceso,694,ok
+2201,Calama,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,601,ok
+2201,Calama,entel_redacceso_primarias,Entel,RedAcceso_primarias,87,ok
+2201,Calama,infraco_redacceso,Infraco,RedAcceso,4276,ok
+2201,Calama,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,48,ok
+2202,Ollagüe,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+2202,Ollagüe,claro_redacceso,Claro,RedAcceso,0,ok
+2202,Ollagüe,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,10,ok
+2202,Ollagüe,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+2202,Ollagüe,infraco_redacceso,Infraco,RedAcceso,0,ok
+2202,Ollagüe,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+2203,San Pedro de Atacama,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+2203,San Pedro de Atacama,claro_redacceso,Claro,RedAcceso,5,ok
+2203,San Pedro de Atacama,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,242,ok
+2203,San Pedro de Atacama,entel_redacceso_primarias,Entel,RedAcceso_primarias,7,ok
+2203,San Pedro de Atacama,infraco_redacceso,Infraco,RedAcceso,0,ok
+2203,San Pedro de Atacama,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+2301,Tocopilla,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+2301,Tocopilla,claro_redacceso,Claro,RedAcceso,4,ok
+2301,Tocopilla,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,119,ok
+2301,Tocopilla,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+2301,Tocopilla,infraco_redacceso,Infraco,RedAcceso,980,ok
+2301,Tocopilla,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,319,ok
+2302,María Elena,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+2302,María Elena,claro_redacceso,Claro,RedAcceso,0,ok
+2302,María Elena,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,20,ok
+2302,María Elena,entel_redacceso_primarias,Entel,RedAcceso_primarias,14,ok
+2302,María Elena,infraco_redacceso,Infraco,RedAcceso,0,ok
+2302,María Elena,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,4,ok
+3101,Copiapó,claro_redacceso_hfc,Claro,RedAcceso_HFC,375,ok
+3101,Copiapó,claro_redacceso,Claro,RedAcceso,721,ok
+3101,Copiapó,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,570,ok
+3101,Copiapó,entel_redacceso_primarias,Entel,RedAcceso_primarias,74,ok
+3101,Copiapó,infraco_redacceso,Infraco,RedAcceso,4569,ok
+3101,Copiapó,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+3102,Caldera,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+3102,Caldera,claro_redacceso,Claro,RedAcceso,2,ok
+3102,Caldera,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,64,ok
+3102,Caldera,entel_redacceso_primarias,Entel,RedAcceso_primarias,8,ok
+3102,Caldera,infraco_redacceso,Infraco,RedAcceso,0,ok
+3102,Caldera,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,256,ok
+3103,Tierra Amarilla,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+3103,Tierra Amarilla,claro_redacceso,Claro,RedAcceso,0,ok
+3103,Tierra Amarilla,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,6,ok
+3103,Tierra Amarilla,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+3103,Tierra Amarilla,infraco_redacceso,Infraco,RedAcceso,0,ok
+3103,Tierra Amarilla,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+3201,Chañaral,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+3201,Chañaral,claro_redacceso,Claro,RedAcceso,4,ok
+3201,Chañaral,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,65,ok
+3201,Chañaral,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+3201,Chañaral,infraco_redacceso,Infraco,RedAcceso,0,ok
+3201,Chañaral,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+3202,Diego de Almagro,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+3202,Diego de Almagro,claro_redacceso,Claro,RedAcceso,12,ok
+3202,Diego de Almagro,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,66,ok
+3202,Diego de Almagro,entel_redacceso_primarias,Entel,RedAcceso_primarias,6,ok
+3202,Diego de Almagro,infraco_redacceso,Infraco,RedAcceso,0,ok
+3202,Diego de Almagro,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+3301,Vallenar,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+3301,Vallenar,claro_redacceso,Claro,RedAcceso,84,ok
+3301,Vallenar,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,172,ok
+3301,Vallenar,entel_redacceso_primarias,Entel,RedAcceso_primarias,22,ok
+3301,Vallenar,infraco_redacceso,Infraco,RedAcceso,1433,ok
+3301,Vallenar,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,594,ok
+3302,Alto del Carmen,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+3302,Alto del Carmen,claro_redacceso,Claro,RedAcceso,0,ok
+3302,Alto del Carmen,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,11,ok
+3302,Alto del Carmen,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+3302,Alto del Carmen,infraco_redacceso,Infraco,RedAcceso,0,ok
+3302,Alto del Carmen,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+3303,Freirina,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+3303,Freirina,claro_redacceso,Claro,RedAcceso,0,ok
+3303,Freirina,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,14,ok
+3303,Freirina,entel_redacceso_primarias,Entel,RedAcceso_primarias,14,ok
+3303,Freirina,infraco_redacceso,Infraco,RedAcceso,0,ok
+3303,Freirina,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+3304,Huasco,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+3304,Huasco,claro_redacceso,Claro,RedAcceso,1,ok
+3304,Huasco,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,54,ok
+3304,Huasco,entel_redacceso_primarias,Entel,RedAcceso_primarias,11,ok
+3304,Huasco,infraco_redacceso,Infraco,RedAcceso,0,ok
+3304,Huasco,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+4101,La Serena,claro_redacceso_hfc,Claro,RedAcceso_HFC,661,ok
+4101,La Serena,claro_redacceso,Claro,RedAcceso,979,ok
+4101,La Serena,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,953,ok
+4101,La Serena,entel_redacceso_primarias,Entel,RedAcceso_primarias,158,ok
+4101,La Serena,infraco_redacceso,Infraco,RedAcceso,7551,ok
+4101,La Serena,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,828,ok
+4102,Coquimbo,claro_redacceso_hfc,Claro,RedAcceso_HFC,630,ok
+4102,Coquimbo,claro_redacceso,Claro,RedAcceso,788,ok
+4102,Coquimbo,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,635,ok
+4102,Coquimbo,entel_redacceso_primarias,Entel,RedAcceso_primarias,93,ok
+4102,Coquimbo,infraco_redacceso,Infraco,RedAcceso,7607,ok
+4102,Coquimbo,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,289,ok
+4103,Andacollo,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+4103,Andacollo,claro_redacceso,Claro,RedAcceso,4,ok
+4103,Andacollo,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,38,ok
+4103,Andacollo,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+4103,Andacollo,infraco_redacceso,Infraco,RedAcceso,0,ok
+4103,Andacollo,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,23,ok
+4104,La Higuera,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+4104,La Higuera,claro_redacceso,Claro,RedAcceso,0,ok
+4104,La Higuera,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+4104,La Higuera,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+4104,La Higuera,infraco_redacceso,Infraco,RedAcceso,0,ok
+4104,La Higuera,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+4105,Paihuano,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+4105,Paihuano,claro_redacceso,Claro,RedAcceso,0,ok
+4105,Paihuano,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+4105,Paihuano,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+4105,Paihuano,infraco_redacceso,Infraco,RedAcceso,0,ok
+4105,Paihuano,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+4106,Vicuña,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+4106,Vicuña,claro_redacceso,Claro,RedAcceso,6,ok
+4106,Vicuña,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,61,ok
+4106,Vicuña,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+4106,Vicuña,infraco_redacceso,Infraco,RedAcceso,0,ok
+4106,Vicuña,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,359,ok
+4201,Illapel,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+4201,Illapel,claro_redacceso,Claro,RedAcceso,37,ok
+4201,Illapel,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,105,ok
+4201,Illapel,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+4201,Illapel,infraco_redacceso,Infraco,RedAcceso,795,ok
+4201,Illapel,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,275,ok
+4202,Canela,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+4202,Canela,claro_redacceso,Claro,RedAcceso,0,ok
+4202,Canela,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,5,ok
+4202,Canela,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+4202,Canela,infraco_redacceso,Infraco,RedAcceso,0,ok
+4202,Canela,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+4203,Los Vilos,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+4203,Los Vilos,claro_redacceso,Claro,RedAcceso,28,ok
+4203,Los Vilos,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,122,ok
+4203,Los Vilos,entel_redacceso_primarias,Entel,RedAcceso_primarias,10,ok
+4203,Los Vilos,infraco_redacceso,Infraco,RedAcceso,0,ok
+4203,Los Vilos,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,252,ok
+4204,Salamanca,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+4204,Salamanca,claro_redacceso,Claro,RedAcceso,0,ok
+4204,Salamanca,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,158,ok
+4204,Salamanca,entel_redacceso_primarias,Entel,RedAcceso_primarias,3,ok
+4204,Salamanca,infraco_redacceso,Infraco,RedAcceso,0,ok
+4204,Salamanca,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+4301,Ovalle,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+4301,Ovalle,claro_redacceso,Claro,RedAcceso,156,ok
+4301,Ovalle,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,272,ok
+4301,Ovalle,entel_redacceso_primarias,Entel,RedAcceso_primarias,12,ok
+4301,Ovalle,infraco_redacceso,Infraco,RedAcceso,3164,ok
+4301,Ovalle,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,1968,ok
+4302,Combarbalá,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+4302,Combarbalá,claro_redacceso,Claro,RedAcceso,6,ok
+4302,Combarbalá,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,34,ok
+4302,Combarbalá,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+4302,Combarbalá,infraco_redacceso,Infraco,RedAcceso,0,ok
+4302,Combarbalá,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+4303,Monte Patria,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+4303,Monte Patria,claro_redacceso,Claro,RedAcceso,10,ok
+4303,Monte Patria,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,2,ok
+4303,Monte Patria,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+4303,Monte Patria,infraco_redacceso,Infraco,RedAcceso,0,ok
+4303,Monte Patria,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+4304,Punitaqui,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+4304,Punitaqui,claro_redacceso,Claro,RedAcceso,0,ok
+4304,Punitaqui,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+4304,Punitaqui,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+4304,Punitaqui,infraco_redacceso,Infraco,RedAcceso,0,ok
+4304,Punitaqui,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+4305,Río Hurtado,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+4305,Río Hurtado,claro_redacceso,Claro,RedAcceso,0,ok
+4305,Río Hurtado,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+4305,Río Hurtado,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+4305,Río Hurtado,infraco_redacceso,Infraco,RedAcceso,0,ok
+4305,Río Hurtado,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+5101,Valparaíso,claro_redacceso_hfc,Claro,RedAcceso_HFC,652,ok
+5101,Valparaíso,claro_redacceso,Claro,RedAcceso,1744,ok
+5101,Valparaíso,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,1078,ok
+5101,Valparaíso,entel_redacceso_primarias,Entel,RedAcceso_primarias,201,ok
+5101,Valparaíso,infraco_redacceso,Infraco,RedAcceso,8440,ok
+5101,Valparaíso,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,105,ok
+5102,Casablanca,claro_redacceso_hfc,Claro,RedAcceso_HFC,8,ok
+5102,Casablanca,claro_redacceso,Claro,RedAcceso,0,ok
+5102,Casablanca,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,50,ok
+5102,Casablanca,entel_redacceso_primarias,Entel,RedAcceso_primarias,7,ok
+5102,Casablanca,infraco_redacceso,Infraco,RedAcceso,0,ok
+5102,Casablanca,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,369,ok
+5103,Concón,claro_redacceso_hfc,Claro,RedAcceso_HFC,192,ok
+5103,Concón,claro_redacceso,Claro,RedAcceso,145,ok
+5103,Concón,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,213,ok
+5103,Concón,entel_redacceso_primarias,Entel,RedAcceso_primarias,17,ok
+5103,Concón,infraco_redacceso,Infraco,RedAcceso,1484,ok
+5103,Concón,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,18,ok
+5104,Juan Fernández,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+5104,Juan Fernández,claro_redacceso,Claro,RedAcceso,0,ok
+5104,Juan Fernández,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+5104,Juan Fernández,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+5104,Juan Fernández,infraco_redacceso,Infraco,RedAcceso,0,ok
+5104,Juan Fernández,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+5105,Puchuncaví,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+5105,Puchuncaví,claro_redacceso,Claro,RedAcceso,10,ok
+5105,Puchuncaví,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,32,ok
+5105,Puchuncaví,entel_redacceso_primarias,Entel,RedAcceso_primarias,12,ok
+5105,Puchuncaví,infraco_redacceso,Infraco,RedAcceso,0,ok
+5105,Puchuncaví,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,19,ok
+5107,Quintero,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+5107,Quintero,claro_redacceso,Claro,RedAcceso,6,ok
+5107,Quintero,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,100,ok
+5107,Quintero,entel_redacceso_primarias,Entel,RedAcceso_primarias,15,ok
+5107,Quintero,infraco_redacceso,Infraco,RedAcceso,1459,ok
+5107,Quintero,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,492,ok
+5109,Viña del Mar,claro_redacceso_hfc,Claro,RedAcceso_HFC,849,ok
+5109,Viña del Mar,claro_redacceso,Claro,RedAcceso,1586,ok
+5109,Viña del Mar,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,1504,ok
+5109,Viña del Mar,entel_redacceso_primarias,Entel,RedAcceso_primarias,361,ok
+5109,Viña del Mar,infraco_redacceso,Infraco,RedAcceso,11321,ok
+5109,Viña del Mar,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,146,ok
+5201,Isla de Pascua,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+5201,Isla de Pascua,claro_redacceso,Claro,RedAcceso,0,ok
+5201,Isla de Pascua,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+5201,Isla de Pascua,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+5201,Isla de Pascua,infraco_redacceso,Infraco,RedAcceso,0,ok
+5201,Isla de Pascua,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+5301,Los Andes,claro_redacceso_hfc,Claro,RedAcceso_HFC,264,ok
+5301,Los Andes,claro_redacceso,Claro,RedAcceso,381,ok
+5301,Los Andes,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,251,ok
+5301,Los Andes,entel_redacceso_primarias,Entel,RedAcceso_primarias,19,ok
+5301,Los Andes,infraco_redacceso,Infraco,RedAcceso,2286,ok
+5301,Los Andes,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,20,ok
+5302,Calle Larga,claro_redacceso_hfc,Claro,RedAcceso_HFC,46,ok
+5302,Calle Larga,claro_redacceso,Claro,RedAcceso,21,ok
+5302,Calle Larga,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,2,ok
+5302,Calle Larga,entel_redacceso_primarias,Entel,RedAcceso_primarias,4,ok
+5302,Calle Larga,infraco_redacceso,Infraco,RedAcceso,37,ok
+5302,Calle Larga,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,6,ok
+5303,Rinconada,claro_redacceso_hfc,Claro,RedAcceso_HFC,35,ok
+5303,Rinconada,claro_redacceso,Claro,RedAcceso,17,ok
+5303,Rinconada,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,1,ok
+5303,Rinconada,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+5303,Rinconada,infraco_redacceso,Infraco,RedAcceso,312,ok
+5303,Rinconada,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,12,ok
+5304,San Esteban,claro_redacceso_hfc,Claro,RedAcceso_HFC,63,ok
+5304,San Esteban,claro_redacceso,Claro,RedAcceso,25,ok
+5304,San Esteban,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+5304,San Esteban,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+5304,San Esteban,infraco_redacceso,Infraco,RedAcceso,0,ok
+5304,San Esteban,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,12,ok
+5401,La Ligua,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+5401,La Ligua,claro_redacceso,Claro,RedAcceso,576,ok
+5401,La Ligua,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,104,ok
+5401,La Ligua,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+5401,La Ligua,infraco_redacceso,Infraco,RedAcceso,867,ok
+5401,La Ligua,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,254,ok
+5402,Cabildo,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+5402,Cabildo,claro_redacceso,Claro,RedAcceso,2,ok
+5402,Cabildo,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,40,ok
+5402,Cabildo,entel_redacceso_primarias,Entel,RedAcceso_primarias,3,ok
+5402,Cabildo,infraco_redacceso,Infraco,RedAcceso,0,ok
+5402,Cabildo,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,126,ok
+5403,Papudo,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+5403,Papudo,claro_redacceso,Claro,RedAcceso,0,ok
+5403,Papudo,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,7,ok
+5403,Papudo,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+5403,Papudo,infraco_redacceso,Infraco,RedAcceso,365,ok
+5403,Papudo,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+5404,Petorca,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+5404,Petorca,claro_redacceso,Claro,RedAcceso,2,ok
+5404,Petorca,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,13,ok
+5404,Petorca,entel_redacceso_primarias,Entel,RedAcceso_primarias,5,ok
+5404,Petorca,infraco_redacceso,Infraco,RedAcceso,0,ok
+5404,Petorca,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+5405,Zapallar,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+5405,Zapallar,claro_redacceso,Claro,RedAcceso,0,ok
+5405,Zapallar,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,10,ok
+5405,Zapallar,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+5405,Zapallar,infraco_redacceso,Infraco,RedAcceso,276,ok
+5405,Zapallar,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+5501,Quillota,claro_redacceso_hfc,Claro,RedAcceso_HFC,244,ok
+5501,Quillota,claro_redacceso,Claro,RedAcceso,310,ok
+5501,Quillota,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,282,ok
+5501,Quillota,entel_redacceso_primarias,Entel,RedAcceso_primarias,29,ok
+5501,Quillota,infraco_redacceso,Infraco,RedAcceso,3257,ok
+5501,Quillota,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,34,ok
+5502,Calera,claro_redacceso_hfc,Claro,RedAcceso_HFC,129,ok
+5502,Calera,claro_redacceso,Claro,RedAcceso,188,ok
+5502,Calera,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,148,ok
+5502,Calera,entel_redacceso_primarias,Entel,RedAcceso_primarias,13,ok
+5502,Calera,infraco_redacceso,Infraco,RedAcceso,1484,ok
+5502,Calera,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,28,ok
+5503,Hijuelas,claro_redacceso_hfc,Claro,RedAcceso_HFC,6,ok
+5503,Hijuelas,claro_redacceso,Claro,RedAcceso,0,ok
+5503,Hijuelas,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+5503,Hijuelas,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+5503,Hijuelas,infraco_redacceso,Infraco,RedAcceso,11,ok
+5503,Hijuelas,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,109,ok
+5504,La Cruz,claro_redacceso_hfc,Claro,RedAcceso_HFC,69,ok
+5504,La Cruz,claro_redacceso,Claro,RedAcceso,31,ok
+5504,La Cruz,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,7,ok
+5504,La Cruz,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+5504,La Cruz,infraco_redacceso,Infraco,RedAcceso,1,ok
+5504,La Cruz,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,6,ok
+5506,Nogales,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+5506,Nogales,claro_redacceso,Claro,RedAcceso,0,ok
+5506,Nogales,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,17,ok
+5506,Nogales,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+5506,Nogales,infraco_redacceso,Infraco,RedAcceso,0,ok
+5506,Nogales,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,202,ok
+5601,San Antonio,claro_redacceso_hfc,Claro,RedAcceso_HFC,232,ok
+5601,San Antonio,claro_redacceso,Claro,RedAcceso,268,ok
+5601,San Antonio,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,415,ok
+5601,San Antonio,entel_redacceso_primarias,Entel,RedAcceso_primarias,63,ok
+5601,San Antonio,infraco_redacceso,Infraco,RedAcceso,1802,ok
+5601,San Antonio,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+5602,Algarrobo,claro_redacceso_hfc,Claro,RedAcceso_HFC,6,ok
+5602,Algarrobo,claro_redacceso,Claro,RedAcceso,2,ok
+5602,Algarrobo,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,65,ok
+5602,Algarrobo,entel_redacceso_primarias,Entel,RedAcceso_primarias,12,ok
+5602,Algarrobo,infraco_redacceso,Infraco,RedAcceso,1227,ok
+5602,Algarrobo,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+5603,Cartagena,claro_redacceso_hfc,Claro,RedAcceso_HFC,3,ok
+5603,Cartagena,claro_redacceso,Claro,RedAcceso,9,ok
+5603,Cartagena,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,50,ok
+5603,Cartagena,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+5603,Cartagena,infraco_redacceso,Infraco,RedAcceso,0,ok
+5603,Cartagena,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,15,ok
+5604,El Quisco,claro_redacceso_hfc,Claro,RedAcceso_HFC,3,ok
+5604,El Quisco,claro_redacceso,Claro,RedAcceso,2,ok
+5604,El Quisco,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,59,ok
+5604,El Quisco,entel_redacceso_primarias,Entel,RedAcceso_primarias,15,ok
+5604,El Quisco,infraco_redacceso,Infraco,RedAcceso,1,ok
+5604,El Quisco,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+5605,El Tabo,claro_redacceso_hfc,Claro,RedAcceso_HFC,3,ok
+5605,El Tabo,claro_redacceso,Claro,RedAcceso,1,ok
+5605,El Tabo,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,66,ok
+5605,El Tabo,entel_redacceso_primarias,Entel,RedAcceso_primarias,3,ok
+5605,El Tabo,infraco_redacceso,Infraco,RedAcceso,0,ok
+5605,El Tabo,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+5606,Santo Domingo,claro_redacceso_hfc,Claro,RedAcceso_HFC,83,ok
+5606,Santo Domingo,claro_redacceso,Claro,RedAcceso,0,ok
+5606,Santo Domingo,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,31,ok
+5606,Santo Domingo,entel_redacceso_primarias,Entel,RedAcceso_primarias,8,ok
+5606,Santo Domingo,infraco_redacceso,Infraco,RedAcceso,525,ok
+5606,Santo Domingo,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+5701,San Felipe,claro_redacceso_hfc,Claro,RedAcceso_HFC,251,ok
+5701,San Felipe,claro_redacceso,Claro,RedAcceso,314,ok
+5701,San Felipe,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,254,ok
+5701,San Felipe,entel_redacceso_primarias,Entel,RedAcceso_primarias,20,ok
+5701,San Felipe,infraco_redacceso,Infraco,RedAcceso,2421,ok
+5701,San Felipe,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+5702,Catemu,claro_redacceso_hfc,Claro,RedAcceso_HFC,1,ok
+5702,Catemu,claro_redacceso,Claro,RedAcceso,2,ok
+5702,Catemu,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,1,ok
+5702,Catemu,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+5702,Catemu,infraco_redacceso,Infraco,RedAcceso,0,ok
+5702,Catemu,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+5703,Llaillay,claro_redacceso_hfc,Claro,RedAcceso_HFC,11,ok
+5703,Llaillay,claro_redacceso,Claro,RedAcceso,27,ok
+5703,Llaillay,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,45,ok
+5703,Llaillay,entel_redacceso_primarias,Entel,RedAcceso_primarias,10,ok
+5703,Llaillay,infraco_redacceso,Infraco,RedAcceso,444,ok
+5703,Llaillay,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,311,ok
+5704,Panquehue,claro_redacceso_hfc,Claro,RedAcceso_HFC,6,ok
+5704,Panquehue,claro_redacceso,Claro,RedAcceso,0,ok
+5704,Panquehue,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,1,ok
+5704,Panquehue,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+5704,Panquehue,infraco_redacceso,Infraco,RedAcceso,2,ok
+5704,Panquehue,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+5705,Putaendo,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+5705,Putaendo,claro_redacceso,Claro,RedAcceso,0,ok
+5705,Putaendo,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,28,ok
+5705,Putaendo,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+5705,Putaendo,infraco_redacceso,Infraco,RedAcceso,0,ok
+5705,Putaendo,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+5706,Santa María,claro_redacceso_hfc,Claro,RedAcceso_HFC,7,ok
+5706,Santa María,claro_redacceso,Claro,RedAcceso,7,ok
+5706,Santa María,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+5706,Santa María,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+5706,Santa María,infraco_redacceso,Infraco,RedAcceso,6,ok
+5706,Santa María,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+5801,Quilpué,claro_redacceso_hfc,Claro,RedAcceso_HFC,402,ok
+5801,Quilpué,claro_redacceso,Claro,RedAcceso,517,ok
+5801,Quilpué,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,308,ok
+5801,Quilpué,entel_redacceso_primarias,Entel,RedAcceso_primarias,23,ok
+5801,Quilpué,infraco_redacceso,Infraco,RedAcceso,4729,ok
+5801,Quilpué,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,93,ok
+5802,Limache,claro_redacceso_hfc,Claro,RedAcceso_HFC,91,ok
+5802,Limache,claro_redacceso,Claro,RedAcceso,1178,ok
+5802,Limache,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,94,ok
+5802,Limache,entel_redacceso_primarias,Entel,RedAcceso_primarias,3,ok
+5802,Limache,infraco_redacceso,Infraco,RedAcceso,1479,ok
+5802,Limache,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,27,ok
+5803,Olmué,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+5803,Olmué,claro_redacceso,Claro,RedAcceso,0,ok
+5803,Olmué,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,8,ok
+5803,Olmué,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+5803,Olmué,infraco_redacceso,Infraco,RedAcceso,0,ok
+5803,Olmué,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,196,ok
+5804,Villa Alemana,claro_redacceso_hfc,Claro,RedAcceso_HFC,257,ok
+5804,Villa Alemana,claro_redacceso,Claro,RedAcceso,390,ok
+5804,Villa Alemana,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,198,ok
+5804,Villa Alemana,entel_redacceso_primarias,Entel,RedAcceso_primarias,28,ok
+5804,Villa Alemana,infraco_redacceso,Infraco,RedAcceso,5146,ok
+5804,Villa Alemana,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,33,ok
+6101,Rancagua,claro_redacceso_hfc,Claro,RedAcceso_HFC,569,ok
+6101,Rancagua,claro_redacceso,Claro,RedAcceso,2399,ok
+6101,Rancagua,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,773,ok
+6101,Rancagua,entel_redacceso_primarias,Entel,RedAcceso_primarias,164,ok
+6101,Rancagua,infraco_redacceso,Infraco,RedAcceso,535,ok
+6101,Rancagua,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,130,ok
+6102,Codegua,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+6102,Codegua,claro_redacceso,Claro,RedAcceso,0,ok
+6102,Codegua,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,2,ok
+6102,Codegua,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+6102,Codegua,infraco_redacceso,Infraco,RedAcceso,0,ok
+6102,Codegua,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+6103,Coinco,claro_redacceso_hfc,Claro,RedAcceso_HFC,26,ok
+6103,Coinco,claro_redacceso,Claro,RedAcceso,0,ok
+6103,Coinco,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+6103,Coinco,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+6103,Coinco,infraco_redacceso,Infraco,RedAcceso,0,ok
+6103,Coinco,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+6104,Coltauco,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+6104,Coltauco,claro_redacceso,Claro,RedAcceso,0,ok
+6104,Coltauco,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+6104,Coltauco,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+6104,Coltauco,infraco_redacceso,Infraco,RedAcceso,0,ok
+6104,Coltauco,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+6105,Doñihue,claro_redacceso_hfc,Claro,RedAcceso_HFC,8,ok
+6105,Doñihue,claro_redacceso,Claro,RedAcceso,0,ok
+6105,Doñihue,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,22,ok
+6105,Doñihue,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+6105,Doñihue,infraco_redacceso,Infraco,RedAcceso,0,ok
+6105,Doñihue,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+6106,Graneros,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+6106,Graneros,claro_redacceso,Claro,RedAcceso,870,ok
+6106,Graneros,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,22,ok
+6106,Graneros,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+6106,Graneros,infraco_redacceso,Infraco,RedAcceso,0,ok
+6106,Graneros,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,337,ok
+6107,Las Cabras,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+6107,Las Cabras,claro_redacceso,Claro,RedAcceso,0,ok
+6107,Las Cabras,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,32,ok
+6107,Las Cabras,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+6107,Las Cabras,infraco_redacceso,Infraco,RedAcceso,0,ok
+6107,Las Cabras,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+6108,Machalí,claro_redacceso_hfc,Claro,RedAcceso_HFC,168,ok
+6108,Machalí,claro_redacceso,Claro,RedAcceso,109,ok
+6108,Machalí,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,50,ok
+6108,Machalí,entel_redacceso_primarias,Entel,RedAcceso_primarias,30,ok
+6108,Machalí,infraco_redacceso,Infraco,RedAcceso,2,ok
+6108,Machalí,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,58,ok
+6109,Malloa,claro_redacceso_hfc,Claro,RedAcceso_HFC,10,ok
+6109,Malloa,claro_redacceso,Claro,RedAcceso,6,ok
+6109,Malloa,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+6109,Malloa,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+6109,Malloa,infraco_redacceso,Infraco,RedAcceso,0,ok
+6109,Malloa,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+6110,Mostazal,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+6110,Mostazal,claro_redacceso,Claro,RedAcceso,0,ok
+6110,Mostazal,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,35,ok
+6110,Mostazal,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+6110,Mostazal,infraco_redacceso,Infraco,RedAcceso,0,ok
+6110,Mostazal,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,157,ok
+6111,Olivar,claro_redacceso_hfc,Claro,RedAcceso_HFC,2,ok
+6111,Olivar,claro_redacceso,Claro,RedAcceso,0,ok
+6111,Olivar,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,37,ok
+6111,Olivar,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+6111,Olivar,infraco_redacceso,Infraco,RedAcceso,0,ok
+6111,Olivar,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+6112,Peumo,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+6112,Peumo,claro_redacceso,Claro,RedAcceso,0,ok
+6112,Peumo,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,2,ok
+6112,Peumo,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+6112,Peumo,infraco_redacceso,Infraco,RedAcceso,0,ok
+6112,Peumo,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+6113,Pichidegua,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+6113,Pichidegua,claro_redacceso,Claro,RedAcceso,0,ok
+6113,Pichidegua,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,1,ok
+6113,Pichidegua,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+6113,Pichidegua,infraco_redacceso,Infraco,RedAcceso,0,ok
+6113,Pichidegua,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+6114,Quinta de Tilcoco,claro_redacceso_hfc,Claro,RedAcceso_HFC,7,ok
+6114,Quinta de Tilcoco,claro_redacceso,Claro,RedAcceso,4,ok
+6114,Quinta de Tilcoco,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+6114,Quinta de Tilcoco,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+6114,Quinta de Tilcoco,infraco_redacceso,Infraco,RedAcceso,0,ok
+6114,Quinta de Tilcoco,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+6115,Rengo,claro_redacceso_hfc,Claro,RedAcceso_HFC,121,ok
+6115,Rengo,claro_redacceso,Claro,RedAcceso,1220,ok
+6115,Rengo,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,106,ok
+6115,Rengo,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+6115,Rengo,infraco_redacceso,Infraco,RedAcceso,1957,ok
+6115,Rengo,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+6116,Requínoa,claro_redacceso_hfc,Claro,RedAcceso_HFC,3,ok
+6116,Requínoa,claro_redacceso,Claro,RedAcceso,1,ok
+6116,Requínoa,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,32,ok
+6116,Requínoa,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+6116,Requínoa,infraco_redacceso,Infraco,RedAcceso,0,ok
+6116,Requínoa,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,196,ok
+6117,San Vicente,claro_redacceso_hfc,Claro,RedAcceso_HFC,3,ok
+6117,San Vicente,claro_redacceso,Claro,RedAcceso,18,ok
+6117,San Vicente,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,142,ok
+6117,San Vicente,entel_redacceso_primarias,Entel,RedAcceso_primarias,4,ok
+6117,San Vicente,infraco_redacceso,Infraco,RedAcceso,0,ok
+6117,San Vicente,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,316,ok
+6201,Pichilemu,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+6201,Pichilemu,claro_redacceso,Claro,RedAcceso,9,ok
+6201,Pichilemu,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,124,ok
+6201,Pichilemu,entel_redacceso_primarias,Entel,RedAcceso_primarias,3,ok
+6201,Pichilemu,infraco_redacceso,Infraco,RedAcceso,0,ok
+6201,Pichilemu,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,414,ok
+6202,La Estrella,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+6202,La Estrella,claro_redacceso,Claro,RedAcceso,0,ok
+6202,La Estrella,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+6202,La Estrella,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+6202,La Estrella,infraco_redacceso,Infraco,RedAcceso,0,ok
+6202,La Estrella,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+6203,Litueche,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+6203,Litueche,claro_redacceso,Claro,RedAcceso,0,ok
+6203,Litueche,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,33,ok
+6203,Litueche,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+6203,Litueche,infraco_redacceso,Infraco,RedAcceso,0,ok
+6203,Litueche,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+6204,Marchihue,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+6204,Marchihue,claro_redacceso,Claro,RedAcceso,0,ok
+6204,Marchihue,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+6204,Marchihue,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+6204,Marchihue,infraco_redacceso,Infraco,RedAcceso,0,ok
+6204,Marchihue,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+6205,Navidad,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+6205,Navidad,claro_redacceso,Claro,RedAcceso,0,ok
+6205,Navidad,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,19,ok
+6205,Navidad,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+6205,Navidad,infraco_redacceso,Infraco,RedAcceso,0,ok
+6205,Navidad,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+6206,Paredones,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+6206,Paredones,claro_redacceso,Claro,RedAcceso,0,ok
+6206,Paredones,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+6206,Paredones,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+6206,Paredones,infraco_redacceso,Infraco,RedAcceso,0,ok
+6206,Paredones,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+6301,San Fernando,claro_redacceso_hfc,Claro,RedAcceso_HFC,175,ok
+6301,San Fernando,claro_redacceso,Claro,RedAcceso,244,ok
+6301,San Fernando,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,282,ok
+6301,San Fernando,entel_redacceso_primarias,Entel,RedAcceso_primarias,11,ok
+6301,San Fernando,infraco_redacceso,Infraco,RedAcceso,2446,ok
+6301,San Fernando,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+6302,Chépica,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+6302,Chépica,claro_redacceso,Claro,RedAcceso,0,ok
+6302,Chépica,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,25,ok
+6302,Chépica,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+6302,Chépica,infraco_redacceso,Infraco,RedAcceso,0,ok
+6302,Chépica,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+6303,Chimbarongo,claro_redacceso_hfc,Claro,RedAcceso_HFC,8,ok
+6303,Chimbarongo,claro_redacceso,Claro,RedAcceso,0,ok
+6303,Chimbarongo,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,32,ok
+6303,Chimbarongo,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+6303,Chimbarongo,infraco_redacceso,Infraco,RedAcceso,0,ok
+6303,Chimbarongo,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,120,ok
+6304,Lolol,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+6304,Lolol,claro_redacceso,Claro,RedAcceso,0,ok
+6304,Lolol,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,2,ok
+6304,Lolol,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+6304,Lolol,infraco_redacceso,Infraco,RedAcceso,0,ok
+6304,Lolol,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+6305,Nancagua,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+6305,Nancagua,claro_redacceso,Claro,RedAcceso,0,ok
+6305,Nancagua,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,10,ok
+6305,Nancagua,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+6305,Nancagua,infraco_redacceso,Infraco,RedAcceso,0,ok
+6305,Nancagua,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+6306,Palmilla,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+6306,Palmilla,claro_redacceso,Claro,RedAcceso,0,ok
+6306,Palmilla,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,2,ok
+6306,Palmilla,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+6306,Palmilla,infraco_redacceso,Infraco,RedAcceso,0,ok
+6306,Palmilla,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+6307,Peralillo,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+6307,Peralillo,claro_redacceso,Claro,RedAcceso,0,ok
+6307,Peralillo,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,8,ok
+6307,Peralillo,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+6307,Peralillo,infraco_redacceso,Infraco,RedAcceso,0,ok
+6307,Peralillo,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+6308,Placilla,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+6308,Placilla,claro_redacceso,Claro,RedAcceso,0,ok
+6308,Placilla,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,1,ok
+6308,Placilla,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+6308,Placilla,infraco_redacceso,Infraco,RedAcceso,0,ok
+6308,Placilla,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+6309,Pumanque,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+6309,Pumanque,claro_redacceso,Claro,RedAcceso,0,ok
+6309,Pumanque,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,2,ok
+6309,Pumanque,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+6309,Pumanque,infraco_redacceso,Infraco,RedAcceso,0,ok
+6309,Pumanque,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+6310,Santa Cruz,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+6310,Santa Cruz,claro_redacceso,Claro,RedAcceso,888,ok
+6310,Santa Cruz,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,141,ok
+6310,Santa Cruz,entel_redacceso_primarias,Entel,RedAcceso_primarias,7,ok
+6310,Santa Cruz,infraco_redacceso,Infraco,RedAcceso,1100,ok
+6310,Santa Cruz,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,365,ok
+7101,Talca,claro_redacceso_hfc,Claro,RedAcceso_HFC,409,ok
+7101,Talca,claro_redacceso,Claro,RedAcceso,791,ok
+7101,Talca,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,810,ok
+7101,Talca,entel_redacceso_primarias,Entel,RedAcceso_primarias,100,ok
+7101,Talca,infraco_redacceso,Infraco,RedAcceso,7557,ok
+7101,Talca,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,145,ok
+7102,Constitución,claro_redacceso_hfc,Claro,RedAcceso_HFC,66,ok
+7102,Constitución,claro_redacceso,Claro,RedAcceso,937,ok
+7102,Constitución,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,117,ok
+7102,Constitución,entel_redacceso_primarias,Entel,RedAcceso_primarias,10,ok
+7102,Constitución,infraco_redacceso,Infraco,RedAcceso,1026,ok
+7102,Constitución,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+7103,Curepto,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+7103,Curepto,claro_redacceso,Claro,RedAcceso,0,ok
+7103,Curepto,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,19,ok
+7103,Curepto,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+7103,Curepto,infraco_redacceso,Infraco,RedAcceso,0,ok
+7103,Curepto,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+7104,Empedrado,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+7104,Empedrado,claro_redacceso,Claro,RedAcceso,0,ok
+7104,Empedrado,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,10,ok
+7104,Empedrado,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+7104,Empedrado,infraco_redacceso,Infraco,RedAcceso,0,ok
+7104,Empedrado,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+7105,Maule,claro_redacceso_hfc,Claro,RedAcceso_HFC,85,ok
+7105,Maule,claro_redacceso,Claro,RedAcceso,39,ok
+7105,Maule,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,45,ok
+7105,Maule,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+7105,Maule,infraco_redacceso,Infraco,RedAcceso,8,ok
+7105,Maule,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+7106,Pelarco,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+7106,Pelarco,claro_redacceso,Claro,RedAcceso,0,ok
+7106,Pelarco,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+7106,Pelarco,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+7106,Pelarco,infraco_redacceso,Infraco,RedAcceso,0,ok
+7106,Pelarco,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+7107,Pencahue,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+7107,Pencahue,claro_redacceso,Claro,RedAcceso,1,ok
+7107,Pencahue,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+7107,Pencahue,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+7107,Pencahue,infraco_redacceso,Infraco,RedAcceso,0,ok
+7107,Pencahue,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+7108,Río Claro,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+7108,Río Claro,claro_redacceso,Claro,RedAcceso,2,ok
+7108,Río Claro,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,6,ok
+7108,Río Claro,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+7108,Río Claro,infraco_redacceso,Infraco,RedAcceso,0,ok
+7108,Río Claro,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+7109,San Clemente,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+7109,San Clemente,claro_redacceso,Claro,RedAcceso,0,ok
+7109,San Clemente,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,38,ok
+7109,San Clemente,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+7109,San Clemente,infraco_redacceso,Infraco,RedAcceso,0,ok
+7109,San Clemente,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,339,ok
+7110,San Rafael,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+7110,San Rafael,claro_redacceso,Claro,RedAcceso,0,ok
+7110,San Rafael,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+7110,San Rafael,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+7110,San Rafael,infraco_redacceso,Infraco,RedAcceso,0,ok
+7110,San Rafael,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+7201,Cauquenes,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+7201,Cauquenes,claro_redacceso,Claro,RedAcceso,0,ok
+7201,Cauquenes,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,118,ok
+7201,Cauquenes,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+7201,Cauquenes,infraco_redacceso,Infraco,RedAcceso,0,ok
+7201,Cauquenes,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,620,ok
+7202,Chanco,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+7202,Chanco,claro_redacceso,Claro,RedAcceso,0,ok
+7202,Chanco,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,29,ok
+7202,Chanco,entel_redacceso_primarias,Entel,RedAcceso_primarias,3,ok
+7202,Chanco,infraco_redacceso,Infraco,RedAcceso,0,ok
+7202,Chanco,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+7203,Pelluhue,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+7203,Pelluhue,claro_redacceso,Claro,RedAcceso,0,ok
+7203,Pelluhue,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,21,ok
+7203,Pelluhue,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+7203,Pelluhue,infraco_redacceso,Infraco,RedAcceso,0,ok
+7203,Pelluhue,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+7301,Curicó,claro_redacceso_hfc,Claro,RedAcceso_HFC,309,ok
+7301,Curicó,claro_redacceso,Claro,RedAcceso,445,ok
+7301,Curicó,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,636,ok
+7301,Curicó,entel_redacceso_primarias,Entel,RedAcceso_primarias,30,ok
+7301,Curicó,infraco_redacceso,Infraco,RedAcceso,4974,ok
+7301,Curicó,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+7302,Hualañé,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+7302,Hualañé,claro_redacceso,Claro,RedAcceso,1,ok
+7302,Hualañé,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,27,ok
+7302,Hualañé,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+7302,Hualañé,infraco_redacceso,Infraco,RedAcceso,0,ok
+7302,Hualañé,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+7303,Licantén,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+7303,Licantén,claro_redacceso,Claro,RedAcceso,0,ok
+7303,Licantén,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,35,ok
+7303,Licantén,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+7303,Licantén,infraco_redacceso,Infraco,RedAcceso,0,ok
+7303,Licantén,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+7304,Molina,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+7304,Molina,claro_redacceso,Claro,RedAcceso,5,ok
+7304,Molina,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,88,ok
+7304,Molina,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+7304,Molina,infraco_redacceso,Infraco,RedAcceso,0,ok
+7304,Molina,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,402,ok
+7305,Rauco,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+7305,Rauco,claro_redacceso,Claro,RedAcceso,0,ok
+7305,Rauco,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+7305,Rauco,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+7305,Rauco,infraco_redacceso,Infraco,RedAcceso,0,ok
+7305,Rauco,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+7306,Romeral,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+7306,Romeral,claro_redacceso,Claro,RedAcceso,6,ok
+7306,Romeral,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,27,ok
+7306,Romeral,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+7306,Romeral,infraco_redacceso,Infraco,RedAcceso,13,ok
+7306,Romeral,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+7307,Sagrada Familia,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+7307,Sagrada Familia,claro_redacceso,Claro,RedAcceso,0,ok
+7307,Sagrada Familia,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,13,ok
+7307,Sagrada Familia,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+7307,Sagrada Familia,infraco_redacceso,Infraco,RedAcceso,0,ok
+7307,Sagrada Familia,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+7308,Teno,claro_redacceso_hfc,Claro,RedAcceso_HFC,5,ok
+7308,Teno,claro_redacceso,Claro,RedAcceso,1,ok
+7308,Teno,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,38,ok
+7308,Teno,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+7308,Teno,infraco_redacceso,Infraco,RedAcceso,0,ok
+7308,Teno,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+7309,Vichuquén,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+7309,Vichuquén,claro_redacceso,Claro,RedAcceso,0,ok
+7309,Vichuquén,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+7309,Vichuquén,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+7309,Vichuquén,infraco_redacceso,Infraco,RedAcceso,0,ok
+7309,Vichuquén,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+7401,Linares,claro_redacceso_hfc,Claro,RedAcceso_HFC,255,ok
+7401,Linares,claro_redacceso,Claro,RedAcceso,246,ok
+7401,Linares,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,289,ok
+7401,Linares,entel_redacceso_primarias,Entel,RedAcceso_primarias,23,ok
+7401,Linares,infraco_redacceso,Infraco,RedAcceso,2387,ok
+7401,Linares,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+7402,Colbún,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+7402,Colbún,claro_redacceso,Claro,RedAcceso,0,ok
+7402,Colbún,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,33,ok
+7402,Colbún,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+7402,Colbún,infraco_redacceso,Infraco,RedAcceso,0,ok
+7402,Colbún,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+7403,Longaví,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+7403,Longaví,claro_redacceso,Claro,RedAcceso,0,ok
+7403,Longaví,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,14,ok
+7403,Longaví,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+7403,Longaví,infraco_redacceso,Infraco,RedAcceso,0,ok
+7403,Longaví,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+7404,Parral,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+7404,Parral,claro_redacceso,Claro,RedAcceso,4,ok
+7404,Parral,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,120,ok
+7404,Parral,entel_redacceso_primarias,Entel,RedAcceso_primarias,10,ok
+7404,Parral,infraco_redacceso,Infraco,RedAcceso,0,ok
+7404,Parral,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,461,ok
+7405,Retiro,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+7405,Retiro,claro_redacceso,Claro,RedAcceso,0,ok
+7405,Retiro,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,18,ok
+7405,Retiro,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+7405,Retiro,infraco_redacceso,Infraco,RedAcceso,0,ok
+7405,Retiro,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+7406,San Javier,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+7406,San Javier,claro_redacceso,Claro,RedAcceso,6,ok
+7406,San Javier,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,71,ok
+7406,San Javier,entel_redacceso_primarias,Entel,RedAcceso_primarias,4,ok
+7406,San Javier,infraco_redacceso,Infraco,RedAcceso,0,ok
+7406,San Javier,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,463,ok
+7407,Villa Alegre,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+7407,Villa Alegre,claro_redacceso,Claro,RedAcceso,0,ok
+7407,Villa Alegre,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+7407,Villa Alegre,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+7407,Villa Alegre,infraco_redacceso,Infraco,RedAcceso,0,ok
+7407,Villa Alegre,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+7408,Yerbas Buenas,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+7408,Yerbas Buenas,claro_redacceso,Claro,RedAcceso,0,ok
+7408,Yerbas Buenas,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,12,ok
+7408,Yerbas Buenas,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+7408,Yerbas Buenas,infraco_redacceso,Infraco,RedAcceso,1,ok
+7408,Yerbas Buenas,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+8101,Concepción,claro_redacceso_hfc,Claro,RedAcceso_HFC,457,ok
+8101,Concepción,claro_redacceso,Claro,RedAcceso,1311,ok
+8101,Concepción,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,1383,ok
+8101,Concepción,entel_redacceso_primarias,Entel,RedAcceso_primarias,199,ok
+8101,Concepción,infraco_redacceso,Infraco,RedAcceso,6749,ok
+8101,Concepción,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,271,ok
+8102,Coronel,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+8102,Coronel,claro_redacceso,Claro,RedAcceso,1501,ok
+8102,Coronel,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,409,ok
+8102,Coronel,entel_redacceso_primarias,Entel,RedAcceso_primarias,29,ok
+8102,Coronel,infraco_redacceso,Infraco,RedAcceso,961,ok
+8102,Coronel,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,2499,ok
+8103,Chiguayante,claro_redacceso_hfc,Claro,RedAcceso_HFC,162,ok
+8103,Chiguayante,claro_redacceso,Claro,RedAcceso,648,ok
+8103,Chiguayante,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,32,ok
+8103,Chiguayante,entel_redacceso_primarias,Entel,RedAcceso_primarias,22,ok
+8103,Chiguayante,infraco_redacceso,Infraco,RedAcceso,2288,ok
+8103,Chiguayante,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+8104,Florida,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+8104,Florida,claro_redacceso,Claro,RedAcceso,0,ok
+8104,Florida,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,21,ok
+8104,Florida,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+8104,Florida,infraco_redacceso,Infraco,RedAcceso,0,ok
+8104,Florida,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+8105,Hualqui,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+8105,Hualqui,claro_redacceso,Claro,RedAcceso,0,ok
+8105,Hualqui,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,6,ok
+8105,Hualqui,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+8105,Hualqui,infraco_redacceso,Infraco,RedAcceso,0,ok
+8105,Hualqui,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,293,ok
+8106,Lota,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+8106,Lota,claro_redacceso,Claro,RedAcceso,29,ok
+8106,Lota,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,76,ok
+8106,Lota,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+8106,Lota,infraco_redacceso,Infraco,RedAcceso,0,ok
+8106,Lota,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,741,ok
+8107,Penco,claro_redacceso_hfc,Claro,RedAcceso_HFC,43,ok
+8107,Penco,claro_redacceso,Claro,RedAcceso,32,ok
+8107,Penco,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,48,ok
+8107,Penco,entel_redacceso_primarias,Entel,RedAcceso_primarias,6,ok
+8107,Penco,infraco_redacceso,Infraco,RedAcceso,1,ok
+8107,Penco,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,12,ok
+8108,San Pedro de La paz,claro_redacceso_hfc,Claro,RedAcceso_HFC,264,ok
+8108,San Pedro de La paz,claro_redacceso,Claro,RedAcceso,282,ok
+8108,San Pedro de La paz,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,227,ok
+8108,San Pedro de La paz,entel_redacceso_primarias,Entel,RedAcceso_primarias,26,ok
+8108,San Pedro de La paz,infraco_redacceso,Infraco,RedAcceso,2671,ok
+8108,San Pedro de La paz,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+8109,Santa Juana,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+8109,Santa Juana,claro_redacceso,Claro,RedAcceso,0,ok
+8109,Santa Juana,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,4,ok
+8109,Santa Juana,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+8109,Santa Juana,infraco_redacceso,Infraco,RedAcceso,0,ok
+8109,Santa Juana,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+8110,Talcahuano,claro_redacceso_hfc,Claro,RedAcceso_HFC,162,ok
+8110,Talcahuano,claro_redacceso,Claro,RedAcceso,593,ok
+8110,Talcahuano,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,560,ok
+8110,Talcahuano,entel_redacceso_primarias,Entel,RedAcceso_primarias,91,ok
+8110,Talcahuano,infraco_redacceso,Infraco,RedAcceso,3451,ok
+8110,Talcahuano,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,82,ok
+8111,Tomé,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+8111,Tomé,claro_redacceso,Claro,RedAcceso,39,ok
+8111,Tomé,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,91,ok
+8111,Tomé,entel_redacceso_primarias,Entel,RedAcceso_primarias,20,ok
+8111,Tomé,infraco_redacceso,Infraco,RedAcceso,0,ok
+8111,Tomé,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,604,ok
+8112,Hualpén,claro_redacceso_hfc,Claro,RedAcceso_HFC,156,ok
+8112,Hualpén,claro_redacceso,Claro,RedAcceso,387,ok
+8112,Hualpén,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,279,ok
+8112,Hualpén,entel_redacceso_primarias,Entel,RedAcceso_primarias,47,ok
+8112,Hualpén,infraco_redacceso,Infraco,RedAcceso,1,ok
+8112,Hualpén,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,33,ok
+8201,Lebu,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+8201,Lebu,claro_redacceso,Claro,RedAcceso,3,ok
+8201,Lebu,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,106,ok
+8201,Lebu,entel_redacceso_primarias,Entel,RedAcceso_primarias,11,ok
+8201,Lebu,infraco_redacceso,Infraco,RedAcceso,0,ok
+8201,Lebu,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,343,ok
+8202,Arauco,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+8202,Arauco,claro_redacceso,Claro,RedAcceso,3,ok
+8202,Arauco,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,67,ok
+8202,Arauco,entel_redacceso_primarias,Entel,RedAcceso_primarias,12,ok
+8202,Arauco,infraco_redacceso,Infraco,RedAcceso,0,ok
+8202,Arauco,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,433,ok
+8203,Cañete,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+8203,Cañete,claro_redacceso,Claro,RedAcceso,0,ok
+8203,Cañete,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,117,ok
+8203,Cañete,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+8203,Cañete,infraco_redacceso,Infraco,RedAcceso,0,ok
+8203,Cañete,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,293,ok
+8204,Contulmo,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+8204,Contulmo,claro_redacceso,Claro,RedAcceso,0,ok
+8204,Contulmo,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+8204,Contulmo,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+8204,Contulmo,infraco_redacceso,Infraco,RedAcceso,0,ok
+8204,Contulmo,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+8205,Curanilahue,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+8205,Curanilahue,claro_redacceso,Claro,RedAcceso,4,ok
+8205,Curanilahue,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,44,ok
+8205,Curanilahue,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+8205,Curanilahue,infraco_redacceso,Infraco,RedAcceso,0,ok
+8205,Curanilahue,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,567,ok
+8206,Los Álamos,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+8206,Los Álamos,claro_redacceso,Claro,RedAcceso,0,ok
+8206,Los Álamos,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,25,ok
+8206,Los Álamos,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+8206,Los Álamos,infraco_redacceso,Infraco,RedAcceso,0,ok
+8206,Los Álamos,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,245,ok
+8207,Tirúa,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+8207,Tirúa,claro_redacceso,Claro,RedAcceso,0,ok
+8207,Tirúa,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+8207,Tirúa,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+8207,Tirúa,infraco_redacceso,Infraco,RedAcceso,0,ok
+8207,Tirúa,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+8301,Los Ángeles,claro_redacceso_hfc,Claro,RedAcceso_HFC,268,ok
+8301,Los Ángeles,claro_redacceso,Claro,RedAcceso,1596,ok
+8301,Los Ángeles,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,586,ok
+8301,Los Ángeles,entel_redacceso_primarias,Entel,RedAcceso_primarias,64,ok
+8301,Los Ángeles,infraco_redacceso,Infraco,RedAcceso,706,ok
+8301,Los Ángeles,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+8302,Antuco,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+8302,Antuco,claro_redacceso,Claro,RedAcceso,0,ok
+8302,Antuco,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,15,ok
+8302,Antuco,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+8302,Antuco,infraco_redacceso,Infraco,RedAcceso,0,ok
+8302,Antuco,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+8303,Cabrero,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+8303,Cabrero,claro_redacceso,Claro,RedAcceso,3,ok
+8303,Cabrero,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,81,ok
+8303,Cabrero,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+8303,Cabrero,infraco_redacceso,Infraco,RedAcceso,339,ok
+8303,Cabrero,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+8304,Laja,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+8304,Laja,claro_redacceso,Claro,RedAcceso,3,ok
+8304,Laja,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,34,ok
+8304,Laja,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+8304,Laja,infraco_redacceso,Infraco,RedAcceso,0,ok
+8304,Laja,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,221,ok
+8305,Mulchén,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+8305,Mulchén,claro_redacceso,Claro,RedAcceso,0,ok
+8305,Mulchén,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,30,ok
+8305,Mulchén,entel_redacceso_primarias,Entel,RedAcceso_primarias,3,ok
+8305,Mulchén,infraco_redacceso,Infraco,RedAcceso,0,ok
+8305,Mulchén,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,318,ok
+8306,Nacimiento,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+8306,Nacimiento,claro_redacceso,Claro,RedAcceso,1,ok
+8306,Nacimiento,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,66,ok
+8306,Nacimiento,entel_redacceso_primarias,Entel,RedAcceso_primarias,3,ok
+8306,Nacimiento,infraco_redacceso,Infraco,RedAcceso,0,ok
+8306,Nacimiento,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,296,ok
+8307,Negrete,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+8307,Negrete,claro_redacceso,Claro,RedAcceso,0,ok
+8307,Negrete,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,24,ok
+8307,Negrete,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+8307,Negrete,infraco_redacceso,Infraco,RedAcceso,0,ok
+8307,Negrete,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+8308,Quilaco,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+8308,Quilaco,claro_redacceso,Claro,RedAcceso,3,ok
+8308,Quilaco,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,5,ok
+8308,Quilaco,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+8308,Quilaco,infraco_redacceso,Infraco,RedAcceso,0,ok
+8308,Quilaco,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+8309,Quilleco,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+8309,Quilleco,claro_redacceso,Claro,RedAcceso,0,ok
+8309,Quilleco,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,16,ok
+8309,Quilleco,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+8309,Quilleco,infraco_redacceso,Infraco,RedAcceso,0,ok
+8309,Quilleco,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+8310,San Rosendo,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+8310,San Rosendo,claro_redacceso,Claro,RedAcceso,1,ok
+8310,San Rosendo,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+8310,San Rosendo,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+8310,San Rosendo,infraco_redacceso,Infraco,RedAcceso,0,ok
+8310,San Rosendo,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+8311,Santa Bárbara,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+8311,Santa Bárbara,claro_redacceso,Claro,RedAcceso,5,ok
+8311,Santa Bárbara,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,41,ok
+8311,Santa Bárbara,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+8311,Santa Bárbara,infraco_redacceso,Infraco,RedAcceso,0,ok
+8311,Santa Bárbara,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+8312,Tucapel,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+8312,Tucapel,claro_redacceso,Claro,RedAcceso,0,ok
+8312,Tucapel,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,9,ok
+8312,Tucapel,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+8312,Tucapel,infraco_redacceso,Infraco,RedAcceso,0,ok
+8312,Tucapel,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+8313,Yumbel,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+8313,Yumbel,claro_redacceso,Claro,RedAcceso,0,ok
+8313,Yumbel,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,31,ok
+8313,Yumbel,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+8313,Yumbel,infraco_redacceso,Infraco,RedAcceso,0,ok
+8313,Yumbel,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+8314,Alto Biobío,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+8314,Alto Biobío,claro_redacceso,Claro,RedAcceso,0,ok
+8314,Alto Biobío,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,17,ok
+8314,Alto Biobío,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+8314,Alto Biobío,infraco_redacceso,Infraco,RedAcceso,0,ok
+8314,Alto Biobío,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+9101,Temuco,claro_redacceso_hfc,Claro,RedAcceso_HFC,576,ok
+9101,Temuco,claro_redacceso,Claro,RedAcceso,1181,ok
+9101,Temuco,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,637,ok
+9101,Temuco,entel_redacceso_primarias,Entel,RedAcceso_primarias,159,ok
+9101,Temuco,infraco_redacceso,Infraco,RedAcceso,8133,ok
+9101,Temuco,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,438,ok
+9102,Carahue,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9102,Carahue,claro_redacceso,Claro,RedAcceso,0,ok
+9102,Carahue,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,41,ok
+9102,Carahue,entel_redacceso_primarias,Entel,RedAcceso_primarias,5,ok
+9102,Carahue,infraco_redacceso,Infraco,RedAcceso,0,ok
+9102,Carahue,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+9103,Cunco,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9103,Cunco,claro_redacceso,Claro,RedAcceso,0,ok
+9103,Cunco,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,24,ok
+9103,Cunco,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+9103,Cunco,infraco_redacceso,Infraco,RedAcceso,0,ok
+9103,Cunco,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+9104,Curarrehue,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9104,Curarrehue,claro_redacceso,Claro,RedAcceso,0,ok
+9104,Curarrehue,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,5,ok
+9104,Curarrehue,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+9104,Curarrehue,infraco_redacceso,Infraco,RedAcceso,0,ok
+9104,Curarrehue,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+9105,Freire,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9105,Freire,claro_redacceso,Claro,RedAcceso,8,ok
+9105,Freire,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,46,ok
+9105,Freire,entel_redacceso_primarias,Entel,RedAcceso_primarias,5,ok
+9105,Freire,infraco_redacceso,Infraco,RedAcceso,0,ok
+9105,Freire,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+9106,Galvarino,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9106,Galvarino,claro_redacceso,Claro,RedAcceso,3,ok
+9106,Galvarino,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,22,ok
+9106,Galvarino,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+9106,Galvarino,infraco_redacceso,Infraco,RedAcceso,0,ok
+9106,Galvarino,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+9107,Gorbea,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9107,Gorbea,claro_redacceso,Claro,RedAcceso,0,ok
+9107,Gorbea,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,20,ok
+9107,Gorbea,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+9107,Gorbea,infraco_redacceso,Infraco,RedAcceso,0,ok
+9107,Gorbea,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+9108,Lautaro,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9108,Lautaro,claro_redacceso,Claro,RedAcceso,0,ok
+9108,Lautaro,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,110,ok
+9108,Lautaro,entel_redacceso_primarias,Entel,RedAcceso_primarias,25,ok
+9108,Lautaro,infraco_redacceso,Infraco,RedAcceso,0,ok
+9108,Lautaro,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,654,ok
+9109,Loncoche,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9109,Loncoche,claro_redacceso,Claro,RedAcceso,0,ok
+9109,Loncoche,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,54,ok
+9109,Loncoche,entel_redacceso_primarias,Entel,RedAcceso_primarias,5,ok
+9109,Loncoche,infraco_redacceso,Infraco,RedAcceso,0,ok
+9109,Loncoche,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,383,ok
+9110,Melipeuco,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9110,Melipeuco,claro_redacceso,Claro,RedAcceso,0,ok
+9110,Melipeuco,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+9110,Melipeuco,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+9110,Melipeuco,infraco_redacceso,Infraco,RedAcceso,0,ok
+9110,Melipeuco,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+9111,Nueva Imperial,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9111,Nueva Imperial,claro_redacceso,Claro,RedAcceso,2,ok
+9111,Nueva Imperial,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,64,ok
+9111,Nueva Imperial,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+9111,Nueva Imperial,infraco_redacceso,Infraco,RedAcceso,0,ok
+9111,Nueva Imperial,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,277,ok
+9112,Padre Las Casas,claro_redacceso_hfc,Claro,RedAcceso_HFC,92,ok
+9112,Padre Las Casas,claro_redacceso,Claro,RedAcceso,64,ok
+9112,Padre Las Casas,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,145,ok
+9112,Padre Las Casas,entel_redacceso_primarias,Entel,RedAcceso_primarias,24,ok
+9112,Padre Las Casas,infraco_redacceso,Infraco,RedAcceso,613,ok
+9112,Padre Las Casas,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+9113,Perquenco,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9113,Perquenco,claro_redacceso,Claro,RedAcceso,2,ok
+9113,Perquenco,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+9113,Perquenco,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+9113,Perquenco,infraco_redacceso,Infraco,RedAcceso,0,ok
+9113,Perquenco,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+9114,Pitrufquén,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9114,Pitrufquén,claro_redacceso,Claro,RedAcceso,5,ok
+9114,Pitrufquén,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,68,ok
+9114,Pitrufquén,entel_redacceso_primarias,Entel,RedAcceso_primarias,5,ok
+9114,Pitrufquén,infraco_redacceso,Infraco,RedAcceso,0,ok
+9114,Pitrufquén,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,249,ok
+9115,Pucón,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9115,Pucón,claro_redacceso,Claro,RedAcceso,1,ok
+9115,Pucón,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,77,ok
+9115,Pucón,entel_redacceso_primarias,Entel,RedAcceso_primarias,27,ok
+9115,Pucón,infraco_redacceso,Infraco,RedAcceso,535,ok
+9115,Pucón,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,423,ok
+9116,Saavedra,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9116,Saavedra,claro_redacceso,Claro,RedAcceso,0,ok
+9116,Saavedra,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,20,ok
+9116,Saavedra,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+9116,Saavedra,infraco_redacceso,Infraco,RedAcceso,0,ok
+9116,Saavedra,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+9117,Teodoro Schmidt,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9117,Teodoro Schmidt,claro_redacceso,Claro,RedAcceso,0,ok
+9117,Teodoro Schmidt,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,15,ok
+9117,Teodoro Schmidt,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+9117,Teodoro Schmidt,infraco_redacceso,Infraco,RedAcceso,0,ok
+9117,Teodoro Schmidt,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+9118,Toltén,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9118,Toltén,claro_redacceso,Claro,RedAcceso,0,ok
+9118,Toltén,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,15,ok
+9118,Toltén,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+9118,Toltén,infraco_redacceso,Infraco,RedAcceso,0,ok
+9118,Toltén,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+9119,Vilcún,claro_redacceso_hfc,Claro,RedAcceso_HFC,13,ok
+9119,Vilcún,claro_redacceso,Claro,RedAcceso,28,ok
+9119,Vilcún,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,36,ok
+9119,Vilcún,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+9119,Vilcún,infraco_redacceso,Infraco,RedAcceso,2,ok
+9119,Vilcún,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+9120,Villarrica,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9120,Villarrica,claro_redacceso,Claro,RedAcceso,0,ok
+9120,Villarrica,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,124,ok
+9120,Villarrica,entel_redacceso_primarias,Entel,RedAcceso_primarias,17,ok
+9120,Villarrica,infraco_redacceso,Infraco,RedAcceso,1319,ok
+9120,Villarrica,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,554,ok
+9121,Cholchol,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9121,Cholchol,claro_redacceso,Claro,RedAcceso,0,ok
+9121,Cholchol,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,7,ok
+9121,Cholchol,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+9121,Cholchol,infraco_redacceso,Infraco,RedAcceso,0,ok
+9121,Cholchol,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+9201,Angol,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9201,Angol,claro_redacceso,Claro,RedAcceso,0,ok
+9201,Angol,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,141,ok
+9201,Angol,entel_redacceso_primarias,Entel,RedAcceso_primarias,8,ok
+9201,Angol,infraco_redacceso,Infraco,RedAcceso,452,ok
+9201,Angol,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,757,ok
+9202,Collipulli,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9202,Collipulli,claro_redacceso,Claro,RedAcceso,1,ok
+9202,Collipulli,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,44,ok
+9202,Collipulli,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+9202,Collipulli,infraco_redacceso,Infraco,RedAcceso,0,ok
+9202,Collipulli,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,241,ok
+9203,Curacautín,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9203,Curacautín,claro_redacceso,Claro,RedAcceso,0,ok
+9203,Curacautín,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,51,ok
+9203,Curacautín,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+9203,Curacautín,infraco_redacceso,Infraco,RedAcceso,0,ok
+9203,Curacautín,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+9204,Ercilla,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9204,Ercilla,claro_redacceso,Claro,RedAcceso,0,ok
+9204,Ercilla,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,11,ok
+9204,Ercilla,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+9204,Ercilla,infraco_redacceso,Infraco,RedAcceso,0,ok
+9204,Ercilla,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+9205,Lonquimay,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9205,Lonquimay,claro_redacceso,Claro,RedAcceso,0,ok
+9205,Lonquimay,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,45,ok
+9205,Lonquimay,entel_redacceso_primarias,Entel,RedAcceso_primarias,3,ok
+9205,Lonquimay,infraco_redacceso,Infraco,RedAcceso,0,ok
+9205,Lonquimay,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+9206,Los Sauces,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9206,Los Sauces,claro_redacceso,Claro,RedAcceso,0,ok
+9206,Los Sauces,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,16,ok
+9206,Los Sauces,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+9206,Los Sauces,infraco_redacceso,Infraco,RedAcceso,0,ok
+9206,Los Sauces,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+9207,Lumaco,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9207,Lumaco,claro_redacceso,Claro,RedAcceso,0,ok
+9207,Lumaco,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,11,ok
+9207,Lumaco,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+9207,Lumaco,infraco_redacceso,Infraco,RedAcceso,0,ok
+9207,Lumaco,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+9208,Purén,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9208,Purén,claro_redacceso,Claro,RedAcceso,0,ok
+9208,Purén,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,31,ok
+9208,Purén,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+9208,Purén,infraco_redacceso,Infraco,RedAcceso,0,ok
+9208,Purén,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+9209,Renaico,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9209,Renaico,claro_redacceso,Claro,RedAcceso,0,ok
+9209,Renaico,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,9,ok
+9209,Renaico,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+9209,Renaico,infraco_redacceso,Infraco,RedAcceso,0,ok
+9209,Renaico,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+9210,Traiguén,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9210,Traiguén,claro_redacceso,Claro,RedAcceso,0,ok
+9210,Traiguén,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,30,ok
+9210,Traiguén,entel_redacceso_primarias,Entel,RedAcceso_primarias,6,ok
+9210,Traiguén,infraco_redacceso,Infraco,RedAcceso,0,ok
+9210,Traiguén,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+9211,Victoria,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+9211,Victoria,claro_redacceso,Claro,RedAcceso,8,ok
+9211,Victoria,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,104,ok
+9211,Victoria,entel_redacceso_primarias,Entel,RedAcceso_primarias,5,ok
+9211,Victoria,infraco_redacceso,Infraco,RedAcceso,0,ok
+9211,Victoria,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,371,ok
+10101,Puerto Montt,claro_redacceso_hfc,Claro,RedAcceso_HFC,293,ok
+10101,Puerto Montt,claro_redacceso,Claro,RedAcceso,769,ok
+10101,Puerto Montt,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,920,ok
+10101,Puerto Montt,entel_redacceso_primarias,Entel,RedAcceso_primarias,129,ok
+10101,Puerto Montt,infraco_redacceso,Infraco,RedAcceso,5139,ok
+10101,Puerto Montt,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,683,ok
+10102,Calbuco,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10102,Calbuco,claro_redacceso,Claro,RedAcceso,0,ok
+10102,Calbuco,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,41,ok
+10102,Calbuco,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+10102,Calbuco,infraco_redacceso,Infraco,RedAcceso,0,ok
+10102,Calbuco,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+10103,Cochamó,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10103,Cochamó,claro_redacceso,Claro,RedAcceso,0,ok
+10103,Cochamó,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+10103,Cochamó,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+10103,Cochamó,infraco_redacceso,Infraco,RedAcceso,0,ok
+10103,Cochamó,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+10104,Fresia,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10104,Fresia,claro_redacceso,Claro,RedAcceso,0,ok
+10104,Fresia,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,16,ok
+10104,Fresia,entel_redacceso_primarias,Entel,RedAcceso_primarias,4,ok
+10104,Fresia,infraco_redacceso,Infraco,RedAcceso,0,ok
+10104,Fresia,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+10105,Frutillar,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10105,Frutillar,claro_redacceso,Claro,RedAcceso,1,ok
+10105,Frutillar,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,29,ok
+10105,Frutillar,entel_redacceso_primarias,Entel,RedAcceso_primarias,7,ok
+10105,Frutillar,infraco_redacceso,Infraco,RedAcceso,0,ok
+10105,Frutillar,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,208,ok
+10106,Los Muermos,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10106,Los Muermos,claro_redacceso,Claro,RedAcceso,0,ok
+10106,Los Muermos,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,42,ok
+10106,Los Muermos,entel_redacceso_primarias,Entel,RedAcceso_primarias,4,ok
+10106,Los Muermos,infraco_redacceso,Infraco,RedAcceso,0,ok
+10106,Los Muermos,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+10107,Llanquihue,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10107,Llanquihue,claro_redacceso,Claro,RedAcceso,0,ok
+10107,Llanquihue,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,26,ok
+10107,Llanquihue,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+10107,Llanquihue,infraco_redacceso,Infraco,RedAcceso,0,ok
+10107,Llanquihue,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,202,ok
+10108,Maullín,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10108,Maullín,claro_redacceso,Claro,RedAcceso,0,ok
+10108,Maullín,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,24,ok
+10108,Maullín,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+10108,Maullín,infraco_redacceso,Infraco,RedAcceso,0,ok
+10108,Maullín,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+10109,Puerto Varas,claro_redacceso_hfc,Claro,RedAcceso_HFC,57,ok
+10109,Puerto Varas,claro_redacceso,Claro,RedAcceso,121,ok
+10109,Puerto Varas,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,151,ok
+10109,Puerto Varas,entel_redacceso_primarias,Entel,RedAcceso_primarias,15,ok
+10109,Puerto Varas,infraco_redacceso,Infraco,RedAcceso,1,ok
+10109,Puerto Varas,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,2,ok
+10201,Castro,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10201,Castro,claro_redacceso,Claro,RedAcceso,0,ok
+10201,Castro,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,174,ok
+10201,Castro,entel_redacceso_primarias,Entel,RedAcceso_primarias,10,ok
+10201,Castro,infraco_redacceso,Infraco,RedAcceso,0,ok
+10201,Castro,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,1,ok
+10202,Ancud,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10202,Ancud,claro_redacceso,Claro,RedAcceso,4,ok
+10202,Ancud,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,82,ok
+10202,Ancud,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+10202,Ancud,infraco_redacceso,Infraco,RedAcceso,0,ok
+10202,Ancud,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,1,ok
+10203,Chonchi,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10203,Chonchi,claro_redacceso,Claro,RedAcceso,0,ok
+10203,Chonchi,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,8,ok
+10203,Chonchi,entel_redacceso_primarias,Entel,RedAcceso_primarias,4,ok
+10203,Chonchi,infraco_redacceso,Infraco,RedAcceso,0,ok
+10203,Chonchi,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+10204,Curaco de Vélez,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10204,Curaco de Vélez,claro_redacceso,Claro,RedAcceso,0,ok
+10204,Curaco de Vélez,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+10204,Curaco de Vélez,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+10204,Curaco de Vélez,infraco_redacceso,Infraco,RedAcceso,0,ok
+10204,Curaco de Vélez,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+10205,Dalcahue,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10205,Dalcahue,claro_redacceso,Claro,RedAcceso,0,ok
+10205,Dalcahue,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,5,ok
+10205,Dalcahue,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+10205,Dalcahue,infraco_redacceso,Infraco,RedAcceso,0,ok
+10205,Dalcahue,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+10206,Puqueldón,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10206,Puqueldón,claro_redacceso,Claro,RedAcceso,0,ok
+10206,Puqueldón,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+10206,Puqueldón,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+10206,Puqueldón,infraco_redacceso,Infraco,RedAcceso,0,ok
+10206,Puqueldón,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+10207,Queilén,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10207,Queilén,claro_redacceso,Claro,RedAcceso,0,ok
+10207,Queilén,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,17,ok
+10207,Queilén,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+10207,Queilén,infraco_redacceso,Infraco,RedAcceso,0,ok
+10207,Queilén,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+10208,Quellón,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10208,Quellón,claro_redacceso,Claro,RedAcceso,0,ok
+10208,Quellón,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,48,ok
+10208,Quellón,entel_redacceso_primarias,Entel,RedAcceso_primarias,5,ok
+10208,Quellón,infraco_redacceso,Infraco,RedAcceso,0,ok
+10208,Quellón,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+10209,Quemchi,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10209,Quemchi,claro_redacceso,Claro,RedAcceso,0,ok
+10209,Quemchi,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,7,ok
+10209,Quemchi,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+10209,Quemchi,infraco_redacceso,Infraco,RedAcceso,0,ok
+10209,Quemchi,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+10210,Quinchao,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10210,Quinchao,claro_redacceso,Claro,RedAcceso,3,ok
+10210,Quinchao,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,16,ok
+10210,Quinchao,entel_redacceso_primarias,Entel,RedAcceso_primarias,3,ok
+10210,Quinchao,infraco_redacceso,Infraco,RedAcceso,0,ok
+10210,Quinchao,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+10301,Osorno,claro_redacceso_hfc,Claro,RedAcceso_HFC,237,ok
+10301,Osorno,claro_redacceso,Claro,RedAcceso,531,ok
+10301,Osorno,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,425,ok
+10301,Osorno,entel_redacceso_primarias,Entel,RedAcceso_primarias,99,ok
+10301,Osorno,infraco_redacceso,Infraco,RedAcceso,4264,ok
+10301,Osorno,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,84,ok
+10302,Puerto Octay,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10302,Puerto Octay,claro_redacceso,Claro,RedAcceso,0,ok
+10302,Puerto Octay,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,5,ok
+10302,Puerto Octay,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+10302,Puerto Octay,infraco_redacceso,Infraco,RedAcceso,0,ok
+10302,Puerto Octay,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+10303,Purranque,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10303,Purranque,claro_redacceso,Claro,RedAcceso,1,ok
+10303,Purranque,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,33,ok
+10303,Purranque,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+10303,Purranque,infraco_redacceso,Infraco,RedAcceso,0,ok
+10303,Purranque,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,167,ok
+10304,Puyehue,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10304,Puyehue,claro_redacceso,Claro,RedAcceso,0,ok
+10304,Puyehue,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,13,ok
+10304,Puyehue,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+10304,Puyehue,infraco_redacceso,Infraco,RedAcceso,0,ok
+10304,Puyehue,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+10305,Río Negro,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10305,Río Negro,claro_redacceso,Claro,RedAcceso,0,ok
+10305,Río Negro,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,27,ok
+10305,Río Negro,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+10305,Río Negro,infraco_redacceso,Infraco,RedAcceso,0,ok
+10305,Río Negro,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+10306,San Juan de la Costa,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10306,San Juan de la Costa,claro_redacceso,Claro,RedAcceso,0,ok
+10306,San Juan de la Costa,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+10306,San Juan de la Costa,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+10306,San Juan de la Costa,infraco_redacceso,Infraco,RedAcceso,0,ok
+10306,San Juan de la Costa,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+10307,San Pablo,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10307,San Pablo,claro_redacceso,Claro,RedAcceso,0,ok
+10307,San Pablo,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,11,ok
+10307,San Pablo,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+10307,San Pablo,infraco_redacceso,Infraco,RedAcceso,0,ok
+10307,San Pablo,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+10401,Chaitén,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10401,Chaitén,claro_redacceso,Claro,RedAcceso,3,ok
+10401,Chaitén,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,10,ok
+10401,Chaitén,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+10401,Chaitén,infraco_redacceso,Infraco,RedAcceso,0,ok
+10401,Chaitén,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+10402,Futaleufú,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10402,Futaleufú,claro_redacceso,Claro,RedAcceso,1,ok
+10402,Futaleufú,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,6,ok
+10402,Futaleufú,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+10402,Futaleufú,infraco_redacceso,Infraco,RedAcceso,0,ok
+10402,Futaleufú,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+10403,Hualaihué,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10403,Hualaihué,claro_redacceso,Claro,RedAcceso,0,ok
+10403,Hualaihué,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,8,ok
+10403,Hualaihué,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+10403,Hualaihué,infraco_redacceso,Infraco,RedAcceso,0,ok
+10403,Hualaihué,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+10404,Palena,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+10404,Palena,claro_redacceso,Claro,RedAcceso,0,ok
+10404,Palena,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+10404,Palena,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+10404,Palena,infraco_redacceso,Infraco,RedAcceso,0,ok
+10404,Palena,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+11101,Coyhaique,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+11101,Coyhaique,claro_redacceso,Claro,RedAcceso,130,ok
+11101,Coyhaique,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,147,ok
+11101,Coyhaique,entel_redacceso_primarias,Entel,RedAcceso_primarias,52,ok
+11101,Coyhaique,infraco_redacceso,Infraco,RedAcceso,0,ok
+11101,Coyhaique,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+11102,Lago Verde,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+11102,Lago Verde,claro_redacceso,Claro,RedAcceso,0,ok
+11102,Lago Verde,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+11102,Lago Verde,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+11102,Lago Verde,infraco_redacceso,Infraco,RedAcceso,0,ok
+11102,Lago Verde,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+11201,Aysén,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+11201,Aysén,claro_redacceso,Claro,RedAcceso,3,ok
+11201,Aysén,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,33,ok
+11201,Aysén,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+11201,Aysén,infraco_redacceso,Infraco,RedAcceso,0,ok
+11201,Aysén,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+11202,Cisnes,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+11202,Cisnes,claro_redacceso,Claro,RedAcceso,4,ok
+11202,Cisnes,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,7,ok
+11202,Cisnes,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+11202,Cisnes,infraco_redacceso,Infraco,RedAcceso,0,ok
+11202,Cisnes,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+11203,Guaitecas,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+11203,Guaitecas,claro_redacceso,Claro,RedAcceso,0,ok
+11203,Guaitecas,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+11203,Guaitecas,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+11203,Guaitecas,infraco_redacceso,Infraco,RedAcceso,0,ok
+11203,Guaitecas,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+11301,Cochrane,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+11301,Cochrane,claro_redacceso,Claro,RedAcceso,2,ok
+11301,Cochrane,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,3,ok
+11301,Cochrane,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+11301,Cochrane,infraco_redacceso,Infraco,RedAcceso,0,ok
+11301,Cochrane,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+11302,O'Higgins,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+11302,O'Higgins,claro_redacceso,Claro,RedAcceso,0,ok
+11302,O'Higgins,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+11302,O'Higgins,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+11302,O'Higgins,infraco_redacceso,Infraco,RedAcceso,0,ok
+11302,O'Higgins,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+11303,Tortel,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+11303,Tortel,claro_redacceso,Claro,RedAcceso,0,ok
+11303,Tortel,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+11303,Tortel,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+11303,Tortel,infraco_redacceso,Infraco,RedAcceso,0,ok
+11303,Tortel,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+11401,Chile Chico,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+11401,Chile Chico,claro_redacceso,Claro,RedAcceso,3,ok
+11401,Chile Chico,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,13,ok
+11401,Chile Chico,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+11401,Chile Chico,infraco_redacceso,Infraco,RedAcceso,0,ok
+11401,Chile Chico,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+11402,Río Ibáñez,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+11402,Río Ibáñez,claro_redacceso,Claro,RedAcceso,0,ok
+11402,Río Ibáñez,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,1,ok
+11402,Río Ibáñez,entel_redacceso_primarias,Entel,RedAcceso_primarias,21,ok
+11402,Río Ibáñez,infraco_redacceso,Infraco,RedAcceso,0,ok
+11402,Río Ibáñez,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+12101,Punta Arenas,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+12101,Punta Arenas,claro_redacceso,Claro,RedAcceso,727,ok
+12101,Punta Arenas,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,472,ok
+12101,Punta Arenas,entel_redacceso_primarias,Entel,RedAcceso_primarias,77,ok
+12101,Punta Arenas,infraco_redacceso,Infraco,RedAcceso,6277,ok
+12101,Punta Arenas,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+12102,Laguna Blanca,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+12102,Laguna Blanca,claro_redacceso,Claro,RedAcceso,0,ok
+12102,Laguna Blanca,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+12102,Laguna Blanca,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+12102,Laguna Blanca,infraco_redacceso,Infraco,RedAcceso,0,ok
+12102,Laguna Blanca,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+12103,Río Verde,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+12103,Río Verde,claro_redacceso,Claro,RedAcceso,0,ok
+12103,Río Verde,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+12103,Río Verde,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+12103,Río Verde,infraco_redacceso,Infraco,RedAcceso,0,ok
+12103,Río Verde,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+12104,San Gregorio,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+12104,San Gregorio,claro_redacceso,Claro,RedAcceso,0,ok
+12104,San Gregorio,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+12104,San Gregorio,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+12104,San Gregorio,infraco_redacceso,Infraco,RedAcceso,0,ok
+12104,San Gregorio,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+12201,Cabo de Hornos,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+12201,Cabo de Hornos,claro_redacceso,Claro,RedAcceso,0,ok
+12201,Cabo de Hornos,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,9,ok
+12201,Cabo de Hornos,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+12201,Cabo de Hornos,infraco_redacceso,Infraco,RedAcceso,0,ok
+12201,Cabo de Hornos,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+12301,Porvenir,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+12301,Porvenir,claro_redacceso,Claro,RedAcceso,4,ok
+12301,Porvenir,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,41,ok
+12301,Porvenir,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+12301,Porvenir,infraco_redacceso,Infraco,RedAcceso,455,ok
+12301,Porvenir,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+12302,Primavera,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+12302,Primavera,claro_redacceso,Claro,RedAcceso,2,ok
+12302,Primavera,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,2,ok
+12302,Primavera,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+12302,Primavera,infraco_redacceso,Infraco,RedAcceso,0,ok
+12302,Primavera,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+12303,Timaukel,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+12303,Timaukel,claro_redacceso,Claro,RedAcceso,0,ok
+12303,Timaukel,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+12303,Timaukel,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+12303,Timaukel,infraco_redacceso,Infraco,RedAcceso,0,ok
+12303,Timaukel,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+12401,Natales,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+12401,Natales,claro_redacceso,Claro,RedAcceso,0,ok
+12401,Natales,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,61,ok
+12401,Natales,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+12401,Natales,infraco_redacceso,Infraco,RedAcceso,1535,ok
+12401,Natales,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+12402,Torres del Paine,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+12402,Torres del Paine,claro_redacceso,Claro,RedAcceso,0,ok
+12402,Torres del Paine,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+12402,Torres del Paine,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+12402,Torres del Paine,infraco_redacceso,Infraco,RedAcceso,0,ok
+12402,Torres del Paine,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+13101,Santiago,claro_redacceso_hfc,Claro,RedAcceso_HFC,1161,ok
+13101,Santiago,claro_redacceso,Claro,RedAcceso,3556,ok
+13101,Santiago,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,4504,ok
+13101,Santiago,entel_redacceso_primarias,Entel,RedAcceso_primarias,1052,ok
+13101,Santiago,infraco_redacceso,Infraco,RedAcceso,7743,ok
+13101,Santiago,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,8,ok
+13102,Cerrillos,claro_redacceso_hfc,Claro,RedAcceso_HFC,161,ok
+13102,Cerrillos,claro_redacceso,Claro,RedAcceso,772,ok
+13102,Cerrillos,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,405,ok
+13102,Cerrillos,entel_redacceso_primarias,Entel,RedAcceso_primarias,123,ok
+13102,Cerrillos,infraco_redacceso,Infraco,RedAcceso,1813,ok
+13102,Cerrillos,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,22,ok
+13103,Cerro Navia,claro_redacceso_hfc,Claro,RedAcceso_HFC,10,ok
+13103,Cerro Navia,claro_redacceso,Claro,RedAcceso,119,ok
+13103,Cerro Navia,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,98,ok
+13103,Cerro Navia,entel_redacceso_primarias,Entel,RedAcceso_primarias,13,ok
+13103,Cerro Navia,infraco_redacceso,Infraco,RedAcceso,2660,ok
+13103,Cerro Navia,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+13104,Conchalí,claro_redacceso_hfc,Claro,RedAcceso_HFC,302,ok
+13104,Conchalí,claro_redacceso,Claro,RedAcceso,895,ok
+13104,Conchalí,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,319,ok
+13104,Conchalí,entel_redacceso_primarias,Entel,RedAcceso_primarias,93,ok
+13104,Conchalí,infraco_redacceso,Infraco,RedAcceso,2962,ok
+13104,Conchalí,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,55,ok
+13105,El Bosque,claro_redacceso_hfc,Claro,RedAcceso_HFC,352,ok
+13105,El Bosque,claro_redacceso,Claro,RedAcceso,258,ok
+13105,El Bosque,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,117,ok
+13105,El Bosque,entel_redacceso_primarias,Entel,RedAcceso_primarias,48,ok
+13105,El Bosque,infraco_redacceso,Infraco,RedAcceso,32,ok
+13105,El Bosque,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,2,ok
+13106,Estación Central,claro_redacceso_hfc,Claro,RedAcceso_HFC,292,ok
+13106,Estación Central,claro_redacceso,Claro,RedAcceso,1023,ok
+13106,Estación Central,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,374,ok
+13106,Estación Central,entel_redacceso_primarias,Entel,RedAcceso_primarias,94,ok
+13106,Estación Central,infraco_redacceso,Infraco,RedAcceso,3297,ok
+13106,Estación Central,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,36,ok
+13107,Huechuraba,claro_redacceso_hfc,Claro,RedAcceso_HFC,107,ok
+13107,Huechuraba,claro_redacceso,Claro,RedAcceso,1415,ok
+13107,Huechuraba,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,558,ok
+13107,Huechuraba,entel_redacceso_primarias,Entel,RedAcceso_primarias,144,ok
+13107,Huechuraba,infraco_redacceso,Infraco,RedAcceso,2438,ok
+13107,Huechuraba,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,28,ok
+13108,Independencia,claro_redacceso_hfc,Claro,RedAcceso_HFC,254,ok
+13108,Independencia,claro_redacceso,Claro,RedAcceso,495,ok
+13108,Independencia,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,386,ok
+13108,Independencia,entel_redacceso_primarias,Entel,RedAcceso_primarias,109,ok
+13108,Independencia,infraco_redacceso,Infraco,RedAcceso,2099,ok
+13108,Independencia,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,36,ok
+13109,La Cisterna,claro_redacceso_hfc,Claro,RedAcceso_HFC,238,ok
+13109,La Cisterna,claro_redacceso,Claro,RedAcceso,325,ok
+13109,La Cisterna,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,225,ok
+13109,La Cisterna,entel_redacceso_primarias,Entel,RedAcceso_primarias,68,ok
+13109,La Cisterna,infraco_redacceso,Infraco,RedAcceso,2595,ok
+13109,La Cisterna,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,83,ok
+13110,La Florida,claro_redacceso_hfc,Claro,RedAcceso_HFC,485,ok
+13110,La Florida,claro_redacceso,Claro,RedAcceso,1685,ok
+13110,La Florida,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,637,ok
+13110,La Florida,entel_redacceso_primarias,Entel,RedAcceso_primarias,262,ok
+13110,La Florida,infraco_redacceso,Infraco,RedAcceso,8658,ok
+13110,La Florida,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,128,ok
+13111,La Granja,claro_redacceso_hfc,Claro,RedAcceso_HFC,60,ok
+13111,La Granja,claro_redacceso,Claro,RedAcceso,235,ok
+13111,La Granja,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,106,ok
+13111,La Granja,entel_redacceso_primarias,Entel,RedAcceso_primarias,31,ok
+13111,La Granja,infraco_redacceso,Infraco,RedAcceso,86,ok
+13111,La Granja,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,89,ok
+13112,La Pintana,claro_redacceso_hfc,Claro,RedAcceso_HFC,18,ok
+13112,La Pintana,claro_redacceso,Claro,RedAcceso,263,ok
+13112,La Pintana,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,96,ok
+13112,La Pintana,entel_redacceso_primarias,Entel,RedAcceso_primarias,32,ok
+13112,La Pintana,infraco_redacceso,Infraco,RedAcceso,10,ok
+13112,La Pintana,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,1,ok
+13113,La Reina,claro_redacceso_hfc,Claro,RedAcceso_HFC,176,ok
+13113,La Reina,claro_redacceso,Claro,RedAcceso,333,ok
+13113,La Reina,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,246,ok
+13113,La Reina,entel_redacceso_primarias,Entel,RedAcceso_primarias,155,ok
+13113,La Reina,infraco_redacceso,Infraco,RedAcceso,2725,ok
+13113,La Reina,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,168,ok
+13114,Las Condes,claro_redacceso_hfc,Claro,RedAcceso_HFC,885,ok
+13114,Las Condes,claro_redacceso,Claro,RedAcceso,2623,ok
+13114,Las Condes,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,2859,ok
+13114,Las Condes,entel_redacceso_primarias,Entel,RedAcceso_primarias,759,ok
+13114,Las Condes,infraco_redacceso,Infraco,RedAcceso,8179,ok
+13114,Las Condes,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,236,ok
+13115,Lo Barnechea,claro_redacceso_hfc,Claro,RedAcceso_HFC,251,ok
+13115,Lo Barnechea,claro_redacceso,Claro,RedAcceso,131,ok
+13115,Lo Barnechea,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,186,ok
+13115,Lo Barnechea,entel_redacceso_primarias,Entel,RedAcceso_primarias,45,ok
+13115,Lo Barnechea,infraco_redacceso,Infraco,RedAcceso,1787,ok
+13115,Lo Barnechea,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,12,ok
+13116,Lo Espejo,claro_redacceso_hfc,Claro,RedAcceso_HFC,47,ok
+13116,Lo Espejo,claro_redacceso,Claro,RedAcceso,79,ok
+13116,Lo Espejo,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,120,ok
+13116,Lo Espejo,entel_redacceso_primarias,Entel,RedAcceso_primarias,9,ok
+13116,Lo Espejo,infraco_redacceso,Infraco,RedAcceso,0,ok
+13116,Lo Espejo,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,60,ok
+13117,Lo Prado,claro_redacceso_hfc,Claro,RedAcceso_HFC,103,ok
+13117,Lo Prado,claro_redacceso,Claro,RedAcceso,411,ok
+13117,Lo Prado,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,67,ok
+13117,Lo Prado,entel_redacceso_primarias,Entel,RedAcceso_primarias,9,ok
+13117,Lo Prado,infraco_redacceso,Infraco,RedAcceso,65,ok
+13117,Lo Prado,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+13118,Macul,claro_redacceso_hfc,Claro,RedAcceso_HFC,231,ok
+13118,Macul,claro_redacceso,Claro,RedAcceso,752,ok
+13118,Macul,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,381,ok
+13118,Macul,entel_redacceso_primarias,Entel,RedAcceso_primarias,157,ok
+13118,Macul,infraco_redacceso,Infraco,RedAcceso,2944,ok
+13118,Macul,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,50,ok
+13119,Maipú,claro_redacceso_hfc,Claro,RedAcceso_HFC,724,ok
+13119,Maipú,claro_redacceso,Claro,RedAcceso,2615,ok
+13119,Maipú,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,861,ok
+13119,Maipú,entel_redacceso_primarias,Entel,RedAcceso_primarias,364,ok
+13119,Maipú,infraco_redacceso,Infraco,RedAcceso,13519,ok
+13119,Maipú,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,153,ok
+13120,Ñuñoa,claro_redacceso_hfc,Claro,RedAcceso_HFC,466,ok
+13120,Ñuñoa,claro_redacceso,Claro,RedAcceso,1530,ok
+13120,Ñuñoa,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,681,ok
+13120,Ñuñoa,entel_redacceso_primarias,Entel,RedAcceso_primarias,270,ok
+13120,Ñuñoa,infraco_redacceso,Infraco,RedAcceso,6478,ok
+13120,Ñuñoa,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,373,ok
+13121,Pedro Aguirre Cerda,claro_redacceso_hfc,Claro,RedAcceso_HFC,39,ok
+13121,Pedro Aguirre Cerda,claro_redacceso,Claro,RedAcceso,250,ok
+13121,Pedro Aguirre Cerda,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,101,ok
+13121,Pedro Aguirre Cerda,entel_redacceso_primarias,Entel,RedAcceso_primarias,7,ok
+13121,Pedro Aguirre Cerda,infraco_redacceso,Infraco,RedAcceso,2,ok
+13121,Pedro Aguirre Cerda,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,291,ok
+13122,Peñalolén,claro_redacceso_hfc,Claro,RedAcceso_HFC,237,ok
+13122,Peñalolén,claro_redacceso,Claro,RedAcceso,446,ok
+13122,Peñalolén,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,261,ok
+13122,Peñalolén,entel_redacceso_primarias,Entel,RedAcceso_primarias,79,ok
+13122,Peñalolén,infraco_redacceso,Infraco,RedAcceso,4549,ok
+13122,Peñalolén,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,63,ok
+13123,Providencia,claro_redacceso_hfc,Claro,RedAcceso_HFC,475,ok
+13123,Providencia,claro_redacceso,Claro,RedAcceso,2889,ok
+13123,Providencia,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,2244,ok
+13123,Providencia,entel_redacceso_primarias,Entel,RedAcceso_primarias,563,ok
+13123,Providencia,infraco_redacceso,Infraco,RedAcceso,6062,ok
+13123,Providencia,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,76,ok
+13124,Pudahuel,claro_redacceso_hfc,Claro,RedAcceso_HFC,255,ok
+13124,Pudahuel,claro_redacceso,Claro,RedAcceso,1269,ok
+13124,Pudahuel,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,754,ok
+13124,Pudahuel,entel_redacceso_primarias,Entel,RedAcceso_primarias,171,ok
+13124,Pudahuel,infraco_redacceso,Infraco,RedAcceso,5470,ok
+13124,Pudahuel,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,11,ok
+13125,Quilicura,claro_redacceso_hfc,Claro,RedAcceso_HFC,369,ok
+13125,Quilicura,claro_redacceso,Claro,RedAcceso,2088,ok
+13125,Quilicura,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,990,ok
+13125,Quilicura,entel_redacceso_primarias,Entel,RedAcceso_primarias,372,ok
+13125,Quilicura,infraco_redacceso,Infraco,RedAcceso,4594,ok
+13125,Quilicura,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,67,ok
+13126,Quinta Normal,claro_redacceso_hfc,Claro,RedAcceso_HFC,233,ok
+13126,Quinta Normal,claro_redacceso,Claro,RedAcceso,589,ok
+13126,Quinta Normal,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,128,ok
+13126,Quinta Normal,entel_redacceso_primarias,Entel,RedAcceso_primarias,53,ok
+13126,Quinta Normal,infraco_redacceso,Infraco,RedAcceso,2975,ok
+13126,Quinta Normal,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+13127,Recoleta,claro_redacceso_hfc,Claro,RedAcceso_HFC,197,ok
+13127,Recoleta,claro_redacceso,Claro,RedAcceso,586,ok
+13127,Recoleta,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,372,ok
+13127,Recoleta,entel_redacceso_primarias,Entel,RedAcceso_primarias,128,ok
+13127,Recoleta,infraco_redacceso,Infraco,RedAcceso,3336,ok
+13127,Recoleta,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,89,ok
+13128,Renca,claro_redacceso_hfc,Claro,RedAcceso_HFC,150,ok
+13128,Renca,claro_redacceso,Claro,RedAcceso,1115,ok
+13128,Renca,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,329,ok
+13128,Renca,entel_redacceso_primarias,Entel,RedAcceso_primarias,106,ok
+13128,Renca,infraco_redacceso,Infraco,RedAcceso,3269,ok
+13128,Renca,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+13129,San Joaquín,claro_redacceso_hfc,Claro,RedAcceso_HFC,150,ok
+13129,San Joaquín,claro_redacceso,Claro,RedAcceso,282,ok
+13129,San Joaquín,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,267,ok
+13129,San Joaquín,entel_redacceso_primarias,Entel,RedAcceso_primarias,108,ok
+13129,San Joaquín,infraco_redacceso,Infraco,RedAcceso,2325,ok
+13129,San Joaquín,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,93,ok
+13130,San Miguel,claro_redacceso_hfc,Claro,RedAcceso_HFC,340,ok
+13130,San Miguel,claro_redacceso,Claro,RedAcceso,532,ok
+13130,San Miguel,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,342,ok
+13130,San Miguel,entel_redacceso_primarias,Entel,RedAcceso_primarias,117,ok
+13130,San Miguel,infraco_redacceso,Infraco,RedAcceso,2439,ok
+13130,San Miguel,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,64,ok
+13131,San Ramón,claro_redacceso_hfc,Claro,RedAcceso_HFC,10,ok
+13131,San Ramón,claro_redacceso,Claro,RedAcceso,225,ok
+13131,San Ramón,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,66,ok
+13131,San Ramón,entel_redacceso_primarias,Entel,RedAcceso_primarias,11,ok
+13131,San Ramón,infraco_redacceso,Infraco,RedAcceso,9,ok
+13131,San Ramón,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,324,ok
+13132,Vitacura,claro_redacceso_hfc,Claro,RedAcceso_HFC,221,ok
+13132,Vitacura,claro_redacceso,Claro,RedAcceso,604,ok
+13132,Vitacura,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,645,ok
+13132,Vitacura,entel_redacceso_primarias,Entel,RedAcceso_primarias,235,ok
+13132,Vitacura,infraco_redacceso,Infraco,RedAcceso,2678,ok
+13132,Vitacura,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,5,ok
+13201,Puente Alto,claro_redacceso_hfc,Claro,RedAcceso_HFC,808,ok
+13201,Puente Alto,claro_redacceso,Claro,RedAcceso,2597,ok
+13201,Puente Alto,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,533,ok
+13201,Puente Alto,entel_redacceso_primarias,Entel,RedAcceso_primarias,159,ok
+13201,Puente Alto,infraco_redacceso,Infraco,RedAcceso,12269,ok
+13201,Puente Alto,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,281,ok
+13202,Pirque,claro_redacceso_hfc,Claro,RedAcceso_HFC,6,ok
+13202,Pirque,claro_redacceso,Claro,RedAcceso,73,ok
+13202,Pirque,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,27,ok
+13202,Pirque,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+13202,Pirque,infraco_redacceso,Infraco,RedAcceso,39,ok
+13202,Pirque,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,315,ok
+13203,San José de Maipo,claro_redacceso_hfc,Claro,RedAcceso_HFC,13,ok
+13203,San José de Maipo,claro_redacceso,Claro,RedAcceso,154,ok
+13203,San José de Maipo,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,23,ok
+13203,San José de Maipo,entel_redacceso_primarias,Entel,RedAcceso_primarias,5,ok
+13203,San José de Maipo,infraco_redacceso,Infraco,RedAcceso,0,ok
+13203,San José de Maipo,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,163,ok
+13301,Colina,claro_redacceso_hfc,Claro,RedAcceso_HFC,261,ok
+13301,Colina,claro_redacceso,Claro,RedAcceso,244,ok
+13301,Colina,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,399,ok
+13301,Colina,entel_redacceso_primarias,Entel,RedAcceso_primarias,62,ok
+13301,Colina,infraco_redacceso,Infraco,RedAcceso,2014,ok
+13301,Colina,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+13302,Lampa,claro_redacceso_hfc,Claro,RedAcceso_HFC,146,ok
+13302,Lampa,claro_redacceso,Claro,RedAcceso,299,ok
+13302,Lampa,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,302,ok
+13302,Lampa,entel_redacceso_primarias,Entel,RedAcceso_primarias,41,ok
+13302,Lampa,infraco_redacceso,Infraco,RedAcceso,2328,ok
+13302,Lampa,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+13303,Tiltil,claro_redacceso_hfc,Claro,RedAcceso_HFC,9,ok
+13303,Tiltil,claro_redacceso,Claro,RedAcceso,10,ok
+13303,Tiltil,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,1,ok
+13303,Tiltil,entel_redacceso_primarias,Entel,RedAcceso_primarias,9,ok
+13303,Tiltil,infraco_redacceso,Infraco,RedAcceso,0,ok
+13303,Tiltil,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+13401,San Bernardo,claro_redacceso_hfc,Claro,RedAcceso_HFC,475,ok
+13401,San Bernardo,claro_redacceso,Claro,RedAcceso,3123,ok
+13401,San Bernardo,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,923,ok
+13401,San Bernardo,entel_redacceso_primarias,Entel,RedAcceso_primarias,159,ok
+13401,San Bernardo,infraco_redacceso,Infraco,RedAcceso,5974,ok
+13401,San Bernardo,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,167,ok
+13402,Buin,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+13402,Buin,claro_redacceso,Claro,RedAcceso,759,ok
+13402,Buin,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,162,ok
+13402,Buin,entel_redacceso_primarias,Entel,RedAcceso_primarias,5,ok
+13402,Buin,infraco_redacceso,Infraco,RedAcceso,2817,ok
+13402,Buin,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,882,ok
+13403,Calera de Tango,claro_redacceso_hfc,Claro,RedAcceso_HFC,11,ok
+13403,Calera de Tango,claro_redacceso,Claro,RedAcceso,50,ok
+13403,Calera de Tango,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,3,ok
+13403,Calera de Tango,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+13403,Calera de Tango,infraco_redacceso,Infraco,RedAcceso,304,ok
+13403,Calera de Tango,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+13404,Paine,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+13404,Paine,claro_redacceso,Claro,RedAcceso,37,ok
+13404,Paine,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,721,ok
+13404,Paine,entel_redacceso_primarias,Entel,RedAcceso_primarias,14,ok
+13404,Paine,infraco_redacceso,Infraco,RedAcceso,1173,ok
+13404,Paine,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,313,ok
+13501,Melipilla,claro_redacceso_hfc,Claro,RedAcceso_HFC,220,ok
+13501,Melipilla,claro_redacceso,Claro,RedAcceso,2094,ok
+13501,Melipilla,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,223,ok
+13501,Melipilla,entel_redacceso_primarias,Entel,RedAcceso_primarias,43,ok
+13501,Melipilla,infraco_redacceso,Infraco,RedAcceso,2678,ok
+13501,Melipilla,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+13502,Alhué,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+13502,Alhué,claro_redacceso,Claro,RedAcceso,0,ok
+13502,Alhué,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,1,ok
+13502,Alhué,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+13502,Alhué,infraco_redacceso,Infraco,RedAcceso,0,ok
+13502,Alhué,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+13503,Curacaví,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+13503,Curacaví,claro_redacceso,Claro,RedAcceso,3,ok
+13503,Curacaví,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+13503,Curacaví,entel_redacceso_primarias,Entel,RedAcceso_primarias,3,ok
+13503,Curacaví,infraco_redacceso,Infraco,RedAcceso,0,ok
+13503,Curacaví,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,247,ok
+13504,María Pinto,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+13504,María Pinto,claro_redacceso,Claro,RedAcceso,0,ok
+13504,María Pinto,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+13504,María Pinto,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+13504,María Pinto,infraco_redacceso,Infraco,RedAcceso,0,ok
+13504,María Pinto,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+13505,San Pedro,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+13505,San Pedro,claro_redacceso,Claro,RedAcceso,0,ok
+13505,San Pedro,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,42,ok
+13505,San Pedro,entel_redacceso_primarias,Entel,RedAcceso_primarias,18,ok
+13505,San Pedro,infraco_redacceso,Infraco,RedAcceso,0,ok
+13505,San Pedro,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+13601,Talagante,claro_redacceso_hfc,Claro,RedAcceso_HFC,130,ok
+13601,Talagante,claro_redacceso,Claro,RedAcceso,1460,ok
+13601,Talagante,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,202,ok
+13601,Talagante,entel_redacceso_primarias,Entel,RedAcceso_primarias,14,ok
+13601,Talagante,infraco_redacceso,Infraco,RedAcceso,1747,ok
+13601,Talagante,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+13602,El Monte,claro_redacceso_hfc,Claro,RedAcceso_HFC,12,ok
+13602,El Monte,claro_redacceso,Claro,RedAcceso,4,ok
+13602,El Monte,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,43,ok
+13602,El Monte,entel_redacceso_primarias,Entel,RedAcceso_primarias,4,ok
+13602,El Monte,infraco_redacceso,Infraco,RedAcceso,0,ok
+13602,El Monte,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,220,ok
+13603,Isla de Maipo,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+13603,Isla de Maipo,claro_redacceso,Claro,RedAcceso,26,ok
+13603,Isla de Maipo,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,63,ok
+13603,Isla de Maipo,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+13603,Isla de Maipo,infraco_redacceso,Infraco,RedAcceso,921,ok
+13603,Isla de Maipo,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,192,ok
+13604,Padre Hurtado,claro_redacceso_hfc,Claro,RedAcceso_HFC,140,ok
+13604,Padre Hurtado,claro_redacceso,Claro,RedAcceso,1300,ok
+13604,Padre Hurtado,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,29,ok
+13604,Padre Hurtado,entel_redacceso_primarias,Entel,RedAcceso_primarias,8,ok
+13604,Padre Hurtado,infraco_redacceso,Infraco,RedAcceso,2351,ok
+13604,Padre Hurtado,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+13605,Peñaflor,claro_redacceso_hfc,Claro,RedAcceso_HFC,207,ok
+13605,Peñaflor,claro_redacceso,Claro,RedAcceso,1297,ok
+13605,Peñaflor,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,124,ok
+13605,Peñaflor,entel_redacceso_primarias,Entel,RedAcceso_primarias,26,ok
+13605,Peñaflor,infraco_redacceso,Infraco,RedAcceso,2578,ok
+13605,Peñaflor,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,525,ok
+14101,Valdivia,claro_redacceso_hfc,Claro,RedAcceso_HFC,324,ok
+14101,Valdivia,claro_redacceso,Claro,RedAcceso,612,ok
+14101,Valdivia,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,573,ok
+14101,Valdivia,entel_redacceso_primarias,Entel,RedAcceso_primarias,90,ok
+14101,Valdivia,infraco_redacceso,Infraco,RedAcceso,3231,ok
+14101,Valdivia,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+14102,Corral,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+14102,Corral,claro_redacceso,Claro,RedAcceso,0,ok
+14102,Corral,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,14,ok
+14102,Corral,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+14102,Corral,infraco_redacceso,Infraco,RedAcceso,0,ok
+14102,Corral,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+14103,Lanco,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+14103,Lanco,claro_redacceso,Claro,RedAcceso,0,ok
+14103,Lanco,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,55,ok
+14103,Lanco,entel_redacceso_primarias,Entel,RedAcceso_primarias,6,ok
+14103,Lanco,infraco_redacceso,Infraco,RedAcceso,0,ok
+14103,Lanco,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+14104,Los Lagos,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+14104,Los Lagos,claro_redacceso,Claro,RedAcceso,10,ok
+14104,Los Lagos,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,54,ok
+14104,Los Lagos,entel_redacceso_primarias,Entel,RedAcceso_primarias,3,ok
+14104,Los Lagos,infraco_redacceso,Infraco,RedAcceso,0,ok
+14104,Los Lagos,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+14105,Máfil,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+14105,Máfil,claro_redacceso,Claro,RedAcceso,0,ok
+14105,Máfil,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,15,ok
+14105,Máfil,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+14105,Máfil,infraco_redacceso,Infraco,RedAcceso,0,ok
+14105,Máfil,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+14106,Mariquina,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+14106,Mariquina,claro_redacceso,Claro,RedAcceso,0,ok
+14106,Mariquina,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,32,ok
+14106,Mariquina,entel_redacceso_primarias,Entel,RedAcceso_primarias,4,ok
+14106,Mariquina,infraco_redacceso,Infraco,RedAcceso,0,ok
+14106,Mariquina,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,126,ok
+14107,Paillaco,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+14107,Paillaco,claro_redacceso,Claro,RedAcceso,0,ok
+14107,Paillaco,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,43,ok
+14107,Paillaco,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+14107,Paillaco,infraco_redacceso,Infraco,RedAcceso,0,ok
+14107,Paillaco,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+14108,Panguipulli,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+14108,Panguipulli,claro_redacceso,Claro,RedAcceso,1,ok
+14108,Panguipulli,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,87,ok
+14108,Panguipulli,entel_redacceso_primarias,Entel,RedAcceso_primarias,7,ok
+14108,Panguipulli,infraco_redacceso,Infraco,RedAcceso,0,ok
+14108,Panguipulli,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,143,ok
+14201,La Unión,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+14201,La Unión,claro_redacceso,Claro,RedAcceso,31,ok
+14201,La Unión,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,95,ok
+14201,La Unión,entel_redacceso_primarias,Entel,RedAcceso_primarias,3,ok
+14201,La Unión,infraco_redacceso,Infraco,RedAcceso,0,ok
+14201,La Unión,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,379,ok
+14202,Futrono,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+14202,Futrono,claro_redacceso,Claro,RedAcceso,7,ok
+14202,Futrono,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,33,ok
+14202,Futrono,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+14202,Futrono,infraco_redacceso,Infraco,RedAcceso,0,ok
+14202,Futrono,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+14203,Lago Ranco,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+14203,Lago Ranco,claro_redacceso,Claro,RedAcceso,0,ok
+14203,Lago Ranco,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,21,ok
+14203,Lago Ranco,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+14203,Lago Ranco,infraco_redacceso,Infraco,RedAcceso,0,ok
+14203,Lago Ranco,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+14204,Río Bueno,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+14204,Río Bueno,claro_redacceso,Claro,RedAcceso,0,ok
+14204,Río Bueno,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,39,ok
+14204,Río Bueno,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+14204,Río Bueno,infraco_redacceso,Infraco,RedAcceso,0,ok
+14204,Río Bueno,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,259,ok
+15101,Arica,claro_redacceso_hfc,Claro,RedAcceso_HFC,461,ok
+15101,Arica,claro_redacceso,Claro,RedAcceso,497,ok
+15101,Arica,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,998,ok
+15101,Arica,entel_redacceso_primarias,Entel,RedAcceso_primarias,83,ok
+15101,Arica,infraco_redacceso,Infraco,RedAcceso,975,ok
+15101,Arica,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,71,ok
+15102,Camarones,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+15102,Camarones,claro_redacceso,Claro,RedAcceso,0,ok
+15102,Camarones,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+15102,Camarones,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+15102,Camarones,infraco_redacceso,Infraco,RedAcceso,0,ok
+15102,Camarones,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+15201,Putre,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+15201,Putre,claro_redacceso,Claro,RedAcceso,0,ok
+15201,Putre,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,66,ok
+15201,Putre,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+15201,Putre,infraco_redacceso,Infraco,RedAcceso,0,ok
+15201,Putre,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+15202,General Lagos,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+15202,General Lagos,claro_redacceso,Claro,RedAcceso,0,ok
+15202,General Lagos,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+15202,General Lagos,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+15202,General Lagos,infraco_redacceso,Infraco,RedAcceso,0,ok
+15202,General Lagos,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+16101,Chillán,claro_redacceso_hfc,Claro,RedAcceso_HFC,326,ok
+16101,Chillán,claro_redacceso,Claro,RedAcceso,724,ok
+16101,Chillán,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,506,ok
+16101,Chillán,entel_redacceso_primarias,Entel,RedAcceso_primarias,108,ok
+16101,Chillán,infraco_redacceso,Infraco,RedAcceso,5383,ok
+16101,Chillán,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+16102,Bulnes,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+16102,Bulnes,claro_redacceso,Claro,RedAcceso,0,ok
+16102,Bulnes,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,47,ok
+16102,Bulnes,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+16102,Bulnes,infraco_redacceso,Infraco,RedAcceso,0,ok
+16102,Bulnes,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+16103,Chillán Viejo,claro_redacceso_hfc,Claro,RedAcceso_HFC,44,ok
+16103,Chillán Viejo,claro_redacceso,Claro,RedAcceso,76,ok
+16103,Chillán Viejo,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,86,ok
+16103,Chillán Viejo,entel_redacceso_primarias,Entel,RedAcceso_primarias,9,ok
+16103,Chillán Viejo,infraco_redacceso,Infraco,RedAcceso,162,ok
+16103,Chillán Viejo,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+16104,El Carmen,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+16104,El Carmen,claro_redacceso,Claro,RedAcceso,0,ok
+16104,El Carmen,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,16,ok
+16104,El Carmen,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+16104,El Carmen,infraco_redacceso,Infraco,RedAcceso,0,ok
+16104,El Carmen,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+16105,Pemuco,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+16105,Pemuco,claro_redacceso,Claro,RedAcceso,0,ok
+16105,Pemuco,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,14,ok
+16105,Pemuco,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+16105,Pemuco,infraco_redacceso,Infraco,RedAcceso,0,ok
+16105,Pemuco,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+16106,Pinto,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+16106,Pinto,claro_redacceso,Claro,RedAcceso,0,ok
+16106,Pinto,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,20,ok
+16106,Pinto,entel_redacceso_primarias,Entel,RedAcceso_primarias,6,ok
+16106,Pinto,infraco_redacceso,Infraco,RedAcceso,0,ok
+16106,Pinto,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+16107,Quillón,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+16107,Quillón,claro_redacceso,Claro,RedAcceso,0,ok
+16107,Quillón,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,6,ok
+16107,Quillón,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+16107,Quillón,infraco_redacceso,Infraco,RedAcceso,0,ok
+16107,Quillón,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+16108,San Ignacio,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+16108,San Ignacio,claro_redacceso,Claro,RedAcceso,0,ok
+16108,San Ignacio,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,15,ok
+16108,San Ignacio,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+16108,San Ignacio,infraco_redacceso,Infraco,RedAcceso,0,ok
+16108,San Ignacio,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+16109,Yungay,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+16109,Yungay,claro_redacceso,Claro,RedAcceso,0,ok
+16109,Yungay,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,21,ok
+16109,Yungay,entel_redacceso_primarias,Entel,RedAcceso_primarias,9,ok
+16109,Yungay,infraco_redacceso,Infraco,RedAcceso,0,ok
+16109,Yungay,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+16201,Quirihue,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+16201,Quirihue,claro_redacceso,Claro,RedAcceso,1,ok
+16201,Quirihue,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,16,ok
+16201,Quirihue,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+16201,Quirihue,infraco_redacceso,Infraco,RedAcceso,0,ok
+16201,Quirihue,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+16202,Cobquecura,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+16202,Cobquecura,claro_redacceso,Claro,RedAcceso,0,ok
+16202,Cobquecura,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,3,ok
+16202,Cobquecura,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+16202,Cobquecura,infraco_redacceso,Infraco,RedAcceso,0,ok
+16202,Cobquecura,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+16203,Coelemu,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+16203,Coelemu,claro_redacceso,Claro,RedAcceso,0,ok
+16203,Coelemu,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,27,ok
+16203,Coelemu,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+16203,Coelemu,infraco_redacceso,Infraco,RedAcceso,0,ok
+16203,Coelemu,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+16204,Ninhue,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+16204,Ninhue,claro_redacceso,Claro,RedAcceso,0,ok
+16204,Ninhue,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,1,ok
+16204,Ninhue,entel_redacceso_primarias,Entel,RedAcceso_primarias,6,ok
+16204,Ninhue,infraco_redacceso,Infraco,RedAcceso,0,ok
+16204,Ninhue,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+16205,Portezuelo,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+16205,Portezuelo,claro_redacceso,Claro,RedAcceso,0,ok
+16205,Portezuelo,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+16205,Portezuelo,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+16205,Portezuelo,infraco_redacceso,Infraco,RedAcceso,0,ok
+16205,Portezuelo,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+16206,Ránquil,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+16206,Ránquil,claro_redacceso,Claro,RedAcceso,0,ok
+16206,Ránquil,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,9,ok
+16206,Ránquil,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+16206,Ránquil,infraco_redacceso,Infraco,RedAcceso,0,ok
+16206,Ránquil,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+16207,Trehuaco,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+16207,Trehuaco,claro_redacceso,Claro,RedAcceso,0,ok
+16207,Trehuaco,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+16207,Trehuaco,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+16207,Trehuaco,infraco_redacceso,Infraco,RedAcceso,0,ok
+16207,Trehuaco,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+16301,San Carlos,claro_redacceso_hfc,Claro,RedAcceso_HFC,93,ok
+16301,San Carlos,claro_redacceso,Claro,RedAcceso,13,ok
+16301,San Carlos,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,52,ok
+16301,San Carlos,entel_redacceso_primarias,Entel,RedAcceso_primarias,6,ok
+16301,San Carlos,infraco_redacceso,Infraco,RedAcceso,796,ok
+16301,San Carlos,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+16302,Coihueco,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+16302,Coihueco,claro_redacceso,Claro,RedAcceso,0,ok
+16302,Coihueco,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,21,ok
+16302,Coihueco,entel_redacceso_primarias,Entel,RedAcceso_primarias,2,ok
+16302,Coihueco,infraco_redacceso,Infraco,RedAcceso,6,ok
+16302,Coihueco,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+16303,Ñiquén,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+16303,Ñiquén,claro_redacceso,Claro,RedAcceso,1,ok
+16303,Ñiquén,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+16303,Ñiquén,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+16303,Ñiquén,infraco_redacceso,Infraco,RedAcceso,0,ok
+16303,Ñiquén,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+16304,San Fabián,claro_redacceso_hfc,Claro,RedAcceso_HFC,0,ok
+16304,San Fabián,claro_redacceso,Claro,RedAcceso,0,ok
+16304,San Fabián,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,8,ok
+16304,San Fabián,entel_redacceso_primarias,Entel,RedAcceso_primarias,0,ok
+16304,San Fabián,infraco_redacceso,Infraco,RedAcceso,0,ok
+16304,San Fabián,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
+16305,San Nicolás,claro_redacceso_hfc,Claro,RedAcceso_HFC,4,ok
+16305,San Nicolás,claro_redacceso,Claro,RedAcceso,1,ok
+16305,San Nicolás,entel_redacceso_distribucion,Entel,RedAcceso_distribucion,0,ok
+16305,San Nicolás,entel_redacceso_primarias,Entel,RedAcceso_primarias,1,ok
+16305,San Nicolás,infraco_redacceso,Infraco,RedAcceso,0,ok
+16305,San Nicolás,vtr_redacceso_ftth,VTR,RedAcceso_FTTH,0,ok
