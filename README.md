@@ -6,7 +6,7 @@ El proyecto no trata acceso a Internet como sinónimo de inclusión digital. Man
 
 ## Cobertura actual
 
-La versión pública combina evidencia censal, encuestas sociales y de telecomunicaciones, desempeño observado de red y una nueva capa territorial comunal reproducible.
+La versión pública combina evidencia censal, encuestas sociales y de telecomunicaciones, desempeño observado de red, cartografía comunal y pipelines reproducibles.
 
 ### Censo 2024 — 346 comunas
 
@@ -18,13 +18,15 @@ La versión pública combina evidencia censal, encuestas sociales y de telecomun
 
 La fuente es Censo 2024 y la capa pública integrada utilizada por el Atlas de la Desconexión Digital. `hogares_trampa_movil` es una proxy operacional del proyecto y no una categoría oficial del Censo.
 
-### Maestro comunal público
+### Maestro comunal integrado
 
-`data/communal_master/chile_digital_inclusion_communes_2026.csv` concentra en **una fila por comuna** 38 campos públicos de conectividad, estructura territorial y contexto social.
+`data/communal_master/chile_digital_inclusion_communes_2026.csv` es la base estructural de 346 comunas y 38 campos públicos.
 
-El código de comuna funciona como llave para unir esta tabla con cartografía y con futuras capas territoriales de Ookla, SUBTEL y otras fuentes compatibles.
+`data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv` agrega desempeño Ookla fijo y móvil Q1 2026 y variaciones Q4 2025 → Q1 2026. Conserva las **346 comunas y llega a 65 variables**.
 
 La versión pública excluye deliberadamente índices internos, scores, segmentaciones y ponderadores propietarios. El archivo es una base observable para mapas, rankings descriptivos y análisis reproducible; no es el Índice de Vulnerabilidad Digital.
+
+Las 65 variables están documentadas en `data/metadata/communal_master_dictionary.csv` y `docs/communal_master_dictionary.md`, con fuente, unidad estadística, unidad de medida, denominador o ponderador y advertencia de comparabilidad.
 
 ### Geografía
 
@@ -55,13 +57,26 @@ Los hogares compuestos solo por personas mayores pasan de 54,6% de acceso en 201
 
 Los archivos curados están en `data/subtel_longitudinal/`.
 
+### SUBTEL — acceso segmentado
+
+`data/subtel_segments/` reconstruye directamente desde los SAV oficiales el acceso propio y pagado a Internet en el hogar para 2015, 2016, 2017, 2023, 2024 y 2025.
+
+El pipeline publica **127 tabulados agregados** y usa el factor de expansión de hogar específico de cada ola. Incluye:
+
+- estimación nacional de control
+- acceso por región en las seis olas
+- acceso urbano/rural en las seis olas
+- quintil/GSE en 2015–2017, cuando existe una categoría explícita verificable
+
+Las cifras nacionales recalculadas reproducen la serie publicada con diferencias entre -0,31 y +0,05 puntos porcentuales. Para 2023–2025 no se reconstruyen quintiles desde tramos de ingreso cuando la base no entrega una categoría socioeconómica explícita y defendible.
+
 ### SUBTEL — procesamiento de bases oficiales
 
-Además de la serie curada, el repositorio procesa directamente las bases públicas SPSS/SAV de SUBTEL. Actualmente cubre la base histórica de 2008 y las bases disponibles entre 2011 y 2025.
+Además de las series curadas, el repositorio procesa directamente las bases públicas SPSS/SAV de SUBTEL. Actualmente cubre una base histórica de 2008 y las bases disponibles entre 2011 y 2025.
 
 El pipeline descarga temporalmente las fuentes oficiales y publica únicamente resultados agregados. Los archivos originales no quedan almacenados en el repositorio.
 
-La infraestructura de procesamiento ya inventaría:
+La infraestructura ha inventariado:
 
 - **4.844 variables** de cuestionarios y bases oficiales
 - **7.743 filas categóricas agregadas** antes de la capa de ponderación
@@ -73,10 +88,12 @@ La infraestructura de procesamiento ya inventaría:
 Directorios principales:
 
 ```text
-data/subtel_microdata/      inventario, diccionario, distribuciones y crosswalk
-data/subtel_weighted/       estimaciones ponderadas de hogar y persona
-data/subtel_2008/           perfil agregado de la base histórica 2008
-data/subtel_2011_person/    recuperación del archivo de personas 2011
+data/subtel_longitudinal/    series curadas
+data/subtel_segments/        acceso ponderado por región, zona y grupo socioeconómico verificable
+data/subtel_microdata/       inventario, diccionario, distribuciones y crosswalk
+data/subtel_weighted/        estimaciones ponderadas de hogar y persona
+data/subtel_2008/            perfil agregado de la base histórica 2008
+data/subtel_2011_person/     recuperación agregada del archivo de personas 2011
 ```
 
 El catálogo de bases procesadas está en `data/subtel_microdata/processed_base_catalog.csv` y la metodología completa en `docs/subtel_microdata_pipeline.md`.
@@ -90,23 +107,47 @@ El repositorio incorpora Q1 2026 de Chile desde los Parquet oficiales de Ookla O
 | Fija | 392,10 Mbps | 397,33 Mbps | +1,33% | 336,12 Mbps | 8,96 ms |
 | Móvil | 105,66 Mbps | 98,87 Mbps | -6,43% | 21,43 Mbps | 33,71 ms |
 
-La capa conserva además los tiles de Chile para permitir futuras agregaciones regionales y comunales.
+`data/ookla/territorial/` lleva la misma lógica al territorio. Q1 2026 contiene **683 filas comuna × red** y **32 filas región × red**. También se reconstruye Q4 2025 con la misma metodología para calcular cambios trimestrales.
+
+La asignación espacial usa el centroide del tile dentro del polígono comunal BCN. El control de cobertura en `spatial_assignment_coverage.csv` muestra que aproximadamente 99% de los tests de las cuatro combinaciones período × red queda asignado a una comuna.
+
+Ookla mide desempeño donde existieron tests. Complementa, pero no reemplaza, las fuentes de acceso, adopción y cobertura.
+
+## Dashboard
+
+El repositorio incluye una interfaz estática en:
+
+```text
+index.html
+assets/dashboard.css
+assets/dashboard.js
+```
+
+La vista carga el maestro comunal integrado y el GeoJSON, permite cambiar indicador, buscar comunas, revisar rankings y abrir una ficha territorial con conectividad, equipamiento, contexto social y desempeño Ookla.
+
+El código está listo para alojamiento estático. La publicación mediante GitHub Pages requiere habilitar GitHub Actions como origen de Pages en la configuración del repositorio.
 
 ## Estructura analítica
 
 ```text
 Chile-Digital-Inclusion/
+├── index.html
+├── assets/
+│   ├── dashboard.css
+│   └── dashboard.js
 ├── data/
 │   ├── censo_2024/
 │   ├── communal_master/
+│   ├── metadata/
 │   ├── casen_*.csv
-│   ├── subtel_*.csv
 │   ├── subtel_longitudinal/
+│   ├── subtel_segments/
 │   ├── subtel_microdata/
 │   ├── subtel_weighted/
 │   ├── subtel_2008/
 │   ├── subtel_2011_person/
 │   └── ookla/
+│       └── territorial/
 ├── geo/
 │   ├── commune_codes.csv
 │   ├── chile_communes.geojson
@@ -118,17 +159,26 @@ Chile-Digital-Inclusion/
 
 ## Reproducibilidad
 
-Los workflows de GitHub Actions vuelven a descargar las fuentes públicas y reconstruyen los productos derivados. Para SUBTEL, los SAV/ZIP/RAR viven únicamente durante la ejecución del workflow. Para Ookla, los Parquet globales se descargan y se recortan a Chile. La cartografía comunal se reconstruye desde el servicio público de la Biblioteca del Congreso mediante `scripts/build_commune_geo.py`.
+Los workflows de GitHub Actions vuelven a descargar las fuentes públicas y reconstruyen los productos derivados. Para SUBTEL, los SAV/ZIP viven únicamente durante la ejecución del workflow. Para Ookla, los Parquet globales se descargan y se recortan a Chile. La cartografía comunal se reconstruye desde el servicio público de la Biblioteca del Congreso.
+
+Los principales productos derivados tienen pipelines independientes para:
+
+- descarga y perfilado de bases SUBTEL
+- ponderación de hogar y persona
+- clasificación y crosswalk de variables
+- acceso SUBTEL segmentado
+- descarga y control trimestral Ookla
+- agregación Ookla comunal y regional
+- cartografía comunal
+- diccionario del maestro integrado
 
 ## Cómo leer los datos
 
-No deben compararse directamente universos distintos. Censo trabaja principalmente con hogares. CASEN utiliza personas ponderadas. SUBTEL contiene preguntas de hogar y de persona dentro de una misma encuesta. Por esa razón el pipeline conserva por separado los factores de expansión correspondientes a cada universo.
+No deben compararse directamente universos distintos. Censo trabaja principalmente con hogares. CASEN utiliza personas ponderadas. SUBTEL contiene preguntas de hogar y de persona dentro de una misma encuesta. Ookla representa tests observados.
 
 Los faltantes se mantienen como faltantes. No se interpolan preguntas inexistentes ni se fuerza continuidad cuando cambia el cuestionario, el período de recuerdo o la población de referencia.
 
 Las estimaciones territoriales de encuestas deben interpretarse considerando diseño muestral y tamaño efectivo. Para volumen estructural de desconexión territorial, Censo 2024 sigue siendo la referencia principal.
-
-Ookla mide desempeño donde existieron tests. Complementa, pero no reemplaza, las fuentes de acceso y adopción.
 
 ## Fuentes principales
 
