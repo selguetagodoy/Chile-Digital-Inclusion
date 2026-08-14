@@ -1,0 +1,1144 @@
+reference_year,survey_wave,domain,score,variable,label,nonmissing_n,distinct_values,missing_pct,has_value_labels
+2025,XII,banking_payments,2,Q8_17,"17.- Realizar transacciones bancarias, compras y pagos en línea [Q8. Pensando en el uso del computador y o smartphone, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?]",4758,2,4.84,False
+2025,XII,banking_payments,2,Q21_30,"26. realizar pagos en línea a organismos del estado (impuestos, compra de certificados, etc.). [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4731,2,5.38,False
+2025,XII,banking_payments,2,P6_1_8,"8.- Permite realizar trámites personales como revisar cuentas bancarias, realizar transferencias, solicitar certificados y pagar cuentas [P6_1.- Por cuál o cuáles razones tiene el servicio de Internet Móvil en su hogar? ]",4343,2,13.14,False
+2025,XII,banking_payments,2,P6_1_10,10.- Facilita la realización de compras en línea y acceso a plataformas de comercio electrónico. [P6_1.- Por cuál o cuáles razones tiene el servicio de Internet Móvil en su hogar? ],4343,2,13.14,False
+2025,XII,banking_payments,2,P6_8,"8.- Permite realizar trámites personales como revisar cuentas bancarias, realizar transferencias, solicitar certificados y pagar cuentas [P6.-¿Por cuál o cuáles razones tiene el servicio de Internet Fijo en su hogar?]",3355,2,32.9,False
+2025,XII,banking_payments,2,P6_10,10.- Facilita la realización de compras en línea y acceso a plataformas de comercio electrónico. [P6.-¿Por cuál o cuáles razones tiene el servicio de Internet Fijo en su hogar?],3355,2,32.9,False
+2025,XII,banking_payments,1,Q21_33,"NET COMERCIO ELECTRÓNICO (E-COMMERCE) Y EMPRENDIMIENTO [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4731,2,5.38,False
+2025,XII,banking_payments,1,Q21_34,"29. realizar transacciones bancarias [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4731,2,5.38,False
+2025,XII,barriers_non_access,3,P13_7,"7.- Costo del equipo o terminal (computador, notebook, Tablet, Smartphone, Smart TV etc.) para conectarse es muy elevado [P13.- Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado mediante banda ancha f",1645,2,67.1,False
+2025,XII,barriers_non_access,3,P13_8,"8.- Costo del servicio de internet fijo (por cable/fibra o WiFi) es muy elevado [P13.- Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado mediante banda ancha fija, ya sea por cable/fibra o WiFi? SONDE",1645,2,67.1,False
+2025,XII,barriers_non_access,3,Q34_12,NET COSTO DE SERVICIO [Q34. Señale las razones por las que no ha utilizado Internet…],269,2,94.62,False
+2025,XII,barriers_non_access,3,Q34_13,"10.- Los equipos para conectarse a Internet son muy caros (computador, notebook, tablet, smartphone) [Q34. Señale las razones por las que no ha utilizado Internet…]",269,2,94.62,False
+2025,XII,barriers_non_access,3,Q34_15,NET COBERTURA [Q34. Señale las razones por las que no ha utilizado Internet…],269,2,94.62,False
+2025,XII,barriers_non_access,3,Q34_21,No sabe usarlos [Q34. Señale las razones por las que no ha utilizado Internet…],269,1,94.62,False
+2025,XII,barriers_non_access,2,Q34_OTRA,Q34.- Señale las razones por las que no ha utilizado Internet en los últimos 12 meses o nunca.  - OTRO.,5000,31,0.0,False
+2025,XII,barriers_non_access,2,P13_1,"1.- No saben / no les han informado qué beneficios ofrece internet al hogar [P13.- Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado mediante banda ancha fija, ya sea por cable/fibra o WiFi? SONDEAR ¿",1645,2,67.1,False
+2025,XII,demographic_age,2,P8_3_3,"3.- Intentos de engaños estafas o robo de información personal [P8.- En relación al uso de Internet por parte de estos menores de edad, ¿ha detectado alguna de estas situaciones?]",1452,2,70.96,False
+2025,XII,demographic_age,1,P7_1,"1.- Se acuerdan reglas sobre el uso de Internet (horarios, tiempo y condiciones) [P7.- ¿Cuáles de estas medidas de protección o restricción del uso de internet para menores de edad tienen en su hogar? ]",1452,2,70.96,False
+2025,XII,demographic_age,1,P7_2,2.- Instalación de filtros de Internet (software de control parental) [P7.- ¿Cuáles de estas medidas de protección o restricción del uso de internet para menores de edad tienen en su hogar? ],1452,2,70.96,False
+2025,XII,demographic_age,1,P7_3,"3.- Supervisión y/o monitoreo de uso de Internet (en presencia de adulto, verificar historial de navegación, etc.) [P7.- ¿Cuáles de estas medidas de protección o restricción del uso de internet para menores de edad tienen en su hogar? ]",1452,2,70.96,False
+2025,XII,demographic_age,1,P7_4,"4.- Permitir acceso a Internet sólo desde lugares comunes / públicas de la casa (living, comedor, etc.) [P7.- ¿Cuáles de estas medidas de protección o restricción del uso de internet para menores de edad tienen en su hogar? ]",1452,2,70.96,False
+2025,XII,demographic_age,1,P7_6,6.- Filtro de contenido para limitar el acceso a sitios web inapropiados. [P7.- ¿Cuáles de estas medidas de protección o restricción del uso de internet para menores de edad tienen en su hogar? ],1452,2,70.96,False
+2025,XII,demographic_age,1,P7_7,7.- Restricción o bloqueo de ciertas aplicaciones o plataformas en línea. [P7.- ¿Cuáles de estas medidas de protección o restricción del uso de internet para menores de edad tienen en su hogar? ],1452,2,70.96,False
+2025,XII,demographic_age,1,P7_8,8.- Restricción de acceso a redes sociales y mensajería instantánea. [P7.- ¿Cuáles de estas medidas de protección o restricción del uso de internet para menores de edad tienen en su hogar? ],1452,2,70.96,False
+2025,XII,demographic_education,1,Q6_3,"Era parte central de mi aprendizaje en el colegio, liceo, institución de educación superior (ej: parte del currículum de enseñanza de secretariado, contabilidad, ing. Informática, etc.) [Q6.- Respecto del uso del computador, ¿cómo aprendió a hacer uso de é",5000,2,0.0,False
+2025,XII,demographic_education,1,Q11_1_3,"Lugar de educación / capacitación (fuera del hogar) [Q11_1.- En el último día, ¿en qué lugares ha utilizado Internet? ]",4731,2,5.38,False
+2025,XII,demographic_education,1,Q21_46,"39. realizar estudios, cursos o capacitación en línea (e-learning). [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4731,2,5.38,False
+2025,XII,demographic_education,1,P6_1_1,1.- Apoyo a la educación propia o de hijos / nietos / parientes [P6_1.- Por cuál o cuáles razones tiene el servicio de Internet Móvil en su hogar? ],4343,2,13.14,False
+2025,XII,demographic_education,1,P6_1_12,12.- Permite realizar trabajo o estudios desde casa [P6_1.- Por cuál o cuáles razones tiene el servicio de Internet Móvil en su hogar? ],4343,2,13.14,False
+2025,XII,demographic_education,1,P6_1,1.- Apoyo a la educación propia o de hijos / nietos / parientes [P6.-¿Por cuál o cuáles razones tiene el servicio de Internet Fijo en su hogar?],3355,2,32.9,False
+2025,XII,demographic_education,1,P6_12,12.- Permite realizar trabajo o estudios desde casa [P6.-¿Por cuál o cuáles razones tiene el servicio de Internet Fijo en su hogar?],3355,2,32.9,False
+2025,XII,demographic_education,1,Q24_CODIF_21,"Ayuda en los estudios/estudiar [Q24. ¿En qué aspectos el acceso a Internet ha facilitado o potenciado su actividad académica, laboral o la de su empresa?]",3355,2,32.9,False
+2025,XII,demographic_employment,1,A11,A11.- Y ¿Cuál es la profesión o trabajo o actividad del principal sostenedor del hogar?,5000,6,0.0,True
+2025,XII,demographic_employment,1,A14_1,Trabaja con remuneración [A14.- ¿En este hogar hay personas con estas situaciones laborales? ],5000,2,0.0,False
+2025,XII,demographic_employment,1,A14_2,Trabaja sin remuneración [A14.- ¿En este hogar hay personas con estas situaciones laborales? ],5000,2,0.0,False
+2025,XII,demographic_employment,1,A14_4,Busca trabajo por 1ª vez [A14.- ¿En este hogar hay personas con estas situaciones laborales? ],5000,2,0.0,False
+2025,XII,demographic_employment,1,Q1_4,Q1_4.- ¿Cuál es su profesión o trabajo o actividad?,5000,7,0.0,True
+2025,XII,demographic_employment,1,Q6_10,"En el trabajo [Q6.- Respecto del uso del computador, ¿cómo aprendió a hacer uso de él?  RM]",5000,2,0.0,False
+2025,XII,demographic_employment,1,Q11_1_2,"Lugar de trabajo (fuera del hogar) [Q11_1.- En el último día, ¿en qué lugares ha utilizado Internet? ]",4731,2,5.38,False
+2025,XII,demographic_employment,1,Q21_4,"3. obtener información para realizar trabajos/informes de mi actividad laboral [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4731,2,5.38,False
+2025,XII,demographic_income_gse,1,A12_1,A12.- ¿a cuál de los siguientes tramos corresponde el promedio total de los ingresos familiares?,5000,62,0.0,True
+2025,XII,demographic_sex_gender,1,Q1_2,Q1_2.- Sexo del entrevistado,5000,2,0.0,True
+2025,XII,devices,5,P13_7,"7.- Costo del equipo o terminal (computador, notebook, Tablet, Smartphone, Smart TV etc.) para conectarse es muy elevado [P13.- Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado mediante banda ancha f",1645,2,67.1,False
+2025,XII,devices,4,Q34_13,"10.- Los equipos para conectarse a Internet son muy caros (computador, notebook, tablet, smartphone) [Q34. Señale las razones por las que no ha utilizado Internet…]",269,2,94.62,False
+2025,XII,devices,3,P4_3,"Internet Móvil Con Plan O Bolsa De Gigas/Megas De Un Teléfono Móvil [Smartphone] O Tablet (3G, 4G, 5G [P4.- ¿Dispone usted de alguna o algunas de las siguientes FORMAS DE ACCESO PAGADA para conectarse a Internet en SU HOGAR?]",5000,2,0.0,False
+2025,XII,devices,3,P2_1,"P2_1.- En este hogar, ¿cuántos computadores propios hay (desktop, notebook, Tablet)?",4841,12,3.18,True
+2025,XII,devices,3,P3_2,P3_2 .- ¿Cuál o cuáles de estos dispositivos o equipos utilizan los miembros de este hogar para acceder a Internet ? Computador portátil (notebook / laptop o netbook),4841,3,3.18,True
+2025,XII,devices,3,Q12_3,"Internet Móvil Con Plan O Bolsa De Gigas/Megas De Un Teléfono Móvil [Smartphone] / Tablet [Q12.- Qué tipo de acceso a Internet ha utilizado en los últimos 3 meses, tanto dentro como fuera del hogar? ¿Algún otro? ]",4731,2,5.38,False
+2025,XII,devices,3,Q28_11,"11.- Equipos de computación, telecomunicaciones y accesorios (notebooks, smartphones, tablets) [Q28.- En los últimos 12 meses, ¿qué tipo de bienes o servicios compró u ordenó por Internet para su uso personal? ]",2613,2,47.74,False
+2025,XII,devices,2,Q5,"Q5. En la última semana ¿utilizó usted algún computador? (Ya sea PC, Notebook o Netbook)",5000,2,0.0,True
+2025,XII,digital_government,4,Q21_31,"27. realizar trámites para la obtención de certificados o beneficios del estado (bonos) [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4731,2,5.38,False
+2025,XII,digital_government,3,Q26_CODIF_4,"Informarse de los beneficios del estado [Q26.- ¿En qué aspectos el acceso a Internet ha mejorado sus condiciones de vida, el ejercicio de derecho o el acceso a beneficios estatales (gobierno central, municipal, judicial, etc.)?]",1228,2,75.44,False
+2025,XII,digital_government,3,Q26_CODIF_23,"Facilidad del tramite [Q26.- ¿En qué aspectos el acceso a Internet ha mejorado sus condiciones de vida, el ejercicio de derecho o el acceso a beneficios estatales (gobierno central, municipal, judicial, etc.)?]",1228,2,75.44,False
+2025,XII,digital_government,3,Q26_CODIF_24,"Trámites más rápido [Q26.- ¿En qué aspectos el acceso a Internet ha mejorado sus condiciones de vida, el ejercicio de derecho o el acceso a beneficios estatales (gobierno central, municipal, judicial, etc.)?]",1228,2,75.44,False
+2025,XII,digital_government,3,Q26_CODIF_32,"Varios tramites vía internet [Q26.- ¿En qué aspectos el acceso a Internet ha mejorado sus condiciones de vida, el ejercicio de derecho o el acceso a beneficios estatales (gobierno central, municipal, judicial, etc.)?]",1228,2,75.44,False
+2025,XII,digital_government,3,Q26_CODIF_41,"Postulaciones a beneficios del estado [Q26.- ¿En qué aspectos el acceso a Internet ha mejorado sus condiciones de vida, el ejercicio de derecho o el acceso a beneficios estatales (gobierno central, municipal, judicial, etc.)?]",1228,2,75.44,False
+2025,XII,digital_government,2,Q21_27,"23. descargar o solicitar formularios a organismos del estado [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4731,2,5.38,False
+2025,XII,digital_government,2,Q21_29,"25. realizar consultas, solicitudes o reclamos a organismos del estado [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4731,2,5.38,False
+2025,XII,digital_skills,2,Q8_1,"1.- Uso de procesador de texto (ej: Word) [Q8. Pensando en el uso del computador y o smartphone, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?]",4758,2,4.84,False
+2025,XII,digital_skills,2,Q8_2,"2.- Realización de fórmulas sencillas en planillas de cálculo (ej: Excel) [Q8. Pensando en el uso del computador y o smartphone, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?]",4758,2,4.84,False
+2025,XII,digital_skills,2,Q8_6,"6.- Encontrar, descargar e instalar y configurar aplicaciones (Apps) y/o programas (softwares) desde internet [Q8. Pensando en el uso del computador y o smartphone, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?]",4758,2,4.84,False
+2025,XII,digital_skills,1,Q36_CODIF_2,"No se maneja, no sabe usar [Q36.-  ¿Por qué no le interesa?]",48,2,99.04,False
+2025,XII,digital_skills,1,Q34_21,No sabe usarlos [Q34. Señale las razones por las que no ha utilizado Internet…],269,1,94.62,False
+2025,XII,disability,2,Q34_11,9.- Tengo una discapacidad / no puedo leer / tengo una limitación que me impide usarlo [Q34. Señale las razones por las que no ha utilizado Internet…],269,2,94.62,False
+2025,XII,disability,1,A13_1,Dificultad física y/o de movilidad [A13.- ¿Hay algún miembro de este hogar con alguna de estas condiciones permanentes y/o de larga duración?],5000,2,0.0,False
+2025,XII,disability,1,A13_2,Mudez o dificultad en el habla [A13.- ¿Hay algún miembro de este hogar con alguna de estas condiciones permanentes y/o de larga duración?],5000,2,0.0,False
+2025,XII,disability,1,A13_3,Dificultad psiquiátrica [A13.- ¿Hay algún miembro de este hogar con alguna de estas condiciones permanentes y/o de larga duración?],5000,2,0.0,False
+2025,XII,disability,1,A13_4,Dificultad mental o intelectual [A13.- ¿Hay algún miembro de este hogar con alguna de estas condiciones permanentes y/o de larga duración?],5000,2,0.0,False
+2025,XII,disability,1,A13_5,Sordera o dificultad para oír aún usando audífonos [A13.- ¿Hay algún miembro de este hogar con alguna de estas condiciones permanentes y/o de larga duración?],5000,2,0.0,False
+2025,XII,disability,1,A13_6,Ceguera o dificultad para ver aún usando lentes [A13.- ¿Hay algún miembro de este hogar con alguna de estas condiciones permanentes y/o de larga duración?],5000,2,0.0,False
+2025,XII,disability,1,Q1_6_1,Dificultad física y/o de movilidad [Q1.6.- ¿Hay algún miembro de este hogar con alguna de estas condiciones permanentes y/o de larga duración?],5000,2,0.0,False
+2025,XII,education_learning,3,Q21_46,"39. realizar estudios, cursos o capacitación en línea (e-learning). [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4731,2,5.38,False
+2025,XII,education_learning,2,A10,"A10.- Pensando en el jefe de hogar, ¿cuál fue el último curso y tipo de estudio aprobado por el jefe de hogar?",5000,11,0.0,True
+2025,XII,education_learning,2,Q1_3,Q1.3.- ¿Cuál fue el último curso y tipo de estudio aprobado por Usted?,5000,11,0.0,True
+2025,XII,education_learning,2,Q6_3,"Era parte central de mi aprendizaje en el colegio, liceo, institución de educación superior (ej: parte del currículum de enseñanza de secretariado, contabilidad, ing. Informática, etc.) [Q6.- Respecto del uso del computador, ¿cómo aprendió a hacer uso de é",5000,2,0.0,False
+2025,XII,education_learning,2,Q21_5,"4. obtener información para realizar tareas/informes de algún curso, materia o capacitación [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4731,2,5.38,False
+2025,XII,education_learning,2,Q1_3_1,Q1.3.- ¿Cuál fue el último curso y tipo de estudio aprobado por Usted?,3000,1,40.0,True
+2025,XII,education_learning,2,Q1_4_1,Q1.3.- ¿Cuál fue el último curso y tipo de estudio aprobado por Usted?,3000,1,40.0,True
+2025,XII,education_learning,1,A14_5,Estudia (en 2025) [A14.- ¿En este hogar hay personas con estas situaciones laborales? ],5000,2,0.0,False
+2025,XII,fixed_mobile_mode,2,P12_11,"SÍ, 4G [P12.- ¿Alguna o algunas de las conexiones de Banda ancha móvil o internet móvil para conectarse desde teléfono o Tablet a Internet, tiene sistema 4G o  5G? ]",4343,2,13.14,False
+2025,XII,fixed_mobile_mode,2,P12_21,"Sí, 5G [P12.- ¿Alguna o algunas de las conexiones de Banda ancha móvil o internet móvil para conectarse desde teléfono o Tablet a Internet, tiene sistema 4G o  5G? ]",4343,2,13.14,False
+2025,XII,fixed_mobile_mode,2,P12_31,"NO, ninguna de las dos [P12.- ¿Alguna o algunas de las conexiones de Banda ancha móvil o internet móvil para conectarse desde teléfono o Tablet a Internet, tiene sistema 4G o  5G? ]",4343,2,13.14,False
+2025,XII,fixed_mobile_mode,2,P12_41,"No sabe [P12.- ¿Alguna o algunas de las conexiones de Banda ancha móvil o internet móvil para conectarse desde teléfono o Tablet a Internet, tiene sistema 4G o  5G? ]",4343,2,13.14,False
+2025,XII,fixed_mobile_mode,2,P13_8,"8.- Costo del servicio de internet fijo (por cable/fibra o WiFi) es muy elevado [P13.- Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado mediante banda ancha fija, ya sea por cable/fibra o WiFi? SONDE",1645,2,67.1,False
+2025,XII,fixed_mobile_mode,2,P13_10,"10.- Prefiero utilizar el acceso a internet móvil (4G/5G) en lugar de tener una conexión fija [P13.- Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado mediante banda ancha fija, ya sea por cable/fibra",1645,2,67.1,False
+2025,XII,fixed_mobile_mode,2,P13_12,"12.- La internet fija es más cara que la internet móvil / del teléfono móvil [P13.- Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado mediante banda ancha fija, ya sea por cable/fibra o WiFi? SONDEAR",1645,2,67.1,False
+2025,XII,fixed_mobile_mode,1,P1,"P1. ¿Algunos miembros de este hogar tienen acceso propio y pagado a Internet fijo o móvil desde el hogar, sin importar si lo utilizan o no?",5000,2,0.0,True
+2025,XII,geography_commune,1,COMUNA_DEF,,5000,90,0.0,True
+2025,XII,geography_region,1,COD_REGION,,5000,16,0.0,True
+2025,XII,geography_urban_rural,1,ZONA,ZONA,5000,2,0.0,True
+2025,XII,geography_urban_rural,1,Q8_1,"1.- Uso de procesador de texto (ej: Word) [Q8. Pensando en el uso del computador y o smartphone, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?]",4758,2,4.84,False
+2025,XII,geography_urban_rural,1,Q8_2,"2.- Realización de fórmulas sencillas en planillas de cálculo (ej: Excel) [Q8. Pensando en el uso del computador y o smartphone, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?]",4758,2,4.84,False
+2025,XII,geography_urban_rural,1,Q8_3,"3.- Uso de software de presentación (ej: diapositivas, PowerPoint, etc.) [Q8. Pensando en el uso del computador y o smartphone, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?]",4758,2,4.84,False
+2025,XII,geography_urban_rural,1,Q8_4,"4.- Duplicar o transferir archivos entre dispositivos (cámaras digitales, celulares, reproductores de música) o en la nube [Q8. Pensando en el uso del computador y o smartphone, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?]",4758,2,4.84,False
+2025,XII,geography_urban_rural,1,Q8_5,"5.- Conectar un nuevo dispositivo (como un router, cámara o impresora) [Q8. Pensando en el uso del computador y o smartphone, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?]",4758,2,4.84,False
+2025,XII,geography_urban_rural,1,Q8_6,"6.- Encontrar, descargar e instalar y configurar aplicaciones (Apps) y/o programas (softwares) desde internet [Q8. Pensando en el uso del computador y o smartphone, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?]",4758,2,4.84,False
+2025,XII,geography_urban_rural,1,Q8_7,"7.- Modificar configuraciones de seguridad del computador, smartphone, navegadores de Internet (Chrome, Explorer, Firefox, etc.) o aplicaciones (Apps) [Q8. Pensando en el uso del computador y o smartphone, ¿Cuál o cuáles de estas tareas es capaz de realiza",4758,2,4.84,False
+2025,XII,household_access,4,P13_10,"10.- Prefiero utilizar el acceso a internet móvil (4G/5G) en lugar de tener una conexión fija [P13.- Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado mediante banda ancha fija, ya sea por cable/fibra",1645,2,67.1,False
+2025,XII,household_access,4,P13_14,"14.- Porque puedo usar la conexión móvil del teléfono para conectarme a internet con otros equipos de la casa (computador, TV, etc.) [P13.- Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado mediante b",1645,2,67.1,False
+2025,XII,household_access,3,P1,"P1. ¿Algunos miembros de este hogar tienen acceso propio y pagado a Internet fijo o móvil desde el hogar, sin importar si lo utilizan o no?",5000,2,0.0,True
+2025,XII,household_access,3,P4_4,Conexión Satelital [P4.- ¿Dispone usted de alguna o algunas de las siguientes FORMAS DE ACCESO PAGADA para conectarse a Internet en SU HOGAR?],5000,2,0.0,False
+2025,XII,household_access,3,Q12_4,"Conexión Satelital [Q12.- Qué tipo de acceso a Internet ha utilizado en los últimos 3 meses, tanto dentro como fuera del hogar? ¿Algún otro? ]",4731,2,5.38,False
+2025,XII,household_access,3,P13_1,"1.- No saben / no les han informado qué beneficios ofrece internet al hogar [P13.- Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado mediante banda ancha fija, ya sea por cable/fibra o WiFi? SONDEAR ¿",1645,2,67.1,False
+2025,XII,household_access,3,P13_2,"2.- Conocen beneficios de internet, pero encuentran que no es útil para el hogar [P13.- Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado mediante banda ancha fija, ya sea por cable/fibra o WiFi? SOND",1645,2,67.1,False
+2025,XII,household_access,3,P13_3,"3.- La mayor parte del tiempo la pasamos fuera del hogar, por lo que no se justifica una conexión fija [P13.- Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado mediante banda ancha fija, ya sea por ca",1645,2,67.1,False
+2025,XII,indigenous,2,A12_11,Aymara [A12.- ¿Algún miembro de este hogar pertenece o es descendiente de alguno de estos pueblos indígenas? RM],5000,2,0.0,False
+2025,XII,indigenous,2,A12_4,Mapuche [A12.- ¿Algún miembro de este hogar pertenece o es descendiente de alguno de estos pueblos indígenas? RM],5000,2,0.0,False
+2025,XII,indigenous,2,Q1_5_1,Aymara [Q1.5.- ¿Usted pertenece o es descendiente de alguno de estos pueblos indígenas o tribales?],5000,2,0.0,False
+2025,XII,indigenous,2,Q1_5_4,Mapuche [Q1.5.- ¿Usted pertenece o es descendiente de alguno de estos pueblos indígenas o tribales?],5000,2,0.0,False
+2025,XII,indigenous,1,A12_3,Quechua [A12.- ¿Algún miembro de este hogar pertenece o es descendiente de alguno de estos pueblos indígenas? RM],5000,2,0.0,False
+2025,XII,indigenous,1,A12_5,Atacameño [A12.- ¿Algún miembro de este hogar pertenece o es descendiente de alguno de estos pueblos indígenas? RM],5000,2,0.0,False
+2025,XII,indigenous,1,A12_6,Chango [A12.- ¿Algún miembro de este hogar pertenece o es descendiente de alguno de estos pueblos indígenas? RM],5000,2,0.0,False
+2025,XII,indigenous,1,A12_7,Colla [A12.- ¿Algún miembro de este hogar pertenece o es descendiente de alguno de estos pueblos indígenas? RM],5000,2,0.0,False
+2025,XII,internet_use_frequency,3,Q21_13,"11. utilizar redes sociales (facebook, twitter, linked-in, etc.) [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4731,2,5.38,False
+2025,XII,internet_use_frequency,2,Q10,Q10. ¿Con qué frecuencia ha utilizado Internet en los últimos 3 meses?,4731,4,5.38,True
+2025,XII,internet_use_frequency,2,Q21_1,"NET OBTENER INFORMACIÓN [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4731,2,5.38,False
+2025,XII,internet_use_frequency,2,Q21_2,"1. obtener información acerca de bienes o servicios (precios, especificaciones, lugares de venta) [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4731,2,5.38,False
+2025,XII,internet_use_frequency,2,Q21_3,"2. obtener información acerca de oportunidades laborales [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4731,2,5.38,False
+2025,XII,internet_use_frequency,2,Q21_4,"3. obtener información para realizar trabajos/informes de mi actividad laboral [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4731,2,5.38,False
+2025,XII,internet_use_frequency,2,Q21_5,"4. obtener información para realizar tareas/informes de algún curso, materia o capacitación [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4731,2,5.38,False
+2025,XII,internet_use_frequency,2,Q21_6,"5. obtener información para postular a cursos/carreras/postgrados/capacitación [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4731,2,5.38,False
+2025,XII,quality_satisfaction,2,Q34_16,13.- La señal donde vivo es de muy mala calidad [Q34. Señale las razones por las que no ha utilizado Internet…],269,2,94.62,False
+2025,XII,quality_satisfaction,1,Q34_OTRA,Q34.- Señale las razones por las que no ha utilizado Internet en los últimos 12 meses o nunca.  - OTRO.,5000,31,0.0,False
+2025,XII,quality_satisfaction,1,Q33_1,"1.- Ataque de algún virus (troyano o gusano) que ha dado como resultado pérdida de datos o tiempo, o daño al software o al equipo [Q33.- En los últimos 3 meses señale ¿qué problemas ha tenido Usted en términos de seguridad y privacidad de la información?]",4731,2,5.38,False
+2025,XII,quality_satisfaction,1,Q33_2,"2.- Mal uso de información personal en internet (mal uso de videos, fotos o datos personales subidos a sitios públicos) [Q33.- En los últimos 3 meses señale ¿qué problemas ha tenido Usted en términos de seguridad y privacidad de la información?]",4731,2,5.38,False
+2025,XII,quality_satisfaction,1,Q33_3,3.- Pérdidas financieras debido a pagos fraudulentos con tarjetas de créditos o débitos [Q33.- En los últimos 3 meses señale ¿qué problemas ha tenido Usted en términos de seguridad y privacidad de la información?],4731,2,5.38,False
+2025,XII,quality_satisfaction,1,Q33_4,4.- Suplantación de identidad en trámites o compras [Q33.- En los últimos 3 meses señale ¿qué problemas ha tenido Usted en términos de seguridad y privacidad de la información?],4731,2,5.38,False
+2025,XII,quality_satisfaction,1,Q33_5,Ninguno de los anteriores [Q33.- En los últimos 3 meses señale ¿qué problemas ha tenido Usted en términos de seguridad y privacidad de la información?],4731,2,5.38,False
+2025,XII,quality_satisfaction,1,Q33_6,NET OTROS [Q33.- En los últimos 3 meses señale ¿qué problemas ha tenido Usted en términos de seguridad y privacidad de la información?],4731,2,5.38,False
+2025,XII,security_privacy,4,Q32_1,"1.- Uso de algún tipo de herramienta de protección o software (antivirus, anti spam, firewall, etc.) para proteger su computador. [Q32.- En los últimos 3 meses: ¿qué actividades ha realizado usted en términos de seguridad y privacidad de la información? ]",4731,2,5.38,False
+2025,XII,security_privacy,3,Q32_3,3.- Borrar o editar algo que usted posteó online para proteger su privacidad [Q32.- En los últimos 3 meses: ¿qué actividades ha realizado usted en términos de seguridad y privacidad de la información? ],4731,2,5.38,False
+2025,XII,security_privacy,3,Q32_6,6.- Cambio de contraseñas en cuentas y servicios en línea [Q32.- En los últimos 3 meses: ¿qué actividades ha realizado usted en términos de seguridad y privacidad de la información? ],4731,2,5.38,False
+2025,XII,security_privacy,3,Q33_1,"1.- Ataque de algún virus (troyano o gusano) que ha dado como resultado pérdida de datos o tiempo, o daño al software o al equipo [Q33.- En los últimos 3 meses señale ¿qué problemas ha tenido Usted en términos de seguridad y privacidad de la información?]",4731,2,5.38,False
+2025,XII,security_privacy,3,Q33_9,Las llamadas telefónicas /ESTAFAS [Q33.- En los últimos 3 meses señale ¿qué problemas ha tenido Usted en términos de seguridad y privacidad de la información?],4731,2,5.38,False
+2025,XII,security_privacy,2,Q31,"Q31.- Frente a cosas como los virus, el correo basura, archivos espías, phishing, entre otros que pueden llegar por internet, ¿cuán protegido se siente usted?",4731,5,5.38,True
+2025,XII,security_privacy,2,Q32_2,2.- No descargar o abrir archivos o acceder a links sospechosos en correos electrónicos [Q32.- En los últimos 3 meses: ¿qué actividades ha realizado usted en términos de seguridad y privacidad de la información? ],4731,2,5.38,False
+2025,XII,security_privacy,2,Q32_4,"4.- Cambiar los ajustes de privacidad en una red social (por ejemplo, facebook, twitter, instagram, linkedin, etc) [Q32.- En los últimos 3 meses: ¿qué actividades ha realizado usted en términos de seguridad y privacidad de la información? ]",4731,2,5.38,False
+2025,XII,social_communication,3,Q8_12,"12.- Revisar redes sociales (Facebook, Instagram, Whatapps, Youtube, TikTok, etc) [Q8. Pensando en el uso del computador y o smartphone, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?]",4758,2,4.84,False
+2025,XII,social_communication,3,Q21_16,"14. crear y subir contenidos propios en redes sociales como facebook, instagram, tik tok, twitter, youtube (fotos, información, videos) [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usa",4731,2,5.38,False
+2025,XII,social_communication,2,Q21_13,"11. utilizar redes sociales (facebook, twitter, linked-in, etc.) [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4731,2,5.38,False
+2025,XII,social_communication,2,Q32_4,"4.- Cambiar los ajustes de privacidad en una red social (por ejemplo, facebook, twitter, instagram, linkedin, etc) [Q32.- En los últimos 3 meses: ¿qué actividades ha realizado usted en términos de seguridad y privacidad de la información? ]",4731,2,5.38,False
+2025,XII,social_communication,1,Q8_13,"13.- Subir contenidos o realizar posteos en redes sociales [Q8. Pensando en el uso del computador y o smartphone, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?]",4758,2,4.84,False
+2025,XII,social_communication,1,Q21_11,"9. realizar una llamada telefónica / videollamada por internet [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4731,2,5.38,False
+2025,XII,social_communication,1,Q21_14,"12. chatear por whatsapp [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4731,2,5.38,False
+2025,XII,social_communication,1,Q21_15,"13. crear y subir contenidos a la web / a redes sociales [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4731,2,5.38,False
+2025,XII,work_telework,2,Q21_43,"37. trabajar remotamente desde la casa u otro lugar (teletrabajo) [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4731,2,5.38,False
+2025,XII,work_telework,2,Q24_CODIF_13,"Buscar opciones de trabajo [Q24. ¿En qué aspectos el acceso a Internet ha facilitado o potenciado su actividad académica, laboral o la de su empresa?]",3355,2,32.9,False
+2025,XII,work_telework,2,Q26_CODIF_10,"Buscar opciones de trabajo [Q26.- ¿En qué aspectos el acceso a Internet ha mejorado sus condiciones de vida, el ejercicio de derecho o el acceso a beneficios estatales (gobierno central, municipal, judicial, etc.)?]",1228,2,75.44,False
+2025,XII,work_telework,2,Q37_2,"Buscar información de sobre temas de estudio, trabajo o de otra naturaleza en internet [Q37.- ¿Ha solicitado a algún amigo, vecino, familiar o conocido que realice en Internet por usted alguna de las siguientes actividades? RM]",269,2,94.62,False
+2025,XII,work_telework,2,Q38_2,"Buscar información de sobre temas de estudio, trabajo o de otra naturaleza en internet",11,4,99.78,True
+2025,XII,work_telework,1,Q11_1_2,"Lugar de trabajo (fuera del hogar) [Q11_1.- En el último día, ¿en qué lugares ha utilizado Internet? ]",4731,2,5.38,False
+2025,XII,work_telework,1,Q21_4,"3. obtener información para realizar trabajos/informes de mi actividad laboral [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4731,2,5.38,False
+2025,XII,work_telework,1,Q21_45,"38. postular en línea a trabajos (enviar currículum) [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4731,2,5.38,False
+2024,XI,banking_payments,2,Q8_17,"17.- Realizar transacciones bancarias, compras y pagos en línea [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en el computador o en el smartphone? SONDEAR ]",4441,2,5.5106,False
+2024,XI,banking_payments,2,Q21_26,"26. Realizar pagos en línea a organismos del estado (impuestos, compra de certificados, etc.). [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,banking_payments,2,P6_1_8,"8.- Permite realizar trámites personales como revisar cuentas bancarias, realizar transferencias, solicitar certificados y pagar cuentas [P6.- ¿Por cuál o cuáles razones se tiene el servicio de Internet en su hogar? Ya sea Internet fijo o móvil.]",3917,2,16.6596,False
+2024,XI,banking_payments,2,P6_1_10,10.- Facilita la realización de compras en línea y acceso a plataformas de comercio electrónico. [P6.- ¿Por cuál o cuáles razones se tiene el servicio de Internet en su hogar? Ya sea Internet fijo o móvil.],3917,2,16.6596,False
+2024,XI,banking_payments,2,P6_8,"8.- Permite realizar trámites personales como revisar cuentas bancarias, realizar transferencias, solicitar certificados y pagar cuentas [P6.- ¿Por cuál o cuáles razones se tiene el servicio de Internet en su hogar? Ya sea Internet fijo o móvil.]",2886,2,38.5957,False
+2024,XI,banking_payments,2,P6_10,10.- Facilita la realización de compras en línea y acceso a plataformas de comercio electrónico. [P6.- ¿Por cuál o cuáles razones se tiene el servicio de Internet en su hogar? Ya sea Internet fijo o móvil.],2886,2,38.5957,False
+2024,XI,banking_payments,1,Q21_29,"29. Realizar transacciones bancarias [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,banking_payments,1,Q21_30,"30. Realzar compras de productos o servicios [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,barriers_non_access,3,Q34_10,"10.- Los equipos para conectarse a Internet son muy caros (computador, notebook, tablet, smartphone) [Q34.- Señale las razones por las que no ha utilizado Internet en los últimos 12 meses o nunca. ]",282,2,94.0,False
+2024,XI,barriers_non_access,3,P13_7,"7.- Costo del equipo o terminal (computador, notebook, Tablet, Smartphone, Smart TV etc.) para conectarse es muy elevado [P13.- Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado mediante banda ancha f",267,2,94.3191,False
+2024,XI,barriers_non_access,3,P13_8,"8.- Costo del servicio de internet fijo (por cable/fibra o WiFi) es muy elevado [P13.- Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado mediante banda ancha fija, ya sea por cable/fibra o WiFi? SONDE",267,2,94.3191,False
+2024,XI,barriers_non_access,2,Q34_OTRA,Q34.- TXT Otras Señale las razones por las que no ha utilizado Internet en los últimos 12 meses o nunca.,4700,25,0.0,False
+2024,XI,barriers_non_access,2,Q34_1,1.- No sé bien para qué sirve el Internet / no sé cuáles son los beneficios [Q34.- Señale las razones por las que no ha utilizado Internet en los últimos 12 meses o nunca. ],282,2,94.0,False
+2024,XI,barriers_non_access,2,Q34_2,2.- No lo necesito / no me sirve [Q34.- Señale las razones por las que no ha utilizado Internet en los últimos 12 meses o nunca. ],282,2,94.0,False
+2024,XI,barriers_non_access,2,Q34_3,3.- No le interesa utilizar internet por razones distintas a la utilidad que tiene para usted. [Q34.- Señale las razones por las que no ha utilizado Internet en los últimos 12 meses o nunca. ],282,2,94.0,False
+2024,XI,barriers_non_access,2,Q34_4,4.- No sé utilizar el computador y/o Smartphone [Q34.- Señale las razones por las que no ha utilizado Internet en los últimos 12 meses o nunca. ],282,2,94.0,False
+2024,XI,demographic_age,2,P8_3,"3.- Intentos de engaños estafas o robo de información personal [P8.- En relación al uso de Internet por parte de estos menores de edad, ¿ha detectado alguna de estas situaciones?]",1187,2,74.7447,False
+2024,XI,demographic_age,1,P7_1,"1.- Se acuerdan reglas sobre el uso de Internet (horarios, tiempo y condiciones) [P7.- ¿Cuáles de estas medidas de protección o restricción del uso de internet para menores de edad tienen en su hogar? ]",1187,2,74.7447,False
+2024,XI,demographic_age,1,P7_2,2.- Instalación de filtros de Internet (software de control parental) [P7.- ¿Cuáles de estas medidas de protección o restricción del uso de internet para menores de edad tienen en su hogar? ],1187,2,74.7447,False
+2024,XI,demographic_age,1,P7_3,"3.- Supervisión y/o monitoreo de uso de Internet (en presencia de adulto, verificar historial de navegación, etc.) [P7.- ¿Cuáles de estas medidas de protección o restricción del uso de internet para menores de edad tienen en su hogar? ]",1187,2,74.7447,False
+2024,XI,demographic_age,1,P7_4,"4.- Permitir acceso a Internet sólo desde lugares comunes / públicas de la casa (living, comedor, etc.) [P7.- ¿Cuáles de estas medidas de protección o restricción del uso de internet para menores de edad tienen en su hogar? ]",1187,2,74.7447,False
+2024,XI,demographic_age,1,P7_6,6.- Filtro de contenido para limitar el acceso a sitios web inapropiados. [P7.- ¿Cuáles de estas medidas de protección o restricción del uso de internet para menores de edad tienen en su hogar? ],1187,2,74.7447,False
+2024,XI,demographic_age,1,P7_7,7.- Restricción o bloqueo de ciertas aplicaciones o plataformas en línea. [P7.- ¿Cuáles de estas medidas de protección o restricción del uso de internet para menores de edad tienen en su hogar? ],1187,2,74.7447,False
+2024,XI,demographic_age,1,P7_8,8.- Restricción de acceso a redes sociales y mensajería instantánea. [P7.- ¿Cuáles de estas medidas de protección o restricción del uso de internet para menores de edad tienen en su hogar? ],1187,2,74.7447,False
+2024,XI,demographic_education,1,Q6_3,"Era parte central de mi aprendizaje en el colegio, liceo, institución de educación superior (ej: parte del currículum de enseñanza de secretariado, contabilidad, ing. Informática, etc.) [Q6.- Respecto del uso del computador, ¿cómo aprendió a hacer uso de é",4700,2,0.0,False
+2024,XI,demographic_education,1,Q11_1_3,"Lugar de educación / capacitación (fuera del hogar) [Q11.1.-. En el último día, ¿en qué lugares ha utilizado Internet? ]",4418,2,6.0,False
+2024,XI,demographic_education,1,Q21_39,"39. Realizar estudios, cursos o capacitación en línea (e-learning). [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,demographic_education,1,P6_1_1,1.- Apoyo a la educación propia o de hijos / nietos / parientes [P6.- ¿Por cuál o cuáles razones se tiene el servicio de Internet en su hogar? Ya sea Internet fijo o móvil.],3917,2,16.6596,False
+2024,XI,demographic_education,1,P6_1_12,12.- Permite realizar trabajo o estudios desde casa [P6.- ¿Por cuál o cuáles razones se tiene el servicio de Internet en su hogar? Ya sea Internet fijo o móvil.],3917,2,16.6596,False
+2024,XI,demographic_education,1,Q20_2,"2.- Lugar de educación / capacitación (fuera del hogar) [Q20.- En los últimos 3 meses, ¿en qué otros lugares ha utilizado Internet? ]",2901,2,38.2766,False
+2024,XI,demographic_education,1,P6_11,1.- Apoyo a la educación propia o de hijos / nietos / parientes [P6.- ¿Por cuál o cuáles razones se tiene el servicio de Internet en su hogar? Ya sea Internet fijo o móvil.],2886,2,38.5957,False
+2024,XI,demographic_education,1,P6_12,12.- Permite realizar trabajo o estudios desde casa [P6.- ¿Por cuál o cuáles razones se tiene el servicio de Internet en su hogar? Ya sea Internet fijo o móvil.],2886,2,38.5957,False
+2024,XI,demographic_employment,1,A12,A12.- Y ¿Cuál es la profesión o trabajo o actividad del principal sostenedor del hogar?,4700,6,0.0,True
+2024,XI,demographic_employment,1,A15_1,Trabaja con remuneración [A15.- ¿En este hogar hay personas con estas situaciones laborales? RM],4700,2,0.0,False
+2024,XI,demographic_employment,1,A15_2,Trabaja sin remuneración [A15.- ¿En este hogar hay personas con estas situaciones laborales? RM],4700,2,0.0,False
+2024,XI,demographic_employment,1,A15_4,Busca trabajo por 1ª vez [A15.- ¿En este hogar hay personas con estas situaciones laborales? RM],4700,2,0.0,False
+2024,XI,demographic_employment,1,Q11_1_2,"Lugar de trabajo (fuera del hogar) [Q11.1.-. En el último día, ¿en qué lugares ha utilizado Internet? ]",4418,2,6.0,False
+2024,XI,demographic_employment,1,Q21_3,"3. Obtener información para realizar trabajos/informes de mi actividad laboral [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,demographic_employment,1,Q21_37,"37. Trabajar remotamente desde la casa u otro lugar (teletrabajo) [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,demographic_employment,1,Q21_38,"38. Postular en línea a trabajos (enviar currículum) [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,demographic_income_gse,1,A12_1,A12.1.- ¿A cuál de los siguientes tramos corresponde el promedio total de los ingresos familiares?,4700,55,0.0,True
+2024,XI,demographic_sex_gender,1,Q1_2,Q1.2.- Registre sexo del entrevistado,4700,2,0.0,True
+2024,XI,devices,5,P13_7,"7.- Costo del equipo o terminal (computador, notebook, Tablet, Smartphone, Smart TV etc.) para conectarse es muy elevado [P13.- Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado mediante banda ancha f",267,2,94.3191,False
+2024,XI,devices,4,Q34_10,"10.- Los equipos para conectarse a Internet son muy caros (computador, notebook, tablet, smartphone) [Q34.- Señale las razones por las que no ha utilizado Internet en los últimos 12 meses o nunca. ]",282,2,94.0,False
+2024,XI,devices,3,P3_2,P3.2.- Computador portátil (notebook / laptop o netbook)  ¿Cuál o cuáles de estos dispositivos o equipos utilizan los miembros de este hogar para acceder a Internet en EL HOGAR?,4507,3,4.1064,True
+2024,XI,devices,3,P4_3,"INTERNET MÓVIL CON PLAN O BOLSA DE GIGAS/MEGAS DE UN TELÉFONO MÓVIL [SMARTPHONE] O TABLET (3G, 4G, 5G [P4.- ¿Dispone usted de alguna o algunas de las siguientes FORMAS DE ACCESO PAGADA para conectarse a Internet en SU HOGAR?]",4507,2,4.1064,False
+2024,XI,devices,3,Q12_3,"INTERNET MÓVIL con PLAN O BOLSA DE GIGAS/MEGAS DE UN TELÉFONO MÓVIL [SMARTPHONE] / TABLET [Q12.- ¿Qué tipo de acceso a Internet ha utilizado en los últimos 12 meses, tanto dentro como fuera del hogar? ¿Algún otro? ]",4418,2,6.0,False
+2024,XI,devices,3,Q28_11,"11.- Equipos de computación, telecomunicaciones y accesorios (notebooks, smartphones, tablets) [Q28.- En los últimos 12 meses, ¿qué tipo de bienes o servicios compró u ordenó por Internet para su uso personal? ]",2378,2,49.4043,False
+2024,XI,devices,2,P2,"P2.- En este hogar, ¿cuántos teléfonos móviles propios de tipo smartphone (con pantalla táctil y posibilidad de acceso a internet) hay? (digitar de 0 hacia arriba)",4507,18,4.1064,False
+2024,XI,devices,2,P2_1,"P2.- En este hogar, ¿cuántos teléfonos móviles propios de tipo smartphone (con pantalla táctil y posibilidad de acceso a internet) hay? (digitar de 0 hacia arriba)",4507,14,4.1064,False
+2024,XI,digital_government,4,Q21_27,"27. Realizar trámites para la obtención de certificados o beneficios del Estado (bonos) [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,digital_government,2,Q21_23,"23. Descargar o solicitar formularios a organismos del estado [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,digital_government,2,Q21_25,"25. Realizar consultas, solicitudes o reclamos a organismos del estado [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,digital_government,2,Q21_26,"26. Realizar pagos en línea a organismos del estado (impuestos, compra de certificados, etc.). [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,digital_government,2,P6_1_8,"8.- Permite realizar trámites personales como revisar cuentas bancarias, realizar transferencias, solicitar certificados y pagar cuentas [P6.- ¿Por cuál o cuáles razones se tiene el servicio de Internet en su hogar? Ya sea Internet fijo o móvil.]",3917,2,16.6596,False
+2024,XI,digital_government,2,P6_8,"8.- Permite realizar trámites personales como revisar cuentas bancarias, realizar transferencias, solicitar certificados y pagar cuentas [P6.- ¿Por cuál o cuáles razones se tiene el servicio de Internet en su hogar? Ya sea Internet fijo o móvil.]",2886,2,38.5957,False
+2024,XI,digital_government,2,Q25,"Q25.- En su opinión, ¿el acceso a Internet ha mejorado sus condiciones de vida, el ejercicio de derecho o el acceso a beneficios estatales (gobierno central, municipal, judicial, etc.)?",1475,2,68.617,True
+2024,XI,digital_government,2,Q26,"Q26.- TXT ¿En qué aspectos el acceso a Internet ha mejorado sus condiciones de vida, el ejercicio de derecho o el acceso a beneficios estatales (gobierno central, municipal, judicial, etc.)?",4700,1101,0.0,False
+2024,XI,digital_skills,2,Q8_1,"1.- Uso de procesador de texto (ej: Word) [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en el computador o en el smartphone? SONDEAR ]",4441,2,5.5106,False
+2024,XI,digital_skills,2,Q8_2,"2.- Realización de fórmulas sencillas en planillas de cálculo (ej: Excel) [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en el computador o en el smartphone? SO",4441,2,5.5106,False
+2024,XI,digital_skills,2,Q8_6,"6.- Encontrar, descargar e instalar y configurar aplicaciones (Apps) y/o programas (softwares) desde internet [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en",4441,2,5.5106,False
+2024,XI,disability,2,Q34_9,9.- Tengo una discapacidad / no puedo leer / tengo una limitación que me impide usarlo [Q34.- Señale las razones por las que no ha utilizado Internet en los últimos 12 meses o nunca. ],282,2,94.0,False
+2024,XI,disability,1,A14_1,Dificultad física y/o de movilidad [A14.- ¿Hay algún miembro de este hogar con alguna de estas condiciones permanentes y/o de larga duración?],4700,2,0.0,False
+2024,XI,disability,1,A14_2,Mudez o dificultad en el habla [A14.- ¿Hay algún miembro de este hogar con alguna de estas condiciones permanentes y/o de larga duración?],4700,2,0.0,False
+2024,XI,disability,1,A14_3,Dificultad psiquiátrica [A14.- ¿Hay algún miembro de este hogar con alguna de estas condiciones permanentes y/o de larga duración?],4700,2,0.0,False
+2024,XI,disability,1,A14_4,Dificultad mental o intelectual [A14.- ¿Hay algún miembro de este hogar con alguna de estas condiciones permanentes y/o de larga duración?],4700,2,0.0,False
+2024,XI,disability,1,A14_5,Sordera o dificultad para oír aún usando audífonos [A14.- ¿Hay algún miembro de este hogar con alguna de estas condiciones permanentes y/o de larga duración?],4700,2,0.0,False
+2024,XI,disability,1,A14_6,Ceguera o dificultad para ver aún usando lentes [A14.- ¿Hay algún miembro de este hogar con alguna de estas condiciones permanentes y/o de larga duración?],4700,2,0.0,False
+2024,XI,education_learning,3,Q21_39,"39. Realizar estudios, cursos o capacitación en línea (e-learning). [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,education_learning,2,A11,"A11.- Pensando en el jefe de hogar, ¿cuál fue el último curso y tipo de estudio aprobado por el jefe de hogar?",4700,11,0.0,True
+2024,XI,education_learning,2,Q6_3,"Era parte central de mi aprendizaje en el colegio, liceo, institución de educación superior (ej: parte del currículum de enseñanza de secretariado, contabilidad, ing. Informática, etc.) [Q6.- Respecto del uso del computador, ¿cómo aprendió a hacer uso de é",4700,2,0.0,False
+2024,XI,education_learning,2,Q21_4,"4. Obtener información para realizar tareas/informes de algún curso, materia o capacitación [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,education_learning,1,A15_5,Estudia (en 2023) [A15.- ¿En este hogar hay personas con estas situaciones laborales? RM],4700,2,0.0,False
+2024,XI,education_learning,1,Q6_5,"Tomé un curso particular (clases particulares, curso en municipio, centro social, etc.) [Q6.- Respecto del uso del computador, ¿cómo aprendió a hacer uso de él?  RM]",4700,2,0.0,False
+2024,XI,education_learning,1,Q8_1,"1.- Uso de procesador de texto (ej: Word) [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en el computador o en el smartphone? SONDEAR ]",4441,2,5.5106,False
+2024,XI,education_learning,1,Q8_2,"2.- Realización de fórmulas sencillas en planillas de cálculo (ej: Excel) [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en el computador o en el smartphone? SO",4441,2,5.5106,False
+2024,XI,fixed_mobile_mode,2,P12_11,"SÍ, 4G [P12.- ¿Alguna o algunas de las conexiones de Banda ancha móvil o internet móvil para conectarse desde teléfono o Tablet a Internet, tiene sistema 4G o  5G? ]",3916,2,16.6809,False
+2024,XI,fixed_mobile_mode,2,P12_21,"Sí, 5G [P12.- ¿Alguna o algunas de las conexiones de Banda ancha móvil o internet móvil para conectarse desde teléfono o Tablet a Internet, tiene sistema 4G o  5G? ]",3916,2,16.6809,False
+2024,XI,fixed_mobile_mode,2,P12_3,"NO, ninguna de las dos [P12.- ¿Alguna o algunas de las conexiones de Banda ancha móvil o internet móvil para conectarse desde teléfono o Tablet a Internet, tiene sistema 4G o  5G? ]",3916,2,16.6809,False
+2024,XI,fixed_mobile_mode,2,P12_99,"No sabe [P12.- ¿Alguna o algunas de las conexiones de Banda ancha móvil o internet móvil para conectarse desde teléfono o Tablet a Internet, tiene sistema 4G o  5G? ]",3916,2,16.6809,False
+2024,XI,fixed_mobile_mode,2,P12_1,"P12.- ¿Alguna o algunas de las conexiones de Banda ancha móvil o internet móvil para conectarse desde teléfono o Tablet a Internet, tiene sistema 4G o  5G?",3916,2,16.6809,True
+2024,XI,fixed_mobile_mode,2,P13_8,"8.- Costo del servicio de internet fijo (por cable/fibra o WiFi) es muy elevado [P13.- Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado mediante banda ancha fija, ya sea por cable/fibra o WiFi? SONDE",267,2,94.3191,False
+2024,XI,fixed_mobile_mode,2,P13_10,"10.- Prefiero utilizar el acceso a internet móvil (4G/5G) en lugar de tener una conexión fija [P13.- Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado mediante banda ancha fija, ya sea por cable/fibra",267,2,94.3191,False
+2024,XI,fixed_mobile_mode,2,P13_12,"12.- La internet fija es más cara que la internet móvil / del teléfono móvil [P13.- Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado mediante banda ancha fija, ya sea por cable/fibra o WiFi? SONDEAR",267,2,94.3191,False
+2024,XI,geography_commune,1,COMUNA_DEF,Comuna,4700,90,0.0,True
+2024,XI,geography_region,1,COD_REGION,Región,4700,16,0.0,True
+2024,XI,geography_urban_rural,3,ZONA,Area urbana o rural,4700,2,0.0,True
+2024,XI,geography_urban_rural,1,Q8_1,"1.- Uso de procesador de texto (ej: Word) [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en el computador o en el smartphone? SONDEAR ]",4441,2,5.5106,False
+2024,XI,geography_urban_rural,1,Q8_2,"2.- Realización de fórmulas sencillas en planillas de cálculo (ej: Excel) [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en el computador o en el smartphone? SO",4441,2,5.5106,False
+2024,XI,geography_urban_rural,1,Q8_3,"3.- Uso de software de presentación (ej: diapositivas, PowerPoint, etc.) [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en el computador o en el smartphone? SON",4441,2,5.5106,False
+2024,XI,geography_urban_rural,1,Q8_4,"4.- Duplicar o transferir archivos entre dispositivos (cámaras digitales, celulares, reproductores de música) o en la nube [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mis",4441,2,5.5106,False
+2024,XI,geography_urban_rural,1,Q8_5,"5.- Conectar un nuevo dispositivo (como un router, cámara o impresora) [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en el computador o en el smartphone? SONDE",4441,2,5.5106,False
+2024,XI,geography_urban_rural,1,Q8_6,"6.- Encontrar, descargar e instalar y configurar aplicaciones (Apps) y/o programas (softwares) desde internet [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en",4441,2,5.5106,False
+2024,XI,geography_urban_rural,1,Q8_7,"7.- Modificar configuraciones de seguridad del computador, smartphone, navegadores de Internet (Chrome, Explorer, Firefox, etc.) o aplicaciones (Apps) [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es cap",4441,2,5.5106,False
+2024,XI,household_access,4,P13_10,"10.- Prefiero utilizar el acceso a internet móvil (4G/5G) en lugar de tener una conexión fija [P13.- Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado mediante banda ancha fija, ya sea por cable/fibra",267,2,94.3191,False
+2024,XI,household_access,4,P13_14,"14.- Porque puedo usar la conexión móvil del teléfono para conectarme a internet con otros equipos de la casa (computador, TV, etc.) [P13.- Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado mediante b",267,2,94.3191,False
+2024,XI,household_access,3,P1,"P1.- ¿Los miembros de este hogar tienen acceso propio y pagado a Internet desde el hogar, sin importar si lo utilizan o no?",4700,2,0.0,True
+2024,XI,household_access,3,P3_6,P3.6.- TV con conexión a internet habilitada (Smart TV)  ¿Cuál o cuáles de estos dispositivos o equipos utilizan los miembros de este hogar para acceder a Internet en EL HOGAR?,4507,3,4.1064,True
+2024,XI,household_access,3,P4_4,CONEXIÓN SATELITAL [P4.- ¿Dispone usted de alguna o algunas de las siguientes FORMAS DE ACCESO PAGADA para conectarse a Internet en SU HOGAR?],4507,2,4.1064,False
+2024,XI,household_access,3,Q12_4,"CONEXIÓN SATELITAL [Q12.- ¿Qué tipo de acceso a Internet ha utilizado en los últimos 12 meses, tanto dentro como fuera del hogar? ¿Algún otro? ]",4418,2,6.0,False
+2024,XI,household_access,3,P6_1_2,2.- Permite tener más acceso a información [P6.- ¿Por cuál o cuáles razones se tiene el servicio de Internet en su hogar? Ya sea Internet fijo o móvil.],3917,2,16.6596,False
+2024,XI,household_access,3,P6_1_10,10.- Facilita la realización de compras en línea y acceso a plataformas de comercio electrónico. [P6.- ¿Por cuál o cuáles razones se tiene el servicio de Internet en su hogar? Ya sea Internet fijo o móvil.],3917,2,16.6596,False
+2024,XI,indigenous,2,A13_1,Aymara [A13.- ¿Algún miembro de este hogar pertenece o es descendiente de alguno de estos pueblos indígenas? RM],4700,2,0.0,False
+2024,XI,indigenous,2,A13_4,Mapuche [A13.- ¿Algún miembro de este hogar pertenece o es descendiente de alguno de estos pueblos indígenas? RM],4700,2,0.0,False
+2024,XI,indigenous,1,A13_3,Quechua [A13.- ¿Algún miembro de este hogar pertenece o es descendiente de alguno de estos pueblos indígenas? RM],4700,2,0.0,False
+2024,XI,indigenous,1,A13_5,Atacameño [A13.- ¿Algún miembro de este hogar pertenece o es descendiente de alguno de estos pueblos indígenas? RM],4700,2,0.0,False
+2024,XI,indigenous,1,A13_6,Coya [A13.- ¿Algún miembro de este hogar pertenece o es descendiente de alguno de estos pueblos indígenas? RM],4700,2,0.0,False
+2024,XI,indigenous,1,A13_7,Kawaskar [A13.- ¿Algún miembro de este hogar pertenece o es descendiente de alguno de estos pueblos indígenas? RM],4700,2,0.0,False
+2024,XI,indigenous,1,A13_9,Diaguita [A13.- ¿Algún miembro de este hogar pertenece o es descendiente de alguno de estos pueblos indígenas? RM],4700,2,0.0,False
+2024,XI,indigenous,1,A13_99,Ninguno pertenece a pueblos indígenas [A13.- ¿Algún miembro de este hogar pertenece o es descendiente de alguno de estos pueblos indígenas? RM],4700,2,0.0,False
+2024,XI,internet_use_frequency,3,Q21_11,"11. Utilizar redes sociales (Facebook, Twitter, Linked-in, etc.) [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,internet_use_frequency,2,Q10,Q10.- ¿Con qué frecuencia ha utilizado Internet en los últimos 12 meses?,4418,4,6.0,True
+2024,XI,internet_use_frequency,2,Q21_1,"1. Obtener información acerca de bienes o servicios (precios, especificaciones, lugares de venta) [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,internet_use_frequency,2,Q21_2,"2. Obtener información acerca de oportunidades laborales [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,internet_use_frequency,2,Q21_3,"3. Obtener información para realizar trabajos/informes de mi actividad laboral [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,internet_use_frequency,2,Q21_4,"4. Obtener información para realizar tareas/informes de algún curso, materia o capacitación [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,internet_use_frequency,2,Q21_5,"5. Obtener información para postular a cursos/carreras/postgrados/capacitación [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,internet_use_frequency,2,Q21_6,"6. Obtener información relacionada con salud o servicios de salud [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,quality_satisfaction,2,Q34_13,13.- La señal donde vivo es de muy mala calidad [Q34.- Señale las razones por las que no ha utilizado Internet en los últimos 12 meses o nunca. ],282,2,94.0,False
+2024,XI,quality_satisfaction,1,Q34_OTRA,Q34.- TXT Otras Señale las razones por las que no ha utilizado Internet en los últimos 12 meses o nunca.,4700,25,0.0,False
+2024,XI,quality_satisfaction,1,Q33_1,"1.- Ataque de algún virus (troyano o gusano) que ha dado como resultado pérdida de datos o tiempo, o daño al software o al equipo [Q33.- En los últimos 3 meses señale ¿qué problemas ha tenido Usted en términos de seguridad y privacidad de la información?]",4418,2,6.0,False
+2024,XI,quality_satisfaction,1,Q33_2,"2.- Mal uso de información personal en internet (mal uso de videos, fotos o datos personales subidos a sitios públicos) [Q33.- En los últimos 3 meses señale ¿qué problemas ha tenido Usted en términos de seguridad y privacidad de la información?]",4418,2,6.0,False
+2024,XI,quality_satisfaction,1,Q33_3,3.- Pérdidas financieras debido a pagos fraudulentos con tarjetas de créditos o débitos [Q33.- En los últimos 3 meses señale ¿qué problemas ha tenido Usted en términos de seguridad y privacidad de la información?],4418,2,6.0,False
+2024,XI,quality_satisfaction,1,Q33_4,4.- Suplantación de identidad en trámites o compras [Q33.- En los últimos 3 meses señale ¿qué problemas ha tenido Usted en términos de seguridad y privacidad de la información?],4418,2,6.0,False
+2024,XI,quality_satisfaction,1,Q33_5,Ninguno de los anteriores [Q33.- En los últimos 3 meses señale ¿qué problemas ha tenido Usted en términos de seguridad y privacidad de la información?],4418,2,6.0,False
+2024,XI,quality_satisfaction,1,Q33_97,Otro [Q33.- En los últimos 3 meses señale ¿qué problemas ha tenido Usted en términos de seguridad y privacidad de la información?],4418,2,6.0,False
+2024,XI,security_privacy,4,Q32_1,"1.- Uso de algún tipo de herramienta de protección o software (antivirus, anti spam, firewall, etc.) para proteger su computador. [Q32.- En los últimos 3 meses: ¿qué actividades ha realizado usted en términos de seguridad y privacidad de la información? ]",4418,2,6.0,False
+2024,XI,security_privacy,3,Q32_3,3.- Borrar o editar algo que usted posteó online para proteger su privacidad [Q32.- En los últimos 3 meses: ¿qué actividades ha realizado usted en términos de seguridad y privacidad de la información? ],4418,2,6.0,False
+2024,XI,security_privacy,3,Q32_6,6.- Cambio de contraseñas en cuentas y servicios en línea [Q32.- En los últimos 3 meses: ¿qué actividades ha realizado usted en términos de seguridad y privacidad de la información? ],4418,2,6.0,False
+2024,XI,security_privacy,3,Q33_1,"1.- Ataque de algún virus (troyano o gusano) que ha dado como resultado pérdida de datos o tiempo, o daño al software o al equipo [Q33.- En los últimos 3 meses señale ¿qué problemas ha tenido Usted en términos de seguridad y privacidad de la información?]",4418,2,6.0,False
+2024,XI,security_privacy,2,Q31,"Q31.- Frente a cosas como los virus, el correo basura, archivos espías, phishing, entre otros que pueden llegar por internet, ¿cuán protegido se siente usted?",4418,5,6.0,True
+2024,XI,security_privacy,2,Q32_2,2.- No descargar o abrir archivos o acceder a links sospechosos en correos electrónicos [Q32.- En los últimos 3 meses: ¿qué actividades ha realizado usted en términos de seguridad y privacidad de la información? ],4418,2,6.0,False
+2024,XI,security_privacy,2,Q32_4,"4.- Cambiar los ajustes de privacidad en una red social (por ejemplo, facebook, twitter, instagram, linkedin, etc) [Q32.- En los últimos 3 meses: ¿qué actividades ha realizado usted en términos de seguridad y privacidad de la información? ]",4418,2,6.0,False
+2024,XI,security_privacy,2,Q32_5,"5.- Borrar su historial de búsqueda en su navegador (por ejemplo, google) [Q32.- En los últimos 3 meses: ¿qué actividades ha realizado usted en términos de seguridad y privacidad de la información? ]",4418,2,6.0,False
+2024,XI,social_communication,3,Q8_12,"12.- Revisar redes sociales (Facebook, Instagram, Whatapps, Youtube, TikTok, etc) [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en el computador o en el smartp",4441,2,5.5106,False
+2024,XI,social_communication,3,Q21_14,"14. Crear y subir contenidos propios en redes sociales como Facebook, Instagram, Tik Tok, Twitter, Youtube (fotos, información, videos) [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usa",4418,2,6.0,False
+2024,XI,social_communication,2,Q21_11,"11. Utilizar redes sociales (Facebook, Twitter, Linked-in, etc.) [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,social_communication,2,Q32_4,"4.- Cambiar los ajustes de privacidad en una red social (por ejemplo, facebook, twitter, instagram, linkedin, etc) [Q32.- En los últimos 3 meses: ¿qué actividades ha realizado usted en términos de seguridad y privacidad de la información? ]",4418,2,6.0,False
+2024,XI,social_communication,1,Q8_13,"13.- Subir contenidos o realizar posteos en redes sociales [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en el computador o en el smartphone? SONDEAR ]",4441,2,5.5106,False
+2024,XI,social_communication,1,Q21_9,"9. Realizar una llamada telefónica / videollamada por internet [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,social_communication,1,Q21_12,"12. Chatear por WhatsApp [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,social_communication,1,Q21_13,"13. Crear y subir contenidos a la web / a redes sociales [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,work_telework,2,Q21_37,"37. Trabajar remotamente desde la casa u otro lugar (teletrabajo) [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,work_telework,2,Q37_2,"Buscar información de sobre temas de estudio, trabajo o de otra naturaleza en internet [Q37.- ¿Ha solicitado a algún amigo, vecino, familiar o conocido que realice en Internet por usted alguna de las siguientes actividades? RM]",282,2,94.0,False
+2024,XI,work_telework,2,Q38_2,"Q38.2.- Buscar información de sobre temas de estudio, trabajo o de otra naturaleza en internet  ¿Cuántas veces ha solicitado …RESPUESTA Q.37 en los últimos 3 meses?",13,6,99.7234,False
+2024,XI,work_telework,1,Q11_1_2,"Lugar de trabajo (fuera del hogar) [Q11.1.-. En el último día, ¿en qué lugares ha utilizado Internet? ]",4418,2,6.0,False
+2024,XI,work_telework,1,Q21_3,"3. Obtener información para realizar trabajos/informes de mi actividad laboral [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,work_telework,1,Q21_38,"38. Postular en línea a trabajos (enviar currículum) [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4418,2,6.0,False
+2024,XI,work_telework,1,P6_1_12,12.- Permite realizar trabajo o estudios desde casa [P6.- ¿Por cuál o cuáles razones se tiene el servicio de Internet en su hogar? Ya sea Internet fijo o móvil.],3917,2,16.6596,False
+2024,XI,work_telework,1,Q20_1,"1.- Lugar de trabajo (fuera del hogar) [Q20.- En los últimos 3 meses, ¿en qué otros lugares ha utilizado Internet? ]",2901,2,38.2766,False
+2023,X,banking_payments,2,Q8_17,"17.- Realizar Transacciones Bancarias, Compras Y Pagos En Línea [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en el computador o en el smartphone?]",4710,2,0.0,False
+2023,X,banking_payments,2,P6_8,"8.- Permite realizar trámites personales como revisar cuentas bancarias, realizar transferencias, solicitar certificados y pagar cuentas [P6.- ¿Por cuál o cuáles razones se tiene el servicio de Internet en su hogar? Ya sea Internet fijo o móvil.]",4359,2,7.4522,False
+2023,X,banking_payments,2,P6_10,10.- Facilita la realización de compras en línea y acceso a plataformas de comercio electrónico. [P6.- ¿Por cuál o cuáles razones se tiene el servicio de Internet en su hogar? Ya sea Internet fijo o móvil.],4359,2,7.4522,False
+2023,X,banking_payments,2,Q21_26,"26. Realizar Pagos En Línea A Organismos Del Estado (Impuestos, Compra De Certificados, Etc.). [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4309,2,8.5138,False
+2023,X,banking_payments,1,S6_1,"Netflix [S6.- ¿Y paga un monto extra, además del pago de su internet, por el uso de estas aplicaciones?]",4710,2,0.0,False
+2023,X,banking_payments,1,S6_2,"Spotify [S6.- ¿Y paga un monto extra, además del pago de su internet, por el uso de estas aplicaciones?]",4710,2,0.0,False
+2023,X,banking_payments,1,S6_3,"Cdf Estadio [S6.- ¿Y paga un monto extra, además del pago de su internet, por el uso de estas aplicaciones?]",4710,2,0.0,False
+2023,X,banking_payments,1,S6_4,"Claro Video [S6.- ¿Y paga un monto extra, además del pago de su internet, por el uso de estas aplicaciones?]",4710,2,0.0,False
+2023,X,barriers_non_access,3,P13_7,"7.- Costo del equipo o terminal (computador, notebook, Tablet, Smartphone, Smart TV etc.) para conectarse es muy elevado [P13.- Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado mediante banda ancha f",490,2,89.5966,False
+2023,X,barriers_non_access,3,P13_8,"8.- Costo del servicio de internet fijo (por cable/fibra o WiFi) es muy elevado [P13.- Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado mediante banda ancha fija, ya sea por cable/fibra o WiFi? ]",490,2,89.5966,False
+2023,X,barriers_non_access,3,Q34_10,"10.- Los Equipos Para Conectarse A Internet Son Muy Caros (Computador, Notebook, Tablet, Smartphone) [Q34.- Señale las razones por las que no ha utilizado Internet en los últimos 12 meses o nunca. ]",401,2,91.4862,False
+2023,X,barriers_non_access,2,Q34_OTRA,Q34.- Señale las razones por las que no ha utilizado Internet en los últimos 12 meses o nunca.  - OTRO.,4710,39,0.0,False
+2023,X,barriers_non_access,2,Q29_1,"1.- No Me Interesa [Q29.- ¿Por cuál o cuáles razones no ha realizado una compra u ordenado productos o servicios para su uso privado a través de Internet, en los últimos 12 meses?]",1821,2,61.3376,False
+2023,X,barriers_non_access,2,Q29_2,"2.- Prefiero Comprar En Persona, Ver El Producto Y Hablar Con El Vendedor [Q29.- ¿Por cuál o cuáles razones no ha realizado una compra u ordenado productos o servicios para su uso privado a través de Internet, en los últimos 12 meses?]",1821,2,61.3376,False
+2023,X,barriers_non_access,2,Q29_3,"3.- No Me Siento Seguro Con El Pago / Transacción En Línea, Ingresando Los Detalles De Mis Tarjetas De Crédito O Débito Por Internet [Q29.- ¿Por cuál o cuáles razones no ha realizado una compra u ordenado productos o servicios para su uso privado a través",1821,2,61.3376,False
+2023,X,barriers_non_access,2,Q29_4,"4.- No Tengo Tarjeta De Crédito O Débito Para Pagar Por Internet [Q29.- ¿Por cuál o cuáles razones no ha realizado una compra u ordenado productos o servicios para su uso privado a través de Internet, en los últimos 12 meses?]",1821,2,61.3376,False
+2023,X,demographic_age,2,P8_3,"3.- Intentos de engaños estafas o robo de información personal [P8.- En relación al uso de Internet por parte de estos menores de edad, ¿ha detectado alguna de estas situaciones?]",1376,2,70.7856,False
+2023,X,demographic_age,1,A16_1,"P16..- En los últimos 3 meses, @1 de @2 años ¿utilizó internet desde cualquier dispositivo (celular, Tablet, computados, etc.) y mediante cualquier tipo de conexión (internet fija -con cable/fibra o wifi- o internet móvil, 3G, 4G o 5G)? Miembro 1",3196,2,32.1444,True
+2023,X,demographic_age,1,A17_1,P17.- En un día promedio ¿Cuánto tiempo diría que @1 de @2 años está conectado a Internet? Miembro 1,2709,5,42.4841,True
+2023,X,demographic_age,1,A18_1,P18.- ¿Dónde utiliza más frecuentemente Internet @1 de @2 años? Miembro 1,2709,7,42.4841,True
+2023,X,demographic_age,1,A16_2,"P16..- En los últimos 3 meses, @1 de @2 años ¿utilizó internet desde cualquier dispositivo (celular, Tablet, computados, etc.) y mediante cualquier tipo de conexión (internet fija -con cable/fibra o wifi- o internet móvil, 3G, 4G o 5G)? Miembro 2",2191,2,53.482,True
+2023,X,demographic_age,1,A17_2,P17.- En un día promedio ¿Cuánto tiempo diría que @1 de @2 años está conectado a Internet? Miembro 2,1916,5,59.3206,True
+2023,X,demographic_age,1,A18_2,P18.- ¿Dónde utiliza más frecuentemente Internet @1 de @2 años? Miembro 2,1916,7,59.3206,True
+2023,X,demographic_age,1,P7_1,"1.- Se acuerdan reglas sobre el uso de Internet (horarios, tiempo y condiciones) [P7.- ¿Cuáles de estas medidas de protección o restricción del uso de internet para menores de edad tienen en su hogar? ]",1376,2,70.7856,False
+2023,X,demographic_education,1,P6_1,1.- Apoyo a la educación propia o de hijos / nietos / parientes [P6.- ¿Por cuál o cuáles razones se tiene el servicio de Internet en su hogar? Ya sea Internet fijo o móvil.],4359,2,7.4522,False
+2023,X,demographic_education,1,P6_12,12.- Permite realizar trabajo o estudios desde casa [P6.- ¿Por cuál o cuáles razones se tiene el servicio de Internet en su hogar? Ya sea Internet fijo o móvil.],4359,2,7.4522,False
+2023,X,demographic_education,1,Q21_39,"39. Realizar Estudios, Cursos O Capacitación En Línea (E-Learning). [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4309,2,8.5138,False
+2023,X,demographic_education,1,Q20_2,"2.- Lugar De Educación / Capacitación (Fuera Del Hogar) [Q20.- ¿En los últimos 12 meses, ¿en qué otros lugares ha utilizado Internet?]",3075,2,34.7134,False
+2023,X,demographic_employment,1,A12,A12.- Y ¿Cuál es la profesión o trabajo o actividad del principal sostenedor del hogar?,4710,6,0.0,True
+2023,X,demographic_employment,1,A15_1,Trabaja con remuneración [A15.- ¿En este hogar hay personas con estas situaciones laborales?],4710,2,0.0,False
+2023,X,demographic_employment,1,A15_2,Trabaja sin remuneración [A15.- ¿En este hogar hay personas con estas situaciones laborales?],4710,2,0.0,False
+2023,X,demographic_employment,1,A15_4,Busca trabajo por 1ª vez [A15.- ¿En este hogar hay personas con estas situaciones laborales?],4710,2,0.0,False
+2023,X,demographic_employment,1,S3_OTRA_2,"S3.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere : Otra para Buscar información para tareas, actividades, trabajos",4710,4,0.0,False
+2023,X,demographic_employment,1,S3_OTRA_4,S3.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere : Otra para Comunicarse con otros para encontrar trabajo / hacer negocios,4710,2,0.0,False
+2023,X,demographic_employment,1,S3_2_1,"Facebook [S3.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere : Buscar información para tareas, actividades, trabajos]",4696,2,0.2972,False
+2023,X,demographic_employment,1,S3_2_2,"Twitter [S3.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere : Buscar información para tareas, actividades, trabajos]",4696,2,0.2972,False
+2023,X,demographic_sex_gender,1,A3_SEXO_1,A3.- Sexo miembro 1,4710,2,0.0,True
+2023,X,demographic_sex_gender,1,A3_SEXO_2,A3.- Sexo miembro 2,4058,2,13.8429,True
+2023,X,demographic_sex_gender,1,A3_SEXO_3,A3.- Sexo miembro 3,2760,2,41.4013,True
+2023,X,demographic_sex_gender,1,A3_SEXO_4,A3.- Sexo miembro 4,1583,2,66.3907,True
+2023,X,demographic_sex_gender,1,A3_SEXO_5,A3.- Sexo miembro 5,734,2,84.4161,True
+2023,X,demographic_sex_gender,1,A3_SEXO_6,A3.- Sexo miembro 6,273,2,94.2038,True
+2023,X,demographic_sex_gender,1,A3_SEXO_7,A3.- Sexo miembro 7,98,2,97.9193,True
+2023,X,demographic_sex_gender,1,A3_SEXO_8,A3.- Sexo miembro 8,40,2,99.1507,True
+2023,X,devices,5,P13_7,"7.- Costo del equipo o terminal (computador, notebook, Tablet, Smartphone, Smart TV etc.) para conectarse es muy elevado [P13.- Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado mediante banda ancha f",490,2,89.5966,False
+2023,X,devices,4,Q34_10,"10.- Los Equipos Para Conectarse A Internet Son Muy Caros (Computador, Notebook, Tablet, Smartphone) [Q34.- Señale las razones por las que no ha utilizado Internet en los últimos 12 meses o nunca. ]",401,2,91.4862,False
+2023,X,devices,3,P4_3,"INTERNET MÓVIL CON PLAN O BOLSA DE GIGAS/MEGAS DE UN TELÉFONO MÓVIL [SMARTPHONE] O TABLET (3G, 4G, 5G [P4.- ¿Dispone usted de alguna o algunas de las siguientes FORMAS DE ACCESO PAGADA para conectarse a Internet en SU HOGAR?]",4360,2,7.431,False
+2023,X,devices,3,P3_2,P3.- ¿Cuál o cuáles de estos dispositivos o equipos utilizan los miembros de este hogar para acceder a Internet en EL HOGAR? : Computador portátil (notebook / laptop o netbook),4327,4,8.1316,True
+2023,X,devices,3,Q12_3,"Internet Móvil Con Plan O Bolsa De Gigas/Megas De Un Teléfono Móvil [Smartphone] / Tablet [Q12.- ¿Qué tipo de acceso a Internet ha utilizado en los últimos 12 meses, tanto dentro como fuera del hogar?]",4309,2,8.5138,False
+2023,X,devices,3,Q28_11,"11.- Equipos De Computación, Telecomunicaciones Y Accesorios (Notebooks, Smartphones, Tablets) [Q28.- En los últimos 12 meses, ¿qué tipo de bienes o servicios compró u ordenó por Internet para su uso personal? ]",2488,2,47.1762,False
+2023,X,devices,2,Q4,"Q4.- ¿Cuándo fue la última vez que usó un computador (PC, Notebook o Netbook)?",4710,5,0.0,True
+2023,X,devices,2,Q8_1,"1.- Uso De Procesador De Texto (Ej: Word) [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en el computador o en el smartphone?]",4710,2,0.0,False
+2023,X,digital_government,4,Q21_27,"27. Realizar Trámites Para La Obtención De Certificados O Beneficios Del Estado (Bonos) [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4309,2,8.5138,False
+2023,X,digital_government,2,P6_8,"8.- Permite realizar trámites personales como revisar cuentas bancarias, realizar transferencias, solicitar certificados y pagar cuentas [P6.- ¿Por cuál o cuáles razones se tiene el servicio de Internet en su hogar? Ya sea Internet fijo o móvil.]",4359,2,7.4522,False
+2023,X,digital_government,2,Q21_23,"23. Descargar O Solicitar Formularios A Organismos Del Estado [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4309,2,8.5138,False
+2023,X,digital_government,2,Q21_25,"25. Realizar Consultas, Solicitudes O Reclamos A Organismos Del Estado [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4309,2,8.5138,False
+2023,X,digital_government,2,Q21_26,"26. Realizar Pagos En Línea A Organismos Del Estado (Impuestos, Compra De Certificados, Etc.). [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4309,2,8.5138,False
+2023,X,digital_government,2,Q25,"Q25.- En su opinión, ¿el acceso a Internet ha mejorado sus condiciones de vida, el ejercicio de derecho o el acceso a beneficios estatales (gobierno central, municipal, judicial, etc.)?",1702,2,63.8641,True
+2023,X,digital_government,2,Q26,"Q26.- ¿En qué aspectos el acceso a Internet ha mejorado sus condiciones de vida, el ejercicio de derecho o el acceso a beneficios estatales (gobierno central, municipal, judicial, etc.)?",4710,1381,0.0,False
+2023,X,digital_government,1,A10,A10.- ¿Cuál es su estado civil?,4710,7,0.0,True
+2023,X,digital_skills,2,Q8_1,"1.- Uso De Procesador De Texto (Ej: Word) [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en el computador o en el smartphone?]",4710,2,0.0,False
+2023,X,digital_skills,2,Q8_2,"2.- Realización De Fórmulas Sencillas En Planillas De Cálculo (Ej: Excel) [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en el computador o en el smartphone?]",4710,2,0.0,False
+2023,X,digital_skills,2,Q8_6,"6.- Encontrar, Descargar E Instalar Y Configurar Aplicaciones (Apps) Y/O Programas (Softwares) Desde Internet [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en",4710,2,0.0,False
+2023,X,digital_skills,1,Q29_7,"7.- Falta De Conocimientos, Habilidades O Experiencia En Compras Por Internet [Q29.- ¿Por cuál o cuáles razones no ha realizado una compra u ordenado productos o servicios para su uso privado a través de Internet, en los últimos 12 meses?]",1821,2,61.3376,False
+2023,X,disability,2,Q34_9,9.- Tengo Una Discapacidad / No Puedo Leer / Tengo Una Limitación Que Me Impide Usarlo [Q34.- Señale las razones por las que no ha utilizado Internet en los últimos 12 meses o nunca. ],401,2,91.4862,False
+2023,X,education_learning,3,Q21_39,"39. Realizar Estudios, Cursos O Capacitación En Línea (E-Learning). [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4309,2,8.5138,False
+2023,X,education_learning,2,A11,"A11.- Pensando en el jefe de hogar, ¿cuál fue el último curso y tipo de estudio aprobado por el jefe de hogar?",4710,11,0.0,True
+2023,X,education_learning,2,Q21_4,"4. Obtener Información Para Realizar Tareas/Informes De Algún Curso, Materia O Capacitación [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4309,2,8.5138,False
+2023,X,education_learning,2,Q3,Q3.- ¿Cuál fue el último curso y tipo de estudio aprobado Ud.?,2200,11,53.2909,True
+2023,X,education_learning,1,A15_5,Estudia (en 2023) [A15.- ¿En este hogar hay personas con estas situaciones laborales?],4710,2,0.0,False
+2023,X,education_learning,1,Q8_1,"1.- Uso De Procesador De Texto (Ej: Word) [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en el computador o en el smartphone?]",4710,2,0.0,False
+2023,X,education_learning,1,Q8_2,"2.- Realización De Fórmulas Sencillas En Planillas De Cálculo (Ej: Excel) [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en el computador o en el smartphone?]",4710,2,0.0,False
+2023,X,education_learning,1,Q8_3,"3.- Uso De Software De Presentación (Ej: Diapositivas, Powerpoint, Etc.) [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en el computador o en el smartphone?]",4710,2,0.0,False
+2023,X,fixed_mobile_mode,2,P12_1,"SÍ, 4G [P12.- ¿Alguna o algunas de las conexiones de Banda ancha móvil o internet móvil para conectarse desde teléfono o Tablet a Internet, tiene sistema 4G o  5G? ]",3613,2,23.2909,False
+2023,X,fixed_mobile_mode,2,P12_21,"Sí, 5G [P12.- ¿Alguna o algunas de las conexiones de Banda ancha móvil o internet móvil para conectarse desde teléfono o Tablet a Internet, tiene sistema 4G o  5G? ]",3613,2,23.2909,False
+2023,X,fixed_mobile_mode,2,P12_3,"NO, ninguna de las dos [P12.- ¿Alguna o algunas de las conexiones de Banda ancha móvil o internet móvil para conectarse desde teléfono o Tablet a Internet, tiene sistema 4G o  5G? ]",3613,2,23.2909,False
+2023,X,fixed_mobile_mode,2,P12_99,"No sabe [P12.- ¿Alguna o algunas de las conexiones de Banda ancha móvil o internet móvil para conectarse desde teléfono o Tablet a Internet, tiene sistema 4G o  5G? ]",3613,2,23.2909,False
+2023,X,fixed_mobile_mode,2,A16_1,"P16..- En los últimos 3 meses, @1 de @2 años ¿utilizó internet desde cualquier dispositivo (celular, Tablet, computados, etc.) y mediante cualquier tipo de conexión (internet fija -con cable/fibra o wifi- o internet móvil, 3G, 4G o 5G)? Miembro 1",3196,2,32.1444,True
+2023,X,fixed_mobile_mode,2,A16_2,"P16..- En los últimos 3 meses, @1 de @2 años ¿utilizó internet desde cualquier dispositivo (celular, Tablet, computados, etc.) y mediante cualquier tipo de conexión (internet fija -con cable/fibra o wifi- o internet móvil, 3G, 4G o 5G)? Miembro 2",2191,2,53.482,True
+2023,X,fixed_mobile_mode,2,A16_3,"P16..- En los últimos 3 meses, @1 de @2 años ¿utilizó internet desde cualquier dispositivo (celular, Tablet, computados, etc.) y mediante cualquier tipo de conexión (internet fija -con cable/fibra o wifi- o internet móvil, 3G, 4G o 5G)? Miembro 3",1262,2,73.2059,True
+2023,X,fixed_mobile_mode,2,A16_4,"P16..- En los últimos 3 meses, @1 de @2 años ¿utilizó internet desde cualquier dispositivo (celular, Tablet, computados, etc.) y mediante cualquier tipo de conexión (internet fija -con cable/fibra o wifi- o internet móvil, 3G, 4G o 5G)? Miembro 4",735,2,84.3949,True
+2023,X,geography_commune,1,COMUNA_DEF,Comuna,4710,90,0.0,True
+2023,X,geography_region,1,COD_REGION,Región,4710,16,0.0,True
+2023,X,geography_urban_rural,1,ZONA,Zona,4710,2,0.0,True
+2023,X,geography_urban_rural,1,Q8_1,"1.- Uso De Procesador De Texto (Ej: Word) [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en el computador o en el smartphone?]",4710,2,0.0,False
+2023,X,geography_urban_rural,1,Q8_2,"2.- Realización De Fórmulas Sencillas En Planillas De Cálculo (Ej: Excel) [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en el computador o en el smartphone?]",4710,2,0.0,False
+2023,X,geography_urban_rural,1,Q8_3,"3.- Uso De Software De Presentación (Ej: Diapositivas, Powerpoint, Etc.) [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en el computador o en el smartphone?]",4710,2,0.0,False
+2023,X,geography_urban_rural,1,Q8_4,"4.- Duplicar O Transferir Archivos Entre Dispositivos (Cámaras Digitales, Celulares, Reproductores De Música) O En La Nube [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mis",4710,2,0.0,False
+2023,X,geography_urban_rural,1,Q8_5,"5.- Conectar Un Nuevo Dispositivo (Como Un Router, Cámara O Impresora) [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en el computador o en el smartphone?]",4710,2,0.0,False
+2023,X,geography_urban_rural,1,Q8_6,"6.- Encontrar, Descargar E Instalar Y Configurar Aplicaciones (Apps) Y/O Programas (Softwares) Desde Internet [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en",4710,2,0.0,False
+2023,X,geography_urban_rural,1,Q8_7,"7.- Modificar Configuraciones De Seguridad Del Computador, Smartphone, Navegadores De Internet (Chrome, Explorer, Firefox, Etc.) O Aplicaciones (Apps) [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es cap",4710,2,0.0,False
+2023,X,household_access,4,P13_10,"10.- Prefiero utilizar el acceso a internet móvil (4G/5G) en lugar de tener una conexión fija [P13.- Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado mediante banda ancha fija, ya sea por cable/fibra",490,2,89.5966,False
+2023,X,household_access,4,P13_14,"14.- Porque puedo usar la conexión móvil del teléfono para conectarme a internet con otros equipos de la casa (computador, TV, etc.) [P13.- Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado mediante b",490,2,89.5966,False
+2023,X,household_access,3,P1,"P1.- ¿Los miembros de este hogar tienen acceso propio y pagado a Internet desde el hogar, sin importar si lo utilizan o no?",4710,2,0.0,True
+2023,X,household_access,3,P4_4,CONEXIÓN SATELITAL [P4.- ¿Dispone usted de alguna o algunas de las siguientes FORMAS DE ACCESO PAGADA para conectarse a Internet en SU HOGAR?],4360,2,7.431,False
+2023,X,household_access,3,P6_2,2.- Permite tener más acceso a información [P6.- ¿Por cuál o cuáles razones se tiene el servicio de Internet en su hogar? Ya sea Internet fijo o móvil.],4359,2,7.4522,False
+2023,X,household_access,3,P6_10,10.- Facilita la realización de compras en línea y acceso a plataformas de comercio electrónico. [P6.- ¿Por cuál o cuáles razones se tiene el servicio de Internet en su hogar? Ya sea Internet fijo o móvil.],4359,2,7.4522,False
+2023,X,household_access,3,P6_11,11.- Proporciona acceso a noticias y actualidad [P6.- ¿Por cuál o cuáles razones se tiene el servicio de Internet en su hogar? Ya sea Internet fijo o móvil.],4359,2,7.4522,False
+2023,X,household_access,3,P3_6,P3.- ¿Cuál o cuáles de estos dispositivos o equipos utilizan los miembros de este hogar para acceder a Internet en EL HOGAR? : TV con conexión a internet habilitada (Smart TV),4327,4,8.1316,True
+2023,X,indigenous,1,A13,A13.- ¿Algún miembro de este hogar pertenece o es descendiente de alguno de estos pueblos indígenas?,4710,10,0.0,True
+2023,X,internet_use_frequency,3,Q21_11,"11. Utilizar Redes Sociales (Facebook, Twitter, Linked-In, Etc.) [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4309,2,8.5138,False
+2023,X,internet_use_frequency,2,Q10,Q10.- ¿Con qué frecuencia ha utilizado Internet en los últimos 12 meses? RU,4309,4,8.5138,True
+2023,X,internet_use_frequency,2,Q21_1,"1. Obtener Información Acerca De Bienes O Servicios (Precios, Especificaciones, Lugares De Venta) [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4309,2,8.5138,False
+2023,X,internet_use_frequency,2,Q21_2,"2. Obtener Información Acerca De Oportunidades Laborales [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4309,2,8.5138,False
+2023,X,internet_use_frequency,2,Q21_3,"3. Obtener Información Para Realizar Trabajos/Informes De Mi Actividad Laboral [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4309,2,8.5138,False
+2023,X,internet_use_frequency,2,Q21_4,"4. Obtener Información Para Realizar Tareas/Informes De Algún Curso, Materia O Capacitación [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4309,2,8.5138,False
+2023,X,internet_use_frequency,2,Q21_5,"5. Obtener Información Para Postular A Cursos/Carreras/Postgrados/Capacitación [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4309,2,8.5138,False
+2023,X,internet_use_frequency,2,Q21_6,"6. Obtener Información Relacionada Con Salud O Servicios De Salud [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4309,2,8.5138,False
+2023,X,quality_satisfaction,2,Q34_13,13.- La Señal Donde Vivo Es De Muy Mala Calidad [Q34.- Señale las razones por las que no ha utilizado Internet en los últimos 12 meses o nunca. ],401,2,91.4862,False
+2023,X,quality_satisfaction,1,Q34_OTRA,Q34.- Señale las razones por las que no ha utilizado Internet en los últimos 12 meses o nunca.  - OTRO.,4710,39,0.0,False
+2023,X,quality_satisfaction,1,Q33_1,"1.- Ataque De Algún Virus (Troyano O Gusano) Que Ha Dado Como Resultado Pérdida De Datos O Tiempo, O Daño Al Software O Al Equipo [Q33.- En los últimos 3 meses señale ¿qué problemas ha tenido Usted en términos de seguridad y privacidad de la información?]",4309,2,8.5138,False
+2023,X,quality_satisfaction,1,Q33_2,"2.- Mal Uso De Información Personal En Internet (Mal Uso De Videos, Fotos O Datos Personales Subidos A Sitios Públicos) [Q33.- En los últimos 3 meses señale ¿qué problemas ha tenido Usted en términos de seguridad y privacidad de la información?]",4309,2,8.5138,False
+2023,X,quality_satisfaction,1,Q33_3,3.- Pérdidas Financieras Debido A Pagos Fraudulentos Con Tarjetas De Créditos O Débitos [Q33.- En los últimos 3 meses señale ¿qué problemas ha tenido Usted en términos de seguridad y privacidad de la información?],4309,2,8.5138,False
+2023,X,quality_satisfaction,1,Q33_4,4.- Suplantación De Identidad En Trámites O Compras [Q33.- En los últimos 3 meses señale ¿qué problemas ha tenido Usted en términos de seguridad y privacidad de la información?],4309,2,8.5138,False
+2023,X,quality_satisfaction,1,Q33_5,Ninguno De Los Anteriores [Q33.- En los últimos 3 meses señale ¿qué problemas ha tenido Usted en términos de seguridad y privacidad de la información?],4309,2,8.5138,False
+2023,X,quality_satisfaction,1,Q33_97,Otro [Q33.- En los últimos 3 meses señale ¿qué problemas ha tenido Usted en términos de seguridad y privacidad de la información?],4309,2,8.5138,False
+2023,X,security_privacy,4,Q32_1,"1.- Uso De Algún Tipo De Herramienta De Protección O Software (Antivirus, Anti Spam, Firewall, Etc.) Para Proteger Su Computador. [Q32.- En los últimos 3 meses: ¿qué actividades ha realizado usted en términos de seguridad y privacidad de la información? ]",4309,2,8.5138,False
+2023,X,security_privacy,3,Q32_3,3.- Borrar O Editar Algo Que Usted Posteó Online Para Proteger Su Privacidad [Q32.- En los últimos 3 meses: ¿qué actividades ha realizado usted en términos de seguridad y privacidad de la información? ],4309,2,8.5138,False
+2023,X,security_privacy,3,Q32_6,6.- Cambio De Contraseñas En Cuentas Y Servicios En Línea [Q32.- En los últimos 3 meses: ¿qué actividades ha realizado usted en términos de seguridad y privacidad de la información? ],4309,2,8.5138,False
+2023,X,security_privacy,3,Q33_1,"1.- Ataque De Algún Virus (Troyano O Gusano) Que Ha Dado Como Resultado Pérdida De Datos O Tiempo, O Daño Al Software O Al Equipo [Q33.- En los últimos 3 meses señale ¿qué problemas ha tenido Usted en términos de seguridad y privacidad de la información?]",4309,2,8.5138,False
+2023,X,security_privacy,2,Q31,"Q31.- Frente a cosas como los virus, el correo basura, archivos espías, phishing, entre otros que pueden llegar por internet, ¿cuán protegido se siente usted?",4309,5,8.5138,True
+2023,X,security_privacy,2,Q32_2,2.- No Descargar O Abrir Archivos O Acceder A Links Sospechosos En Correos Electrónicos [Q32.- En los últimos 3 meses: ¿qué actividades ha realizado usted en términos de seguridad y privacidad de la información? ],4309,2,8.5138,False
+2023,X,security_privacy,2,Q32_4,"4.- Cambiar Los Ajustes De Privacidad En Una Red Social (Por Ejemplo, Facebook, Twitter, Instagram, Linkedin, Etc) [Q32.- En los últimos 3 meses: ¿qué actividades ha realizado usted en términos de seguridad y privacidad de la información? ]",4309,2,8.5138,False
+2023,X,security_privacy,2,Q32_5,"5.- Borrar Su Historial De Búsqueda En Su Navegador (Por Ejemplo, Google) [Q32.- En los últimos 3 meses: ¿qué actividades ha realizado usted en términos de seguridad y privacidad de la información? ]",4309,2,8.5138,False
+2023,X,social_communication,3,Q8_12,"12.- Revisar Redes Sociales (Facebook, Instagram, Whatapps, Youtube, Tiktok, Etc) [Q8.- Pensando en el uso del computador o del smartphone / celular, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo ya sea en el computador o en el smartp",4710,2,0.0,False
+2023,X,social_communication,3,S3_4_1,Facebook [S3.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere : Comunicarse con otros para encontrar trabajo / hacer negocios],4696,2,0.2972,False
+2023,X,social_communication,3,S3_4_3,Instagram [S3.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere : Comunicarse con otros para encontrar trabajo / hacer negocios],4696,2,0.2972,False
+2023,X,social_communication,3,S3_4_7,Whatsapp [S3.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere : Comunicarse con otros para encontrar trabajo / hacer negocios],4696,2,0.2972,False
+2023,X,social_communication,3,Q21_14,"14. Crear Y Subir Contenidos Propios En Redes Sociales Como Facebook, Instagram, Tik Tok, Twitter, Youtube (Fotos, Información, Videos) [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usa",4309,2,8.5138,False
+2023,X,social_communication,2,S3_OTRA_4,S3.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere : Otra para Comunicarse con otros para encontrar trabajo / hacer negocios,4710,2,0.0,False
+2023,X,social_communication,2,S1_1,Facebook [S1.- ¿Cuál o cuáles de estas redes sociales conoce?],4696,2,0.2972,False
+2023,X,social_communication,2,S1_3,Instagram [S1.- ¿Cuál o cuáles de estas redes sociales conoce?],4696,2,0.2972,False
+2023,X,work_telework,2,Q21_37,"37. Trabajar Remotamente Desde La Casa U Otro Lugar (Teletrabajo) [Q21.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?]",4309,2,8.5138,False
+2023,X,work_telework,2,Q37_2,"Buscar Información De Sobre Temas De Estudio, Trabajo O De Otra Naturaleza En Internet [Q37.- ¿Ha solicitado a algún amigo, vecino, familiar o conocido que realice en Internet por usted alguna de las siguientes actividades?]",401,2,91.4862,False
+2023,X,work_telework,2,Q38_2,"Q38.- ¿Cuántas veces ha solicitado ... en los últimos 3 meses? : Buscar información de sobre temas de estudio, trabajo o de otra naturaleza en internet",17,6,99.6391,True
+2023,X,work_telework,1,S3_OTRA_2,"S3.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere : Otra para Buscar información para tareas, actividades, trabajos",4710,4,0.0,False
+2023,X,work_telework,1,S3_2_1,"Facebook [S3.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere : Buscar información para tareas, actividades, trabajos]",4696,2,0.2972,False
+2023,X,work_telework,1,S3_2_2,"Twitter [S3.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere : Buscar información para tareas, actividades, trabajos]",4696,2,0.2972,False
+2023,X,work_telework,1,S3_2_3,"Instagram [S3.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere : Buscar información para tareas, actividades, trabajos]",4696,2,0.2972,False
+2023,X,work_telework,1,S3_2_4,"Linked-In [S3.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere : Buscar información para tareas, actividades, trabajos]",4696,2,0.2972,False
+2017,IX,banking_payments,1,Q16,"Q16.- ¿Cuándo realizó la última compra u orden de bienes o servicios, para su uso personal, a través de Internet?",3600,5,0.0,True
+2017,IX,banking_payments,1,P7_C_1,P7_C_1.- ¿Cuál es la modalidad de pago de BANDA ANCHA FIJA O WIFI?,1994,3,44.6111,True
+2017,IX,banking_payments,1,P7_C_3,P7_C_3.- ¿Cuál es la modalidad de pago de INTERNET MÓVIL con PLAN O BOLSA DE GIGAS/MEGAS DE UN TELÉFONO MÓVIL?,1665,3,53.75,True
+2017,IX,banking_payments,1,Q17,"Q17.- En los últimos 12 meses, ¿con qué frecuencia ha realizado compras por Internet, para su uso personal?",1285,4,64.3056,True
+2017,IX,banking_payments,1,P7_C_2,P7_C_2.- ¿Cuál es la modalidad de pago de BANDA ANCHA MÓVIL?,302,3,91.6111,True
+2017,IX,banking_payments,1,P7_C_4,P7_C_4.- ¿Cuál es la modalidad de pago de INTERNET MÓVIL con PLAN O BOLSA DE GIGAS/MEGAS DE UN TABLET?,91,3,97.4722,True
+2017,IX,banking_payments,1,P7_C_5,P7_C_5- ¿Cuál es la modalidad de pago de CONEXIÓN SATELITAL?,54,3,98.5,True
+2017,IX,banking_payments,1,Q22A_8,"Q22A_8.- ¿Cuántas veces ha solicitado Para enviar un correo electrónico para hacer una consulta o reclamo a alguna empresa privada (por ejemplo, servicios de telefonía, tiendas comerciales, bancos u otros) en los últimos 3 meses?",5,4,99.8611,False
+2017,IX,barriers_non_access,3,P16_2,P16_2.- ¿Por qué razones no le interesa tener internet propio y pagado para el hogar?,3600,132,0.0,False
+2017,IX,barriers_non_access,2,Q19_1,"Q19.- ¿Por cuál o cuáles razones no ha realizado una compra u ordenado productos o servicios para su uso privado a través de Internet, en los últimos 12 meses?",739,1,79.4722,True
+2017,IX,barriers_non_access,2,Q19_2,"Q19.- ¿Por cuál o cuáles razones no ha realizado una compra u ordenado productos o servicios para su uso privado a través de Internet, en los últimos 12 meses?",589,1,83.6389,True
+2017,IX,barriers_non_access,2,Q19_4,"Q19.- ¿Por cuál o cuáles razones no ha realizado una compra u ordenado productos o servicios para su uso privado a través de Internet, en los últimos 12 meses?",341,1,90.5278,True
+2017,IX,barriers_non_access,2,Q19_3,"Q19.- ¿Por cuál o cuáles razones no ha realizado una compra u ordenado productos o servicios para su uso privado a través de Internet, en los últimos 12 meses?",294,1,91.8333,True
+2017,IX,barriers_non_access,2,Q19_5,"Q19.- ¿Por cuál o cuáles razones no ha realizado una compra u ordenado productos o servicios para su uso privado a través de Internet, en los últimos 12 meses?",247,1,93.1389,True
+2017,IX,barriers_non_access,2,Q21_5,Q21.- Señale las razones por las que no ha utilizado Internet en los últimos 12 meses o nunca.,197,1,94.5278,True
+2017,IX,barriers_non_access,2,Q21_2,Q21.- Señale las razones por las que no ha utilizado Internet en los últimos 12 meses o nunca.,193,1,94.6389,True
+2017,IX,demographic_age,1,P152,"P152.- En su hogar, ¿hay menores de 15 años con acceso a Internet?",3071,3,14.6944,True
+2017,IX,demographic_age,1,C_3,"C.- En relación al uso de Internet por parte de estos menores de edad, ¿ha detectado alguna de estas situaciones?",1099,1,69.4722,True
+2017,IX,demographic_age,1,B_2,B.- ¿Cuáles de estas medidas de protección o restricción del uso de internet para estos menores de edad tienen en su hogar?,620,1,82.7778,True
+2017,IX,demographic_age,1,B_4,B.- ¿Cuáles de estas medidas de protección o restricción del uso de internet para estos menores de edad tienen en su hogar?,525,1,85.4167,True
+2017,IX,demographic_age,1,B_6,B.- ¿Cuáles de estas medidas de protección o restricción del uso de internet para estos menores de edad tienen en su hogar?,371,1,89.6944,True
+2017,IX,demographic_age,1,B_5,B.- ¿Cuáles de estas medidas de protección o restricción del uso de internet para estos menores de edad tienen en su hogar?,261,1,92.75,True
+2017,IX,demographic_age,1,B_1,B.- ¿Cuáles de estas medidas de protección o restricción del uso de internet para estos menores de edad tienen en su hogar?,243,1,93.25,True
+2017,IX,demographic_age,1,B_3,B.- ¿Cuáles de estas medidas de protección o restricción del uso de internet para estos menores de edad tienen en su hogar?,116,1,96.7778,True
+2017,IX,demographic_employment,1,P7_C2_2,"P7_C2_2.- De las formas de acceso a Internet móvil que indicó, ¿Alguna de esta es pagada por la empresa o lugar de trabajo de un miembro del hogar? INTERNET MÓVIL con PLAN O BOLSA DE GIGAS/MEGAS DE UN TELÉFONO MÓVIL",1665,3,53.75,True
+2017,IX,demographic_employment,1,P7_C2_1,"P7_C2_1.- De las formas de acceso a Internet móvil que indicó, ¿Alguna de esta es pagada por la empresa o lugar de trabajo de un miembro del hogar? BANDA ANCHA MÓVIL",302,3,91.6111,True
+2017,IX,demographic_employment,1,P7_C2_3,"P7_C2_3.- De las formas de acceso a Internet móvil que indicó, ¿Alguna de esta es pagada por la empresa o lugar de trabajo de un miembro del hogar? INTERNET MÓVIL con PLAN O BOLSA DE GIGAS/MEGAS DE UN TABLET",91,3,97.4722,True
+2017,IX,demographic_employment,1,Q22A_6,Q22A_6.- ¿Cuántas veces ha solicitado Para buscar información sobre temas de trabajo en los últimos 3 meses?,15,6,99.5833,False
+2017,IX,demographic_employment,1,S3_2_4,"S3.2.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere Buscar información para tareas, actividades, trabajos?",2297,1,36.1944,True
+2017,IX,demographic_employment,1,S3_4_6,S3.4.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere Comunicarse con otros para encontrar trabajo / hacer negocios?,1027,1,71.4722,True
+2017,IX,demographic_employment,1,S3_4_4,S3.4.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere Comunicarse con otros para encontrar trabajo / hacer negocios?,988,1,72.5556,True
+2017,IX,demographic_employment,1,S3_4_1,S3.4.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere Comunicarse con otros para encontrar trabajo / hacer negocios?,952,1,73.5556,True
+2017,IX,demographic_income_gse,1,QUINTIL_PCD,QUINTIL,3600,6,0.0,True
+2017,IX,devices,5,P5,P5.- El acceso a Internet puede ser con Internet fijo o móvil; vía computador; teléfono móvil o Smartphone; Tablet; TV o consola de juegos con acceso a Internet habilitado: ¿Los miembros de este hogar tienen acceso propio y pagado a Internet desde el hogar,3600,2,0.0,True
+2017,IX,devices,3,P6_3_2,"P.6.3_2.- ¿Cuántos Computador portátil (notebook / laptop o netbook) , se utilizan en este hogar para acceder a internet?",1735,11,51.8056,False
+2017,IX,devices,2,P6_3_4,"P6_3_4.- ¿Cuántos Teléfono móvil o Smartphone (Iphone, Galaxy, Palm, Blackberry, Xperia, etc), se utilizan en este hogar para acceder a internet?",2938,14,18.3889,False
+2017,IX,devices,1,Q5,Q5.- ¿Cuándo fue la última vez que usó un computador?,3600,4,0.0,True
+2017,IX,devices,1,Q6_3_1,"Q6_3.- Respecto del uso del computador, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?",3600,2,0.0,True
+2017,IX,devices,1,Q6_3_2,"Q6_3.- Respecto del uso del computador, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?",3600,2,0.0,True
+2017,IX,devices,1,Q6_3_3,"Q6_3.- Respecto del uso del computador, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?",3600,2,0.0,True
+2017,IX,devices,1,Q6_3_4,"Q6_3.- Respecto del uso del computador, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?",3600,2,0.0,True
+2017,IX,digital_government,2,Q15_3,"Q15_3.- En su opinión, ¿el acceso a Internet ha mejorado sus condiciones de vida, el ejercicio de derecho o el acceso a beneficios estatales (gobierno central, municipal, judicial, etc.)?",883,2,75.4722,True
+2017,IX,digital_government,1,Q22A_2,Q22A_2.- ¿Cuántas veces ha solicitado Obtener algún formulario en los últimos 3 meses?,37,7,98.9722,False
+2017,IX,digital_government,1,P17_1_2,P17_1_2.- ¿Y cuántas veces ha solicitado Obtener algún formulario en los últimos 3 meses?,28,7,99.2222,False
+2017,IX,digital_government,1,Q22A_9,"Q22A_9.- ¿Cuántas veces ha solicitado Para enviar un correo electrónico a servicios públicos (como por ejemplo, municipalidades, registro civill, páginas del gobierno u otros) en los últimos 3 meses?",7,5,99.8056,False
+2017,IX,digital_government,1,Q22A_8,"Q22A_8.- ¿Cuántas veces ha solicitado Para enviar un correo electrónico para hacer una consulta o reclamo a alguna empresa privada (por ejemplo, servicios de telefonía, tiendas comerciales, bancos u otros) en los últimos 3 meses?",5,4,99.8611,False
+2017,IX,education_learning,2,A10,A10.- ¿Cuál fue el último curso y tipo de estudio aprobado por el jefe de hogar?,3600,11,0.0,True
+2017,IX,education_learning,1,Q6_3_1,"Q6_3.- Respecto del uso del computador, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?",3600,2,0.0,True
+2017,IX,education_learning,1,Q6_3_2,"Q6_3.- Respecto del uso del computador, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?",3600,2,0.0,True
+2017,IX,education_learning,1,Q6_3_3,"Q6_3.- Respecto del uso del computador, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?",3600,2,0.0,True
+2017,IX,education_learning,1,Q6_3_4,"Q6_3.- Respecto del uso del computador, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?",3600,2,0.0,True
+2017,IX,education_learning,1,Q6_3_5,"Q6_3.- Respecto del uso del computador, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?",3600,2,0.0,True
+2017,IX,education_learning,1,Q6_3_6,"Q6_3.- Respecto del uso del computador, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?",3600,2,0.0,True
+2017,IX,education_learning,1,Q6_3_7,"Q6_3.- Respecto del uso del computador, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?",3600,2,0.0,True
+2017,IX,fixed_mobile_mode,2,P_14_1,"P_14_1.- ¿Alguna o algunas de las conexiones de Banda ancha móvil o internet móvil para conectarse desde teléfono o Tablet a Internet, tiene sistema 4G?",1919,3,46.6944,True
+2017,IX,fixed_mobile_mode,2,P7_C2_1,"P7_C2_1.- De las formas de acceso a Internet móvil que indicó, ¿Alguna de esta es pagada por la empresa o lugar de trabajo de un miembro del hogar? BANDA ANCHA MÓVIL",302,3,91.6111,True
+2017,IX,fixed_mobile_mode,1,P5,P5.- El acceso a Internet puede ser con Internet fijo o móvil; vía computador; teléfono móvil o Smartphone; Tablet; TV o consola de juegos con acceso a Internet habilitado: ¿Los miembros de este hogar tienen acceso propio y pagado a Internet desde el hogar,3600,2,0.0,True
+2017,IX,fixed_mobile_mode,1,P7_C_1,P7_C_1.- ¿Cuál es la modalidad de pago de BANDA ANCHA FIJA O WIFI?,1994,3,44.6111,True
+2017,IX,fixed_mobile_mode,1,P7_C_3,P7_C_3.- ¿Cuál es la modalidad de pago de INTERNET MÓVIL con PLAN O BOLSA DE GIGAS/MEGAS DE UN TELÉFONO MÓVIL?,1665,3,53.75,True
+2017,IX,fixed_mobile_mode,1,P7_C2_2,"P7_C2_2.- De las formas de acceso a Internet móvil que indicó, ¿Alguna de esta es pagada por la empresa o lugar de trabajo de un miembro del hogar? INTERNET MÓVIL con PLAN O BOLSA DE GIGAS/MEGAS DE UN TELÉFONO MÓVIL",1665,3,53.75,True
+2017,IX,fixed_mobile_mode,1,P8,"P8.- En algún momento de los últimos 12 meses, ¿tuvo su hogar acceso pagado y propio a Internet a través de banda ancha fija o wifi?",1077,3,70.0833,True
+2017,IX,fixed_mobile_mode,1,P7_C_2,P7_C_2.- ¿Cuál es la modalidad de pago de BANDA ANCHA MÓVIL?,302,3,91.6111,True
+2017,IX,geography_commune,1,COMUNA,,3600,104,0.0,True
+2017,IX,geography_region,2,REGION,,3600,15,0.0,True
+2017,IX,geography_urban_rural,1,ZONA,,3600,2,0.0,True
+2017,IX,geography_urban_rural,1,Q6_3_1,"Q6_3.- Respecto del uso del computador, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?",3600,2,0.0,True
+2017,IX,geography_urban_rural,1,Q6_3_2,"Q6_3.- Respecto del uso del computador, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?",3600,2,0.0,True
+2017,IX,geography_urban_rural,1,Q6_3_3,"Q6_3.- Respecto del uso del computador, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?",3600,2,0.0,True
+2017,IX,geography_urban_rural,1,Q6_3_4,"Q6_3.- Respecto del uso del computador, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?",3600,2,0.0,True
+2017,IX,geography_urban_rural,1,Q6_3_5,"Q6_3.- Respecto del uso del computador, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?",3600,2,0.0,True
+2017,IX,geography_urban_rural,1,Q6_3_6,"Q6_3.- Respecto del uso del computador, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?",3600,2,0.0,True
+2017,IX,geography_urban_rural,1,Q6_3_7,"Q6_3.- Respecto del uso del computador, ¿Cuál o cuáles de estas tareas es capaz de realizar por usted mismo?",3600,2,0.0,True
+2017,IX,household_access,3,P5,P5.- El acceso a Internet puede ser con Internet fijo o móvil; vía computador; teléfono móvil o Smartphone; Tablet; TV o consola de juegos con acceso a Internet habilitado: ¿Los miembros de este hogar tienen acceso propio y pagado a Internet desde el hogar,3600,2,0.0,True
+2017,IX,household_access,3,P7_C2_2,"P7_C2_2.- De las formas de acceso a Internet móvil que indicó, ¿Alguna de esta es pagada por la empresa o lugar de trabajo de un miembro del hogar? INTERNET MÓVIL con PLAN O BOLSA DE GIGAS/MEGAS DE UN TELÉFONO MÓVIL",1665,3,53.75,True
+2017,IX,household_access,3,P6_3_6,"P6_3_6.- ¿Cuántos TV con conexión a internet habilitada (Smart TV) , se utilizan en este hogar para acceder a internet?",686,7,80.9444,False
+2017,IX,household_access,3,P7_C2_3,"P7_C2_3.- De las formas de acceso a Internet móvil que indicó, ¿Alguna de esta es pagada por la empresa o lugar de trabajo de un miembro del hogar? INTERNET MÓVIL con PLAN O BOLSA DE GIGAS/MEGAS DE UN TABLET",91,3,97.4722,True
+2017,IX,household_access,3,P16_9,P16.- ¿Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado desde el hogar?,141,1,96.0833,True
+2017,IX,household_access,3,P16_3,P16.- ¿Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado desde el hogar?,137,1,96.1944,True
+2017,IX,household_access,3,P16_11,P16.- ¿Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado desde el hogar?,123,1,96.5833,True
+2017,IX,household_access,3,P16_5,P16.- ¿Por cuál o cuáles de estas razones los miembros de este hogar no tienen acceso a internet propio y pagado desde el hogar?,121,1,96.6389,True
+2017,IX,internet_use_frequency,2,Q8,Q8.- ¿Con qué frecuencia ha utilizado Internet en los últimos 12 meses?  ,3600,5,0.0,True
+2017,IX,internet_use_frequency,2,Q14_1,"Q14.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?",3600,2,0.0,True
+2017,IX,internet_use_frequency,2,Q14_2,"Q14.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?",3600,2,0.0,True
+2017,IX,internet_use_frequency,2,Q14_3,"Q14.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?",3600,2,0.0,True
+2017,IX,internet_use_frequency,2,Q14_4,"Q14.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?",3600,2,0.0,True
+2017,IX,internet_use_frequency,2,Q14_5,"Q14.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?",3600,2,0.0,True
+2017,IX,internet_use_frequency,2,Q14_6,"Q14.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?",3600,2,0.0,True
+2017,IX,internet_use_frequency,2,Q14_7,"Q14.- En los últimos 3 meses, pensando en su uso personal o particular: ¿para cuál o cuáles de estas actividades ha usado internet?",3600,2,0.0,True
+2017,IX,quality_satisfaction,1,P16_1,"P16_1.- Entre las razones señaladas, indique ¿cuál considera LA MÁS IMPORTANTE?",487,13,86.4722,True
+2017,IX,quality_satisfaction,1,COMENTARIO,COMENTARIO.- ENTRE VECINOS SE COMPARTEN WIFI Y SE REPARTEN LA CUENTA; LA VIVIENDA / RESIDENCIA TIENE WIFI INCLUIDO; HAY SEÑAL WIFI PROVISTA DE FOA GRATUITA POR PARTE DE UNA EMPRESA,3600,756,0.0,False
+2017,IX,quality_satisfaction,1,Q20D_4,Q20D.- En los últimos 3 meses señale ¿qué problemas ha tenido Usted en téinos de seguridad y privacidad de la infoación?,2627,1,27.0278,True
+2017,IX,quality_satisfaction,1,Q20D_1,Q20D.- En los últimos 3 meses señale ¿qué problemas ha tenido Usted en téinos de seguridad y privacidad de la infoación?,333,1,90.75,True
+2017,IX,quality_satisfaction,1,Q21_5,Q21.- Señale las razones por las que no ha utilizado Internet en los últimos 12 meses o nunca.,197,1,94.5278,True
+2017,IX,quality_satisfaction,1,Q21_2,Q21.- Señale las razones por las que no ha utilizado Internet en los últimos 12 meses o nunca.,193,1,94.6389,True
+2017,IX,quality_satisfaction,1,Q21_4,Q21.- Señale las razones por las que no ha utilizado Internet en los últimos 12 meses o nunca.,161,1,95.5278,True
+2017,IX,quality_satisfaction,1,Q21_1,Q21.- Señale las razones por las que no ha utilizado Internet en los últimos 12 meses o nunca.,150,1,95.8333,True
+2017,IX,security_privacy,2,Q20C_1,Q20C.- En los últimos 3 meses: ¿qué actividades ha realizado usted en téinos de seguridad y privacidad de la infoación?  ,3600,2,0.0,True
+2017,IX,security_privacy,2,Q20D_4,Q20D.- En los últimos 3 meses señale ¿qué problemas ha tenido Usted en téinos de seguridad y privacidad de la infoación?,2627,1,27.0278,True
+2017,IX,security_privacy,2,Q20C_6,Q20C.- En los últimos 3 meses: ¿qué actividades ha realizado usted en téinos de seguridad y privacidad de la infoación?  ,1055,1,70.6944,True
+2017,IX,security_privacy,2,Q20C_8,Q20C.- En los últimos 3 meses: ¿qué actividades ha realizado usted en téinos de seguridad y privacidad de la infoación?  ,961,1,73.3056,True
+2017,IX,security_privacy,2,Q20C_5,Q20C.- En los últimos 3 meses: ¿qué actividades ha realizado usted en téinos de seguridad y privacidad de la infoación?  ,636,1,82.3333,True
+2017,IX,security_privacy,2,Q20C_4,Q20C.- En los últimos 3 meses: ¿qué actividades ha realizado usted en téinos de seguridad y privacidad de la infoación?  ,622,1,82.7222,True
+2017,IX,security_privacy,2,Q20C_3,Q20C.- En los últimos 3 meses: ¿qué actividades ha realizado usted en téinos de seguridad y privacidad de la infoación?  ,358,1,90.0556,True
+2017,IX,security_privacy,2,Q20D_1,Q20D.- En los últimos 3 meses señale ¿qué problemas ha tenido Usted en téinos de seguridad y privacidad de la infoación?,333,1,90.75,True
+2017,IX,social_communication,2,S3_4_6,S3.4.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere Comunicarse con otros para encontrar trabajo / hacer negocios?,1027,1,71.4722,True
+2017,IX,social_communication,2,S3_4_4,S3.4.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere Comunicarse con otros para encontrar trabajo / hacer negocios?,988,1,72.5556,True
+2017,IX,social_communication,2,S3_4_1,S3.4.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere Comunicarse con otros para encontrar trabajo / hacer negocios?,952,1,73.5556,True
+2017,IX,social_communication,2,S3_4_11,S3.4.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere Comunicarse con otros para encontrar trabajo / hacer negocios?,754,1,79.0556,True
+2017,IX,social_communication,2,S3_4_5,S3.4.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere Comunicarse con otros para encontrar trabajo / hacer negocios?,94,1,97.3889,True
+2017,IX,social_communication,2,S3_4_3,S3.4.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere Comunicarse con otros para encontrar trabajo / hacer negocios?,65,1,98.1944,True
+2017,IX,social_communication,2,S3_4_8,S3.4.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere Comunicarse con otros para encontrar trabajo / hacer negocios?,59,1,98.3611,True
+2017,IX,social_communication,2,S3_4_10,S3.4.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere Comunicarse con otros para encontrar trabajo / hacer negocios?,45,1,98.75,True
+2017,IX,work_telework,1,P7_C2_2,"P7_C2_2.- De las formas de acceso a Internet móvil que indicó, ¿Alguna de esta es pagada por la empresa o lugar de trabajo de un miembro del hogar? INTERNET MÓVIL con PLAN O BOLSA DE GIGAS/MEGAS DE UN TELÉFONO MÓVIL",1665,3,53.75,True
+2017,IX,work_telework,1,P7_C2_3,"P7_C2_3.- De las formas de acceso a Internet móvil que indicó, ¿Alguna de esta es pagada por la empresa o lugar de trabajo de un miembro del hogar? INTERNET MÓVIL con PLAN O BOLSA DE GIGAS/MEGAS DE UN TABLET",91,3,97.4722,True
+2017,IX,work_telework,1,Q22A_6,Q22A_6.- ¿Cuántas veces ha solicitado Para buscar información sobre temas de trabajo en los últimos 3 meses?,15,6,99.5833,False
+2017,IX,work_telework,1,S3_2_4,"S3.2.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere Buscar información para tareas, actividades, trabajos?",2297,1,36.1944,True
+2017,IX,work_telework,1,S3_2_1,"S3.2.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere Buscar información para tareas, actividades, trabajos?",420,1,88.3333,True
+2017,IX,work_telework,1,S3_2_11,"S3.2.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere Buscar información para tareas, actividades, trabajos?",329,1,90.8611,True
+2017,IX,work_telework,1,S3_2_8,"S3.2.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere Buscar información para tareas, actividades, trabajos?",316,1,91.2222,True
+2017,IX,work_telework,1,S3_2_6,"S3.2.- ¿Cuál o cuáles de estas redes sociales usa cuando quiere Buscar información para tareas, actividades, trabajos?",275,1,92.3611,True
+2016,VIII,banking_payments,1,q1424,24. Realizar pagos en línea a organismos del estado (impuest,2991,2,17.4441,True
+2016,VIII,banking_payments,1,q1425,25. Realizar transacciones bancarias,2991,2,17.4441,True
+2016,VIII,banking_payments,1,q1427,"27. Realizar pagos en línea de servicios básicos (agua, luz,",2991,2,17.4441,True
+2016,VIII,banking_payments,1,Q16,"Q.16. ¿cuándo realizó la última compra u orden de bienes o servicios, para su uso personal, a través de Internet?",2991,4,17.4441,True
+2016,VIII,banking_payments,1,Q20D03,Pérdidas financieras debido a pagos fraudulentos con tarjetas de créditos o débitos,2991,2,17.4441,True
+2016,VIII,banking_payments,1,P7C_1,P.7c.  ¿Cuál es la modalidad de pago?   (A) Utiliza un acceso telefónico (ADSL o fibra óptica) o cable para conectar un equipo (ej. computador)  a internet (banda ancha fija). IMAGEN 1A-1B,1864,3,48.5509,True
+2016,VIII,banking_payments,1,P7C_3,P.7c.  ¿Cuál es la modalidad de pago?   (C) Utiliza un teléfono móvil o Smartphone en forma directa y/o para conectar un equipo  (ej.: computador)  a internet. IMAGEN 3A-3B,1677,3,53.7124,True
+2016,VIII,banking_payments,1,Q17,"Q.17. En los últimos 12 meses, ¿con qué frecuencia ha realizado compras por Internet, para su uso personal? (RU)",1075,4,70.3285,True
+2016,VIII,barriers_non_access,3,S3,S.3. ¿Por qué razón no paga por aplicaciones o servicios a través de internet?,3273,27,9.6605,True
+2016,VIII,barriers_non_access,2,P16_OT,P.16. Señale todas las razones por las que los miembros de este hogar NO tienen acceso a Internet desde el hogar (PROPIO Y PAGADO). (N. Otro: ESPECIFIQUE:) [Other (specify)],3623,85,0.0,False
+2016,VIII,barriers_non_access,1,P7B_3OT,P7.b. ¿Cuál es la empresa proveedora del servicio a través del cual señala el acceso?   (C) Utiliza un teléfono móvil o Smartphone en forma directa y/o para conectar un equipo  (ej.: computador)  a internet. IMAGEN 3A-3B (Otro ¿CUÁL?) [Other (specify)],3623,20,0.0,False
+2016,VIII,barriers_non_access,1,p15_2,"P.15.2 En su hogar, ¿hay menores de 15 años con acceso a Internet?",3623,2,0.0,True
+2016,VIII,barriers_non_access,1,Q903,Teléfono móvil o Smartphone con acceso propio a internet,2991,2,17.4441,True
+2016,VIII,barriers_non_access,1,Q1903,No me siento seguro entregando los detalles de mis tarjetas de crédito o débito  por internet (prefiere utilizar otro medio confiable),1916,2,47.1157,True
+2016,VIII,barriers_non_access,1,Q1905,No me siento seguro entregando datos personales por internet (que no sea información de tarjetas de crédito o débito),1916,2,47.1157,True
+2016,VIII,barriers_non_access,1,Q1906,"No me siento seguro respecto a las garantías, a recibir bienes o servicios, o a  retornar bienes adquiridos por internet",1916,2,47.1157,True
+2016,VIII,demographic_age,1,p15_2,"P.15.2 En su hogar, ¿hay menores de 15 años con acceso a Internet?",3623,2,0.0,True
+2016,VIII,demographic_age,1,RANGO_ent,Rango Edad entrevistado,3623,5,0.0,True
+2016,VIII,demographic_age,1,edad_ent,Edad entrevistado,3623,60,0.0,False
+2016,VIII,demographic_age,1,edad_JH,Edad del Jefe de Hogar,3623,58,0.0,False
+2016,VIII,demographic_education,1,edu_SEL,Educación del Entrevistado,3623,11,0.0,True
+2016,VIII,demographic_education,1,edu_JH,Educación del Jefe de Hogar,3623,11,0.0,True
+2016,VIII,demographic_education,1,p151,1.-Apoyo a la educación propia o de hijos / nietos / parient,2864,2,20.9495,True
+2016,VIII,demographic_education,1,q132,2.-Lugar de educación / capacitación,2232,2,38.3936,True
+2016,VIII,demographic_education,1,Q13B14,Necesidad por los estudios,1190,2,67.1543,True
+2016,VIII,demographic_employment,1,q1403,3. Adquirir información para realizar trabajos/informes de m,2991,2,17.4441,True
+2016,VIII,demographic_employment,1,q1433,33. Trabajar remotamente desde la casa u otro lugar (teletra,2991,2,17.4441,True
+2016,VIII,demographic_employment,1,q1434,34.-Postular en línea a trabajos (enviar currículum),2991,2,17.4441,True
+2016,VIII,demographic_employment,1,p157,7.-Por razones laborales / permite buscar trabajo,2864,2,20.9495,True
+2016,VIII,demographic_employment,1,q131,1.-Lugar de trabajo (fuera del hogar),2232,2,38.3936,True
+2016,VIII,demographic_employment,1,Q13B13,Necesidad por el trabajo,1190,2,67.1543,True
+2016,VIII,demographic_employment,1,Q2206,Para buscar información sobre temas de trabajo,544,2,84.9848,True
+2016,VIII,demographic_employment,1,Q1819,]Buscar trabajo,1075,1,70.3285,True
+2016,VIII,demographic_income_gse,1,Quintil_final,,3623,5,0.0,True
+2016,VIII,demographic_sex_gender,1,sex_ent,Sexo entrevistado,3623,2,0.0,True
+2016,VIII,demographic_sex_gender,1,SEX_JH,Sexo del Jefe de Hogar,3623,2,0.0,True
+2016,VIII,devices,4,P1608,"Costo del equipo o terminal (computador, notebook, Tablet, Smartphone, etc.)",745,2,79.4369,True
+2016,VIII,devices,4,Q2109,"Los equipos para conectarse a Internet son muy caros (computador, notebook, tablet, smartphone)",632,1,82.5559,True
+2016,VIII,devices,3,P7B_3OT,P7.b. ¿Cuál es la empresa proveedora del servicio a través del cual señala el acceso?   (C) Utiliza un teléfono móvil o Smartphone en forma directa y/o para conectar un equipo  (ej.: computador)  a internet. IMAGEN 3A-3B (Otro ¿CUÁL?) [Other (specify)],3623,20,0.0,False
+2016,VIII,devices,3,p2610,10.-Computador portátil (notebook o laptop / netbook / table,3623,2,0.0,True
+2016,VIII,devices,3,P602,Computador portátil (notebook / laptop o netbook),2878,2,20.5631,True
+2016,VIII,devices,3,P6A_2,Computador portátil (notebook / laptop o netbook),1820,8,49.7654,False
+2016,VIII,devices,3,P7B_3_1,P7.b. ¿Cuál es la empresa proveedora del servicio a través del cual señala el acceso?   (C) Utiliza un teléfono móvil o Smartphone en forma directa y/o para conectar un equipo  (ej.: computador)  a internet. IMAGEN 3A-3B,1677,14,53.7124,True
+2016,VIII,devices,3,P7C_3,P.7c.  ¿Cuál es la modalidad de pago?   (C) Utiliza un teléfono móvil o Smartphone en forma directa y/o para conectar un equipo  (ej.: computador)  a internet. IMAGEN 3A-3B,1677,3,53.7124,True
+2016,VIII,digital_government,2,Q15_3,"Q15.3 En su opinión, ¿el acceso a Internet ha mejorado sus condiciones de vida, el ejercicio de derecho o el acceso a beneficios estatales (gobierno central, municipal, judicial, etc.)?",53,3,98.5371,True
+2016,VIII,digital_government,1,P7B_2OT,"P7.b. ¿Cuál es la empresa proveedora del servicio a través del cual señala el acceso?   (B)Utiliza banda ancha móvil (USB) para conectar un equipo, por ej.: computador a internet. (encuestador: hablar de pendrive) IMAGEN 2 (Otro ¿CUÁL?) [Other (specify)]",3623,11,0.0,False
+2016,VIII,digital_government,1,estciv_SEL,Estado civil del Entrevistado,3623,6,0.0,True
+2016,VIII,digital_government,1,estciv_JH,Estado civil del Jefe de Hogar,3622,6,0.0276,True
+2016,VIII,digital_government,1,q1407,7. Adquirir información del gobierno u otras organizaciones,2991,2,17.4441,True
+2016,VIII,digital_government,1,q1416,16. Compartir estados de ánimo y reflexiones a través de las,2991,2,17.4441,True
+2016,VIII,digital_government,1,q1421,21. Descargar o solicitar formularios a organismos del estad,2991,2,17.4441,True
+2016,VIII,digital_government,1,q1422,22. Completar formularios en línea o enviar formularios comp,2991,2,17.4441,True
+2016,VIII,digital_skills,2,q6_301,Q6.3. ¿Qué tareas es capaz de realizar en el computador? 1.-Uso de procesador de texto (ej.; Word),2876,2,20.6183,True
+2016,VIII,digital_skills,1,q6_302,Q6.3. ¿Qué tareas es capaz de realizar en el computador? 2.-Uso de fórmulas aritméticas sencillas en planillas de cál,2876,2,20.6183,True
+2016,VIII,digital_skills,1,q6_303,Q6.3. ¿Qué tareas es capaz de realizar en el computador? 3.-Uso avanzado de planillas de cálculo: funciones de filtra,2876,2,20.6183,True
+2016,VIII,digital_skills,1,Q1907,"Falta de conocimientos, habilidades o autoconfianza",1916,2,47.1157,True
+2016,VIII,disability,2,Q2108,Tengo una discapacidad / no puedo leer / tengo una limitación que me impide usarlo,632,2,82.5559,True
+2016,VIII,disability,1,disca_SEL,Discapacidad del Entrevistado,3623,7,0.0,True
+2016,VIII,disability,1,disca_JH,Discapacidad del Jefe de Hogar,3623,7,0.0,True
+2016,VIII,education_learning,2,q1435,35. Realizar cursos o capacitación en línea (e-learning).,2991,2,17.4441,True
+2016,VIII,education_learning,1,edu_SEL,Educación del Entrevistado,3623,11,0.0,True
+2016,VIII,education_learning,1,edu_JH,Educación del Jefe de Hogar,3623,11,0.0,True
+2016,VIII,education_learning,1,q1404,4. Adquirir información para realizar tareas/informes de alg,2991,2,17.4441,True
+2016,VIII,education_learning,1,q1405,5.Adquirir información para postular a cursos/carreras/postg,2991,2,17.4441,True
+2016,VIII,education_learning,1,q6_23,"Q6.2 ¿Cómo aprendió a usar el computador? Era parte central de mi aprendizaje en el colegio, liceo, in",2876,2,20.6183,True
+2016,VIII,education_learning,1,q6_25,"Q6.2 ¿Cómo aprendió a usar el computador? Tomé un curso particular (clases particulares, curso en muni",2876,2,20.6183,True
+2016,VIII,education_learning,1,q6_301,Q6.3. ¿Qué tareas es capaz de realizar en el computador? 1.-Uso de procesador de texto (ej.; Word),2876,2,20.6183,True
+2016,VIII,fixed_mobile_mode,2,Q13A,"Q13.A. Usted mencionó que se conectan a Internet móvil, ya sea a través de Banda Ancha móvil USB, TABLET o Smartphone. ¿Alguna o algunas de estas conexiones tiene Internet con sistema 4G?",2347,3,35.2194,True
+2016,VIII,fixed_mobile_mode,2,P15_1,"P.15.1. Usted mencionó que en el hogar se conectan a Internet móvil, ya sea a través de Banda Ancha móvil USB, TABLET o Smartphone. ¿Alguna o algunas de estas conexiones tiene Internet con sistema 4G?",1677,3,53.7124,True
+2016,VIII,fixed_mobile_mode,1,P7B_2OT,"P7.b. ¿Cuál es la empresa proveedora del servicio a través del cual señala el acceso?   (B)Utiliza banda ancha móvil (USB) para conectar un equipo, por ej.: computador a internet. (encuestador: hablar de pendrive) IMAGEN 2 (Otro ¿CUÁL?) [Other (specify)]",3623,11,0.0,False
+2016,VIII,fixed_mobile_mode,1,Q901,Banda ancha fija / WIFI,2991,2,17.4441,True
+2016,VIII,fixed_mobile_mode,1,Q902,Banda ancha móvil,2991,2,17.4441,True
+2016,VIII,fixed_mobile_mode,1,P7A2,"Utiliza banda ancha móvil (USB) para conectar un equipo, por ej.: computador a internet.",2864,2,20.9495,True
+2016,VIII,fixed_mobile_mode,1,P7B_1_1,P7.b. ¿Cuál es la empresa proveedora del servicio a través del cual señala el acceso?   (A) Utiliza un acceso telefónico (ADSL o fibra óptica) o cable para conectar un equipo (ej. computador)  a internet (banda ancha fija). IMAGEN 1A-1B,1864,28,48.5509,True
+2016,VIII,fixed_mobile_mode,1,P7C_1,P.7c.  ¿Cuál es la modalidad de pago?   (A) Utiliza un acceso telefónico (ADSL o fibra óptica) o cable para conectar un equipo (ej. computador)  a internet (banda ancha fija). IMAGEN 1A-1B,1864,3,48.5509,True
+2016,VIII,geography_commune,1,comuna_cod,Comuna,3623,77,0.0,True
+2016,VIII,geography_region,2,regionfinal,Region,3623,15,0.0,True
+2016,VIII,geography_urban_rural,1,zona_cod,Zona,3623,2,0.0,True
+2016,VIII,geography_urban_rural,1,q1404,4. Adquirir información para realizar tareas/informes de alg,2991,2,17.4441,True
+2016,VIII,geography_urban_rural,1,q6_301,Q6.3. ¿Qué tareas es capaz de realizar en el computador? 1.-Uso de procesador de texto (ej.; Word),2876,2,20.6183,True
+2016,VIII,geography_urban_rural,1,q6_302,Q6.3. ¿Qué tareas es capaz de realizar en el computador? 2.-Uso de fórmulas aritméticas sencillas en planillas de cál,2876,2,20.6183,True
+2016,VIII,geography_urban_rural,1,q6_303,Q6.3. ¿Qué tareas es capaz de realizar en el computador? 3.-Uso avanzado de planillas de cálculo: funciones de filtra,2876,2,20.6183,True
+2016,VIII,geography_urban_rural,1,q6_304,"Q6.3. ¿Qué tareas es capaz de realizar en el computador? 4.-Uso de software de presentación (ej: diapositivas, powerp",2876,2,20.6183,True
+2016,VIII,geography_urban_rural,1,q6_305,Q6.3. ¿Qué tareas es capaz de realizar en el computador? 5.-Postear/ publicar mensajes en plataformas especializadas,2876,2,20.6183,True
+2016,VIII,geography_urban_rural,1,q6_306,Q6.3. ¿Qué tareas es capaz de realizar en el computador? 6.-Transferir archivos entre artículos electrónicos (cámaras,2876,2,20.6183,True
+2016,VIII,household_access,3,P5,"P5.  ¿Los miembros de este hogar tienen acceso (PAGADO Y PROPIO) a Internet DESDE EL HOGAR, sin importar si lo utilizan o no?",3623,2,0.0,True
+2016,VIII,household_access,3,P16_OT,P.16. Señale todas las razones por las que los miembros de este hogar NO tienen acceso a Internet desde el hogar (PROPIO Y PAGADO). (N. Otro: ESPECIFIQUE:) [Other (specify)],3623,85,0.0,False
+2016,VIII,household_access,2,P7B_5OT,P7.b. ¿Cuál es la empresa proveedora del servicio a través del cual señala el acceso?   (E)Utiliza una conexión satelital para conectar un equipo (ej.: computador)  a internet. IMAGEN 5 (Otro ¿CUÁL?) [Other (specify)],3623,13,0.0,False
+2016,VIII,household_access,2,p15_2,"P.15.2 En su hogar, ¿hay menores de 15 años con acceso a Internet?",3623,2,0.0,True
+2016,VIII,household_access,2,P11,"P.11. Algunos proveedores de Internet por telefonía fija o cable ofrecen WiFi, es decir, le instalan una red inalámbrica que funciona solamente en su hogar, que le permite conectarse a Internet desde cualquier lugar de la vivienda.   ¿Usted tiene el servic",1864,3,48.5509,True
+2016,VIII,household_access,2,P15_1,"P.15.1. Usted mencionó que en el hogar se conectan a Internet móvil, ya sea a través de Banda Ancha móvil USB, TABLET o Smartphone. ¿Alguna o algunas de estas conexiones tiene Internet con sistema 4G?",1677,3,53.7124,True
+2016,VIII,household_access,2,P8,"P.8  En algún momento de los últimos 12 meses, ¿tuvo su hogar acceso (PAGADO Y PROPIO) a Internet a través de acceso telefónico o por cable (es decir, la opción (A) de “Forma de acceso”)?",975,3,73.0886,True
+2016,VIII,household_access,2,P7B_5_1,P7.b. ¿Cuál es la empresa proveedora del servicio a través del cual señala el acceso?   (E)Utiliza una conexión satelital para conectar un equipo (ej.: computador)  a internet. IMAGEN 5,141,12,96.1082,True
+2016,VIII,internet_use_frequency,2,Q8,Q.8. ¿Con qué frecuencia ha utilizado Internet en los últimos 12 meses?. (RU),2957,4,18.3826,True
+2016,VIII,internet_use_frequency,2,Q11,Q.11. En los últimos 12 meses ¿con qué frecuencia ha utilizado Internet en el hogar? (RU),2795,4,22.854,True
+2016,VIII,internet_use_frequency,1,P7B_2OT,"P7.b. ¿Cuál es la empresa proveedora del servicio a través del cual señala el acceso?   (B)Utiliza banda ancha móvil (USB) para conectar un equipo, por ej.: computador a internet. (encuestador: hablar de pendrive) IMAGEN 2 (Otro ¿CUÁL?) [Other (specify)]",3623,11,0.0,False
+2016,VIII,internet_use_frequency,1,P7B_3OT,P7.b. ¿Cuál es la empresa proveedora del servicio a través del cual señala el acceso?   (C) Utiliza un teléfono móvil o Smartphone en forma directa y/o para conectar un equipo  (ej.: computador)  a internet. IMAGEN 3A-3B (Otro ¿CUÁL?) [Other (specify)],3623,20,0.0,False
+2016,VIII,internet_use_frequency,1,P7B_5OT,P7.b. ¿Cuál es la empresa proveedora del servicio a través del cual señala el acceso?   (E)Utiliza una conexión satelital para conectar un equipo (ej.: computador)  a internet. IMAGEN 5 (Otro ¿CUÁL?) [Other (specify)],3623,13,0.0,False
+2016,VIII,internet_use_frequency,1,Q5,USO DE INTERNET  Q.5. ¿Cuándo fue su uso más reciente de un computador? (RU),3623,4,0.0,True
+2016,VIII,internet_use_frequency,1,Q7,Q.7.  ¿Cuándo fue su uso más reciente de Internet? (RU),3623,4,0.0,True
+2016,VIII,internet_use_frequency,1,S1A,S1.A. ¿Usted paga por aplicaciones o servicios que se utilizan a través de Internet?,3623,3,0.0,True
+2016,VIII,quality_satisfaction,2,Q2112,La señal donde vivo es de muy mala calidad,632,2,82.5559,True
+2016,VIII,quality_satisfaction,1,P7B_2OT,"P7.b. ¿Cuál es la empresa proveedora del servicio a través del cual señala el acceso?   (B)Utiliza banda ancha móvil (USB) para conectar un equipo, por ej.: computador a internet. (encuestador: hablar de pendrive) IMAGEN 2 (Otro ¿CUÁL?) [Other (specify)]",3623,11,0.0,False
+2016,VIII,quality_satisfaction,1,P7B_3OT,P7.b. ¿Cuál es la empresa proveedora del servicio a través del cual señala el acceso?   (C) Utiliza un teléfono móvil o Smartphone en forma directa y/o para conectar un equipo  (ej.: computador)  a internet. IMAGEN 3A-3B (Otro ¿CUÁL?) [Other (specify)],3623,20,0.0,False
+2016,VIII,quality_satisfaction,1,P7B_5OT,P7.b. ¿Cuál es la empresa proveedora del servicio a través del cual señala el acceso?   (E)Utiliza una conexión satelital para conectar un equipo (ej.: computador)  a internet. IMAGEN 5 (Otro ¿CUÁL?) [Other (specify)],3623,13,0.0,False
+2016,VIII,quality_satisfaction,1,P7B_6OT,P7.b. ¿Cuál es la empresa proveedora del servicio a través del cual señala el acceso?   {0} (Otro ¿CUÁL?) [Other (specify)],3623,6,0.0,False
+2016,VIII,quality_satisfaction,1,Q20D09,Caída de señal/ perdida,2991,2,17.4441,True
+2016,VIII,quality_satisfaction,1,Q9A,"Q.9A.  Entre los accesos señalados en Q.9, indique ¿cuál utiliza de manera más frecuente?",2972,5,17.9685,True
+2016,VIII,quality_satisfaction,1,P7B_1_1,P7.b. ¿Cuál es la empresa proveedora del servicio a través del cual señala el acceso?   (A) Utiliza un acceso telefónico (ADSL o fibra óptica) o cable para conectar un equipo (ej. computador)  a internet (banda ancha fija). IMAGEN 1A-1B,1864,28,48.5509,True
+2016,VIII,security_privacy,2,Q20B,"Q20.B. Frente a cosas como los virus, el correo basura, archivos espías, entre otros que pueden llegar por internet, ¿cuán protegido se siente Ud.?",2991,5,17.4441,True
+2016,VIII,security_privacy,2,Q20C01,"Uso de algún tipo de herramienta de protección o software (antivirus, anti spam, firewall, etc.) para proteger su computador.",2991,2,17.4441,True
+2016,VIII,security_privacy,2,Q20C03,Borrar o editar algo que usted posteó online para proteger su privacidad,2991,2,17.4441,True
+2016,VIII,security_privacy,1,Q20C04,"Cambiar los ajustes de privacidad en una red social (por ejemplo, facebook, twitter, instagram, linkedin, etc)",2991,2,17.4441,True
+2016,VIII,security_privacy,1,Q20C06,Cambio de contraseñas,2991,2,17.4441,True
+2016,VIII,security_privacy,1,Q20D01,"Ataque de algún virus (troyano o gusano) que ha dado como resultado pérdida de datos o tiempo, o daño al software o al equipo",2991,2,17.4441,True
+2016,VIII,security_privacy,1,q6_309,Q6.3. ¿Qué tareas es capaz de realizar en el computador? 9.-Modificar configuraciones de seguridad de navegadores de,2876,2,20.6183,True
+2016,VIII,security_privacy,1,Q1827,Articulos de seguridad,1075,2,70.3285,True
+2016,VIII,social_communication,2,q1411,"11. Utilizar redes sociales (facebook, twitter, linkedin, et",2991,2,17.4441,True
+2016,VIII,social_communication,2,Q20C04,"Cambiar los ajustes de privacidad en una red social (por ejemplo, facebook, twitter, instagram, linkedin, etc)",2991,2,17.4441,True
+2016,VIII,social_communication,1,q1412,12. Chatear por whatsapp,2991,2,17.4441,True
+2016,VIII,social_communication,1,q1414,14. Crear y subir contenidos propios en redes sociales como,2991,2,17.4441,True
+2016,VIII,social_communication,1,p153,3.-Permite comunicarse con otras personas,2864,2,20.9495,True
+2016,VIII,social_communication,1,Q2205,"Revisar alguna red social (facebook, twitter, etc.)",544,2,84.9848,True
+2016,VIII,social_communication,1,P1705,"Revisar alguna red social (facebook, twitter, etc.)",450,2,87.5794,True
+2016,VIII,social_communication,1,S206,Publicidad en facebook y/o twitter y/o google,350,2,90.3395,True
+2016,VIII,work_telework,1,p157,7.-Por razones laborales / permite buscar trabajo,2864,2,20.9495,True
+2016,VIII,work_telework,1,Q2206,Para buscar información sobre temas de trabajo,544,2,84.9848,True
+2016,VIII,work_telework,1,Q1819,]Buscar trabajo,1075,1,70.3285,True
+2015,VII,banking_payments,1,q1424,24. Realizar pagos en línea a organismos del estado (impuest,2775,2,22.9167,True
+2015,VII,banking_payments,1,q1425,25. Realizar transacciones bancarias,2775,2,22.9167,True
+2015,VII,banking_payments,1,q1427,"27. Realizar pagos en línea de servicios básicos (agua, luz,",2775,2,22.9167,True
+2015,VII,banking_payments,1,Q16,"Q.16. ¿cuándo realizó la última compra u orden de bienes o servicios, para su uso personal, a través de Internet?",2775,4,22.9167,True
+2015,VII,banking_payments,1,Q20D03,Pérdidas financieras debido a pagos fraudulentos con tarjetas de créditos o débitos,2775,2,22.9167,True
+2015,VII,banking_payments,1,P7C_1,P.7c.  ¿Cuál es la modalidad de pago?   (A) Utiliza un acceso telefónico (ADSL o fibra óptica) o cable para conectar un equipo (ej. computador)  a internet (banda ancha fija). IMAGEN 1A-1B,1717,3,52.3056,True
+2015,VII,banking_payments,1,P7C_3,P.7c.  ¿Cuál es la modalidad de pago?   (C) Utiliza un teléfono móvil o Smartphone en forma directa y/o para conectar un equipo  (ej.: computador)  a internet. IMAGEN 3A-3B,1128,3,68.6667,True
+2015,VII,banking_payments,1,Q17,"Q.17. En los últimos 12 meses, ¿con qué frecuencia ha realizado compras por Internet, para su uso personal? (RU)",958,4,73.3889,True
+2015,VII,barriers_non_access,3,S3,S.3. ¿Por qué razón no paga por aplicaciones o servicios a través de internet?,3294,36,8.5,True
+2015,VII,barriers_non_access,1,Q903,Teléfono móvil o Smartphone con acceso propio a internet,2775,2,22.9167,True
+2015,VII,barriers_non_access,1,Q1903,No me siento seguro entregando los detalles de mis tarjetas de crédito o débito  por internet (prefiere utilizar otro medio confiable),1817,2,49.5278,True
+2015,VII,barriers_non_access,1,Q1905,No me siento seguro entregando datos personales por internet (que no sea información de tarjetas de crédito o débito),1817,2,49.5278,True
+2015,VII,barriers_non_access,1,Q1906,"No me siento seguro respecto a las garantías, a recibir bienes o servicios, o a  retornar bienes adquiridos por internet",1817,2,49.5278,True
+2015,VII,barriers_non_access,1,P11,"P.11. Algunos proveedores de Internet por telefonía fija o cable ofrecen WiFi, es decir, le instalan una red inalámbrica que funciona solamente en su hogar, que le permite conectarse a Internet desde cualquier lugar de la vivienda.   ¿Usted tiene el servic",1717,3,52.3056,True
+2015,VII,barriers_non_access,1,Q13D03,Es muy caro / requiere comprar un celular nuevo,1262,2,64.9444,True
+2015,VII,barriers_non_access,1,Q13D05,Sirve sólo en algunos lugares / no tiene buena cobertura,1262,2,64.9444,True
+2015,VII,demographic_age,1,edad_ent,Edad entrevistado,3600,60,0.0,False
+2015,VII,demographic_age,1,Edad_JH,Edad 1,3531,79,1.9167,False
+2015,VII,demographic_education,1,Edu_Entre,Educación 1,3600,11,0.0,True
+2015,VII,demographic_education,1,Edu_JH,Educación 1,3531,11,1.9167,True
+2015,VII,demographic_education,1,p151,Apoyo a la educación propia o de hijos / nietos / parientes,2474,2,31.2778,True
+2015,VII,demographic_education,1,q132,Lugar de educación / capacitación,2130,2,40.8333,True
+2015,VII,demographic_employment,1,q1403,3. Para realizar trabajos/informes de mi actividad laboral,2775,2,22.9167,True
+2015,VII,demographic_employment,1,q1433,33. Postular en línea a trabajos (enviar currículum),2775,2,22.9167,True
+2015,VII,demographic_employment,1,p157,Por razones laborales / permite buscar trabajo,2474,2,31.2778,True
+2015,VII,demographic_employment,1,q131,Lugar de trabajo (fuera del hogar),2130,2,40.8333,True
+2015,VII,demographic_employment,1,Q1819,]Buscar trabajo,958,2,73.3889,True
+2015,VII,demographic_employment,1,Q2125,Tiene Internet en su trabajo,825,2,77.0833,True
+2015,VII,demographic_employment,1,Q2206,Para buscar información sobre temas de trabajo,682,2,81.0556,True
+2015,VII,demographic_employment,1,Q22A_6,6. Para buscar información sobre temas de trabajo,33,11,99.0833,False
+2015,VII,demographic_income_gse,2,Quintil,Quintil de ingreso,3600,5,0.0,True
+2015,VII,demographic_income_gse,1,Cuartil,Cuartil de ingreso,3600,4,0.0,True
+2015,VII,demographic_income_gse,1,Ing_PerC_vf,Ingreso PerCapita,3600,1411,0.0,False
+2015,VII,demographic_sex_gender,1,sex_ent,Sexo del entrevistado,3600,2,0.0,True
+2015,VII,demographic_sex_gender,1,Sexo_JH,Sexo 1,3531,2,1.9167,True
+2015,VII,devices,4,p2610,Computador portátil (notebook o laptop / netbook / tablet o,3600,2,0.0,True
+2015,VII,devices,4,P1608,"Costo del equipo o terminal (computador, notebook, Tablet, Smartphone, etc.)",1113,2,69.0833,True
+2015,VII,devices,4,Q2110,"Los equipos para conectarse a Internet son muy caros (computador, notebook, tablet, smartphone)",825,2,77.0833,True
+2015,VII,devices,3,P602,Computador portátil (notebook / laptop o netbook),2487,2,30.9167,True
+2015,VII,devices,3,P6A_2,Computador portátil (notebook / laptop o netbook),1632,14,54.6667,False
+2015,VII,devices,3,P7B_3_1,P7.b. ¿Cuál es la empresa proveedora del servicio a través del cual señala el acceso?   (C) Utiliza un teléfono móvil o Smartphone en forma directa y/o para conectar un equipo  (ej.: computador)  a internet. IMAGEN 3A-3B,1128,12,68.6667,True
+2015,VII,devices,3,P7C_3,P.7c.  ¿Cuál es la modalidad de pago?   (C) Utiliza un teléfono móvil o Smartphone en forma directa y/o para conectar un equipo  (ej.: computador)  a internet. IMAGEN 3A-3B,1128,3,68.6667,True
+2015,VII,devices,3,P7B_3_2,P7.b. ¿Cuál es la empresa proveedora del servicio a través del cual señala el acceso?   (C) Utiliza un teléfono móvil o Smartphone en forma directa y/o para conectar un equipo  (ej.: computador)  a internet. IMAGEN 3A-3B,178,8,95.0556,True
+2015,VII,digital_government,1,EstadoCivilEnt,Estado Civil 1,3600,6,0.0,True
+2015,VII,digital_government,1,EstadoCivil_JH,Estado Civil 1,3531,6,1.9167,True
+2015,VII,digital_government,1,q1407,7. Del gobierno u otras organizaciones (a través de sitios w,2775,2,22.9167,True
+2015,VII,digital_government,1,q1416,16. Compartir estados de ánimo y reflexiones a través de las,2775,2,22.9167,True
+2015,VII,digital_government,1,q1421,21. Descargar o solicitar formularios a organismos del estad,2775,2,22.9167,True
+2015,VII,digital_government,1,q1422,22. Completar formularios en línea o enviar formularios comp,2775,2,22.9167,True
+2015,VII,digital_government,1,q1423,"23. Realizar consultas, solicitudes o reclamos a organismos",2775,2,22.9167,True
+2015,VII,digital_government,1,q1424,24. Realizar pagos en línea a organismos del estado (impuest,2775,2,22.9167,True
+2015,VII,digital_skills,1,Q1907,"Falta de conocimientos, habilidades o autoconfianza",1817,2,49.5278,True
+2015,VII,disability,2,Q2109,Tengo una discapacidad / no puedo leer / tengo una limitación que me impide usarlo,825,2,77.0833,True
+2015,VII,disability,1,Discapacidad_entre,Discapacidad 1,3600,7,0.0,True
+2015,VII,disability,1,Discapacidad_JH,Discapacidad 1,3528,7,2.0,True
+2015,VII,education_learning,2,q1404,"4. Para realizar tareas/informes de algún curso, materia o c",2775,2,22.9167,True
+2015,VII,education_learning,2,q1434,34. Realizar cursos o capacitación en línea (e-learning).,2775,2,22.9167,True
+2015,VII,education_learning,1,Edu_Entre,Educación 1,3600,11,0.0,True
+2015,VII,education_learning,1,Edu_JH,Educación 1,3531,11,1.9167,True
+2015,VII,education_learning,1,q1405,5. Para postular a cursos/carreras/postgrados/capacitación,2775,2,22.9167,True
+2015,VII,education_learning,1,p151,Apoyo a la educación propia o de hijos / nietos / parientes,2474,2,31.2778,True
+2015,VII,education_learning,1,q132,Lugar de educación / capacitación,2130,2,40.8333,True
+2015,VII,education_learning,1,Q1801,"Cursos de capacitación / carreras / postgrado, presenciales o por internet",958,2,73.3889,True
+2015,VII,fixed_mobile_mode,2,Q13A,"Q13.A. Usted mencionó que se conectan a Internet móvil, ya sea a través de Banda Ancha móvil USB, TABLET o Smartphone. ¿Alguna o algunas de estas conexiones tiene Internet con sistema 4G?",1891,3,47.4722,True
+2015,VII,fixed_mobile_mode,2,P15_1,"P.15.1. Usted mencionó que en el hogar se conectan a Internet móvil, ya sea a través de Banda Ancha móvil USB, TABLET o Smartphone. ¿Alguna o algunas de estas conexiones tiene Internet con sistema 4G?",1128,3,68.6667,True
+2015,VII,fixed_mobile_mode,1,Q901,Banda ancha fija / WIFI,2775,2,22.9167,True
+2015,VII,fixed_mobile_mode,1,Q902,Banda ancha móvil,2775,2,22.9167,True
+2015,VII,fixed_mobile_mode,1,P7A2,"Utiliza banda ancha móvil (USB) para conectar un equipo, por ej.: computador a internet.",2474,2,31.2778,True
+2015,VII,fixed_mobile_mode,1,P7B_1_1,P7.b. ¿Cuál es la empresa proveedora del servicio a través del cual señala el acceso?   (A) Utiliza un acceso telefónico (ADSL o fibra óptica) o cable para conectar un equipo (ej. computador)  a internet (banda ancha fija). IMAGEN 1A-1B,1719,21,52.25,True
+2015,VII,fixed_mobile_mode,1,P7C_1,P.7c.  ¿Cuál es la modalidad de pago?   (A) Utiliza un acceso telefónico (ADSL o fibra óptica) o cable para conectar un equipo (ej. computador)  a internet (banda ancha fija). IMAGEN 1A-1B,1717,3,52.3056,True
+2015,VII,fixed_mobile_mode,1,P7B_2_1,"P7.b. ¿Cuál es la empresa proveedora del servicio a través del cual señala el acceso?   (B)Utiliza banda ancha móvil (USB) para conectar un equipo, por ej.: computador a internet. (encuestador: hablar de pendrive) IMAGEN 2",333,11,90.75,True
+2015,VII,geography_commune,1,comuna,Comuna,3600,75,0.0,True
+2015,VII,geography_region,2,region,Región,3600,15,0.0,True
+2015,VII,geography_urban_rural,1,zona,ZONA,3600,2,0.0,True
+2015,VII,geography_urban_rural,1,ZONA2,,3600,4,0.0,True
+2015,VII,geography_urban_rural,1,q1404,"4. Para realizar tareas/informes de algún curso, materia o c",2775,2,22.9167,True
+2015,VII,geography_urban_rural,1,P1610,No hay / no sabe si hay oferta de servicios de internet en la zona donde vi,1113,2,69.0833,True
+2015,VII,geography_urban_rural,1,Q2112,No hay servicio de Internet en esta zona / no sé si hay servicio en esta zona,825,2,77.0833,True
+2015,VII,geography_urban_rural,1,Q2201,Imprimir alguna tarea,682,2,81.0556,True
+2015,VII,geography_urban_rural,1,P1701,Imprimir alguna tarea,602,2,83.2778,True
+2015,VII,geography_urban_rural,1,S212,Por tareas,307,2,91.4722,True
+2015,VII,household_access,3,P5,"P5.  ¿Los miembros de este hogar tienen acceso (PAGADO Y PROPIO) a Internet DESDE EL HOGAR, sin importar si lo utilizan o no?",3600,2,0.0,True
+2015,VII,household_access,2,P11,"P.11. Algunos proveedores de Internet por telefonía fija o cable ofrecen WiFi, es decir, le instalan una red inalámbrica que funciona solamente en su hogar, que le permite conectarse a Internet desde cualquier lugar de la vivienda.   ¿Usted tiene el servic",1717,3,52.3056,True
+2015,VII,household_access,2,P15_1,"P.15.1. Usted mencionó que en el hogar se conectan a Internet móvil, ya sea a través de Banda Ancha móvil USB, TABLET o Smartphone. ¿Alguna o algunas de estas conexiones tiene Internet con sistema 4G?",1128,3,68.6667,True
+2015,VII,household_access,2,P8,"P.8  En algún momento de los últimos 12 meses, ¿tuvo su hogar acceso (PAGADO Y PROPIO) a Internet a través de acceso telefónico o por cable (es decir, la opción (A) de “Forma de acceso”)?",729,3,79.75,True
+2015,VII,household_access,2,P7B_5_1,P7.b. ¿Cuál es la empresa proveedora del servicio a través del cual señala el acceso?   (E)Utiliza una conexión satelital para conectar un equipo (ej.: computador)  a internet. IMAGEN 5,63,7,98.25,True
+2015,VII,household_access,2,P7B_5_2,P7.b. ¿Cuál es la empresa proveedora del servicio a través del cual señala el acceso?   (E)Utiliza una conexión satelital para conectar un equipo (ej.: computador)  a internet. IMAGEN 5,1,1,99.9722,True
+2015,VII,household_access,1,Q903,Teléfono móvil o Smartphone con acceso propio a internet,2775,2,22.9167,True
+2015,VII,household_access,1,Q904,Tablet con acceso propio a internet,2775,2,22.9167,True
+2015,VII,indigenous,1,Etnia_Entre,Pueblos originarios 1,3600,9,0.0,True
+2015,VII,indigenous,1,Etnia_JH,Pueblos originarios 1,3528,8,2.0,True
+2015,VII,internet_use_frequency,2,Q8,Q.8. ¿Con qué frecuencia ha utilizado Internet en los últimos 12 meses?. (RU),2722,4,24.3889,True
+2015,VII,internet_use_frequency,2,Q11,Q.11. En los últimos 12 meses ¿con qué frecuencia ha utilizado Internet en el hogar? (RU),2498,4,30.6111,True
+2015,VII,internet_use_frequency,1,Q5,USO DE INTERNET  Q.5. ¿Cuándo fue su uso más reciente de un computador? (RU),3600,4,0.0,True
+2015,VII,internet_use_frequency,1,Q7,Q.7.  ¿Cuándo fue su uso más reciente de Internet? (RU),3600,4,0.0,True
+2015,VII,internet_use_frequency,1,S1A,S1.A. ¿Usted paga por aplicaciones o servicios que se utilizan a través de Internet?,3600,3,0.0,True
+2015,VII,internet_use_frequency,1,Q12,"Q.12. En los últimos 12 meses, ¿ha utilizado Internet en otros lugares distintos al hogar?",2775,2,22.9167,True
+2015,VII,internet_use_frequency,1,Q16,"Q.16. ¿cuándo realizó la última compra u orden de bienes o servicios, para su uso personal, a través de Internet?",2775,4,22.9167,True
+2015,VII,internet_use_frequency,1,Q20D02,"Mal uso de información personal en internet (mal uso de videos, fotos o datos personales subidos a sitios públicos)",2775,2,22.9167,True
+2015,VII,quality_satisfaction,2,Q2113,La señal donde vivo es de muy mala calidad,825,2,77.0833,True
+2015,VII,quality_satisfaction,1,Q20D09,Caída de señal/ perdida,2775,2,22.9167,True
+2015,VII,quality_satisfaction,1,Q9A,"Q.9A.  Entre los accesos señalados en Q.9, indique ¿cuál utiliza de manera más frecuente?",2729,5,24.1944,True
+2015,VII,quality_satisfaction,1,P7B_1_1,P7.b. ¿Cuál es la empresa proveedora del servicio a través del cual señala el acceso?   (A) Utiliza un acceso telefónico (ADSL o fibra óptica) o cable para conectar un equipo (ej. computador)  a internet (banda ancha fija). IMAGEN 1A-1B,1719,21,52.25,True
+2015,VII,quality_satisfaction,1,P7B_3_1,P7.b. ¿Cuál es la empresa proveedora del servicio a través del cual señala el acceso?   (C) Utiliza un teléfono móvil o Smartphone en forma directa y/o para conectar un equipo  (ej.: computador)  a internet. IMAGEN 3A-3B,1128,12,68.6667,True
+2015,VII,quality_satisfaction,1,P1620,Mala señal,1113,2,69.0833,True
+2015,VII,quality_satisfaction,1,P16_1,"P16.1. Entre las razones señaladas, indique cuál considera LA MÁS IMPORTANTE (RU):",1113,13,69.0833,True
+2015,VII,quality_satisfaction,1,Q21A,"Q.21A Entre las razones señaladas, indique ¿cuál  considera la más importante?",825,15,77.0833,True
+2015,VII,security_privacy,2,Q20B,"Q20.B. Frente a cosas como los virus, el correo basura, archivos espías, entre otros que pueden llegar por internet, ¿cuán protegido se siente Ud.?",2775,5,22.9167,True
+2015,VII,security_privacy,2,Q20C01,"Uso de algún tipo de herramienta de protección o software (antivirus, anti spam, firewall, etc.) para proteger su computador.",2775,2,22.9167,True
+2015,VII,security_privacy,2,Q20C03,Borrar o editar algo que usted posteó online para proteger su privacidad,2775,2,22.9167,True
+2015,VII,security_privacy,1,Q20C04,"Cambiar los ajustes de privacidad en una red social (por ejemplo, facebook, twitter, instagram, linkedin, etc)",2775,2,22.9167,True
+2015,VII,security_privacy,1,Q20C06,Cambio de contraseñas,2775,2,22.9167,True
+2015,VII,security_privacy,1,Q20D01,"Ataque de algún virus (troyano o gusano) que ha dado como resultado pérdida de datos o tiempo, o daño al software o al equipo",2775,2,22.9167,True
+2015,VII,security_privacy,1,Q2117,No da confianza/seguridad,825,2,77.0833,True
+2015,VII,security_privacy,1,S213,Antivirus,307,2,91.4722,True
+2015,VII,social_communication,2,q1411,"11. Utilizar redes sociales (facebook, twitter, linkedin, et",2775,2,22.9167,True
+2015,VII,social_communication,2,Q20C04,"Cambiar los ajustes de privacidad en una red social (por ejemplo, facebook, twitter, instagram, linkedin, etc)",2775,2,22.9167,True
+2015,VII,social_communication,1,q1412,12. Chatear por whatsapp,2775,2,22.9167,True
+2015,VII,social_communication,1,q1414,14. Crear y subir contenidos propios en redes sociales como,2775,2,22.9167,True
+2015,VII,social_communication,1,Q20D08,No puede ingresar a las redes sociales,2775,2,22.9167,True
+2015,VII,social_communication,1,p153,Permite comunicarse con otras personas,2474,2,31.2778,True
+2015,VII,social_communication,1,Q2205,"Revisar alguna red social (facebook, twitter, etc.)",682,2,81.0556,True
+2015,VII,social_communication,1,P1705,"Revisar alguna red social (facebook, twitter, etc.)",602,2,83.2778,True
+2015,VII,work_telework,1,p157,Por razones laborales / permite buscar trabajo,2474,2,31.2778,True
+2015,VII,work_telework,1,Q1819,]Buscar trabajo,958,2,73.3889,True
+2015,VII,work_telework,1,Q2206,Para buscar información sobre temas de trabajo,682,2,81.0556,True
+2015,VII,work_telework,1,Q22A_6,6. Para buscar información sobre temas de trabajo,33,11,99.0833,False
+2014,VI,banking_payments,1,Q14_28,"Realizar pagos en lÍnea a organismos del estado (impuestos, compra de certificad",2210,2,39.1687,True
+2014,VI,banking_payments,1,Q14_29,"COMERCIO ELECTRÓNICO (E-COMMERCE) Y EMPRENDIMIENTO: [En los últimos 3 meses, señ",2210,2,39.1687,True
+2014,VI,banking_payments,1,Q14_30,"Realizar transacciones bancarias [En los últimos 3 meses, señale las actividades",2210,2,39.1687,True
+2014,VI,banking_payments,1,Q14_32,"Realizar pagos en lÍnea de servicios bÁsicos (agua, luz, telefonÍa, etc.) [En lo",2210,2,39.1687,True
+2014,VI,banking_payments,1,Q20D_3,PÉRDIDAS FINANCIERAS DEBIDO A PAGOS FRAUDULENTOS CON TARJETAS DE CRÉDITOS O DÉBI,2210,2,39.1687,True
+2014,VI,banking_payments,1,P7C_1,P7C.1.- MODALIDAD DE PAGO,1572,3,56.73,True
+2014,VI,banking_payments,1,P7C_3,P7C.3.- MODALIDAD DE PAGO,1447,3,60.1707,True
+2014,VI,banking_payments,1,P7C_2,P7C.2.- MODALIDAD DE PAGO,257,3,92.926,True
+2014,VI,barriers_non_access,3,S3,¿Por qué razón no paga por aplicaciones o servicios a través de internet?,3454,5,4.9271,True
+2014,VI,barriers_non_access,3,Q21_9,COSTO DE SERVICIO [Señale las razones por las que no ha utilizado Internet en lo,1423,2,60.8313,True
+2014,VI,barriers_non_access,3,Q21_12,COBERTURA [Señale las razones por las que no ha utilizado Internet en los último,1423,2,60.8313,True
+2014,VI,barriers_non_access,2,Q21_1,RELEVANCIA [Señale las razones por las que no ha utilizado Internet en los últim,1423,2,60.8313,True
+2014,VI,barriers_non_access,2,Q21_5,USABILIDAD [Señale las razones por las que no ha utilizado Internet en los últim,1423,2,60.8313,True
+2014,VI,barriers_non_access,2,Q21_8,6.- FALTA DE CONFIANZA [Señale las razones por las que no ha utilizado Internet,1423,2,60.8313,True
+2014,VI,barriers_non_access,2,Q21_14,10.- NO TIENE TIEMPO [Señale las razones por las que no ha utilizado Internet en,1423,2,60.8313,True
+2014,VI,barriers_non_access,2,Q21_15,11.- OTRO [Señale las razones por las que no ha utilizado Internet en los último,1423,2,60.8313,True
+2014,VI,demographic_age,1,EDAD_ENTREVISTADO,Edad,3633,79,0.0,True
+2014,VI,demographic_age,1,EDAD_JH,Edad,3633,78,0.0,True
+2014,VI,demographic_education,1,Q13_2,LUGAR DE EDUCACIÓN / CAPACITACIÓN [Señale en qué otros lugares ha utilizado Inte,1476,2,59.3724,True
+2014,VI,demographic_employment,1,Q14_4,"Para realizar trabajos/informes de mi actividad laboral [En los últimos 3 meses,",2210,2,39.1687,True
+2014,VI,demographic_employment,1,Q14_40,"Postular en lÍnea a trabajos (enviar currÍculum) [En los últimos 3 meses, señale",2210,2,39.1687,True
+2014,VI,demographic_employment,1,Q13_1,LUGAR DE TRABAJO (FUERA DEL HOGAR) [Señale en qué otros lugares ha utilizado Int,1476,2,59.3724,True
+2014,VI,demographic_income_gse,1,Quintil_1,Quintil 1 version sin imputar,3633,6,0.0,False
+2014,VI,demographic_income_gse,1,Quintil_2,Quintil 2 version imputados,3633,5,0.0,False
+2014,VI,demographic_income_gse,1,Ingreso_Hogar,Ingreso Hogar,3331,453,8.3127,False
+2014,VI,demographic_income_gse,1,Ingreso_Percapita,Ingreso Per Capita,3331,877,8.3127,False
+2014,VI,demographic_sex_gender,1,SEXO_ENTREVISTADO,Sexo,3633,2,0.0,True
+2014,VI,demographic_sex_gender,1,SEXO_JH,Sexo,3633,2,0.0,True
+2014,VI,devices,4,P26_11,COMPUTADOR PORTÁTIL (NOTEBOOK O LAPTOP / NETBOOK / TABLET O IPAD) [¿Con cuál(es),3633,2,0.0,True
+2014,VI,devices,4,Q21_10,"7.- COSTO DEL EQUIPO O TERMINAL (COMPUTADOR, NOTEBOOK, TABLET, SMARTPHONE, ETC.)",1423,2,60.8313,True
+2014,VI,devices,4,P16_11,"H.  costo del equipo o terminal (computador, notebook, tablet, smartphone, etc.)",1359,2,62.5929,True
+2014,VI,devices,2,P26_7,SMARTTV: TELEVISOR CON CAPACIDAD DE CONECTARSE A INTERNET [¿Con cuál(es) de los,3633,2,0.0,True
+2014,VI,devices,2,Q9_3,TELÉFONO MÓVIL O SMARTPHONE CON ACCESO PROPIO A INTERNET [Q9.- Señale qué tipo d,2210,2,39.1687,True
+2014,VI,devices,2,P7D_3,P7D.3.- ACCESO VÍA TELEFONO MOVIL O SMARTPHONE JEFE DE HOGAR.,1447,2,60.1707,True
+2014,VI,devices,2,Q21_6,4.- NO SABE UTILIZAR EL COMPUTADOR Y/O SMARTPHONE [Señale las razones por las qu,1423,2,60.8313,True
+2014,VI,devices,2,P16_7,E.  no saben utilizar el computador y/o smartphone [Señale todas las razones por,1359,2,62.5929,True
+2014,VI,digital_government,2,Q14_25,Descargar o solicitar formularios a organismos del estado [En los últimos 3 mese,2210,2,39.1687,True
+2014,VI,digital_government,2,Q14_27,"Realizar consultas, solicitudes o reclamos a organismos del estado [En los últim",2210,2,39.1687,True
+2014,VI,digital_government,1,EST_CIVIL_ENTREVISTADO,Estado Civil Actual,3633,7,0.0,True
+2014,VI,digital_government,1,EST_CIVIL_JH,Estado Civil Actual,3633,7,0.0,True
+2014,VI,digital_government,1,Q14_8,Del gobierno u otras organizaciones (a travÉs de sitios web o correo electrÓnico,2210,2,39.1687,True
+2014,VI,digital_government,1,Q14_18,Compartir estados de Ánimo y reflexiones a travÉs de las redes sociales [En los,2210,2,39.1687,True
+2014,VI,digital_government,1,Q14_24,"TRATAR CON ORGANISMOS DEL ESTADO (E-GOVERNMENT): [En los últimos 3 meses, señale",2210,2,39.1687,True
+2014,VI,digital_government,1,Q14_26,Completar formularios en lÍnea o enviar formularios completos [En los últimos 3,2210,2,39.1687,True
+2014,VI,digital_skills,1,Q19_7,"FALTA DE CONOCIMIENTOS, HABILIDADES O AUTOCONFIANZA [Q19.- Señale todas las razo",1710,2,52.9315,True
+2014,VI,education_learning,2,EDUC_ENTREVISTADO,Ultimo curso y tipo de estudio aprobado,3633,12,0.0,True
+2014,VI,education_learning,2,EDUC_JH,Ultimo curso y tipo de estudio aprobado,3633,12,0.0,True
+2014,VI,education_learning,2,Q14_5,"Para realizar tareas/informes de algÚn curso, materia o capacitaciÓn [En los últ",2210,2,39.1687,True
+2014,VI,education_learning,2,Q14_41,"Realizar cursos o capacitaciÓn en lÍnea (e-learning). [En los últimos 3 meses, s",2210,2,39.1687,True
+2014,VI,education_learning,1,Q14_6,"Para postular a cursos/carreras/postgrados/capacitaciÓn [En los últimos 3 meses,",2210,2,39.1687,True
+2014,VI,education_learning,1,Q13_2,LUGAR DE EDUCACIÓN / CAPACITACIÓN [Señale en qué otros lugares ha utilizado Inte,1476,2,59.3724,True
+2014,VI,education_learning,1,Q18_1,"1.- CURSOS DE CAPACITACIÓN / CARRERAS / POSTGRADO, PRESENCIALES O POR INTERNET.",500,2,86.2373,True
+2014,VI,fixed_mobile_mode,1,Q9_1,BANDA ANCHA FIJA/WIFI [Q9.- Señale qué tipo de acceso a Internet ha utilizado úl,2210,2,39.1687,True
+2014,VI,fixed_mobile_mode,1,Q9_2,BANDA ANCHA MÓVIL [Q9.- Señale qué tipo de acceso a Internet ha utilizado última,2210,2,39.1687,True
+2014,VI,fixed_mobile_mode,1,Q24_5,INTERNET BANDA ANCHA FIJA DESNUDA (SIN TV CABLE O TELEFONÍA FIJA) [¿Cuál es el t,256,2,92.9535,True
+2014,VI,fixed_mobile_mode,1,Q24_6,INTERNET BANDA ANCHA FIJA + TV CABLE [¿Cuál es el tipo de servicio de Internet q,256,2,92.9535,True
+2014,VI,fixed_mobile_mode,1,Q24_7,INTERNET BANDA ANCHA FIJA + TELEFONÍA FIJA [¿Cuál es el tipo de servicio de Inte,256,2,92.9535,True
+2014,VI,fixed_mobile_mode,1,Q24_8,INTERNET BANDA ANCHA FIJA + TV CABLE + TELEFONÍA FIJA [¿Cuál es el tipo de servi,256,2,92.9535,True
+2014,VI,geography_commune,1,COMUNA,Comuna,3633,122,0.0,True
+2014,VI,geography_region,2,REGION,Region,3633,15,0.0,True
+2014,VI,geography_urban_rural,3,ZONA,Urbano/Rural,3633,2,0.0,True
+2014,VI,geography_urban_rural,1,Q14_5,"Para realizar tareas/informes de algÚn curso, materia o capacitaciÓn [En los últ",2210,2,39.1687,True
+2014,VI,geography_urban_rural,1,Q21_13,9.- NO HAY / NO SABE SI HAY OFERTA DE SERVICIOS DE INTERNET EN LA ZONA DONDE VIV,1423,2,60.8313,True
+2014,VI,geography_urban_rural,1,P16_14,J.  no hay / no sabe si hay oferta de servicios de internet en la zona donde viv,1359,2,62.5929,True
+2014,VI,geography_urban_rural,1,Q25,¿Qué tipo de oferta de servicio de Internet le gustaría que existiera en la zona,76,4,97.9081,True
+2014,VI,household_access,2,P5,P5.- ¿Los miembros de este hogar tienen acceso (PAGADO Y PROPIO) a Internet DESD,3633,2,0.0,True
+2014,VI,household_access,2,Q9_5,CONEXIÓN SATELITAL [Q9.- Señale qué tipo de acceso a Internet ha utilizado últim,2210,2,39.1687,True
+2014,VI,household_access,1,Q9_1,BANDA ANCHA FIJA/WIFI [Q9.- Señale qué tipo de acceso a Internet ha utilizado úl,2210,2,39.1687,True
+2014,VI,household_access,1,Q9_2,BANDA ANCHA MÓVIL [Q9.- Señale qué tipo de acceso a Internet ha utilizado última,2210,2,39.1687,True
+2014,VI,household_access,1,Q9_3,TELÉFONO MÓVIL O SMARTPHONE CON ACCESO PROPIO A INTERNET [Q9.- Señale qué tipo d,2210,2,39.1687,True
+2014,VI,household_access,1,Q9_4,TABLET CON ACCESO PROPIO A INTERNET [Q9.- Señale qué tipo de acceso a Internet h,2210,2,39.1687,True
+2014,VI,household_access,1,Q9_6,OTRO (Esp.) [Q9.- Señale qué tipo de acceso a Internet ha utilizado últimamente,2210,2,39.1687,True
+2014,VI,household_access,1,Q9_7,NO SABE [Q9.- Señale qué tipo de acceso a Internet ha utilizado últimamente (señ,2210,2,39.1687,True
+2014,VI,internet_use_frequency,2,Q8,Señale con qué frecuencia ha utilizado el Internet en los últimos 12 meses,2136,4,41.2056,True
+2014,VI,internet_use_frequency,2,Q11,"Señale con ¿qué frecuencia ha utilizado el Internet en el hogar, en los últimos",1948,4,46.3804,True
+2014,VI,internet_use_frequency,2,Q21_5,USABILIDAD [Señale las razones por las que no ha utilizado Internet en los últim,1423,2,60.8313,True
+2014,VI,internet_use_frequency,1,Q7,Señale cuándo fue su uso más reciente del Internet.,3633,4,0.0,True
+2014,VI,internet_use_frequency,1,S1A,¿Usted paga por aplicaciones o servicios que se utilizan a través de Internet?,3633,3,0.0,True
+2014,VI,internet_use_frequency,1,Q12,¿Ha utilizado internet en otros lugares distintos al hogar en los últimos 12 mes,2210,2,39.1687,True
+2014,VI,internet_use_frequency,1,Q20D_2,"MAL USO DE INFORMACIÓN PERSONAL EN INTERNET (MAL USO DE VIDEOS, FOTOS O DATOS PE",2210,2,39.1687,True
+2014,VI,internet_use_frequency,1,Q7A,Señale cuándo fue su uso más reciente del Internet.,2136,6,41.2056,True
+2014,VI,quality_satisfaction,1,Q5,Señale cuándo fue su uso más reciente de un computador.,3633,4,0.0,True
+2014,VI,quality_satisfaction,1,Q7,Señale cuándo fue su uso más reciente del Internet.,3633,4,0.0,True
+2014,VI,quality_satisfaction,1,P15A,Señale las razones por las cuáles se mantiene el servicio de Internet en el hoga,2274,3,37.4071,True
+2014,VI,quality_satisfaction,1,P15B,Señale las razones por las cuáles se mantiene el servicio de Internet en el hoga,2274,3,37.4071,True
+2014,VI,quality_satisfaction,1,P15C,Señale las razones por las cuáles se mantiene el servicio de Internet en el hoga,2274,3,37.4071,True
+2014,VI,quality_satisfaction,1,P15D,Señale las razones por las cuáles se mantiene el servicio de Internet en el hoga,2274,3,37.4071,True
+2014,VI,quality_satisfaction,1,P15E,Señale las razones por las cuáles se mantiene el servicio de Internet en el hoga,2274,3,37.4071,True
+2014,VI,quality_satisfaction,1,P15F,Señale las razones por las cuáles se mantiene el servicio de Internet en el hoga,2274,3,37.4071,True
+2014,VI,security_privacy,2,Q20C_3,BORRAR O EDITAR ALGO QUE USTED POSTEÓ ONLINE PARA PROTEGER SU PRIVACIDAD [Q20C.-,2210,2,39.1687,True
+2014,VI,security_privacy,1,Q20B,Q20B.- ¿cuán protegido se siente Ud.?,2210,5,39.1687,True
+2014,VI,security_privacy,1,Q20C_1,"USO DE ALGÚN TIPO DE HERRAMIENTA DE PROTECCIÓN O SOFTWARE (ANTIVIRUS, ANTI SPAM,",2210,2,39.1687,True
+2014,VI,security_privacy,1,Q20C_4,"CAMBIAR LOS AJUSTES DE PRIVACIDAD EN UNA RED SOCIAL (POR EJEMPLO, FACEBOOK, TWIT",2210,2,39.1687,True
+2014,VI,security_privacy,1,Q20C_6,CAMBIO DE CONTRASEÑAS [Q20C.- En los últimos 12 meses ¿qué actividades Usted ha,2210,2,39.1687,True
+2014,VI,security_privacy,1,Q20D_1,ATAQUE DE ALGÚN VIRUS (TROYANO O GUSANO) QUE HA DADO COMO RESULTADO PÉRDIDA DE D,2210,2,39.1687,True
+2014,VI,social_communication,2,Q14_13,"Utilizar redes sociales (facebook, twitter, linkedin, etc.) [En los últimos 3 me",2210,2,39.1687,True
+2014,VI,social_communication,2,Q14_16,"Crear y subir contenidos propios en redes sociales como facebook, twitter, youtu",2210,2,39.1687,True
+2014,VI,social_communication,1,Q14_17,"Compartir contenidos (noticias, memes, links) a travÉs de las redes sociales [En",2210,2,39.1687,True
+2014,VI,social_communication,1,Q14_18,Compartir estados de Ánimo y reflexiones a travÉs de las redes sociales [En los,2210,2,39.1687,True
+2014,VI,social_communication,1,Q20C_4,"CAMBIAR LOS AJUSTES DE PRIVACIDAD EN UNA RED SOCIAL (POR EJEMPLO, FACEBOOK, TWIT",2210,2,39.1687,True
+2014,VI,social_communication,1,S2_6,PUBLICIDAD EN FACEBOOK Y/O TWITTER Y/O GOOGLE [Paga por alguno de estas aplicaci,179,2,95.0729,True
+2013,V,banking_payments,1,p7c_1,modalidad de pago,5430,4,40.0,False
+2013,V,banking_payments,1,p16c,pago mensual y/o gasto promedio en recargas por su acceso por smartphone j. hoga,1287,16,85.779,True
+2013,V,banking_payments,1,p7c_2,modalidad de pago,1273,4,85.9337,False
+2013,V,banking_payments,1,q18,"señale con qué frecuencia ha realizado compras por internet, para su uso persona",856,5,90.5414,True
+2013,V,banking_payments,1,p7c_3,modalidad de pago,352,4,96.1105,False
+2013,V,banking_payments,1,p17a,pago mensual y/o gasto promedio en recargas por su acceso por tablet:  cargo fij,41,15,99.547,True
+2013,V,banking_payments,1,p17b,pago mensual y/o gasto promedio en recargas por su acceso por tablet:  bolsa int,40,8,99.558,True
+2013,V,banking_payments,1,p17c,pago mensual y/o gasto promedio en recargas por su acceso por tablet:  ¿cuál es,40,8,99.558,True
+2013,V,barriers_non_access,3,p19_9,razones por las que no tiene acceso a internet desde el hogar:  costo del servic,881,1,90.2652,True
+2013,V,barriers_non_access,3,p19_8,razones por las que no tiene acceso a internet desde el hogar:  costo del equipo,404,1,95.5359,True
+2013,V,barriers_non_access,3,q22_8,razones por las que no ha utilizado internet en los últimos 12 meses costo del s,265,1,97.0718,True
+2013,V,barriers_non_access,3,q22_7,razones por las que no ha utilizado internet en los últimos 12 meses costo del e,143,1,98.4199,True
+2013,V,barriers_non_access,2,p19_3,razones por las que no tiene acceso a internet desde el hogar:  no les interesa,1328,1,85.326,True
+2013,V,barriers_non_access,2,q22_3,razones por las que no ha utilizado internet en los últimos 12 meses no le inter,1265,1,86.0221,True
+2013,V,barriers_non_access,2,q22_4,razones por las que no ha utilizado internet en los últimos 12 meses no sabe uti,1251,1,86.1768,True
+2013,V,barriers_non_access,2,p19_5,razones por las que no tiene acceso a internet desde el hogar:  no saben utiliza,964,1,89.3481,True
+2013,V,demographic_age,1,total_06a18,total personas entre 6 y 18 años en el hogar,9049,7,0.011,False
+2013,V,demographic_age,1,h4,edad (entrevistado),9049,77,0.011,False
+2013,V,demographic_age,1,h4_jh,edad (jefe de hogar),9049,81,0.011,False
+2013,V,demographic_employment,1,h7,"¿utilizó este año internet en su casa, lugar de trabajo, estudio o en algún cibe",9049,3,0.011,True
+2013,V,demographic_employment,1,h6_jh,situación ocupacional (jefe de hogar),9049,8,0.011,True
+2013,V,demographic_employment,1,h7_jh,"¿utilizó este año internet en su casa, lugar de trabajo, estudio o en algún cibe",9049,3,0.011,True
+2013,V,demographic_employment,1,h6,situación ocupacional (entrevistado),9039,8,0.1215,True
+2013,V,demographic_employment,1,p35b_5,ingresos del trabajo 5,361,40,96.011,True
+2013,V,demographic_employment,1,p35b_6,ingresos del trabajo 6,135,26,98.5083,True
+2013,V,demographic_employment,1,p35b_7,ingresos del trabajo 7,37,14,99.5912,True
+2013,V,demographic_employment,1,p35b_8,ingresos del trabajo 8,2,2,99.9779,True
+2013,V,demographic_income_gse,2,quintil,Quintil de Ingreso Aut—nomo del hogar,8023,5,11.3481,False
+2013,V,demographic_income_gse,1,p35e_3,otros ingresos 3,564,26,93.768,True
+2013,V,demographic_income_gse,1,p35b_5,ingresos del trabajo 5,361,40,96.011,True
+2013,V,demographic_income_gse,1,p35e_4,otros ingresos 4,345,14,96.1878,True
+2013,V,demographic_income_gse,1,p35e_5,otros ingresos 5,169,9,98.1326,True
+2013,V,demographic_income_gse,1,p35b_6,ingresos del trabajo 6,135,26,98.5083,True
+2013,V,demographic_income_gse,1,p35e_6,otros ingresos 6,61,3,99.326,True
+2013,V,demographic_income_gse,1,p35b_7,ingresos del trabajo 7,37,14,99.5912,True
+2013,V,demographic_sex_gender,1,h3,sexo (entrevistado),9049,2,0.011,True
+2013,V,demographic_sex_gender,1,h3_jh,sexo (jefe de hogar),9049,2,0.011,True
+2013,V,devices,3,p7f,¿utilizan el teléfono móvil o smartphone como medio para conectar un computador,1811,4,79.989,True
+2013,V,devices,2,p6_4n,número de equipos en el hogar:  teléfono móvil ó smartphone,2963,11,67.2597,True
+2013,V,devices,2,q9b_3,acceso utilizado en últimos 3 meses:  teléfono móvil o smartphone con acceso pro,1712,2,81.0829,True
+2013,V,devices,2,q9a_a3,acceso utilizado en último año:  teléfono móvil o smartphone con acceso propio a,1698,2,81.2376,True
+2013,V,devices,2,p7d_2,acceso vía teléfono móvil o smartphone jefe de hogar,487,1,94.6188,True
+2013,V,devices,2,p7d_1,acceso vía teléfono móvil o smartphone jefe de hogar,359,1,96.0331,True
+2013,V,devices,2,p7d_3,acceso vía teléfono móvil o smartphone jefe de hogar,62,1,99.3149,True
+2013,V,devices,2,p7d_4,acceso vía teléfono móvil o smartphone jefe de hogar,2,1,99.9779,True
+2013,V,digital_government,2,q16a_16,obtener o solicitar formularios a organismos del estado,475,1,94.7514,True
+2013,V,digital_government,2,q16a_18,"realizar consultas, solicitudes o reclamos a organismos del estado",258,1,97.1492,True
+2013,V,digital_government,1,p30,estado civil actual,9049,7,0.011,True
+2013,V,digital_government,1,q1,estado civil actual del entrevistado,9049,7,0.011,True
+2013,V,digital_government,1,q23v_2,n° de veces que ha solicitado en últimos 3 meses:  obtener algún formulario,237,8,97.3812,True
+2013,V,digital_government,1,p20b_2,n° de veces que lo ha solicitado en últimos 3 meses:  obtener algún formulario,222,10,97.547,True
+2013,V,digital_government,1,enc,encuestador,9050,739,0.0,False
+2013,V,digital_government,1,q16a_7,del gobierno u otras organizaciones,965,1,89.337,True
+2013,V,education_learning,2,h5a,Último curso de estudio aprobado (entrevistado),9049,10,0.011,True
+2013,V,education_learning,2,h5a_jh,Último curso de estudio aprobado (jefe de hogar),9049,10,0.011,True
+2013,V,education_learning,2,q16a_4,"para realizar tareas / informes de algún curso, materia o capacitación.",2076,1,77.0608,True
+2013,V,education_learning,1,h5b,tipo de estudio aprobado (entrevistado),9049,12,0.011,True
+2013,V,education_learning,1,h7,"¿utilizó este año internet en su casa, lugar de trabajo, estudio o en algún cibe",9049,3,0.011,True
+2013,V,education_learning,1,h5b_jh,tipo de estudio aprobado (jefe de hogar),9049,12,0.011,True
+2013,V,education_learning,1,h7_jh,"¿utilizó este año internet en su casa, lugar de trabajo, estudio o en algún cibe",9049,3,0.011,True
+2013,V,education_learning,1,p20b_1,n° de veces que lo ha solicitado en últimos 3 meses:  imprimir alguna tarea,254,12,97.1934,True
+2013,V,fixed_mobile_mode,1,q9b_1,acceso utilizado en últimos 3 meses:  banda ancha fija / wifi,4403,2,51.3481,True
+2013,V,fixed_mobile_mode,1,p10_1,calificación de la velocidad de internet en su hogar:  banda ancha fija,3743,4,58.6409,True
+2013,V,fixed_mobile_mode,1,p11_1,calificación de la confiabilidad de internet en su hogar:  banda ancha fija,3743,3,58.6409,True
+2013,V,fixed_mobile_mode,1,p12_1,calificación de la calidad del servicio de internet en su hogar:  banda ancha fi,3743,4,58.6409,True
+2013,V,fixed_mobile_mode,1,p10_2,calificación de la velocidad de internet en su hogar:  banda ancha móvil,1037,4,88.5414,True
+2013,V,fixed_mobile_mode,1,p11_2,calificación de la confiabilidad de internet en su hogar:  banda ancha móvil,1037,3,88.5414,True
+2013,V,fixed_mobile_mode,1,p12_2,calificación de la calidad del servicio de internet en su hogar:  banda ancha mó,1037,4,88.5414,True
+2013,V,fixed_mobile_mode,1,q9_1,¿qué tipo de acceso a internet ha utilizado últimamente?:  banda ancha fija / wi,4563,1,49.5801,True
+2013,V,geography_commune,1,comuna,comuna,9049,177,0.011,False
+2013,V,geography_region,2,region,region,9049,15,0.011,False
+2013,V,geography_urban_rural,2,zona,area u-r,9049,2,0.011,False
+2013,V,geography_urban_rural,1,p25,¿qué tipo de oferta de servicio de internet le gustaría que existiera en la zona,334,4,96.3094,True
+2013,V,geography_urban_rural,1,p20b_1,n° de veces que lo ha solicitado en últimos 3 meses:  imprimir alguna tarea,254,12,97.1934,True
+2013,V,geography_urban_rural,1,q28,¿qué tipo de oferta de servicio de internet le gustaría que existiera en la zona,156,4,98.2762,True
+2013,V,geography_urban_rural,1,q23v_1,n° de veces que ha solicitado en últimos 3 meses:  imprimir alguna tarea,139,11,98.4641,True
+2013,V,geography_urban_rural,1,q16a_4,"para realizar tareas / informes de algún curso, materia o capacitación.",2076,1,77.0608,True
+2013,V,household_access,3,p5,"¿los miembros de este hogar tienen acceso a internet desde el hogar, sin importa",9049,2,0.011,True
+2013,V,household_access,2,p8,"en algún momento de los últimos 12 meses, ¿tuvo su hogar acceso a internet a tra",1694,4,81.2818,True
+2013,V,household_access,2,p6_6n,número de equipos en el hogar:  tv con conexión a internet,226,6,97.5028,True
+2013,V,household_access,2,p19_3,razones por las que no tiene acceso a internet desde el hogar:  no les interesa,1328,1,85.326,True
+2013,V,household_access,2,p19_5,razones por las que no tiene acceso a internet desde el hogar:  no saben utiliza,964,1,89.3481,True
+2013,V,household_access,2,p19_9,razones por las que no tiene acceso a internet desde el hogar:  costo del servic,881,1,90.2652,True
+2013,V,household_access,2,p19_1,razones por las que no tiene acceso a internet desde el hogar:  no saben / no le,677,1,92.5193,True
+2013,V,household_access,2,p19_4,razones por las que no tiene acceso a internet desde el hogar:  la mayor parte d,480,1,94.6961,True
+2013,V,indigenous,1,p31,"en chile, la ley reconoce nueve pueblos indígenas, ¿pertenece usted o es descend",9049,10,0.011,True
+2013,V,indigenous,1,q2,"etnia. en chile, la ley reconoce nueve pueblos indígenas, ¿pertenece usted o es",9049,11,0.011,True
+2013,V,internet_use_frequency,2,q8,señale con qué frecuencia ha utilizado el internet en los últimos 12 meses,5653,5,37.5359,True
+2013,V,internet_use_frequency,2,q11,"señale con qué frecuencia ha utilizado el internet en el hogar, en los últimos 1",4960,5,45.1934,True
+2013,V,internet_use_frequency,1,q7,señale cuándo fue su uso más reciente del internet,9049,4,0.011,True
+2013,V,internet_use_frequency,1,q12,¿ha utilizado internet en otros lugares distintos al hogar en los últimos 12 mes,5989,2,33.8232,True
+2013,V,internet_use_frequency,1,q18,"señale con qué frecuencia ha realizado compras por internet, para su uso persona",856,5,90.5414,True
+2013,V,internet_use_frequency,1,q14_15,¿en qué lugares le gustaría disponer de wi-fi gratis para utilizar internet?:  o,661,2,92.6961,True
+2013,V,internet_use_frequency,1,q35,"¿le interesaría utilizar internet para realizar ventas y compras, promocionar pr",132,4,98.5414,True
+2013,V,internet_use_frequency,1,p6_2,equipos utilizados para acceder a internet desde el hogar:  computador portátil,4017,1,55.6133,True
+2013,V,quality_satisfaction,1,q5,señale cuándo fue su uso más reciente de un computador,9049,4,0.011,True
+2013,V,quality_satisfaction,1,q7,señale cuándo fue su uso más reciente del internet,9049,4,0.011,True
+2013,V,quality_satisfaction,1,q17,"señale cuándo realizó la última compra u orden de bienes o servicios, para su us",5986,4,33.8564,True
+2013,V,quality_satisfaction,1,q14_imp,"entre los lugares señalados, indique cuál considera el más importante",5978,16,33.9448,True
+2013,V,quality_satisfaction,1,q9_fre,"entre los accesos señalados, indique cuál utiliza de manera más frecuente",5965,8,34.0884,True
+2013,V,quality_satisfaction,1,q8,señale con qué frecuencia ha utilizado el internet en los últimos 12 meses,5653,5,37.5359,True
+2013,V,quality_satisfaction,1,p18_imp,"entre las razones señaladas, indique cuál considera la más importante",5435,9,39.9448,True
+2013,V,quality_satisfaction,1,q11,"señale con qué frecuencia ha utilizado el internet en el hogar, en los últimos 1",4960,5,45.1934,True
+2013,V,security_privacy,1,q21b_4,problemas que ha tenido en los últimos 12 meses en términos de seguridad y priva,4550,2,49.7238,True
+2013,V,security_privacy,1,q21a_3,actividades que ha realizado en los últimos 12 meses en términos de seguridad y,2815,2,68.895,True
+2013,V,security_privacy,1,q21a_1,actividades que ha realizado en los últimos 12 meses en términos de seguridad y,3114,1,65.5912,True
+2013,V,security_privacy,1,q21b_1,problemas que ha tenido en los últimos 12 meses en términos de seguridad y priva,1342,1,85.1713,True
+2013,V,security_privacy,1,q21a_2,actividades que ha realizado en los últimos 12 meses en términos de seguridad y,309,1,96.5856,True
+2013,V,security_privacy,1,q21b_2,problemas que ha tenido en los últimos 12 meses en términos de seguridad y priva,126,1,98.6077,True
+2013,V,security_privacy,1,q21b_3,problemas que ha tenido en los últimos 12 meses en términos de seguridad y priva,38,1,99.5801,True
+2013,V,social_communication,1,q16b_10,utilizar redes sociales,4636,1,48.7735,True
+2013,V,social_communication,1,q16a_10,utilizar redes sociales,3614,1,60.0663,True
+2012,IV,banking_payments,1,p7c_1,p7c.1 modalidad de pago del servicio de internet,1993,3,46.9382,True
+2012,IV,banking_payments,1,p7c_2,p7c.2 modalidad de pago del servicio de internet,422,3,88.7646,True
+2012,IV,banking_payments,1,q20,"q20. señale con qué frecuencia ha realizado compras por internet, para su uso pe",304,4,91.9063,True
+2012,IV,banking_payments,1,p17_pm_mi,p17. plan multimedia / blackberry / club pago mensual mbs incluidos,192,25,94.8882,False
+2012,IV,banking_payments,1,p7c_3,p7c.3 modalidad de pago del servicio de internet,130,3,96.5389,True
+2012,IV,banking_payments,1,p17_bi_pm,p17. bolsa internet / recargas (sin incluir llamadas ni sms) pago mensual,94,37,97.4973,False
+2012,IV,banking_payments,1,p7c_4,p7c.4 modalidad de pago del servicio de internet,40,3,98.935,True
+2012,IV,banking_payments,1,p7c_5,p7c.5 modalidad de pago del servicio de internet,13,3,99.6539,True
+2012,IV,barriers_non_access,2,q23_6,q23. señale las razones por las que no ha utilizado internet en los últimos 12 m,71,17,98.1097,True
+2012,IV,barriers_non_access,2,q23_2,q23. señale las razones por las que no ha utilizado internet en los últimos 12 m,963,1,74.361,True
+2012,IV,barriers_non_access,2,q23_1,q23. señale las razones por las que no ha utilizado internet en los últimos 12 m,801,1,78.6741,True
+2012,IV,barriers_non_access,2,q23_4,q23. señale las razones por las que no ha utilizado internet en los últimos 12 m,387,1,89.6965,True
+2012,IV,barriers_non_access,2,q23_3,q23. señale las razones por las que no ha utilizado internet en los últimos 12 m,213,1,94.3291,True
+2012,IV,barriers_non_access,2,q23_5,q23. señale las razones por las que no ha utilizado internet en los últimos 12 m,175,1,95.3408,True
+2012,IV,barriers_non_access,1,p20_12,p20. señale todas las razones por las que los miembros de este hogar no tienen a,146,18,96.1129,True
+2012,IV,barriers_non_access,1,q22_8,q22. señale todas las razones por las cuáles no ha realizado una compra u ordena,47,12,98.7487,True
+2012,IV,demographic_age,1,h4,h4. edad del entrevistado,3756,69,0.0,False
+2012,IV,demographic_employment,1,h6,h6. situación ocupacional,3756,10,0.0,True
+2012,IV,demographic_employment,1,h7,"h7. utilizó este año internet en su casa, lugar de trabajo, estudio o cibercafé?",3756,3,0.0,True
+2012,IV,demographic_employment,1,p34_5_it,p34.5 ingresos del trabajo,740,40,80.2982,False
+2012,IV,demographic_employment,1,p34_6_it,p34.6 ingresos del trabajo,334,28,91.1076,False
+2012,IV,demographic_employment,1,q31_per,q31. ¿cuántas personas trabajan con ud. en forma permanente o constante durante,258,11,93.131,False
+2012,IV,demographic_employment,1,q31_tem,q31. ¿cuántas personas trabajan con ud. en forma temporal u ocasional durante el,258,11,93.131,False
+2012,IV,demographic_employment,1,p34_7_it,p34.7 ingresos del trabajo,142,14,96.2194,False
+2012,IV,demographic_employment,1,p34_8_it,p34.8 ingresos del trabajo,59,7,98.4292,False
+2012,IV,demographic_income_gse,1,p34_2_otros,p34.2 otros ingresos,3293,39,12.3269,False
+2012,IV,demographic_income_gse,1,p34_3_otros,p34.3 otros ingresos,2316,28,38.3387,False
+2012,IV,demographic_income_gse,1,p34_4_otros,p34.4 otros ingresos,1482,18,60.5431,False
+2012,IV,demographic_income_gse,1,p34_5_it,p34.5 ingresos del trabajo,740,40,80.2982,False
+2012,IV,demographic_income_gse,1,p34_5_otros,p34.5 otros ingresos,736,7,80.4047,False
+2012,IV,demographic_income_gse,1,p34_6_it,p34.6 ingresos del trabajo,334,28,91.1076,False
+2012,IV,demographic_income_gse,1,p34_6_otros,p34.6 otros ingresos,334,3,91.1076,False
+2012,IV,demographic_income_gse,1,q39,q39. indique por favor en qué rango de ingresos se encontraron las ventas netas,258,9,93.131,True
+2012,IV,demographic_sex_gender,1,h3,h3. sexo del entrevistado,3756,2,0.0,True
+2012,IV,devices,2,p7f,p7f. ¿utilizan el smartphone como medio para conectar un computador a internet e,461,3,87.7263,True
+2012,IV,devices,1,q7,q7. señale cuándo fue su uso más reciente de un computador,3756,4,0.0,True
+2012,IV,devices,1,q8,"q8. en los últimos 12 meses, utilizó un computador en su hogar?",2288,2,39.0841,True
+2012,IV,devices,1,p21,"p21. compraría un computador, si le ofrecen un computador solo si ustedes, contr",513,4,86.3419,True
+2012,IV,devices,1,p10_3,p10. velocidad del acceso de smartphone jefe de hogar,277,4,92.6251,True
+2012,IV,devices,1,p11_3,p11. confiabilidad del acceso de smartphone jefe de hogar,277,3,92.6251,True
+2012,IV,devices,1,p12_3,p12. capacitación en línea del acceso de smartphone jefe de hogar,277,4,92.6251,True
+2012,IV,devices,1,p13_3,p13. calidad de asistencia técnica del acceso de smartphone jefe de hogar,277,4,92.6251,True
+2012,IV,digital_government,1,p27,p27. estado civil actual,3756,6,0.0,True
+2012,IV,digital_government,1,q1,q1. estado civil actual del entrevistado,3756,7,0.0,True
+2012,IV,digital_government,1,q36_1,q36. ¿qué beneficios considera usted que obtuvo para su negocio o actividad prod,6,1,99.8403,True
+2012,IV,digital_government,1,q36_2,q36. ¿qué beneficios considera usted que obtuvo para su negocio o actividad prod,5,1,99.8669,True
+2012,IV,digital_government,1,q36_4,q36. ¿qué beneficios considera usted que obtuvo para su negocio o actividad prod,5,1,99.8669,True
+2012,IV,digital_government,1,q36_5,q36. ¿qué beneficios considera usted que obtuvo para su negocio o actividad prod,5,1,99.8669,True
+2012,IV,digital_government,1,q36_3,q36. ¿qué beneficios considera usted que obtuvo para su negocio o actividad prod,4,1,99.8935,True
+2012,IV,digital_government,1,q36_6,q36. ¿qué beneficios considera usted que obtuvo para su negocio o actividad prod,3,1,99.9201,True
+2012,IV,education_learning,1,h5a_c,h5a. ultimo curso aprobado,3756,11,0.0,False
+2012,IV,education_learning,1,h7,"h7. utilizó este año internet en su casa, lugar de trabajo, estudio o cibercafé?",3756,3,0.0,True
+2012,IV,fixed_mobile_mode,1,p10_1,p10. velocidad del acceso de banda ancha fija,1289,4,65.6816,True
+2012,IV,fixed_mobile_mode,1,p11_1,p11. confiabilidad del acceso de banda ancha fija,1289,3,65.6816,True
+2012,IV,fixed_mobile_mode,1,p12_1,p12. capacitación en línea del acceso de banda ancha fija,1289,3,65.6816,True
+2012,IV,fixed_mobile_mode,1,p13_1,p13. calidad de asistencia técnica del acceso de banda ancha fija,1289,4,65.6816,True
+2012,IV,fixed_mobile_mode,1,p10_2,p10. velocidad del acceso de banda ancha movil,649,4,82.721,True
+2012,IV,fixed_mobile_mode,1,p11_2,p11. confiabilidad del acceso de banda ancha movil,649,3,82.721,True
+2012,IV,fixed_mobile_mode,1,p12_2,p12. capacitación en línea del acceso de banda ancha movil,649,4,82.721,True
+2012,IV,fixed_mobile_mode,1,p13_2,p13. calidad de asistencia técnica del acceso de banda ancha movil,649,4,82.721,True
+2012,IV,geography_commune,1,comuna,comuna,3756,152,0.0,False
+2012,IV,geography_region,2,region,región,3756,15,0.0,False
+2012,IV,geography_urban_rural,1,zona,zona,3756,2,0.0,False
+2012,IV,household_access,3,p5,"p5. ¿los miembros de este hogar tienen acceso a internet desde el hogar, sin imp",3756,2,0.0,True
+2012,IV,household_access,2,p35,"p35. de los accesos a internet que tiene su hogar, cuál es el más importante",3756,4,0.0,True
+2012,IV,household_access,2,p35_utilizar,p35. puede utilizar la conexión del internet fuera del hogar,1975,2,47.4175,True
+2012,IV,household_access,2,p8,"p8. en algún momento de los últimos 12 meses, ¿tuvo su hogar acceso a internet a",701,3,81.3365,True
+2012,IV,household_access,1,q12,"q12. en los últimos 12 meses, utilizó internet en el hogar?",2237,2,40.442,True
+2012,IV,household_access,1,q14,q14. ha utilizado internet en otros lugares distintos al hogar en los últimos 12,2237,2,40.442,True
+2012,IV,household_access,1,p7a_1,p7a.1 forma de acceso a internet,1993,5,46.9382,True
+2012,IV,household_access,1,p7b_1,p7b.1 empresas que brndan acceso a internet,1993,14,46.9382,True
+2012,IV,indigenous,1,p28,"p28. en chile, la ley reconoce nueve pueblos indígenas, pertenece ud. a alguno d",3756,7,0.0,True
+2012,IV,indigenous,1,p29,p29. ¿vive ud. actualmente en una comunidad indígena?,445,2,88.1523,True
+2012,IV,indigenous,1,q3,q3. ¿vive actualmente en comunidad indígena?,430,2,88.5517,True
+2012,IV,indigenous,1,p30,p30. ¿estaría de acuerdo a que en la comunidad indígena donde vive actualmente s,184,3,95.1012,True
+2012,IV,indigenous,1,q4,q4. ¿estaría de acuerdo a que en la comunidad indígena donde vive actualmente se,175,3,95.3408,True
+2012,IV,internet_use_frequency,2,q10,q10. señale con qué frecuencia ha utilizado el internet en los últimos 12 meses,3756,6,0.0,True
+2012,IV,internet_use_frequency,2,q13,"q13. señale con qué frecuencia ha utilizado el internet en el hogar, en los últi",1734,5,53.8339,True
+2012,IV,internet_use_frequency,1,q9,q9. señale cuándo fue su uso más reciente del internet,3756,4,0.0,True
+2012,IV,internet_use_frequency,1,q14,q14. ha utilizado internet en otros lugares distintos al hogar en los últimos 12,2237,2,40.442,True
+2012,IV,internet_use_frequency,1,p35_capa,p35. proveedor ofrece capacitación en línea para usar internet,1975,3,47.4175,True
+2012,IV,internet_use_frequency,1,p35_utilizar,p35. puede utilizar la conexión del internet fuera del hogar,1975,2,47.4175,True
+2012,IV,internet_use_frequency,1,p7f,p7f. ¿utilizan el smartphone como medio para conectar un computador a internet e,461,3,87.7263,True
+2012,IV,internet_use_frequency,1,q20,"q20. señale con qué frecuencia ha realizado compras por internet, para su uso pe",304,4,91.9063,True
+2012,IV,quality_satisfaction,1,q7,q7. señale cuándo fue su uso más reciente de un computador,3756,4,0.0,True
+2012,IV,quality_satisfaction,1,q9,q9. señale cuándo fue su uso más reciente del internet,3756,4,0.0,True
+2012,IV,quality_satisfaction,1,q10,q10. señale con qué frecuencia ha utilizado el internet en los últimos 12 meses,3756,6,0.0,True
+2012,IV,quality_satisfaction,1,q18_7,q18. señale las actividades para las cuáles usted ha utilizado en forma particul,3756,2,0.0,True
+2012,IV,quality_satisfaction,1,q18_13,q18. señale las actividades para las cuáles usted ha utilizado en forma particul,3756,2,0.0,True
+2012,IV,quality_satisfaction,1,q18_14,q18. señale las actividades para las cuáles usted ha utilizado en forma particul,3756,2,0.0,True
+2012,IV,quality_satisfaction,1,q18_23,q18. señale las actividades para las cuáles usted ha utilizado en forma particul,3756,2,0.0,True
+2012,IV,quality_satisfaction,1,q18_26,q18. señale las actividades para las cuáles usted ha utilizado en forma particul,3756,2,0.0,True
+2011,III,demographic_employment,1,p26_4_ingreso_trabajo,,93,33,95.3731,False
+2011,III,demographic_employment,1,p26_5_ingreso_trabajo,,30,17,98.5075,False
+2011,III,demographic_employment,1,p26_6_ingreso_trabajo,,7,5,99.6517,False
+2011,III,demographic_employment,1,p26_7_ingreso_trabajo,,4,3,99.801,False
+2011,III,demographic_employment,1,p26_1_ingreso_trabajo,,1339,113,33.3831,False
+2011,III,demographic_employment,1,p26_2_ingreso_trabajo,,700,88,65.1741,False
+2011,III,demographic_employment,1,p26_3_ingreso_trabajo,,254,50,87.3632,False
+2011,III,demographic_employment,1,p26_10_ingreso_trabajo,,1,1,99.9502,False
+2011,III,demographic_income_gse,1,p26_4_ingreso_trabajo,,93,33,95.3731,False
+2011,III,demographic_income_gse,1,p26_5_ingreso_trabajo,,30,17,98.5075,False
+2011,III,demographic_income_gse,1,p26_6_ingreso_trabajo,,7,5,99.6517,False
+2011,III,demographic_income_gse,1,p26_7_ingreso_trabajo,,4,3,99.801,False
+2011,III,demographic_income_gse,1,p26_1_ingreso_trabajo,,1339,113,33.3831,False
+2011,III,demographic_income_gse,1,p26_2_ingreso_trabajo,,700,88,65.1741,False
+2011,III,demographic_income_gse,1,p26_3_ingreso_trabajo,,254,50,87.3632,False
+2011,III,demographic_income_gse,1,p26_10_ingreso_trabajo,,1,1,99.9502,False
+2011,III,digital_government,1,encuestador,,2010,280,0.0,False
+2011,III,geography_commune,1,g_comuna,,2010,71,0.0,False
+2011,III,geography_commune,1,c_comuna,,2010,71,0.0,False
+2011,III,geography_region,2,region,,2010,4,0.0,False
