@@ -129,6 +129,17 @@ LAYERS = [
         'license_note': 'Public official statistics; retain source attribution',
     },
     {
+        'layer_id': 'subtel_oti_fixed_speed_2026m01',
+        'path': 'data/oti_2026/regional_fixed_speed_2026_01.csv',
+        'source_family': 'SUBTEL / Organismo Técnico Independiente',
+        'reference_period': '2026-01',
+        'territorial_level': 'region',
+        'statistical_unit': 'OTI fixed Internet measurement aggregate',
+        'role': 'official regional fixed-speed benchmark kept separate from Ookla',
+        'canonical': 'yes',
+        'license_note': 'Public official publication; measurement system and universe differ from Ookla and household access statistics',
+    },
+    {
         'layer_id': 'subtel_mobile_network_2025m03',
         'path': 'data/mobile_coverage_2025/commune_mobile_network_points_2025_03.csv',
         'source_family': 'SUBTEL ArcGIS 4G/5G',
@@ -274,7 +285,6 @@ def main() -> None:
     for directory in MANIFEST_DIRS:
         if directory.exists():
             paths.update(p for p in directory.rglob('*') if p.is_file())
-    # Do not hash transient caches or the generated manifest/catalog themselves.
     paths = {
         p for p in paths
         if '__pycache__' not in p.parts
