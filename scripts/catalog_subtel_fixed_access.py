@@ -7,19 +7,25 @@ import requests
 OUT = Path('data/fixed_access_infrastructure/service_catalog.csv')
 FIELDS_OUT = Path('data/fixed_access_infrastructure/field_catalog.csv')
 
-# Public ArcGIS services discovered in the SUBTEL Licancabur server.
-# We deliberately keep the layer labelled RedAcceso until its contents are
-# inspected; the script does not assume that every record represents fibre.
+# RedAcceso services discovered by enumerating the public SUBTEL ArcGIS server.
+# FeatureServer is preferred over duplicate MapServer endpoints for querying.
+# Names such as HFC and FTTH are retained only where SUBTEL exposes them in the
+# service name; generic RedAcceso linework is not assumed to be fibre.
 SERVICES = [
-    ('CTR', 'RedAcceso', 'https://licancabur.subtel.gob.cl/server/rest/services/Of468_CTR_RedAcceso/MapServer'),
+    ('Claro', 'RedAcceso_HFC', 'https://licancabur.subtel.gob.cl/server/rest/services/Of468_Claro_RedAcceso_HFC/FeatureServer'),
     ('Claro', 'RedAcceso', 'https://licancabur.subtel.gob.cl/server/rest/services/Of468_Claro_RedAcceso/FeatureServer'),
+    ('CTR', 'RedAcceso', 'https://licancabur.subtel.gob.cl/server/rest/services/Of468_CTR_RedAcceso/FeatureServer'),
+    ('Entel', 'RedAcceso_distribucion', 'https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_distribucion/FeatureServer'),
     ('Entel', 'RedAcceso_primarias', 'https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_primarias/FeatureServer'),
+    ('Infraco', 'RedAcceso', 'https://licancabur.subtel.gob.cl/server/rest/services/Of468_Infraco_RedAcceso/FeatureServer'),
+    ('Mundo', 'RedAcceso', 'https://licancabur.subtel.gob.cl/server/rest/services/Of468_Mundo_RedAcceso/FeatureServer'),
+    ('VTR', 'RedAcceso_FTTH', 'https://licancabur.subtel.gob.cl/server/rest/services/Of468_VTR_RedAcceso_FTTH/FeatureServer'),
 ]
 
 
 def get_json(url: str, params: dict | None = None):
     try:
-        r = requests.get(url, params=params or {'f': 'pjson'}, timeout=60)
+        r = requests.get(url, params=params or {'f': 'pjson'}, timeout=90)
         r.raise_for_status()
         data = r.json()
         if isinstance(data, dict) and data.get('error'):
@@ -56,6 +62,15 @@ def main():
             continue
 
         layers = service.get('layers') or []
+        if not layers:
+            rows.append({
+                'label': label, 'role': role, 'service_url': service_url,
+                'status': 'no_layers', 'layer_id': '', 'layer_name': '',
+                'geometry_type': '', 'feature_count': '', 'capabilities': service.get('capabilities',''),
+                'description': (service.get('description') or '').replace('\n',' ').strip(),
+                'copyright_text': service.get('copyrightText',''),
+            })
+            continue
         for layer in layers:
             layer_id = int(layer['id'])
             meta, layer_status = get_json(f'{service_url}/{layer_id}')
@@ -87,9 +102,7 @@ def main():
                 })
 
     with OUT.open('w', encoding='utf-8', newline='') as fh:
-        writer = csv.DictWriter(fh, fieldnames=list(rows[0].keys()) if rows else [
-            'label','role','service_url','status','layer_id','layer_name','geometry_type','feature_count','capabilities','description','copyright_text'
-        ])
+        writer = csv.DictWriter(fh, fieldnames=list(rows[0].keys()))
         writer.writeheader(); writer.writerows(rows)
 
     with FIELDS_OUT.open('w', encoding='utf-8', newline='') as fh:
@@ -99,7 +112,7 @@ def main():
 
     print(f'catalog rows={len(rows)} fields={len(fields)}')
     for r in rows:
-        print(r['label'], r['layer_id'], r['layer_name'], r['geometry_type'], r['feature_count'])
+        print(r['label'], r['role'], r['status'], r['layer_id'], r['geometry_type'], r['feature_count'])
 
 
 if __name__ == '__main__':
