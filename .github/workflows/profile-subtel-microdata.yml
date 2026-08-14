@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/profile_subtel_microdata.py'
+      - 'scripts/build_subtel_weighted_profiles.py'
       - '.github/workflows/profile-subtel-microdata.yml'
 
 permissions:
@@ -14,7 +15,7 @@ permissions:
 jobs:
   profile:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -33,22 +34,29 @@ jobs:
         run: |
           python scripts/profile_subtel_microdata.py
 
-      - name: Show profile summary
+      - name: Build household and person weighted profiles
         run: |
+          python scripts/build_subtel_weighted_profiles.py
+
+      - name: Show profile summaries
+        run: |
+          echo '--- generic profile ---'
           cat data/subtel_microdata/profile_summary.json
+          echo '--- weighted profile ---'
+          cat data/subtel_weighted/summary.json
           echo '--- datasets ---'
-          cat data/subtel_microdata/dataset_manifest.csv
-          echo '--- processing errors ---'
-          cat data/subtel_microdata/processing_errors.csv || true
+          cat data/subtel_weighted/dataset_manifest.csv
+          echo '--- weighted processing errors ---'
+          cat data/subtel_weighted/processing_errors.csv || true
 
       - name: Commit aggregate outputs
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/subtel_microdata
+          git add data/subtel_microdata data/subtel_weighted
           if git diff --cached --quiet; then
             echo 'No changes to commit'
           else
-            git commit -m 'Build aggregate profiles from official SUBTEL survey bases'
+            git commit -m 'Build aggregate and weighted profiles from official SUBTEL survey bases'
             git push
           fi
