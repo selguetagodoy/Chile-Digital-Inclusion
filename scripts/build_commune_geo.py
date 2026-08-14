@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import csv
 import json
 from pathlib import Path
 
@@ -10,6 +11,8 @@ import requests
 
 ENDPOINT = "https://arcgiswebad.bcn.cl/arcgis/rest/services/Hosted/Capa_Factores/FeatureServer/0/query"
 OUT = Path("geo/chile_communes.geojson")
+CODES = Path("geo/commune_codes.csv")
+COVERAGE = Path("geo/geometry_coverage.csv")
 
 
 def main() -> None:
@@ -48,8 +51,8 @@ def main() -> None:
         })
 
     cleaned.sort(key=lambda f: f["properties"]["commune_code"])
-    codes = [f["properties"]["commune_code"] for f in cleaned]
-    if len(codes) != len(set(codes)):
+    geometry_codes = {f["properties"]["commune_code"] for f in cleaned}
+    if len(geometry_codes) != len(cleaned):
         raise RuntimeError("Duplicate commune codes in source layer")
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
@@ -57,7 +60,26 @@ def main() -> None:
         json.dumps({"type": "FeatureCollection", "features": cleaned}, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
+
+    with CODES.open(encoding="utf-8", newline="") as fh:
+        reference = list(csv.DictReader(fh))
+    reference_codes = {int(row["comuna"]) for row in reference}
+    with COVERAGE.open("w", encoding="utf-8", newline="") as fh:
+        writer = csv.DictWriter(fh, fieldnames=["commune_code", "commune", "region", "has_polygon"])
+        writer.writeheader()
+        for row in reference:
+            code = int(row["comuna"])
+            writer.writerow({
+                "commune_code": code,
+                "commune": row["comuna_nombre"],
+                "region": row["region_nombre"],
+                "has_polygon": "yes" if code in geometry_codes else "no",
+            })
+
+    missing = sorted(reference_codes - geometry_codes)
+    extra = sorted(geometry_codes - reference_codes)
     print(f"Wrote {len(cleaned)} commune features to {OUT}")
+    print(f"Reference codes: {len(reference_codes)}; missing polygons: {missing}; extra polygons: {extra}")
 
 
 if __name__ == "__main__":
