@@ -1,0 +1,35 @@
+name: Extract Mineduc Aulas Conectadas 2025 selection
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/extract_mineduc_aulas_2025.py'
+      - '.github/workflows/extract-mineduc-aulas-2025.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests pdfplumber
+      - run: python scripts/extract_mineduc_aulas_2025.py
+      - name: Commit audit outputs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/education_connectivity_2026/aulas_conectadas_2025_rex775_*.csv
+          if git diff --cached --quiet; then
+            echo 'No Aulas extraction changes'
+          else
+            git commit -m 'Extract Aulas Conectadas 2025 RBD candidates'
+            git pull --rebase origin main
+            git push
+          fi
