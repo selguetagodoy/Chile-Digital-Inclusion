@@ -1,0 +1,54 @@
+name: Profile SUBTEL survey microdata
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/profile_subtel_microdata.py'
+      - '.github/workflows/profile-subtel-microdata.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  profile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy requests pyreadstat
+
+      - name: Download and profile official SUBTEL bases
+        run: |
+          python scripts/profile_subtel_microdata.py
+
+      - name: Show profile summary
+        run: |
+          cat data/subtel_microdata/profile_summary.json
+          echo '--- datasets ---'
+          cat data/subtel_microdata/dataset_manifest.csv
+          echo '--- processing errors ---'
+          cat data/subtel_microdata/processing_errors.csv || true
+
+      - name: Commit aggregate outputs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/subtel_microdata
+          if git diff --cached --quiet; then
+            echo 'No changes to commit'
+          else
+            git commit -m 'Build aggregate profiles from official SUBTEL survey bases'
+            git push
+          fi
