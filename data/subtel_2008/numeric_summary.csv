@@ -1,0 +1,19 @@
+dataset_id,variable,variable_label,n_unweighted,mean,median,min,max
+2008_I_base_completa_270409,segmento,ID Segmento (conglomerado),6420,729187.69486,810106.0,210101.0,1360202.0
+2008_I_base_completa_270409,d37am,¿Cuánto paga por ese paquete? (En pesos),2433,35205.260173,35000.0,999.0,100000.0
+2008_I_base_completa_270409,d39b,¿¿Cuánto pagó o debería haber pagado el mes pasado por el servicio de TV Cable?,1379,16165.482959,15000.0,999.0,40000.0
+2008_I_base_completa_270409,d39c,¿Cuánto pagó o debería haber pagado el mes pasado  por el servicio de Teléfono Fijo?,1466,11719.748977,8000.0,999.0,90000.0
+2008_I_base_completa_270409,d39d,¿Cuánto pagó o debería haber pagado el mes pasado por el servicio de Celular?,3464,9186.807737,5000.0,999.0,100000.0
+2008_I_base_completa_270409,e43a,¿Cuánto es lo máximo que estaría dispuesto a pagar por el servicio descrito?,6419,6248.71226,3000.0,0.0,45000.0
+2008_I_base_completa_270409,e44,Si su disposición máxima a pagar por Internet Banda Ancha sin restricciones era de $ (Monto P.43) ¿Cuánto es lo máximo que estaría dispuesto a pagar por el servicio con restricción?,6420,4022.260748,999.0,0.0,40000.0
+2008_I_base_completa_270409,e45,Si su disposición máxima a pagar por Internet Banda Ancha de 1Mbps de velocidad era de $ (Monto P43) ¿Cuánto es lo máximo que estaría dispuesto a pagar por este tipo de Internet Banda Ancha?,6420,8847.838318,8000.0,0.0,50000.0
+2008_I_base_completa_270409,j103_1,Ingresos del trabajo del primer perceptor,6420,263087.621028,159000.0,0.0,9999999.0
+2008_I_base_completa_270409,j103_2,Ingresos del trabajo del segundo perceptor,6420,51069.148287,999.0,0.0,1500000.0
+2008_I_base_completa_270409,j103_4,Jubilaciones,6420,15294.306542,0.0,0.0,999990.0
+2008_I_base_completa_270409,j103_7,Aportes familiares,6420,11342.452181,0.0,0.0,1050000.0
+2008_I_base_completa_270409,j104bm,"En total, ¿cuánto recibió el mes pasado por ese/esos Subsidio/s Familiar/es?",500,21153.898,11000.0,999.0,200000.0
+2008_I_base_completa_270409,j104fm,"En total, ¿cuánto recibió el mes pasado por ese Subsidio de Agua Potable?",1071,5514.035481,5000.0,999.0,20000.0
+2008_I_base_completa_270409,id4,Edad,6420,33.499844,30.0,0.0,99.0
+2008_I_base_completa_270409,recno_0,ID_Registro (Uso interno OSUAH),6420,3210.814486,3210.5,1.0,6423.0
+2008_I_base_completa_270409,FACT_HOG,Factor de Expansión Total Personas del Hogar,6420,1511.16793,743.215,109.655,17577.847
+2008_I_base_completa_270409,FACT_IND,Factor de Expansión Individual (Una persona seleccionada por hogar),1550,3304.207339,1486.43,109.655,36927.807
