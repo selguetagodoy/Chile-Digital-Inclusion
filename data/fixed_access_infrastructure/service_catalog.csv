@@ -1,4 +1,9 @@
 label,role,service_url,status,layer_id,layer_name,geometry_type,feature_count,capabilities,description,copyright_text
-CTR,RedAcceso,https://licancabur.subtel.gob.cl/server/rest/services/Of468_CTR_RedAcceso/MapServer,arcgis_error_499,,,,,,,
+Claro,RedAcceso_HFC,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Claro_RedAcceso_HFC/FeatureServer,ok,0,Of468_Claro_RedAcceso_HFC,esriGeometryPolyline,23806,"Query,Create,Update,Delete,Uploads,Editing",,
 Claro,RedAcceso,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Claro_RedAcceso/FeatureServer,ok,0,Of468_Claro_RedAcceso,esriGeometryPolyline,76217,"Query,Create,Update,Delete,Uploads,Editing",,
+CTR,RedAcceso,https://licancabur.subtel.gob.cl/server/rest/services/Of468_CTR_RedAcceso/FeatureServer,arcgis_error_499,,,,,,,
+Entel,RedAcceso_distribucion,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_distribucion/FeatureServer,ok,0,Of468_Entel_RedAcceso_distribucion,esriGeometryPolyline,53654,"Query,Create,Update,Delete,Uploads,Editing",,
 Entel,RedAcceso_primarias,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_primarias/FeatureServer,ok,0,Of468_Entel_RedAcceso_primarias,esriGeometryPolyline,9626,"Query,Create,Update,Delete,Uploads,Editing",,
+Infraco,RedAcceso,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Infraco_RedAcceso/FeatureServer,ok,0,Of468_Infraco_RedAcceso,esriGeometryPolyline,311419,"Query,Create,Update,Delete,Uploads,Editing",,
+Mundo,RedAcceso,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Mundo_RedAcceso/FeatureServer,arcgis_error_499,,,,,,,
+VTR,RedAcceso_FTTH,https://licancabur.subtel.gob.cl/server/rest/services/Of468_VTR_RedAcceso_FTTH/FeatureServer,ok,0,Of468_VTR_RedAcceso_FTTH,esriGeometryPolyline,32337,"Query,Create,Update,Delete,Uploads,Editing",,
