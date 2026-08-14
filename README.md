@@ -6,7 +6,7 @@ El proyecto no trata acceso a Internet como sinónimo de inclusión digital. Man
 
 ## Cobertura actual
 
-La versión pública contiene **30 archivos CSV**, documentación metodológica y un script reproducible para revisar la cobertura de datos.
+La versión pública contiene **35 archivos CSV**, documentación metodológica y scripts reproducibles para revisar cobertura y actualizar la capa Ookla.
 
 ### Censo 2024 y Atlas público
 
@@ -60,9 +60,20 @@ Para 2025, 96,6% de los hogares declara acceso propio y pagado a Internet fijo o
 
 También se incorporan series sectoriales SUBTEL de conexiones fijas y distribución por tramos de velocidad contratada. En septiembre de 2025 el stock alcanza 4.774.200 conexiones fijas y 63,77% se ubica sobre 100 Mbps y hasta 1 Gbps.
 
-### Calidad observada
+### Calidad observada — Ookla Q1 2026
 
-La capa Ookla se mantiene separada de las encuestas de acceso. Para Q4 2025, la red fija registra 391,9 Mbps de descarga, 332,6 Mbps de carga y 8,9 ms de latencia. La red móvil registra 105,5 Mbps, 23,2 Mbps y 30,9 ms.
+El repositorio ya incorpora **Q1 2026 de Chile** desde los Parquet oficiales de Ookla Open Data. El pipeline filtra los tiles globales por centroide dentro del límite nacional y calcula los indicadores nacionales ponderando los promedios de cada tile por su número de tests.
+
+| Red | Q4 2025 descarga | Q1 2026 descarga | Δ trimestral | Q1 carga | Q1 latencia |
+|---|---:|---:|---:|---:|---:|
+| Fija | 392,10 Mbps | 397,33 Mbps | +1,33% | 336,12 Mbps | 8,96 ms |
+| Móvil | 105,66 Mbps | 98,87 Mbps | -6,43% | 21,43 Mbps | 33,71 ms |
+
+La red fija mejora levemente en descarga y carga. En móvil, Q1 2026 muestra una caída de 6,43% en descarga y 7,57% en carga respecto de Q4 2025, junto con un aumento de 10,04% en latencia.
+
+Q1 2026 contiene 29.232 tiles fijos con 517.216 tests y 22.938 tiles móviles con 125.101 tests después del recorte espacial de Chile.
+
+La capa conserva además los tiles filtrados para permitir agregaciones regionales y comunales posteriores sin volver a descargar el parquet global.
 
 ## Estructura del repositorio
 
@@ -70,42 +81,32 @@ La capa Ookla se mantiene separada de las encuestas de acceso. Para Q4 2025, la 
 Chile-Digital-Inclusion/
 ├── README.md
 ├── data/
-│   ├── atlas_devices_mobile_snapshot.csv
-│   ├── atlas_urban_volume_cases.csv
-│   ├── casen_age_national_2024.csv
-│   ├── casen_age_region_connectivity_2024.csv
-│   ├── casen_commune_connectivity_rankings_2024.csv
-│   ├── casen_commune_rankings_2024.csv
-│   ├── casen_connectivity_by_income_quintile_2024.csv
-│   ├── casen_connectivity_by_poverty_2024.csv
-│   ├── casen_internet_use_by_sex_2024.csv
-│   ├── casen_macrozones_2024.csv
-│   ├── casen_national_2024.csv
-│   ├── casen_poverty_fixed_gap_top30_2024.csv
-│   ├── casen_region_rankings_2024.csv
-│   ├── casen_rm_connectivity_2024.csv
-│   ├── censo_atlas_regional_households_2024.csv
-│   ├── national_snapshot_2026.csv
-│   ├── network_quality_national_2025q4.csv
-│   ├── reasons_no_fixed_internet_2024.csv
-│   ├── source_registry.csv
-│   ├── subtel_2025_access_modes.csv
-│   ├── subtel_2025_devices_total.csv
-│   ├── subtel_2025_digital_skills_basic.csv
-│   ├── subtel_2025_digital_skills_intermediate.csv
-│   ├── subtel_2025_learning_employment_by_age.csv
-│   ├── subtel_2025_older_adults_summary.csv
-│   ├── subtel_2025_state_interaction_by_sex.csv
-│   ├── subtel_2025_telework_by_age.csv
-│   ├── subtel_fixed_connections_series_2024_2025.csv
-│   ├── subtel_fixed_speed_tiers_2025_09.csv
-│   └── subtel_survey_catalog.csv
+│   ├── [30 CSV Censo, CASEN, SUBTEL y Atlas]
+│   └── ookla/
+│       ├── chile_2025q4_control_summary.csv
+│       ├── chile_2025q4_vs_2026q1.csv
+│       ├── chile_2026q1_fixed_tiles.csv
+│       ├── chile_2026q1_mobile_tiles.csv
+│       └── chile_2026q1_summary.csv
 ├── docs/
 │   ├── data_dictionary.md
 │   ├── key_findings.md
-│   └── methodology.md
-└── scripts/
-    └── build_summary.py
+│   ├── methodology.md
+│   ├── ookla_open_data.md
+│   └── sources.md
+├── scripts/
+│   ├── build_summary.py
+│   └── build_ookla_chile_quarter.py
+└── .github/workflows/
+    └── build-ookla-chile-q1-2026.yml
+```
+
+## Reproducibilidad
+
+El pipeline de Ookla se ejecuta con GitHub Actions y deja los resultados derivados en `data/ookla/`. Para reproducir otro trimestre:
+
+```bash
+python scripts/build_ookla_chile_quarter.py --year 2026 --quarter 1 --compare-year 2025 --compare-quarter 4
 ```
 
 ## Cómo leer los datos
@@ -113,6 +114,8 @@ Chile-Digital-Inclusion/
 No deben compararse directamente universos distintos. Censo y las capas Atlas trabajan principalmente con hogares. CASEN utiliza personas ponderadas. SUBTEL utiliza hogares para acceso y personas de 16 años o más para sus módulos de uso. Ookla describe desempeño observado de red.
 
 Las estimaciones comunales derivadas de encuestas deben interpretarse con cautela y junto al `N_ponderado` disponible. Para volumen e intensidad de desconexión comunal, la fuente estructural preferente es Censo 2024.
+
+Ookla no mide acceso universal. Los tiles representan desempeño donde existieron tests y por eso complementan, pero no reemplazan, las fuentes estructurales.
 
 ## Fuentes principales
 
@@ -125,6 +128,8 @@ Las estimaciones comunales derivadas de encuestas deben interpretarse con cautel
 ## Frontera de publicación
 
 La versión pública contiene datos agregados y trazables. No incorpora registros personales, identificadores directos, ponderadores internos, microdatos privados ni el Índice de Vulnerabilidad Digital completo.
+
+Los datos derivados de Ookla en `data/ookla/` se mantienen bajo los términos CC BY-NC-SA 4.0 de la fuente y no bajo una eventual licencia de código del repositorio.
 
 ## Autor
 
