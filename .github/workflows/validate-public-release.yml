@@ -8,15 +8,25 @@ on:
       - 'assets/**'
       - 'data/communal_master/**'
       - 'data/mobile_coverage_2025/**'
+      - 'data/fixed_access_infrastructure/**'
+      - 'data/education_connectivity_2026/**'
       - 'data/subtel_sector_2026/**'
       - 'data/ookla/**'
+      - 'data/metadata/layer_catalog.csv'
+      - 'data/metadata/release_manifest.csv'
       - 'geo/**'
+      - 'docs/reproducibility.md'
       - 'scripts/validate_public_release.py'
+      - 'scripts/validate_release_metadata.py'
       - '.github/workflows/validate-public-release.yml'
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: public-release-validation
+  cancel-in-progress: true
 
 jobs:
   validate:
@@ -35,6 +45,9 @@ jobs:
 
       - name: Validate public data contract
         run: python scripts/validate_public_release.py
+
+      - name: Validate release metadata contract
+        run: python scripts/validate_release_metadata.py
 
       - name: Commit validation report
         run: |
