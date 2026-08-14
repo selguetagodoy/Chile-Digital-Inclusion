@@ -1,0 +1,35 @@
+name: Profile SUBTEL fixed access attributes
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/profile_subtel_fixed_access_attributes.py'
+      - '.github/workflows/profile-subtel-fixed-access.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  profile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+      - run: python scripts/profile_subtel_fixed_access_attributes.py
+      - name: Commit profile
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/fixed_access_infrastructure/attribute_profile.csv
+          if git diff --cached --quiet; then
+            echo 'No profile changes'
+          else
+            git commit -m 'Profile SUBTEL fixed-access network attributes'
+            git pull --rebase origin main
+            git push
+          fi
