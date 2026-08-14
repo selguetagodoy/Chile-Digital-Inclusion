@@ -11,6 +11,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: main-writers
+  cancel-in-progress: false
+
 jobs:
   patch:
     runs-on: ubuntu-latest
