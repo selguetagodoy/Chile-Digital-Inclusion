@@ -1,0 +1,15 @@
+check,status,value,detail
+sheet_present,pass,7.11.CO_FIJAS_COMUNA,Official March-2026 fixed Internet workbook sheet used for commune-level totals.
+march_2026_column,pass,204,Column located dynamically from year/month headers (2026-03).
+formula_rows_in_target_column,info,17,Subtotal/total formulas found in the March-2026 column.
+formula_rows_with_commune_label,source_warning,10,Formula subtotal/total rows carrying commune labels indicate row-label/value misalignment in the official workbook; do not treat these rows as commune observations.
+source_row_194,source_warning,465280,region_label=<blank>; commune_label=Portezuelo; formula==SUM(GV161:GV193)
+source_row_227,source_warning,221851,region_label=<blank>; commune_label=Lautaro; formula==SUM(GV195:GV226)
+source_row_259,source_warning,188991,region_label=<blank>; commune_label=Futaleufú; formula==SUM(GV228:GV258)
+source_row_271,source_warning,25661,region_label=<blank>; commune_label=Puyehue; formula==SUM(GV260:GV270)
+source_row_283,source_warning,56671,region_label=<blank>; commune_label=Cisnes; formula==SUM(GV272:GV282)
+source_row_337,source_warning,2080448,region_label=<blank>; commune_label=Peñaflor; formula==SUM(GV284:GV336)
+source_row_350,source_warning,86483,region_label=<blank>; commune_label=San Miguel; formula==SUM(GV338:GV349)
+source_row_355,source_warning,60235,region_label=<blank>; commune_label=Til Til; formula==SUM(GV351:GV354)
+source_row_377,source_warning,100615,region_label=16; commune_label=Bulnes; formula==SUM(GV356:GV376)
+source_row_378,source_warning,4859679,region_label=<blank>; commune_label=Chillán; formula==+GV18+GV28+GV39+GV56+GV95+GV129+GV160+GV194+GV227+GV259+GV271+GV283+GV337+GV350+GV355+GV377
