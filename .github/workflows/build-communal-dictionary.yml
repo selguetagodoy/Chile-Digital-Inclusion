@@ -42,5 +42,6 @@ jobs:
             echo 'No dictionary changes to commit'
           else
             git commit -m 'Document integrated communal master variables'
+            git pull --rebase origin main
             git push
           fi
