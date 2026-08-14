@@ -57,6 +57,7 @@ def ensure_rebase(lines:list[str])->list[str]:
 
 
 def main():
+    # This is intentionally deterministic so a repeated maintenance run is a no-op.
     changed=[]
     writers=0
     for path in sorted(WF_DIR.glob('*.y*ml')):
