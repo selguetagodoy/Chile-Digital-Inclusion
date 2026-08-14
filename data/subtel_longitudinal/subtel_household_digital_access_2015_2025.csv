@@ -1,0 +1,7 @@
+reference_year,survey_wave,household_paid_access_pct,no_access_pct,fixed_only_pct,mobile_only_pct,fixed_plus_mobile_pct,unspecified_mode_pct,total_fixed_pct,urban_access_pct,rural_access_pct,only_older_households_access_pct,comparability_note
+2015,VII,70.2,29.8,17.7,19.7,31.1,1.7,48.8,74.0,56.0,,National and access-mode values use SUBTEL's later harmonized series; urban/rural values are retrospective rounded values reported in the VIII survey.
+2016,VIII,79.3,20.7,30.1,25.5,22.8,1.0,52.9,81.3,66.4,,Access-mode components sum to 79.4 because of published rounding; headline access is 79.3.
+2017,IX,87.4,12.6,27.2,29.6,28.9,1.7,56.1,89.1,76.7,54.6,Access-mode labels follow the harmonized historical chart used by SUBTEL in later survey presentations.
+2023,X,94.3,5.7,54.6,21.5,16.7,1.5,71.3,95.0,89.5,70.5,Fieldwork 2023; same household access concept as the harmonized series.
+2024,XI,96.5,3.5,55.6,26.9,12.8,1.3,68.4,96.8,94.5,82.9,Published 2025; wording of some use questions changed relative to 2023 but household access remains comparable.
+2025,XII,96.6,3.4,66.8,21.8,7.8,0.2,74.6,96.8,95.1,83.2,Fieldwork June-September 2025; published 2026.
