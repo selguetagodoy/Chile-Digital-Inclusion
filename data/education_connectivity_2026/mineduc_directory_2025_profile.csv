@@ -1,0 +1,4 @@
+archive_bytes,extractor,file_name,suffix,file_bytes,rows,columns,sheet,encoding,source_url
+935590,unar,20250926_Directorio_Oficial_EE_2025_20250430_WEB.csv,.csv,3778137,16769,58,,utf-8-sig,https://datosabiertos.mineduc.cl/wp-content/uploads/2025/11/Directorio-Oficial-EE-2025.rar
+935590,unar,ER_Directorio_Oficial_EE_WEB.pdf,.pdf,467962,,,,,https://datosabiertos.mineduc.cl/wp-content/uploads/2025/11/Directorio-Oficial-EE-2025.rar
+935590,unar,Frecuencias_Directorio_Oficial_EE_2025.xlsx,.xlsx,79345,200,17,Tabulación,,https://datosabiertos.mineduc.cl/wp-content/uploads/2025/11/Directorio-Oficial-EE-2025.rar
