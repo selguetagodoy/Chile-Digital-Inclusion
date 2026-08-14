@@ -22,7 +22,7 @@ La fuente es Censo 2024 y la capa pública integrada utilizada por el Atlas de l
 
 `data/communal_master/chile_digital_inclusion_communes_2026.csv` es la base estructural de 346 comunas y 38 campos públicos.
 
-`data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv` agrega desempeño Ookla fijo y móvil Q1 2026, variaciones Q4 2025 → Q1 2026, registros públicos SUBTEL 4G/5G de marzo de 2025, presencia de capas públicas RedAcceso y Aulas Conectadas 2025 territorializado por RBD. Conserva las **346 comunas y contiene 84 variables**.
+`data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv` agrega desempeño Ookla fijo y móvil Q1 2026, variaciones Q4 2025 → Q1 2026, registros públicos SUBTEL 4G/5G de marzo de 2025, presencia de capas públicas RedAcceso, Aulas Conectadas 2025 territorializado por RBD y conexiones fijas administrativas SUBTEL a marzo de 2026. Conserva las **346 comunas y contiene 89 variables**.
 
 La versión pública excluye deliberadamente índices internos, scores, segmentaciones y ponderadores propietarios. El archivo es una base observable para mapas, rankings descriptivos y análisis reproducible; no es el Índice de Vulnerabilidad Digital.
 
@@ -101,6 +101,16 @@ Productos principales:
 - `spatial_assignment_coverage.csv` — control de asignación espacial
 
 La metodología está en `docs/subtel_mobile_network_points_2025.md`.
+
+### Conexiones fijas por comuna — SUBTEL marzo 2026
+
+`data/fixed_infrastructure_2026/` extrae directamente del workbook administrativo oficial las hojas `7.11.CO_FIJAS_COMUNA` y `7.11.1.CO_FIJAS_RES_COMUNA` para marzo de 2026.
+
+La fuente reporta **342 de las 346 comunas** del catálogo territorial. Frutillar, Queilén, Purranque y Pedro Aguirre Cerda no aparecen reportadas en esas hojas para el corte utilizado y se mantienen como faltantes; no se imputan como cero. El control de nombres fuente no deja filas comunales sin resolver.
+
+El maestro integrado incorpora conexiones fijas totales, conexiones residenciales, participación residencial y una razón de conexiones residenciales por 100 hogares del Censo 2024. Esta última es una intensidad administrativa descriptiva y **no debe interpretarse como porcentaje de cobertura de hogares**.
+
+La trazabilidad está en `data/fixed_infrastructure_2026/extraction_manifest.csv` y la metodología en `data/fixed_infrastructure_2026/README.md`.
 
 ### Infraestructura fija pública — SUBTEL RedAcceso
 
