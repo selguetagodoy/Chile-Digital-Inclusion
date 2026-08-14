@@ -11,6 +11,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: main-writers
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -32,5 +36,6 @@ jobs:
             echo 'No geography changes to commit'
           else
             git commit -m 'Update communal GeoJSON and geometry coverage'
+            git pull --rebase origin main
             git push
           fi
