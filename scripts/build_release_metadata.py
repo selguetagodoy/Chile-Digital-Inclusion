@@ -129,6 +129,17 @@ LAYERS = [
         'license_note': 'Public official statistics; retain source attribution',
     },
     {
+        'layer_id': 'subtel_sector_longitudinal_2026m03',
+        'path': 'data/subtel_sector_series/sector_core_monthly_long.csv',
+        'source_family': 'SUBTEL administrative Internet series',
+        'reference_period': 'effective workbook ranges through 2026-03',
+        'territorial_level': 'national monthly',
+        'statistical_unit': 'connection / traffic aggregate',
+        'role': 'canonical longitudinal fixed/mobile connection and traffic series',
+        'canonical': 'yes',
+        'license_note': 'Public official XLSX sources; provenance discrepancies are retained rather than force-reconciled',
+    },
+    {
         'layer_id': 'subtel_oti_fixed_speed_2026m01',
         'path': 'data/oti_2026/regional_fixed_speed_2026_01.csv',
         'source_family': 'SUBTEL / Organismo Técnico Independiente',
