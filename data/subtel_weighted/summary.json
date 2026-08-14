@@ -1,0 +1,9 @@
+{
+  "datasets_processed": 10,
+  "categorical_rows": 6812,
+  "numeric_rows": 175,
+  "processing_errors": 1,
+  "raw_microdata_committed": false,
+  "cell_suppression": "unweighted n < 30",
+  "note": "Both household and person weights are published where available; use the weight matching the questionnaire universe."
+}

@@ -1,0 +1,2 @@
+reference_year,survey_wave,sav_file,error
+2011,III,BasePersonasFinal_Expandida_v2.sav,ReadstatError('Unable to convert string to the requested encoding (invalid byte sequence)')
