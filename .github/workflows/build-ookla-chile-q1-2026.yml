@@ -1,0 +1,54 @@
+name: Build Ookla Chile Q1 2026
+
+on:
+  push:
+    paths:
+      - '.github/workflows/build-ookla-chile-q1-2026.yml'
+      - 'scripts/build_ookla_chile_quarter.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install duckdb fiona numpy pyarrow requests shapely
+
+      - name: Build Chile Q1 2026 and Q4 2025 control
+        run: |
+          python scripts/build_ookla_chile_quarter.py \
+            --year 2026 --quarter 1 \
+            --compare-year 2025 --compare-quarter 4
+
+      - name: Show generated summaries
+        run: |
+          cat data/ookla/chile_2026q1_summary.csv
+          echo
+          cat data/ookla/chile_2025q4_vs_2026q1.csv
+          du -h data/ookla/*
+
+      - name: Commit derived Chile data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/ookla
+          if git diff --cached --quiet; then
+            echo 'No changes to commit'
+          else
+            git commit -m 'Add Ookla Chile Q1 2026 derived data'
+            git push
+          fi
