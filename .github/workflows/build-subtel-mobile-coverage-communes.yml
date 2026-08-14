@@ -1,0 +1,47 @@
+name: Build SUBTEL mobile network points by commune
+
+on:
+  push:
+    paths:
+      - 'scripts/build_subtel_mobile_coverage_communes.py'
+      - 'data/mobile_coverage_2025/service_catalog.csv'
+      - 'geo/chile_communes.geojson'
+      - 'geo/commune_codes.csv'
+      - '.github/workflows/build-subtel-mobile-coverage-communes.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests shapely
+
+      - name: Build commune aggregates
+        run: python scripts/build_subtel_mobile_coverage_communes.py
+
+      - name: Commit aggregate outputs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/mobile_coverage_2025/commune_operator_technology_points_2025_03.csv \
+                  data/mobile_coverage_2025/commune_mobile_network_points_2025_03.csv \
+                  data/mobile_coverage_2025/spatial_assignment_coverage.csv
+          if git diff --cached --quiet; then
+            echo 'No mobile coverage changes to commit'
+          else
+            git commit -m 'Aggregate SUBTEL 4G and 5G network points by commune'
+            git pull --rebase origin main
+            git push
+          fi
