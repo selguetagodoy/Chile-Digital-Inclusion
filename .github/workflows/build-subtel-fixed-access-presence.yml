@@ -1,0 +1,39 @@
+name: Build SUBTEL fixed access presence by commune
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_subtel_fixed_access_presence.py'
+      - 'data/fixed_access_infrastructure/service_catalog.csv'
+      - 'geo/chile_communes.geojson'
+      - 'geo/commune_codes.csv'
+      - '.github/workflows/build-subtel-fixed-access-presence.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+      - name: Query RedAcceso presence by commune
+        run: python scripts/build_subtel_fixed_access_presence.py
+      - name: Commit presence outputs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/fixed_access_infrastructure/commune_fixed_access_presence.csv data/fixed_access_infrastructure/presence_query_qa.csv
+          if git diff --cached --quiet; then
+            echo 'No RedAcceso presence changes'
+          else
+            git commit -m 'Build communal RedAcceso presence layer'
+            git pull --rebase origin main
+            git push
+          fi
