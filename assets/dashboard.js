@@ -1,6 +1,7 @@
 const MASTER_INTEGRATED = 'data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv';
 const MASTER_BASE = 'data/communal_master/chile_digital_inclusion_communes_2026.csv';
 const GEO_URL = 'geo/chile_communes.geojson';
+const SECTOR_URL = 'data/subtel_sector_2026/sector_snapshot_2026q1.csv';
 
 const indicators = {
   hogares_sin_internet_pct: { label: 'Hogares sin Internet', unit: '%', digits: 1, higherConcern: true },
@@ -23,6 +24,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 let master = [];
+let sector = [];
 let byCode = new Map();
 let geoLayer;
 let selectedIndicator = 'hogares_sin_internet_pct';
@@ -52,6 +54,12 @@ function formatInt(value) {
   return Math.round(Number(value)).toLocaleString('es-CL');
 }
 
+function formatCompact(value) {
+  const x = n(value);
+  if (x === null) return 'N/D';
+  return new Intl.NumberFormat('es-CL', { notation: 'compact', maximumFractionDigits: 2 }).format(x);
+}
+
 async function loadMaster() {
   try {
     const rows = await d3.csv(MASTER_INTEGRATED);
@@ -59,9 +67,23 @@ async function loadMaster() {
     return rows;
   } catch (err) {
     const rows = await d3.csv(MASTER_BASE);
-    document.getElementById('data-status').textContent = 'Maestro base · la capa Ookla territorial se está construyendo';
+    document.getElementById('data-status').textContent = 'Maestro base · la capa Ookla territorial no está disponible';
     return rows;
   }
+}
+
+async function loadSector() {
+  try {
+    return await d3.csv(SECTOR_URL);
+  } catch (err) {
+    console.warn('No se pudo cargar el snapshot sectorial SUBTEL', err);
+    return [];
+  }
+}
+
+function sectorValue(indicator) {
+  const row = sector.find(d => d.indicator === indicator);
+  return row ? n(row.value) : null;
 }
 
 function updateKPIs() {
@@ -75,6 +97,13 @@ function updateKPIs() {
   document.getElementById('kpi-disconnected').textContent = `${formatInt(disconnected)} · ${formatValue(pct(disconnected, validInternet), { digits: 1, unit: '%' })}`;
   document.getElementById('kpi-fixed').textContent = formatValue(pct(fixed, households), { digits: 1, unit: '%' });
   document.getElementById('kpi-computer').textContent = formatValue(pct(computers, households), { digits: 1, unit: '%' });
+}
+
+function updateSectorKPIs() {
+  document.getElementById('kpi-sector-5g').textContent = formatCompact(sectorValue('accesses_5g'));
+  document.getElementById('kpi-sector-fiber').textContent = formatValue(sectorValue('fiber_share_fixed_connections'), { digits: 1, unit: '%' });
+  document.getElementById('kpi-sector-fixed-households').textContent = formatValue(sectorValue('fixed_household_penetration_national'), { digits: 1, unit: '%' });
+  document.getElementById('kpi-sector-rural-fixed').textContent = formatValue(sectorValue('fixed_household_penetration_rural'), { digits: 1, unit: '%' });
 }
 
 function indicatorValues() {
@@ -241,13 +270,15 @@ function setupSearch() {
 
 async function init() {
   try {
-    const [rows, geojson] = await Promise.all([loadMaster(), d3.json(GEO_URL)]);
+    const [rows, geojson, sectorRows] = await Promise.all([loadMaster(), d3.json(GEO_URL), loadSector()]);
     master = rows;
+    sector = sectorRows;
     byCode = new Map(master.map(d => [Number(d.comuna), d]));
     window.__geojson = geojson;
     populateIndicatorSelect();
     setupSearch();
     updateKPIs();
+    updateSectorKPIs();
     renderMap(geojson);
     renderRanking();
     const first = master.find(d => d.comuna_nombre === 'Santiago') || master[0];
