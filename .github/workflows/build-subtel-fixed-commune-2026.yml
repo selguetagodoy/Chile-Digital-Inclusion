@@ -20,13 +20,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install requests openpyxl
-      - run: python scripts/build_subtel_fixed_commune_2026.py
+      - name: Build commune fixed-connection layer
+        run: python scripts/build_subtel_fixed_commune_2026.py
       - name: Commit communal fixed connection layer
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/subtel_sector_series/fixed_connections_by_commune_2026_03.csv data/subtel_sector_series/fixed_connections_by_commune_operator_2026_03.csv data/subtel_sector_series/fixed_connections_by_commune_2026_03_qa.csv
+          git add data/fixed_infrastructure_2026/
           if git diff --cached --quiet; then
             echo 'No communal fixed-connection changes'
           else
