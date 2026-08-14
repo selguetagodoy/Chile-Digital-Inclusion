@@ -1,0 +1,66 @@
+name: Build Ookla territorial layers
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_ookla_territorial.py'
+      - 'scripts/build_ookla_chile_quarter.py'
+      - 'geo/chile_communes.geojson'
+      - 'data/communal_master/chile_digital_inclusion_communes_2026.csv'
+      - 'data/ookla/chile_2026q1_fixed_tiles.csv'
+      - 'data/ookla/chile_2026q1_mobile_tiles.csv'
+      - '.github/workflows/build-ookla-territorial.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: |
+          pip install pandas geopandas pyogrio shapely duckdb pyarrow fiona requests numpy
+      - name: Rebuild Q4 2025 control tiles outside repository
+        run: |
+          mkdir -p /tmp/ookla-q4
+          python scripts/build_ookla_chile_quarter.py \
+            --year 2025 --quarter 4 \
+            --output-dir /tmp/ookla-q4
+      - name: Aggregate Q1 2026 and Q4 2025 to communes and regions
+        run: |
+          python scripts/build_ookla_territorial.py \
+            --current-fixed data/ookla/chile_2026q1_fixed_tiles.csv \
+            --current-mobile data/ookla/chile_2026q1_mobile_tiles.csv \
+            --control-fixed /tmp/ookla-q4/chile_2025q4_fixed_tiles.csv \
+            --control-mobile /tmp/ookla-q4/chile_2025q4_mobile_tiles.csv
+      - name: Validate outputs
+        run: |
+          python - <<'PY'
+          import pandas as pd
+          master = pd.read_csv('data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv')
+          comm = pd.read_csv('data/ookla/territorial/chile_2026q1_communes.csv')
+          reg = pd.read_csv('data/ookla/territorial/chile_2026q1_regions.csv')
+          assert len(master) == 346, len(master)
+          assert set(comm['network']) == {'fixed', 'mobile'}
+          assert set(reg['network']) == {'fixed', 'mobile'}
+          assert master['comuna'].nunique() == 346
+          print('master', master.shape, 'communal Ookla', comm.shape, 'regional Ookla', reg.shape)
+          PY
+      - name: Commit generated territorial layers
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/ookla/territorial data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv
+          if git diff --cached --quiet; then
+            echo 'No territorial changes to commit'
+          else
+            git commit -m 'Add Ookla Q1 2026 communal and regional layers'
+            git push
+          fi
