@@ -3,8 +3,8 @@ from __future__ import annotations
 import csv
 import io
 import re
-from collections import defaultdict
 from pathlib import Path
+
 import openpyxl
 import requests
 
@@ -14,23 +14,27 @@ REGIONAL_OUT=Path('data/subtel_sector_series/latest_fixed_technology_regional_au
 
 
 def val(v):
-    if v is None: return ''
-    return re.sub(r'\s+',' ',str(v)).strip()
+    if v is None:
+        return ''
+    return re.sub(r'\s+', ' ', str(v)).strip()
 
 
-def number(v):
-    try: return float(v)
-    except (TypeError,ValueError): return None
-
-
-def normalize(s):
-    return val(s).lower().replace('ó','o').replace('í','i').replace('á','a').replace('é','e').replace('ú','u')
+def integer(v):
+    if v in (None, '', '---'):
+        return None
+    try:
+        return int(round(float(v)))
+    except (TypeError, ValueError):
+        return None
 
 
 def main():
-    r=requests.get(URL,timeout=180); r.raise_for_status()
+    r=requests.get(URL,timeout=180)
+    r.raise_for_status()
     wb=openpyxl.load_workbook(io.BytesIO(r.content),read_only=True,data_only=True)
 
+    # Keep a compact audit of the legacy national sheet. Its recent taxonomy is
+    # not treated as a homogeneous longitudinal technology series.
     ws=wb['7.7.CO_TEC_FIJAS']
     rows=[]
     for row_no,row in enumerate(ws.iter_rows(min_row=1,max_row=ws.max_row,max_col=10,values_only=True),start=1):
@@ -38,7 +42,10 @@ def main():
         if row_no<=8 or any('2026' in val(v) for v in vals[:3]):
             rows.append({'source_row':row_no,**{f'col{i+1}':val(vals[i]) for i in range(10)}})
     tail=[]
-    for row_no,row in enumerate(ws.iter_rows(min_row=max(1,ws.max_row-12),max_row=ws.max_row,max_col=10,values_only=True),start=max(1,ws.max_row-12)):
+    for row_no,row in enumerate(
+        ws.iter_rows(min_row=max(1,ws.max_row-12),max_row=ws.max_row,max_col=10,values_only=True),
+        start=max(1,ws.max_row-12),
+    ):
         vals=list(row)
         if any(val(v) for v in vals):
             tail.append({'source_row':row_no,**{f'col{i+1}':val(vals[i]) for i in range(10)}})
@@ -47,52 +54,91 @@ def main():
     OUT.parent.mkdir(parents=True,exist_ok=True)
     fields=['source_row']+[f'col{i}' for i in range(1,11)]
     with OUT.open('w',encoding='utf-8',newline='') as fh:
-        w=csv.DictWriter(fh,fieldnames=fields); w.writeheader(); w.writerows(rows)
+        w=csv.DictWriter(fh,fieldnames=fields)
+        w.writeheader(); w.writerows(rows)
 
-    # The historical national technology sheet has stale headers in recent
-    # rows. Audit the row-oriented regional technology sheet instead.
-    ws=wb['7.6.CO_TEC_REG_FIJAS']
-    header_row=None; header=[]
-    for row_no,row in enumerate(ws.iter_rows(min_row=1,max_row=20,max_col=20,values_only=True),start=1):
-        vals=[val(v) for v in row]
-        joined=' | '.join(normalize(v) for v in vals)
-        if 'tecnolog' in joined and 'conex' in joined and ('ano' in joined or 'año' in joined):
-            header_row=row_no; header=vals; break
-    if header_row is None:
-        raise RuntimeError('Could not detect 7.6 technology header')
+    # March 2026 regional technology is published in 7.7.1. The previous audit
+    # referenced a non-existent 7.6 sheet. Read only explicit labelled totals,
+    # the same defensible contract used by the canonical sector builder.
+    ws=wb['7.7.1.CO_TEC_RG_EMP_FIJAS']
+    headers=[val(v) for v in next(ws.iter_rows(min_row=8,max_row=8,max_col=ws.max_column,values_only=True))]
+    by_label={}
+    for i,label in enumerate(headers):
+        by_label.setdefault(label,[]).append(i)
 
-    idx={normalize(h):i for i,h in enumerate(header) if h}
-    def find_key(fragment):
-        matches=[(k,i) for k,i in idx.items() if fragment in k]
-        if not matches: raise RuntimeError(f'Missing header fragment {fragment}: {header}')
-        return matches[0][1]
-    year_i=find_key('ano')
-    month_i=find_key('mes')
-    tech_i=find_key('tecnolog')
-    conn_i=find_key('conex')
-    region_i=find_key('region')
+    def one(label):
+        hits=by_label.get(label,[])
+        if len(hits)!=1:
+            raise RuntimeError(f'Expected one column {label!r}, found {hits}')
+        return hits[0]
 
-    current_year=None
-    agg=defaultdict(lambda:{'connections':0,'regions':set(),'rows':0})
-    for row_no,row in enumerate(ws.iter_rows(min_row=header_row+1,max_col=max(year_i,month_i,tech_i,conn_i,region_i)+1,values_only=True),start=header_row+1):
-        vals=list(row)
-        y=number(vals[year_i])
-        if y is not None and 1990<=y<=2100: current_year=int(y)
-        month=normalize(vals[month_i])[:3]
-        if current_year!=2026 or month!='mar': continue
-        tech=val(vals[tech_i]); conn=number(vals[conn_i]); region=val(vals[region_i])
-        if not tech or conn is None: continue
-        a=agg[tech]; a['connections']+=int(round(conn)); a['regions'].add(region); a['rows']+=1
+    region_i=one('Región')
+    tech_cols={
+        'adsl_connections': one('Total Conexiones ADSL'),
+        'hfc_connections': one('Total Conexiones HFC (Cable Modem)'),
+        'wimax_connections': one('Total Conexiones WIMAX'),
+        'fttx_fiber_connections': one('Total Conexiones FTTX'),
+    }
+    grand_hits=by_label.get('Total Conexiones',[])
+    if not grand_hits:
+        raise RuntimeError('No explicit Total Conexiones column in 7.7.1')
+    grand_i=grand_hits[-1]
 
-    reg_rows=[]
-    for tech,a in sorted(agg.items(),key=lambda kv:-kv[1]['connections']):
-        reg_rows.append({'period':'2026-03','technology':tech,'connections':a['connections'],'region_count':len(a['regions']),'source_rows':a['rows'],'source_sheet':'7.6.CO_TEC_REG_FIJAS'})
+    regional=[]
+    national_total=None
+    national_row=None
+    for row_no,row in enumerate(ws.iter_rows(min_row=9,max_col=ws.max_column,values_only=True),start=9):
+        values=list(row)
+        region=val(values[region_i]) if region_i < len(values) else ''
+        grand=integer(values[grand_i]) if grand_i < len(values) else None
+        if region.lower()=='total':
+            national_total=grand
+            national_row=row_no
+            continue
+        try:
+            region_no=int(float(region))
+        except (TypeError,ValueError):
+            continue
+        if not 1<=region_no<=16 or grand is None:
+            continue
+        counts={name:integer(values[idx]) or 0 for name,idx in tech_cols.items()}
+        known=sum(counts.values())
+        residual=grand-known
+        if residual<0:
+            raise RuntimeError(f'Region {region_no}: explicit technology totals exceed grand total')
+        regional.append({
+            'period':'2026-03',
+            'region':region_no,
+            **counts,
+            'other_fixed_technologies_residual':residual,
+            'total_fixed_connections':grand,
+            'source_sheet':'7.7.1.CO_TEC_RG_EMP_FIJAS',
+            'source_row':row_no,
+        })
+
+    if len(regional)!=16:
+        raise RuntimeError(f'Expected 16 regional rows, found {len(regional)}')
+    regional_sum=sum(r['total_fixed_connections'] for r in regional)
+    if national_total is None:
+        raise RuntimeError('Could not locate national Total row in 7.7.1')
+    if regional_sum!=national_total:
+        raise RuntimeError(f'Regional totals do not tie to national total: {regional_sum} != {national_total}')
+
+    regional.sort(key=lambda r:r['region'])
+    regional_fields=[
+        'period','region','adsl_connections','hfc_connections','wimax_connections',
+        'fttx_fiber_connections','other_fixed_technologies_residual',
+        'total_fixed_connections','source_sheet','source_row',
+    ]
     with REGIONAL_OUT.open('w',encoding='utf-8',newline='') as fh:
-        f=['period','technology','connections','region_count','source_rows','source_sheet']
-        w=csv.DictWriter(fh,fieldnames=f); w.writeheader(); w.writerows(reg_rows)
+        w=csv.DictWriter(fh,fieldnames=regional_fields)
+        w.writeheader(); w.writerows(regional)
 
-    print('national_sheet_rows',rows)
-    print('regional_header_row',header_row,'header',header)
-    print('regional_2026m03_technology',reg_rows,'sum',sum(r['connections'] for r in reg_rows))
+    print('legacy_national_audit_rows',len(rows))
+    print('current_regional_rows',len(regional))
+    print('current_regional_total',regional_sum)
+    print('current_national_total',national_total,'source_row',national_row)
 
-if __name__=='__main__': main()
+
+if __name__=='__main__':
+    main()
