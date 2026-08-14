@@ -60,6 +60,29 @@ La metodología completa está en `docs/education_connectivity_2026.md`.
     text = insert_before(text, marker, fixed_block)
     text = insert_before(text, marker, education_block)
 
+    oti_block = '''### OTI — velocidad fija regional, enero 2026
+
+`data/oti_2026/regional_fixed_speed_2026_01.csv` incorpora la publicación oficial SUBTEL/OTI para las **16 regiones**, basada en **752.626 mediciones** de Internet fijo realizadas durante enero de 2026.
+
+La capa se mantiene a nivel regional y no se replica dentro de las 346 filas del maestro comunal. OTI y Ookla permanecen como instrumentos separados: tienen fuentes, mecanismos de medición y agregaciones distintas, por lo que sus valores no deben tratarse como una misma serie.
+
+La metodología y la inconsistencia editorial de fecha presente en la página fuente están documentadas en `docs/oti_fixed_speed_2026.md`.
+'''
+    text = insert_before(text, '### Calidad observada — Ookla Q1 2026', oti_block)
+
+    release_block = '''## Auditoría y metadata del release
+
+El repositorio mantiene un contrato de publicación legible por máquinas:
+
+- `data/metadata/layer_catalog.csv` documenta **19 capas**, de las cuales **18 son canónicas** y una corresponde a auditoría geométrica RedAcceso.
+- `data/metadata/release_manifest.csv` inventaría los archivos públicos con tamaño, dimensiones CSV cuando corresponde y checksum SHA-256.
+- `data/metadata/public_release_validation.csv` registra los controles estructurales de la última validación automática.
+- `docs/reproducibility.md` describe el DAG de reconstrucción, dependencias, universos estadísticos y orden recomendado de actualización.
+
+Los archivos autogenerados de metadata no se incluyen a sí mismos en el manifest, evitando checksums autorreferentes y ejecuciones recursivas.
+'''
+    text = insert_before(text, '## Reproducibilidad', release_block)
+
     text = text.replace(
         'La vista carga el maestro comunal integrado y el GeoJSON. Permite cambiar indicador, buscar comunas, revisar rankings y abrir una ficha territorial con conectividad, equipamiento, contexto social, registros 4G/5G y desempeño Ookla. También muestra un contexto sectorial nacional actualizado a marzo de 2026.',
         'La vista carga el maestro comunal integrado y el GeoJSON. Permite cambiar indicador, buscar comunas, revisar rankings y abrir una ficha territorial con conectividad, equipamiento, contexto social, registros 4G/5G, presencia RedAcceso, Aulas Conectadas y desempeño Ookla. También muestra un contexto sectorial nacional actualizado a marzo de 2026.'
@@ -67,12 +90,14 @@ La metodología completa está en `docs/education_connectivity_2026.md`.
 
     text = text.replace(
         '│   ├── mobile_coverage_2025/\n│   ├── subtel_sector_2026/',
-        '│   ├── mobile_coverage_2025/\n│   ├── fixed_access_infrastructure/\n│   ├── education_connectivity_2026/\n│   ├── subtel_sector_2026/'
+        '│   ├── mobile_coverage_2025/\n│   ├── fixed_access_infrastructure/\n│   ├── education_connectivity_2026/\n│   ├── oti_2026/\n│   ├── subtel_sector_2026/'
     )
+    if '│   ├── oti_2026/' not in text:
+        text = text.replace('│   ├── education_connectivity_2026/\n│   ├── subtel_sector_2026/', '│   ├── education_connectivity_2026/\n│   ├── oti_2026/\n│   ├── subtel_sector_2026/', 1)
 
     text = text.replace(
         '- integración de infraestructura móvil al maestro comunal\n- descarga y control trimestral Ookla',
-        '- integración de infraestructura móvil al maestro comunal\n- descubrimiento, catálogo y presencia comunal de capas RedAcceso SUBTEL\n- descarga y normalización de Aulas Conectadas 2025\n- crosswalk oficial RBD → comuna mediante el Directorio Mineduc 2025\n- integración educativa al maestro comunal\n- descarga y control trimestral Ookla'
+        '- integración de infraestructura móvil al maestro comunal\n- descubrimiento, catálogo y presencia comunal de capas RedAcceso SUBTEL\n- descarga y normalización de Aulas Conectadas 2025\n- crosswalk oficial RBD → comuna mediante el Directorio Mineduc 2025\n- integración educativa al maestro comunal\n- registro regional OTI como benchmark oficial separado de Ookla\n- descarga y control trimestral Ookla'
     )
 
     source_marker = '- Subsecretaría de Telecomunicaciones — Encuestas de Acceso y Usos de Internet y estadísticas sectoriales'
@@ -80,7 +105,7 @@ La metodología completa está en `docs/education_connectivity_2026.md`.
         text = text.replace(source_marker, source_marker + '\n- Ministerio de Educación — Aulas Conectadas, CpE2030 y Directorio Oficial de Establecimientos Educacionales 2025', 1)
 
     README.write_text(text, encoding='utf-8')
-    print('README updated for 84-variable integrated master')
+    print('README updated for 84-variable master and 19-layer release catalog')
 
 if __name__ == '__main__':
     main()
