@@ -1,0 +1,37 @@
+name: Build communal data dictionary
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_communal_dictionary.py'
+      - 'data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv'
+      - '.github/workflows/build-communal-dictionary.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependency
+        run: pip install pandas
+      - name: Build dictionary
+        run: python scripts/build_communal_dictionary.py
+      - name: Commit dictionary
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/metadata/communal_master_dictionary.csv docs/communal_master_dictionary.md
+          if git diff --cached --quiet; then
+            echo 'No dictionary changes to commit'
+          else
+            git commit -m 'Document integrated communal master variables'
+            git push
+          fi
