@@ -1,0 +1,35 @@
+name: Preview SUBTEL sector core sheets
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/preview_subtel_sector_core_sheets.py'
+      - '.github/workflows/preview-subtel-sector-core-sheets.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests openpyxl
+      - run: python scripts/preview_subtel_sector_core_sheets.py
+      - name: Commit preview
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/subtel_sector_series/core_sheet_preview.csv
+          if git diff --cached --quiet; then
+            echo 'No preview changes'
+          else
+            git commit -m 'Preview canonical SUBTEL sector sheets'
+            git pull --rebase origin main
+            git push
+          fi
