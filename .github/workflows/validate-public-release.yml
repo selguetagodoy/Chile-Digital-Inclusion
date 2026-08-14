@@ -1,5 +1,6 @@
 name: Validate public release
 
+# Current public-release contract check.
 on:
   push:
     branches: [main]
