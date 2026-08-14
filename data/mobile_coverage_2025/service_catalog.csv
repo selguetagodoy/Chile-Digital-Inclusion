@@ -1,0 +1,9 @@
+operator,technology,period,service_url,service_status,service_name,service_type,layer_id,layer_name,geometry_type,feature_count,max_record_count,capabilities,copyright_text
+Claro,4G,2025-03,https://licancabur.subtel.gob.cl/server/rest/services/Claro_4G_marzo2025/MapServer,ok,Mapa,,0,Claro_4G_marzo2025,esriGeometryPoint,2867,2000,"Map,Query,Data",
+Claro,5G,2025-03,https://licancabur.subtel.gob.cl/server/rest/services/Claro_5G_marzo2025/FeatureServer,ok,,,0,Claro_5G_marzo2025,esriGeometryPoint,490,2000,"Query,Create,Update,Delete,Uploads,Editing",
+Entel,4G,2025-03,https://licancabur.subtel.gob.cl/server/rest/services/Entel_4G_marzo2025/FeatureServer,ok,,,0,Entel_4G_marzo2025,esriGeometryPoint,8235,2000,"Query,Create,Update,Delete,Uploads,Editing",
+Entel,5G,2025-03,https://licancabur.subtel.gob.cl/server/rest/services/Entel_5G_marzo2025/FeatureServer,ok,,,0,Entel_5G_marzo2025,esriGeometryPoint,1832,2000,"Query,Create,Update,Delete,Uploads,Editing",
+Movistar,4G,2025-03,https://licancabur.subtel.gob.cl/server/rest/services/Movistar_4G_marzo2025/MapServer,ok,Mapa,,0,Movistar_4G_marzo2025,esriGeometryPoint,4936,2000,"Map,Query,Data",
+Movistar,5G,2025-03,https://licancabur.subtel.gob.cl/server/rest/services/Movistar_5G_marzo2025/MapServer,ok,Mapa,,0,Movistar_5G_marzo2025,esriGeometryPoint,1774,2000,"Map,Query,Data",
+WOM,4G,2025-03,https://licancabur.subtel.gob.cl/server/rest/services/Wom_4G_marzo2025/FeatureServer,ok,,,0,Wom_4G_marzo2025,esriGeometryPoint,6765,2000,"Query,Create,Update,Delete,Uploads,Editing",
+WOM,5G,2025-03,https://licancabur.subtel.gob.cl/server/rest/services/Wom_5G_marzo2025/MapServer,ok,Mapa,,0,Wom_5G_marzo2025,esriGeometryPoint,1366,2000,"Map,Query,Data",
