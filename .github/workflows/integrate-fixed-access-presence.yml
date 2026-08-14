@@ -1,0 +1,40 @@
+name: Integrate fixed access presence
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/integrate_fixed_access_presence.py'
+      - 'data/fixed_access_infrastructure/commune_fixed_access_presence.csv'
+      - 'scripts/build_communal_dictionary.py'
+      - '.github/workflows/integrate-fixed-access-presence.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pandas
+      - name: Integrate RedAcceso presence fields
+        run: python scripts/integrate_fixed_access_presence.py
+      - name: Rebuild dictionary
+        run: python scripts/build_communal_dictionary.py
+      - name: Commit master and metadata
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv data/metadata/communal_master_dictionary.csv docs/communal_master_dictionary.md
+          if git diff --cached --quiet; then
+            echo 'No fixed-access presence integration changes'
+          else
+            git commit -m 'Integrate RedAcceso presence into communal master'
+            git pull --rebase origin main
+            git push
+          fi
