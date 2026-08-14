@@ -1,0 +1,684 @@
+commune_code,commune,province,region,region_code,period,network,tiles,tests,devices_sum_across_tiles,download_mbps_test_weighted,upload_mbps_test_weighted,latency_ms_test_weighted,loaded_latency_down_ms_test_weighted,loaded_latency_up_ms_test_weighted,aggregation
+1101,Iquique,Iquique,Región de Tarapacá,1.0,2026Q1,fixed,87,5292,1794,443.733,368.08,21.698,330.144,245.284,tile averages weighted by tile test count
+1107,Alto Hospicio,Iquique,Región de Tarapacá,1.0,2026Q1,fixed,74,2941,978,407.473,323.401,23.209,372.508,262.126,tile averages weighted by tile test count
+1401,Pozo Almonte,Tamarugal,Región de Tarapacá,1.0,2026Q1,fixed,76,412,164,205.55,144.286,33.682,476.801,406.731,tile averages weighted by tile test count
+1402,Camiña,Tamarugal,Región de Tarapacá,1.0,2026Q1,fixed,4,5,4,277.804,33.294,45.6,167.6,61.2,tile averages weighted by tile test count
+1403,Colchane,Tamarugal,Región de Tarapacá,1.0,2026Q1,fixed,7,17,9,114.408,22.545,45.647,310.353,282.765,tile averages weighted by tile test count
+1404,Huara,Tamarugal,Región de Tarapacá,1.0,2026Q1,fixed,12,47,15,199.154,78.394,67.277,301.362,225.404,tile averages weighted by tile test count
+1405,Pica,Tamarugal,Región de Tarapacá,1.0,2026Q1,fixed,37,180,94,146.002,105.263,47.45,571.233,632.922,tile averages weighted by tile test count
+2101,Antofagasta,Antofagasta,Región de Antofagasta,2.0,2026Q1,fixed,240,10299,3459,452.314,379.847,15.788,269.393,236.847,tile averages weighted by tile test count
+2102,Mejillones,Antofagasta,Región de Antofagasta,2.0,2026Q1,fixed,29,233,92,220.136,196.28,16.73,241.515,235.236,tile averages weighted by tile test count
+2103,Sierra Gorda,Antofagasta,Región de Antofagasta,2.0,2026Q1,fixed,49,140,88,121.962,32.01,32.764,509.557,365.321,tile averages weighted by tile test count
+2104,Taltal,Antofagasta,Región de Antofagasta,2.0,2026Q1,fixed,40,364,102,273.462,234.838,20.508,321.907,358.835,tile averages weighted by tile test count
+2201,Calama,El Loa,Región de Antofagasta,2.0,2026Q1,fixed,188,4597,1682,448.081,388.362,21.945,289.595,267.428,tile averages weighted by tile test count
+2202,Ollagüe,El Loa,Región de Antofagasta,2.0,2026Q1,fixed,3,8,4,154.726,20.699,29.25,141.125,438.0,tile averages weighted by tile test count
+2203,San Pedro de Atacama,El Loa,Región de Antofagasta,2.0,2026Q1,fixed,77,383,250,131.25,29.172,30.809,382.402,267.428,tile averages weighted by tile test count
+2301,Tocopilla,Tocopilla,Región de Antofagasta,2.0,2026Q1,fixed,27,390,163,387.345,363.028,17.787,281.992,288.651,tile averages weighted by tile test count
+2302,María Elena,Tocopilla,Región de Antofagasta,2.0,2026Q1,fixed,22,98,39,152.866,23.419,28.786,278.878,210.571,tile averages weighted by tile test count
+3101,Copiapó,Copiapó,Región de Atacama,3.0,2026Q1,fixed,181,3809,1519,440.291,387.506,14.059,209.012,257.444,tile averages weighted by tile test count
+3102,Caldera,Copiapó,Región de Atacama,3.0,2026Q1,fixed,50,532,215,347.437,280.323,18.5,229.036,236.468,tile averages weighted by tile test count
+3103,Tierra Amarilla,Copiapó,Región de Atacama,3.0,2026Q1,fixed,53,357,137,327.897,259.383,17.171,324.179,203.294,tile averages weighted by tile test count
+3201,Chañaral,Chañaral,Región de Atacama,3.0,2026Q1,fixed,32,257,85,424.169,251.087,19.49,270.856,163.763,tile averages weighted by tile test count
+3202,Diego de Almagro,Chañaral,Región de Atacama,3.0,2026Q1,fixed,40,191,85,327.311,280.917,21.56,157.346,171.634,tile averages weighted by tile test count
+3301,Vallenar,Huasco,Región de Atacama,3.0,2026Q1,fixed,98,1383,511,429.044,359.255,14.299,189.387,209.046,tile averages weighted by tile test count
+3302,Alto del Carmen,Huasco,Región de Atacama,3.0,2026Q1,fixed,11,46,12,152.584,31.87,30.152,348.109,386.804,tile averages weighted by tile test count
+3303,Freirina,Huasco,Región de Atacama,3.0,2026Q1,fixed,23,189,43,217.567,94.278,27.233,226.212,261.349,tile averages weighted by tile test count
+3304,Huasco,Huasco,Región de Atacama,3.0,2026Q1,fixed,21,174,56,367.74,307.124,12.126,172.385,223.282,tile averages weighted by tile test count
+4101,La Serena,Elqui,Región de Coquimbo,4.0,2026Q1,fixed,365,8117,3286,422.926,346.136,12.287,197.485,215.949,tile averages weighted by tile test count
+4102,Coquimbo,Elqui,Región de Coquimbo,4.0,2026Q1,fixed,363,7386,2981,398.575,351.881,10.856,210.456,265.062,tile averages weighted by tile test count
+4103,Andacollo,Elqui,Región de Coquimbo,4.0,2026Q1,fixed,16,117,38,463.507,324.021,5.239,258.974,385.009,tile averages weighted by tile test count
+4104,La Higuera,Elqui,Región de Coquimbo,4.0,2026Q1,fixed,15,30,17,147.059,69.448,28.467,450.9,580.267,tile averages weighted by tile test count
+4105,Paihuano,Elqui,Región de Coquimbo,4.0,2026Q1,fixed,18,51,26,97.606,18.55,37.686,340.686,364.51,tile averages weighted by tile test count
+4106,Vicuña,Elqui,Región de Coquimbo,4.0,2026Q1,fixed,63,309,132,269.666,206.011,13.744,310.246,361.343,tile averages weighted by tile test count
+4201,Illapel,Choapa,Región de Coquimbo,4.0,2026Q1,fixed,94,902,255,362.994,273.828,16.021,274.34,280.153,tile averages weighted by tile test count
+4202,Canela,Choapa,Región de Coquimbo,4.0,2026Q1,fixed,28,86,41,292.756,202.59,19.919,267.919,279.616,tile averages weighted by tile test count
+4203,Los Vilos,Choapa,Región de Coquimbo,4.0,2026Q1,fixed,64,575,222,389.207,293.305,16.209,268.617,256.743,tile averages weighted by tile test count
+4204,Salamanca,Choapa,Región de Coquimbo,4.0,2026Q1,fixed,112,537,244,243.499,170.204,15.851,342.565,364.06,tile averages weighted by tile test count
+4301,Ovalle,Limarí,Región de Coquimbo,4.0,2026Q1,fixed,172,2003,728,381.954,340.072,12.115,183.264,222.676,tile averages weighted by tile test count
+4302,Combarbalá,Limarí,Región de Coquimbo,4.0,2026Q1,fixed,37,338,75,334.822,277.724,16.565,212.595,684.571,tile averages weighted by tile test count
+4303,Monte Patria,Limarí,Región de Coquimbo,4.0,2026Q1,fixed,51,283,115,406.122,358.755,12.724,163.569,234.035,tile averages weighted by tile test count
+4304,Punitaqui,Limarí,Región de Coquimbo,4.0,2026Q1,fixed,21,71,32,408.937,268.359,11.0,232.873,193.465,tile averages weighted by tile test count
+4305,Río Hurtado,Limarí,Región de Coquimbo,4.0,2026Q1,fixed,12,30,14,165.731,59.751,24.733,309.633,261.433,tile averages weighted by tile test count
+5101,Valparaíso,Valparaíso,Región de Valparaíso,5.0,2026Q1,fixed,228,7060,2726,407.412,346.073,7.831,223.336,237.235,tile averages weighted by tile test count
+5102,Casablanca,Valparaíso,Región de Valparaíso,5.0,2026Q1,fixed,115,972,293,230.513,146.224,20.838,280.415,274.289,tile averages weighted by tile test count
+5103,Concón,Valparaíso,Región de Valparaíso,5.0,2026Q1,fixed,69,2817,1010,406.63,334.378,8.375,227.519,212.033,tile averages weighted by tile test count
+5105,Puchuncaví,Valparaíso,Región de Valparaíso,5.0,2026Q1,fixed,153,1196,517,328.247,270.463,12.135,315.666,277.777,tile averages weighted by tile test count
+5107,Quintero,Valparaíso,Región de Valparaíso,5.0,2026Q1,fixed,69,1120,388,422.184,374.395,8.366,212.829,185.079,tile averages weighted by tile test count
+5109,Viña del Mar,Valparaíso,Región de Valparaíso,5.0,2026Q1,fixed,262,11729,4557,421.57,353.462,7.504,230.912,228.962,tile averages weighted by tile test count
+5301,Los Andes,Los Andes,Región de Valparaíso,5.0,2026Q1,fixed,75,1425,573,438.903,381.689,7.352,246.046,235.999,tile averages weighted by tile test count
+5302,Calle Larga,Los Andes,Región de Valparaíso,5.0,2026Q1,fixed,55,489,181,431.851,368.633,7.102,225.583,199.638,tile averages weighted by tile test count
+5303,Rinconada,Los Andes,Región de Valparaíso,5.0,2026Q1,fixed,43,442,126,300.613,218.47,13.719,254.233,366.805,tile averages weighted by tile test count
+5304,San Esteban,Los Andes,Región de Valparaíso,5.0,2026Q1,fixed,58,393,145,346.747,273.607,10.634,214.56,201.156,tile averages weighted by tile test count
+5401,La Ligua,Petorca,Región de Valparaíso,5.0,2026Q1,fixed,126,904,337,331.713,272.607,11.421,258.392,258.583,tile averages weighted by tile test count
+5402,Cabildo,Petorca,Región de Valparaíso,5.0,2026Q1,fixed,65,374,128,180.294,147.477,11.575,283.973,218.759,tile averages weighted by tile test count
+5403,Papudo,Petorca,Región de Valparaíso,5.0,2026Q1,fixed,40,592,277,320.762,283.843,8.076,205.726,214.693,tile averages weighted by tile test count
+5404,Petorca,Petorca,Región de Valparaíso,5.0,2026Q1,fixed,20,90,35,151.715,86.129,20.078,510.156,471.589,tile averages weighted by tile test count
+5405,Zapallar,Petorca,Región de Valparaíso,5.0,2026Q1,fixed,91,906,315,284.658,189.648,17.33,283.531,267.579,tile averages weighted by tile test count
+5501,Quillota,Quillota,Región de Valparaíso,5.0,2026Q1,fixed,147,2331,787,409.827,354.554,8.161,202.078,217.436,tile averages weighted by tile test count
+5502,Calera,Quillota,Región de Valparaíso,5.0,2026Q1,fixed,55,863,334,439.007,371.079,7.754,237.738,181.009,tile averages weighted by tile test count
+5503,Hijuelas,Quillota,Región de Valparaíso,5.0,2026Q1,fixed,67,547,131,271.421,203.771,18.799,219.599,164.612,tile averages weighted by tile test count
+5504,La Cruz,Quillota,Región de Valparaíso,5.0,2026Q1,fixed,50,547,223,421.748,356.746,6.389,203.049,276.475,tile averages weighted by tile test count
+5506,Nogales,Quillota,Región de Valparaíso,5.0,2026Q1,fixed,57,235,111,365.988,283.101,12.089,255.077,273.191,tile averages weighted by tile test count
+5601,San Antonio,San Antonio,Región de Valparaíso,5.0,2026Q1,fixed,129,2004,704,376.702,333.364,8.617,253.997,291.645,tile averages weighted by tile test count
+5602,Algarrobo,San Antonio,Región de Valparaíso,5.0,2026Q1,fixed,114,1312,582,327.441,280.578,11.016,235.406,290.255,tile averages weighted by tile test count
+5603,Cartagena,San Antonio,Región de Valparaíso,5.0,2026Q1,fixed,60,819,277,331.735,306.138,3.753,258.502,404.355,tile averages weighted by tile test count
+5604,El Quisco,San Antonio,Región de Valparaíso,5.0,2026Q1,fixed,77,791,325,372.618,306.053,6.355,326.601,314.726,tile averages weighted by tile test count
+5605,El Tabo,San Antonio,Región de Valparaíso,5.0,2026Q1,fixed,95,898,366,369.473,340.796,6.285,300.017,305.0,tile averages weighted by tile test count
+5606,Santo Domingo,San Antonio,Región de Valparaíso,5.0,2026Q1,fixed,111,937,395,282.399,219.014,10.986,230.671,245.369,tile averages weighted by tile test count
+5701,San Felipe,San Felipe,Región de Valparaíso,5.0,2026Q1,fixed,103,1591,626,404.228,309.123,9.389,238.869,219.083,tile averages weighted by tile test count
+5702,Catemu,San Felipe,Región de Valparaíso,5.0,2026Q1,fixed,26,172,58,382.914,290.75,12.523,274.203,270.209,tile averages weighted by tile test count
+5703,Llaillay,San Felipe,Región de Valparaíso,5.0,2026Q1,fixed,47,498,161,436.889,358.616,8.576,244.496,242.46,tile averages weighted by tile test count
+5704,Panquehue,San Felipe,Región de Valparaíso,5.0,2026Q1,fixed,33,171,60,337.167,255.016,14.292,189.468,146.462,tile averages weighted by tile test count
+5705,Putaendo,San Felipe,Región de Valparaíso,5.0,2026Q1,fixed,71,370,123,374.755,279.217,8.762,280.997,179.832,tile averages weighted by tile test count
+5706,Santa María,San Felipe,Región de Valparaíso,5.0,2026Q1,fixed,42,252,84,387.039,319.551,7.44,159.206,283.115,tile averages weighted by tile test count
+5801,Quilpué,Marga Marga,Región de Valparaíso,5.0,2026Q1,fixed,148,4353,1707,426.361,377.755,7.621,219.604,219.164,tile averages weighted by tile test count
+5802,Limache,Marga Marga,Región de Valparaíso,5.0,2026Q1,fixed,172,1644,598,365.744,310.749,9.325,202.841,235.662,tile averages weighted by tile test count
+5803,Olmué,Marga Marga,Región de Valparaíso,5.0,2026Q1,fixed,97,583,213,301.755,241.673,11.103,284.799,223.677,tile averages weighted by tile test count
+5804,Villa Alemana,Marga Marga,Región de Valparaíso,5.0,2026Q1,fixed,113,4295,1640,437.596,384.446,7.374,199.719,201.481,tile averages weighted by tile test count
+6101,Rancagua,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,232,5910,2482,417.355,358.831,5.711,197.079,200.759,tile averages weighted by tile test count
+6102,Codegua,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,44,201,77,319.473,310.806,4.716,307.075,284.9,tile averages weighted by tile test count
+6103,Coinco,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,27,127,36,494.21,428.795,4.795,321.031,407.543,tile averages weighted by tile test count
+6104,Coltauco,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,106,725,167,350.585,297.204,5.917,175.032,215.153,tile averages weighted by tile test count
+6105,Doñihue,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,59,267,129,423.874,337.4,5.79,213.026,290.839,tile averages weighted by tile test count
+6106,Graneros,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,52,626,260,411.013,356.196,4.8,211.827,264.006,tile averages weighted by tile test count
+6107,Las Cabras,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,236,1510,550,201.537,150.435,14.715,244.045,267.028,tile averages weighted by tile test count
+6108,Machalí,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,112,2253,758,398.158,340.551,6.568,217.899,301.628,tile averages weighted by tile test count
+6109,Malloa,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,50,215,84,268.41,206.437,12.874,176.791,324.353,tile averages weighted by tile test count
+6110,Mostazal,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,88,733,209,341.523,269.558,7.55,197.045,252.84,tile averages weighted by tile test count
+6111,Olivar,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,41,276,84,482.088,419.657,4.388,223.138,273.025,tile averages weighted by tile test count
+6112,Peumo,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,55,344,154,251.837,213.047,8.901,340.108,294.462,tile averages weighted by tile test count
+6113,Pichidegua,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,84,470,146,269.861,225.852,8.051,222.251,464.083,tile averages weighted by tile test count
+6114,Quinta de Tilcoco,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,46,172,92,402.439,312.118,23.145,266.488,306.413,tile averages weighted by tile test count
+6115,Rengo,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,109,1706,586,421.561,354.843,7.113,160.506,185.047,tile averages weighted by tile test count
+6116,Requínoa,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,85,440,192,358.767,294.58,7.55,215.293,256.875,tile averages weighted by tile test count
+6117,San Vicente,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,174,1171,364,254.072,223.959,13.209,198.543,383.576,tile averages weighted by tile test count
+6201,Pichilemu,Cardenal Caro,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,90,784,343,289.43,219.471,15.704,237.853,272.761,tile averages weighted by tile test count
+6202,La Estrella,Cardenal Caro,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,40,147,55,231.091,113.281,26.918,295.422,308.534,tile averages weighted by tile test count
+6203,Litueche,Cardenal Caro,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,76,313,98,215.657,75.176,25.719,283.249,197.061,tile averages weighted by tile test count
+6204,Marchigüe,Cardenal Caro,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,33,168,49,144.601,69.241,19.077,290.435,318.149,tile averages weighted by tile test count
+6205,Navidad,Cardenal Caro,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,81,366,156,327.283,215.589,17.809,366.216,258.817,tile averages weighted by tile test count
+6206,Paredones,Cardenal Caro,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,36,157,56,168.977,79.266,26.561,258.394,353.665,tile averages weighted by tile test count
+6301,San Fernando,Colchagua,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,138,1557,611,388.317,318.283,8.821,234.787,296.222,tile averages weighted by tile test count
+6302,Chépica,Colchagua,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,87,492,192,164.406,150.038,10.417,199.909,441.557,tile averages weighted by tile test count
+6303,Chimbarongo,Colchagua,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,74,372,130,238.722,185.312,8.944,126.29,210.752,tile averages weighted by tile test count
+6304,Lolol,Colchagua,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,33,202,55,186.0,148.556,16.366,258.381,183.129,tile averages weighted by tile test count
+6305,Nancagua,Colchagua,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,53,207,103,286.468,245.675,6.884,185.304,301.903,tile averages weighted by tile test count
+6306,Palmilla,Colchagua,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,55,264,78,132.684,98.454,15.348,288.319,386.617,tile averages weighted by tile test count
+6307,Peralillo,Colchagua,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,55,282,94,227.12,175.042,9.319,123.504,228.493,tile averages weighted by tile test count
+6308,Placilla,Colchagua,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,25,93,31,160.613,153.173,11.14,289.204,395.645,tile averages weighted by tile test count
+6309,Pumanque,Colchagua,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,18,49,24,180.891,66.505,16.98,85.776,164.918,tile averages weighted by tile test count
+6310,Santa Cruz,Colchagua,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,fixed,99,735,307,324.028,280.779,12.005,221.335,250.556,tile averages weighted by tile test count
+7101,Talca,Talca,Región del Maule,7.0,2026Q1,fixed,271,5495,2230,432.998,398.948,6.553,162.458,182.898,tile averages weighted by tile test count
+7102,Constitución,Talca,Región del Maule,7.0,2026Q1,fixed,79,756,255,401.692,290.525,11.893,212.507,194.231,tile averages weighted by tile test count
+7103,Curepto,Talca,Región del Maule,7.0,2026Q1,fixed,23,114,36,268.052,167.723,32.228,220.561,458.272,tile averages weighted by tile test count
+7104,Empedrado,Talca,Región del Maule,7.0,2026Q1,fixed,5,15,6,584.645,564.604,8.6,112.267,151.733,tile averages weighted by tile test count
+7105,Maule,Talca,Región del Maule,7.0,2026Q1,fixed,126,1159,450,347.886,319.181,7.832,155.897,205.763,tile averages weighted by tile test count
+7106,Pelarco,Talca,Región del Maule,7.0,2026Q1,fixed,52,264,81,187.146,128.224,14.133,228.14,281.0,tile averages weighted by tile test count
+7107,Pencahue,Talca,Región del Maule,7.0,2026Q1,fixed,32,92,40,161.614,90.08,18.228,203.217,300.011,tile averages weighted by tile test count
+7108,Río Claro,Talca,Región del Maule,7.0,2026Q1,fixed,53,233,80,190.321,151.699,15.283,530.305,473.302,tile averages weighted by tile test count
+7109,San Clemente,Talca,Región del Maule,7.0,2026Q1,fixed,174,974,350,244.041,192.037,13.362,226.002,270.82,tile averages weighted by tile test count
+7110,San Rafael,Talca,Región del Maule,7.0,2026Q1,fixed,49,236,69,160.063,88.16,18.123,258.178,254.547,tile averages weighted by tile test count
+7201,Cauquenes,Cauquenes,Región del Maule,7.0,2026Q1,fixed,80,698,233,428.236,370.883,12.1,163.92,243.441,tile averages weighted by tile test count
+7202,Chanco,Cauquenes,Región del Maule,7.0,2026Q1,fixed,12,60,21,170.026,89.879,21.1,389.233,263.833,tile averages weighted by tile test count
+7203,Pelluhue,Cauquenes,Región del Maule,7.0,2026Q1,fixed,39,159,81,294.397,198.673,16.491,181.994,270.918,tile averages weighted by tile test count
+7301,Curicó,Curicó,Región del Maule,7.0,2026Q1,fixed,267,3791,1442,369.842,325.491,8.504,193.588,237.417,tile averages weighted by tile test count
+7302,Hualañé,Curicó,Región del Maule,7.0,2026Q1,fixed,20,83,28,300.71,191.482,16.193,189.554,152.084,tile averages weighted by tile test count
+7303,Licantén,Curicó,Región del Maule,7.0,2026Q1,fixed,32,267,72,495.477,410.409,8.648,127.432,203.019,tile averages weighted by tile test count
+7304,Molina,Curicó,Región del Maule,7.0,2026Q1,fixed,113,1001,402,343.41,308.311,7.215,178.811,270.41,tile averages weighted by tile test count
+7305,Rauco,Curicó,Región del Maule,7.0,2026Q1,fixed,39,214,73,232.107,189.218,9.033,218.556,221.196,tile averages weighted by tile test count
+7306,Romeral,Curicó,Región del Maule,7.0,2026Q1,fixed,69,419,152,252.726,225.556,20.131,304.933,419.833,tile averages weighted by tile test count
+7307,Sagrada Familia,Curicó,Región del Maule,7.0,2026Q1,fixed,81,293,119,232.414,215.191,10.331,223.01,260.976,tile averages weighted by tile test count
+7308,Teno,Curicó,Región del Maule,7.0,2026Q1,fixed,136,606,218,200.673,159.146,15.528,236.472,299.228,tile averages weighted by tile test count
+7309,Vichuquén,Curicó,Región del Maule,7.0,2026Q1,fixed,47,224,79,241.213,173.779,18.429,248.767,205.767,tile averages weighted by tile test count
+7401,Linares,Linares,Región del Maule,7.0,2026Q1,fixed,237,2670,939,362.691,330.056,10.085,184.899,235.246,tile averages weighted by tile test count
+7402,Colbún,Linares,Región del Maule,7.0,2026Q1,fixed,90,521,160,205.991,160.311,14.94,251.877,305.284,tile averages weighted by tile test count
+7403,Longaví,Linares,Región del Maule,7.0,2026Q1,fixed,147,729,231,205.246,108.119,18.86,175.731,293.759,tile averages weighted by tile test count
+7404,Parral,Linares,Región del Maule,7.0,2026Q1,fixed,117,755,315,303.302,266.33,11.613,218.599,280.878,tile averages weighted by tile test count
+7405,Retiro,Linares,Región del Maule,7.0,2026Q1,fixed,81,300,126,152.512,125.4,12.147,202.767,295.67,tile averages weighted by tile test count
+7406,San Javier,Linares,Región del Maule,7.0,2026Q1,fixed,93,1017,339,342.382,314.739,9.791,193.345,293.08,tile averages weighted by tile test count
+7407,Villa Alegre,Linares,Región del Maule,7.0,2026Q1,fixed,38,208,84,296.226,278.576,10.389,133.197,264.024,tile averages weighted by tile test count
+7408,Yerbas Buenas,Linares,Región del Maule,7.0,2026Q1,fixed,65,258,94,248.758,233.599,11.291,158.698,212.857,tile averages weighted by tile test count
+8101,Concepción,Concepción,Región del Bío-Bío,8.0,2026Q1,fixed,182,6481,2588,461.087,392.587,7.565,226.794,222.646,tile averages weighted by tile test count
+8102,Coronel,Concepción,Región del Bío-Bío,8.0,2026Q1,fixed,124,1880,798,502.336,408.092,7.739,252.795,297.475,tile averages weighted by tile test count
+8103,Chiguayante,Concepción,Región del Bío-Bío,8.0,2026Q1,fixed,75,1835,646,422.188,346.014,7.071,208.71,230.098,tile averages weighted by tile test count
+8104,Florida,Concepción,Región del Bío-Bío,8.0,2026Q1,fixed,63,226,75,229.834,112.864,18.004,207.677,218.934,tile averages weighted by tile test count
+8105,Hualqui,Concepción,Región del Bío-Bío,8.0,2026Q1,fixed,49,252,115,381.231,300.042,11.619,211.689,426.211,tile averages weighted by tile test count
+8106,Lota,Concepción,Región del Bío-Bío,8.0,2026Q1,fixed,32,486,154,542.299,425.986,4.975,222.815,238.195,tile averages weighted by tile test count
+8107,Penco,Concepción,Región del Bío-Bío,8.0,2026Q1,fixed,56,890,358,418.976,336.257,10.135,297.117,299.258,tile averages weighted by tile test count
+8108,San Pedro de la Paz,Concepción,Región del Bío-Bío,8.0,2026Q1,fixed,127,3578,1355,448.55,365.109,7.098,236.203,220.604,tile averages weighted by tile test count
+8109,Santa Juana,Concepción,Región del Bío-Bío,8.0,2026Q1,fixed,36,171,66,258.834,179.773,17.24,248.941,376.129,tile averages weighted by tile test count
+8110,Talcahuano,Concepción,Región del Bío-Bío,8.0,2026Q1,fixed,126,2483,1018,464.069,403.345,8.069,217.281,217.136,tile averages weighted by tile test count
+8111,Tomé,Concepción,Región del Bío-Bío,8.0,2026Q1,fixed,73,912,310,465.77,374.307,7.74,217.66,231.639,tile averages weighted by tile test count
+8112,Hualpén,Concepción,Región del Bío-Bío,8.0,2026Q1,fixed,53,1836,724,464.708,404.338,7.996,228.911,225.073,tile averages weighted by tile test count
+8201,Lebu,Arauco,Región del Bío-Bío,8.0,2026Q1,fixed,39,211,101,435.965,349.71,11.066,274.267,137.938,tile averages weighted by tile test count
+8202,Arauco,Arauco,Región del Bío-Bío,8.0,2026Q1,fixed,63,434,186,433.292,372.249,8.871,247.417,287.744,tile averages weighted by tile test count
+8203,Cañete,Arauco,Región del Bío-Bío,8.0,2026Q1,fixed,103,548,216,273.608,183.628,17.859,273.819,246.75,tile averages weighted by tile test count
+8204,Contulmo,Arauco,Región del Bío-Bío,8.0,2026Q1,fixed,12,50,18,573.329,419.239,9.18,200.16,276.64,tile averages weighted by tile test count
+8205,Curanilahue,Arauco,Región del Bío-Bío,8.0,2026Q1,fixed,35,262,94,341.961,276.559,6.477,303.958,337.095,tile averages weighted by tile test count
+8206,Los Alamos,Arauco,Región del Bío-Bío,8.0,2026Q1,fixed,37,271,82,369.771,285.23,13.79,282.801,246.871,tile averages weighted by tile test count
+8207,Tirúa,Arauco,Región del Bío-Bío,8.0,2026Q1,fixed,26,91,36,101.005,20.927,48.857,355.462,199.857,tile averages weighted by tile test count
+8301,Los Ángeles,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,fixed,675,5272,2106,328.872,264.489,12.564,251.934,295.201,tile averages weighted by tile test count
+8302,Antuco,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,fixed,29,102,43,102.037,70.172,20.588,382.673,367.069,tile averages weighted by tile test count
+8303,Cabrero,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,fixed,109,620,247,236.193,179.435,15.073,268.098,304.911,tile averages weighted by tile test count
+8304,Laja,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,fixed,41,234,112,292.632,201.072,11.808,301.5,308.009,tile averages weighted by tile test count
+8305,Mulchén,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,fixed,49,419,135,332.703,244.22,14.714,285.407,263.864,tile averages weighted by tile test count
+8306,Nacimiento,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,fixed,49,416,130,301.284,203.61,13.663,244.555,240.349,tile averages weighted by tile test count
+8307,Negrete,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,fixed,21,53,29,196.995,118.328,12.528,267.34,479.698,tile averages weighted by tile test count
+8308,Quilaco,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,fixed,18,92,27,251.827,98.522,23.652,137.054,165.946,tile averages weighted by tile test count
+8309,Quilleco,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,fixed,38,156,72,124.573,82.712,13.474,182.058,861.34,tile averages weighted by tile test count
+8310,San Rosendo,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,fixed,7,42,16,361.814,267.579,7.952,143.024,134.833,tile averages weighted by tile test count
+8311,Santa Bárbara,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,fixed,49,156,86,247.196,132.019,23.519,363.628,360.808,tile averages weighted by tile test count
+8312,Tucapel,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,fixed,52,303,119,276.248,212.674,14.254,322.828,307.855,tile averages weighted by tile test count
+8313,Yumbel,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,fixed,66,371,115,443.536,329.806,12.415,197.798,293.763,tile averages weighted by tile test count
+8314,Alto Biobío,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,fixed,17,84,26,211.764,161.966,23.405,165.369,237.821,tile averages weighted by tile test count
+9101,Temuco,Cautín,Región de La Araucanía,9.0,2026Q1,fixed,376,7984,3219,396.134,364.555,9.598,179.591,233.582,tile averages weighted by tile test count
+9102,Carahue,Cautín,Región de La Araucanía,9.0,2026Q1,fixed,51,207,80,202.331,128.607,23.773,284.464,217.444,tile averages weighted by tile test count
+9103,Cunco,Cautín,Región de La Araucanía,9.0,2026Q1,fixed,85,447,133,274.853,200.078,17.394,232.327,241.572,tile averages weighted by tile test count
+9104,Curarrehue,Cautín,Región de La Araucanía,9.0,2026Q1,fixed,58,183,80,134.301,91.818,26.164,328.082,256.869,tile averages weighted by tile test count
+9105,Freire,Cautín,Región de La Araucanía,9.0,2026Q1,fixed,118,473,190,222.755,161.045,35.091,378.07,349.814,tile averages weighted by tile test count
+9106,Galvarino,Cautín,Región de La Araucanía,9.0,2026Q1,fixed,18,140,33,301.353,187.724,19.164,203.836,323.829,tile averages weighted by tile test count
+9107,Gorbea,Cautín,Región de La Araucanía,9.0,2026Q1,fixed,42,185,76,330.877,270.534,15.005,199.397,163.8,tile averages weighted by tile test count
+9108,Lautaro,Cautín,Región de La Araucanía,9.0,2026Q1,fixed,89,697,249,312.636,274.501,21.085,235.83,242.74,tile averages weighted by tile test count
+9109,Loncoche,Cautín,Región de La Araucanía,9.0,2026Q1,fixed,149,816,292,295.296,232.76,14.929,215.322,315.388,tile averages weighted by tile test count
+9110,Melipeuco,Cautín,Región de La Araucanía,9.0,2026Q1,fixed,35,164,51,104.78,19.791,31.561,326.927,352.36,tile averages weighted by tile test count
+9111,Nueva Imperial,Cautín,Región de La Araucanía,9.0,2026Q1,fixed,65,417,153,325.745,250.649,15.384,213.962,295.928,tile averages weighted by tile test count
+9112,Padre Las Casas,Cautín,Región de La Araucanía,9.0,2026Q1,fixed,126,782,356,336.407,293.954,13.999,189.453,220.427,tile averages weighted by tile test count
+9113,Perquenco,Cautín,Región de La Araucanía,9.0,2026Q1,fixed,17,134,33,546.34,430.378,10.836,146.216,292.082,tile averages weighted by tile test count
+9114,Pitrufquén,Cautín,Región de La Araucanía,9.0,2026Q1,fixed,90,640,238,364.715,301.704,13.402,172.434,230.158,tile averages weighted by tile test count
+9115,Pucón,Cautín,Región de La Araucanía,9.0,2026Q1,fixed,377,2480,1130,246.584,229.949,15.783,206.968,319.329,tile averages weighted by tile test count
+9116,Saavedra,Cautín,Región de La Araucanía,9.0,2026Q1,fixed,22,101,34,244.364,186.42,17.238,321.723,752.515,tile averages weighted by tile test count
+9117,Teodoro Schmidt,Cautín,Región de La Araucanía,9.0,2026Q1,fixed,44,150,57,387.703,289.335,19.193,311.127,417.5,tile averages weighted by tile test count
+9118,Toltén,Cautín,Región de La Araucanía,9.0,2026Q1,fixed,18,53,28,171.912,103.932,24.34,366.827,441.208,tile averages weighted by tile test count
+9119,Vilcún,Cautín,Región de La Araucanía,9.0,2026Q1,fixed,82,448,164,292.257,193.161,19.652,156.15,162.324,tile averages weighted by tile test count
+9120,Villarrica,Cautín,Región de La Araucanía,9.0,2026Q1,fixed,594,4210,1623,274.976,227.866,14.369,225.86,355.117,tile averages weighted by tile test count
+9121,Cholchol,Cautín,Región de La Araucanía,9.0,2026Q1,fixed,25,174,48,263.139,201.153,12.149,252.328,491.115,tile averages weighted by tile test count
+9201,Angol,Malleco,Región de La Araucanía,9.0,2026Q1,fixed,91,1302,379,422.867,319.602,8.785,239.22,264.62,tile averages weighted by tile test count
+9202,Collipulli,Malleco,Región de La Araucanía,9.0,2026Q1,fixed,65,354,128,292.812,185.466,17.703,381.336,378.732,tile averages weighted by tile test count
+9203,Curacautín,Malleco,Región de La Araucanía,9.0,2026Q1,fixed,99,324,155,242.714,160.372,27.546,319.347,325.377,tile averages weighted by tile test count
+9204,Ercilla,Malleco,Región de La Araucanía,9.0,2026Q1,fixed,18,135,43,616.476,390.283,12.481,253.733,270.941,tile averages weighted by tile test count
+9205,Lonquimay,Malleco,Región de La Araucanía,9.0,2026Q1,fixed,36,195,68,211.328,129.938,25.692,311.456,347.318,tile averages weighted by tile test count
+9206,Los Sauces,Malleco,Región de La Araucanía,9.0,2026Q1,fixed,14,90,31,418.449,290.288,30.911,316.967,256.389,tile averages weighted by tile test count
+9207,Lumaco,Malleco,Región de La Araucanía,9.0,2026Q1,fixed,27,123,42,105.841,19.808,34.0,489.138,132.894,tile averages weighted by tile test count
+9208,Purén,Malleco,Región de La Araucanía,9.0,2026Q1,fixed,18,77,38,437.946,326.708,10.377,240.091,231.908,tile averages weighted by tile test count
+9209,Renaico,Malleco,Región de La Araucanía,9.0,2026Q1,fixed,15,108,43,534.56,345.068,12.546,225.852,105.343,tile averages weighted by tile test count
+9210,Traiguén,Malleco,Región de La Araucanía,9.0,2026Q1,fixed,30,183,69,436.098,305.983,8.404,236.514,326.202,tile averages weighted by tile test count
+9211,Victoria,Malleco,Región de La Araucanía,9.0,2026Q1,fixed,60,381,151,337.407,291.325,16.871,205.937,286.239,tile averages weighted by tile test count
+10101,Puerto Montt,Llanquihue,Región de Los Lagos,10.0,2026Q1,fixed,526,6007,2167,420.576,342.659,10.651,273.4,258.517,tile averages weighted by tile test count
+10102,Calbuco,Llanquihue,Región de Los Lagos,10.0,2026Q1,fixed,40,132,47,181.924,37.941,23.477,384.045,145.326,tile averages weighted by tile test count
+10103,Cochamó,Llanquihue,Región de Los Lagos,10.0,2026Q1,fixed,65,140,76,213.635,134.636,29.986,382.836,270.386,tile averages weighted by tile test count
+10104,Fresia,Llanquihue,Región de Los Lagos,10.0,2026Q1,fixed,41,152,62,308.099,227.1,17.329,277.621,220.4,tile averages weighted by tile test count
+10105,Frutillar,Llanquihue,Región de Los Lagos,10.0,2026Q1,fixed,158,780,325,340.359,256.035,12.513,335.146,295.24,tile averages weighted by tile test count
+10106,Los Muermos,Llanquihue,Región de Los Lagos,10.0,2026Q1,fixed,55,204,80,320.909,270.244,15.5,276.685,313.294,tile averages weighted by tile test count
+10107,Llanquihue,Llanquihue,Región de Los Lagos,10.0,2026Q1,fixed,80,330,156,349.29,271.653,9.939,310.243,239.769,tile averages weighted by tile test count
+10108,Maullín,Llanquihue,Región de Los Lagos,10.0,2026Q1,fixed,34,119,59,348.088,257.078,16.832,427.798,397.37,tile averages weighted by tile test count
+10109,Puerto Varas,Llanquihue,Región de Los Lagos,10.0,2026Q1,fixed,350,2125,926,302.166,232.666,11.592,297.136,368.267,tile averages weighted by tile test count
+10201,Castro,Chiloe,Región de Los Lagos,10.0,2026Q1,fixed,101,476,214,339.129,273.464,12.288,326.248,303.105,tile averages weighted by tile test count
+10202,Ancud,Chiloe,Región de Los Lagos,10.0,2026Q1,fixed,116,662,223,211.413,119.619,19.796,295.621,490.562,tile averages weighted by tile test count
+10203,Chonchi,Chiloe,Región de Los Lagos,10.0,2026Q1,fixed,40,97,46,165.455,69.463,26.536,392.412,300.392,tile averages weighted by tile test count
+10204,Curaco de Vélez,Chiloe,Región de Los Lagos,10.0,2026Q1,fixed,2,4,2,493.095,677.741,12.0,99.75,35.0,tile averages weighted by tile test count
+10205,Dalcahue,Chiloe,Región de Los Lagos,10.0,2026Q1,fixed,24,98,35,97.781,56.734,27.02,543.316,457.102,tile averages weighted by tile test count
+10206,Puqueldón,Chiloe,Región de Los Lagos,10.0,2026Q1,fixed,5,30,10,269.112,220.462,14.667,160.033,312.233,tile averages weighted by tile test count
+10208,Quellón,Chiloe,Región de Los Lagos,10.0,2026Q1,fixed,50,265,89,283.162,145.041,18.423,196.204,289.925,tile averages weighted by tile test count
+10209,Quemchi,Chiloe,Región de Los Lagos,10.0,2026Q1,fixed,9,20,9,194.7,30.648,27.65,581.95,165.3,tile averages weighted by tile test count
+10210,Quinchao,Chiloe,Región de Los Lagos,10.0,2026Q1,fixed,8,19,10,366.812,272.68,11.158,317.316,222.842,tile averages weighted by tile test count
+10301,Osorno,Osorno,Región de Los Lagos,10.0,2026Q1,fixed,275,3359,1313,444.221,364.849,11.577,244.108,219.971,tile averages weighted by tile test count
+10302,Puerto Octay,Osorno,Región de Los Lagos,10.0,2026Q1,fixed,93,427,132,283.882,141.438,23.192,288.939,154.002,tile averages weighted by tile test count
+10303,Purranque,Osorno,Región de Los Lagos,10.0,2026Q1,fixed,63,380,129,490.946,388.254,13.684,231.687,207.405,tile averages weighted by tile test count
+10304,Puyehue,Osorno,Región de Los Lagos,10.0,2026Q1,fixed,81,346,140,211.084,119.118,23.121,307.606,172.379,tile averages weighted by tile test count
+10305,Río Negro,Osorno,Región de Los Lagos,10.0,2026Q1,fixed,38,291,89,583.833,425.726,14.131,226.756,303.983,tile averages weighted by tile test count
+10306,San Juan de la Costa,Osorno,Región de Los Lagos,10.0,2026Q1,fixed,21,45,25,159.253,26.849,29.044,178.533,63.422,tile averages weighted by tile test count
+10307,San Pablo,Osorno,Región de Los Lagos,10.0,2026Q1,fixed,34,110,58,565.93,420.895,13.409,271.318,299.236,tile averages weighted by tile test count
+10401,Chaitén,Palena,Región de Los Lagos,10.0,2026Q1,fixed,51,171,102,149.711,67.833,20.708,379.942,421.953,tile averages weighted by tile test count
+10402,Futaleufú,Palena,Región de Los Lagos,10.0,2026Q1,fixed,33,77,49,175.988,88.266,22.143,321.909,241.896,tile averages weighted by tile test count
+10403,Hualaihué,Palena,Región de Los Lagos,10.0,2026Q1,fixed,37,165,76,291.336,257.887,24.4,348.261,365.115,tile averages weighted by tile test count
+10404,Palena,Palena,Región de Los Lagos,10.0,2026Q1,fixed,10,19,13,140.626,106.216,28.684,774.895,346.368,tile averages weighted by tile test count
+11101,Coyhaique,Coyhaique,Región de Aysén del Gral.Ibañez del Campo,11.0,2026Q1,fixed,158,883,382,314.677,233.468,21.438,299.442,282.94,tile averages weighted by tile test count
+11102,Lago Verde,Coyhaique,Región de Aysén del Gral.Ibañez del Campo,11.0,2026Q1,fixed,9,12,9,272.205,95.146,26.917,147.417,113.417,tile averages weighted by tile test count
+11201,Aysén,Aysén,Región de Aysén del Gral.Ibañez del Campo,11.0,2026Q1,fixed,73,307,135,214.215,156.24,19.065,329.964,326.235,tile averages weighted by tile test count
+11202,Cisnes,Aysén,Región de Aysén del Gral.Ibañez del Campo,11.0,2026Q1,fixed,46,169,85,165.867,89.092,25.278,511.556,497.207,tile averages weighted by tile test count
+11301,Cochrane,Capitán Prat,Región de Aysén del Gral.Ibañez del Campo,11.0,2026Q1,fixed,33,72,48,253.265,144.695,30.194,382.264,181.639,tile averages weighted by tile test count
+11302,O'Higgins,Capitán Prat,Región de Aysén del Gral.Ibañez del Campo,11.0,2026Q1,fixed,4,10,4,132.077,41.048,37.7,206.2,53.6,tile averages weighted by tile test count
+11303,Tortel,Capitán Prat,Región de Aysén del Gral.Ibañez del Campo,11.0,2026Q1,fixed,10,20,12,142.921,29.238,34.85,297.85,178.75,tile averages weighted by tile test count
+11401,Chile Chico,General Carrera,Región de Aysén del Gral.Ibañez del Campo,11.0,2026Q1,fixed,49,231,84,181.806,81.951,28.026,315.904,405.641,tile averages weighted by tile test count
+11402,Río Ibáñez,General Carrera,Región de Aysén del Gral.Ibañez del Campo,11.0,2026Q1,fixed,59,164,108,179.174,77.482,29.902,331.988,256.372,tile averages weighted by tile test count
+12101,Punta Arenas,Magallanes,Región de Magallanes y Antártica Chilena,12.0,2026Q1,fixed,153,1417,596,399.088,300.111,46.855,332.873,264.804,tile averages weighted by tile test count
+12102,Laguna Blanca,Magallanes,Región de Magallanes y Antártica Chilena,12.0,2026Q1,fixed,22,27,23,127.688,19.36,71.111,359.333,353.926,tile averages weighted by tile test count
+12103,Río Verde,Magallanes,Región de Magallanes y Antártica Chilena,12.0,2026Q1,fixed,3,3,3,54.829,34.615,52.667,218.667,206.667,tile averages weighted by tile test count
+12104,San Gregorio,Magallanes,Región de Magallanes y Antártica Chilena,12.0,2026Q1,fixed,12,23,12,108.099,17.236,64.696,262.304,946.304,tile averages weighted by tile test count
+12201,Cabo de Hornos,Antártica Chilena,Región de Magallanes y Antártica Chilena,12.0,2026Q1,fixed,10,27,17,191.912,23.721,63.296,315.778,102.667,tile averages weighted by tile test count
+12301,Porvenir,Tierra del Fuego,Región de Magallanes y Antártica Chilena,12.0,2026Q1,fixed,27,106,51,360.655,262.713,50.821,803.248,264.657,tile averages weighted by tile test count
+12302,Primavera,Tierra del Fuego,Región de Magallanes y Antártica Chilena,12.0,2026Q1,fixed,12,33,18,262.473,24.254,56.242,291.333,175.758,tile averages weighted by tile test count
+12303,Timaukel,Tierra del Fuego,Región de Magallanes y Antártica Chilena,12.0,2026Q1,fixed,6,8,7,154.738,18.58,83.625,582.125,1298.375,tile averages weighted by tile test count
+12401,Natales,Ultima Esperanza,Región de Magallanes y Antártica Chilena,12.0,2026Q1,fixed,95,695,381,263.19,198.02,43.698,388.387,422.767,tile averages weighted by tile test count
+12402,Torres del Paine,Ultima Esperanza,Región de Magallanes y Antártica Chilena,12.0,2026Q1,fixed,60,139,121,110.25,18.365,50.115,544.662,509.626,tile averages weighted by tile test count
+13101,Santiago,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,92,17369,6709,425.167,372.177,4.473,200.647,197.637,tile averages weighted by tile test count
+13102,Cerrillos,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,56,2496,1046,430.106,374.646,4.895,226.904,213.341,tile averages weighted by tile test count
+13103,Cerro Navia,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,38,2742,1147,428.943,381.392,3.998,230.397,209.286,tile averages weighted by tile test count
+13104,Conchalí,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,40,3062,1353,434.783,392.279,4.125,224.257,245.922,tile averages weighted by tile test count
+13105,El Bosque,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,51,3241,1387,474.594,412.393,4.838,203.162,210.188,tile averages weighted by tile test count
+13106,Estación Central,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,49,4840,1941,437.292,378.736,4.767,217.571,207.204,tile averages weighted by tile test count
+13107,Huechuraba,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,87,5336,1864,398.527,349.157,4.541,190.515,222.79,tile averages weighted by tile test count
+13108,Independencia,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,27,2845,1189,457.527,396.939,4.435,191.856,238.833,tile averages weighted by tile test count
+13109,La Cisterna,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,39,4121,1609,469.099,406.533,5.016,205.995,187.803,tile averages weighted by tile test count
+13110,La Florida,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,155,14336,5255,469.977,406.822,4.624,191.478,232.839,tile averages weighted by tile test count
+13111,La Granja,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,39,2930,1222,459.354,412.236,4.469,211.697,216.432,tile averages weighted by tile test count
+13112,La Pintana,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,80,2115,867,459.631,391.682,4.143,201.871,314.19,tile averages weighted by tile test count
+13113,La Reina,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,72,4935,1697,413.378,344.88,5.372,246.035,235.789,tile averages weighted by tile test count
+13114,Las Condes,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,171,21266,7630,394.783,319.015,5.564,222.372,243.582,tile averages weighted by tile test count
+13115,Lo Barnechea,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,177,8032,2442,319.847,234.388,5.623,235.141,256.03,tile averages weighted by tile test count
+13116,Lo Espejo,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,31,1483,628,429.402,367.378,4.214,216.797,243.716,tile averages weighted by tile test count
+13117,Lo Prado,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,27,2036,860,433.267,388.463,4.029,204.671,189.76,tile averages weighted by tile test count
+13118,Macul,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,52,6114,2240,463.337,399.717,4.327,191.547,195.664,tile averages weighted by tile test count
+13119,Maipú,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,212,14283,5880,433.634,396.055,4.974,253.612,244.426,tile averages weighted by tile test count
+13120,Ñuñoa,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,61,12590,4710,446.642,385.583,4.377,211.215,208.847,tile averages weighted by tile test count
+13121,Pedro Aguirre Cerda,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,32,1843,846,416.779,365.247,4.466,263.283,247.468,tile averages weighted by tile test count
+13122,Peñalolén,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,115,8516,2819,416.151,345.46,5.13,206.521,228.174,tile averages weighted by tile test count
+13123,Providencia,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,55,9862,3885,415.695,351.421,5.112,224.179,242.145,tile averages weighted by tile test count
+13124,Pudahuel,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,167,6664,2650,413.824,366.32,6.04,233.285,206.817,tile averages weighted by tile test count
+13125,Quilicura,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,131,6294,2313,429.354,363.921,4.73,193.257,213.728,tile averages weighted by tile test count
+13126,Quinta Normal,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,46,3087,1321,455.315,400.066,4.248,200.695,184.634,tile averages weighted by tile test count
+13127,Recoleta,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,56,3874,1608,443.739,400.563,4.368,221.543,233.365,tile averages weighted by tile test count
+13128,Renca,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,74,3233,1401,412.121,364.436,4.394,264.566,270.182,tile averages weighted by tile test count
+13129,San Joaquín,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,37,2178,1057,458.102,416.173,4.604,187.32,194.59,tile averages weighted by tile test count
+13130,San Miguel,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,38,6227,2591,454.737,393.83,4.601,208.978,213.562,tile averages weighted by tile test count
+13131,San Ramón,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,25,1388,601,473.304,418.55,4.398,210.13,246.036,tile averages weighted by tile test count
+13132,Vitacura,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,fixed,85,6430,2273,354.27,280.945,5.444,237.502,249.939,tile averages weighted by tile test count
+13201,Puente Alto,Cordillera,Región Metropolitana de Santiago,13.0,2026Q1,fixed,237,14671,5730,439.129,381.77,4.956,212.743,244.724,tile averages weighted by tile test count
+13202,Pirque,Cordillera,Región Metropolitana de Santiago,13.0,2026Q1,fixed,153,798,275,267.358,216.945,6.754,227.623,324.467,tile averages weighted by tile test count
+13203,San José de Maipo,Cordillera,Región Metropolitana de Santiago,13.0,2026Q1,fixed,77,426,177,297.873,243.302,15.582,263.548,356.906,tile averages weighted by tile test count
+13301,Colina,Chacabuco,Región Metropolitana de Santiago,13.0,2026Q1,fixed,458,9039,2867,353.779,291.277,5.763,228.432,256.265,tile averages weighted by tile test count
+13302,Lampa,Chacabuco,Región Metropolitana de Santiago,13.0,2026Q1,fixed,278,4903,1638,383.891,313.675,7.589,236.873,264.338,tile averages weighted by tile test count
+13303,Tiltil,Chacabuco,Región Metropolitana de Santiago,13.0,2026Q1,fixed,69,477,187,346.416,245.048,8.0,163.011,238.025,tile averages weighted by tile test count
+13401,San Bernardo,Maipo,Región Metropolitana de Santiago,13.0,2026Q1,fixed,207,8428,3340,443.057,376.217,4.84,209.27,227.091,tile averages weighted by tile test count
+13402,Buin,Maipo,Región Metropolitana de Santiago,13.0,2026Q1,fixed,222,4727,1617,407.669,347.031,5.355,162.225,258.812,tile averages weighted by tile test count
+13403,Calera de Tango,Maipo,Región Metropolitana de Santiago,13.0,2026Q1,fixed,101,786,312,295.185,269.147,6.594,236.709,314.009,tile averages weighted by tile test count
+13404,Paine,Maipo,Región Metropolitana de Santiago,13.0,2026Q1,fixed,320,1924,757,329.475,273.117,7.241,217.381,278.456,tile averages weighted by tile test count
+13501,Melipilla,Melipilla,Región Metropolitana de Santiago,13.0,2026Q1,fixed,354,3866,1125,341.215,312.777,7.673,214.424,247.142,tile averages weighted by tile test count
+13502,Alhué,Melipilla,Región Metropolitana de Santiago,13.0,2026Q1,fixed,24,60,31,440.403,326.049,10.967,326.867,165.117,tile averages weighted by tile test count
+13503,Curacaví,Melipilla,Región Metropolitana de Santiago,13.0,2026Q1,fixed,131,978,288,235.321,194.992,9.118,321.781,352.815,tile averages weighted by tile test count
+13504,María Pinto,Melipilla,Región Metropolitana de Santiago,13.0,2026Q1,fixed,63,249,98,261.628,185.736,7.538,238.695,388.012,tile averages weighted by tile test count
+13505,San Pedro,Melipilla,Región Metropolitana de Santiago,13.0,2026Q1,fixed,55,481,71,138.085,122.982,7.083,603.11,583.252,tile averages weighted by tile test count
+13601,Talagante,Talagante,Región Metropolitana de Santiago,13.0,2026Q1,fixed,169,2258,866,360.635,335.264,7.47,215.209,247.548,tile averages weighted by tile test count
+13602,El Monte,Talagante,Región Metropolitana de Santiago,13.0,2026Q1,fixed,71,691,283,364.198,314.447,7.525,257.285,262.403,tile averages weighted by tile test count
+13603,Isla de Maipo,Talagante,Región Metropolitana de Santiago,13.0,2026Q1,fixed,125,1514,471,383.118,359.19,6.408,199.735,249.042,tile averages weighted by tile test count
+13604,Padre Hurtado,Talagante,Región Metropolitana de Santiago,13.0,2026Q1,fixed,93,2839,1135,423.27,377.173,5.979,230.263,212.968,tile averages weighted by tile test count
+13605,Peñaflor,Talagante,Región Metropolitana de Santiago,13.0,2026Q1,fixed,108,2927,1160,418.514,377.467,5.963,200.031,218.959,tile averages weighted by tile test count
+14101,Valdivia,Valdivia,Región de Los Ríos,14.0,2026Q1,fixed,303,3726,1593,378.798,324.729,10.709,206.521,272.856,tile averages weighted by tile test count
+14102,Corral,Valdivia,Región de Los Ríos,14.0,2026Q1,fixed,14,92,25,259.387,201.4,15.935,231.478,399.533,tile averages weighted by tile test count
+14103,Lanco,Valdivia,Región de Los Ríos,14.0,2026Q1,fixed,38,400,95,265.912,187.415,10.37,544.455,280.96,tile averages weighted by tile test count
+14104,Los Lagos,Valdivia,Región de Los Ríos,14.0,2026Q1,fixed,92,267,131,208.181,100.954,26.199,324.729,247.782,tile averages weighted by tile test count
+14105,Máfil,Valdivia,Región de Los Ríos,14.0,2026Q1,fixed,28,75,44,290.838,211.722,21.693,187.907,513.453,tile averages weighted by tile test count
+14106,Mariquina,Valdivia,Región de Los Ríos,14.0,2026Q1,fixed,75,344,146,318.657,246.478,12.922,185.442,416.488,tile averages weighted by tile test count
+14107,Paillaco,Valdivia,Región de Los Ríos,14.0,2026Q1,fixed,76,331,142,315.012,244.74,16.937,281.337,304.468,tile averages weighted by tile test count
+14108,Panguipulli,Valdivia,Región de Los Ríos,14.0,2026Q1,fixed,378,1875,697,162.806,79.42,28.335,314.716,291.335,tile averages weighted by tile test count
+14201,La Unión,Ranco,Región de Los Ríos,14.0,2026Q1,fixed,121,666,272,393.513,292.293,17.976,176.735,190.074,tile averages weighted by tile test count
+14202,Futrono,Ranco,Región de Los Ríos,14.0,2026Q1,fixed,161,909,303,197.74,128.036,25.966,310.0,436.146,tile averages weighted by tile test count
+14203,Lago Ranco,Ranco,Región de Los Ríos,14.0,2026Q1,fixed,123,674,203,138.244,62.849,29.674,260.828,268.136,tile averages weighted by tile test count
+14204,Río Bueno,Ranco,Región de Los Ríos,14.0,2026Q1,fixed,74,341,160,370.301,277.223,16.358,392.235,276.132,tile averages weighted by tile test count
+15101,Arica,Arica,Región de Arica y Parinacota,15.0,2026Q1,fixed,183,4919,1595,442.548,387.304,23.851,283.89,204.237,tile averages weighted by tile test count
+15102,Camarones,Arica,Región de Arica y Parinacota,15.0,2026Q1,fixed,2,4,2,109.801,20.618,40.5,228.0,180.5,tile averages weighted by tile test count
+15201,Putre,Parinacota,Región de Arica y Parinacota,15.0,2026Q1,fixed,8,17,11,188.532,31.518,45.353,184.412,82.706,tile averages weighted by tile test count
+15202,General Lagos,Parinacota,Región de Arica y Parinacota,15.0,2026Q1,fixed,5,8,5,171.907,30.204,44.375,82.5,71.5,tile averages weighted by tile test count
+16101,Chillán,Ñuble,Región de Ñuble,16.0,2026Q1,fixed,286,4411,1725,447.683,395.561,9.079,213.435,224.422,tile averages weighted by tile test count
+16102,Bulnes,Ñuble,Región de Ñuble,16.0,2026Q1,fixed,71,360,133,295.939,218.668,20.45,300.058,368.553,tile averages weighted by tile test count
+16103,Chillán Viejo,Ñuble,Región de Ñuble,16.0,2026Q1,fixed,58,603,275,442.297,373.688,11.541,207.733,172.063,tile averages weighted by tile test count
+16104,El Carmen,Ñuble,Región de Ñuble,16.0,2026Q1,fixed,31,159,66,282.961,202.258,18.132,281.34,252.101,tile averages weighted by tile test count
+16105,Pemuco,Ñuble,Región de Ñuble,16.0,2026Q1,fixed,32,97,53,258.089,167.972,22.062,407.66,274.292,tile averages weighted by tile test count
+16106,Pinto,Ñuble,Región de Ñuble,16.0,2026Q1,fixed,97,366,151,267.237,170.02,16.467,305.205,243.153,tile averages weighted by tile test count
+16107,Quillón,Ñuble,Región de Ñuble,16.0,2026Q1,fixed,84,451,143,342.365,277.143,13.322,288.953,240.814,tile averages weighted by tile test count
+16108,San Ignacio,Ñuble,Región de Ñuble,16.0,2026Q1,fixed,39,137,58,251.296,169.609,26.92,425.883,479.029,tile averages weighted by tile test count
+16109,Yungay,Ñuble,Región de Ñuble,16.0,2026Q1,fixed,69,282,121,323.405,244.951,14.738,259.085,288.085,tile averages weighted by tile test count
+16201,Quirihue,Itata,Región de Ñuble,16.0,2026Q1,fixed,20,135,40,284.954,244.97,6.919,282.104,307.23,tile averages weighted by tile test count
+16202,Cobquecura,Itata,Región de Ñuble,16.0,2026Q1,fixed,28,96,36,271.297,168.859,14.635,405.625,322.771,tile averages weighted by tile test count
+16203,Coelemu,Itata,Región de Ñuble,16.0,2026Q1,fixed,27,220,60,295.61,329.666,8.55,153.918,247.173,tile averages weighted by tile test count
+16204,Ninhue,Itata,Región de Ñuble,16.0,2026Q1,fixed,14,36,16,136.473,94.767,23.333,299.0,437.417,tile averages weighted by tile test count
+16205,Portezuelo,Itata,Región de Ñuble,16.0,2026Q1,fixed,19,47,24,159.809,94.184,43.085,554.617,960.638,tile averages weighted by tile test count
+16206,Ranquil,Itata,Región de Ñuble,16.0,2026Q1,fixed,28,68,36,283.928,179.028,22.926,234.353,244.632,tile averages weighted by tile test count
+16207,Treguaco,Itata,Región de Ñuble,16.0,2026Q1,fixed,9,34,13,337.346,244.534,7.618,424.5,273.059,tile averages weighted by tile test count
+16301,San Carlos,Punilla,Región de Ñuble,16.0,2026Q1,fixed,146,1093,374,311.89,252.984,10.835,237.761,273.408,tile averages weighted by tile test count
+16302,Coihueco,Punilla,Región de Ñuble,16.0,2026Q1,fixed,77,293,134,244.576,184.639,24.089,255.0,236.716,tile averages weighted by tile test count
+16303,Ñiquén,Punilla,Región de Ñuble,16.0,2026Q1,fixed,39,164,57,161.196,78.834,16.299,192.432,359.134,tile averages weighted by tile test count
+16304,San Fabián,Punilla,Región de Ñuble,16.0,2026Q1,fixed,25,77,35,151.622,58.195,61.805,449.208,388.273,tile averages weighted by tile test count
+16305,San Nicolás,Punilla,Región de Ñuble,16.0,2026Q1,fixed,68,283,99,138.767,103.916,20.88,485.375,578.753,tile averages weighted by tile test count
+1101,Iquique,Iquique,Región de Tarapacá,1.0,2026Q1,mobile,98,667,390,85.075,22.932,58.999,1444.575,1233.978,tile averages weighted by tile test count
+1107,Alto Hospicio,Iquique,Región de Tarapacá,1.0,2026Q1,mobile,66,522,236,55.12,17.989,55.789,1826.824,1275.475,tile averages weighted by tile test count
+1401,Pozo Almonte,Tamarugal,Región de Tarapacá,1.0,2026Q1,mobile,53,233,101,74.091,15.816,60.185,1572.773,1329.163,tile averages weighted by tile test count
+1402,Camiña,Tamarugal,Región de Tarapacá,1.0,2026Q1,mobile,3,7,4,140.451,10.712,72.857,996.286,1031.429,tile averages weighted by tile test count
+1403,Colchane,Tamarugal,Región de Tarapacá,1.0,2026Q1,mobile,2,2,2,16.524,4.994,114.5,4553.0,1493.0,tile averages weighted by tile test count
+1404,Huara,Tamarugal,Región de Tarapacá,1.0,2026Q1,mobile,26,113,37,42.588,10.277,53.522,1911.832,1908.292,tile averages weighted by tile test count
+1405,Pica,Tamarugal,Región de Tarapacá,1.0,2026Q1,mobile,36,130,63,90.451,16.155,48.254,1208.651,1440.138,tile averages weighted by tile test count
+2101,Antofagasta,Antofagasta,Región de Antofagasta,2.0,2026Q1,mobile,220,1707,787,82.831,21.341,38.596,1849.167,1214.757,tile averages weighted by tile test count
+2102,Mejillones,Antofagasta,Región de Antofagasta,2.0,2026Q1,mobile,31,140,57,60.092,15.274,45.021,1904.457,874.136,tile averages weighted by tile test count
+2103,Sierra Gorda,Antofagasta,Región de Antofagasta,2.0,2026Q1,mobile,68,204,120,27.134,11.74,50.701,2208.813,1394.172,tile averages weighted by tile test count
+2104,Taltal,Antofagasta,Región de Antofagasta,2.0,2026Q1,mobile,35,84,51,90.421,31.04,40.512,1441.095,854.476,tile averages weighted by tile test count
+2201,Calama,El Loa,Región de Antofagasta,2.0,2026Q1,mobile,156,1004,480,93.026,24.088,44.402,1697.271,1122.134,tile averages weighted by tile test count
+2202,Ollagüe,El Loa,Región de Antofagasta,2.0,2026Q1,mobile,2,2,2,122.971,17.404,43.5,320.5,1090.0,tile averages weighted by tile test count
+2203,San Pedro de Atacama,El Loa,Región de Antofagasta,2.0,2026Q1,mobile,47,261,103,58.65,16.023,69.218,1715.93,1514.95,tile averages weighted by tile test count
+2301,Tocopilla,Tocopilla,Región de Antofagasta,2.0,2026Q1,mobile,22,127,55,98.453,21.207,34.079,2111.976,1055.087,tile averages weighted by tile test count
+2302,María Elena,Tocopilla,Región de Antofagasta,2.0,2026Q1,mobile,23,55,43,35.096,12.447,56.636,1829.964,1927.509,tile averages weighted by tile test count
+3101,Copiapó,Copiapó,Región de Atacama,3.0,2026Q1,mobile,154,832,445,89.904,22.814,32.142,2001.924,1209.636,tile averages weighted by tile test count
+3102,Caldera,Copiapó,Región de Atacama,3.0,2026Q1,mobile,69,270,151,65.675,16.566,51.737,2009.187,1822.656,tile averages weighted by tile test count
+3103,Tierra Amarilla,Copiapó,Región de Atacama,3.0,2026Q1,mobile,47,146,64,69.149,13.547,35.521,1719.815,1568.568,tile averages weighted by tile test count
+3201,Chañaral,Chañaral,Región de Atacama,3.0,2026Q1,mobile,25,106,60,91.75,23.754,36.953,1383.585,1139.226,tile averages weighted by tile test count
+3202,Diego de Almagro,Chañaral,Región de Atacama,3.0,2026Q1,mobile,35,156,84,104.98,21.496,40.353,1558.167,1172.391,tile averages weighted by tile test count
+3301,Vallenar,Huasco,Región de Atacama,3.0,2026Q1,mobile,77,341,166,74.214,18.104,42.657,1582.669,1298.481,tile averages weighted by tile test count
+3302,Alto del Carmen,Huasco,Región de Atacama,3.0,2026Q1,mobile,22,48,24,48.886,7.501,48.479,1672.354,1660.812,tile averages weighted by tile test count
+3303,Freirina,Huasco,Región de Atacama,3.0,2026Q1,mobile,23,201,56,84.437,18.014,55.443,1201.542,1355.214,tile averages weighted by tile test count
+3304,Huasco,Huasco,Región de Atacama,3.0,2026Q1,mobile,25,245,89,119.745,23.03,43.241,1319.792,1194.151,tile averages weighted by tile test count
+4101,La Serena,Elqui,Región de Coquimbo,4.0,2026Q1,mobile,235,1645,850,89.028,22.639,32.076,1616.716,1163.226,tile averages weighted by tile test count
+4102,Coquimbo,Elqui,Región de Coquimbo,4.0,2026Q1,mobile,305,1995,902,78.106,19.033,31.411,1704.754,1274.61,tile averages weighted by tile test count
+4103,Andacollo,Elqui,Región de Coquimbo,4.0,2026Q1,mobile,22,42,30,109.241,21.24,31.524,1495.707,1013.762,tile averages weighted by tile test count
+4104,La Higuera,Elqui,Región de Coquimbo,4.0,2026Q1,mobile,25,111,32,48.459,7.565,80.604,1226.369,2290.216,tile averages weighted by tile test count
+4105,Paihuano,Elqui,Región de Coquimbo,4.0,2026Q1,mobile,41,144,74,66.577,12.598,43.861,1737.528,1595.819,tile averages weighted by tile test count
+4106,Vicuña,Elqui,Región de Coquimbo,4.0,2026Q1,mobile,62,154,93,97.003,19.449,32.123,1485.099,1129.851,tile averages weighted by tile test count
+4201,Illapel,Choapa,Región de Coquimbo,4.0,2026Q1,mobile,59,177,100,81.893,17.147,34.525,1876.576,1700.966,tile averages weighted by tile test count
+4202,Canela,Choapa,Región de Coquimbo,4.0,2026Q1,mobile,28,97,38,42.455,12.679,127.938,1348.812,2361.794,tile averages weighted by tile test count
+4203,Los Vilos,Choapa,Región de Coquimbo,4.0,2026Q1,mobile,99,544,237,67.017,14.251,110.369,1810.445,1499.89,tile averages weighted by tile test count
+4204,Salamanca,Choapa,Región de Coquimbo,4.0,2026Q1,mobile,84,243,142,75.862,18.249,71.267,1516.678,1261.609,tile averages weighted by tile test count
+4301,Ovalle,Limarí,Región de Coquimbo,4.0,2026Q1,mobile,153,606,288,69.692,19.125,33.38,1704.384,1437.85,tile averages weighted by tile test count
+4302,Combarbalá,Limarí,Región de Coquimbo,4.0,2026Q1,mobile,27,110,47,116.029,21.519,53.318,1044.5,1126.791,tile averages weighted by tile test count
+4303,Monte Patria,Limarí,Región de Coquimbo,4.0,2026Q1,mobile,55,154,75,40.181,12.062,40.117,2039.627,1461.869,tile averages weighted by tile test count
+4304,Punitaqui,Limarí,Región de Coquimbo,4.0,2026Q1,mobile,21,52,26,63.381,11.739,36.058,1244.837,1869.808,tile averages weighted by tile test count
+4305,Río Hurtado,Limarí,Región de Coquimbo,4.0,2026Q1,mobile,11,23,14,57.306,8.645,32.043,998.739,1097.435,tile averages weighted by tile test count
+5101,Valparaíso,Valparaíso,Región de Valparaíso,5.0,2026Q1,mobile,232,1847,871,93.962,20.18,25.069,1462.292,1225.49,tile averages weighted by tile test count
+5102,Casablanca,Valparaíso,Región de Valparaíso,5.0,2026Q1,mobile,137,397,208,76.962,17.673,39.431,1507.065,1352.894,tile averages weighted by tile test count
+5103,Concón,Valparaíso,Región de Valparaíso,5.0,2026Q1,mobile,65,421,218,103.716,18.648,25.705,1424.344,1220.675,tile averages weighted by tile test count
+5105,Puchuncaví,Valparaíso,Región de Valparaíso,5.0,2026Q1,mobile,110,503,270,93.016,18.571,28.308,1709.204,1248.899,tile averages weighted by tile test count
+5107,Quintero,Valparaíso,Región de Valparaíso,5.0,2026Q1,mobile,83,438,213,70.359,14.964,29.5,1932.443,1545.845,tile averages weighted by tile test count
+5109,Viña del Mar,Valparaíso,Región de Valparaíso,5.0,2026Q1,mobile,226,3063,1234,108.068,25.818,25.832,1578.865,976.661,tile averages weighted by tile test count
+5301,Los Andes,Los Andes,Región de Valparaíso,5.0,2026Q1,mobile,84,755,225,73.266,16.717,25.212,1261.334,1181.51,tile averages weighted by tile test count
+5302,Calle Larga,Los Andes,Región de Valparaíso,5.0,2026Q1,mobile,27,51,38,111.311,15.514,21.647,1243.667,1373.922,tile averages weighted by tile test count
+5303,Rinconada,Los Andes,Región de Valparaíso,5.0,2026Q1,mobile,23,59,29,93.329,14.084,21.305,2131.746,1524.695,tile averages weighted by tile test count
+5304,San Esteban,Los Andes,Región de Valparaíso,5.0,2026Q1,mobile,31,75,43,100.762,15.727,21.533,1381.216,1142.149,tile averages weighted by tile test count
+5401,La Ligua,Petorca,Región de Valparaíso,5.0,2026Q1,mobile,122,751,277,63.827,17.416,84.762,1716.097,1279.658,tile averages weighted by tile test count
+5402,Cabildo,Petorca,Región de Valparaíso,5.0,2026Q1,mobile,30,149,47,102.466,18.336,29.725,1747.718,1292.416,tile averages weighted by tile test count
+5403,Papudo,Petorca,Región de Valparaíso,5.0,2026Q1,mobile,44,405,162,66.795,20.27,37.41,1487.538,1220.706,tile averages weighted by tile test count
+5404,Petorca,Petorca,Región de Valparaíso,5.0,2026Q1,mobile,23,66,24,65.839,11.017,173.439,1321.076,2141.015,tile averages weighted by tile test count
+5405,Zapallar,Petorca,Región de Valparaíso,5.0,2026Q1,mobile,56,271,118,141.33,31.488,31.513,1169.133,1000.893,tile averages weighted by tile test count
+5501,Quillota,Quillota,Región de Valparaíso,5.0,2026Q1,mobile,106,536,230,89.114,18.417,24.125,1645.886,1230.508,tile averages weighted by tile test count
+5502,Calera,Quillota,Región de Valparaíso,5.0,2026Q1,mobile,45,332,140,64.93,17.248,26.148,1853.644,998.117,tile averages weighted by tile test count
+5503,Hijuelas,Quillota,Región de Valparaíso,5.0,2026Q1,mobile,41,154,70,71.462,12.038,24.714,1708.24,1098.448,tile averages weighted by tile test count
+5504,La Cruz,Quillota,Región de Valparaíso,5.0,2026Q1,mobile,31,110,48,89.839,16.854,31.618,2392.56,1838.036,tile averages weighted by tile test count
+5506,Nogales,Quillota,Región de Valparaíso,5.0,2026Q1,mobile,50,125,72,65.798,14.114,30.672,1393.744,1569.52,tile averages weighted by tile test count
+5601,San Antonio,San Antonio,Región de Valparaíso,5.0,2026Q1,mobile,129,881,414,96.679,18.439,27.756,1678.028,1403.3,tile averages weighted by tile test count
+5602,Algarrobo,San Antonio,Región de Valparaíso,5.0,2026Q1,mobile,104,622,274,79.47,17.562,33.129,1706.317,1376.109,tile averages weighted by tile test count
+5603,Cartagena,San Antonio,Región de Valparaíso,5.0,2026Q1,mobile,57,471,207,70.312,14.671,32.76,2111.321,1436.677,tile averages weighted by tile test count
+5604,El Quisco,San Antonio,Región de Valparaíso,5.0,2026Q1,mobile,81,729,275,128.502,29.924,28.593,1663.466,1083.818,tile averages weighted by tile test count
+5605,El Tabo,San Antonio,Región de Valparaíso,5.0,2026Q1,mobile,85,684,335,88.087,18.448,43.839,1874.351,1141.287,tile averages weighted by tile test count
+5606,Santo Domingo,San Antonio,Región de Valparaíso,5.0,2026Q1,mobile,69,243,109,79.266,17.226,30.877,1730.485,1233.227,tile averages weighted by tile test count
+5701,San Felipe,San Felipe,Región de Valparaíso,5.0,2026Q1,mobile,74,473,220,90.015,18.52,24.3,1313.078,1323.879,tile averages weighted by tile test count
+5702,Catemu,San Felipe,Región de Valparaíso,5.0,2026Q1,mobile,40,169,64,85.802,15.241,31.101,1171.857,1108.583,tile averages weighted by tile test count
+5703,Llaillay,San Felipe,Región de Valparaíso,5.0,2026Q1,mobile,58,233,92,71.401,17.754,23.133,1187.815,1034.682,tile averages weighted by tile test count
+5704,Panquehue,San Felipe,Región de Valparaíso,5.0,2026Q1,mobile,36,256,70,113.491,16.725,26.059,1363.686,982.266,tile averages weighted by tile test count
+5705,Putaendo,San Felipe,Región de Valparaíso,5.0,2026Q1,mobile,31,93,40,89.634,13.244,101.978,1291.522,1430.444,tile averages weighted by tile test count
+5706,Santa María,San Felipe,Región de Valparaíso,5.0,2026Q1,mobile,27,62,41,104.627,15.287,19.274,1297.656,1247.508,tile averages weighted by tile test count
+5801,Quilpué,Marga Marga,Región de Valparaíso,5.0,2026Q1,mobile,131,1025,439,94.403,21.109,24.029,1329.74,1224.893,tile averages weighted by tile test count
+5802,Limache,Marga Marga,Región de Valparaíso,5.0,2026Q1,mobile,115,413,199,81.01,15.642,30.237,1573.749,1360.157,tile averages weighted by tile test count
+5803,Olmué,Marga Marga,Región de Valparaíso,5.0,2026Q1,mobile,81,334,146,82.313,14.768,30.458,1369.453,1167.231,tile averages weighted by tile test count
+5804,Villa Alemana,Marga Marga,Región de Valparaíso,5.0,2026Q1,mobile,94,595,268,117.901,24.019,27.371,1451.573,1003.654,tile averages weighted by tile test count
+6101,Rancagua,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,186,1184,584,102.56,22.637,22.981,1194.68,1105.074,tile averages weighted by tile test count
+6102,Codegua,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,18,44,26,89.52,15.711,23.773,1132.093,1377.395,tile averages weighted by tile test count
+6103,Coinco,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,14,41,20,98.522,10.663,26.146,1090.854,1442.366,tile averages weighted by tile test count
+6104,Coltauco,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,56,377,80,31.14,7.542,37.589,2306.016,1430.79,tile averages weighted by tile test count
+6105,Doñihue,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,40,103,69,135.33,22.002,26.854,1466.284,1242.255,tile averages weighted by tile test count
+6106,Graneros,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,40,101,66,95.768,19.74,20.465,1205.85,1021.762,tile averages weighted by tile test count
+6107,Las Cabras,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,144,471,239,60.686,14.557,60.454,1435.1,1463.783,tile averages weighted by tile test count
+6108,Machalí,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,81,275,159,98.598,20.947,22.789,1059.796,1086.055,tile averages weighted by tile test count
+6109,Malloa,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,50,141,72,71.437,16.36,31.284,1532.629,1192.617,tile averages weighted by tile test count
+6110,Mostazal,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,45,155,82,109.759,20.14,31.161,1048.461,1205.465,tile averages weighted by tile test count
+6111,Olivar,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,27,80,44,143.833,25.732,20.788,1201.38,835.062,tile averages weighted by tile test count
+6112,Peumo,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,28,90,51,113.492,24.04,34.367,867.356,1203.522,tile averages weighted by tile test count
+6113,Pichidegua,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,53,297,78,73.946,19.013,52.572,879.759,1140.767,tile averages weighted by tile test count
+6114,Quinta de Tilcoco,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,26,135,40,103.254,21.52,23.874,1257.133,992.081,tile averages weighted by tile test count
+6115,Rengo,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,94,406,177,83.693,15.38,29.704,1699.656,1473.17,tile averages weighted by tile test count
+6116,Requínoa,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,62,228,103,103.633,18.974,22.377,958.974,1153.163,tile averages weighted by tile test count
+6117,San Vicente,Cachapoal,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,93,267,152,91.236,15.621,40.116,1468.106,1423.451,tile averages weighted by tile test count
+6201,Pichilemu,Cardenal Caro,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,88,546,292,99.643,21.036,51.487,1098.273,1340.868,tile averages weighted by tile test count
+6202,La Estrella,Cardenal Caro,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,46,168,58,54.167,12.492,65.024,1641.5,1791.287,tile averages weighted by tile test count
+6203,Litueche,Cardenal Caro,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,37,126,54,86.601,14.614,32.214,1016.508,1064.238,tile averages weighted by tile test count
+6204,Marchigüe,Cardenal Caro,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,46,197,64,98.124,13.165,46.396,1056.325,1368.416,tile averages weighted by tile test count
+6205,Navidad,Cardenal Caro,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,53,214,107,73.581,18.547,77.051,1467.516,1690.159,tile averages weighted by tile test count
+6206,Paredones,Cardenal Caro,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,53,200,83,61.922,14.839,33.525,1031.869,1160.583,tile averages weighted by tile test count
+6301,San Fernando,Colchagua,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,113,384,233,104.509,19.933,26.404,1418.801,1316.869,tile averages weighted by tile test count
+6302,Chépica,Colchagua,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,28,79,42,74.331,10.661,47.165,1442.19,1676.658,tile averages weighted by tile test count
+6303,Chimbarongo,Colchagua,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,84,803,123,109.386,30.317,21.224,806.695,546.521,tile averages weighted by tile test count
+6304,Lolol,Colchagua,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,78,275,113,90.598,19.174,25.767,1345.38,832.12,tile averages weighted by tile test count
+6305,Nancagua,Colchagua,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,30,71,43,113.684,19.993,27.014,1173.282,1406.549,tile averages weighted by tile test count
+6306,Palmilla,Colchagua,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,37,75,44,111.444,24.227,32.133,959.176,1335.427,tile averages weighted by tile test count
+6307,Peralillo,Colchagua,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,41,93,55,102.077,30.415,33.086,1142.902,1029.011,tile averages weighted by tile test count
+6308,Placilla,Colchagua,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,22,85,24,80.11,11.904,25.153,991.8,1115.214,tile averages weighted by tile test count
+6309,Pumanque,Colchagua,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,30,69,36,29.32,7.821,34.507,2305.176,2565.899,tile averages weighted by tile test count
+6310,Santa Cruz,Colchagua,Región del Libertador Bernardo O'Higgins,6.0,2026Q1,mobile,82,354,162,87.029,16.742,29.46,1267.559,1332.969,tile averages weighted by tile test count
+7101,Talca,Talca,Región del Maule,7.0,2026Q1,mobile,204,1442,704,126.17,26.153,30.686,1324.911,1191.257,tile averages weighted by tile test count
+7102,Constitución,Talca,Región del Maule,7.0,2026Q1,mobile,81,340,188,79.415,19.444,34.679,1314.768,1309.437,tile averages weighted by tile test count
+7103,Curepto,Talca,Región del Maule,7.0,2026Q1,mobile,36,141,49,45.047,14.518,28.66,1217.241,1257.319,tile averages weighted by tile test count
+7104,Empedrado,Talca,Región del Maule,7.0,2026Q1,mobile,12,16,13,37.329,12.44,30.062,1938.0,1070.938,tile averages weighted by tile test count
+7105,Maule,Talca,Región del Maule,7.0,2026Q1,mobile,98,465,184,57.559,14.436,26.254,1534.312,1198.248,tile averages weighted by tile test count
+7106,Pelarco,Talca,Región del Maule,7.0,2026Q1,mobile,21,50,28,81.028,14.745,30.26,1834.84,2045.46,tile averages weighted by tile test count
+7107,Pencahue,Talca,Región del Maule,7.0,2026Q1,mobile,59,97,60,44.632,9.169,35.124,1999.771,1945.344,tile averages weighted by tile test count
+7108,Río Claro,Talca,Región del Maule,7.0,2026Q1,mobile,38,80,48,136.195,21.881,27.625,1411.924,1490.05,tile averages weighted by tile test count
+7109,San Clemente,Talca,Región del Maule,7.0,2026Q1,mobile,142,341,189,36.617,9.652,32.443,1725.955,1530.115,tile averages weighted by tile test count
+7110,San Rafael,Talca,Región del Maule,7.0,2026Q1,mobile,37,92,50,130.504,22.945,27.076,1148.054,1423.554,tile averages weighted by tile test count
+7201,Cauquenes,Cauquenes,Región del Maule,7.0,2026Q1,mobile,85,280,144,65.736,13.598,29.9,2044.812,1880.518,tile averages weighted by tile test count
+7202,Chanco,Cauquenes,Región del Maule,7.0,2026Q1,mobile,23,143,51,80.36,26.591,104.329,1705.39,1491.437,tile averages weighted by tile test count
+7203,Pelluhue,Cauquenes,Región del Maule,7.0,2026Q1,mobile,67,361,149,53.33,14.929,97.928,1343.953,1564.958,tile averages weighted by tile test count
+7301,Curicó,Curicó,Región del Maule,7.0,2026Q1,mobile,168,791,413,119.661,22.254,27.281,1272.518,1347.869,tile averages weighted by tile test count
+7302,Hualañé,Curicó,Región del Maule,7.0,2026Q1,mobile,42,113,59,78.684,19.451,49.85,1067.336,1519.434,tile averages weighted by tile test count
+7303,Licantén,Curicó,Región del Maule,7.0,2026Q1,mobile,31,107,70,93.54,20.164,40.234,1158.925,1350.841,tile averages weighted by tile test count
+7304,Molina,Curicó,Región del Maule,7.0,2026Q1,mobile,101,427,214,102.068,19.53,28.817,1159.376,1107.326,tile averages weighted by tile test count
+7305,Rauco,Curicó,Región del Maule,7.0,2026Q1,mobile,24,101,34,76.709,13.299,28.723,1222.238,1627.554,tile averages weighted by tile test count
+7306,Romeral,Curicó,Región del Maule,7.0,2026Q1,mobile,50,227,92,88.987,14.124,29.709,2126.791,1473.434,tile averages weighted by tile test count
+7307,Sagrada Familia,Curicó,Región del Maule,7.0,2026Q1,mobile,39,96,54,66.397,11.005,40.615,1274.305,1559.781,tile averages weighted by tile test count
+7308,Teno,Curicó,Región del Maule,7.0,2026Q1,mobile,84,148,101,63.125,10.692,42.101,1808.24,1586.932,tile averages weighted by tile test count
+7309,Vichuquén,Curicó,Región del Maule,7.0,2026Q1,mobile,35,74,44,77.025,18.886,40.892,1261.865,1491.108,tile averages weighted by tile test count
+7401,Linares,Linares,Región del Maule,7.0,2026Q1,mobile,144,567,307,82.111,15.868,34.596,1672.057,1485.69,tile averages weighted by tile test count
+7402,Colbún,Linares,Región del Maule,7.0,2026Q1,mobile,72,239,100,62.719,13.217,29.987,1535.567,1389.071,tile averages weighted by tile test count
+7403,Longaví,Linares,Región del Maule,7.0,2026Q1,mobile,107,300,142,43.91,11.344,34.3,1931.279,1711.73,tile averages weighted by tile test count
+7404,Parral,Linares,Región del Maule,7.0,2026Q1,mobile,94,595,181,56.337,15.084,141.119,1510.364,1727.358,tile averages weighted by tile test count
+7405,Retiro,Linares,Región del Maule,7.0,2026Q1,mobile,52,107,62,37.69,10.849,41.421,2432.76,2159.121,tile averages weighted by tile test count
+7406,San Javier,Linares,Región del Maule,7.0,2026Q1,mobile,87,336,140,58.971,18.227,34.72,1437.764,1163.345,tile averages weighted by tile test count
+7407,Villa Alegre,Linares,Región del Maule,7.0,2026Q1,mobile,40,83,58,85.892,11.314,29.217,1491.8,1875.578,tile averages weighted by tile test count
+7408,Yerbas Buenas,Linares,Región del Maule,7.0,2026Q1,mobile,52,171,79,100.597,20.123,28.93,1474.136,1316.222,tile averages weighted by tile test count
+8101,Concepción,Concepción,Región del Bío-Bío,8.0,2026Q1,mobile,151,1310,690,98.317,24.769,31.913,1738.144,1186.726,tile averages weighted by tile test count
+8102,Coronel,Concepción,Región del Bío-Bío,8.0,2026Q1,mobile,101,376,239,106.466,20.428,33.439,1821.579,1265.362,tile averages weighted by tile test count
+8103,Chiguayante,Concepción,Región del Bío-Bío,8.0,2026Q1,mobile,44,150,90,87.711,19.664,37.167,2000.577,1513.466,tile averages weighted by tile test count
+8104,Florida,Concepción,Región del Bío-Bío,8.0,2026Q1,mobile,72,169,84,80.137,13.478,33.74,1841.448,1981.935,tile averages weighted by tile test count
+8105,Hualqui,Concepción,Región del Bío-Bío,8.0,2026Q1,mobile,71,197,94,79.314,15.906,33.655,1978.462,1368.756,tile averages weighted by tile test count
+8106,Lota,Concepción,Región del Bío-Bío,8.0,2026Q1,mobile,27,111,53,99.046,18.685,26.685,1907.757,1401.018,tile averages weighted by tile test count
+8107,Penco,Concepción,Región del Bío-Bío,8.0,2026Q1,mobile,39,129,82,76.385,19.059,31.566,1703.233,975.651,tile averages weighted by tile test count
+8108,San Pedro de la Paz,Concepción,Región del Bío-Bío,8.0,2026Q1,mobile,90,449,219,116.517,22.354,27.746,1622.808,1192.951,tile averages weighted by tile test count
+8109,Santa Juana,Concepción,Región del Bío-Bío,8.0,2026Q1,mobile,58,181,63,89.155,11.763,30.718,2284.0,2482.204,tile averages weighted by tile test count
+8110,Talcahuano,Concepción,Región del Bío-Bío,8.0,2026Q1,mobile,92,505,287,105.971,25.553,30.085,1802.994,1283.002,tile averages weighted by tile test count
+8111,Tomé,Concepción,Región del Bío-Bío,8.0,2026Q1,mobile,66,236,141,68.13,17.759,59.653,1710.553,1469.838,tile averages weighted by tile test count
+8112,Hualpén,Concepción,Región del Bío-Bío,8.0,2026Q1,mobile,56,337,161,83.432,19.342,33.884,2105.579,1480.533,tile averages weighted by tile test count
+8201,Lebu,Arauco,Región del Bío-Bío,8.0,2026Q1,mobile,45,150,68,90.585,22.375,57.187,1116.9,1302.147,tile averages weighted by tile test count
+8202,Arauco,Arauco,Región del Bío-Bío,8.0,2026Q1,mobile,52,208,92,72.97,21.547,42.572,1417.5,1236.409,tile averages weighted by tile test count
+8203,Cañete,Arauco,Región del Bío-Bío,8.0,2026Q1,mobile,82,366,151,89.058,18.125,38.719,1763.096,1377.041,tile averages weighted by tile test count
+8204,Contulmo,Arauco,Región del Bío-Bío,8.0,2026Q1,mobile,33,132,42,63.05,10.325,35.667,2080.364,1262.22,tile averages weighted by tile test count
+8205,Curanilahue,Arauco,Región del Bío-Bío,8.0,2026Q1,mobile,29,70,41,58.845,13.337,31.971,1889.143,1758.814,tile averages weighted by tile test count
+8206,Los Alamos,Arauco,Región del Bío-Bío,8.0,2026Q1,mobile,32,66,43,141.665,29.189,30.273,1561.136,1187.591,tile averages weighted by tile test count
+8207,Tirúa,Arauco,Región del Bío-Bío,8.0,2026Q1,mobile,58,344,126,57.819,15.602,44.241,1629.971,1553.804,tile averages weighted by tile test count
+8301,Los Ángeles,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,mobile,343,1507,730,70.61,16.998,35.052,2002.652,1441.458,tile averages weighted by tile test count
+8302,Antuco,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,mobile,23,54,34,28.103,10.632,35.019,2612.17,1512.778,tile averages weighted by tile test count
+8303,Cabrero,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,mobile,81,245,141,64.083,12.468,32.086,2449.597,1545.98,tile averages weighted by tile test count
+8304,Laja,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,mobile,48,101,67,78.378,14.351,30.624,2143.842,1358.723,tile averages weighted by tile test count
+8305,Mulchén,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,mobile,51,130,82,82.475,14.67,36.469,1469.231,1721.271,tile averages weighted by tile test count
+8306,Nacimiento,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,mobile,51,155,74,66.415,10.584,34.813,2053.545,1874.755,tile averages weighted by tile test count
+8307,Negrete,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,mobile,22,82,47,79.046,18.228,49.878,1612.488,1031.756,tile averages weighted by tile test count
+8308,Quilaco,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,mobile,15,21,17,81.16,8.983,44.762,1735.0,1958.667,tile averages weighted by tile test count
+8309,Quilleco,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,mobile,26,67,34,67.474,11.695,33.582,1199.03,2282.194,tile averages weighted by tile test count
+8310,San Rosendo,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,mobile,6,9,7,59.727,17.274,30.778,2440.556,782.889,tile averages weighted by tile test count
+8311,Santa Bárbara,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,mobile,52,124,70,64.317,11.989,35.395,2091.259,2023.211,tile averages weighted by tile test count
+8312,Tucapel,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,mobile,25,72,34,66.82,14.369,31.042,1832.197,1201.264,tile averages weighted by tile test count
+8313,Yumbel,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,mobile,74,227,111,64.617,12.357,36.467,1979.288,2025.106,tile averages weighted by tile test count
+8314,Alto Biobío,Bío-Bío,Región del Bío-Bío,8.0,2026Q1,mobile,13,16,14,14.304,3.587,42.25,1384.8,1578.312,tile averages weighted by tile test count
+9101,Temuco,Cautín,Región de La Araucanía,9.0,2026Q1,mobile,254,1928,1024,103.971,22.146,32.498,1362.333,1188.595,tile averages weighted by tile test count
+9102,Carahue,Cautín,Región de La Araucanía,9.0,2026Q1,mobile,60,182,82,70.733,10.816,37.066,1339.956,1281.33,tile averages weighted by tile test count
+9103,Cunco,Cautín,Región de La Araucanía,9.0,2026Q1,mobile,77,534,118,54.34,9.337,47.528,1951.389,2267.075,tile averages weighted by tile test count
+9104,Curarrehue,Cautín,Región de La Araucanía,9.0,2026Q1,mobile,20,46,26,45.238,7.602,37.304,1910.652,1619.522,tile averages weighted by tile test count
+9105,Freire,Cautín,Región de La Araucanía,9.0,2026Q1,mobile,83,271,113,48.777,9.012,35.185,2085.242,2268.446,tile averages weighted by tile test count
+9106,Galvarino,Cautín,Región de La Araucanía,9.0,2026Q1,mobile,28,200,48,108.318,19.003,32.075,1752.585,1856.725,tile averages weighted by tile test count
+9107,Gorbea,Cautín,Región de La Araucanía,9.0,2026Q1,mobile,34,197,48,56.496,19.13,32.426,1306.33,1136.148,tile averages weighted by tile test count
+9108,Lautaro,Cautín,Región de La Araucanía,9.0,2026Q1,mobile,96,468,138,69.155,9.711,46.013,2375.107,2037.267,tile averages weighted by tile test count
+9109,Loncoche,Cautín,Región de La Araucanía,9.0,2026Q1,mobile,75,306,114,91.419,17.046,34.542,1641.475,1471.395,tile averages weighted by tile test count
+9110,Melipeuco,Cautín,Región de La Araucanía,9.0,2026Q1,mobile,26,79,36,51.281,12.521,52.557,2087.241,1342.696,tile averages weighted by tile test count
+9111,Nueva Imperial,Cautín,Región de La Araucanía,9.0,2026Q1,mobile,56,134,82,82.082,15.079,32.896,1610.78,1558.963,tile averages weighted by tile test count
+9112,Padre Las Casas,Cautín,Región de La Araucanía,9.0,2026Q1,mobile,147,356,228,65.12,13.61,37.761,1691.594,1675.244,tile averages weighted by tile test count
+9113,Perquenco,Cautín,Región de La Araucanía,9.0,2026Q1,mobile,18,31,22,52.623,8.363,42.29,2035.645,2012.677,tile averages weighted by tile test count
+9114,Pitrufquén,Cautín,Región de La Araucanía,9.0,2026Q1,mobile,59,199,100,78.412,13.968,35.688,1811.364,1681.193,tile averages weighted by tile test count
+9115,Pucón,Cautín,Región de La Araucanía,9.0,2026Q1,mobile,199,705,402,66.521,15.327,45.651,1681.771,1624.223,tile averages weighted by tile test count
+9116,Saavedra,Cautín,Región de La Araucanía,9.0,2026Q1,mobile,31,90,53,107.114,21.572,37.0,1270.364,1808.722,tile averages weighted by tile test count
+9117,Teodoro Schmidt,Cautín,Región de La Araucanía,9.0,2026Q1,mobile,50,225,65,56.795,7.545,39.142,1737.351,1762.25,tile averages weighted by tile test count
+9118,Toltén,Cautín,Región de La Araucanía,9.0,2026Q1,mobile,27,71,43,61.641,13.587,45.282,2052.186,1871.197,tile averages weighted by tile test count
+9119,Vilcún,Cautín,Región de La Araucanía,9.0,2026Q1,mobile,164,391,222,52.341,10.994,43.422,1564.779,1841.607,tile averages weighted by tile test count
+9120,Villarrica,Cautín,Región de La Araucanía,9.0,2026Q1,mobile,235,986,555,58.211,12.976,43.674,1768.531,1526.55,tile averages weighted by tile test count
+9121,Cholchol,Cautín,Región de La Araucanía,9.0,2026Q1,mobile,34,97,43,68.107,12.895,32.196,1670.406,2007.546,tile averages weighted by tile test count
+9201,Angol,Malleco,Región de La Araucanía,9.0,2026Q1,mobile,72,218,150,102.328,18.842,38.729,1585.209,1538.023,tile averages weighted by tile test count
+9202,Collipulli,Malleco,Región de La Araucanía,9.0,2026Q1,mobile,41,145,69,74.935,16.304,35.566,1562.168,1314.821,tile averages weighted by tile test count
+9203,Curacautín,Malleco,Región de La Araucanía,9.0,2026Q1,mobile,39,132,62,114.713,18.847,36.364,1061.159,1356.144,tile averages weighted by tile test count
+9204,Ercilla,Malleco,Región de La Araucanía,9.0,2026Q1,mobile,23,100,36,66.397,14.136,48.13,1834.67,1260.64,tile averages weighted by tile test count
+9205,Lonquimay,Malleco,Región de La Araucanía,9.0,2026Q1,mobile,29,92,51,66.961,16.135,49.13,1529.077,1039.62,tile averages weighted by tile test count
+9206,Los Sauces,Malleco,Región de La Araucanía,9.0,2026Q1,mobile,20,124,30,58.748,12.402,60.597,1592.71,1465.444,tile averages weighted by tile test count
+9207,Lumaco,Malleco,Región de La Araucanía,9.0,2026Q1,mobile,59,155,73,43.369,13.914,130.839,1533.252,1830.626,tile averages weighted by tile test count
+9208,Purén,Malleco,Región de La Araucanía,9.0,2026Q1,mobile,25,115,41,83.496,18.496,74.591,765.678,898.139,tile averages weighted by tile test count
+9209,Renaico,Malleco,Región de La Araucanía,9.0,2026Q1,mobile,18,57,33,81.014,12.528,34.825,1922.509,1600.088,tile averages weighted by tile test count
+9210,Traiguén,Malleco,Región de La Araucanía,9.0,2026Q1,mobile,29,61,39,92.449,19.024,49.705,1452.393,1582.533,tile averages weighted by tile test count
+9211,Victoria,Malleco,Región de La Araucanía,9.0,2026Q1,mobile,60,179,105,106.51,20.148,41.207,1600.379,1437.079,tile averages weighted by tile test count
+10101,Puerto Montt,Llanquihue,Región de Los Lagos,10.0,2026Q1,mobile,355,1619,812,79.643,18.473,37.634,1915.01,1307.985,tile averages weighted by tile test count
+10102,Calbuco,Llanquihue,Región de Los Lagos,10.0,2026Q1,mobile,51,132,62,72.06,11.768,50.492,2488.434,1332.121,tile averages weighted by tile test count
+10103,Cochamó,Llanquihue,Región de Los Lagos,10.0,2026Q1,mobile,25,65,31,41.221,10.047,48.292,2907.27,1665.825,tile averages weighted by tile test count
+10104,Fresia,Llanquihue,Región de Los Lagos,10.0,2026Q1,mobile,35,91,41,65.054,11.288,37.132,2255.088,1625.462,tile averages weighted by tile test count
+10105,Frutillar,Llanquihue,Región de Los Lagos,10.0,2026Q1,mobile,58,158,105,90.576,17.925,36.076,1959.045,1313.582,tile averages weighted by tile test count
+10106,Los Muermos,Llanquihue,Región de Los Lagos,10.0,2026Q1,mobile,49,125,62,75.728,13.337,41.384,1866.05,1509.821,tile averages weighted by tile test count
+10107,Llanquihue,Llanquihue,Región de Los Lagos,10.0,2026Q1,mobile,37,71,57,99.847,21.532,48.577,1672.536,1252.366,tile averages weighted by tile test count
+10108,Maullín,Llanquihue,Región de Los Lagos,10.0,2026Q1,mobile,45,141,82,82.636,16.356,42.184,2196.617,1567.603,tile averages weighted by tile test count
+10109,Puerto Varas,Llanquihue,Región de Los Lagos,10.0,2026Q1,mobile,143,487,239,72.15,14.879,47.23,1739.705,1449.072,tile averages weighted by tile test count
+10201,Castro,Chiloe,Región de Los Lagos,10.0,2026Q1,mobile,54,185,99,71.676,18.041,57.686,2048.511,1425.643,tile averages weighted by tile test count
+10202,Ancud,Chiloe,Región de Los Lagos,10.0,2026Q1,mobile,76,323,133,78.928,18.895,47.954,2053.202,1505.193,tile averages weighted by tile test count
+10203,Chonchi,Chiloe,Región de Los Lagos,10.0,2026Q1,mobile,41,84,48,59.933,11.265,41.964,1951.988,1380.5,tile averages weighted by tile test count
+10204,Curaco de Vélez,Chiloe,Región de Los Lagos,10.0,2026Q1,mobile,8,31,11,105.375,11.433,41.387,1220.387,2404.742,tile averages weighted by tile test count
+10205,Dalcahue,Chiloe,Región de Los Lagos,10.0,2026Q1,mobile,12,19,14,86.762,16.016,48.158,1661.947,1337.526,tile averages weighted by tile test count
+10206,Puqueldón,Chiloe,Región de Los Lagos,10.0,2026Q1,mobile,14,62,16,23.647,9.249,37.484,2345.306,999.968,tile averages weighted by tile test count
+10207,Queilén,Chiloe,Región de Los Lagos,10.0,2026Q1,mobile,6,11,6,33.278,7.405,51.636,3350.273,2205.364,tile averages weighted by tile test count
+10208,Quellón,Chiloe,Región de Los Lagos,10.0,2026Q1,mobile,25,72,33,80.682,16.103,55.0,1943.083,1742.764,tile averages weighted by tile test count
+10209,Quemchi,Chiloe,Región de Los Lagos,10.0,2026Q1,mobile,11,51,14,99.081,21.208,65.49,1726.176,1044.902,tile averages weighted by tile test count
+10210,Quinchao,Chiloe,Región de Los Lagos,10.0,2026Q1,mobile,11,32,17,103.188,17.247,56.5,1451.312,1066.5,tile averages weighted by tile test count
+10301,Osorno,Osorno,Región de Los Lagos,10.0,2026Q1,mobile,231,878,501,80.67,20.793,41.114,1776.139,1124.774,tile averages weighted by tile test count
+10302,Puerto Octay,Osorno,Región de Los Lagos,10.0,2026Q1,mobile,61,187,73,43.929,7.692,65.187,1960.045,1356.712,tile averages weighted by tile test count
+10303,Purranque,Osorno,Región de Los Lagos,10.0,2026Q1,mobile,40,77,56,81.997,19.063,43.169,1584.895,1219.727,tile averages weighted by tile test count
+10304,Puyehue,Osorno,Región de Los Lagos,10.0,2026Q1,mobile,54,171,72,48.06,10.697,47.035,2301.714,1574.585,tile averages weighted by tile test count
+10305,Río Negro,Osorno,Región de Los Lagos,10.0,2026Q1,mobile,53,148,63,77.5,17.888,95.25,2384.041,1113.196,tile averages weighted by tile test count
+10306,San Juan de la Costa,Osorno,Región de Los Lagos,10.0,2026Q1,mobile,34,62,46,108.309,16.302,51.097,1759.39,1557.968,tile averages weighted by tile test count
+10307,San Pablo,Osorno,Región de Los Lagos,10.0,2026Q1,mobile,52,174,63,64.605,15.004,36.04,1500.676,1109.316,tile averages weighted by tile test count
+10401,Chaitén,Palena,Región de Los Lagos,10.0,2026Q1,mobile,21,35,28,56.336,14.403,50.429,1715.0,1824.6,tile averages weighted by tile test count
+10402,Futaleufú,Palena,Región de Los Lagos,10.0,2026Q1,mobile,7,12,11,94.546,22.39,54.5,1535.75,1346.167,tile averages weighted by tile test count
+10403,Hualaihué,Palena,Región de Los Lagos,10.0,2026Q1,mobile,28,110,46,34.998,11.351,39.455,2555.518,1575.027,tile averages weighted by tile test count
+10404,Palena,Palena,Región de Los Lagos,10.0,2026Q1,mobile,3,3,3,41.739,6.182,47.333,813.333,3239.0,tile averages weighted by tile test count
+11101,Coyhaique,Coyhaique,Región de Aysén del Gral.Ibañez del Campo,11.0,2026Q1,mobile,100,386,182,95.635,18.706,54.728,1648.082,1394.333,tile averages weighted by tile test count
+11102,Lago Verde,Coyhaique,Región de Aysén del Gral.Ibañez del Campo,11.0,2026Q1,mobile,16,37,21,12.559,7.326,66.162,2015.0,1993.028,tile averages weighted by tile test count
+11201,Aysén,Aysén,Región de Aysén del Gral.Ibañez del Campo,11.0,2026Q1,mobile,65,151,79,83.448,12.324,60.49,1815.993,2220.556,tile averages weighted by tile test count
+11202,Cisnes,Aysén,Región de Aysén del Gral.Ibañez del Campo,11.0,2026Q1,mobile,18,48,33,66.708,14.97,79.812,1479.042,1685.542,tile averages weighted by tile test count
+11301,Cochrane,Capitán Prat,Región de Aysén del Gral.Ibañez del Campo,11.0,2026Q1,mobile,14,29,23,96.34,17.673,93.966,2463.379,1978.69,tile averages weighted by tile test count
+11302,O'Higgins,Capitán Prat,Región de Aysén del Gral.Ibañez del Campo,11.0,2026Q1,mobile,13,32,14,13.908,2.932,53.812,1897.781,2371.844,tile averages weighted by tile test count
+11303,Tortel,Capitán Prat,Región de Aysén del Gral.Ibañez del Campo,11.0,2026Q1,mobile,9,11,11,20.2,4.119,101.364,2025.5,1583.0,tile averages weighted by tile test count
+11401,Chile Chico,General Carrera,Región de Aysén del Gral.Ibañez del Campo,11.0,2026Q1,mobile,10,13,12,42.39,13.996,85.692,1568.0,772.769,tile averages weighted by tile test count
+11402,Río Ibáñez,General Carrera,Región de Aysén del Gral.Ibañez del Campo,11.0,2026Q1,mobile,20,33,27,38.866,8.987,53.818,1670.182,1532.091,tile averages weighted by tile test count
+12101,Punta Arenas,Magallanes,Región de Magallanes y Antártica Chilena,12.0,2026Q1,mobile,91,190,137,59.229,19.444,72.353,1658.588,1078.757,tile averages weighted by tile test count
+12102,Laguna Blanca,Magallanes,Región de Magallanes y Antártica Chilena,12.0,2026Q1,mobile,11,17,12,33.901,6.263,60.529,962.625,406.688,tile averages weighted by tile test count
+12103,Río Verde,Magallanes,Región de Magallanes y Antártica Chilena,12.0,2026Q1,mobile,3,3,3,138.771,32.511,46.333,382.0,223.667,tile averages weighted by tile test count
+12104,San Gregorio,Magallanes,Región de Magallanes y Antártica Chilena,12.0,2026Q1,mobile,9,17,11,52.918,15.492,109.647,1640.941,2037.765,tile averages weighted by tile test count
+12201,Cabo de Hornos,Antártica Chilena,Región de Magallanes y Antártica Chilena,12.0,2026Q1,mobile,18,43,22,41.024,8.363,60.442,1070.744,489.907,tile averages weighted by tile test count
+12301,Porvenir,Tierra del Fuego,Región de Magallanes y Antártica Chilena,12.0,2026Q1,mobile,14,22,16,79.795,14.097,89.909,1312.636,1918.0,tile averages weighted by tile test count
+12302,Primavera,Tierra del Fuego,Región de Magallanes y Antártica Chilena,12.0,2026Q1,mobile,3,8,5,198.432,34.181,57.5,1000.125,645.0,tile averages weighted by tile test count
+12303,Timaukel,Tierra del Fuego,Región de Magallanes y Antártica Chilena,12.0,2026Q1,mobile,30,44,33,47.395,7.359,74.136,959.302,1433.386,tile averages weighted by tile test count
+12401,Natales,Ultima Esperanza,Región de Magallanes y Antártica Chilena,12.0,2026Q1,mobile,49,135,69,72.184,15.234,91.711,1635.842,1590.496,tile averages weighted by tile test count
+12402,Torres del Paine,Ultima Esperanza,Región de Magallanes y Antártica Chilena,12.0,2026Q1,mobile,4,4,4,33.289,6.195,89.25,1764.75,1623.5,tile averages weighted by tile test count
+13101,Santiago,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,92,4729,2287,130.757,29.978,21.389,1222.486,943.174,tile averages weighted by tile test count
+13102,Cerrillos,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,55,471,282,138.043,29.691,21.928,1185.987,954.13,tile averages weighted by tile test count
+13103,Cerro Navia,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,38,519,222,135.468,22.852,20.694,1320.99,1045.341,tile averages weighted by tile test count
+13104,Conchalí,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,40,593,224,164.441,27.616,22.906,1020.725,1028.45,tile averages weighted by tile test count
+13105,El Bosque,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,48,376,239,135.084,26.276,17.585,1277.505,1110.261,tile averages weighted by tile test count
+13106,Estación Central,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,50,761,409,105.955,29.618,19.929,1504.767,944.112,tile averages weighted by tile test count
+13107,Huechuraba,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,76,806,431,146.023,25.572,18.223,1192.809,935.462,tile averages weighted by tile test count
+13108,Independencia,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,27,454,241,116.01,24.091,20.282,1245.659,990.068,tile averages weighted by tile test count
+13109,La Cisterna,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,39,575,316,110.949,23.0,18.362,1380.419,1071.061,tile averages weighted by tile test count
+13110,La Florida,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,138,1588,950,125.322,26.157,20.999,1175.948,1002.47,tile averages weighted by tile test count
+13111,La Granja,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,37,465,251,103.238,20.056,24.116,1330.114,1258.929,tile averages weighted by tile test count
+13112,La Pintana,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,81,544,319,121.199,21.857,19.487,1296.654,1233.368,tile averages weighted by tile test count
+13113,La Reina,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,62,695,320,153.981,31.756,20.941,1072.85,863.988,tile averages weighted by tile test count
+13114,Las Condes,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,143,5687,1467,185.538,39.899,24.852,999.144,818.887,tile averages weighted by tile test count
+13115,Lo Barnechea,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,100,427,273,110.05,25.245,29.916,1051.323,1051.454,tile averages weighted by tile test count
+13116,Lo Espejo,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,32,322,155,123.222,22.805,27.59,1376.801,1080.432,tile averages weighted by tile test count
+13117,Lo Prado,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,27,250,170,115.448,23.794,21.0,1355.616,1060.652,tile averages weighted by tile test count
+13118,Macul,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,53,827,431,130.148,25.291,18.996,1435.825,1198.528,tile averages weighted by tile test count
+13119,Maipú,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,223,2466,1051,110.849,23.395,20.337,1434.944,1164.299,tile averages weighted by tile test count
+13120,Ñuñoa,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,61,1411,741,136.926,29.879,20.288,1105.617,933.427,tile averages weighted by tile test count
+13121,Pedro Aguirre Cerda,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,32,339,186,132.712,26.666,18.549,1443.392,1002.201,tile averages weighted by tile test count
+13122,Peñalolén,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,108,934,417,126.0,31.008,20.118,1433.297,996.961,tile averages weighted by tile test count
+13123,Providencia,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,55,1751,1005,155.663,33.521,21.079,1005.224,874.498,tile averages weighted by tile test count
+13124,Pudahuel,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,202,1468,822,116.995,24.221,32.771,1284.493,1029.626,tile averages weighted by tile test count
+13125,Quilicura,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,129,923,502,119.384,26.08,20.228,1218.294,943.622,tile averages weighted by tile test count
+13126,Quinta Normal,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,46,538,249,128.356,25.161,19.803,1379.66,938.405,tile averages weighted by tile test count
+13127,Recoleta,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,53,574,316,127.148,24.274,21.352,1248.228,1001.674,tile averages weighted by tile test count
+13128,Renca,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,75,677,331,117.751,23.188,21.263,1399.944,1163.111,tile averages weighted by tile test count
+13129,San Joaquín,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,36,401,187,118.476,27.756,19.137,1556.372,1251.387,tile averages weighted by tile test count
+13130,San Miguel,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,38,818,442,123.148,24.655,18.18,1323.985,1009.364,tile averages weighted by tile test count
+13131,San Ramón,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,25,321,158,157.439,30.713,18.47,1171.96,1020.754,tile averages weighted by tile test count
+13132,Vitacura,Santiago,Región Metropolitana de Santiago,13.0,2026Q1,mobile,70,637,380,172.443,30.329,19.162,909.819,899.969,tile averages weighted by tile test count
+13201,Puente Alto,Cordillera,Región Metropolitana de Santiago,13.0,2026Q1,mobile,220,1877,1102,108.243,21.946,21.864,1320.18,1218.689,tile averages weighted by tile test count
+13202,Pirque,Cordillera,Región Metropolitana de Santiago,13.0,2026Q1,mobile,68,183,88,64.31,12.847,28.027,1505.421,1315.448,tile averages weighted by tile test count
+13203,San José de Maipo,Cordillera,Región Metropolitana de Santiago,13.0,2026Q1,mobile,66,174,96,92.668,17.715,26.27,1947.202,1507.443,tile averages weighted by tile test count
+13301,Colina,Chacabuco,Región Metropolitana de Santiago,13.0,2026Q1,mobile,251,971,499,101.637,21.347,21.385,1482.469,1146.134,tile averages weighted by tile test count
+13302,Lampa,Chacabuco,Región Metropolitana de Santiago,13.0,2026Q1,mobile,193,766,399,71.841,14.424,22.052,1873.448,1307.841,tile averages weighted by tile test count
+13303,Tiltil,Chacabuco,Región Metropolitana de Santiago,13.0,2026Q1,mobile,80,237,121,81.468,18.086,27.916,1344.203,1172.882,tile averages weighted by tile test count
+13401,San Bernardo,Maipo,Región Metropolitana de Santiago,13.0,2026Q1,mobile,223,1718,850,102.379,20.046,22.623,1398.683,1192.945,tile averages weighted by tile test count
+13402,Buin,Maipo,Región Metropolitana de Santiago,13.0,2026Q1,mobile,136,716,347,99.595,20.983,25.071,1251.603,1139.704,tile averages weighted by tile test count
+13403,Calera de Tango,Maipo,Región Metropolitana de Santiago,13.0,2026Q1,mobile,64,185,108,110.069,17.462,24.616,1583.779,1382.853,tile averages weighted by tile test count
+13404,Paine,Maipo,Región Metropolitana de Santiago,13.0,2026Q1,mobile,151,428,244,63.345,13.411,25.729,1421.224,1286.369,tile averages weighted by tile test count
+13501,Melipilla,Melipilla,Región Metropolitana de Santiago,13.0,2026Q1,mobile,226,1045,492,73.243,17.561,27.538,1782.563,1349.937,tile averages weighted by tile test count
+13502,Alhué,Melipilla,Región Metropolitana de Santiago,13.0,2026Q1,mobile,21,37,23,62.086,22.431,59.514,912.194,1016.027,tile averages weighted by tile test count
+13503,Curacaví,Melipilla,Región Metropolitana de Santiago,13.0,2026Q1,mobile,115,388,200,84.117,17.006,39.655,1490.111,1317.326,tile averages weighted by tile test count
+13504,María Pinto,Melipilla,Región Metropolitana de Santiago,13.0,2026Q1,mobile,24,36,26,106.948,16.055,21.333,1252.714,1476.583,tile averages weighted by tile test count
+13505,San Pedro,Melipilla,Región Metropolitana de Santiago,13.0,2026Q1,mobile,35,78,38,72.383,10.896,34.0,1243.269,1543.397,tile averages weighted by tile test count
+13601,Talagante,Talagante,Región Metropolitana de Santiago,13.0,2026Q1,mobile,121,479,234,93.943,22.463,23.236,1488.652,1041.95,tile averages weighted by tile test count
+13602,El Monte,Talagante,Región Metropolitana de Santiago,13.0,2026Q1,mobile,55,215,99,90.375,20.131,26.428,2046.572,1515.619,tile averages weighted by tile test count
+13603,Isla de Maipo,Talagante,Región Metropolitana de Santiago,13.0,2026Q1,mobile,65,192,109,87.619,20.868,23.13,1657.063,1607.609,tile averages weighted by tile test count
+13604,Padre Hurtado,Talagante,Región Metropolitana de Santiago,13.0,2026Q1,mobile,66,296,173,88.16,19.946,21.574,1554.858,992.493,tile averages weighted by tile test count
+13605,Peñaflor,Talagante,Región Metropolitana de Santiago,13.0,2026Q1,mobile,86,602,253,103.954,19.874,23.261,1368.258,1099.65,tile averages weighted by tile test count
+14101,Valdivia,Valdivia,Región de Los Ríos,14.0,2026Q1,mobile,201,1052,592,98.524,21.553,38.861,1670.473,1294.964,tile averages weighted by tile test count
+14102,Corral,Valdivia,Región de Los Ríos,14.0,2026Q1,mobile,23,58,34,33.386,10.384,89.379,1845.368,1359.172,tile averages weighted by tile test count
+14103,Lanco,Valdivia,Región de Los Ríos,14.0,2026Q1,mobile,40,130,65,61.642,12.984,66.477,1156.062,1299.227,tile averages weighted by tile test count
+14104,Los Lagos,Valdivia,Región de Los Ríos,14.0,2026Q1,mobile,113,174,128,51.73,10.036,46.603,1278.585,2428.157,tile averages weighted by tile test count
+14105,Máfil,Valdivia,Región de Los Ríos,14.0,2026Q1,mobile,32,161,48,32.868,9.31,39.621,2071.101,1670.298,tile averages weighted by tile test count
+14106,Mariquina,Valdivia,Región de Los Ríos,14.0,2026Q1,mobile,101,205,145,43.032,9.672,46.644,1942.84,2476.778,tile averages weighted by tile test count
+14107,Paillaco,Valdivia,Región de Los Ríos,14.0,2026Q1,mobile,48,117,71,83.532,16.61,38.761,1741.164,1803.821,tile averages weighted by tile test count
+14108,Panguipulli,Valdivia,Región de Los Ríos,14.0,2026Q1,mobile,219,732,412,35.84,8.824,48.727,2280.33,1858.592,tile averages weighted by tile test count
+14201,La Unión,Ranco,Región de Los Ríos,14.0,2026Q1,mobile,88,246,125,76.546,15.694,40.049,1718.62,1664.441,tile averages weighted by tile test count
+14202,Futrono,Ranco,Región de Los Ríos,14.0,2026Q1,mobile,55,176,93,64.228,16.465,65.17,1742.671,1637.369,tile averages weighted by tile test count
+14203,Lago Ranco,Ranco,Región de Los Ríos,14.0,2026Q1,mobile,67,141,94,69.346,12.345,51.071,1810.201,1670.586,tile averages weighted by tile test count
+14204,Río Bueno,Ranco,Región de Los Ríos,14.0,2026Q1,mobile,71,208,103,79.35,13.626,43.188,1548.005,1483.885,tile averages weighted by tile test count
+15101,Arica,Arica,Región de Arica y Parinacota,15.0,2026Q1,mobile,161,1115,468,82.889,22.4,71.187,1686.695,1085.811,tile averages weighted by tile test count
+15102,Camarones,Arica,Región de Arica y Parinacota,15.0,2026Q1,mobile,3,3,3,248.696,32.204,40.0,1107.667,1320.333,tile averages weighted by tile test count
+15201,Putre,Parinacota,Región de Arica y Parinacota,15.0,2026Q1,mobile,19,52,28,32.118,4.982,95.5,1450.154,2981.942,tile averages weighted by tile test count
+15202,General Lagos,Parinacota,Región de Arica y Parinacota,15.0,2026Q1,mobile,8,53,9,5.348,2.111,97.434,1494.434,2800.075,tile averages weighted by tile test count
+16101,Chillán,Ñuble,Región de Ñuble,16.0,2026Q1,mobile,192,989,561,99.947,21.866,28.38,1767.186,1220.382,tile averages weighted by tile test count
+16102,Bulnes,Ñuble,Región de Ñuble,16.0,2026Q1,mobile,68,193,93,81.745,13.164,40.953,2162.482,1633.596,tile averages weighted by tile test count
+16103,Chillán Viejo,Ñuble,Región de Ñuble,16.0,2026Q1,mobile,61,146,104,115.977,20.099,26.425,1525.836,1281.538,tile averages weighted by tile test count
+16104,El Carmen,Ñuble,Región de Ñuble,16.0,2026Q1,mobile,62,104,73,52.502,11.689,41.279,2021.697,1956.885,tile averages weighted by tile test count
+16105,Pemuco,Ñuble,Región de Ñuble,16.0,2026Q1,mobile,36,109,50,96.624,15.331,38.055,1872.583,1645.426,tile averages weighted by tile test count
+16106,Pinto,Ñuble,Región de Ñuble,16.0,2026Q1,mobile,49,99,62,88.289,17.238,34.657,1812.516,1634.01,tile averages weighted by tile test count
+16107,Quillón,Ñuble,Región de Ñuble,16.0,2026Q1,mobile,76,168,98,77.558,15.719,36.875,2113.138,1716.768,tile averages weighted by tile test count
+16108,San Ignacio,Ñuble,Región de Ñuble,16.0,2026Q1,mobile,54,108,74,62.927,13.038,38.676,2225.876,1444.657,tile averages weighted by tile test count
+16109,Yungay,Ñuble,Región de Ñuble,16.0,2026Q1,mobile,40,154,72,73.881,16.224,32.584,2396.636,1838.922,tile averages weighted by tile test count
+16201,Quirihue,Itata,Región de Ñuble,16.0,2026Q1,mobile,30,139,42,77.183,11.906,31.986,1571.362,1653.345,tile averages weighted by tile test count
+16202,Cobquecura,Itata,Región de Ñuble,16.0,2026Q1,mobile,28,56,41,126.233,21.046,30.946,1536.889,1615.339,tile averages weighted by tile test count
+16203,Coelemu,Itata,Región de Ñuble,16.0,2026Q1,mobile,27,105,46,79.971,15.211,34.352,1672.01,1450.21,tile averages weighted by tile test count
+16204,Ninhue,Itata,Región de Ñuble,16.0,2026Q1,mobile,9,13,9,50.589,6.66,28.462,1783.385,1265.308,tile averages weighted by tile test count
+16205,Portezuelo,Itata,Región de Ñuble,16.0,2026Q1,mobile,21,62,27,141.858,22.523,36.484,775.323,1080.677,tile averages weighted by tile test count
+16206,Ranquil,Itata,Región de Ñuble,16.0,2026Q1,mobile,25,155,45,54.263,19.984,27.974,1780.013,1241.542,tile averages weighted by tile test count
+16207,Treguaco,Itata,Región de Ñuble,16.0,2026Q1,mobile,8,23,8,22.414,11.634,27.087,2789.667,2176.609,tile averages weighted by tile test count
+16301,San Carlos,Punilla,Región de Ñuble,16.0,2026Q1,mobile,90,264,146,91.664,16.17,31.216,1891.092,1360.498,tile averages weighted by tile test count
+16302,Coihueco,Punilla,Región de Ñuble,16.0,2026Q1,mobile,53,105,73,46.758,11.803,35.705,2117.206,1318.619,tile averages weighted by tile test count
+16303,Ñiquén,Punilla,Región de Ñuble,16.0,2026Q1,mobile,47,165,61,75.606,15.496,35.915,1954.372,1297.721,tile averages weighted by tile test count
+16304,San Fabián,Punilla,Región de Ñuble,16.0,2026Q1,mobile,30,72,34,25.716,7.039,40.583,1984.75,1664.583,tile averages weighted by tile test count
+16305,San Nicolás,Punilla,Región de Ñuble,16.0,2026Q1,mobile,46,161,72,82.909,13.863,26.019,2234.805,1818.547,tile averages weighted by tile test count
