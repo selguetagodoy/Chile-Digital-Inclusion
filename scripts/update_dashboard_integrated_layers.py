@@ -1,4 +1,5 @@
 from pathlib import Path
+import re
 
 JS = Path('assets/dashboard.js')
 HTML = Path('index.html')
@@ -41,12 +42,19 @@ def main():
     JS.write_text(js, encoding='utf-8')
 
     html = HTML.read_text(encoding='utf-8')
-    old = "Los indicadores provienen de universos estadísticos distintos y no deben interpretarse como equivalentes. Ookla representa desempeño observado donde existieron tests. La dependencia móvil es una proxy operacional del proyecto, no una categoría oficial del Censo. El repositorio público no incluye el Índice de Vulnerabilidad Digital completo ni ponderadores propietarios."
-    new = "Los indicadores provienen de universos estadísticos distintos y no deben interpretarse como equivalentes. Ookla representa desempeño observado donde existieron tests. Los registros 4G/5G no son torres únicas. RedAcceso representa trazados regulatorios públicos y no disponibilidad comercial o cobertura de hogares. Aulas Conectadas representa selección administrativa de establecimientos y no conectividad domiciliaria de estudiantes. La dependencia móvil es una proxy operacional del proyecto, no una categoría oficial del Censo. El repositorio público no incluye el Índice de Vulnerabilidad Digital completo ni ponderadores propietarios."
-    if new not in html:
-        if old not in html:
-            raise RuntimeError('Expected footer caveat not found')
-        html = html.replace(old, new, 1)
+    new_footer = (
+        'Fuentes principales: Censo de Población y Vivienda 2024, CASEN 2024, Encuestas de Acceso y Usos de Internet de SUBTEL, estadísticas sectoriales SUBTEL, Mineduc y Ookla Open Data. '
+        'Los indicadores provienen de universos estadísticos distintos y no deben interpretarse como equivalentes. Ookla representa desempeño observado donde existieron tests. '
+        'Los registros 4G/5G no son torres únicas. RedAcceso representa trazados regulatorios públicos y no disponibilidad comercial o cobertura de hogares. '
+        'Aulas Conectadas representa selección administrativa de establecimientos y no conectividad domiciliaria de estudiantes. '
+        'La dependencia móvil es una proxy operacional del proyecto, no una categoría oficial del Censo. '
+        'El repositorio público no incluye el Índice de Vulnerabilidad Digital completo ni ponderadores propietarios.'
+    )
+    pattern = r'(<p class="footer-note">)\s*.*?\s*(</p>)'
+    match = re.search(pattern, html, flags=re.DOTALL)
+    if not match:
+        raise RuntimeError('footer-note block not found')
+    html = re.sub(pattern, rf'\1\n      {new_footer}\n    \2', html, count=1, flags=re.DOTALL)
     HTML.write_text(html, encoding='utf-8')
 
     print('Dashboard updated for education and fixed-access layers')
