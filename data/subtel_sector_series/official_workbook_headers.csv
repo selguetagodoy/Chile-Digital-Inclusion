@@ -1,0 +1,417 @@
+dataset,sheet,header_row,column,header,source_url
+fixed_connections,ÍNDICE,13,2,>,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,ÍNDICE,13,3,"7.7.1. CONEXIONES FIJAS POR TECNOLOGÍA, REGIÓN Y EMPRESA",https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.1.CO_TOT_FIJAS,8,3,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.1.CO_TOT_FIJAS,8,4,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.1.CO_TOT_FIJAS,8,5,Total de Conexiones,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.1.CO_TOT_FIJAS,8,6,Crecimiento Anual,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.1.CO_TOT_FIJAS,8,7,Penetración cada 100 hab.,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.1.CO_TOT_FIJAS,8,8,Crecimiento Anual P.B.,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.2.Conex area,2,2,"SERVICIO ACCESO A INTERNET: NÚMERO DE CONEXIONES TOTALES FIJAS POR TIPO DE ÁREA (URBANO, RURAL), TIPO DE CLIENTE Y REGIÓN - MARZO 2026",https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.3.Conex suscrip,8,2,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.3.Conex suscrip,8,3,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.3.Conex suscrip,8,4,Residencial,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.3.Conex suscrip,8,5,Comercial,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.3.Conex suscrip,8,6,Otros no identificados,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.3.Conex suscrip,8,7,Total de Conexiones,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.4.Co_RG,7,2,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.4.Co_RG,7,3,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.4.Co_RG,7,4,I,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.4.Co_RG,7,5,II,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.4.Co_RG,7,6,III,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.4.Co_RG,7,7,IV,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.4.Co_RG,7,8,V,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.4.Co_RG,7,9,VI,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.4.Co_RG,7,10,VII,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.4.Co_RG,7,11,VIII,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.4.Co_RG,7,12,IX,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.4.Co_RG,7,13,X,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.4.Co_RG,7,14,XI,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.4.Co_RG,7,15,XII,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.4.Co_RG,7,16,RM,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.4.Co_RG,7,17,Total Nacional,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.7.CO_TEC_FIJAS,6,2,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.7.CO_TEC_FIJAS,6,3,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.7.CO_TEC_FIJAS,6,4,Total de Conexiones Fijas,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.7.CO_TEC_FIJAS,6,5,Conexiones ADSL,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.7.CO_TEC_FIJAS,6,6,Conexiones por HFC (Cable Modem),https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.7.CO_TEC_FIJAS,6,7,Conexiones FTTX (Fibra Optica),https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.7.CO_TEC_FIJAS,6,8,Conexiones Otras Tecnologías,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.7.1.CO_TEC_RG_EMP_FIJAS,2,2,"SERVICIO ACCESO A INTERNET: CONEXIONES FIJAS POR TIPO DE TECNOLOGÍA, REGIÓN Y EMPRESA - MARZO 2026",https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.8.CO_PL_FIJAS,6,2,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.8.CO_PL_FIJAS,6,3,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.8.CO_PL_FIJAS,6,4,Postpago,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.8.CO_PL_FIJAS,6,5,Prepago,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.8.CO_PL_FIJAS,6,6,Total de Conexiones Fijas,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,2,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,3,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,4,Claro 110,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,5,AT&T Chile S.A.,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,6,Entel-Chile S.A.,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,7,EQUANT,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,8,Claro 155,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,9,Impsat,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,10,Claro Infraestructura,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,11,Telsur,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,12,Claro Comunicaciones S.A.,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,13,Movistar,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,14,CTR,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,15,Entelphone,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,16,RTC,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,17,STEL Access,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,18,GTD Manquehue,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,19,Telcoy,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,20,VTR Banda Ancha,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,21,Will S.A.,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,22,Claro Serv. Empresariales,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,23,Fullcom,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,24,CMET,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,25,Tutopía,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,26,Cybercenter,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,27,GTD Internet,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,28,Chilesat Internet,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,29,Globalcom,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,30,Tecnoera,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,31,TIE,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,32,IIA Ltda.,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,33,Chile.com,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,34,Netline,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,35,Terra,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,36,Infonet,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,37,Luzlinares,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,38,New Planet,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,39,IFX Networks,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,40,Austro Internet,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,41,Latlink,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,42,E-Money,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,43,Netglobalis,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,44,Inalámbrica S.A.,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,45,Luzparral,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,46,Claro Holding S.A.,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,47,Hughesnet,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,48,Starlink,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,49,UUNET,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,50,Mi Internet Spa,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,51,Comercial Washington Ernesto Oyarce Sazo,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,52,Marco Antonio Borquez Santana Sistemas,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,53,Intersur Ltda.,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,54,Servicios Zonales De Internet Ltda.,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,55,Ingbell Chile Spa,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,56,Directv,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,57,Mundo,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,58,WOM,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,59,Global Crossing,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,60,Total de conexiones,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,62,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,63,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,64,Telefónica,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,65,Grupo Claro-VTR,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,66,Grupo GTD,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,67,Grupo ENTEL,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,68,Mundo,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,69,Otros,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.9.CO_EMPR_FIJAS,7,70,Total general,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.10.CO_ANCH_FIJAS,8,2,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.10.CO_ANCH_FIJAS,8,3,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.10.CO_ANCH_FIJAS,8,4,Hasta 10 Mbps,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.10.CO_ANCH_FIJAS,8,5,Más de 10 Mbps y hasta 100 Mbps,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.10.CO_ANCH_FIJAS,8,6,Más de 100 Mbps y hasta 1 Gbps,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.10.CO_ANCH_FIJAS,8,7,Más de 1 Gbps,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.10.CO_ANCH_FIJAS,8,8,Total de Conexiones Fijas,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.11.CO_FIJAS_COMUNA,3,2,SERVICIO ACCESO A INTERNET: TOTAL DE CONEXIONES FIJAS,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.11.1.CO_FIJAS_RES_COMUNA,3,2,SERVICIO ACCESO A INTERNET: TOTAL DE CONEXIONES FIJAS,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.12.CO_FIJAS_CLI_OECD,7,2,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.12.CO_FIJAS_CLI_OECD,7,3,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.12.CO_FIJAS_CLI_OECD,7,4,Residencial,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.12.CO_FIJAS_CLI_OECD,7,5,Comercial,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.12.CO_FIJAS_CLI_OECD,7,6,No identificados,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.12.CO_FIJAS_CLI_OECD,7,7,Total de Conexiones Fijas,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.13.CO_FIJAS_TECN_OECD,24,2,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.13.CO_FIJAS_TECN_OECD,24,3,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.13.CO_FIJAS_TECN_OECD,24,4,ADSL,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.13.CO_FIJAS_TECN_OECD,24,5,HFC (Cable Modem),https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.13.CO_FIJAS_TECN_OECD,24,6,WIMAX,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.13.CO_FIJAS_TECN_OECD,24,7,Conexiones FTTX (Fibra Optica),https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.13.CO_FIJAS_TECN_OECD,24,8,Otras Conexiones Alámbricas,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.13.CO_FIJAS_TECN_OECD,24,9,Otras Conexiones Inalámbricas,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.13.CO_FIJAS_TECN_OECD,24,10,Otras Conexiones,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.13.CO_FIJAS_TECN_OECD,24,11,Total de Conexiones Fijas,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,2,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,3,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,4,AT&T Chile S.A.,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,5,Entel-Chile S.A.,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,6,CMET,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,7,Telsur,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,8,Grupo Claro-VTR,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,9,Movistar,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,10,CTR,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,11,Entelphone,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,12,STEL Access,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,13,GTD Manquehue,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,14,Telcoy,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,15,VTR Banda Ancha,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,16,Claro Serv. Empresariales,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,17,Fullcom,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,18,Netline,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,19,Austro Internet,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,20,Netglobalis,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,21,Hughesnet,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,22,UUNET,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,23,Starlink,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,24,Mi Internet Spa,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,25,Comercial Washington Ernesto Oyarce Sazo,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,26,Marco Antonio Borquez Santana Sistemas,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,27,Intersur Ltda.,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,28,Servicios Zonales De Internet Ltda.,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,29,Ingbell Chile Spa,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,30,Directv,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,31,Mundo,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,32,WOM,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,33,Global Crossing,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,34,Total Sólo Internet Fija,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,35,CMET,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,36,Telsur,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,37,Grupo Claro-VTR,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,38,Movistar,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,39,CTR,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,40,Entelphone,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,41,RTC,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,42,GTD Manquehue,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,43,Telcoy,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,45,Marco Antonio Borquez Santana Sistemas,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,46,Mundo,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,47,Total Internet Fija + Tel. Local,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,48,CMET,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,49,Telsur,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,50,Grupo Claro-VTR,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,51,Movistar,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,52,Entelphone,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,53,GTD Manquehue,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,54,Telcoy,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,56,Marco Antonio Borquez Santana Sistemas,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,57,Intersur Ltda.,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,58,Servicios Zonales De Internet Ltda.,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,59,Directv,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,60,Mundo,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,61,Total Internet Fija + Televisión de Pago,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,62,CMET,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,63,Telsur,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,64,Grupo Claro-VTR,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,65,Movistar,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,66,Entelphone,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,67,GTD Manquehue,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,68,Telcoy,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,70,Marco Antonio Borquez Santana Sistemas,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,71,Mundo,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,72,Total Internet Fija + TV Pago + Tel. Local,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,73,WOM,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,74,Total Internet + Telefonía Móvil,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.14.CO_FIJAS_SERV,9,75,Total de Conexiones,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,2,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,3,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,4,Total de Conexiones Residenciales Fijas,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,5,Conexiones ADSL,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,6,Conexiones por HFC (Cable Modem),https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,7,Conexiones WIMAX,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,8,Conexiones FTTX (Fibra Optica),https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,9,Otras Conexiones Alámbricas,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,10,Otras Conexiones Inalámbricas,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,11,Otras Conexiones,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,12,Total de Conexiones Comerciales Fijas,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,13,Conexiones ADSL,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,14,Conexiones por HFC (Cable Modem),https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,15,Conexiones WIMAX,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,16,Conexiones FTTX (Fibra Optica),https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,17,Otras Conexiones Alámbricas,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,18,Otras Conexiones Inalámbricas,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,19,Otras Conexiones,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,20,Total de Otras Conexiones (Tipos de clientes no identificados),https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,21,Conexiones ADSL,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,22,Conexiones por HFC (Cable Modem),https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,23,Conexiones WIMAX,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,24,Conexiones FTTX (Fibra Optica),https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,25,Otras Conexiones Alámbricas,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,26,Otras Conexiones Inalámbricas,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,27,Otras Conexiones,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+fixed_connections,7.15.CO_FIJAS_TCL_TECN,9,28,Total de Conexiones,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+mobile_connections,ÍNDICE,9,2,>,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,ÍNDICE,9,3,8.3. CONEXIONES MÓVILES POR TIPO DE TECNOLOGÍA Y EMPRESA,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.1.CO_TEC_MOVIL,7,2,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.1.CO_TEC_MOVIL,7,3,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.1.CO_TEC_MOVIL,7,4,Total de conexiones 2G,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.1.CO_TEC_MOVIL,7,5,Total de conexiones 3G,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.1.CO_TEC_MOVIL,7,6,Total de conexiones 4G,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.1.CO_TEC_MOVIL,7,7,Total de conexiones 5G,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.1.CO_TEC_MOVIL,7,8,Total de Conexiones Móviles,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.1.CO_TEC_MOVIL,7,9,Total de Conexiones 3G+4G+5G,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.1.CO_TEC_MOVIL,7,10,Penetración 2G por cada 100 habitantes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.1.CO_TEC_MOVIL,7,11,Penetración 3G por cada 100 habitantes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.1.CO_TEC_MOVIL,7,12,Penetración 4G por cada 100 habitantes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.1.CO_TEC_MOVIL,7,13,Penetración 5G por cada 100 habitantes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.1.CO_TEC_MOVIL,7,14,Penetración 3G+4G+5G por cada 100 habitantes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.1.CO_TEC_MOVIL,7,15,Penetración Total por cada 100 habitantes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,2,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,3,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,4,Movistar,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,5,Grupo Claro-VTR,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,6,Entel PCS,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,7,Virgin,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,9,GTD Móvil,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,10,Mundo Pacífico,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,11,Total de conexiones 2G,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,12,Movistar,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,13,Grupo Claro-VTR,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,14,Entel PCS,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,15,Virgin,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,17,GTD Móvil,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,18,WOM,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,19,Netline,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,20,Falabella,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,21,Telestar,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,22,Simple,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,23,Entelphone,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,24,Mundo Pacífico,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,25,Suma Móvil Chile,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,26,Total de conexiones 3G,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,27,Movistar,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,28,Grupo Claro-VTR,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,29,Entel PCS,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,30,Virgin,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,32,GTD Móvil,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,33,WOM,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,34,Entelphone,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,35,Simple,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,36,Mundo Pacífico,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,37,Suma Móvil Chile,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,38,Total de conexiones 4G,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,39,Movistar,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,40,Grupo Claro-VTR,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,41,Entel PCS,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,42,WOM,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,43,Total de conexiones 5G,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,44,Total de Conexiones Móviles,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,46,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,47,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,48,Movistar,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,49,Grupo Claro-VTR,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,50,Entel PCS,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,52,Virgin,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,53,GTD Móvil,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,54,WOM,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,55,Netline,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,56,Falabella,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,57,Telestar,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,58,Simple,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,59,Entelphone,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,60,Mundo Pacífico,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,61,Suma Móvil Chile,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,62,Total de Conexiones 3G+4G+5G,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,64,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,65,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,66,Movistar,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,67,Grupo Claro-VTR,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,68,Entel PCS,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,70,Virgin,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,71,GTD Móvil,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,72,WOM,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,73,Netline,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,74,Falabella,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,75,Telestar,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,76,Simple,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,77,Entelphone,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,78,Mundo Pacífico,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,79,Suma Móvil Chile,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.3.CO_EMP_TEC_MOVIL,8,80,Total de Conexiones 2G+3G+4G+5G,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.4.CO_MOVIL_CLI_OECD,7,2,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.4.CO_MOVIL_CLI_OECD,7,3,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.4.CO_MOVIL_CLI_OECD,7,4,Residencial,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.4.CO_MOVIL_CLI_OECD,7,5,Comercial,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.4.CO_MOVIL_CLI_OECD,7,6,No identificados,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.4.CO_MOVIL_CLI_OECD,7,7,Total de Conexiones Móviles 3G+4G+5G,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,2,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,3,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,4,Smartphones (Navegación en Móvil),https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,5,BAM (USB),https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,6,Machine To Machine,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,7,Total de conexiones 2G,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,8,Smartphones (Navegación en Móvil),https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,9,BAM (USB),https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,10,Machine To Machine,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,11,Total de conexiones 3G,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,12,Smartphones (Navegación en Móvil),https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,13,BAM (USB),https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,14,Machine To Machine,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,15,Total de conexiones 4G,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,16,Smartphones (Navegación en Móvil),https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,17,BAM (USB),https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,18,Machine To Machine,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,19,Total de conexiones 5G,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,20,Total de Conexiones Móviles 2G+3G+4G+5G,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,21,Total de Conexiones Móviles 3G+4G+5G,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,23,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,24,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,25,Smartphones (Navegación en Móvil),https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,26,BAM (USB),https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,27,Machine To Machine,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,28,Smartphones (Navegación en Móvil),https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,29,BAM (USB),https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,30,Machine To Machine,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,31,Smartphones (Navegación en Móvil),https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,32,BAM (USB),https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,33,Machine To Machine,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,34,Smartphones (Navegación en Móvil),https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,35,BAM (USB),https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.7.CO_TEC_TER_MOVIL,8,36,Machine To Machine,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.8.CO_EMP_TEC_TER_MOVIL,8,2,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.8.CO_EMP_TEC_TER_MOVIL,8,3,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.8.CO_EMP_TEC_TER_MOVIL,8,4,Smartphones (Navegación en Móvil),https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.8.CO_EMP_TEC_TER_MOVIL,8,10,BAM (USB),https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.8.CO_EMP_TEC_TER_MOVIL,8,14,Machine To Machine,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.8.CO_EMP_TEC_TER_MOVIL,8,17,Total de conexiones 2G,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.8.CO_EMP_TEC_TER_MOVIL,8,18,Smartphones (Navegación en Móvil),https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.8.CO_EMP_TEC_TER_MOVIL,8,30,BAM (USB),https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.8.CO_EMP_TEC_TER_MOVIL,8,38,Machine To Machine,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.8.CO_EMP_TEC_TER_MOVIL,8,42,Total de conexiones 3G,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.8.CO_EMP_TEC_TER_MOVIL,8,43,Smartphones (Navegación en Móvil),https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.8.CO_EMP_TEC_TER_MOVIL,8,53,BAM (USB),https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.8.CO_EMP_TEC_TER_MOVIL,8,60,Machine To Machine,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.8.CO_EMP_TEC_TER_MOVIL,8,64,Total de conexiones 4G,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.8.CO_EMP_TEC_TER_MOVIL,8,65,Smartphones (Navegación en Móvil),https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.8.CO_EMP_TEC_TER_MOVIL,8,69,BAM (USB),https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.8.CO_EMP_TEC_TER_MOVIL,8,73,Machine To Machine,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.8.CO_EMP_TEC_TER_MOVIL,8,76,Total de conexiones 5G,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.9.CO_MOVIL_PLAN,7,2,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.9.CO_MOVIL_PLAN,7,3,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.9.CO_MOVIL_PLAN,7,4,Contrato (Postpago),https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.9.CO_MOVIL_PLAN,7,10,Prepago,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.9.CO_MOVIL_PLAN,7,16,Total de Conexiones Móviles 3G+4G+5G,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_connections,8.9.CO_MOVIL_PLAN,7,17,Total de Conexiones Móviles 2G+3G+4G+5G,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx
+mobile_traffic,ÍNDICE,11,2,>,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_MOVILES-MAR26-040526.xlsx
+mobile_traffic,ÍNDICE,11,3,9.5. TRÁFICO POR EMPRESA,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_MOVILES-MAR26-040526.xlsx
+mobile_traffic,9.1.TRAF_SENT,9,2,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_MOVILES-MAR26-040526.xlsx
+mobile_traffic,9.1.TRAF_SENT,9,3,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_MOVILES-MAR26-040526.xlsx
+mobile_traffic,9.1.TRAF_SENT,9,4,TRÁFICO EN TERA BYTES (TB),https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_MOVILES-MAR26-040526.xlsx
+mobile_traffic,9.2.TRAF_BAND,9,2,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_MOVILES-MAR26-040526.xlsx
+mobile_traffic,9.2.TRAF_BAND,9,3,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_MOVILES-MAR26-040526.xlsx
+mobile_traffic,9.2.TRAF_BAND,9,4,TRÁFICO EN TERA BYTES (TB),https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_MOVILES-MAR26-040526.xlsx
+mobile_traffic,9.3.TRAF_CLI.PLAN,9,2,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_MOVILES-MAR26-040526.xlsx
+mobile_traffic,9.3.TRAF_CLI.PLAN,9,3,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_MOVILES-MAR26-040526.xlsx
+mobile_traffic,9.3.TRAF_CLI.PLAN,9,4,TRÁFICO EN TERA BYTES (TB),https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_MOVILES-MAR26-040526.xlsx
+mobile_traffic,9.5.TRAF_EMP,9,2,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_MOVILES-MAR26-040526.xlsx
+mobile_traffic,9.5.TRAF_EMP,9,3,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_MOVILES-MAR26-040526.xlsx
+mobile_traffic,9.5.TRAF_EMP,9,4,TRÁFICO EN TERA BYTES (TB),https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_MOVILES-MAR26-040526.xlsx
+fixed_traffic,ÍNDICE,8,2,>,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_FIJOS-MAR26-040526.xlsx
+fixed_traffic,ÍNDICE,8,3,10.1. TRÁFICO FIJO TOTAL,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_FIJOS-MAR26-040526.xlsx
+fixed_traffic,10.1.TRAF_SENT,9,2,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_FIJOS-MAR26-040526.xlsx
+fixed_traffic,10.1.TRAF_SENT,9,3,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_FIJOS-MAR26-040526.xlsx
+fixed_traffic,10.1.TRAF_SENT,9,4,TRÁFICO EN TERA BYTES (TB),https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_FIJOS-MAR26-040526.xlsx
+fixed_traffic,10.1.TRAF_SENT,9,7,% Variación 12 meses,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_FIJOS-MAR26-040526.xlsx
+fixed_traffic,10.2.TRAF_BAND,9,2,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_FIJOS-MAR26-040526.xlsx
+fixed_traffic,10.2.TRAF_BAND,9,3,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_FIJOS-MAR26-040526.xlsx
+fixed_traffic,10.2.TRAF_BAND,9,4,TRÁFICO EN TERA BYTES (TB),https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_FIJOS-MAR26-040526.xlsx
+fixed_traffic,10.3.TRAF_CLI,9,2,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_FIJOS-MAR26-040526.xlsx
+fixed_traffic,10.3.TRAF_CLI,9,3,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_FIJOS-MAR26-040526.xlsx
+fixed_traffic,10.3.TRAF_CLI,9,4,TRÁFICO EN TERA BYTES (TB),https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_FIJOS-MAR26-040526.xlsx
+fixed_traffic,10.4.TRAF_EMP,9,2,Año,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_FIJOS-MAR26-040526.xlsx
+fixed_traffic,10.4.TRAF_EMP,9,3,Mes,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_FIJOS-MAR26-040526.xlsx
+fixed_traffic,10.4.TRAF_EMP,9,4,TRÁFICO EN TERA BYTES (TB),https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_FIJOS-MAR26-040526.xlsx
