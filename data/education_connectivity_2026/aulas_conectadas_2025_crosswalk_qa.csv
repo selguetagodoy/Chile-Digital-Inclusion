@@ -1,0 +1,15 @@
+metric,value,expectation
+program_records,793,793
+program_unique_rbd,793,793
+selected_records,700,700
+waitlist_records,93,93
+directory_records,16768,official directory rows
+directory_unique_rbd,16768,should equal directory records unless duplicate RBD
+directory_duplicate_rbd,0,0 expected
+program_rbd_matched,793,matched to official directory
+program_rbd_unmatched,0,0 expected
+program_rbd_match_pct,100.0,100 expected
+commune_summary_rows,346,346
+communes_with_selected_establishments,196,descriptive
+selected_establishments_sum_communes,700,700 expected if full match
+waitlist_establishments_sum_communes,93,93 expected if full match

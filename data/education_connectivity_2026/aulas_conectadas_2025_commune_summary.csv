@@ -1,0 +1,347 @@
+comuna,comuna_nombre,provincia,provincia_nombre,region,region_nombre,mineduc_aulas_selected_establishments_2025,mineduc_aulas_waitlist_establishments_2025,mineduc_aulas_selected_rural_establishments_2025,mineduc_aulas_selected_enrollment_2025,mineduc_aulas_selected_with_coordinates_2025
+1101,Iquique,11,Iquique,1,Tarapacá,12,0,0,6870,12
+1107,Alto Hospicio,11,Iquique,1,Tarapacá,1,0,0,1142,1
+1401,Pozo Almonte,14,Del Tamarugal,1,Tarapacá,2,2,2,1455,2
+1402,Camiña,14,Del Tamarugal,1,Tarapacá,0,0,0,0,0
+1403,Colchane,14,Del Tamarugal,1,Tarapacá,0,0,0,0,0
+1404,Huara,14,Del Tamarugal,1,Tarapacá,1,0,1,503,1
+1405,Pica,14,Del Tamarugal,1,Tarapacá,3,0,3,1209,3
+2101,Antofagasta,21,Antofagasta,2,Antofagasta,25,1,0,16591,25
+2102,Mejillones,21,Antofagasta,2,Antofagasta,2,0,0,3056,2
+2103,Sierra Gorda,21,Antofagasta,2,Antofagasta,0,0,0,0,0
+2104,Taltal,21,Antofagasta,2,Antofagasta,0,1,0,0,0
+2201,Calama,22,El Loa,2,Antofagasta,7,2,0,3209,7
+2202,Ollagüe,22,El Loa,2,Antofagasta,0,0,0,0,0
+2203,San Pedro de Atacama,22,El Loa,2,Antofagasta,1,0,0,1009,1
+2301,Tocopilla,23,Tocopilla,2,Antofagasta,5,1,0,2823,5
+2302,María Elena,23,Tocopilla,2,Antofagasta,2,0,0,968,2
+3101,Copiapó,31,Copiapó,3,Atacama,7,1,1,4418,7
+3102,Caldera,31,Copiapó,3,Atacama,3,0,0,1532,3
+3103,Tierra Amarilla,31,Copiapó,3,Atacama,1,0,0,613,1
+3201,Chañaral,32,Chañaral,3,Atacama,2,0,0,638,2
+3202,Diego de Almagro,32,Chañaral,3,Atacama,1,0,0,571,1
+3301,Vallenar,33,Huasco,3,Atacama,0,1,0,0,0
+3302,Alto del Carmen,33,Huasco,3,Atacama,1,0,1,183,1
+3303,Freirina,33,Huasco,3,Atacama,0,0,0,0,0
+3304,Huasco,33,Huasco,3,Atacama,1,1,0,530,1
+4101,La Serena,41,Elqui,4,Coquimbo,9,2,4,2767,9
+4102,Coquimbo,41,Elqui,4,Coquimbo,0,0,0,0,0
+4103,Andacollo,41,Elqui,4,Coquimbo,1,0,0,158,1
+4104,La Higuera,41,Elqui,4,Coquimbo,0,0,0,0,0
+4105,Paihuano,41,Elqui,4,Coquimbo,0,0,0,0,0
+4106,Vicuña,41,Elqui,4,Coquimbo,2,0,0,363,2
+4201,Illapel,42,Choapa,4,Coquimbo,3,0,1,577,3
+4202,Canela,42,Choapa,4,Coquimbo,0,0,0,0,0
+4203,Los Vilos,42,Choapa,4,Coquimbo,0,1,0,0,0
+4204,Salamanca,42,Choapa,4,Coquimbo,0,0,0,0,0
+4301,Ovalle,43,Limarí,4,Coquimbo,10,2,2,2701,10
+4302,Combarbalá,43,Limarí,4,Coquimbo,1,0,0,679,1
+4303,Monte Patria,43,Limarí,4,Coquimbo,7,0,1,2417,7
+4304,Punitaqui,43,Limarí,4,Coquimbo,0,2,0,0,0
+4305,Río Hurtado,43,Limarí,4,Coquimbo,1,0,1,250,1
+5101,Valparaíso,51,Valparaíso,5,Valparaíso,2,0,0,372,2
+5102,Casablanca,51,Valparaíso,5,Valparaíso,0,0,0,0,0
+5103,Concón,51,Valparaíso,5,Valparaíso,0,0,0,0,0
+5104,Juan Fernández,51,Valparaíso,5,Valparaíso,0,0,0,0,0
+5105,Puchuncaví,51,Valparaíso,5,Valparaíso,5,0,1,1942,5
+5107,Quintero,51,Valparaíso,5,Valparaíso,2,1,0,954,2
+5109,Viña del Mar,51,Valparaíso,5,Valparaíso,18,3,0,3874,18
+5201,Isla de Pascua,52,Isla de Pascua,5,Valparaíso,0,0,0,0,0
+5301,Los Andes,53,Los Andes,5,Valparaíso,5,1,0,1271,5
+5302,Calle Larga,53,Los Andes,5,Valparaíso,2,0,1,445,2
+5303,Rinconada,53,Los Andes,5,Valparaíso,0,0,0,0,0
+5304,San Esteban,53,Los Andes,5,Valparaíso,4,0,1,802,4
+5401,La Ligua,54,Petorca,5,Valparaíso,4,0,0,2283,4
+5402,Cabildo,54,Petorca,5,Valparaíso,1,0,0,243,1
+5403,Papudo,54,Petorca,5,Valparaíso,0,0,0,0,0
+5404,Petorca,54,Petorca,5,Valparaíso,0,0,0,0,0
+5405,Zapallar,54,Petorca,5,Valparaíso,0,0,0,0,0
+5501,Quillota,55,Quillota,5,Valparaíso,6,1,0,2340,6
+5502,Calera,55,Quillota,5,Valparaíso,4,1,0,924,4
+5503,Hijuelas,55,Quillota,5,Valparaíso,3,0,3,576,3
+5504,La Cruz,55,Quillota,5,Valparaíso,1,0,0,220,1
+5506,Nogales,55,Quillota,5,Valparaíso,0,0,0,0,0
+5601,San Antonio,56,San Antonio,5,Valparaíso,5,1,1,943,5
+5602,Algarrobo,56,San Antonio,5,Valparaíso,0,0,0,0,0
+5603,Cartagena,56,San Antonio,5,Valparaíso,0,0,0,0,0
+5604,El Quisco,56,San Antonio,5,Valparaíso,3,0,1,1617,3
+5605,El Tabo,56,San Antonio,5,Valparaíso,0,0,0,0,0
+5606,Santo Domingo,56,San Antonio,5,Valparaíso,2,0,1,1374,2
+5701,San Felipe,57,San Felipe de Aconcagua,5,Valparaíso,4,3,0,857,4
+5702,Catemu,57,San Felipe de Aconcagua,5,Valparaíso,0,0,0,0,0
+5703,Llaillay,57,San Felipe de Aconcagua,5,Valparaíso,2,0,0,382,2
+5704,Panquehue,57,San Felipe de Aconcagua,5,Valparaíso,3,0,0,608,3
+5705,Putaendo,57,San Felipe de Aconcagua,5,Valparaíso,1,0,0,204,1
+5706,Santa María,57,San Felipe de Aconcagua,5,Valparaíso,0,1,0,0,0
+5801,Quilpué,58,Marga Marga,5,Valparaíso,7,0,0,2092,7
+5802,Limache,58,Marga Marga,5,Valparaíso,4,0,0,1320,4
+5803,Olmué,58,Marga Marga,5,Valparaíso,4,0,1,995,4
+5804,Villa Alemana,58,Marga Marga,5,Valparaíso,4,0,0,824,4
+6101,Rancagua,61,Cachapoal,6,Libertador General Bernardo O'Higgins,8,4,3,2952,8
+6102,Codegua,61,Cachapoal,6,Libertador General Bernardo O'Higgins,2,0,0,1083,2
+6103,Coinco,61,Cachapoal,6,Libertador General Bernardo O'Higgins,1,0,1,202,1
+6104,Coltauco,61,Cachapoal,6,Libertador General Bernardo O'Higgins,2,1,1,367,2
+6105,Doñihue,61,Cachapoal,6,Libertador General Bernardo O'Higgins,0,0,0,0,0
+6106,Graneros,61,Cachapoal,6,Libertador General Bernardo O'Higgins,1,0,1,307,1
+6107,Las Cabras,61,Cachapoal,6,Libertador General Bernardo O'Higgins,4,2,3,982,4
+6108,Machalí,61,Cachapoal,6,Libertador General Bernardo O'Higgins,0,0,0,0,0
+6109,Malloa,61,Cachapoal,6,Libertador General Bernardo O'Higgins,1,1,1,241,1
+6110,Mostazal,61,Cachapoal,6,Libertador General Bernardo O'Higgins,0,0,0,0,0
+6111,Olivar,61,Cachapoal,6,Libertador General Bernardo O'Higgins,0,0,0,0,0
+6112,Peumo,61,Cachapoal,6,Libertador General Bernardo O'Higgins,0,0,0,0,0
+6113,Pichidegua,61,Cachapoal,6,Libertador General Bernardo O'Higgins,5,1,4,1386,5
+6114,Quinta de Tilcoco,61,Cachapoal,6,Libertador General Bernardo O'Higgins,0,0,0,0,0
+6115,Rengo,61,Cachapoal,6,Libertador General Bernardo O'Higgins,8,1,4,3026,8
+6116,Requínoa,61,Cachapoal,6,Libertador General Bernardo O'Higgins,4,0,3,1232,4
+6117,San Vicente,61,Cachapoal,6,Libertador General Bernardo O'Higgins,3,1,1,1967,3
+6201,Pichilemu,62,Cardenal Caro,6,Libertador General Bernardo O'Higgins,3,1,2,909,3
+6202,La Estrella,62,Cardenal Caro,6,Libertador General Bernardo O'Higgins,0,0,0,0,0
+6203,Litueche,62,Cardenal Caro,6,Libertador General Bernardo O'Higgins,0,0,0,0,0
+6204,Marchihue,62,Cardenal Caro,6,Libertador General Bernardo O'Higgins,2,0,1,535,2
+6205,Navidad,62,Cardenal Caro,6,Libertador General Bernardo O'Higgins,0,0,0,0,0
+6206,Paredones,62,Cardenal Caro,6,Libertador General Bernardo O'Higgins,2,0,0,630,2
+6301,San Fernando,63,Colchagua,6,Libertador General Bernardo O'Higgins,10,1,2,4060,10
+6302,Chépica,63,Colchagua,6,Libertador General Bernardo O'Higgins,0,0,0,0,0
+6303,Chimbarongo,63,Colchagua,6,Libertador General Bernardo O'Higgins,6,1,4,1167,6
+6304,Lolol,63,Colchagua,6,Libertador General Bernardo O'Higgins,0,0,0,0,0
+6305,Nancagua,63,Colchagua,6,Libertador General Bernardo O'Higgins,4,0,2,1212,4
+6306,Palmilla,63,Colchagua,6,Libertador General Bernardo O'Higgins,0,0,0,0,0
+6307,Peralillo,63,Colchagua,6,Libertador General Bernardo O'Higgins,0,0,0,0,0
+6308,Placilla,63,Colchagua,6,Libertador General Bernardo O'Higgins,2,0,1,529,2
+6309,Pumanque,63,Colchagua,6,Libertador General Bernardo O'Higgins,0,0,0,0,0
+6310,Santa Cruz,63,Colchagua,6,Libertador General Bernardo O'Higgins,0,0,0,0,0
+7101,Talca,71,Talca,7,Maule,9,2,2,1970,9
+7102,Constitución,71,Talca,7,Maule,6,0,3,2696,6
+7103,Curepto,71,Talca,7,Maule,0,0,0,0,0
+7104,Empedrado,71,Talca,7,Maule,0,1,0,0,0
+7105,Maule,71,Talca,7,Maule,4,0,3,1287,4
+7106,Pelarco,71,Talca,7,Maule,0,0,0,0,0
+7107,Pencahue,71,Talca,7,Maule,0,0,0,0,0
+7108,Río Claro,71,Talca,7,Maule,0,0,0,0,0
+7109,San Clemente,71,Talca,7,Maule,0,0,0,0,0
+7110,San Rafael,71,Talca,7,Maule,0,0,0,0,0
+7201,Cauquenes,72,Cauquenes,7,Maule,3,0,0,937,3
+7202,Chanco,72,Cauquenes,7,Maule,0,0,0,0,0
+7203,Pelluhue,72,Cauquenes,7,Maule,2,0,1,1193,2
+7301,Curicó,73,Curicó,7,Maule,9,1,2,2772,9
+7302,Hualañé,73,Curicó,7,Maule,3,0,1,1325,3
+7303,Licantén,73,Curicó,7,Maule,0,0,0,0,0
+7304,Molina,73,Curicó,7,Maule,3,0,1,1089,3
+7305,Rauco,73,Curicó,7,Maule,3,0,2,726,3
+7306,Romeral,73,Curicó,7,Maule,0,0,0,0,0
+7307,Sagrada Familia,73,Curicó,7,Maule,0,0,0,0,0
+7308,Teno,73,Curicó,7,Maule,2,1,1,856,2
+7309,Vichuquén,73,Curicó,7,Maule,0,0,0,0,0
+7401,Linares,74,Linares,7,Maule,3,0,0,505,3
+7402,Colbún,74,Linares,7,Maule,0,0,0,0,0
+7403,Longaví,74,Linares,7,Maule,2,0,2,520,2
+7404,Parral,74,Linares,7,Maule,4,0,0,871,4
+7405,Retiro,74,Linares,7,Maule,1,0,0,884,1
+7406,San Javier,74,Linares,7,Maule,4,2,2,823,4
+7407,Villa Alegre,74,Linares,7,Maule,1,0,0,213,1
+7408,Yerbas Buenas,74,Linares,7,Maule,0,1,0,0,0
+8101,Concepción,81,Concepción,8,Biobío,1,0,1,170,1
+8102,Coronel,81,Concepción,8,Biobío,13,1,0,3749,13
+8103,Chiguayante,81,Concepción,8,Biobío,0,0,0,0,0
+8104,Florida,81,Concepción,8,Biobío,0,0,0,0,0
+8105,Hualqui,81,Concepción,8,Biobío,1,0,1,202,1
+8106,Lota,81,Concepción,8,Biobío,9,0,0,3074,9
+8107,Penco,81,Concepción,8,Biobío,2,0,1,362,2
+8108,San Pedro de La paz,81,Concepción,8,Biobío,4,0,0,1431,4
+8109,Santa Juana,81,Concepción,8,Biobío,1,0,0,173,1
+8110,Talcahuano,81,Concepción,8,Biobío,0,0,0,0,0
+8111,Tomé,81,Concepción,8,Biobío,3,0,2,536,3
+8112,Hualpén,81,Concepción,8,Biobío,0,0,0,0,0
+8201,Lebu,82,Arauco,8,Biobío,0,0,0,0,0
+8202,Arauco,82,Arauco,8,Biobío,0,0,0,0,0
+8203,Cañete,82,Arauco,8,Biobío,4,0,2,1205,4
+8204,Contulmo,82,Arauco,8,Biobío,1,0,0,341,1
+8205,Curanilahue,82,Arauco,8,Biobío,0,0,0,0,0
+8206,Los Álamos,82,Arauco,8,Biobío,5,0,4,1935,5
+8207,Tirúa,82,Arauco,8,Biobío,2,1,1,580,2
+8301,Los Ángeles,83,Biobío,8,Biobío,7,1,3,3232,7
+8302,Antuco,83,Biobío,8,Biobío,0,1,0,0,0
+8303,Cabrero,83,Biobío,8,Biobío,3,0,0,1628,3
+8304,Laja,83,Biobío,8,Biobío,0,0,0,0,0
+8305,Mulchén,83,Biobío,8,Biobío,3,0,0,965,3
+8306,Nacimiento,83,Biobío,8,Biobío,2,0,0,380,2
+8307,Negrete,83,Biobío,8,Biobío,2,0,1,1136,2
+8308,Quilaco,83,Biobío,8,Biobío,0,0,0,0,0
+8309,Quilleco,83,Biobío,8,Biobío,1,0,0,141,1
+8310,San Rosendo,83,Biobío,8,Biobío,1,0,0,347,1
+8311,Santa Bárbara,83,Biobío,8,Biobío,1,0,0,188,1
+8312,Tucapel,83,Biobío,8,Biobío,1,1,0,626,1
+8313,Yumbel,83,Biobío,8,Biobío,0,1,0,0,0
+8314,Alto Biobío,83,Biobío,8,Biobío,2,0,2,502,2
+9101,Temuco,91,Cautín,9,La Araucanía,0,0,0,0,0
+9102,Carahue,91,Cautín,9,La Araucanía,0,0,0,0,0
+9103,Cunco,91,Cautín,9,La Araucanía,1,0,0,726,1
+9104,Curarrehue,91,Cautín,9,La Araucanía,0,0,0,0,0
+9105,Freire,91,Cautín,9,La Araucanía,0,0,0,0,0
+9106,Galvarino,91,Cautín,9,La Araucanía,0,0,0,0,0
+9107,Gorbea,91,Cautín,9,La Araucanía,1,0,0,146,1
+9108,Lautaro,91,Cautín,9,La Araucanía,5,0,0,1726,5
+9109,Loncoche,91,Cautín,9,La Araucanía,2,0,0,460,2
+9110,Melipeuco,91,Cautín,9,La Araucanía,0,0,0,0,0
+9111,Nueva Imperial,91,Cautín,9,La Araucanía,0,0,0,0,0
+9112,Padre Las Casas,91,Cautín,9,La Araucanía,2,0,2,372,2
+9113,Perquenco,91,Cautín,9,La Araucanía,1,0,0,359,1
+9114,Pitrufquén,91,Cautín,9,La Araucanía,1,1,0,222,1
+9115,Pucón,91,Cautín,9,La Araucanía,2,0,2,439,2
+9116,Saavedra,91,Cautín,9,La Araucanía,0,0,0,0,0
+9117,Teodoro Schmidt,91,Cautín,9,La Araucanía,0,0,0,0,0
+9118,Toltén,91,Cautín,9,La Araucanía,0,0,0,0,0
+9119,Vilcún,91,Cautín,9,La Araucanía,0,0,0,0,0
+9120,Villarrica,91,Cautín,9,La Araucanía,3,0,0,769,3
+9121,Cholchol,91,Cautín,9,La Araucanía,0,0,0,0,0
+9201,Angol,92,Malleco,9,La Araucanía,2,0,0,438,2
+9202,Collipulli,92,Malleco,9,La Araucanía,1,0,0,257,1
+9203,Curacautín,92,Malleco,9,La Araucanía,2,0,0,1267,2
+9204,Ercilla,92,Malleco,9,La Araucanía,2,0,0,488,2
+9205,Lonquimay,92,Malleco,9,La Araucanía,1,0,0,571,1
+9206,Los Sauces,92,Malleco,9,La Araucanía,1,0,0,368,1
+9207,Lumaco,92,Malleco,9,La Araucanía,0,0,0,0,0
+9208,Purén,92,Malleco,9,La Araucanía,1,0,0,528,1
+9209,Renaico,92,Malleco,9,La Araucanía,0,0,0,0,0
+9210,Traiguén,92,Malleco,9,La Araucanía,0,0,0,0,0
+9211,Victoria,92,Malleco,9,La Araucanía,0,0,0,0,0
+10101,Puerto Montt,101,Llanquihue,10,Los Lagos,12,2,5,3312,12
+10102,Calbuco,101,Llanquihue,10,Los Lagos,1,1,0,184,1
+10103,Cochamó,101,Llanquihue,10,Los Lagos,0,1,0,0,0
+10104,Fresia,101,Llanquihue,10,Los Lagos,1,0,0,433,1
+10105,Frutillar,101,Llanquihue,10,Los Lagos,1,0,0,303,1
+10106,Los Muermos,101,Llanquihue,10,Los Lagos,2,0,1,1096,2
+10107,Llanquihue,101,Llanquihue,10,Los Lagos,2,0,0,1028,2
+10108,Maullín,101,Llanquihue,10,Los Lagos,4,1,0,921,4
+10109,Puerto Varas,101,Llanquihue,10,Los Lagos,3,0,1,1520,3
+10201,Castro,102,Chiloé,10,Los Lagos,0,0,0,0,0
+10202,Ancud,102,Chiloé,10,Los Lagos,1,0,0,156,1
+10203,Chonchi,102,Chiloé,10,Los Lagos,0,0,0,0,0
+10204,Curaco de Vélez,102,Chiloé,10,Los Lagos,0,0,0,0,0
+10205,Dalcahue,102,Chiloé,10,Los Lagos,0,0,0,0,0
+10206,Puqueldón,102,Chiloé,10,Los Lagos,0,0,0,0,0
+10207,Queilén,102,Chiloé,10,Los Lagos,0,0,0,0,0
+10208,Quellón,102,Chiloé,10,Los Lagos,3,1,1,685,3
+10209,Quemchi,102,Chiloé,10,Los Lagos,2,0,0,373,2
+10210,Quinchao,102,Chiloé,10,Los Lagos,0,0,0,0,0
+10301,Osorno,103,Osorno,10,Los Lagos,7,0,0,2515,7
+10302,Puerto Octay,103,Osorno,10,Los Lagos,2,0,0,423,2
+10303,Purranque,103,Osorno,10,Los Lagos,2,1,0,358,2
+10304,Puyehue,103,Osorno,10,Los Lagos,0,1,0,0,0
+10305,Río Negro,103,Osorno,10,Los Lagos,3,0,0,803,3
+10306,San Juan de la Costa,103,Osorno,10,Los Lagos,1,0,1,186,1
+10307,San Pablo,103,Osorno,10,Los Lagos,1,1,0,233,1
+10401,Chaitén,104,Palena,10,Los Lagos,0,0,0,0,0
+10402,Futaleufú,104,Palena,10,Los Lagos,0,0,0,0,0
+10403,Hualaihué,104,Palena,10,Los Lagos,0,0,0,0,0
+10404,Palena,104,Palena,10,Los Lagos,0,0,0,0,0
+11101,Coyhaique,111,Coyhaique,11,Aysén del General Carlos Ibáñez del Campo,1,0,0,169,1
+11102,Lago Verde,111,Coyhaique,11,Aysén del General Carlos Ibáñez del Campo,0,0,0,0,0
+11201,Aysén,112,Aysén,11,Aysén del General Carlos Ibáñez del Campo,6,0,0,1685,6
+11202,Cisnes,112,Aysén,11,Aysén del General Carlos Ibáñez del Campo,1,0,0,206,1
+11203,Guaitecas,112,Aysén,11,Aysén del General Carlos Ibáñez del Campo,0,0,0,0,0
+11301,Cochrane,113,Capitán Prat,11,Aysén del General Carlos Ibáñez del Campo,1,0,1,382,1
+11302,O'Higgins,113,Capitán Prat,11,Aysén del General Carlos Ibáñez del Campo,0,0,0,0,0
+11303,Tortel,113,Capitán Prat,11,Aysén del General Carlos Ibáñez del Campo,0,0,0,0,0
+11401,Chile Chico,114,General Carrera,11,Aysén del General Carlos Ibáñez del Campo,0,0,0,0,0
+11402,Río Ibáñez,114,General Carrera,11,Aysén del General Carlos Ibáñez del Campo,0,0,0,0,0
+12101,Punta Arenas,121,Magallanes,12,Magallanes y de la Antártica Chilena,8,0,0,2849,8
+12102,Laguna Blanca,121,Magallanes,12,Magallanes y de la Antártica Chilena,0,0,0,0,0
+12103,Río Verde,121,Magallanes,12,Magallanes y de la Antártica Chilena,0,0,0,0,0
+12104,San Gregorio,121,Magallanes,12,Magallanes y de la Antártica Chilena,0,0,0,0,0
+12201,Cabo de Hornos,122,Antártica Chilena,12,Magallanes y de la Antártica Chilena,1,0,0,376,1
+12202,Antártica,122,Antártica Chilena,12,Magallanes y de la Antártica Chilena,0,0,0,0,0
+12301,Porvenir,123,Tierra del Fuego,12,Magallanes y de la Antártica Chilena,2,0,0,846,2
+12302,Primavera,123,Tierra del Fuego,12,Magallanes y de la Antártica Chilena,0,0,0,0,0
+12303,Timaukel,123,Tierra del Fuego,12,Magallanes y de la Antártica Chilena,0,0,0,0,0
+12401,Natales,124,Última Esperanza,12,Magallanes y de la Antártica Chilena,2,0,0,562,2
+12402,Torres del Paine,124,Última Esperanza,12,Magallanes y de la Antártica Chilena,0,0,0,0,0
+13101,Santiago,131,Santiago,13,Metropolitana de Santiago,6,0,0,2982,6
+13102,Cerrillos,131,Santiago,13,Metropolitana de Santiago,0,0,0,0,0
+13103,Cerro Navia,131,Santiago,13,Metropolitana de Santiago,3,0,0,1082,3
+13104,Conchalí,131,Santiago,13,Metropolitana de Santiago,4,0,0,1114,4
+13105,El Bosque,131,Santiago,13,Metropolitana de Santiago,13,3,0,3992,13
+13106,Estación Central,131,Santiago,13,Metropolitana de Santiago,0,0,0,0,0
+13107,Huechuraba,131,Santiago,13,Metropolitana de Santiago,0,0,0,0,0
+13108,Independencia,131,Santiago,13,Metropolitana de Santiago,0,0,0,0,0
+13109,La Cisterna,131,Santiago,13,Metropolitana de Santiago,3,0,0,1489,3
+13110,La Florida,131,Santiago,13,Metropolitana de Santiago,4,0,0,845,4
+13111,La Granja,131,Santiago,13,Metropolitana de Santiago,0,0,0,0,0
+13112,La Pintana,131,Santiago,13,Metropolitana de Santiago,1,1,0,384,1
+13113,La Reina,131,Santiago,13,Metropolitana de Santiago,0,0,0,0,0
+13114,Las Condes,131,Santiago,13,Metropolitana de Santiago,0,0,0,0,0
+13115,Lo Barnechea,131,Santiago,13,Metropolitana de Santiago,1,0,0,175,1
+13116,Lo Espejo,131,Santiago,13,Metropolitana de Santiago,9,3,0,2606,9
+13117,Lo Prado,131,Santiago,13,Metropolitana de Santiago,2,0,0,429,2
+13118,Macul,131,Santiago,13,Metropolitana de Santiago,1,0,0,240,1
+13119,Maipú,131,Santiago,13,Metropolitana de Santiago,6,0,0,3779,6
+13120,Ñuñoa,131,Santiago,13,Metropolitana de Santiago,0,0,0,0,0
+13121,Pedro Aguirre Cerda,131,Santiago,13,Metropolitana de Santiago,10,0,0,2769,10
+13122,Peñalolén,131,Santiago,13,Metropolitana de Santiago,0,0,0,0,0
+13123,Providencia,131,Santiago,13,Metropolitana de Santiago,0,0,0,0,0
+13124,Pudahuel,131,Santiago,13,Metropolitana de Santiago,1,0,0,354,1
+13125,Quilicura,131,Santiago,13,Metropolitana de Santiago,5,1,0,1886,5
+13126,Quinta Normal,131,Santiago,13,Metropolitana de Santiago,2,0,0,1445,2
+13127,Recoleta,131,Santiago,13,Metropolitana de Santiago,2,1,0,364,2
+13128,Renca,131,Santiago,13,Metropolitana de Santiago,0,0,0,0,0
+13129,San Joaquín,131,Santiago,13,Metropolitana de Santiago,1,0,0,302,1
+13130,San Miguel,131,Santiago,13,Metropolitana de Santiago,2,1,0,524,2
+13131,San Ramón,131,Santiago,13,Metropolitana de Santiago,9,3,0,2658,9
+13132,Vitacura,131,Santiago,13,Metropolitana de Santiago,0,0,0,0,0
+13201,Puente Alto,132,Cordillera,13,Metropolitana de Santiago,21,1,0,11884,21
+13202,Pirque,132,Cordillera,13,Metropolitana de Santiago,1,0,1,171,1
+13203,San José de Maipo,132,Cordillera,13,Metropolitana de Santiago,0,0,0,0,0
+13301,Colina,133,Chacabuco,13,Metropolitana de Santiago,0,0,0,0,0
+13302,Lampa,133,Chacabuco,13,Metropolitana de Santiago,4,2,0,3463,4
+13303,Tiltil,133,Chacabuco,13,Metropolitana de Santiago,0,0,0,0,0
+13401,San Bernardo,134,Maipo,13,Metropolitana de Santiago,31,3,0,13890,31
+13402,Buin,134,Maipo,13,Metropolitana de Santiago,0,0,0,0,0
+13403,Calera de Tango,134,Maipo,13,Metropolitana de Santiago,1,1,1,577,1
+13404,Paine,134,Maipo,13,Metropolitana de Santiago,0,0,0,0,0
+13501,Melipilla,135,Melipilla,13,Metropolitana de Santiago,9,0,7,2069,9
+13502,Alhué,135,Melipilla,13,Metropolitana de Santiago,1,0,1,259,1
+13503,Curacaví,135,Melipilla,13,Metropolitana de Santiago,0,0,0,0,0
+13504,María Pinto,135,Melipilla,13,Metropolitana de Santiago,0,0,0,0,0
+13505,San Pedro,135,Melipilla,13,Metropolitana de Santiago,2,0,2,991,2
+13601,Talagante,136,Talagante,13,Metropolitana de Santiago,0,0,0,0,0
+13602,El Monte,136,Talagante,13,Metropolitana de Santiago,0,0,0,0,0
+13603,Isla de Maipo,136,Talagante,13,Metropolitana de Santiago,0,0,0,0,0
+13604,Padre Hurtado,136,Talagante,13,Metropolitana de Santiago,1,0,0,388,1
+13605,Peñaflor,136,Talagante,13,Metropolitana de Santiago,0,0,0,0,0
+14101,Valdivia,141,Valdivia,14,Los Ríos,7,2,1,1885,7
+14102,Corral,141,Valdivia,14,Los Ríos,0,0,0,0,0
+14103,Lanco,141,Valdivia,14,Los Ríos,2,0,1,856,2
+14104,Los Lagos,141,Valdivia,14,Los Ríos,0,0,0,0,0
+14105,Máfil,141,Valdivia,14,Los Ríos,0,0,0,0,0
+14106,Mariquina,141,Valdivia,14,Los Ríos,5,0,2,1063,5
+14107,Paillaco,141,Valdivia,14,Los Ríos,1,0,0,205,1
+14108,Panguipulli,141,Valdivia,14,Los Ríos,3,0,2,653,3
+14201,La Unión,142,Ranco,14,Los Ríos,0,1,0,0,0
+14202,Futrono,142,Ranco,14,Los Ríos,0,0,0,0,0
+14203,Lago Ranco,142,Ranco,14,Los Ríos,0,0,0,0,0
+14204,Río Bueno,142,Ranco,14,Los Ríos,1,0,0,211,1
+15101,Arica,151,Arica,15,Arica y Parinacota,2,0,0,310,2
+15102,Camarones,151,Arica,15,Arica y Parinacota,0,0,0,0,0
+15201,Putre,152,Parinacota,15,Arica y Parinacota,0,0,0,0,0
+15202,General Lagos,152,Parinacota,15,Arica y Parinacota,0,0,0,0,0
+16101,Chillán,161,Diguillín,16,Ñuble,1,0,0,374,1
+16102,Bulnes,161,Diguillín,16,Ñuble,0,1,0,0,0
+16103,Chillán Viejo,161,Diguillín,16,Ñuble,0,0,0,0,0
+16104,El Carmen,161,Diguillín,16,Ñuble,1,0,0,827,1
+16105,Pemuco,161,Diguillín,16,Ñuble,0,0,0,0,0
+16106,Pinto,161,Diguillín,16,Ñuble,2,0,0,805,2
+16107,Quillón,161,Diguillín,16,Ñuble,4,0,2,1101,4
+16108,San Ignacio,161,Diguillín,16,Ñuble,1,1,1,317,1
+16109,Yungay,161,Diguillín,16,Ñuble,2,0,0,1044,2
+16201,Quirihue,162,Itata,16,Ñuble,0,1,0,0,0
+16202,Cobquecura,162,Itata,16,Ñuble,1,0,0,197,1
+16203,Coelemu,162,Itata,16,Ñuble,1,0,0,565,1
+16204,Ninhue,162,Itata,16,Ñuble,2,0,0,557,2
+16205,Portezuelo,162,Itata,16,Ñuble,1,0,0,360,1
+16206,Ránquil,162,Itata,16,Ñuble,0,0,0,0,0
+16207,Trehuaco,162,Itata,16,Ñuble,2,0,2,488,2
+16301,San Carlos,163,Punilla,16,Ñuble,3,0,0,553,3
+16302,Coihueco,163,Punilla,16,Ñuble,0,0,0,0,0
+16303,Ñiquén,163,Punilla,16,Ñuble,0,0,0,0,0
+16304,San Fabián,163,Punilla,16,Ñuble,1,0,0,707,1
+16305,San Nicolás,163,Punilla,16,Ñuble,0,0,0,0,0
