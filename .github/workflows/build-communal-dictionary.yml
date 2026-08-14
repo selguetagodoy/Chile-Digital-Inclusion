@@ -22,9 +22,18 @@ jobs:
           python-version: '3.12'
       - name: Install dependency
         run: pip install pandas
-      - name: Build dictionary
-        run: python scripts/build_communal_dictionary.py
+      - name: Build dictionary when integrated master exists
+        id: build
+        run: |
+          if [ -f data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv ]; then
+            python scripts/build_communal_dictionary.py
+            echo 'built=yes' >> "$GITHUB_OUTPUT"
+          else
+            echo 'Integrated master not present yet; waiting for territorial workflow.'
+            echo 'built=no' >> "$GITHUB_OUTPUT"
+          fi
       - name: Commit dictionary
+        if: steps.build.outputs.built == 'yes'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
