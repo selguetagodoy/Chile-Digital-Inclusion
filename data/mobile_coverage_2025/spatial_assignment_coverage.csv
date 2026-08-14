@@ -1,0 +1,9 @@
+operator,technology,period,total_point_records,assigned_to_commune,unassigned,assigned_pct,service_url,layer_id
+Claro,4G,2025-03,2867,2862,5,99.8256,https://licancabur.subtel.gob.cl/server/rest/services/Claro_4G_marzo2025/MapServer,0
+Claro,5G,2025-03,490,490,0,100.0,https://licancabur.subtel.gob.cl/server/rest/services/Claro_5G_marzo2025/FeatureServer,0
+Entel,4G,2025-03,8235,8227,8,99.9029,https://licancabur.subtel.gob.cl/server/rest/services/Entel_4G_marzo2025/FeatureServer,0
+Entel,5G,2025-03,1832,1832,0,100.0,https://licancabur.subtel.gob.cl/server/rest/services/Entel_5G_marzo2025/FeatureServer,0
+Movistar,4G,2025-03,4936,4918,18,99.6353,https://licancabur.subtel.gob.cl/server/rest/services/Movistar_4G_marzo2025/MapServer,0
+Movistar,5G,2025-03,1774,1770,4,99.7745,https://licancabur.subtel.gob.cl/server/rest/services/Movistar_5G_marzo2025/MapServer,0
+WOM,4G,2025-03,6765,6759,6,99.9113,https://licancabur.subtel.gob.cl/server/rest/services/Wom_4G_marzo2025/FeatureServer,0
+WOM,5G,2025-03,1366,1366,0,100.0,https://licancabur.subtel.gob.cl/server/rest/services/Wom_5G_marzo2025/MapServer,0
