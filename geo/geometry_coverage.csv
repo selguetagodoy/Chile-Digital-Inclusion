@@ -1,0 +1,347 @@
+commune_code,commune,region,has_polygon
+1101,Iquique,Tarapacá,yes
+1107,Alto Hospicio,Tarapacá,yes
+1401,Pozo Almonte,Tarapacá,yes
+1402,Camiña,Tarapacá,yes
+1403,Colchane,Tarapacá,yes
+1404,Huara,Tarapacá,yes
+1405,Pica,Tarapacá,yes
+2101,Antofagasta,Antofagasta,yes
+2102,Mejillones,Antofagasta,yes
+2103,Sierra Gorda,Antofagasta,yes
+2104,Taltal,Antofagasta,yes
+2201,Calama,Antofagasta,yes
+2202,Ollagüe,Antofagasta,yes
+2203,San Pedro de Atacama,Antofagasta,yes
+2301,Tocopilla,Antofagasta,yes
+2302,María Elena,Antofagasta,yes
+3101,Copiapó,Atacama,yes
+3102,Caldera,Atacama,yes
+3103,Tierra Amarilla,Atacama,yes
+3201,Chañaral,Atacama,yes
+3202,Diego de Almagro,Atacama,yes
+3301,Vallenar,Atacama,yes
+3302,Alto del Carmen,Atacama,yes
+3303,Freirina,Atacama,yes
+3304,Huasco,Atacama,yes
+4101,La Serena,Coquimbo,yes
+4102,Coquimbo,Coquimbo,yes
+4103,Andacollo,Coquimbo,yes
+4104,La Higuera,Coquimbo,yes
+4105,Paihuano,Coquimbo,yes
+4106,Vicuña,Coquimbo,yes
+4201,Illapel,Coquimbo,yes
+4202,Canela,Coquimbo,yes
+4203,Los Vilos,Coquimbo,yes
+4204,Salamanca,Coquimbo,yes
+4301,Ovalle,Coquimbo,yes
+4302,Combarbalá,Coquimbo,yes
+4303,Monte Patria,Coquimbo,yes
+4304,Punitaqui,Coquimbo,yes
+4305,Río Hurtado,Coquimbo,yes
+5101,Valparaíso,Valparaíso,yes
+5102,Casablanca,Valparaíso,yes
+5103,Concón,Valparaíso,yes
+5104,Juan Fernández,Valparaíso,yes
+5105,Puchuncaví,Valparaíso,yes
+5107,Quintero,Valparaíso,yes
+5109,Viña del Mar,Valparaíso,yes
+5201,Isla de Pascua,Valparaíso,yes
+5301,Los Andes,Valparaíso,yes
+5302,Calle Larga,Valparaíso,yes
+5303,Rinconada,Valparaíso,yes
+5304,San Esteban,Valparaíso,yes
+5401,La Ligua,Valparaíso,yes
+5402,Cabildo,Valparaíso,yes
+5403,Papudo,Valparaíso,yes
+5404,Petorca,Valparaíso,yes
+5405,Zapallar,Valparaíso,yes
+5501,Quillota,Valparaíso,yes
+5502,Calera,Valparaíso,yes
+5503,Hijuelas,Valparaíso,yes
+5504,La Cruz,Valparaíso,yes
+5506,Nogales,Valparaíso,yes
+5601,San Antonio,Valparaíso,yes
+5602,Algarrobo,Valparaíso,yes
+5603,Cartagena,Valparaíso,yes
+5604,El Quisco,Valparaíso,yes
+5605,El Tabo,Valparaíso,yes
+5606,Santo Domingo,Valparaíso,yes
+5701,San Felipe,Valparaíso,yes
+5702,Catemu,Valparaíso,yes
+5703,Llaillay,Valparaíso,yes
+5704,Panquehue,Valparaíso,yes
+5705,Putaendo,Valparaíso,yes
+5706,Santa María,Valparaíso,yes
+5801,Quilpué,Valparaíso,yes
+5802,Limache,Valparaíso,yes
+5803,Olmué,Valparaíso,yes
+5804,Villa Alemana,Valparaíso,yes
+6101,Rancagua,Libertador General Bernardo O'Higgins,yes
+6102,Codegua,Libertador General Bernardo O'Higgins,yes
+6103,Coinco,Libertador General Bernardo O'Higgins,yes
+6104,Coltauco,Libertador General Bernardo O'Higgins,yes
+6105,Doñihue,Libertador General Bernardo O'Higgins,yes
+6106,Graneros,Libertador General Bernardo O'Higgins,yes
+6107,Las Cabras,Libertador General Bernardo O'Higgins,yes
+6108,Machalí,Libertador General Bernardo O'Higgins,yes
+6109,Malloa,Libertador General Bernardo O'Higgins,yes
+6110,Mostazal,Libertador General Bernardo O'Higgins,yes
+6111,Olivar,Libertador General Bernardo O'Higgins,yes
+6112,Peumo,Libertador General Bernardo O'Higgins,yes
+6113,Pichidegua,Libertador General Bernardo O'Higgins,yes
+6114,Quinta de Tilcoco,Libertador General Bernardo O'Higgins,yes
+6115,Rengo,Libertador General Bernardo O'Higgins,yes
+6116,Requínoa,Libertador General Bernardo O'Higgins,yes
+6117,San Vicente,Libertador General Bernardo O'Higgins,yes
+6201,Pichilemu,Libertador General Bernardo O'Higgins,yes
+6202,La Estrella,Libertador General Bernardo O'Higgins,yes
+6203,Litueche,Libertador General Bernardo O'Higgins,yes
+6204,Marchihue,Libertador General Bernardo O'Higgins,yes
+6205,Navidad,Libertador General Bernardo O'Higgins,yes
+6206,Paredones,Libertador General Bernardo O'Higgins,yes
+6301,San Fernando,Libertador General Bernardo O'Higgins,yes
+6302,Chépica,Libertador General Bernardo O'Higgins,yes
+6303,Chimbarongo,Libertador General Bernardo O'Higgins,yes
+6304,Lolol,Libertador General Bernardo O'Higgins,yes
+6305,Nancagua,Libertador General Bernardo O'Higgins,yes
+6306,Palmilla,Libertador General Bernardo O'Higgins,yes
+6307,Peralillo,Libertador General Bernardo O'Higgins,yes
+6308,Placilla,Libertador General Bernardo O'Higgins,yes
+6309,Pumanque,Libertador General Bernardo O'Higgins,yes
+6310,Santa Cruz,Libertador General Bernardo O'Higgins,yes
+7101,Talca,Maule,yes
+7102,Constitución,Maule,yes
+7103,Curepto,Maule,yes
+7104,Empedrado,Maule,yes
+7105,Maule,Maule,yes
+7106,Pelarco,Maule,yes
+7107,Pencahue,Maule,yes
+7108,Río Claro,Maule,yes
+7109,San Clemente,Maule,yes
+7110,San Rafael,Maule,yes
+7201,Cauquenes,Maule,yes
+7202,Chanco,Maule,yes
+7203,Pelluhue,Maule,yes
+7301,Curicó,Maule,yes
+7302,Hualañé,Maule,yes
+7303,Licantén,Maule,yes
+7304,Molina,Maule,yes
+7305,Rauco,Maule,yes
+7306,Romeral,Maule,yes
+7307,Sagrada Familia,Maule,yes
+7308,Teno,Maule,yes
+7309,Vichuquén,Maule,yes
+7401,Linares,Maule,yes
+7402,Colbún,Maule,yes
+7403,Longaví,Maule,yes
+7404,Parral,Maule,yes
+7405,Retiro,Maule,yes
+7406,San Javier,Maule,yes
+7407,Villa Alegre,Maule,yes
+7408,Yerbas Buenas,Maule,yes
+8101,Concepción,Biobío,yes
+8102,Coronel,Biobío,yes
+8103,Chiguayante,Biobío,yes
+8104,Florida,Biobío,yes
+8105,Hualqui,Biobío,yes
+8106,Lota,Biobío,yes
+8107,Penco,Biobío,yes
+8108,San Pedro de La paz,Biobío,yes
+8109,Santa Juana,Biobío,yes
+8110,Talcahuano,Biobío,yes
+8111,Tomé,Biobío,yes
+8112,Hualpén,Biobío,yes
+8201,Lebu,Biobío,yes
+8202,Arauco,Biobío,yes
+8203,Cañete,Biobío,yes
+8204,Contulmo,Biobío,yes
+8205,Curanilahue,Biobío,yes
+8206,Los Álamos,Biobío,yes
+8207,Tirúa,Biobío,yes
+8301,Los Ángeles,Biobío,yes
+8302,Antuco,Biobío,yes
+8303,Cabrero,Biobío,yes
+8304,Laja,Biobío,yes
+8305,Mulchén,Biobío,yes
+8306,Nacimiento,Biobío,yes
+8307,Negrete,Biobío,yes
+8308,Quilaco,Biobío,yes
+8309,Quilleco,Biobío,yes
+8310,San Rosendo,Biobío,yes
+8311,Santa Bárbara,Biobío,yes
+8312,Tucapel,Biobío,yes
+8313,Yumbel,Biobío,yes
+8314,Alto Biobío,Biobío,yes
+9101,Temuco,La Araucanía,yes
+9102,Carahue,La Araucanía,yes
+9103,Cunco,La Araucanía,yes
+9104,Curarrehue,La Araucanía,yes
+9105,Freire,La Araucanía,yes
+9106,Galvarino,La Araucanía,yes
+9107,Gorbea,La Araucanía,yes
+9108,Lautaro,La Araucanía,yes
+9109,Loncoche,La Araucanía,yes
+9110,Melipeuco,La Araucanía,yes
+9111,Nueva Imperial,La Araucanía,yes
+9112,Padre Las Casas,La Araucanía,yes
+9113,Perquenco,La Araucanía,yes
+9114,Pitrufquén,La Araucanía,yes
+9115,Pucón,La Araucanía,yes
+9116,Saavedra,La Araucanía,yes
+9117,Teodoro Schmidt,La Araucanía,yes
+9118,Toltén,La Araucanía,yes
+9119,Vilcún,La Araucanía,yes
+9120,Villarrica,La Araucanía,yes
+9121,Cholchol,La Araucanía,yes
+9201,Angol,La Araucanía,yes
+9202,Collipulli,La Araucanía,yes
+9203,Curacautín,La Araucanía,yes
+9204,Ercilla,La Araucanía,yes
+9205,Lonquimay,La Araucanía,yes
+9206,Los Sauces,La Araucanía,yes
+9207,Lumaco,La Araucanía,yes
+9208,Purén,La Araucanía,yes
+9209,Renaico,La Araucanía,yes
+9210,Traiguén,La Araucanía,yes
+9211,Victoria,La Araucanía,yes
+10101,Puerto Montt,Los Lagos,yes
+10102,Calbuco,Los Lagos,yes
+10103,Cochamó,Los Lagos,yes
+10104,Fresia,Los Lagos,yes
+10105,Frutillar,Los Lagos,yes
+10106,Los Muermos,Los Lagos,yes
+10107,Llanquihue,Los Lagos,yes
+10108,Maullín,Los Lagos,yes
+10109,Puerto Varas,Los Lagos,yes
+10201,Castro,Los Lagos,yes
+10202,Ancud,Los Lagos,yes
+10203,Chonchi,Los Lagos,yes
+10204,Curaco de Vélez,Los Lagos,yes
+10205,Dalcahue,Los Lagos,yes
+10206,Puqueldón,Los Lagos,yes
+10207,Queilén,Los Lagos,yes
+10208,Quellón,Los Lagos,yes
+10209,Quemchi,Los Lagos,yes
+10210,Quinchao,Los Lagos,yes
+10301,Osorno,Los Lagos,yes
+10302,Puerto Octay,Los Lagos,yes
+10303,Purranque,Los Lagos,yes
+10304,Puyehue,Los Lagos,yes
+10305,Río Negro,Los Lagos,yes
+10306,San Juan de la Costa,Los Lagos,yes
+10307,San Pablo,Los Lagos,yes
+10401,Chaitén,Los Lagos,yes
+10402,Futaleufú,Los Lagos,yes
+10403,Hualaihué,Los Lagos,yes
+10404,Palena,Los Lagos,yes
+11101,Coyhaique,Aysén del General Carlos Ibáñez del Campo,yes
+11102,Lago Verde,Aysén del General Carlos Ibáñez del Campo,yes
+11201,Aysén,Aysén del General Carlos Ibáñez del Campo,yes
+11202,Cisnes,Aysén del General Carlos Ibáñez del Campo,yes
+11203,Guaitecas,Aysén del General Carlos Ibáñez del Campo,yes
+11301,Cochrane,Aysén del General Carlos Ibáñez del Campo,yes
+11302,O'Higgins,Aysén del General Carlos Ibáñez del Campo,yes
+11303,Tortel,Aysén del General Carlos Ibáñez del Campo,yes
+11401,Chile Chico,Aysén del General Carlos Ibáñez del Campo,yes
+11402,Río Ibáñez,Aysén del General Carlos Ibáñez del Campo,yes
+12101,Punta Arenas,Magallanes y de la Antártica Chilena,yes
+12102,Laguna Blanca,Magallanes y de la Antártica Chilena,yes
+12103,Río Verde,Magallanes y de la Antártica Chilena,yes
+12104,San Gregorio,Magallanes y de la Antártica Chilena,yes
+12201,Cabo de Hornos,Magallanes y de la Antártica Chilena,yes
+12202,Antártica,Magallanes y de la Antártica Chilena,no
+12301,Porvenir,Magallanes y de la Antártica Chilena,yes
+12302,Primavera,Magallanes y de la Antártica Chilena,yes
+12303,Timaukel,Magallanes y de la Antártica Chilena,yes
+12401,Natales,Magallanes y de la Antártica Chilena,yes
+12402,Torres del Paine,Magallanes y de la Antártica Chilena,yes
+13101,Santiago,Metropolitana de Santiago,yes
+13102,Cerrillos,Metropolitana de Santiago,yes
+13103,Cerro Navia,Metropolitana de Santiago,yes
+13104,Conchalí,Metropolitana de Santiago,yes
+13105,El Bosque,Metropolitana de Santiago,yes
+13106,Estación Central,Metropolitana de Santiago,yes
+13107,Huechuraba,Metropolitana de Santiago,yes
+13108,Independencia,Metropolitana de Santiago,yes
+13109,La Cisterna,Metropolitana de Santiago,yes
+13110,La Florida,Metropolitana de Santiago,yes
+13111,La Granja,Metropolitana de Santiago,yes
+13112,La Pintana,Metropolitana de Santiago,yes
+13113,La Reina,Metropolitana de Santiago,yes
+13114,Las Condes,Metropolitana de Santiago,yes
+13115,Lo Barnechea,Metropolitana de Santiago,yes
+13116,Lo Espejo,Metropolitana de Santiago,yes
+13117,Lo Prado,Metropolitana de Santiago,yes
+13118,Macul,Metropolitana de Santiago,yes
+13119,Maipú,Metropolitana de Santiago,yes
+13120,Ñuñoa,Metropolitana de Santiago,yes
+13121,Pedro Aguirre Cerda,Metropolitana de Santiago,yes
+13122,Peñalolén,Metropolitana de Santiago,yes
+13123,Providencia,Metropolitana de Santiago,yes
+13124,Pudahuel,Metropolitana de Santiago,yes
+13125,Quilicura,Metropolitana de Santiago,yes
+13126,Quinta Normal,Metropolitana de Santiago,yes
+13127,Recoleta,Metropolitana de Santiago,yes
+13128,Renca,Metropolitana de Santiago,yes
+13129,San Joaquín,Metropolitana de Santiago,yes
+13130,San Miguel,Metropolitana de Santiago,yes
+13131,San Ramón,Metropolitana de Santiago,yes
+13132,Vitacura,Metropolitana de Santiago,yes
+13201,Puente Alto,Metropolitana de Santiago,yes
+13202,Pirque,Metropolitana de Santiago,yes
+13203,San José de Maipo,Metropolitana de Santiago,yes
+13301,Colina,Metropolitana de Santiago,yes
+13302,Lampa,Metropolitana de Santiago,yes
+13303,Tiltil,Metropolitana de Santiago,yes
+13401,San Bernardo,Metropolitana de Santiago,yes
+13402,Buin,Metropolitana de Santiago,yes
+13403,Calera de Tango,Metropolitana de Santiago,yes
+13404,Paine,Metropolitana de Santiago,yes
+13501,Melipilla,Metropolitana de Santiago,yes
+13502,Alhué,Metropolitana de Santiago,yes
+13503,Curacaví,Metropolitana de Santiago,yes
+13504,María Pinto,Metropolitana de Santiago,yes
+13505,San Pedro,Metropolitana de Santiago,yes
+13601,Talagante,Metropolitana de Santiago,yes
+13602,El Monte,Metropolitana de Santiago,yes
+13603,Isla de Maipo,Metropolitana de Santiago,yes
+13604,Padre Hurtado,Metropolitana de Santiago,yes
+13605,Peñaflor,Metropolitana de Santiago,yes
+14101,Valdivia,Los Ríos,yes
+14102,Corral,Los Ríos,yes
+14103,Lanco,Los Ríos,yes
+14104,Los Lagos,Los Ríos,yes
+14105,Máfil,Los Ríos,yes
+14106,Mariquina,Los Ríos,yes
+14107,Paillaco,Los Ríos,yes
+14108,Panguipulli,Los Ríos,yes
+14201,La Unión,Los Ríos,yes
+14202,Futrono,Los Ríos,yes
+14203,Lago Ranco,Los Ríos,yes
+14204,Río Bueno,Los Ríos,yes
+15101,Arica,Arica y Parinacota,yes
+15102,Camarones,Arica y Parinacota,yes
+15201,Putre,Arica y Parinacota,yes
+15202,General Lagos,Arica y Parinacota,yes
+16101,Chillán,Ñuble,yes
+16102,Bulnes,Ñuble,yes
+16103,Chillán Viejo,Ñuble,yes
+16104,El Carmen,Ñuble,yes
+16105,Pemuco,Ñuble,yes
+16106,Pinto,Ñuble,yes
+16107,Quillón,Ñuble,yes
+16108,San Ignacio,Ñuble,yes
+16109,Yungay,Ñuble,yes
+16201,Quirihue,Ñuble,yes
+16202,Cobquecura,Ñuble,yes
+16203,Coelemu,Ñuble,yes
+16204,Ninhue,Ñuble,yes
+16205,Portezuelo,Ñuble,yes
+16206,Ránquil,Ñuble,yes
+16207,Trehuaco,Ñuble,yes
+16301,San Carlos,Ñuble,yes
+16302,Coihueco,Ñuble,yes
+16303,Ñiquén,Ñuble,yes
+16304,San Fabián,Ñuble,yes
+16305,San Nicolás,Ñuble,yes
