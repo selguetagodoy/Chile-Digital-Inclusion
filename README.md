@@ -1,12 +1,12 @@
 # Chile Digital Inclusion
 
-Repositorio abierto para analizar inclusión, exclusión y desigualdad digital en Chile a partir de Censo 2024, CASEN 2024, Encuestas de Acceso y Usos de Internet de SUBTEL, estadísticas sectoriales, registros públicos de redes móviles y calidad observada de red.
+Repositorio abierto para analizar inclusión, exclusión y desigualdad digital en Chile a partir de Censo 2024, CASEN 2024, Encuestas de Acceso y Usos de Internet de SUBTEL, estadísticas sectoriales, registros públicos de redes móviles y fijas, conectividad educativa y calidad observada de red.
 
 El proyecto no trata acceso a Internet como sinónimo de inclusión digital. Mantiene separadas la desconexión dura, el tipo de conexión, el equipamiento, las habilidades, los usos funcionales, las desigualdades sociales, la infraestructura territorial y el desempeño de las redes.
 
 ## Cobertura actual
 
-La versión pública combina evidencia censal, encuestas sociales y de telecomunicaciones, estadísticas sectoriales, registros públicos 4G/5G, desempeño observado de red, cartografía comunal y pipelines reproducibles.
+La versión pública combina evidencia censal, encuestas sociales y de telecomunicaciones, estadísticas sectoriales, registros públicos 4G/5G, trazados RedAcceso, programas de conectividad educativa, desempeño observado de red, cartografía comunal y pipelines reproducibles.
 
 ### Censo 2024 — 346 comunas
 
@@ -22,7 +22,7 @@ La fuente es Censo 2024 y la capa pública integrada utilizada por el Atlas de l
 
 `data/communal_master/chile_digital_inclusion_communes_2026.csv` es la base estructural de 346 comunas y 38 campos públicos.
 
-`data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv` agrega desempeño Ookla fijo y móvil Q1 2026, variaciones Q4 2025 → Q1 2026 y registros públicos SUBTEL 4G/5G de marzo de 2025 por operador. Conserva las **346 comunas y contiene 77 variables**.
+`data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv` agrega desempeño Ookla fijo y móvil Q1 2026, variaciones Q4 2025 → Q1 2026, registros públicos SUBTEL 4G/5G de marzo de 2025, presencia de capas públicas RedAcceso y Aulas Conectadas 2025 territorializado por RBD. Conserva las **346 comunas y contiene 84 variables**.
 
 La versión pública excluye deliberadamente índices internos, scores, segmentaciones y ponderadores propietarios. El archivo es una base observable para mapas, rankings descriptivos y análisis reproducible; no es el Índice de Vulnerabilidad Digital.
 
@@ -102,6 +102,30 @@ Productos principales:
 
 La metodología está en `docs/subtel_mobile_network_points_2025.md`.
 
+### Infraestructura fija pública — SUBTEL RedAcceso
+
+`data/fixed_access_infrastructure/` inventaría los servicios públicos `RedAcceso` del servidor ArcGIS de SUBTEL. El catálogo actual identifica seis capas lineales accesibles sin token, correspondientes a Claro, Entel, Infraco y VTR, con **507.059 registros lineales consultables** en conjunto.
+
+La capa de presencia comunal ejecuta **2.076 consultas espaciales** —346 comunas × 6 capas— sin fallas y detecta **307 comunas con al menos una capa RedAcceso pública**. El máximo observado es cuatro operadores/entidades presentes en una comuna.
+
+El maestro integrado incorpora solo dos campos robustos: número de capas públicas presentes y número de operadores/entidades presentes. Los conteos por servicio quedan en la carpeta técnica.
+
+`RedAcceso` no se interpreta como porcentaje de cobertura, hogares pasados por fibra ni disponibilidad comercial en una dirección. Los servicios `Of468_CTR_RedAcceso` y `Of468_Mundo_RedAcceso` fueron descubiertos pero actualmente exigen token; quedan registrados y excluidos, sin intentar eludir ese control de acceso.
+
+La metodología y la frontera de interpretación están en `docs/subtel_fixed_access_linework.md`.
+
+### Conectividad educativa — Mineduc 2025/2026
+
+`data/education_connectivity_2026/` incorpora programas y registros administrativos oficiales de conectividad e infraestructura digital educativa.
+
+Para Aulas Conectadas 2025 se procesa la planilla oficial de Mineduc con **793 RBD únicos**: **700 establecimientos seleccionados** y **93 en lista de espera**. Los RBD se cruzan exclusivamente con el Directorio Oficial de Establecimientos Educacionales 2025, que contiene 16.768 establecimientos de datos.
+
+El cruce logra **793 de 793 RBD, equivalente a 100% de match**, sin duplicados ni establecimientos sin resolver. Los 700 seleccionados se distribuyen en **196 comunas**. El resumen comunal mantiene seleccionados, lista de espera, seleccionados rurales, matrícula administrativa de los establecimientos y disponibilidad de coordenadas.
+
+La selección en un programa no equivale a conectividad ya instalada ni a acceso domiciliario de los estudiantes. La suma de matrícula describe el tamaño de los establecimientos seleccionados y no el número de estudiantes efectivamente beneficiados.
+
+La metodología completa está en `docs/education_connectivity_2026.md`.
+
 ### SUBTEL — procesamiento de bases oficiales
 
 Además de las series curadas, el repositorio procesa directamente las bases públicas SPSS/SAV de SUBTEL. Actualmente cubre una base histórica de 2008 y las bases disponibles entre 2011 y 2025.
@@ -155,7 +179,7 @@ assets/dashboard.css
 assets/dashboard.js
 ```
 
-La vista carga el maestro comunal integrado y el GeoJSON. Permite cambiar indicador, buscar comunas, revisar rankings y abrir una ficha territorial con conectividad, equipamiento, contexto social, registros 4G/5G y desempeño Ookla. También muestra un contexto sectorial nacional actualizado a marzo de 2026.
+La vista carga el maestro comunal integrado y el GeoJSON. Permite cambiar indicador, buscar comunas, revisar rankings y abrir una ficha territorial con conectividad, equipamiento, contexto social, registros 4G/5G, presencia RedAcceso, Aulas Conectadas y desempeño Ookla. También muestra un contexto sectorial nacional actualizado a marzo de 2026.
 
 El código está listo para alojamiento estático. El workflow `.github/workflows/deploy-pages.yml` quedó preparado para GitHub Pages, pero el sitio debe habilitarse una vez en la configuración del repositorio antes de ejecutar el despliegue manual.
 
@@ -173,6 +197,8 @@ Chile-Digital-Inclusion/
 │   ├── communal_master/
 │   ├── metadata/
 │   ├── mobile_coverage_2025/
+│   ├── fixed_access_infrastructure/
+│   ├── education_connectivity_2026/
 │   ├── subtel_sector_2026/
 │   ├── subtel_longitudinal/
 │   ├── subtel_segments/
@@ -204,6 +230,10 @@ Los principales productos derivados tienen pipelines independientes para:
 - catálogo de servicios 4G/5G SUBTEL
 - agregación espacial de registros móviles por comuna
 - integración de infraestructura móvil al maestro comunal
+- descubrimiento, catálogo y presencia comunal de capas RedAcceso SUBTEL
+- descarga y normalización de Aulas Conectadas 2025
+- crosswalk oficial RBD → comuna mediante el Directorio Mineduc 2025
+- integración educativa al maestro comunal
 - descarga y control trimestral Ookla
 - agregación Ookla comunal y regional
 - cartografía comunal
