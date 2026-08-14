@@ -1,0 +1,34 @@
+source_id,source_url,sheet_name,xml_path,dimension,max_row,max_col,cell_count,download_bytes
+fixed_connections,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx,ÍNDICE,xl/worksheets/sheet1.xml,A1:K131,26,11,118,1538543
+fixed_connections,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx,7.1.CO_TOT_FIJAS,xl/worksheets/sheet2.xml,A1:XFC347,261,18,3081,1538543
+fixed_connections,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx,7.2.Conex area,xl/worksheets/sheet3.xml,A1:XEZ367,56,20,563,1538543
+fixed_connections,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx,7.3.Conex suscrip,xl/worksheets/sheet4.xml,A1:M318,257,13,2627,1538543
+fixed_connections,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx,7.4.Co_RG,xl/worksheets/sheet5.xml,A1:AM303,245,39,6563,1538543
+fixed_connections,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx,7.7.CO_TEC_FIJAS,xl/worksheets/sheet6.xml,A1:XFC311,256,14,2982,1538543
+fixed_connections,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx,7.7.1.CO_TEC_RG_EMP_FIJAS,xl/worksheets/sheet7.xml,A1:CI237,52,86,3238,1538543
+fixed_connections,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx,7.8.CO_PL_FIJAS,xl/worksheets/sheet8.xml,A1:N247,224,8,1686,1538543
+fixed_connections,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx,7.9.CO_EMPR_FIJAS,xl/worksheets/sheet9.xml,A1:JI323,235,73,15986,1538543
+fixed_connections,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx,7.10.CO_ANCH_FIJAS,xl/worksheets/sheet10.xml,A1:XFC309,224,9,1833,1538543
+fixed_connections,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx,7.11.CO_FIJAS_COMUNA,xl/worksheets/sheet11.xml,A1:GY538,538,204,81606,1538543
+fixed_connections,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx,7.11.1.CO_FIJAS_RES_COMUNA,xl/worksheets/sheet12.xml,A1:EQ552,406,141,52906,1538543
+fixed_connections,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx,7.12.CO_FIJAS_CLI_OECD,xl/worksheets/sheet13.xml,A1:N302,226,14,2697,1538543
+fixed_connections,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx,7.13.CO_FIJAS_TECN_OECD,xl/worksheets/sheet14.xml,A1:N311,231,14,2949,1538543
+fixed_connections,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx,7.14.CO_FIJAS_SERV,xl/worksheets/sheet15.xml,A1:XES234,65,77,4265,1538543
+fixed_connections,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx,7.15.CO_FIJAS_TCL_TECN,xl/worksheets/sheet16.xml,A1:AD343,231,29,5938,1538543
+mobile_connections,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx,ÍNDICE,xl/worksheets/sheet1.xml,A1:K128,14,11,68,512588
+mobile_connections,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx,8.1.CO_TEC_MOVIL,xl/worksheets/sheet2.xml,A1:R307,226,17,3179,512588
+mobile_connections,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx,8.3.CO_EMP_TEC_MOVIL,xl/worksheets/sheet3.xml,A1:CF281,218,81,16506,512588
+mobile_connections,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx,8.4.CO_MOVIL_CLI_OECD,xl/worksheets/sheet4.xml,A1:N287,226,14,2699,512588
+mobile_connections,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx,8.7.CO_TEC_TER_MOVIL,xl/worksheets/sheet5.xml,A1:AM291,179,38,6133,512588
+mobile_connections,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx,8.8.CO_EMP_TEC_TER_MOVIL,xl/worksheets/sheet6.xml,A1:DR245,133,81,9639,512588
+mobile_connections,https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx,8.9.CO_MOVIL_PLAN,xl/worksheets/sheet7.xml,A1:X248,187,24,3922,512588
+mobile_traffic,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_MOVILES-MAR26-040526.xlsx,ÍNDICE,xl/worksheets/sheet1.xml,A1:K130,16,11,69,163896
+mobile_traffic,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_MOVILES-MAR26-040526.xlsx,9.1.TRAF_SENT,xl/worksheets/sheet2.xml,A1:P148,137,10,771,163896
+mobile_traffic,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_MOVILES-MAR26-040526.xlsx,9.2.TRAF_BAND,xl/worksheets/sheet3.xml,A1:J134,119,7,673,163896
+mobile_traffic,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_MOVILES-MAR26-040526.xlsx,9.3.TRAF_CLI.PLAN,xl/worksheets/sheet4.xml,A1:O141,124,8,825,163896
+mobile_traffic,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_MOVILES-MAR26-040526.xlsx,9.5.TRAF_EMP,xl/worksheets/sheet5.xml,A1:T151,121,13,1410,163896
+fixed_traffic,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_FIJOS-MAR26-040526.xlsx,ÍNDICE,xl/worksheets/sheet1.xml,A1:K130,16,11,69,174896
+fixed_traffic,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_FIJOS-MAR26-040526.xlsx,10.1.TRAF_SENT,xl/worksheets/sheet2.xml,A1:Q115,111,9,650,174896
+fixed_traffic,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_FIJOS-MAR26-040526.xlsx,10.2.TRAF_BAND,xl/worksheets/sheet3.xml,A1:I121,101,7,552,174896
+fixed_traffic,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_FIJOS-MAR26-040526.xlsx,10.3.TRAF_CLI,xl/worksheets/sheet4.xml,A1:O118,100,8,676,174896
+fixed_traffic,https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_FIJOS-MAR26-040526.xlsx,10.4.TRAF_EMP,xl/worksheets/sheet5.xml,A1:XFC117,103,29,2177,174896
