@@ -1,0 +1,36 @@
+name: Build SUBTEL fixed connections by commune March 2026
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_subtel_fixed_commune_2026.py'
+      - 'geo/commune_codes.csv'
+      - '.github/workflows/build-subtel-fixed-commune-2026.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests openpyxl
+      - run: python scripts/build_subtel_fixed_commune_2026.py
+      - name: Commit communal fixed connection layer
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/subtel_sector_series/fixed_connections_by_commune_2026_03.csv data/subtel_sector_series/fixed_connections_by_commune_operator_2026_03.csv data/subtel_sector_series/fixed_connections_by_commune_2026_03_qa.csv
+          if git diff --cached --quiet; then
+            echo 'No communal fixed-connection changes'
+          else
+            git commit -m 'Publish SUBTEL fixed connections by commune March 2026'
+            git pull --rebase origin main
+            git push
+          fi
