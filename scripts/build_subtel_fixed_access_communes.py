@@ -9,7 +9,8 @@ import requests
 from pyproj import Geod
 from shapely import intersection, make_valid
 from shapely.errors import GEOSException
-from shapely.geometry import LineString, MultiLineString, shape
+from shapely.geometry import LineString, MultiLineString, MultiPolygon, Polygon, shape
+from shapely.ops import unary_union
 from shapely.strtree import STRtree
 
 CATALOG = Path('data/fixed_access_infrastructure/service_catalog.csv')
@@ -42,6 +43,54 @@ def oid_field(service_url: str, layer_id: int) -> str:
     raise RuntimeError(f'No ObjectID field for {service_url}/{layer_id}')
 
 
+def collect_parts(geom, allowed_types: set[str]):
+    if geom is None or geom.is_empty:
+        return []
+    if geom.geom_type in allowed_types:
+        return [geom]
+    if hasattr(geom, 'geoms'):
+        parts = []
+        for child in geom.geoms:
+            parts.extend(collect_parts(child, allowed_types))
+        return parts
+    return []
+
+
+def polygonal_only(geom):
+    if geom is None or geom.is_empty:
+        return None
+    fixed = make_valid(geom) if not geom.is_valid else geom
+    parts = collect_parts(fixed, {'Polygon', 'MultiPolygon'})
+    flat = []
+    for part in parts:
+        if isinstance(part, Polygon):
+            flat.append(part)
+        elif isinstance(part, MultiPolygon):
+            flat.extend(list(part.geoms))
+    if not flat:
+        return None
+    merged = unary_union(flat)
+    return merged if not merged.is_empty else None
+
+
+def lineal_only(geom):
+    if geom is None or geom.is_empty:
+        return None
+    fixed = make_valid(geom) if not geom.is_valid else geom
+    parts = collect_parts(fixed, {'LineString', 'MultiLineString'})
+    flat = []
+    for part in parts:
+        if isinstance(part, LineString):
+            flat.append(part)
+        elif isinstance(part, MultiLineString):
+            flat.extend(list(part.geoms))
+    if not flat:
+        return None
+    if len(flat) == 1:
+        return flat[0]
+    return MultiLineString(flat)
+
+
 def arcgis_line(geometry: dict):
     paths = geometry.get('paths') or []
     clean = []
@@ -52,7 +101,7 @@ def arcgis_line(geometry: dict):
     if not clean:
         return None
     geom = LineString(clean[0]) if len(clean) == 1 else MultiLineString(clean)
-    return make_valid(geom) if not geom.is_valid else geom
+    return lineal_only(geom)
 
 
 def geodesic_length_m(geom) -> float:
@@ -66,11 +115,19 @@ def geodesic_length_m(geom) -> float:
         return 0.0
 
 
-def safe_intersection(a, b):
-    try:
-        return intersection(a, b, grid_size=1e-9)
-    except GEOSException:
-        return intersection(make_valid(a), make_valid(b), grid_size=1e-9)
+def safe_intersection(line, polygon):
+    attempts = [
+        lambda: line.intersection(polygon),
+        lambda: intersection(line, polygon, grid_size=1e-8),
+        lambda: intersection(lineal_only(line), polygonal_only(polygon)),
+    ]
+    for fn in attempts:
+        try:
+            out = fn()
+            return lineal_only(out)
+        except (GEOSException, ValueError, TypeError):
+            continue
+    return None
 
 
 def fetch_lines(service_url: str, layer_id: int, operator: str):
@@ -109,15 +166,19 @@ def load_communes():
         gj = json.load(fh)
     polygons, props = [], []
     repaired = 0
+    skipped = 0
     for f in gj['features']:
-        geom = shape(f['geometry'])
-        if not geom.is_valid:
-            geom = make_valid(geom)
+        original = shape(f['geometry'])
+        geom = polygonal_only(original)
+        if geom is None:
+            skipped += 1
+            continue
+        if not original.is_valid or geom.geom_type != original.geom_type:
             repaired += 1
         polygons.append(geom)
         props.append(f['properties'])
-    print('commune_geometries', len(polygons), 'repaired', repaired)
-    return polygons, props, STRtree(polygons)
+    print('commune_geometries', len(polygons), 'repaired_or_normalized', repaired, 'skipped', skipped)
+    return polygons, props, STRtree(polygons), repaired, skipped
 
 
 def normalize_category(value) -> str:
@@ -138,7 +199,7 @@ def main() -> None:
             if r['status'] == 'ok' and r['layer_id'] != '' and r['label'] in {'Claro', 'Entel'}
         ]
 
-    polygons, props, tree = load_communes()
+    polygons, props, tree, repaired_communes, skipped_communes = load_communes()
     agg = defaultdict(lambda: {'length_m': 0.0, 'source_segments': set(), 'capacity_length_sum': 0.0,
                                'capacity_length_den': 0.0, 'fiber_count_length_sum': 0.0,
                                'fiber_count_length_den': 0.0})
@@ -152,7 +213,7 @@ def main() -> None:
         source_length_m = 0.0
         assigned_length_m = 0.0
         segments_with_assignment = 0
-        topology_retries = 0
+        overlay_failures = 0
 
         for attrs, line in fetch_lines(service_url, layer_id, operator):
             total_segments += 1
@@ -173,10 +234,12 @@ def main() -> None:
                 try:
                     if not polygons[idx].intersects(line):
                         continue
-                    clipped = intersection(line, polygons[idx], grid_size=1e-9)
                 except GEOSException:
-                    topology_retries += 1
-                    clipped = safe_intersection(line, polygons[idx])
+                    pass
+                clipped = safe_intersection(line, polygons[idx])
+                if clipped is None:
+                    overlay_failures += 1
+                    continue
                 length_m = geodesic_length_m(clipped)
                 if length_m <= 0:
                     continue
@@ -209,14 +272,16 @@ def main() -> None:
             'source_length_km': round(source_length_m / 1000, 3),
             'assigned_clipped_length_km': round(assigned_length_m / 1000, 3),
             'assigned_length_pct_raw': round(ratio, 4) if ratio is not None else '',
-            'topology_retries': topology_retries,
+            'overlay_failures': overlay_failures,
+            'commune_geometries_repaired_or_normalized': repaired_communes,
+            'commune_geometries_skipped': skipped_communes,
             'service_url': service_url,
             'layer_id': layer_id,
-            'interpretation': 'public RedAcceso linework split by commune intersection; very small boundary overlaps can make summed clipped length slightly exceed source length; not household or retail coverage',
+            'interpretation': 'public RedAcceso linework split by commune intersection; tiny boundary overlaps can make summed clipped length slightly exceed source length; not household or retail coverage',
         })
         print(operator, 'segments', total_segments, 'assigned_segments', segments_with_assignment,
               'source_km', round(source_length_m/1000, 2), 'assigned_km', round(assigned_length_m/1000, 2),
-              'topology_retries', topology_retries)
+              'overlay_failures', overlay_failures)
 
     long_rows = []
     operator_commune = defaultdict(lambda: {'length_m': 0.0, 'segments': set(), 'categories': set()})
