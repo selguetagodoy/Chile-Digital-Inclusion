@@ -1,0 +1,38 @@
+name: Build SUBTEL affordability indicators
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_subtel_affordability.py'
+      - 'scripts/profile_subtel_microdata.py'
+      - '.github/workflows/build-subtel-affordability.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install pandas numpy pyreadstat requests
+      - name: Build affordability tables
+        run: python scripts/build_subtel_affordability.py
+      - name: Commit aggregate outputs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/affordability
+          if git diff --cached --quiet; then
+            echo 'No affordability changes to commit'
+          else
+            git commit -m 'Add SUBTEL willingness to pay and cost barriers'
+            git pull --rebase origin main
+            git push
+          fi
