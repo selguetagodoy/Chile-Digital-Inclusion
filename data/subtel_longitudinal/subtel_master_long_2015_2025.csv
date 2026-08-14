@@ -1,0 +1,253 @@
+reference_year,survey_wave,domain,indicator,segment,value_pct,universe,reference_window,source_ref,comparability_note
+2015,VII,access_mode,fixed_only,total,17.7,households,,SUBTEL harmonized survey series,National and access-mode values use SUBTEL's later harmonized series; urban/rural values are retrospective rounded values reported in the VIII survey.
+2015,VII,access_mode,fixed_plus_mobile,total,31.1,households,,SUBTEL harmonized survey series,National and access-mode values use SUBTEL's later harmonized series; urban/rural values are retrospective rounded values reported in the VIII survey.
+2015,VII,access_mode,mobile_only,total,19.7,households,,SUBTEL harmonized survey series,National and access-mode values use SUBTEL's later harmonized series; urban/rural values are retrospective rounded values reported in the VIII survey.
+2015,VII,access_mode,total_fixed,total,48.8,households,,SUBTEL harmonized survey series,National and access-mode values use SUBTEL's later harmonized series; urban/rural values are retrospective rounded values reported in the VIII survey.
+2015,VII,access_mode,unspecified_mode,total,1.7,households,,SUBTEL harmonized survey series,National and access-mode values use SUBTEL's later harmonized series; urban/rural values are retrospective rounded values reported in the VIII survey.
+2015,VII,devices,console,households_with_internet,15.0,households with Internet,,SUBTEL survey presentations,Multiple response among households with Internet; streaming-player category not retained in the historical chart.
+2015,VII,devices,desktop,households_with_internet,33.0,households with Internet,,SUBTEL survey presentations,Multiple response among households with Internet; streaming-player category not retained in the historical chart.
+2015,VII,devices,laptop,households_with_internet,66.0,households with Internet,,SUBTEL survey presentations,Multiple response among households with Internet; streaming-player category not retained in the historical chart.
+2015,VII,devices,smartphone,households_with_internet,90.0,households with Internet,,SUBTEL survey presentations,Multiple response among households with Internet; streaming-player category not retained in the historical chart.
+2015,VII,devices,tablet,households_with_internet,28.0,households with Internet,,SUBTEL survey presentations,Multiple response among households with Internet; streaming-player category not retained in the historical chart.
+2015,VII,devices,tv_connected,households_with_internet,19.0,households with Internet,,SUBTEL survey presentations,Multiple response among households with Internet; streaming-player category not retained in the historical chart.
+2015,VI,household_access,households_with_any_connection,total,67.0,households,,SUBTEL 2015 press release,Contemporaneous VI survey headline; differs from later harmonized paid-access series.
+2015,VII,household_access,no_paid_internet_access,total,29.8,households,,SUBTEL harmonized survey series,National and access-mode values use SUBTEL's later harmonized series; urban/rural values are retrospective rounded values reported in the VIII survey.
+2015,VII,household_access,paid_internet_access,rural,56.0,households,,SUBTEL harmonized survey series,National and access-mode values use SUBTEL's later harmonized series; urban/rural values are retrospective rounded values reported in the VIII survey.
+2015,VII,household_access,paid_internet_access,total,70.2,households,,SUBTEL harmonized survey series,National and access-mode values use SUBTEL's later harmonized series; urban/rural values are retrospective rounded values reported in the VIII survey.
+2015,VII,household_access,paid_internet_access,urban,74.0,households,,SUBTEL harmonized survey series,National and access-mode values use SUBTEL's later harmonized series; urban/rural values are retrospective rounded values reported in the VIII survey.
+2015,VI,indigenous_rural,internet_access,rural_indigenous_households,33.8,rural indigenous households,,SUBTEL 2015 indigenous annex,Special annex; not directly comparable with harmonized national rural series.
+2015,VI,indigenous_rural,no_internet_due_to_usability,rural_indigenous_households_without_internet,52.0,rural indigenous households without Internet,,SUBTEL 2015 indigenous annex,Reason reported in special annex.
+2015,VI,internet_use,frequent_internet_users,total_population,70.0,people,,SUBTEL 2015 press release,Headline frequent-use estimate.
+2015,VII,internet_use_frequency,daily,total,84.9,Internet users,last_12_months,SUBTEL survey presentations,Retrospective series reported in the VIII survey.
+2015,VII,internet_use_frequency,less_than_monthly,total,1.8,Internet users,last_12_months,SUBTEL survey presentations,Retrospective series reported in the VIII survey.
+2015,VII,internet_use_frequency,monthly_not_weekly,total,2.8,Internet users,last_12_months,SUBTEL survey presentations,Retrospective series reported in the VIII survey.
+2015,VII,internet_use_frequency,several_times_week,total,10.5,Internet users,last_12_months,SUBTEL survey presentations,Retrospective series reported in the VIII survey.
+2015,VI,older_people,internet_use_last_3_months,older_people,30.3,older people,last_3_months,SUBTEL 2015 older-adult annex,Special older-adult annex.
+2015,VI,older_people,never_connected_to_internet,older_people,66.0,older people,,SUBTEL 2015 older-adult annex,Special older-adult annex.
+2015,VI,technology_by_area,fixed_broadband,urban,76.8,urban households,,SUBTEL 2015 press release,Technology-use result.
+2015,VI,technology_by_area,mobile_broadband,rural,27.0,rural households,,SUBTEL 2015 press release,Technology-use result.
+2015,VI,technology_by_area,smartphone,rural,80.8,rural households,,SUBTEL 2015 press release,Technology-use result.
+2015,VI,technology_by_area,smartphone,urban,73.9,urban households,,SUBTEL 2015 press release,Technology-use result.
+2016,VIII,access_mode,fixed_only,total,30.1,households,,SUBTEL harmonized survey series,Access-mode components sum to 79.4 because of published rounding; headline access is 79.3.
+2016,VIII,access_mode,fixed_plus_mobile,total,22.8,households,,SUBTEL harmonized survey series,Access-mode components sum to 79.4 because of published rounding; headline access is 79.3.
+2016,VIII,access_mode,mobile_only,total,25.5,households,,SUBTEL harmonized survey series,Access-mode components sum to 79.4 because of published rounding; headline access is 79.3.
+2016,VIII,access_mode,total_fixed,total,52.9,households,,SUBTEL harmonized survey series,Access-mode components sum to 79.4 because of published rounding; headline access is 79.3.
+2016,VIII,access_mode,unspecified_mode,total,1.0,households,,SUBTEL harmonized survey series,Access-mode components sum to 79.4 because of published rounding; headline access is 79.3.
+2016,VIII,devices,console,households_with_internet,16.0,households with Internet,,SUBTEL survey presentations,Multiple response among households with Internet.
+2016,VIII,devices,desktop,households_with_internet,26.0,households with Internet,,SUBTEL survey presentations,Multiple response among households with Internet.
+2016,VIII,devices,laptop,households_with_internet,61.0,households with Internet,,SUBTEL survey presentations,Multiple response among households with Internet.
+2016,VIII,devices,smartphone,households_with_internet,97.0,households with Internet,,SUBTEL survey presentations,Multiple response among households with Internet.
+2016,VIII,devices,tablet,households_with_internet,26.0,households with Internet,,SUBTEL survey presentations,Multiple response among households with Internet.
+2016,VIII,devices,tv_connected,households_with_internet,30.0,households with Internet,,SUBTEL survey presentations,Multiple response among households with Internet.
+2016,VIII,household_access,no_paid_internet_access,total,20.7,households,,SUBTEL harmonized survey series,Access-mode components sum to 79.4 because of published rounding; headline access is 79.3.
+2016,VIII,household_access,paid_internet_access,rural,66.4,households,,SUBTEL harmonized survey series,Access-mode components sum to 79.4 because of published rounding; headline access is 79.3.
+2016,VIII,household_access,paid_internet_access,total,79.3,households,,SUBTEL harmonized survey series,Access-mode components sum to 79.4 because of published rounding; headline access is 79.3.
+2016,VIII,household_access,paid_internet_access,urban,81.3,households,,SUBTEL harmonized survey series,Access-mode components sum to 79.4 because of published rounding; headline access is 79.3.
+2016,VIII,internet_use_frequency,daily,total,89.2,Internet users,last_12_months,SUBTEL survey presentations,Universe: Internet users in the previous 12 months.
+2016,VIII,internet_use_frequency,less_than_monthly,total,0.9,Internet users,last_12_months,SUBTEL survey presentations,Universe: Internet users in the previous 12 months.
+2016,VIII,internet_use_frequency,monthly_not_weekly,total,1.8,Internet users,last_12_months,SUBTEL survey presentations,Universe: Internet users in the previous 12 months.
+2016,VIII,internet_use_frequency,several_times_week,total,8.0,Internet users,last_12_months,SUBTEL survey presentations,Universe: Internet users in the previous 12 months.
+2017,IX,access_mode,fixed_only,total,27.2,households,,SUBTEL harmonized survey series,Access-mode labels follow the harmonized historical chart used by SUBTEL in later survey presentations.
+2017,IX,access_mode,fixed_plus_mobile,total,28.9,households,,SUBTEL harmonized survey series,Access-mode labels follow the harmonized historical chart used by SUBTEL in later survey presentations.
+2017,IX,access_mode,mobile_only,total,29.6,households,,SUBTEL harmonized survey series,Access-mode labels follow the harmonized historical chart used by SUBTEL in later survey presentations.
+2017,IX,access_mode,total_fixed,total,56.1,households,,SUBTEL harmonized survey series,Access-mode labels follow the harmonized historical chart used by SUBTEL in later survey presentations.
+2017,IX,access_mode,unspecified_mode,total,1.7,households,,SUBTEL harmonized survey series,Access-mode labels follow the harmonized historical chart used by SUBTEL in later survey presentations.
+2017,IX,devices,console,households_with_internet,9.9,households with Internet,,SUBTEL survey presentations,Values use the contemporaneous IX survey presentation.
+2017,IX,devices,desktop,households_with_internet,20.6,households with Internet,,SUBTEL survey presentations,Values use the contemporaneous IX survey presentation.
+2017,IX,devices,laptop,households_with_internet,54.8,households with Internet,,SUBTEL survey presentations,Values use the contemporaneous IX survey presentation.
+2017,IX,devices,smartphone,households_with_internet,95.1,households with Internet,,SUBTEL survey presentations,Values use the contemporaneous IX survey presentation.
+2017,IX,devices,tablet,households_with_internet,19.3,households with Internet,,SUBTEL survey presentations,Values use the contemporaneous IX survey presentation.
+2017,IX,devices,tv_connected,households_with_internet,22.0,households with Internet,,SUBTEL survey presentations,Values use the contemporaneous IX survey presentation.
+2017,IX,household_access,no_paid_internet_access,total,12.6,households,,SUBTEL harmonized survey series,Access-mode labels follow the harmonized historical chart used by SUBTEL in later survey presentations.
+2017,IX,household_access,paid_internet_access,older_people_only_households,54.6,households,,SUBTEL harmonized survey series,Access-mode labels follow the harmonized historical chart used by SUBTEL in later survey presentations.
+2017,IX,household_access,paid_internet_access,rural,76.7,households,,SUBTEL harmonized survey series,Access-mode labels follow the harmonized historical chart used by SUBTEL in later survey presentations.
+2017,IX,household_access,paid_internet_access,total,87.4,households,,SUBTEL harmonized survey series,Access-mode labels follow the harmonized historical chart used by SUBTEL in later survey presentations.
+2017,IX,household_access,paid_internet_access,urban,89.1,households,,SUBTEL harmonized survey series,Access-mode labels follow the harmonized historical chart used by SUBTEL in later survey presentations.
+2017,IX,internet_use_frequency,daily,total,92.2,Internet users,last_12_months,SUBTEL survey presentations,The executive summary retains the daily-use result; other frequency categories are left blank rather than reconstructed.
+2017,IX,older_people,gap_vs_total_access_pp,older_people_only_households,32.8,households,,SUBTEL survey presentations,Published IX survey definition.
+2017,IX,older_people,paid_internet_access,older_people_only_households,54.6,households,,SUBTEL survey presentations,Published IX survey definition.
+2023,X,access_mode,fixed_only,total,54.6,households,,SUBTEL harmonized survey series,Fieldwork 2023; same household access concept as the harmonized series.
+2023,X,access_mode,fixed_plus_mobile,total,16.7,households,,SUBTEL harmonized survey series,Fieldwork 2023; same household access concept as the harmonized series.
+2023,X,access_mode,mobile_only,total,21.5,households,,SUBTEL harmonized survey series,Fieldwork 2023; same household access concept as the harmonized series.
+2023,X,access_mode,total_fixed,total,71.3,households,,SUBTEL harmonized survey series,Fieldwork 2023; same household access concept as the harmonized series.
+2023,X,access_mode,unspecified_mode,total,1.5,households,,SUBTEL harmonized survey series,Fieldwork 2023; same household access concept as the harmonized series.
+2023,X,devices,console,households_with_internet,23.9,households with Internet,,SUBTEL survey presentations,Smart-TV and streaming categories are now materially more common than in early waves.
+2023,X,devices,desktop,households_with_internet,28.5,households with Internet,,SUBTEL survey presentations,Smart-TV and streaming categories are now materially more common than in early waves.
+2023,X,devices,laptop,households_with_internet,61.6,households with Internet,,SUBTEL survey presentations,Smart-TV and streaming categories are now materially more common than in early waves.
+2023,X,devices,smartphone,households_with_internet,99.1,households with Internet,,SUBTEL survey presentations,Smart-TV and streaming categories are now materially more common than in early waves.
+2023,X,devices,streaming_player,households_with_internet,18.5,households with Internet,,SUBTEL survey presentations,Smart-TV and streaming categories are now materially more common than in early waves.
+2023,X,devices,tablet,households_with_internet,28.4,households with Internet,,SUBTEL survey presentations,Smart-TV and streaming categories are now materially more common than in early waves.
+2023,X,devices,tv_connected,households_with_internet,74.6,households with Internet,,SUBTEL survey presentations,Smart-TV and streaming categories are now materially more common than in early waves.
+2023,X,digital_skills,change_security_settings,total,34.2,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2023,X,digital_skills,connect_router_camera_printer,total,46.4,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2023,X,digital_skills,create_website,total,5.2,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2023,X,digital_skills,edit_photos_or_video,total,55.7,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2023,X,digital_skills,email_with_attachments,total,67.2,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2023,X,digital_skills,install_and_configure_apps,total,49.7,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2023,X,digital_skills,install_os_or_program,total,16.1,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2023,X,digital_skills,none,total,6.6,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2023,X,digital_skills,online_banking_purchases_payments,total,63.5,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2023,X,digital_skills,online_gaming,total,41.6,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2023,X,digital_skills,post_to_social_networks,total,53.1,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2023,X,digital_skills,presentation_software,total,45.9,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2023,X,digital_skills,review_social_networks,total,77.5,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2023,X,digital_skills,spreadsheet_formulas,total,45.3,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2023,X,digital_skills,transfer_files_or_cloud,total,49.7,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2023,X,digital_skills,video_calls,total,79.4,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2023,X,digital_skills,word_processor,total,53.3,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2023,X,household_access,no_paid_internet_access,total,5.7,households,,SUBTEL harmonized survey series,Fieldwork 2023; same household access concept as the harmonized series.
+2023,X,household_access,paid_internet_access,older_people_only_households,70.5,households,,SUBTEL harmonized survey series,Fieldwork 2023; same household access concept as the harmonized series.
+2023,X,household_access,paid_internet_access,rural,89.5,households,,SUBTEL harmonized survey series,Fieldwork 2023; same household access concept as the harmonized series.
+2023,X,household_access,paid_internet_access,total,94.3,households,,SUBTEL harmonized survey series,Fieldwork 2023; same household access concept as the harmonized series.
+2023,X,household_access,paid_internet_access,urban,95.0,households,,SUBTEL harmonized survey series,Fieldwork 2023; same household access concept as the harmonized series.
+2023,X,household_access_by_head_sex,paid_internet_access,female_household_head,93.2,households,,SUBTEL X survey,Household-head sex disaggregation.
+2023,X,household_access_by_head_sex,paid_internet_access,male_household_head,95.1,households,,SUBTEL X survey,Household-head sex disaggregation.
+2023,X,internet_use_frequency,daily,total,92.5,Internet users,last_12_months,SUBTEL survey presentations,Published categories sum to approximately 100 because of rounding.
+2023,X,internet_use_frequency,less_than_monthly,total,0.4,Internet users,last_12_months,SUBTEL survey presentations,Published categories sum to approximately 100 because of rounding.
+2023,X,internet_use_frequency,monthly_not_weekly,total,1.1,Internet users,last_12_months,SUBTEL survey presentations,Published categories sum to approximately 100 because of rounding.
+2023,X,internet_use_frequency,several_times_week,total,6.1,Internet users,last_12_months,SUBTEL survey presentations,Published categories sum to approximately 100 because of rounding.
+2023,X,older_people,gap_vs_total_access_pp,older_people_only_households,23.8,households,,SUBTEL survey presentations,Household-composition category in the survey presentation.
+2023,X,older_people,paid_internet_access,older_people_only_households,70.5,households,,SUBTEL survey presentations,Household-composition category in the survey presentation.
+2023,X,reasons_for_having_internet,access_information,total,57.0,households with Internet,,SUBTEL X survey,Multiple reasons possible.
+2023,X,reasons_for_having_internet,communication,total,69.8,households with Internet,,SUBTEL X survey,Multiple reasons possible.
+2023,X,rural_access,mobile_connection,rural,50.9,rural households,,SUBTEL X survey,Mobile connectivity in rural households.
+2024,XI,access_mode,fixed_only,total,55.6,households,,SUBTEL harmonized survey series,Published 2025; wording of some use questions changed relative to 2023 but household access remains comparable.
+2024,XI,access_mode,fixed_plus_mobile,total,12.8,households,,SUBTEL harmonized survey series,Published 2025; wording of some use questions changed relative to 2023 but household access remains comparable.
+2024,XI,access_mode,mobile_only,total,26.9,households,,SUBTEL harmonized survey series,Published 2025; wording of some use questions changed relative to 2023 but household access remains comparable.
+2024,XI,access_mode,total_fixed,total,68.4,households,,SUBTEL harmonized survey series,Published 2025; wording of some use questions changed relative to 2023 but household access remains comparable.
+2024,XI,access_mode,unspecified_mode,total,1.3,households,,SUBTEL harmonized survey series,Published 2025; wording of some use questions changed relative to 2023 but household access remains comparable.
+2024,XI,devices,console,households_with_internet,21.0,households with Internet,,SUBTEL survey presentations,Multiple response among households with Internet.
+2024,XI,devices,desktop,households_with_internet,23.2,households with Internet,,SUBTEL survey presentations,Multiple response among households with Internet.
+2024,XI,devices,laptop,households_with_internet,57.3,households with Internet,,SUBTEL survey presentations,Multiple response among households with Internet.
+2024,XI,devices,smartphone,households_with_internet,98.9,households with Internet,,SUBTEL survey presentations,Multiple response among households with Internet.
+2024,XI,devices,streaming_player,households_with_internet,20.2,households with Internet,,SUBTEL survey presentations,Multiple response among households with Internet.
+2024,XI,devices,tablet,households_with_internet,23.1,households with Internet,,SUBTEL survey presentations,Multiple response among households with Internet.
+2024,XI,devices,tv_connected,households_with_internet,73.4,households with Internet,,SUBTEL survey presentations,Multiple response among households with Internet.
+2024,XI,digital_skills,artificial_intelligence,total,27.0,people in skills module,,SUBTEL survey presentations,Self-reported ability; AI item introduced in 2024.
+2024,XI,digital_skills,change_security_settings,total,31.6,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2024,XI,digital_skills,connect_router_camera_printer,total,46.9,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2024,XI,digital_skills,create_website,total,13.5,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2024,XI,digital_skills,edit_photos_or_video,total,55.3,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2024,XI,digital_skills,email_with_attachments,total,68.4,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2024,XI,digital_skills,install_and_configure_apps,total,49.2,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2024,XI,digital_skills,install_os_or_program,total,19.4,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2024,XI,digital_skills,none,total,2.7,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2024,XI,digital_skills,online_banking_purchases_payments,total,65.6,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2024,XI,digital_skills,online_gaming,total,38.8,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2024,XI,digital_skills,post_to_social_networks,total,51.5,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2024,XI,digital_skills,presentation_software,total,47.2,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2024,XI,digital_skills,review_social_networks,total,80.6,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2024,XI,digital_skills,spreadsheet_formulas,total,45.1,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2024,XI,digital_skills,transfer_files_or_cloud,total,50.3,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2024,XI,digital_skills,video_calls,total,79.3,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2024,XI,digital_skills,word_processor,total,54.0,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2024,XI,household_access,no_paid_internet_access,total,3.5,households,,SUBTEL harmonized survey series,Published 2025; wording of some use questions changed relative to 2023 but household access remains comparable.
+2024,XI,household_access,paid_internet_access,older_people_only_households,82.9,households,,SUBTEL harmonized survey series,Published 2025; wording of some use questions changed relative to 2023 but household access remains comparable.
+2024,XI,household_access,paid_internet_access,rural,94.5,households,,SUBTEL harmonized survey series,Published 2025; wording of some use questions changed relative to 2023 but household access remains comparable.
+2024,XI,household_access,paid_internet_access,total,96.5,households,,SUBTEL harmonized survey series,Published 2025; wording of some use questions changed relative to 2023 but household access remains comparable.
+2024,XI,household_access,paid_internet_access,urban,96.8,households,,SUBTEL harmonized survey series,Published 2025; wording of some use questions changed relative to 2023 but household access remains comparable.
+2024,XI,internet_use_frequency,daily,total,89.7,Internet users,last_3_months,SUBTEL survey presentations,Recall window changed from 12 months to 3 months; compare cautiously with earlier waves.
+2024,XI,internet_use_frequency,less_than_monthly,total,0.4,Internet users,last_3_months,SUBTEL survey presentations,Recall window changed from 12 months to 3 months; compare cautiously with earlier waves.
+2024,XI,internet_use_frequency,monthly_not_weekly,total,1.3,Internet users,last_3_months,SUBTEL survey presentations,Recall window changed from 12 months to 3 months; compare cautiously with earlier waves.
+2024,XI,internet_use_frequency,several_times_week,total,8.7,Internet users,last_3_months,SUBTEL survey presentations,Recall window changed from 12 months to 3 months; compare cautiously with earlier waves.
+2024,XI,older_people,gap_vs_total_access_pp,older_people_only_households,13.6,households,,SUBTEL survey presentations,Household-composition category in the survey presentation.
+2024,XI,older_people,paid_internet_access,older_people_only_households,82.9,households,,SUBTEL survey presentations,Household-composition category in the survey presentation.
+2025,XII,access_mode,fixed_only,total,66.8,households,,SUBTEL harmonized survey series,Fieldwork June-September 2025; published 2026.
+2025,XII,access_mode,fixed_plus_mobile,total,7.8,households,,SUBTEL harmonized survey series,Fieldwork June-September 2025; published 2026.
+2025,XII,access_mode,mobile_only,total,21.8,households,,SUBTEL harmonized survey series,Fieldwork June-September 2025; published 2026.
+2025,XII,access_mode,total_fixed,total,74.6,households,,SUBTEL harmonized survey series,Fieldwork June-September 2025; published 2026.
+2025,XII,access_mode,unspecified_mode,total,0.2,households,,SUBTEL harmonized survey series,Fieldwork June-September 2025; published 2026.
+2025,XII,devices,console,households_with_internet,22.0,households with Internet,,SUBTEL survey presentations,Multiple response among households with Internet.
+2025,XII,devices,desktop,households_with_internet,19.9,households with Internet,,SUBTEL survey presentations,Multiple response among households with Internet.
+2025,XII,devices,laptop,households_with_internet,61.0,households with Internet,,SUBTEL survey presentations,Multiple response among households with Internet.
+2025,XII,devices,smartphone,households_with_internet,99.1,households with Internet,,SUBTEL survey presentations,Multiple response among households with Internet.
+2025,XII,devices,streaming_player,households_with_internet,22.7,households with Internet,,SUBTEL survey presentations,Multiple response among households with Internet.
+2025,XII,devices,tablet,households_with_internet,24.9,households with Internet,,SUBTEL survey presentations,Multiple response among households with Internet.
+2025,XII,devices,tv_connected,households_with_internet,77.5,households with Internet,,SUBTEL survey presentations,Multiple response among households with Internet.
+2025,XII,digital_security,avoid_suspicious_links_or_files,total,55.0,people 16+,,SUBTEL XII survey / Safe Internet Day release,Security practice.
+2025,XII,digital_security,change_passwords,total,41.0,people 16+,,SUBTEL XII survey / Safe Internet Day release,Security practice.
+2025,XII,digital_security,use_protection_software,total,35.0,people 16+,,SUBTEL XII survey / Safe Internet Day release,Security practice.
+2025,XII,digital_skills,artificial_intelligence,total,40.6,people in skills module,,SUBTEL survey presentations,Self-reported ability; AI item introduced in 2024.
+2025,XII,digital_skills,change_security_settings,total,38.6,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2025,XII,digital_skills,connect_router_camera_printer,total,52.8,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2025,XII,digital_skills,create_website,total,17.7,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2025,XII,digital_skills,edit_photos_or_video,total,61.8,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2025,XII,digital_skills,email_with_attachments,total,73.6,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2025,XII,digital_skills,install_and_configure_apps,total,52.3,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2025,XII,digital_skills,install_os_or_program,total,23.0,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2025,XII,digital_skills,none,total,2.3,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2025,XII,digital_skills,online_banking_purchases_payments,total,71.7,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2025,XII,digital_skills,online_gaming,total,45.7,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2025,XII,digital_skills,post_to_social_networks,total,57.7,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2025,XII,digital_skills,presentation_software,total,52.0,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2025,XII,digital_skills,review_social_networks,total,84.9,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2025,XII,digital_skills,spreadsheet_formulas,total,50.2,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2025,XII,digital_skills,transfer_files_or_cloud,total,53.6,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2025,XII,digital_skills,video_calls,total,84.8,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2025,XII,digital_skills,word_processor,total,59.4,people in skills module,,SUBTEL survey presentations,Self-reported ability.
+2025,XII,digital_skills_by_age,connect_router_or_printer,16-29,70.9,people 16+,,SUBTEL XII survey,Age disaggregation.
+2025,XII,digital_skills_by_age,connect_router_or_printer,30-44,65.7,people 16+,,SUBTEL XII survey,Age disaggregation.
+2025,XII,digital_skills_by_age,connect_router_or_printer,45-59,40.2,people 16+,,SUBTEL XII survey,Age disaggregation.
+2025,XII,digital_skills_by_age,connect_router_or_printer,60-74,19.0,people 16+,,SUBTEL XII survey,Age disaggregation.
+2025,XII,digital_skills_by_age,install_configure_apps,16-29,71.9,people 16+,,SUBTEL XII survey,Age disaggregation.
+2025,XII,digital_skills_by_age,install_configure_apps,30-44,63.6,people 16+,,SUBTEL XII survey,Age disaggregation.
+2025,XII,digital_skills_by_age,install_configure_apps,45-59,39.8,people 16+,,SUBTEL XII survey,Age disaggregation.
+2025,XII,digital_skills_by_age,install_configure_apps,60-74,18.7,people 16+,,SUBTEL XII survey,Age disaggregation.
+2025,XII,digital_skills_by_age,presentation_software,16-29,76.2,people 16+,,SUBTEL XII survey,Age disaggregation.
+2025,XII,digital_skills_by_age,presentation_software,30-44,65.2,people 16+,,SUBTEL XII survey,Age disaggregation.
+2025,XII,digital_skills_by_age,presentation_software,45-59,33.7,people 16+,,SUBTEL XII survey,Age disaggregation.
+2025,XII,digital_skills_by_age,presentation_software,60-74,14.9,people 16+,,SUBTEL XII survey,Age disaggregation.
+2025,XII,digital_skills_by_age,spreadsheet,16-29,64.4,people 16+,,SUBTEL XII survey,Age disaggregation.
+2025,XII,digital_skills_by_age,spreadsheet,30-44,63.7,people 16+,,SUBTEL XII survey,Age disaggregation.
+2025,XII,digital_skills_by_age,spreadsheet,45-59,39.0,people 16+,,SUBTEL XII survey,Age disaggregation.
+2025,XII,digital_skills_by_age,spreadsheet,60-74,18.7,people 16+,,SUBTEL XII survey,Age disaggregation.
+2025,XII,digital_skills_by_age,transfer_files,16-29,70.4,people 16+,,SUBTEL XII survey,Age disaggregation.
+2025,XII,digital_skills_by_age,transfer_files,30-44,68.7,people 16+,,SUBTEL XII survey,Age disaggregation.
+2025,XII,digital_skills_by_age,transfer_files,45-59,40.2,people 16+,,SUBTEL XII survey,Age disaggregation.
+2025,XII,digital_skills_by_age,transfer_files,60-74,18.3,people 16+,,SUBTEL XII survey,Age disaggregation.
+2025,XII,digital_skills_by_age,word_processor,16-29,79.5,people 16+,,SUBTEL XII survey,Age disaggregation.
+2025,XII,digital_skills_by_age,word_processor,30-44,73.2,people 16+,,SUBTEL XII survey,Age disaggregation.
+2025,XII,digital_skills_by_age,word_processor,45-59,44.7,people 16+,,SUBTEL XII survey,Age disaggregation.
+2025,XII,digital_skills_by_age,word_processor,60-74,22.5,people 16+,,SUBTEL XII survey,Age disaggregation.
+2025,XII,digital_state_by_sex,certificates_or_benefits,Hombres,23.6,people 16+,,SUBTEL XII survey,Sex disaggregation.
+2025,XII,digital_state_by_sex,certificates_or_benefits,Mujeres,22.1,people 16+,,SUBTEL XII survey,Sex disaggregation.
+2025,XII,digital_state_by_sex,complete_online_forms,Hombres,23.2,people 16+,,SUBTEL XII survey,Sex disaggregation.
+2025,XII,digital_state_by_sex,complete_online_forms,Mujeres,19.9,people 16+,,SUBTEL XII survey,Sex disaggregation.
+2025,XII,digital_state_by_sex,online_queries_or_claims,Hombres,18.8,people 16+,,SUBTEL XII survey,Sex disaggregation.
+2025,XII,digital_state_by_sex,online_queries_or_claims,Mujeres,13.3,people 16+,,SUBTEL XII survey,Sex disaggregation.
+2025,XII,functional_use_by_age,e_learning,16-29,29.8,people 16+,last_3_months,SUBTEL XII survey,Last 3 months where applicable.
+2025,XII,functional_use_by_age,e_learning,30-44,25.9,people 16+,last_3_months,SUBTEL XII survey,Last 3 months where applicable.
+2025,XII,functional_use_by_age,e_learning,45-59,13.1,people 16+,last_3_months,SUBTEL XII survey,Last 3 months where applicable.
+2025,XII,functional_use_by_age,e_learning,60-74,4.5,people 16+,last_3_months,SUBTEL XII survey,Last 3 months where applicable.
+2025,XII,functional_use_by_age,e_learning,75+,0.6,people 16+,last_3_months,SUBTEL XII survey,Last 3 months where applicable.
+2025,XII,functional_use_by_age,online_job_application,16-29,27.6,people 16+,last_3_months,SUBTEL XII survey,Last 3 months where applicable.
+2025,XII,functional_use_by_age,online_job_application,30-44,20.6,people 16+,last_3_months,SUBTEL XII survey,Last 3 months where applicable.
+2025,XII,functional_use_by_age,online_job_application,45-59,11.6,people 16+,last_3_months,SUBTEL XII survey,Last 3 months where applicable.
+2025,XII,functional_use_by_age,online_job_application,60-74,2.9,people 16+,last_3_months,SUBTEL XII survey,Last 3 months where applicable.
+2025,XII,functional_use_by_age,online_job_application,75+,0.2,people 16+,last_3_months,SUBTEL XII survey,Last 3 months where applicable.
+2025,XII,functional_use_by_age,telework,16-29,16.2,people 16+,last_3_months,SUBTEL XII survey,Age disaggregation.
+2025,XII,functional_use_by_age,telework,30-44,29.4,people 16+,last_3_months,SUBTEL XII survey,Age disaggregation.
+2025,XII,functional_use_by_age,telework,45-59,12.5,people 16+,last_3_months,SUBTEL XII survey,Age disaggregation.
+2025,XII,functional_use_by_age,telework,60-74,5.7,people 16+,last_3_months,SUBTEL XII survey,Age disaggregation.
+2025,XII,functional_use_by_age,telework,75+,2.3,people 16+,last_3_months,SUBTEL XII survey,Age disaggregation.
+2025,XII,household_access,no_paid_internet_access,total,3.4,households,,SUBTEL harmonized survey series,Fieldwork June-September 2025; published 2026.
+2025,XII,household_access,paid_internet_access,older_people_only_households,83.2,households,,SUBTEL harmonized survey series,Fieldwork June-September 2025; published 2026.
+2025,XII,household_access,paid_internet_access,rural,95.1,households,,SUBTEL harmonized survey series,Fieldwork June-September 2025; published 2026.
+2025,XII,household_access,paid_internet_access,total,96.6,households,,SUBTEL harmonized survey series,Fieldwork June-September 2025; published 2026.
+2025,XII,household_access,paid_internet_access,urban,96.8,households,,SUBTEL harmonized survey series,Fieldwork June-September 2025; published 2026.
+2025,XII,internet_use_frequency,daily,total,91.2,Internet users,last_3_months,SUBTEL survey presentations,Same short recall window as 2024.
+2025,XII,internet_use_frequency,less_than_monthly,total,0.8,Internet users,last_3_months,SUBTEL survey presentations,Same short recall window as 2024.
+2025,XII,internet_use_frequency,monthly_not_weekly,total,0.7,Internet users,last_3_months,SUBTEL survey presentations,Same short recall window as 2024.
+2025,XII,internet_use_frequency,several_times_week,total,7.3,Internet users,last_3_months,SUBTEL survey presentations,Same short recall window as 2024.
+2025,XII,older_people,artificial_intelligence_use,60+,9.5,people aged 60+,,SUBTEL XII survey,Older-adult module.
+2025,XII,older_people,daily_computer_use,60+,20.5,people aged 60+,,SUBTEL XII survey,Older-adult module.
+2025,XII,older_people,daily_internet_use,60+,74.4,people aged 60+,,SUBTEL XII survey,Older-adult module.
+2025,XII,older_people,daily_smartphone_use,60+,86.6,people aged 60+,,SUBTEL XII survey,Older-adult module.
+2025,XII,older_people,feels_unprotected_online,60+,38.4,people aged 60+,,SUBTEL XII survey,Older-adult module.
+2025,XII,older_people,gap_vs_total_access_pp,older_people_only_households,13.4,households,,SUBTEL survey presentations,Household-composition category in the survey presentation.
+2025,XII,older_people,households_with_paid_internet,older_people_only_households,83.2,households,,SUBTEL XII survey,Older-adult module.
+2025,XII,older_people,online_banking_transactions,60+,42.9,people aged 60+,,SUBTEL XII survey,Older-adult module.
+2025,XII,older_people,paid_internet_access,older_people_only_households,83.2,households,,SUBTEL survey presentations,Household-composition category in the survey presentation.
+2025,XII,older_people,social_networks,60+,69.5,people aged 60+,,SUBTEL XII survey,Older-adult module.
+2025,XII,older_people,video_calls,60+,77.0,people aged 60+,,SUBTEL XII survey,Older-adult module.
+2025,XII,older_people,word_processor_use,60+,23.8,people aged 60+,,SUBTEL XII survey,Older-adult module.
