@@ -1,0 +1,17 @@
+label,role,service_url,layer_id,layer_name,field_name,field_alias,field_type,field_length
+Claro,RedAcceso,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Claro_RedAcceso/FeatureServer,0,Of468_Claro_RedAcceso,objectid,objectid,esriFieldTypeOID,
+Claro,RedAcceso,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Claro_RedAcceso/FeatureServer,0,Of468_Claro_RedAcceso,nomb_red,NOMB_RED,esriFieldTypeString,32
+Claro,RedAcceso,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Claro_RedAcceso/FeatureServer,0,Of468_Claro_RedAcceso,capacidad,CAPACIDAD,esriFieldTypeDouble,
+Claro,RedAcceso,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Claro_RedAcceso/FeatureServer,0,Of468_Claro_RedAcceso,tipo_tendi,TIPO_TENDI,esriFieldTypeString,32
+Claro,RedAcceso,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Claro_RedAcceso/FeatureServer,0,Of468_Claro_RedAcceso,Shape__Length,st_length(shape),esriFieldTypeDouble,
+Entel,RedAcceso_primarias,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_primarias/FeatureServer,0,Of468_Entel_RedAcceso_primarias,objectid,objectid,esriFieldTypeOID,
+Entel,RedAcceso_primarias,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_primarias/FeatureServer,0,Of468_Entel_RedAcceso_primarias,id,id,esriFieldTypeInteger,
+Entel,RedAcceso_primarias,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_primarias/FeatureServer,0,Of468_Entel_RedAcceso_primarias,spec_id,spec_id,esriFieldTypeString,27
+Entel,RedAcceso_primarias,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_primarias/FeatureServer,0,Of468_Entel_RedAcceso_primarias,tipo_red,tipo_red,esriFieldTypeString,20
+Entel,RedAcceso_primarias,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_primarias/FeatureServer,0,Of468_Entel_RedAcceso_primarias,fijacion,fijacion,esriFieldTypeString,12
+Entel,RedAcceso_primarias,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_primarias/FeatureServer,0,Of468_Entel_RedAcceso_primarias,name,name,esriFieldTypeString,21
+Entel,RedAcceso_primarias,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_primarias/FeatureServer,0,Of468_Entel_RedAcceso_primarias,account_co,account_co,esriFieldTypeString,10
+Entel,RedAcceso_primarias,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_primarias/FeatureServer,0,Of468_Entel_RedAcceso_primarias,measured_s,measured_s,esriFieldTypeDouble,
+Entel,RedAcceso_primarias,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_primarias/FeatureServer,0,Of468_Entel_RedAcceso_primarias,fiber_coun,fiber_coun,esriFieldTypeInteger,
+Entel,RedAcceso_primarias,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_primarias/FeatureServer,0,Of468_Entel_RedAcceso_primarias,fme_db_ope,fme_db_ope,esriFieldTypeString,10
+Entel,RedAcceso_primarias,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_primarias/FeatureServer,0,Of468_Entel_RedAcceso_primarias,Shape__Length,st_length(shape),esriFieldTypeDouble,

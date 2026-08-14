@@ -1,0 +1,4 @@
+label,role,service_url,status,layer_id,layer_name,geometry_type,feature_count,capabilities,description,copyright_text
+CTR,RedAcceso,https://licancabur.subtel.gob.cl/server/rest/services/Of468_CTR_RedAcceso/MapServer,arcgis_error_499,,,,,,,
+Claro,RedAcceso,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Claro_RedAcceso/FeatureServer,ok,0,Of468_Claro_RedAcceso,esriGeometryPolyline,76217,"Query,Create,Update,Delete,Uploads,Editing",,
+Entel,RedAcceso_primarias,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_primarias/FeatureServer,ok,0,Of468_Entel_RedAcceso_primarias,esriGeometryPolyline,9626,"Query,Create,Update,Delete,Uploads,Editing",,
