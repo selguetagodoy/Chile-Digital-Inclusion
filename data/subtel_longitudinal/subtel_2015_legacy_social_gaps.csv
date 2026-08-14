@@ -1,0 +1,11 @@
+domain,indicator,segment,value_pct,universe,source_note
+household_access,households_with_any_connection,total,67.0,households,SUBTEL VI survey contemporaneous headline
+internet_use,frequent_internet_users,total_population,70.0,people,SUBTEL VI survey contemporaneous headline
+technology_by_area,fixed_broadband,urban,76.8,urban households,SUBTEL VI survey
+technology_by_area,smartphone,urban,73.9,urban households,SUBTEL VI survey
+technology_by_area,smartphone,rural,80.8,rural households,SUBTEL VI survey
+technology_by_area,mobile_broadband,rural,27.0,rural households,SUBTEL VI survey
+older_people,never_connected_to_internet,older_people,66.0,older people,SUBTEL VI older-adult annex
+older_people,internet_use_last_3_months,older_people,30.3,older people,SUBTEL VI older-adult annex
+indigenous_rural,internet_access,rural_indigenous_households,33.8,rural indigenous households,SUBTEL VI indigenous annex; special subsample
+indigenous_rural,no_internet_due_to_usability,rural_indigenous_households_without_internet,52.0,rural indigenous households without Internet,SUBTEL VI indigenous annex; reason reported
