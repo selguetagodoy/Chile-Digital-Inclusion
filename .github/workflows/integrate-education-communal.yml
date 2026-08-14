@@ -1,0 +1,41 @@
+name: Integrate education communal layer
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/integrate_education_communal.py'
+      - 'data/education_connectivity_2026/aulas_conectadas_2025_commune_summary.csv'
+      - 'scripts/build_communal_dictionary.py'
+      - '.github/workflows/integrate-education-communal.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependency
+        run: pip install pandas
+      - name: Integrate education fields
+        run: python scripts/integrate_education_communal.py
+      - name: Rebuild dictionary
+        run: python scripts/build_communal_dictionary.py
+      - name: Commit integrated layer and metadata
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv data/metadata/communal_master_dictionary.csv docs/communal_master_dictionary.md
+          if git diff --cached --quiet; then
+            echo 'No education integration changes'
+          else
+            git commit -m 'Integrate Aulas Conectadas 2025 into communal master'
+            git pull --rebase origin main
+            git push
+          fi
