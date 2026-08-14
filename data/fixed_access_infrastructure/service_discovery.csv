@@ -1,0 +1,20 @@
+folder,service_name,service_type,service_url
+,Of468_Claro_RedAcceso_HFC,FeatureServer,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Claro_RedAcceso_HFC/FeatureServer
+,Of468_Claro_RedAcceso_HFC,MapServer,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Claro_RedAcceso_HFC/MapServer
+,Of468_Claro_RedAcceso,FeatureServer,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Claro_RedAcceso/FeatureServer
+,Of468_Claro_RedAcceso,MapServer,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Claro_RedAcceso/MapServer
+,Of468_CTR_RedAcceso,FeatureServer,https://licancabur.subtel.gob.cl/server/rest/services/Of468_CTR_RedAcceso/FeatureServer
+,Of468_CTR_RedAcceso,MapServer,https://licancabur.subtel.gob.cl/server/rest/services/Of468_CTR_RedAcceso/MapServer
+,Of468_Entel_RedAcceso_distribucion,FeatureServer,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_distribucion/FeatureServer
+,Of468_Entel_RedAcceso_distribucion,MapServer,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_distribucion/MapServer
+,Of468_Entel_RedAcceso_primarias,FeatureServer,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_primarias/FeatureServer
+,Of468_Entel_RedAcceso_primarias,MapServer,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_primarias/MapServer
+,Of468_Infraco_RedAcceso,FeatureServer,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Infraco_RedAcceso/FeatureServer
+,Of468_Infraco_RedAcceso,MapServer,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Infraco_RedAcceso/MapServer
+,Of468_Mundo_RedAcceso,FeatureServer,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Mundo_RedAcceso/FeatureServer
+,Of468_Mundo_RedAcceso,MapServer,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Mundo_RedAcceso/MapServer
+,Of468_VTR_RedAcceso_FTTH,FeatureServer,https://licancabur.subtel.gob.cl/server/rest/services/Of468_VTR_RedAcceso_FTTH/FeatureServer
+,Of468_VTR_RedAcceso_FTTH,MapServer,https://licancabur.subtel.gob.cl/server/rest/services/Of468_VTR_RedAcceso_FTTH/MapServer
+Cobertura_Radio,,,"ERROR: RuntimeError: {'code': 499, 'message': 'Token Required', 'details': []}"
+DEM_SAMPLES,,,"ERROR: RuntimeError: {'code': 499, 'message': 'Token Required', 'details': []}"
+siteadmin,,,"ERROR: RuntimeError: {'code': 499, 'message': 'Token Required', 'details': []}"
