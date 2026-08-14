@@ -7,6 +7,8 @@ from pathlib import Path
 
 import requests
 from pyproj import Geod
+from shapely import intersection, make_valid
+from shapely.errors import GEOSException
 from shapely.geometry import LineString, MultiLineString, shape
 from shapely.strtree import STRtree
 
@@ -49,9 +51,8 @@ def arcgis_line(geometry: dict):
             clean.append(coords)
     if not clean:
         return None
-    if len(clean) == 1:
-        return LineString(clean[0])
-    return MultiLineString(clean)
+    geom = LineString(clean[0]) if len(clean) == 1 else MultiLineString(clean)
+    return make_valid(geom) if not geom.is_valid else geom
 
 
 def geodesic_length_m(geom) -> float:
@@ -60,9 +61,16 @@ def geodesic_length_m(geom) -> float:
     try:
         return abs(float(GEOD.geometry_length(geom)))
     except Exception:
-        if geom.geom_type == 'GeometryCollection':
+        if hasattr(geom, 'geoms'):
             return sum(geodesic_length_m(g) for g in geom.geoms)
         return 0.0
+
+
+def safe_intersection(a, b):
+    try:
+        return intersection(a, b, grid_size=1e-9)
+    except GEOSException:
+        return intersection(make_valid(a), make_valid(b), grid_size=1e-9)
 
 
 def fetch_lines(service_url: str, layer_id: int, operator: str):
@@ -92,7 +100,7 @@ def fetch_lines(service_url: str, layer_id: int, operator: str):
         )
         for feature in data.get('features', []):
             geom = arcgis_line(feature.get('geometry') or {})
-            if geom is not None:
+            if geom is not None and not geom.is_empty:
                 yield feature.get('attributes') or {}, geom
 
 
@@ -100,9 +108,15 @@ def load_communes():
     with COMMUNE_GEOJSON.open(encoding='utf-8') as fh:
         gj = json.load(fh)
     polygons, props = [], []
+    repaired = 0
     for f in gj['features']:
-        polygons.append(shape(f['geometry']))
+        geom = shape(f['geometry'])
+        if not geom.is_valid:
+            geom = make_valid(geom)
+            repaired += 1
+        polygons.append(geom)
         props.append(f['properties'])
+    print('commune_geometries', len(polygons), 'repaired', repaired)
     return polygons, props, STRtree(polygons)
 
 
@@ -138,6 +152,7 @@ def main() -> None:
         source_length_m = 0.0
         assigned_length_m = 0.0
         segments_with_assignment = 0
+        topology_retries = 0
 
         for attrs, line in fetch_lines(service_url, layer_id, operator):
             total_segments += 1
@@ -155,9 +170,13 @@ def main() -> None:
 
             for raw_idx in tree.query(line):
                 idx = int(raw_idx)
-                if not polygons[idx].intersects(line):
-                    continue
-                clipped = line.intersection(polygons[idx])
+                try:
+                    if not polygons[idx].intersects(line):
+                        continue
+                    clipped = intersection(line, polygons[idx], grid_size=1e-9)
+                except GEOSException:
+                    topology_retries += 1
+                    clipped = safe_intersection(line, polygons[idx])
                 length_m = geodesic_length_m(clipped)
                 if length_m <= 0:
                     continue
@@ -181,19 +200,23 @@ def main() -> None:
             if matched_any:
                 segments_with_assignment += 1
 
+        ratio = assigned_length_m / source_length_m * 100 if source_length_m else None
         qa_rows.append({
             'operator': operator,
             'source_segments': total_segments,
             'segments_intersecting_commune': segments_with_assignment,
+            'segment_assignment_pct': round(segments_with_assignment / total_segments * 100, 4) if total_segments else '',
             'source_length_km': round(source_length_m / 1000, 3),
             'assigned_clipped_length_km': round(assigned_length_m / 1000, 3),
-            'assigned_length_pct': round(assigned_length_m / source_length_m * 100, 4) if source_length_m else '',
+            'assigned_length_pct_raw': round(ratio, 4) if ratio is not None else '',
+            'topology_retries': topology_retries,
             'service_url': service_url,
             'layer_id': layer_id,
-            'interpretation': 'public RedAcceso linework assigned by geometric intersection; not household coverage percentage',
+            'interpretation': 'public RedAcceso linework split by commune intersection; very small boundary overlaps can make summed clipped length slightly exceed source length; not household or retail coverage',
         })
-        print(operator, 'segments', total_segments, 'source_km', round(source_length_m/1000, 2),
-              'assigned_km', round(assigned_length_m/1000, 2))
+        print(operator, 'segments', total_segments, 'assigned_segments', segments_with_assignment,
+              'source_km', round(source_length_m/1000, 2), 'assigned_km', round(assigned_length_m/1000, 2),
+              'topology_retries', topology_retries)
 
     long_rows = []
     operator_commune = defaultdict(lambda: {'length_m': 0.0, 'segments': set(), 'categories': set()})
@@ -213,7 +236,7 @@ def main() -> None:
             'source_segments_intersecting': len(a['source_segments']),
             'length_weighted_capacity': round(cap_avg, 4) if cap_avg != '' else '',
             'length_weighted_fiber_count': round(fiber_avg, 4) if fiber_avg != '' else '',
-            'interpretation': 'public regulatory linework; length is clipped within commune; not retail service availability or coverage',
+            'interpretation': 'public regulatory linework clipped within commune; not retail service availability or coverage percentage',
         })
         oc = operator_commune[(code, operator)]
         oc['length_m'] += a['length_m']
