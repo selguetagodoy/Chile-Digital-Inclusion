@@ -1,0 +1,35 @@
+name: Discover SUBTEL RedAcceso services
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/discover_subtel_redacceso_services.py'
+      - '.github/workflows/discover-subtel-redacceso-services.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+      - run: python scripts/discover_subtel_redacceso_services.py
+      - name: Commit discovery catalog
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/fixed_access_infrastructure/service_discovery.csv
+          if git diff --cached --quiet; then
+            echo 'No discovery changes'
+          else
+            git commit -m 'Discover public SUBTEL RedAcceso services'
+            git pull --rebase origin main
+            git push
+          fi
