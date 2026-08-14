@@ -1,14 +1,6 @@
 name: Deploy Chile Digital Inclusion Pages
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'index.html'
-      - 'assets/**'
-      - 'data/communal_master/**'
-      - 'geo/**'
-      - '.github/workflows/deploy-pages.yml'
   workflow_dispatch:
 
 permissions:
@@ -32,9 +24,6 @@ jobs:
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
-          token: ${{ github.token }}
 
       - name: Upload static site
         uses: actions/upload-pages-artifact@v4
