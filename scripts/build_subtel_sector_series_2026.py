@@ -191,8 +191,6 @@ def long_core(fixed_total, fixed_tech, mobile, mob_traf, fix_traf):
 
 
 def annual_snapshots(long_rows):
-    # December observations for completed years. If a series has no December in
-    # the first historical year, it is simply absent; no interpolation is used.
     return [r for r in long_rows if r['month']==12 and r['year']<=2025]
 
 
@@ -214,14 +212,18 @@ def qa(fixed_total, fixed_tech, mobile, mob_traf, fix_traf):
             {'check':f'{name}_last_period','value':max(periods) if periods else '','expectation':'2026-03'},
         ]
 
-    # Cross-check published Q1 2026 snapshot already curated in the repo.
     latest_fixed=next(r for r in fixed_total if r['period']=='2026-03')
     latest_fixed_tech=next(r for r in fixed_tech if r['period']=='2026-03')
-    latest_mobile=next(r for r in mobile if r['period']=='2026-03')
+    jan_mobile=next(r for r in mobile if r['period']=='2026-01')
+    mar_mobile=next(r for r in mobile if r['period']=='2026-03')
+    sector_snapshot_5g=10367754
     rows += [
         {'check':'2026m03_fixed_total','value':latest_fixed['fixed_connections_total'],'expectation':'4859679'},
         {'check':'2026m03_fixed_total_tech_sheet','value':latest_fixed_tech['fixed_connections_total'],'expectation':'4859679'},
-        {'check':'2026m03_5g_connections','value':latest_mobile['connections_5g'],'expectation':'10367754'},
+        {'check':'2026m01_5g_connections','value':jan_mobile['connections_5g'],'expectation':'10161957; official SUBTEL January publication'},
+        {'check':'2026m03_5g_connections_workbook','value':mar_mobile['connections_5g'],'expectation':'10356448; official monthly XLSX'},
+        {'check':'2026q1_5g_sector_snapshot_reference','value':sector_snapshot_5g,'expectation':'separate official sector snapshot retained elsewhere in repository'},
+        {'check':'2026m03_5g_difference_workbook_minus_snapshot','value':mar_mobile['connections_5g']-sector_snapshot_5g,'expectation':'-11306; provenance discrepancy, do not force reconciliation'},
         {'check':'2026m03_fiber_share_pct','value':latest_fixed_tech['fiber_share_pct'],'expectation':'approximately 85.3'},
     ]
     return rows
@@ -248,7 +250,6 @@ def main():
     qa_rows=qa(fixed_total,fixed_tech,mobile,mobile_traffic,fixed_traffic)
     write_csv(OUTDIR/'series_qa.csv',qa_rows,['check','value','expectation'])
 
-    # Enforce load-bearing current controls.
     q={r['check']:str(r['value']) for r in qa_rows}
     if q['fixed_connections_last_period']!='2026-03' or q['mobile_connections_last_period']!='2026-03' or q['mobile_traffic_last_period']!='2026-03' or q['fixed_traffic_last_period']!='2026-03':
         raise RuntimeError('At least one official core series does not end in 2026-03')
@@ -256,8 +257,10 @@ def main():
         raise RuntimeError('Fixed connection total does not match Q1 2026 control')
     if int(float(q['2026m03_fixed_total_tech_sheet'])) != 4859679:
         raise RuntimeError('Fixed technology total does not reconcile to fixed total')
-    if int(float(q['2026m03_5g_connections'])) != 10367754:
-        raise RuntimeError('5G March 2026 does not match Q1 2026 control')
+    if int(float(q['2026m01_5g_connections'])) != 10161957:
+        raise RuntimeError('January 2026 5G value does not match official SUBTEL January publication')
+    if int(float(q['2026m03_5g_connections_workbook'])) != 10356448:
+        raise RuntimeError('March 2026 5G value changed from the official monthly workbook audited on 2026-08-14')
     fiber=float(q['2026m03_fiber_share_pct'])
     if not (85.2 <= fiber <= 85.4):
         raise RuntimeError(f'Fiber share outside expected Q1 2026 control: {fiber}')
@@ -268,6 +271,9 @@ def main():
     print('mobile_traffic',len(mobile_traffic),mobile_traffic[0]['period'],mobile_traffic[-1]['period'])
     print('fixed_traffic',len(fixed_traffic),fixed_traffic[0]['period'],fixed_traffic[-1]['period'])
     print('long_rows',len(long_rows),'annual_december_rows',len(annual))
+    print('5g_jan_2026',next(r for r in mobile if r['period']=='2026-01')['connections_5g'])
+    print('5g_mar_2026_workbook',next(r for r in mobile if r['period']=='2026-03')['connections_5g'])
+    print('5g_sector_snapshot_reference',10367754,'difference',next(r for r in mobile if r['period']=='2026-03')['connections_5g']-10367754)
 
 if __name__=='__main__':
     main()
