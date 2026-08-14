@@ -11,6 +11,10 @@ const indicators = {
   hogares_rurales_pct: { label: 'Ruralidad de hogares', unit: '%', digits: 1, higherConcern: true },
   pct_hogares_con_mayores: { label: 'Hogares con personas mayores', unit: '%', digits: 1, higherConcern: true },
   pct_hogares_con_discapacidad: { label: 'Hogares con discapacidad', unit: '%', digits: 1, higherConcern: true },
+  mobile_5g_operators_present_2025m03: { label: 'Operadores con registros 5G · mar 2025', unit: ' de 4', digits: 0, higherConcern: false },
+  mobile_5g_point_records_2025m03: { label: 'Registros de red 5G · mar 2025', unit: '', digits: 0, higherConcern: false },
+  mobile_4g_operators_present_2025m03: { label: 'Operadores con registros 4G · mar 2025', unit: ' de 4', digits: 0, higherConcern: false },
+  mobile_4g_point_records_2025m03: { label: 'Registros de red 4G · mar 2025', unit: '', digits: 0, higherConcern: false },
   ookla_fixed_download_mbps_2026q1: { label: 'Ookla fijo Q1 2026 · descarga', unit: ' Mbps', digits: 1, higherConcern: false },
   ookla_mobile_download_mbps_2026q1: { label: 'Ookla móvil Q1 2026 · descarga', unit: ' Mbps', digits: 1, higherConcern: false },
   ookla_fixed_latency_ms_2026q1: { label: 'Ookla fijo Q1 2026 · latencia', unit: ' ms', digits: 1, higherConcern: true },
@@ -63,11 +67,11 @@ function formatCompact(value) {
 async function loadMaster() {
   try {
     const rows = await d3.csv(MASTER_INTEGRATED);
-    document.getElementById('data-status').textContent = 'Maestro integrado · Censo/Atlas + Ookla Q1 2026';
+    document.getElementById('data-status').textContent = 'Maestro integrado · Censo/Atlas + SUBTEL 4G/5G + Ookla Q1 2026';
     return rows;
   } catch (err) {
     const rows = await d3.csv(MASTER_BASE);
-    document.getElementById('data-status').textContent = 'Maestro base · la capa Ookla territorial no está disponible';
+    document.getElementById('data-status').textContent = 'Maestro base · capas territoriales complementarias no disponibles';
     return rows;
   }
 }
@@ -160,6 +164,7 @@ function popupHTML(code) {
     Hogares: ${formatInt(d.hogares_total)}<br>
     Sin Internet: ${formatValue(n(d.hogares_sin_internet_pct), indicators.hogares_sin_internet_pct)}<br>
     Internet fija: ${formatValue(n(d.hogares_con_internet_fija_pct), indicators.hogares_con_internet_fija_pct)}<br>
+    Registros 5G: ${formatInt(d.mobile_5g_point_records_2025m03)} · operadores: ${formatValue(n(d.mobile_5g_operators_present_2025m03), indicators.mobile_5g_operators_present_2025m03)}<br>
     Computador: ${formatValue(n(d.hogares_con_computador_pct), indicators.hogares_con_computador_pct)}
   `;
 }
@@ -220,6 +225,10 @@ function updateDetail(code) {
     ['Ruralidad', formatValue(n(d.hogares_rurales_pct), indicators.hogares_rurales_pct)],
     ['Mayores', formatValue(n(d.pct_hogares_con_mayores), indicators.pct_hogares_con_mayores)],
     ['Discapacidad', formatValue(n(d.pct_hogares_con_discapacidad), indicators.pct_hogares_con_discapacidad)],
+    ['Registros 4G', formatInt(d.mobile_4g_point_records_2025m03)],
+    ['Operadores 4G', formatValue(n(d.mobile_4g_operators_present_2025m03), indicators.mobile_4g_operators_present_2025m03)],
+    ['Registros 5G', formatInt(d.mobile_5g_point_records_2025m03)],
+    ['Operadores 5G', formatValue(n(d.mobile_5g_operators_present_2025m03), indicators.mobile_5g_operators_present_2025m03)],
     ['Ookla fijo', formatValue(n(d.ookla_fixed_download_mbps_2026q1), indicators.ookla_fixed_download_mbps_2026q1)],
     ['Ookla móvil', formatValue(n(d.ookla_mobile_download_mbps_2026q1), indicators.ookla_mobile_download_mbps_2026q1)],
     ['Tests fijo', formatInt(d.ookla_fixed_tests_2026q1)],
