@@ -13,6 +13,7 @@ SOURCE_PAGE = 'https://www.innovacion.mineduc.cl/iniciativas/cpe2030-2025'
 SOURCE_DRIVE = f'https://drive.google.com/file/d/{FILE_ID}/view?usp=sharing'
 OUT = Path('data/education_connectivity_2026/cpe2030_2026_rex497_rbd_candidates.csv')
 SUMMARY = Path('data/education_connectivity_2026/cpe2030_2026_rex497_extraction_summary.csv')
+TEXT_AUDIT = Path('data/education_connectivity_2026/cpe2030_2026_rex497_text_audit.csv')
 
 
 def download_pdf() -> bytes:
@@ -40,31 +41,62 @@ def clean(value) -> str:
     return re.sub(r'\s+', ' ', str(value)).strip()
 
 
-def rbd_from_cells(cells: list[str]) -> str:
-    for cell in cells:
-        text = clean(cell)
-        # Chilean RBD values are normally 1-5 digits plus optional check digit.
-        for token in re.findall(r'(?<!\d)(\d{1,5})(?:-([0-9Kk]))?(?!\d)', text):
-            base, dv = token
-            num = int(base)
-            # Exclude years, resolution numbers and tiny ordinals conservatively.
-            if 100 <= num <= 20000 and num not in {497, 2025, 2026, 2030}:
-                return f'{num}-{dv.upper()}' if dv else str(num)
-    return ''
+def candidates_from_text(text: str) -> list[str]:
+    found = []
+    for token in re.findall(r'(?<!\d)(\d{1,5})(?:-([0-9Kk]))?(?!\d)', text):
+        base, dv = token
+        num = int(base)
+        if 100 <= num <= 20000 and num not in {497, 2025, 2026, 2030}:
+            found.append(f'{num}-{dv.upper()}' if dv else str(num))
+    return found
 
 
 def main() -> None:
     OUT.parent.mkdir(parents=True, exist_ok=True)
     pdf_bytes = download_pdf()
     rows = []
+    text_rows = []
     pages_with_tables = 0
     tables_seen = 0
+    pages_with_text = 0
+    total_text_chars = 0
+    lines_mentioning_rbd = 0
 
     with tempfile.NamedTemporaryFile(suffix='.pdf') as tmp:
         tmp.write(pdf_bytes); tmp.flush()
         with pdfplumber.open(tmp.name) as pdf:
             page_count = len(pdf.pages)
             for pageno, page in enumerate(pdf.pages, start=1):
+                text = page.extract_text() or ''
+                if text.strip():
+                    pages_with_text += 1
+                    total_text_chars += len(text)
+                    for line_no, line in enumerate(text.splitlines(), start=1):
+                        if 'RBD' not in line.upper():
+                            continue
+                        lines_mentioning_rbd += 1
+                        cleaned = clean(line)
+                        cands = candidates_from_text(cleaned)
+                        text_rows.append({
+                            'page': pageno,
+                            'line': line_no,
+                            'mentions_rbd': 'yes',
+                            'numeric_candidates': '|'.join(cands),
+                            'text': cleaned,
+                            'source_document': SOURCE_DRIVE,
+                        })
+                        for rbd in cands:
+                            rows.append({
+                                'page': pageno,
+                                'table': '',
+                                'row': line_no,
+                                'rbd_candidate': rbd,
+                                'table_header_mentions_rbd': 'text_line_mentions_rbd',
+                                'raw_cells': cleaned,
+                                'source_page': SOURCE_PAGE,
+                                'source_document': SOURCE_DRIVE,
+                            })
+
                 tables = page.extract_tables() or []
                 if tables:
                     pages_with_tables += 1
@@ -77,21 +109,20 @@ def main() -> None:
                         joined = ' | '.join(cells)
                         if not joined:
                             continue
-                        rbd = rbd_from_cells(cells)
-                        if not rbd:
-                            continue
-                        rows.append({
-                            'page': pageno,
-                            'table': table_no,
-                            'row': row_no,
-                            'rbd_candidate': rbd,
-                            'table_header_mentions_rbd': 'yes' if has_rbd_header else 'no',
-                            'raw_cells': joined,
-                            'source_page': SOURCE_PAGE,
-                            'source_document': SOURCE_DRIVE,
-                        })
+                        for rbd in candidates_from_text(joined):
+                            if not has_rbd_header:
+                                continue
+                            rows.append({
+                                'page': pageno,
+                                'table': table_no,
+                                'row': row_no,
+                                'rbd_candidate': rbd,
+                                'table_header_mentions_rbd': 'yes',
+                                'raw_cells': joined,
+                                'source_page': SOURCE_PAGE,
+                                'source_document': SOURCE_DRIVE,
+                            })
 
-    # Keep candidates in RBD-labelled tables first; retain other candidates for audit.
     dedup = []
     seen = set()
     for row in rows:
@@ -103,19 +134,26 @@ def main() -> None:
     with OUT.open('w', encoding='utf-8', newline='') as fh:
         w = csv.DictWriter(fh, fieldnames=fields); w.writeheader(); w.writerows(dedup)
 
-    rbd_header_rows = sum(r['table_header_mentions_rbd'] == 'yes' for r in dedup)
+    text_fields = ['page','line','mentions_rbd','numeric_candidates','text','source_document']
+    with TEXT_AUDIT.open('w', encoding='utf-8', newline='') as fh:
+        w = csv.DictWriter(fh, fieldnames=text_fields); w.writeheader(); w.writerows(text_rows)
+
+    table_rbd_rows = sum(r['table_header_mentions_rbd'] == 'yes' for r in dedup)
     with SUMMARY.open('w', encoding='utf-8', newline='') as fh:
         w = csv.DictWriter(fh, fieldnames=['metric','value','note']); w.writeheader()
         w.writerows([
             {'metric':'pdf_bytes','value':len(pdf_bytes),'note':'Downloaded public REX 497 document'},
             {'metric':'pages','value':page_count,'note':'PDF pages'},
+            {'metric':'pages_with_text','value':pages_with_text,'note':'Pages with extractable text layer; no OCR used'},
+            {'metric':'text_characters','value':total_text_chars,'note':'Extractable text characters across document'},
+            {'metric':'lines_mentioning_rbd','value':lines_mentioning_rbd,'note':'Text lines explicitly containing RBD'},
             {'metric':'pages_with_tables','value':pages_with_tables,'note':'Pages where pdfplumber detected at least one table'},
             {'metric':'tables','value':tables_seen,'note':'Detected tables'},
-            {'metric':'rbd_candidates_all','value':len(dedup),'note':'Conservative numeric candidates; audit before treating as establishments'},
-            {'metric':'rbd_candidates_in_rbd_header_tables','value':rbd_header_rows,'note':'Candidates from tables whose first rows explicitly mention RBD'},
+            {'metric':'rbd_candidates_all','value':len(dedup),'note':'Candidates only from RBD-labelled table contexts or text lines explicitly mentioning RBD; audit before treating as establishments'},
+            {'metric':'rbd_candidates_in_rbd_header_tables','value':table_rbd_rows,'note':'Candidates from tables whose first rows explicitly mention RBD'},
         ])
 
-    print(f'pages={page_count} tables={tables_seen} candidates={len(dedup)} rbd_header_candidates={rbd_header_rows}')
+    print(f'pages={page_count} text_pages={pages_with_text} text_chars={total_text_chars} rbd_lines={lines_mentioning_rbd} tables={tables_seen} candidates={len(dedup)}')
 
 
 if __name__ == '__main__':
