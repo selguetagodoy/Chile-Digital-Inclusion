@@ -1,0 +1,36 @@
+name: Build commune geography
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_commune_geo.py'
+      - '.github/workflows/build-commune-geo.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependency
+        run: pip install requests
+      - name: Build GeoJSON
+        run: python scripts/build_commune_geo.py
+      - name: Commit generated geography
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add geo/chile_communes.geojson
+          if git diff --cached --quiet; then
+            echo 'No geography changes to commit'
+          else
+            git commit -m 'Add communal GeoJSON geography'
+            git push
+          fi
