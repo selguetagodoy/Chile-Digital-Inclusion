@@ -1,0 +1,36 @@
+name: Extend public QA for fixed infrastructure
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/patch_validation_fixed_infrastructure.py'
+      - '.github/workflows/patch-validation-fixed-infrastructure.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/patch_validation_fixed_infrastructure.py
+      - run: node --check assets/dashboard.js
+      - run: python scripts/validate_public_release.py
+      - name: Commit validator and QA report
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add scripts/validate_public_release.py data/metadata/public_release_validation.csv
+          if git diff --cached --quiet; then
+            echo 'No validation changes'
+          else
+            git commit -m 'Validate fixed infrastructure in public release'
+            git pull --rebase origin main
+            git push
+          fi
