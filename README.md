@@ -154,6 +154,14 @@ data/subtel_2011_person/     recuperación agregada del archivo de personas 2011
 
 El catálogo de bases procesadas está en `data/subtel_microdata/processed_base_catalog.csv` y la metodología completa en `docs/subtel_microdata_pipeline.md`.
 
+### OTI — velocidad fija regional, enero 2026
+
+`data/oti_2026/regional_fixed_speed_2026_01.csv` incorpora la publicación oficial SUBTEL/OTI para las **16 regiones**, basada en **752.626 mediciones** de Internet fijo realizadas durante enero de 2026.
+
+La capa se mantiene a nivel regional y no se replica dentro de las 346 filas del maestro comunal. OTI y Ookla permanecen como instrumentos separados: tienen fuentes, mecanismos de medición y agregaciones distintas, por lo que sus valores no deben tratarse como una misma serie.
+
+La metodología y la inconsistencia editorial de fecha presente en la página fuente están documentadas en `docs/oti_fixed_speed_2026.md`.
+
 ### Calidad observada — Ookla Q1 2026
 
 El repositorio incorpora Q1 2026 de Chile desde los Parquet oficiales de Ookla Open Data. El pipeline filtra los tiles globales y calcula indicadores nacionales ponderados por número de tests.
@@ -199,6 +207,7 @@ Chile-Digital-Inclusion/
 │   ├── mobile_coverage_2025/
 │   ├── fixed_access_infrastructure/
 │   ├── education_connectivity_2026/
+│   ├── oti_2026/
 │   ├── subtel_sector_2026/
 │   ├── subtel_longitudinal/
 │   ├── subtel_segments/
@@ -214,6 +223,17 @@ Chile-Digital-Inclusion/
 ├── scripts/
 └── .github/workflows/
 ```
+
+## Auditoría y metadata del release
+
+El repositorio mantiene un contrato de publicación legible por máquinas:
+
+- `data/metadata/layer_catalog.csv` documenta **19 capas**, de las cuales **18 son canónicas** y una corresponde a auditoría geométrica RedAcceso.
+- `data/metadata/release_manifest.csv` inventaría los archivos públicos con tamaño, dimensiones CSV cuando corresponde y checksum SHA-256.
+- `data/metadata/public_release_validation.csv` registra los controles estructurales de la última validación automática.
+- `docs/reproducibility.md` describe el DAG de reconstrucción, dependencias, universos estadísticos y orden recomendado de actualización.
+
+Los archivos autogenerados de metadata no se incluyen a sí mismos en el manifest, evitando checksums autorreferentes y ejecuciones recursivas.
 
 ## Reproducibilidad
 
