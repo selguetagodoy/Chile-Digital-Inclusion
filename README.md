@@ -6,7 +6,7 @@ El proyecto no trata acceso a Internet como sinónimo de inclusión digital. Man
 
 ## Cobertura actual
 
-La versión pública contiene **35 archivos CSV**, documentación metodológica y scripts reproducibles para revisar cobertura y actualizar la capa Ookla.
+La versión pública contiene **40 archivos CSV**, documentación metodológica y scripts reproducibles para revisar cobertura, armonizar evidencia y actualizar la capa Ookla.
 
 ### Censo 2024 y Atlas público
 
@@ -16,19 +16,7 @@ En el snapshot nacional se mantienen 445.840 hogares sin Internet, una tasa de 6
 
 ### CASEN Digital Master 2024
 
-CASEN se mantiene como una capa de personas ponderadas y desigualdad social. Incluye:
-
-- estimación nacional
-- cuatro macrozonas
-- siete grupos de edad
-- 112 cruces región × edad para conectividad
-- rankings regionales
-- rankings comunales de conectividad y vulnerabilidad agregada
-- las 52 comunas de la Región Metropolitana en variables de conectividad
-- conectividad por condición de pobreza
-- conectividad por quintil de ingresos
-- uso de Internet por sexo
-- Top 30 de la brecha entre pobreza por ingresos e Internet fijo
+CASEN se mantiene como una capa de personas ponderadas y desigualdad social. Incluye estimación nacional, cuatro macrozonas, siete grupos de edad, 112 cruces región × edad, rankings regionales y comunales, las 52 comunas de la Región Metropolitana en variables de conectividad, conectividad por condición de pobreza, quintiles de ingreso, uso de Internet por sexo y un Top 30 de la brecha entre pobreza e Internet fijo.
 
 La estimación nacional representa 20.131.682 personas. Registra 97,49% con algún acceso a Internet, 71,83% con fijo, 24,62% solo móvil y 2,51% sin Internet. La carencia de conectividad digital multidimensional alcanza 12,96% y la doble pobreza de ingresos y digital 4,15%.
 
@@ -41,37 +29,55 @@ La estimación nacional representa 20.131.682 personas. Registra 97,49% con alg�
 
 La brecha generacional también queda disponible como archivo. La carencia digital pasa de 9,43% en 30–44 años a 28,83% en 75+.
 
-### SUBTEL
+### SUBTEL — serie longitudinal 2015–2025
 
-La serie oficial de Encuestas de Acceso y Usos de Internet se mantiene como una capa propia. El catálogo incorporado cubre las publicaciones disponibles desde 2008 hasta la Duodécima Encuesta publicada en 2026 con trabajo de campo 2025.
+El repositorio incorpora una serie armonizada de las Encuestas de Acceso y Usos de Internet de SUBTEL. La capa longitudinal separa cinco dimensiones:
 
-Para la Duodécima Encuesta se publican tablas agregadas de:
+- acceso pagado del hogar y forma de conexión
+- dispositivos utilizados para conectarse
+- frecuencia de uso de Internet
+- acceso en hogares compuestos solo por personas mayores
+- habilidades digitales comparables entre 2023 y 2025
 
-- acceso pagado y modalidades fijo/móvil
-- dispositivos utilizados en el hogar
-- habilidades digitales básicas por edad
-- habilidades digitales intermedias por edad
-- teletrabajo por edad
-- postulación laboral y e-learning por edad
-- interacción con el Estado por sexo
-- indicadores específicos de personas mayores
+El acceso pagado del hogar aumenta desde 70,2% en 2015 hasta 96,6% en 2025. En paralelo, el acceso fijo total pasa de 48,8% a 74,6%. La dependencia de una conexión exclusivamente móvil alcanza 29,6% en 2017 y se sitúa en 21,8% en 2025.
 
-Para 2025, 96,6% de los hogares declara acceso propio y pagado a Internet fijo o móvil. Entre hogares compuestos solo por personas mayores la cifra baja a 83,2%.
+La brecha territorial de acceso se reduce de manera importante en las olas comparables disponibles. En 2017 la encuesta registra 89,1% de acceso urbano y 76,7% rural. En 2025 los valores llegan a 96,8% y 95,1%, respectivamente.
+
+Los hogares compuestos solo por personas mayores muestran una mejora desde 54,6% de acceso en 2017 a 83,2% en 2025. Aun así, en la última medición permanecen 13,4 puntos porcentuales bajo el promedio nacional del hogar.
+
+La evolución de dispositivos muestra un cambio de estructura. El smartphone pasa de 90,0% en 2015 a 99,1% en 2025 y la TV conectada desde 19,0% a 77,5%. En el mismo período, el computador de escritorio cae desde 33,0% a 19,9%, mientras el portátil se mantiene en torno a seis de cada diez hogares conectados.
+
+La dimensión de autonomía digital se observa desde 2023. Entre 2023 y 2025, la capacidad auto-reportada para usar procesador de texto sube de 53,3% a 59,4%; realizar transacciones bancarias, compras y pagos pasa de 63,5% a 71,7%; e instalar o configurar aplicaciones aumenta desde 49,7% a 52,3%. El uso de Inteligencia Artificial aparece como ítem recién en 2024, con 27,0%, y llega a 40,6% en 2025.
+
+La serie no interpola años faltantes. También documenta los quiebres de cuestionario: la frecuencia de uso emplea una ventana de doce meses hasta 2023 y una ventana de tres meses desde 2024.
+
+Archivos principales:
+
+```text
+data/subtel_longitudinal/
+├── subtel_household_digital_access_2015_2025.csv
+├── subtel_household_devices_2015_2025.csv
+├── subtel_internet_use_frequency_2015_2025.csv
+├── subtel_older_households_access_2017_2025.csv
+└── subtel_digital_skills_2023_2025.csv
+```
+
+La metodología de armonización está documentada en `docs/subtel_longitudinal_methodology.md`.
+
+### SUBTEL — última ola y estadísticas sectoriales
+
+La Duodécima Encuesta fue publicada en 2026 con trabajo de campo 2025. Para esa ola se mantienen además tablas detalladas de acceso fijo/móvil, dispositivos, habilidades por edad, teletrabajo, postulación laboral, e-learning, interacción con el Estado y personas mayores.
 
 También se incorporan series sectoriales SUBTEL de conexiones fijas y distribución por tramos de velocidad contratada. En septiembre de 2025 el stock alcanza 4.774.200 conexiones fijas y 63,77% se ubica sobre 100 Mbps y hasta 1 Gbps.
 
 ### Calidad observada — Ookla Q1 2026
 
-El repositorio ya incorpora **Q1 2026 de Chile** desde los Parquet oficiales de Ookla Open Data. El pipeline filtra los tiles globales por centroide dentro del límite nacional y calcula los indicadores nacionales ponderando los promedios de cada tile por su número de tests.
+El repositorio incorpora Q1 2026 de Chile desde los Parquet oficiales de Ookla Open Data. El pipeline filtra los tiles globales por centroide dentro del límite nacional y calcula los indicadores nacionales ponderando los promedios de cada tile por su número de tests.
 
 | Red | Q4 2025 descarga | Q1 2026 descarga | Δ trimestral | Q1 carga | Q1 latencia |
 |---|---:|---:|---:|---:|---:|
 | Fija | 392,10 Mbps | 397,33 Mbps | +1,33% | 336,12 Mbps | 8,96 ms |
 | Móvil | 105,66 Mbps | 98,87 Mbps | -6,43% | 21,43 Mbps | 33,71 ms |
-
-La red fija mejora levemente en descarga y carga. En móvil, Q1 2026 muestra una caída de 6,43% en descarga y 7,57% en carga respecto de Q4 2025, junto con un aumento de 10,04% en latencia.
-
-Q1 2026 contiene 29.232 tiles fijos con 517.216 tests y 22.938 tiles móviles con 125.101 tests después del recorte espacial de Chile.
 
 La capa conserva además los tiles filtrados para permitir agregaciones regionales y comunales posteriores sin volver a descargar el parquet global.
 
@@ -82,6 +88,12 @@ Chile-Digital-Inclusion/
 ├── README.md
 ├── data/
 │   ├── [30 CSV Censo, CASEN, SUBTEL y Atlas]
+│   ├── subtel_longitudinal/
+│   │   ├── subtel_household_digital_access_2015_2025.csv
+│   │   ├── subtel_household_devices_2015_2025.csv
+│   │   ├── subtel_internet_use_frequency_2015_2025.csv
+│   │   ├── subtel_older_households_access_2017_2025.csv
+│   │   └── subtel_digital_skills_2023_2025.csv
 │   └── ookla/
 │       ├── chile_2025q4_control_summary.csv
 │       ├── chile_2025q4_vs_2026q1.csv
@@ -93,7 +105,8 @@ Chile-Digital-Inclusion/
 │   ├── key_findings.md
 │   ├── methodology.md
 │   ├── ookla_open_data.md
-│   └── sources.md
+│   ├── sources.md
+│   └── subtel_longitudinal_methodology.md
 ├── scripts/
 │   ├── build_summary.py
 │   └── build_ookla_chile_quarter.py
@@ -112,6 +125,8 @@ python scripts/build_ookla_chile_quarter.py --year 2026 --quarter 1 --compare-ye
 ## Cómo leer los datos
 
 No deben compararse directamente universos distintos. Censo y las capas Atlas trabajan principalmente con hogares. CASEN utiliza personas ponderadas. SUBTEL utiliza hogares para acceso y personas de 16 años o más para sus módulos de uso. Ookla describe desempeño observado de red.
+
+La serie longitudinal SUBTEL conserva los quiebres metodológicos en lugar de forzar continuidad estadística. Los faltantes se mantienen vacíos y las observaciones con cambios de definición contienen notas de comparabilidad.
 
 Las estimaciones comunales derivadas de encuestas deben interpretarse con cautela y junto al `N_ponderado` disponible. Para volumen e intensidad de desconexión comunal, la fuente estructural preferente es Censo 2024.
 
