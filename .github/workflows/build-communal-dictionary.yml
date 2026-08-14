@@ -7,6 +7,7 @@ on:
     paths:
       - 'scripts/build_communal_dictionary.py'
       - 'data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv'
+      - 'data/mobile_coverage_2025/commune_mobile_network_points_2025_03.csv'
       - '.github/workflows/build-communal-dictionary.yml'
 
 permissions:
