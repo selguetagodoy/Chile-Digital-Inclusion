@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use Chile Digital Inclusion, please cite the repository and the original data sources documented for each layer."
+title: "Chile Digital Inclusion"
+type: dataset
+authors:
+  - family-names: "Elgueta Godoy"
+    given-names: "Sebastián"
+repository-code: "https://github.com/selguetagodoy/Chile-Digital-Inclusion"
+url: "https://github.com/selguetagodoy/Chile-Digital-Inclusion"
+date-released: 2026-08-14
+abstract: >-
+  Open analytical repository for digital inclusion in Chile integrating
+  communal household connectivity and social context, SUBTEL survey and
+  sector evidence, public 4G/5G network point records, and observed network
+  performance from Ookla Open Data. Statistical universes are kept separate
+  and the public repository excludes proprietary indices and weighting models.
+keywords:
+  - digital inclusion
+  - digital divide
+  - Chile
+  - telecommunications
+  - public policy
+  - 5G
+  - broadband
+  - data infrastructure
+  - territorial analysis
