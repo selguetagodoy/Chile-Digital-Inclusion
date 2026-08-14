@@ -1,18 +1,18 @@
 # Chile Digital Inclusion
 
-Repositorio abierto para analizar inclusión, exclusión y desigualdad digital en Chile a partir de Censo 2024, CASEN 2024, Encuestas de Acceso y Usos de Internet de SUBTEL y calidad observada de red.
+Repositorio abierto para analizar inclusión, exclusión y desigualdad digital en Chile a partir de Censo 2024, CASEN 2024, Encuestas de Acceso y Usos de Internet de SUBTEL, estadísticas sectoriales, registros públicos de redes móviles y calidad observada de red.
 
-El proyecto no trata acceso a Internet como sinónimo de inclusión digital. Mantiene separadas la desconexión dura, el tipo de conexión, el equipamiento, las habilidades, los usos funcionales, las desigualdades sociales, la dimensión territorial y el desempeño de las redes.
+El proyecto no trata acceso a Internet como sinónimo de inclusión digital. Mantiene separadas la desconexión dura, el tipo de conexión, el equipamiento, las habilidades, los usos funcionales, las desigualdades sociales, la infraestructura territorial y el desempeño de las redes.
 
 ## Cobertura actual
 
-La versión pública combina evidencia censal, encuestas sociales y de telecomunicaciones, desempeño observado de red, cartografía comunal y pipelines reproducibles.
+La versión pública combina evidencia censal, encuestas sociales y de telecomunicaciones, estadísticas sectoriales, registros públicos 4G/5G, desempeño observado de red, cartografía comunal y pipelines reproducibles.
 
 ### Censo 2024 — 346 comunas
 
 `data/censo_2024/` incorpora una capa pública comunal con las **346 comunas de Chile**.
 
-`communes_connectivity_2024.csv` contiene 26 campos de identificación y conectividad por comuna: hogares totales, hogares sin Internet, dependencia móvil, teléfono móvil, computador, Internet fija, móvil y satelital, además de la composición urbano-rural.
+`communes_connectivity_2024.csv` contiene variables de identificación y conectividad por comuna: hogares totales, hogares sin Internet, dependencia móvil, teléfono móvil, computador, Internet fija, móvil y satelital, además de la composición urbano-rural.
 
 `communes_social_context_2024.csv` agrega variables descriptivas del hogar y la vivienda: hacinamiento, tipo de tenencia, monoparentalidad, hogares con niños, niñas y adolescentes, personas mayores, discapacidad, jefatura femenina y hogares multigeneracionales.
 
@@ -22,11 +22,11 @@ La fuente es Censo 2024 y la capa pública integrada utilizada por el Atlas de l
 
 `data/communal_master/chile_digital_inclusion_communes_2026.csv` es la base estructural de 346 comunas y 38 campos públicos.
 
-`data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv` agrega desempeño Ookla fijo y móvil Q1 2026 y variaciones Q4 2025 → Q1 2026. Conserva las **346 comunas y llega a 65 variables**.
+`data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv` agrega desempeño Ookla fijo y móvil Q1 2026, variaciones Q4 2025 → Q1 2026 y registros públicos SUBTEL 4G/5G de marzo de 2025 por operador. Conserva las **346 comunas y contiene 77 variables**.
 
 La versión pública excluye deliberadamente índices internos, scores, segmentaciones y ponderadores propietarios. El archivo es una base observable para mapas, rankings descriptivos y análisis reproducible; no es el Índice de Vulnerabilidad Digital.
 
-Las 65 variables están documentadas en `data/metadata/communal_master_dictionary.csv` y `docs/communal_master_dictionary.md`, con fuente, unidad estadística, unidad de medida, denominador o ponderador y advertencia de comparabilidad.
+Las variables están documentadas en `data/metadata/communal_master_dictionary.csv` y `docs/communal_master_dictionary.md`, con fuente, unidad estadística, unidad de medida, denominador o ponderador y advertencia de comparabilidad.
 
 ### Geografía
 
@@ -61,12 +61,7 @@ Los archivos curados están en `data/subtel_longitudinal/`.
 
 `data/subtel_segments/` reconstruye directamente desde los SAV oficiales el acceso propio y pagado a Internet en el hogar para 2015, 2016, 2017, 2023, 2024 y 2025.
 
-El pipeline publica **127 tabulados agregados** y usa el factor de expansión de hogar específico de cada ola. Incluye:
-
-- estimación nacional de control
-- acceso por región en las seis olas
-- acceso urbano/rural en las seis olas
-- quintil/GSE en 2015–2017, cuando existe una categoría explícita verificable
+El pipeline publica **127 tabulados agregados** y usa el factor de expansión de hogar específico de cada ola. Incluye estimación nacional de control, acceso por región y urbano/rural en las seis olas, además de quintil/GSE en 2015–2017 cuando existe una categoría explícita verificable.
 
 Las cifras nacionales recalculadas reproducen la serie publicada con diferencias entre -0,31 y +0,05 puntos porcentuales. Para 2023–2025 no se reconstruyen quintiles desde tramos de ingreso cuando la base no entrega una categoría socioeconómica explícita y defendible.
 
@@ -79,6 +74,33 @@ Las cifras nacionales recalculadas reproducen la serie publicada con diferencias
 `subtel_cost_barriers_2023_2025.csv` mide costo del equipo, costo elevado del servicio fijo y percepción de que la fija es más cara que la móvil dentro del universo que responde el bloque de no contratación de banda ancha fija. El enrutamiento de ese bloque varía entre olas, por lo que no se fuerza una tendencia longitudinal.
 
 No se construye un índice de asequibilidad ni se divide por ingreso sin una definición longitudinal homogénea. La capa representa disposición declarada a pagar y barreras de costo, no tarifa contratada ni gasto real del hogar.
+
+### SUBTEL — contexto sectorial Q1 2026
+
+`data/subtel_sector_2026/sector_snapshot_2026q1.csv` incorpora el cierre sectorial de marzo de 2026 publicado por SUBTEL.
+
+Entre los indicadores incluidos están 4.859.679 accesos de Internet fijo, 10.367.754 conexiones 5G, 85,3% de participación de fibra óptica dentro de las conexiones fijas y una penetración estimada de Internet fijo en 69,7% de los hogares. La estimación llega a 76,8% en hogares urbanos y 23,6% en hogares rurales.
+
+Esta penetración es una estimación sectorial construida con conexiones residenciales y hogares del Censo 2024; no es equivalente a la estimación de acceso de una encuesta de hogares. La metodología está en `docs/subtel_sector_snapshot_2026q1.md`.
+
+### Redes móviles 4G/5G — SUBTEL marzo 2025
+
+`data/mobile_coverage_2025/` incorpora los servicios ArcGIS públicos de Claro, Entel, Movistar y WOM para 4G y 5G.
+
+El catálogo fuente identifica **28.265 registros puntuales**: 22.803 asociados a 4G y 5.462 a 5G. La asignación espacial comunal recupera **28.224 registros**, equivalentes a 99,85% del total disponible. De ellos, 22.766 corresponden a 4G y 5.458 a 5G.
+
+La capa integrada muestra **338 comunas con al menos un registro 5G** y **37 comunas con registros 5G de los cuatro operadores**.
+
+Estos conteos no son torres físicas únicas ni porcentajes de cobertura geográfica o poblacional. Una ubicación puede contener múltiples registros y la existencia de un punto dentro de una comuna no demuestra cobertura homogénea en todo su territorio.
+
+Productos principales:
+
+- `service_catalog.csv` — catálogo y conteo de los ocho servicios públicos
+- `commune_operator_technology_points_2025_03.csv` — comuna × operador × tecnología
+- `commune_mobile_network_points_2025_03.csv` — tabla ancha comunal
+- `spatial_assignment_coverage.csv` — control de asignación espacial
+
+La metodología está en `docs/subtel_mobile_network_points_2025.md`.
 
 ### SUBTEL — procesamiento de bases oficiales
 
@@ -119,9 +141,9 @@ El repositorio incorpora Q1 2026 de Chile desde los Parquet oficiales de Ookla O
 
 `data/ookla/territorial/` lleva la misma lógica al territorio. Q1 2026 contiene **683 filas comuna × red** y **32 filas región × red**. También se reconstruye Q4 2025 con la misma metodología para calcular cambios trimestrales.
 
-La asignación espacial usa el centroide del tile dentro del polígono comunal BCN. El control de cobertura en `spatial_assignment_coverage.csv` muestra que aproximadamente 99% de los tests de las cuatro combinaciones período × red queda asignado a una comuna.
+La asignación espacial usa el centroide del tile dentro del polígono comunal BCN. El control de cobertura muestra que aproximadamente 99% de los tests queda asignado a una comuna.
 
-Ookla mide desempeño donde existieron tests. Complementa, pero no reemplaza, las fuentes de acceso, adopción y cobertura.
+Ookla mide desempeño donde existieron tests. Complementa, pero no reemplaza, las fuentes de acceso, adopción e infraestructura.
 
 ## Dashboard
 
@@ -133,9 +155,9 @@ assets/dashboard.css
 assets/dashboard.js
 ```
 
-La vista carga el maestro comunal integrado y el GeoJSON, permite cambiar indicador, buscar comunas, revisar rankings y abrir una ficha territorial con conectividad, equipamiento, contexto social y desempeño Ookla.
+La vista carga el maestro comunal integrado y el GeoJSON. Permite cambiar indicador, buscar comunas, revisar rankings y abrir una ficha territorial con conectividad, equipamiento, contexto social, registros 4G/5G y desempeño Ookla. También muestra un contexto sectorial nacional actualizado a marzo de 2026.
 
-El código está listo para alojamiento estático. La publicación mediante GitHub Pages requiere habilitar GitHub Actions como origen de Pages en la configuración del repositorio.
+El código está listo para alojamiento estático. El workflow `.github/workflows/deploy-pages.yml` quedó preparado para GitHub Pages, pero el sitio debe habilitarse una vez en la configuración del repositorio antes de ejecutar el despliegue manual.
 
 ## Estructura analítica
 
@@ -150,13 +172,12 @@ Chile-Digital-Inclusion/
 │   ├── censo_2024/
 │   ├── communal_master/
 │   ├── metadata/
-│   ├── casen_*.csv
+│   ├── mobile_coverage_2025/
+│   ├── subtel_sector_2026/
 │   ├── subtel_longitudinal/
 │   ├── subtel_segments/
 │   ├── subtel_microdata/
 │   ├── subtel_weighted/
-│   ├── subtel_2008/
-│   ├── subtel_2011_person/
 │   └── ookla/
 │       └── territorial/
 ├── geo/
@@ -170,7 +191,7 @@ Chile-Digital-Inclusion/
 
 ## Reproducibilidad
 
-Los workflows de GitHub Actions vuelven a descargar las fuentes públicas y reconstruyen los productos derivados. Para SUBTEL, los SAV/ZIP viven únicamente durante la ejecución del workflow. Para Ookla, los Parquet globales se descargan y se recortan a Chile. La cartografía comunal se reconstruye desde el servicio público de la Biblioteca del Congreso.
+Los workflows de GitHub Actions vuelven a descargar o consultar las fuentes públicas y reconstruyen los productos derivados. Para SUBTEL, los SAV/ZIP viven únicamente durante la ejecución del workflow. Para Ookla, los Parquet globales se descargan y se recortan a Chile. Los registros 4G/5G se consultan desde los servicios ArcGIS públicos de SUBTEL. La cartografía comunal se reconstruye desde el servicio público de la Biblioteca del Congreso.
 
 Los principales productos derivados tienen pipelines independientes para:
 
@@ -179,6 +200,10 @@ Los principales productos derivados tienen pipelines independientes para:
 - clasificación y crosswalk de variables
 - acceso SUBTEL segmentado
 - asequibilidad SUBTEL desde disposición a pagar y barreras de costo
+- snapshot sectorial SUBTEL Q1 2026
+- catálogo de servicios 4G/5G SUBTEL
+- agregación espacial de registros móviles por comuna
+- integración de infraestructura móvil al maestro comunal
 - descarga y control trimestral Ookla
 - agregación Ookla comunal y regional
 - cartografía comunal
@@ -186,17 +211,19 @@ Los principales productos derivados tienen pipelines independientes para:
 
 ## Cómo leer los datos
 
-No deben compararse directamente universos distintos. Censo trabaja principalmente con hogares. CASEN utiliza personas ponderadas. SUBTEL contiene preguntas de hogar y de persona dentro de una misma encuesta. Ookla representa tests observados.
+No deben compararse directamente universos distintos. Censo trabaja principalmente con hogares. CASEN utiliza personas ponderadas. SUBTEL contiene preguntas de hogar y de persona dentro de una misma encuesta y también estadísticas administrativas o sectoriales. Ookla representa tests observados. Los servicios ArcGIS 4G/5G representan registros puntuales de red.
 
 Los faltantes se mantienen como faltantes. No se interpolan preguntas inexistentes ni se fuerza continuidad cuando cambia el cuestionario, el período de recuerdo o la población de referencia.
 
 Las estimaciones territoriales de encuestas deben interpretarse considerando diseño muestral y tamaño efectivo. Para volumen estructural de desconexión territorial, Censo 2024 sigue siendo la referencia principal.
 
+La presencia de registros 4G/5G no debe convertirse mecánicamente en cobertura. Un análisis de cobertura requiere una geometría o modelo de propagación y un denominador explícito de superficie, población u hogares.
+
 ## Fuentes principales
 
 - Instituto Nacional de Estadísticas — Censo de Población y Vivienda 2024
 - Ministerio de Desarrollo Social y Familia — CASEN 2024
-- Subsecretaría de Telecomunicaciones — Encuestas de Acceso y Usos de Internet y estadísticas sectoriales
+- Subsecretaría de Telecomunicaciones — Encuestas de Acceso y Usos de Internet, estadísticas sectoriales y servicios cartográficos públicos
 - Biblioteca del Congreso Nacional — cartografía comunal
 - Ookla Open Data — calidad observada de red
 - Atlas de la Desconexión Digital de Chile 2026 — capa integrada pública
