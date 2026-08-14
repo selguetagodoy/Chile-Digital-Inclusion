@@ -1,0 +1,38 @@
+name: Discover SUBTEL affordability variables
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/discover_subtel_affordability.py'
+      - 'scripts/profile_subtel_microdata.py'
+      - '.github/workflows/discover-subtel-affordability.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install pandas pyreadstat requests
+      - name: Discover affordability variables
+        run: python scripts/discover_subtel_affordability.py
+      - name: Commit candidate catalog
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/affordability/candidate_variables_2023_2025.csv
+          if git diff --cached --quiet; then
+            echo 'No candidate changes to commit'
+          else
+            git commit -m 'Catalog SUBTEL affordability variable candidates'
+            git pull --rebase origin main
+            git push
+          fi
