@@ -13,6 +13,10 @@ permissions:
 env:
   PYTHONUNBUFFERED: '1'
 
+concurrency:
+  group: main-writers
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -53,5 +57,6 @@ jobs:
             echo 'No changes to commit'
           else
             git commit -m 'Add Ookla Chile Q1 2026 derived data'
+            git pull --rebase origin main
             git push
           fi
