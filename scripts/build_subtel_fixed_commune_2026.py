@@ -27,6 +27,8 @@ ALIASES = {
     "calera": "la calera",
     "aisen": "aysen",
     "coihaique": "coyhaique",
+    "treguaco": "trehuaco",
+    "til til": "tiltil",
 }
 
 def norm(s: str) -> str:
@@ -97,6 +99,7 @@ def extract_sheet(z,ss,path):
         commune=str(d.get(3,"")).strip()
         raw=str(d.get(target_col,"")).strip()
         if not commune or not raw or current_region is None: continue
+        if norm(commune)=="sin clasificacion": continue
         try: val=int(round(float(raw)))
         except ValueError: continue
         out.append({"region":current_region,"commune_name_source":commune,"value":val,"source_row":rn})
@@ -152,7 +155,7 @@ def main():
     print(f"communes total fixed matched: {matched_total}/346")
     print(f"communes residential fixed matched: {matched_res}/346")
     print(f"unmatched source rows: {len(unmatched)}")
-    if matched_total < 340 or matched_res < 340:
-        raise SystemExit("Insufficient commune match coverage")
+    if matched_total != 346 or matched_res != 346 or unmatched:
+        raise SystemExit("Commune match QA did not close at 346/346")
 
 if __name__=="__main__": main()
