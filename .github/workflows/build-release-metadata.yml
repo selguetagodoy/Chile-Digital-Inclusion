@@ -27,8 +27,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: release-metadata
-  cancel-in-progress: true
+  group: main-writers
+  cancel-in-progress: false
 
 jobs:
   build:
