@@ -1,0 +1,35 @@
+name: Extract Mineduc Aulas Conectadas selected sheet
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/extract_mineduc_aulas_selected_sheet.py'
+      - '.github/workflows/extract-mineduc-aulas-selected-sheet.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests openpyxl
+      - run: python scripts/extract_mineduc_aulas_selected_sheet.py
+      - name: Commit normalized education layer
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/education_connectivity_2026/aulas_conectadas_2025_establishments.csv data/education_connectivity_2026/aulas_conectadas_2025_region_summary.csv data/education_connectivity_2026/aulas_conectadas_2025_sheet_qa.csv
+          if git diff --cached --quiet; then
+            echo 'No normalized education changes'
+          else
+            git commit -m 'Publish Aulas Conectadas 2025 selected and waitlist RBD layer'
+            git pull --rebase origin main
+            git push
+          fi
