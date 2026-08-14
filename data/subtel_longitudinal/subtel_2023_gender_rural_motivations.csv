@@ -1,0 +1,6 @@
+domain,indicator,segment,value_pct,universe,source_note
+household_access_by_head_sex,paid_internet_access,male_household_head,95.1,households,SUBTEL X survey
+household_access_by_head_sex,paid_internet_access,female_household_head,93.2,households,SUBTEL X survey
+rural_access,mobile_connection,rural,50.9,rural households,SUBTEL X survey
+reasons_for_having_internet,communication,total,69.8,households with Internet,SUBTEL X survey; multiple reasons possible
+reasons_for_having_internet,access_information,total,57.0,households with Internet,SUBTEL X survey; multiple reasons possible
