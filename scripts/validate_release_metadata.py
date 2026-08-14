@@ -21,6 +21,7 @@ REQUIRED_CANONICAL = {
     'subtel_segmented_access',
     'subtel_affordability',
     'subtel_sector_2026q1',
+    'subtel_oti_fixed_speed_2026m01',
     'subtel_mobile_network_2025m03',
     'subtel_fixed_redacceso_presence',
     'mineduc_aulas_establishments_2025',
@@ -37,6 +38,8 @@ REQUIRED_MANIFEST_PATHS = {
     'assets/dashboard.js',
     'data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv',
     'data/metadata/public_release_validation.csv',
+    'data/oti_2026/regional_fixed_speed_2026_01.csv',
+    'docs/oti_fixed_speed_2026.md',
     'docs/reproducibility.md',
     'docs/communal_master_dictionary.md',
     'geo/chile_communes.geojson',
@@ -54,8 +57,8 @@ def main() -> None:
             raise RuntimeError(f'Missing release metadata file: {path}')
 
     catalog = read_csv(CATALOG)
-    if len(catalog) != 18:
-        raise RuntimeError(f'Expected 18 catalog layers, found {len(catalog)}')
+    if len(catalog) != 19:
+        raise RuntimeError(f'Expected 19 catalog layers, found {len(catalog)}')
     ids = [r['layer_id'] for r in catalog]
     if len(ids) != len(set(ids)):
         raise RuntimeError('Duplicate layer_id in layer catalog')
@@ -70,6 +73,10 @@ def main() -> None:
     master = next(r for r in catalog if r['layer_id'] == 'communal_master_2026')
     if int(master['rows']) != 346 or int(master['columns']) != 84:
         raise RuntimeError(f'Catalog master shape mismatch: rows={master["rows"]} cols={master["columns"]}')
+
+    oti = next(r for r in catalog if r['layer_id'] == 'subtel_oti_fixed_speed_2026m01')
+    if int(oti['rows']) != 16:
+        raise RuntimeError(f'OTI regional layer must contain 16 regions, found {oti["rows"]}')
 
     manifest = read_csv(MANIFEST)
     if len(manifest) < 180:
@@ -91,6 +98,7 @@ def main() -> None:
     print('release_metadata PASS')
     print('layers', len(catalog), 'canonical', len(canonical), 'manifest_files', len(manifest))
     print('master_shape', master['rows'], 'x', master['columns'])
+    print('oti_regions', oti['rows'])
 
 
 if __name__ == '__main__':
