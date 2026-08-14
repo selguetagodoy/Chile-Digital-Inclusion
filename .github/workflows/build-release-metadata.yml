@@ -16,6 +16,11 @@ on:
       - 'index.html'
       - 'assets/**'
       - '.github/workflows/build-release-metadata.yml'
+  workflow_run:
+    workflows:
+      - 'Build SUBTEL sector series through March 2026'
+      - 'Build SUBTEL fixed connections by commune March 2026'
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -27,6 +32,7 @@ concurrency:
 
 jobs:
   build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
