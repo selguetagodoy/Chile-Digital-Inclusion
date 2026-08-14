@@ -21,6 +21,7 @@ REQUIRED_CANONICAL = {
     'subtel_segmented_access',
     'subtel_affordability',
     'subtel_sector_2026q1',
+    'subtel_sector_longitudinal_2026m03',
     'subtel_oti_fixed_speed_2026m01',
     'subtel_mobile_network_2025m03',
     'subtel_fixed_redacceso_presence',
@@ -29,6 +30,10 @@ REQUIRED_CANONICAL = {
     'ookla_national_2026q1',
     'ookla_communal_2026q1',
     'commune_geography',
+}
+
+EXPECTED_NONCANONICAL = {
+    'subtel_fixed_redacceso_length_audit',
 }
 
 REQUIRED_MANIFEST_PATHS = {
@@ -57,22 +62,38 @@ def main() -> None:
             raise RuntimeError(f'Missing release metadata file: {path}')
 
     catalog = read_csv(CATALOG)
-    if len(catalog) != 19:
-        raise RuntimeError(f'Expected 19 catalog layers, found {len(catalog)}')
     ids = [r['layer_id'] for r in catalog]
     if len(ids) != len(set(ids)):
         raise RuntimeError('Duplicate layer_id in layer catalog')
 
+    expected_ids = REQUIRED_CANONICAL | EXPECTED_NONCANONICAL
+    actual_ids = set(ids)
+    if actual_ids != expected_ids:
+        raise RuntimeError(
+            'Layer catalog contract changed. '
+            f'Missing={sorted(expected_ids-actual_ids)} Extra={sorted(actual_ids-expected_ids)}'
+        )
+
     canonical = {r['layer_id'] for r in catalog if r['canonical'] == 'yes'}
     if canonical != REQUIRED_CANONICAL:
-        raise RuntimeError(f'Canonical layer contract changed. Missing={sorted(REQUIRED_CANONICAL-canonical)} Extra={sorted(canonical-REQUIRED_CANONICAL)}')
+        raise RuntimeError(
+            'Canonical layer contract changed. '
+            f'Missing={sorted(REQUIRED_CANONICAL-canonical)} Extra={sorted(canonical-REQUIRED_CANONICAL)}'
+        )
     unavailable = [r['layer_id'] for r in catalog if r['canonical'] == 'yes' and r['exists'] != 'yes']
     if unavailable:
         raise RuntimeError(f'Canonical catalog layers unavailable: {unavailable}')
 
     master = next(r for r in catalog if r['layer_id'] == 'communal_master_2026')
-    if int(master['rows']) != 346 or int(master['columns']) != 84:
+    if int(master['rows']) != 346 or int(master['columns']) != 89:
         raise RuntimeError(f'Catalog master shape mismatch: rows={master["rows"]} cols={master["columns"]}')
+
+    longitudinal = next(r for r in catalog if r['layer_id'] == 'subtel_sector_longitudinal_2026m03')
+    if int(longitudinal['rows']) != 2010 or int(longitudinal['columns']) != 9:
+        raise RuntimeError(
+            'SUBTEL longitudinal sector layer shape mismatch: '
+            f'rows={longitudinal["rows"]} cols={longitudinal["columns"]}'
+        )
 
     oti = next(r for r in catalog if r['layer_id'] == 'subtel_oti_fixed_speed_2026m01')
     if int(oti['rows']) != 16:
@@ -98,6 +119,7 @@ def main() -> None:
     print('release_metadata PASS')
     print('layers', len(catalog), 'canonical', len(canonical), 'manifest_files', len(manifest))
     print('master_shape', master['rows'], 'x', master['columns'])
+    print('sector_longitudinal_shape', longitudinal['rows'], 'x', longitudinal['columns'])
     print('oti_regions', oti['rows'])
 
 
