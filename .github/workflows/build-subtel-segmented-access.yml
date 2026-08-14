@@ -1,0 +1,38 @@
+name: Build SUBTEL segmented household access
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_subtel_segmented_access.py'
+      - 'scripts/profile_subtel_microdata.py'
+      - '.github/workflows/build-subtel-segmented-access.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install pandas numpy pyreadstat requests
+      - name: Build segmented access tables
+        run: python scripts/build_subtel_segmented_access.py
+      - name: Commit aggregate outputs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/subtel_segments
+          if git diff --cached --quiet; then
+            echo 'No segmented access changes to commit'
+          else
+            git commit -m 'Add SUBTEL household access by region zone and socioeconomic group'
+            git pull --rebase origin main
+            git push
+          fi
