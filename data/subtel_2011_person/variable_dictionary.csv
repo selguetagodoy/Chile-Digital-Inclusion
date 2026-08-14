@@ -1,0 +1,22 @@
+variable,label,dtype,nonmissing_n,distinct_values,missing_pct,value_labels_json
+region,,float64,6310,4,0.0,{}
+orden,,float64,6310,14,0.0,{}
+h1,,str,6310,1289,0.0,{}
+h2,,float64,6309,13,0.0158,{}
+h3,,float64,6310,2,0.0,{}
+h4,,float64,6310,95,0.0,{}
+h5a,,float64,6310,17,0.0,{}
+h5b,,float64,6310,12,0.0,{}
+h6,,float64,5810,8,7.9239,{}
+h7,,float64,6310,3,0.0,{}
+mes,,float64,5959,14,5.5626,{}
+ano,,float64,6192,100,1.87,{}
+h9,,float64,2010,1,68.1458,{}
+ID,ID,float64,6310,2010,0.0,{}
+Tipo2,Tipo de Muestra,float64,6310,3,0.0,"{""1.0"": ""Muestra Urbana 2011"", ""2.0"": ""Muestra Panel Urbana 2009"", ""3.0"": ""Muestra Rural 2011""}"
+Comuna,,str,6310,86,0.0,{}
+ID_Segm,,float64,6310,449,0.0,{}
+c_comuna,,float64,6310,71,0.0,{}
+F_Panel,Folio 2009 Encuesta Panel,float64,543,173,91.3946,{}
+Factor_Transv,Factor de Expansiòn Tranversal,float64,6310,243,0.0,{}
+Factor_Long,Factor de Expansiòn Longitudinal,float64,6310,163,0.0,{}
