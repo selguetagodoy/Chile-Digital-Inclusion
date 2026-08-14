@@ -1,0 +1,30 @@
+selection_group,region,establishments
+selected,DE ANTOFAGASTA,42
+selected,DE ARICA Y PARINACOTA,2
+selected,DE ATACAMA,16
+selected,DE AYSÉN DEL GENERAL CARLOS IBAÑEZ DEL CAMPO,9
+selected,DE COQUIMBO,34
+selected,DE LA ARAUCANÍA,28
+selected,DE LOS LAGOS,48
+selected,DE LOS RÍOS,19
+selected,DE MAGALLANES Y DE LA ANTÁRTICA CHILENA,13
+selected,DE TARAPACÁ,19
+selected,DE VALPARAÍSO,96
+selected,DE ÑUBLE,22
+selected,DEL BIOBÍO,69
+selected,DEL LIBERTADOR BERNARDO OHIGGINS,68
+selected,DEL MAULE,59
+selected,METROPOLITANA DE SANTIAGO,156
+waitlist,DE ANTOFAGASTA,5
+waitlist,DE ATACAMA,3
+waitlist,DE COQUIMBO,7
+waitlist,DE LA ARAUCANÍA,1
+waitlist,DE LOS LAGOS,9
+waitlist,DE LOS RÍOS,3
+waitlist,DE TARAPACÁ,2
+waitlist,DE VALPARAÍSO,12
+waitlist,DE ÑUBLE,3
+waitlist,DEL BIOBÍO,6
+waitlist,DEL LIBERTADOR BERNARDO OHIGGINS,14
+waitlist,DEL MAULE,8
+waitlist,METROPOLITANA DE SANTIAGO,20
