@@ -1,0 +1,10 @@
+metric,value,note
+pdf_bytes,3698159,Downloaded public REX 775
+pages,80,PDF pages
+pages_with_text,0,Pages with extractable text; no OCR used
+text_characters,0,Extractable text characters
+pages_with_tables,0,Pages with detected tables
+tables,0,Detected tables
+tables_with_rbd_header,0,Tables whose first rows explicitly mention RBD
+rbd_candidate_rows,0,"Audit candidates, not confirmed establishments until crosswalk to official directory"
+unique_rbd_candidates,0,Unique candidate values
