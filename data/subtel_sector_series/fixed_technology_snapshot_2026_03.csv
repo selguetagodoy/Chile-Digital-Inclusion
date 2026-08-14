@@ -1,0 +1,7 @@
+period,technology,connections,share_pct,source_sheet,source_row,derivation
+2026-03,ADSL,9367,0.192749,7.7.1.CO_TEC_RG_EMP_FIJAS,25,explicit labelled total
+2026-03,HFC,516751,10.633439,7.7.1.CO_TEC_RG_EMP_FIJAS,25,explicit labelled total
+2026-03,WIMAX,68,0.001399,7.7.1.CO_TEC_RG_EMP_FIJAS,25,explicit labelled total
+2026-03,FTTX_FIBER,4147629,85.347798,7.7.1.CO_TEC_RG_EMP_FIJAS,25,explicit labelled total
+2026-03,OTHER_FIXED_TECHNOLOGIES_RESIDUAL,185864,3.824615,7.7.1.CO_TEC_RG_EMP_FIJAS,25,grand total minus ADSL/HFC/WIMAX/FTTX explicit totals
+2026-03,TOTAL_FIXED_CONNECTIONS,4859679,100.0,7.7.1.CO_TEC_RG_EMP_FIJAS,25,explicit Total Conexiones matching 7.1 national total
