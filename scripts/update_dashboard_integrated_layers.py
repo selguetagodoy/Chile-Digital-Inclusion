@@ -39,6 +39,13 @@ def main():
         "    ['Operadores 5G', formatValue(n(d.mobile_5g_operators_present_2025m03), indicators.mobile_5g_operators_present_2025m03)],\n    ['Aulas seleccionadas', formatInt(d.mineduc_aulas_selected_establishments_2025)],\n    ['Aulas seleccionadas rurales', formatInt(d.mineduc_aulas_selected_rural_establishments_2025)],\n    ['Aulas lista de espera', formatInt(d.mineduc_aulas_waitlist_establishments_2025)],\n    ['Matrícula en seleccionados', formatInt(d.mineduc_aulas_selected_enrollment_2025)],\n    ['Operadores RedAcceso público', formatInt(d.fixed_access_public_operators_present)],\n    ['Capas RedAcceso públicas', formatInt(d.fixed_access_public_layers_present)],\n    ['Trazado RedAcceso publicado', n(d.fixed_access_public_linework_length_km) === null ? 'N/D' : `${Number(d.fixed_access_public_linework_length_km).toLocaleString('es-CL', { maximumFractionDigits: 1 })} km`],",
     )
 
+    # Do not show a placeholder for the expensive line-length layer. When that
+    # field exists in the master, append it dynamically; otherwise omit it.
+    unconditional = "    ['Capas RedAcceso públicas', formatInt(d.fixed_access_public_layers_present)],\n    ['Trazado RedAcceso publicado', n(d.fixed_access_public_linework_length_km) === null ? 'N/D' : `${Number(d.fixed_access_public_linework_length_km).toLocaleString('es-CL', { maximumFractionDigits: 1 })} km`],\n  ];\n  document.getElementById('detail-grid').innerHTML"
+    conditional = "    ['Capas RedAcceso públicas', formatInt(d.fixed_access_public_layers_present)],\n  ];\n  if (n(d.fixed_access_public_linework_length_km) !== null) {\n    items.push(['Trazado RedAcceso publicado', `${Number(d.fixed_access_public_linework_length_km).toLocaleString('es-CL', { maximumFractionDigits: 1 })} km`]);\n  }\n  document.getElementById('detail-grid').innerHTML"
+    if unconditional in js:
+        js = js.replace(unconditional, conditional, 1)
+
     JS.write_text(js, encoding='utf-8')
 
     html = HTML.read_text(encoding='utf-8')
@@ -51,8 +58,7 @@ def main():
         'El repositorio público no incluye el Índice de Vulnerabilidad Digital completo ni ponderadores propietarios.'
     )
     pattern = r'(<p class="footer-note">)\s*.*?\s*(</p>)'
-    match = re.search(pattern, html, flags=re.DOTALL)
-    if not match:
+    if not re.search(pattern, html, flags=re.DOTALL):
         raise RuntimeError('footer-note block not found')
     html = re.sub(pattern, rf'\1\n      {new_footer}\n    \2', html, count=1, flags=re.DOTALL)
     HTML.write_text(html, encoding='utf-8')
