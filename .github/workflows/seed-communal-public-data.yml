@@ -1,0 +1,55 @@
+name: Build communal public data
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/seed-communal-public-data.yml'
+      - '.seed/communal_public_data.part3'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Rebuild public communal datasets
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p data/censo_2024 data/communal_master /tmp/communal
+          cat .seed/communal_public_data.part1 .seed/communal_public_data.part2 .seed/communal_public_data.part3 | base64 -d > /tmp/communal/data.tar.xz
+          tar -xJf /tmp/communal/data.tar.xz -C /tmp/communal
+          cp /tmp/communal/communes_connectivity_2024.csv data/censo_2024/
+          cp /tmp/communal/communes_social_context_2024.csv data/censo_2024/
+          cp /tmp/communal/chile_digital_inclusion_communes_2026.csv data/communal_master/
+          python - <<'PY'
+          import csv
+          paths = [
+              'data/censo_2024/communes_connectivity_2024.csv',
+              'data/censo_2024/communes_social_context_2024.csv',
+              'data/communal_master/chile_digital_inclusion_communes_2026.csv',
+          ]
+          for path in paths:
+              with open(path, encoding='utf-8', newline='') as fh:
+                  rows = list(csv.reader(fh))
+              assert len(rows) - 1 == 346, (path, len(rows) - 1)
+              print(path, len(rows) - 1, 'communes', len(rows[0]), 'columns')
+          PY
+
+      - name: Commit datasets and remove staging files
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/censo_2024 data/communal_master
+          git rm -r .seed
+          git rm .github/workflows/seed-communal-public-data.yml
+          git commit -m 'Add public 346-commune Censo and inclusion master'
+          git push
