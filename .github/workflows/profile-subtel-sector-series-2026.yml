@@ -1,0 +1,36 @@
+name: Profile SUBTEL sector series through March 2026
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/profile_subtel_sector_series_2026.py'
+      - '.github/workflows/profile-subtel-sector-series-2026.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  profile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests openpyxl
+      - name: Profile official workbooks
+        run: python scripts/profile_subtel_sector_series_2026.py
+      - name: Commit workbook profile
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/subtel_sector_series/official_workbook_profile.csv data/subtel_sector_series/official_workbook_headers.csv
+          if git diff --cached --quiet; then
+            echo 'No workbook-profile changes'
+          else
+            git commit -m 'Profile official SUBTEL sector series workbooks'
+            git pull --rebase origin main
+            git push
+          fi
