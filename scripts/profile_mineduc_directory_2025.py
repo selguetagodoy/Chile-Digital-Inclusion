@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import csv
-import io
 import subprocess
 import tempfile
 from pathlib import Path
@@ -32,15 +31,32 @@ def profile_csv(path: Path):
     for enc in encodings:
         try:
             with path.open(encoding=enc,newline='') as fh:
-                reader=csv.reader(fh,delimiter=';')
+                sample=fh.read(4096); fh.seek(0)
+                try:
+                    dialect=csv.Sniffer().sniff(sample,delimiters=';,|\t,')
+                except csv.Error:
+                    dialect=csv.excel
+                reader=csv.reader(fh,dialect)
                 first=next(reader)
-                if len(first)<=1:
-                    fh.seek(0); reader=csv.reader(fh,delimiter=','); first=next(reader)
                 rows=1+sum(1 for _ in reader)
             return first,rows,enc
         except Exception as exc:
             last=exc
     raise last
+
+
+def extract_archive(archive: Path, extract: Path) -> str:
+    attempts=[]
+    commands=[
+        ['unar','-quiet','-force-overwrite','-output-directory',str(extract),str(archive)],
+        ['7z','x','-y',f'-o{extract}',str(archive)],
+    ]
+    for cmd in commands:
+        proc=subprocess.run(cmd,capture_output=True,text=True)
+        attempts.append(f"{' '.join(cmd[:1])}: rc={proc.returncode} stdout={proc.stdout[-300:]} stderr={proc.stderr[-300:]}")
+        if proc.returncode == 0 and any(p.is_file() for p in extract.rglob('*')):
+            return cmd[0]
+    raise RuntimeError('Archive extraction failed: '+' | '.join(attempts))
 
 
 def main():
@@ -49,15 +65,13 @@ def main():
     with tempfile.TemporaryDirectory() as td:
         root=Path(td); archive=root/'directory.rar'; archive.write_bytes(body)
         extract=root/'extract'; extract.mkdir()
-        proc=subprocess.run(['7z','x','-y',f'-o{extract}',str(archive)],capture_output=True,text=True)
-        if proc.returncode != 0:
-            raise RuntimeError('7z extraction failed: '+proc.stderr[-1000:])
+        extractor=extract_archive(archive,extract)
         files=[p for p in extract.rglob('*') if p.is_file()]
         if not files:
             raise RuntimeError('Archive extracted no files')
         for path in files:
             suffix=path.suffix.lower()
-            profile={'archive_bytes':len(body),'file_name':path.name,'suffix':suffix,'file_bytes':path.stat().st_size,'rows':'','columns':'','sheet':'','encoding':'','source_url':SOURCE_URL}
+            profile={'archive_bytes':len(body),'extractor':extractor,'file_name':path.name,'suffix':suffix,'file_bytes':path.stat().st_size,'rows':'','columns':'','sheet':'','encoding':'','source_url':SOURCE_URL}
             header=[]
             if suffix in {'.xlsx','.xlsm'}:
                 wb=openpyxl.load_workbook(path,read_only=True,data_only=True)
