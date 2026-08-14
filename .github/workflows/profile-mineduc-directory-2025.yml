@@ -1,0 +1,39 @@
+name: Profile Mineduc establishment directory 2025
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/profile_mineduc_directory_2025.py'
+      - '.github/workflows/profile-mineduc-directory-2025.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  profile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install system extractor
+        run: sudo apt-get update -qq && sudo apt-get install -y p7zip-full
+      - name: Install Python dependencies
+        run: pip install requests openpyxl
+      - name: Profile official directory archive
+        run: python scripts/profile_mineduc_directory_2025.py
+      - name: Commit profile
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/education_connectivity_2026/mineduc_directory_2025_*.csv
+          if git diff --cached --quiet; then
+            echo 'No directory profile changes'
+          else
+            git commit -m 'Profile official Mineduc establishment directory 2025'
+            git pull --rebase origin main
+            git push
+          fi
