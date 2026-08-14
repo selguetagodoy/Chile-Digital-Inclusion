@@ -1,0 +1,4 @@
+reference_year,survey_wave,household_weight,wtp_variables,barrier_variables,wtp_rows_published,barrier_rows_published,source_url,sav_file
+2023,X,FE_HOGAR,Q42,P13_7 | P13_8 | P13_12,1,3,https://www.subtel.gob.cl/wp-content/uploads/2024/05/BBDD_Acceso_y_uso_Internet_v4.sav,source_2023_X.sav
+2024,XI,POND_HOGAR_FE,Q42 | Q42_1,P13_7 | P13_8 | P13_12,2,3,https://www.subtel.gob.cl/wp-content/uploads/2025/02/BBDD_Subtel2024_03022025.sav_.zip,BBDD_Subtel2024_03022025.sav
+2025,XII,FE_HOGAR,Q42 | Q42_1,P13_7 | P13_8 | P13_12,2,3,https://www.subtel.gob.cl/wp-content/uploads/2026/02/BBDDSubtel2025_031225.sav_.zip,BBDDSubtel2025_031225.sav
