@@ -26,7 +26,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/subtel_sector_series/fixed_connections_monthly.csv data/subtel_sector_series/fixed_technology_monthly.csv data/subtel_sector_series/mobile_connections_by_technology_monthly.csv data/subtel_sector_series/mobile_data_traffic_monthly.csv data/subtel_sector_series/fixed_data_traffic_monthly.csv data/subtel_sector_series/sector_core_monthly_long.csv data/subtel_sector_series/sector_core_december_long_2000_2025.csv data/subtel_sector_series/series_qa.csv
+          git add data/subtel_sector_series/fixed_connections_monthly.csv data/subtel_sector_series/fixed_technology_snapshot_2026_03.csv data/subtel_sector_series/mobile_connections_by_technology_monthly.csv data/subtel_sector_series/mobile_data_traffic_monthly.csv data/subtel_sector_series/fixed_data_traffic_monthly.csv data/subtel_sector_series/sector_core_monthly_long.csv data/subtel_sector_series/sector_core_december_long_2000_2025.csv data/subtel_sector_series/series_qa.csv
           if git diff --cached --quiet; then
             echo 'No normalized sector-series changes'
           else
