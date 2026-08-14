@@ -5,12 +5,16 @@ file:data/mobile_coverage_2025/commune_mobile_network_points_2025_03.csv,PASS,re
 file:data/mobile_coverage_2025/spatial_assignment_coverage.csv,PASS,required public file exists
 file:data/subtel_sector_2026/sector_snapshot_2026q1.csv,PASS,required public file exists
 file:data/ookla/chile_2026q1_summary.csv,PASS,required public file exists
+file:data/education_connectivity_2026/aulas_conectadas_2025_establishments.csv,PASS,required public file exists
+file:data/education_connectivity_2026/aulas_conectadas_2025_establishments_enriched.csv,PASS,required public file exists
+file:data/education_connectivity_2026/aulas_conectadas_2025_commune_summary.csv,PASS,required public file exists
+file:data/education_connectivity_2026/aulas_conectadas_2025_crosswalk_qa.csv,PASS,required public file exists
 file:index.html,PASS,required public file exists
 file:assets/dashboard.js,PASS,required public file exists
 file:assets/dashboard.css,PASS,required public file exists
 master_rows,PASS,346 commune rows
 master_unique_communes,PASS,346 unique commune codes
-master_columns,PASS,77 variables
+master_columns,PASS,82 variables
 master_required_fields,PASS,missing=[]
 mobile_rows,PASS,346 commune rows
 mobile_unique_communes,PASS,346 unique commune codes expected
@@ -19,8 +23,18 @@ geo_features,PASS,345 BCN commune polygons
 geo_codes_in_master,PASS,345 geometry codes found in master
 sector_required_indicators,PASS,missing=[]
 ookla_networks,PASS,"networks=['fixed', 'mobile']"
+education_program_records,PASS,793 program records
+education_unique_rbd,PASS,793 unique RBD
+education_selected,PASS,700 selected establishments
+education_waitlist,PASS,93 waitlist establishments
+education_commune_rows,PASS,346 commune rows
+education_selected_sum_communes,PASS,700 selected summed across communes
+education_waitlist_sum_communes,PASS,93 waitlist summed across communes
+education_rbd_match_pct,PASS,match_pct=100.0
+education_rbd_unmatched,PASS,unmatched=0
 dashboard_dom_contract,PASS,missing_ids=[]
 dashboard_reference:chile_digital_inclusion_communes_2026_integrated.csv,PASS,dashboard references expected data/field
 dashboard_reference:chile_communes.geojson,PASS,dashboard references expected data/field
 dashboard_reference:sector_snapshot_2026q1.csv,PASS,dashboard references expected data/field
 dashboard_reference:mobile_5g_operators_present_2025m03,PASS,dashboard references expected data/field
+dashboard_reference:mineduc_aulas_selected_establishments_2025,PASS,dashboard references expected data/field
