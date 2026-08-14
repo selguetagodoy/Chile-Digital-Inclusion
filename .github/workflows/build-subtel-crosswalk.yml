@@ -11,6 +11,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: main-writers
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -30,5 +34,6 @@ jobs:
             echo 'No changes to commit'
           else
             git commit -m 'Build SUBTEL harmonization crosswalk candidates'
+            git pull --rebase origin main
             git push
           fi
