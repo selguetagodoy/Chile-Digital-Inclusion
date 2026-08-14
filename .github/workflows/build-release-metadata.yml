@@ -6,6 +6,8 @@ on:
     paths:
       - 'scripts/build_release_metadata.py'
       - 'data/**'
+      - '!data/metadata/layer_catalog.csv'
+      - '!data/metadata/release_manifest.csv'
       - 'geo/**'
       - 'docs/**'
       - 'scripts/**'
