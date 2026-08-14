@@ -19,8 +19,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install system extractor
-        run: sudo apt-get update -qq && sudo apt-get install -y p7zip-full
+      - name: Install system extractors
+        run: sudo apt-get update -qq && sudo apt-get install -y unar p7zip-full
       - name: Install Python dependencies
         run: pip install requests openpyxl
       - name: Profile official directory archive
