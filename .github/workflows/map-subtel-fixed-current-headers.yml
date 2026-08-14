@@ -1,0 +1,35 @@
+name: Map current SUBTEL fixed technology headers
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/map_subtel_fixed_current_headers.py'
+      - '.github/workflows/map-subtel-fixed-current-headers.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  map:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests openpyxl
+      - run: python scripts/map_subtel_fixed_current_headers.py
+      - name: Commit header map
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/subtel_sector_series/current_fixed_technology_header_map.csv data/subtel_sector_series/current_fixed_technology_march2026_totals.csv
+          if git diff --cached --quiet; then
+            echo 'No header-map changes'
+          else
+            git commit -m 'Map current SUBTEL fixed technology header blocks'
+            git pull --rebase origin main
+            git push
+          fi
