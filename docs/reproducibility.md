@@ -77,6 +77,22 @@ Los datos derivados de Ookla conservan los términos CC BY-NC-SA 4.0 de la fuent
 
 Los SAV originales no se almacenan en el repositorio.
 
+### Series administrativas SUBTEL de conexiones y tráfico
+
+`build-subtel-sector-series-2026.yml` descarga los cuatro XLSX oficiales publicados hasta marzo de 2026 y genera la serie canónica en formato largo.
+
+El pipeline mantiene separados:
+
+- conexiones fijas totales;
+- tecnologías móviles 2G/3G/4G/5G;
+- tráfico móvil;
+- tráfico fijo;
+- snapshot tecnológico fijo de marzo de 2026 con etiquetas explícitas.
+
+La hoja histórica nacional de tecnología fija no se trata como una taxonomía homogénea cuando sus columnas cambian. La composición fija actual se toma de `7.7.1.CO_TEC_RG_EMP_FIJAS`, cuyos totales etiquetados reconcilian con las 4.859.679 conexiones fijas de marzo de 2026.
+
+Las discrepancias entre publicaciones oficiales —como los 10.356.448 accesos 5G del XLSX mensual de marzo frente a 10.367.754 en el snapshot sectorial Q1— se conservan con procedencia separada y quedan visibles en `series_qa.csv`.
+
 ### Redes móviles SUBTEL 4G/5G
 
 `catalog-subtel-mobile-coverage.yml` identifica los ocho servicios públicos de Claro, Entel, Movistar y WOM.
@@ -129,15 +145,16 @@ Para una reconstrucción completa desde fuentes externas, usar este orden lógic
 1. cartografía y códigos comunales;
 2. Censo/CASEN y capas base ya publicadas;
 3. encuestas SUBTEL y productos longitudinales;
-4. Ookla nacional y territorial;
-5. 4G/5G SUBTEL;
-6. RedAcceso SUBTEL;
-7. Mineduc Aulas Conectadas y Directorio RBD;
-8. integraciones al maestro;
-9. diccionario;
-10. dashboard;
-11. `validate-public-release.yml`;
-12. release metadata.
+4. series administrativas SUBTEL de conexiones y tráfico;
+5. Ookla nacional y territorial;
+6. 4G/5G SUBTEL;
+7. RedAcceso SUBTEL;
+8. Mineduc Aulas Conectadas y Directorio RBD;
+9. integraciones al maestro;
+10. diccionario;
+11. dashboard;
+12. `validate-public-release.yml`;
+13. release metadata.
 
 Los workflows están diseñados para poder ejecutarse por capa. No es necesario reconstruir todo el repositorio para actualizar una sola fuente.
 

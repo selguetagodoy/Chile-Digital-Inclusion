@@ -154,6 +154,18 @@ data/subtel_2011_person/     recuperación agregada del archivo de personas 2011
 
 El catálogo de bases procesadas está en `data/subtel_microdata/processed_base_catalog.csv` y la metodología completa en `docs/subtel_microdata_pipeline.md`.
 
+### Serie administrativa SUBTEL — 2000/2009–marzo 2026
+
+`data/subtel_sector_series/` normaliza los cuatro XLSX oficiales de SUBTEL publicados hasta marzo de 2026: conexiones fijas, conexiones móviles por tecnología, tráfico móvil y tráfico fijo.
+
+La tabla canónica `sector_core_monthly_long.csv` mantiene cada serie en su rango efectivo. El XLSX fijo contiene observaciones desde diciembre de 2000; la tecnología móvil parte en diciembre de 2009; el tráfico móvil en junio de 2017 y el tráfico fijo en enero de 2019. No se interpolan períodos anteriores.
+
+Para tecnología fija no se fuerza una falsa serie histórica: la hoja nacional cambia de taxonomía en el tiempo. El corte actual de marzo de 2026 usa las columnas explícitamente etiquetadas de la hoja vigente y registra **4.147.629 conexiones FTTX/fibra**, equivalentes a **85,35%** de 4.859.679 conexiones fijas.
+
+El XLSX mensual registra **10.356.448 conexiones 5G en marzo de 2026**, mientras el snapshot sectorial Q1 conservado en otra capa oficial informa 10.367.754. La diferencia de 11.306 conexiones se mantiene documentada por procedencia y no se corrige artificialmente.
+
+La metodología, rangos y controles están en `docs/subtel_sector_longitudinal.md`.
+
 ### OTI — velocidad fija regional, enero 2026
 
 `data/oti_2026/regional_fixed_speed_2026_01.csv` incorpora la publicación oficial SUBTEL/OTI para las **16 regiones**, basada en **752.626 mediciones** de Internet fijo realizadas durante enero de 2026.
@@ -209,6 +221,7 @@ Chile-Digital-Inclusion/
 │   ├── education_connectivity_2026/
 │   ├── oti_2026/
 │   ├── subtel_sector_2026/
+│   ├── subtel_sector_series/
 │   ├── subtel_longitudinal/
 │   ├── subtel_segments/
 │   ├── subtel_microdata/
@@ -228,7 +241,7 @@ Chile-Digital-Inclusion/
 
 El repositorio mantiene un contrato de publicación legible por máquinas:
 
-- `data/metadata/layer_catalog.csv` documenta **19 capas**, de las cuales **18 son canónicas** y una corresponde a auditoría geométrica RedAcceso.
+- `data/metadata/layer_catalog.csv` documenta **20 capas**, de las cuales **19 son canónicas** y una corresponde a auditoría geométrica RedAcceso.
 - `data/metadata/release_manifest.csv` inventaría los archivos públicos con tamaño, dimensiones CSV cuando corresponde y checksum SHA-256.
 - `data/metadata/public_release_validation.csv` registra los controles estructurales de la última validación automática.
 - `docs/reproducibility.md` describe el DAG de reconstrucción, dependencias, universos estadísticos y orden recomendado de actualización.
