@@ -1,0 +1,7 @@
+metric,value,note
+pdf_bytes,250798,Downloaded public REX 497 document
+pages,6,PDF pages
+pages_with_tables,0,Pages where pdfplumber detected at least one table
+tables,0,Detected tables
+rbd_candidates_all,0,Conservative numeric candidates; audit before treating as establishments
+rbd_candidates_in_rbd_header_tables,0,Candidates from tables whose first rows explicitly mention RBD
