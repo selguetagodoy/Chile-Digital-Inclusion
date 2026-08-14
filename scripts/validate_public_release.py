@@ -14,6 +14,9 @@ MOBILE = ROOT / 'data/mobile_coverage_2025/commune_mobile_network_points_2025_03
 MOBILE_QA = ROOT / 'data/mobile_coverage_2025/spatial_assignment_coverage.csv'
 FIXED = ROOT / 'data/fixed_access_infrastructure/commune_fixed_access_presence.csv'
 FIXED_QA = ROOT / 'data/fixed_access_infrastructure/presence_query_qa.csv'
+FIXED_SUB = ROOT / 'data/fixed_infrastructure_2026/commune_fixed_connections_2026_03.csv'
+FIXED_SUB_QA = ROOT / 'data/fixed_infrastructure_2026/source_match_qa.csv'
+FIXED_SUB_MISSING = ROOT / 'data/fixed_infrastructure_2026/source_not_reported_communes.csv'
 SECTOR = ROOT / 'data/subtel_sector_2026/sector_snapshot_2026q1.csv'
 OOKLA = ROOT / 'data/ookla/chile_2026q1_summary.csv'
 EDU_EST = ROOT / 'data/education_connectivity_2026/aulas_conectadas_2025_establishments.csv'
@@ -38,6 +41,11 @@ REQUIRED_MASTER = {
     'mineduc_aulas_selected_with_coordinates_2025',
     'fixed_access_public_layers_present',
     'fixed_access_public_operators_present',
+    'subtel_fixed_connections_total_2026m03',
+    'subtel_fixed_connections_residential_2026m03',
+    'subtel_fixed_residential_share_pct_2026m03',
+    'subtel_fixed_residential_per_100_censo_households_2026m03',
+    'subtel_fixed_source_status_2026m03',
 }
 REQUIRED_SECTOR = {
     'accesses_5g', 'fiber_share_fixed_connections',
@@ -66,7 +74,7 @@ def qa_value(rows, metric):
 
 def main() -> None:
     results = []
-    required_files = [MASTER, GEO, MOBILE, MOBILE_QA, FIXED, FIXED_QA, SECTOR, OOKLA, EDU_EST, EDU_ENRICHED, EDU_COMMUNES, EDU_QA, INDEX, JS, CSS]
+    required_files = [MASTER, GEO, MOBILE, MOBILE_QA, FIXED, FIXED_QA, FIXED_SUB, FIXED_SUB_QA, FIXED_SUB_MISSING, SECTOR, OOKLA, EDU_EST, EDU_ENRICHED, EDU_COMMUNES, EDU_QA, INDEX, JS, CSS]
     for path in required_files:
         results.append(check(f'file:{path}', path.exists(), 'required public file exists'))
 
@@ -75,7 +83,7 @@ def main() -> None:
     master_codes = [int(r['comuna']) for r in master]
     results.append(check('master_rows', len(master) == 346, f'{len(master)} commune rows'))
     results.append(check('master_unique_communes', len(set(master_codes)) == 346, f'{len(set(master_codes))} unique commune codes'))
-    results.append(check('master_columns', len(master_fields) == 84, f'{len(master_fields)} variables'))
+    results.append(check('master_columns', len(master_fields) == 89, f'{len(master_fields)} variables'))
     missing_master = sorted(REQUIRED_MASTER - master_fields)
     results.append(check('master_required_fields', not missing_master, f'missing={missing_master}'))
 
@@ -102,6 +110,15 @@ def main() -> None:
     fixed_bad = [r for r in fixed_qa if r['status'] not in {'ok', 'no_commune_geometry'}]
     results.append(check('fixed_presence_queries', len(fixed_qa) == 2076, f'{len(fixed_qa)} commune × layer queries'))
     results.append(check('fixed_presence_query_failures', not fixed_bad, f'failed={len(fixed_bad)}'))
+
+    fixed_sub = read_csv(FIXED_SUB)
+    fixed_sub_reported = sum(r['source_status'] == 'reported' for r in fixed_sub)
+    fixed_sub_unmatched = read_csv(FIXED_SUB_QA)
+    fixed_sub_missing = read_csv(FIXED_SUB_MISSING)
+    results.append(check('fixed_subscription_rows', len(fixed_sub) == 346, f'{len(fixed_sub)} commune rows'))
+    results.append(check('fixed_subscription_reported', fixed_sub_reported == 342, f'{fixed_sub_reported} communes reported by source'))
+    results.append(check('fixed_subscription_unmatched_source', len(fixed_sub_unmatched) == 0, f'{len(fixed_sub_unmatched)} unresolved source rows'))
+    results.append(check('fixed_subscription_source_not_reported', len(fixed_sub_missing) == 4, f'{len(fixed_sub_missing)} catalogue communes not reported by source'))
 
     with GEO.open(encoding='utf-8') as fh:
         geo = json.load(fh)
@@ -153,6 +170,7 @@ def main() -> None:
         'mobile_5g_operators_present_2025m03',
         'mineduc_aulas_selected_establishments_2025',
         'fixed_access_public_operators_present',
+        'subtel_fixed_residential_per_100_censo_households_2026m03',
     ]:
         results.append(check(f'dashboard_reference:{ref}', ref in js, 'dashboard references expected data/field'))
 
