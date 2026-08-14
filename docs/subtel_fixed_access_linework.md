@@ -1,6 +1,6 @@
 # Infraestructura fija pública — SUBTEL RedAcceso
 
-Esta capa utiliza servicios ArcGIS públicos del servidor Licancabur de SUBTEL para describir **trazados regulatorios publicados de redes de acceso fijo**. No se interpreta automáticamente como cobertura comercial, FTTH disponible para cada hogar ni porcentaje de población cubierta.
+Esta capa utiliza servicios ArcGIS públicos del servidor Licancabur de SUBTEL para describir **presencia de trazados regulatorios publicados de redes de acceso fijo**. No se interpreta automáticamente como cobertura comercial, FTTH disponible para cada hogar ni porcentaje de población cubierta.
 
 ## Descubrimiento de fuentes
 
@@ -31,48 +31,46 @@ Por eso:
 - el nombre `HFC` se conserva únicamente donde aparece explícitamente en el servicio;
 - una capa genérica `RedAcceso` no se reclasifica como fibra por inferencia;
 - la presencia de un trazado en una comuna no prueba que todos los hogares puedan contratar un servicio;
-- la suma de kilómetros entre capas puede contener superposición física entre trazados o funciones de red.
+- los registros de distintas capas pueden representar trazados superpuestos o funciones de red diferentes.
 
-## Agregación comunal
+## Capa canónica de presencia comunal
 
-`scripts/build_subtel_fixed_access_communes.py` descarga los registros lineales de las capas públicas consultables y los cruza con `geo/chile_communes.geojson`.
+`scripts/build_subtel_fixed_access_presence.py` consulta los seis servicios públicos accesibles usando cada polígono comunal como filtro espacial ArcGIS.
 
-El procedimiento:
+Se ejecutan **2.076 consultas espaciales** —346 comunas × 6 capas—. El último QA registra:
 
-1. normaliza cada geometría lineal a WGS84;
-2. repara geometrías inválidas cuando es posible;
-3. conserva exclusivamente componentes poligonales para límites comunales y componentes lineales para redes;
-4. busca candidatos mediante un índice espacial STRtree;
-5. intersecta el tramo con cada polígono comunal;
-6. corta los trazados que atraviesan más de una comuna;
-7. calcula longitud geodésica del fragmento dentro de cada comuna;
-8. registra fallos topológicos residuales en QA en vez de asignar geometrías dudosas.
+- 2.076 consultas procesadas;
+- cero fallas de consulta;
+- 307 comunas con al menos una capa RedAcceso pública observable;
+- hasta cuatro operadores/entidades con trazados públicos en una misma comuna.
 
-Esto evita asignar un tramo completo a una sola comuna solo porque su centroide o primer vértice cae allí.
+Antártica permanece en la tabla administrativa de 346 comunas, pero no tiene geometría en la capa BCN usada por el proyecto y por eso sus consultas quedan registradas como `no_commune_geometry`.
 
-## Productos
+Productos canónicos:
 
-- `service_discovery.csv` — inventario dinámico de servicios RedAcceso encontrados.
-- `service_catalog.csv` — capas procesables, geometría, estado y conteo de registros.
-- `field_catalog.csv` — diccionario técnico de campos expuestos por los servicios.
-- `attribute_profile.csv` — perfil de atributos seleccionados para auditoría.
-- `commune_operator_linework.csv` — agregación comuna × capa/entidad.
-- `commune_fixed_access_linework.csv` — tabla ancha de 346 comunas.
-- `spatial_assignment_coverage.csv` — QA de segmentos y longitud asignada por capa.
+- `commune_fixed_access_presence.csv` — 346 comunas con conteos por capa y resúmenes de presencia;
+- `presence_query_qa.csv` — una fila por comuna × capa con estado de la consulta.
+
+Los conteos de registros que intersectan una comuna se conservan para auditoría. No se integran como una métrica de “cantidad de red” porque un mismo tramo puede cruzar límites comunales o existir en capas superpuestas.
+
+## Agregación geométrica detallada
+
+`scripts/build_subtel_fixed_access_communes.py` implementa una segunda capa, más costosa, que descarga las geometrías y corta cada tramo por límites comunales. El procedimiento normaliza y repara geometrías, utiliza STRtree para búsqueda espacial, intersecta líneas con polígonos y calcula longitud geodésica del fragmento dentro de cada comuna.
+
+Esta salida se trata como **producto técnico complementario** y no es requisito del maestro público. Su objetivo es auditar densidad y trazado, no producir una tasa de cobertura.
 
 ## Campos que entran al maestro comunal
 
-El maestro público incorpora únicamente tres resúmenes robustos:
+El maestro público incorpora únicamente dos resúmenes de presencia:
 
-- `fixed_access_public_linework_length_km` — suma de longitud de trazados públicos procesados dentro de la comuna; puede incluir superposición entre capas.
-- `fixed_access_public_layers_present` — número de capas RedAcceso públicas con al menos un tramo en la comuna.
-- `fixed_access_public_operators_present` — número de entidades/operadores con al menos un trazado público en la comuna.
+- `fixed_access_public_layers_present` — número de capas RedAcceso públicas con al menos un registro que intersecta la comuna;
+- `fixed_access_public_operators_present` — número de entidades/operadores con al menos un trazado público que intersecta la comuna.
 
-El detalle por servicio queda fuera del maestro para evitar convertir una base analítica en una matriz técnica excesivamente ancha.
+El detalle por servicio queda en `data/fixed_access_infrastructure/` para evitar convertir el maestro analítico en una matriz técnica excesivamente ancha.
 
 ## Interpretación
 
-Esta capa sirve para observar **presencia y densidad de trazado regulatorio publicado**. Complementa Censo, CASEN, encuestas SUBTEL y Ookla, pero no sustituye:
+Esta capa sirve para observar **presencia de infraestructura regulatoria publicada**. Complementa Censo, CASEN, encuestas SUBTEL y Ookla, pero no sustituye:
 
 - cobertura comercial declarada por operador;
 - hogares pasados por fibra;
