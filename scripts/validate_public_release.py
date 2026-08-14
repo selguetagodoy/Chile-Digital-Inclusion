@@ -14,6 +14,10 @@ MOBILE = ROOT / 'data/mobile_coverage_2025/commune_mobile_network_points_2025_03
 MOBILE_QA = ROOT / 'data/mobile_coverage_2025/spatial_assignment_coverage.csv'
 SECTOR = ROOT / 'data/subtel_sector_2026/sector_snapshot_2026q1.csv'
 OOKLA = ROOT / 'data/ookla/chile_2026q1_summary.csv'
+EDU_EST = ROOT / 'data/education_connectivity_2026/aulas_conectadas_2025_establishments.csv'
+EDU_ENRICHED = ROOT / 'data/education_connectivity_2026/aulas_conectadas_2025_establishments_enriched.csv'
+EDU_COMMUNES = ROOT / 'data/education_connectivity_2026/aulas_conectadas_2025_commune_summary.csv'
+EDU_QA = ROOT / 'data/education_connectivity_2026/aulas_conectadas_2025_crosswalk_qa.csv'
 INDEX = ROOT / 'index.html'
 JS = ROOT / 'assets/dashboard.js'
 CSS = ROOT / 'assets/dashboard.css'
@@ -25,6 +29,11 @@ REQUIRED_MASTER = {
     'mobile_4g_point_records_2025m03', 'mobile_4g_operators_present_2025m03',
     'mobile_5g_point_records_2025m03', 'mobile_5g_operators_present_2025m03',
     'ookla_fixed_download_mbps_2026q1', 'ookla_mobile_download_mbps_2026q1',
+    'mineduc_aulas_selected_establishments_2025',
+    'mineduc_aulas_waitlist_establishments_2025',
+    'mineduc_aulas_selected_rural_establishments_2025',
+    'mineduc_aulas_selected_enrollment_2025',
+    'mineduc_aulas_selected_with_coordinates_2025',
 }
 REQUIRED_SECTOR = {
     'accesses_5g', 'fiber_share_fixed_connections',
@@ -46,9 +55,14 @@ def check(name: str, condition: bool, detail: str) -> dict:
     return {'check': name, 'status': 'PASS' if condition else 'FAIL', 'detail': detail}
 
 
+def qa_value(rows, metric):
+    row = next((r for r in rows if r.get('metric') == metric), None)
+    return row.get('value') if row else None
+
+
 def main() -> None:
     results = []
-    required_files = [MASTER, GEO, MOBILE, MOBILE_QA, SECTOR, OOKLA, INDEX, JS, CSS]
+    required_files = [MASTER, GEO, MOBILE, MOBILE_QA, SECTOR, OOKLA, EDU_EST, EDU_ENRICHED, EDU_COMMUNES, EDU_QA, INDEX, JS, CSS]
     for path in required_files:
         results.append(check(f'file:{path}', path.exists(), 'required public file exists'))
 
@@ -57,7 +71,7 @@ def main() -> None:
     master_codes = [int(r['comuna']) for r in master]
     results.append(check('master_rows', len(master) == 346, f'{len(master)} commune rows'))
     results.append(check('master_unique_communes', len(set(master_codes)) == 346, f'{len(set(master_codes))} unique commune codes'))
-    results.append(check('master_columns', len(master_fields) == 77, f'{len(master_fields)} variables'))
+    results.append(check('master_columns', len(master_fields) == 82, f'{len(master_fields)} variables'))
     missing_master = sorted(REQUIRED_MASTER - master_fields)
     results.append(check('master_required_fields', not missing_master, f'missing={missing_master}'))
 
@@ -87,6 +101,28 @@ def main() -> None:
     networks = {r['network'] for r in ookla}
     results.append(check('ookla_networks', networks == {'fixed', 'mobile'}, f'networks={sorted(networks)}'))
 
+    edu = read_csv(EDU_EST)
+    edu_rbd = [r['rbd'] for r in edu]
+    selected = sum(r['selection_group'] == 'selected' for r in edu)
+    waitlist = sum(r['selection_group'] == 'waitlist' for r in edu)
+    results.append(check('education_program_records', len(edu) == 793, f'{len(edu)} program records'))
+    results.append(check('education_unique_rbd', len(set(edu_rbd)) == 793, f'{len(set(edu_rbd))} unique RBD'))
+    results.append(check('education_selected', selected == 700, f'{selected} selected establishments'))
+    results.append(check('education_waitlist', waitlist == 93, f'{waitlist} waitlist establishments'))
+
+    edu_communes = read_csv(EDU_COMMUNES)
+    results.append(check('education_commune_rows', len(edu_communes) == 346, f'{len(edu_communes)} commune rows'))
+    selected_communal = sum(int(r['mineduc_aulas_selected_establishments_2025']) for r in edu_communes)
+    waitlist_communal = sum(int(r['mineduc_aulas_waitlist_establishments_2025']) for r in edu_communes)
+    results.append(check('education_selected_sum_communes', selected_communal == 700, f'{selected_communal} selected summed across communes'))
+    results.append(check('education_waitlist_sum_communes', waitlist_communal == 93, f'{waitlist_communal} waitlist summed across communes'))
+
+    edu_qa = read_csv(EDU_QA)
+    match_pct = qa_value(edu_qa, 'program_rbd_match_pct')
+    unmatched = qa_value(edu_qa, 'program_rbd_unmatched')
+    results.append(check('education_rbd_match_pct', float(match_pct or 0) == 100.0, f'match_pct={match_pct}'))
+    results.append(check('education_rbd_unmatched', int(float(unmatched or -1)) == 0, f'unmatched={unmatched}'))
+
     html = INDEX.read_text(encoding='utf-8')
     missing_ids = sorted(dom_id for dom_id in REQUIRED_DOM_IDS if f'id="{dom_id}"' not in html)
     results.append(check('dashboard_dom_contract', not missing_ids, f'missing_ids={missing_ids}'))
@@ -97,6 +133,7 @@ def main() -> None:
         'chile_communes.geojson',
         'sector_snapshot_2026q1.csv',
         'mobile_5g_operators_present_2025m03',
+        'mineduc_aulas_selected_establishments_2025',
     ]:
         results.append(check(f'dashboard_reference:{ref}', ref in js, 'dashboard references expected data/field'))
 
