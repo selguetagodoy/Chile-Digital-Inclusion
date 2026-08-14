@@ -1,0 +1,39 @@
+name: Synchronize README affordability
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/patch-readme-affordability.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Patch README
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('README.md')
+          text = p.read_text(encoding='utf-8')
+          anchor = '### SUBTEL — procesamiento de bases oficiales\n'
+          section = '''### Asequibilidad digital — SUBTEL 2023–2025\n\n`data/affordability/` agrega una capa de asequibilidad desde las propias encuestas SUBTEL. El repositorio distingue esta evidencia de los precios comerciales.\n\n`subtel_willingness_to_pay_2023_2025.csv` resume disposición máxima a pagar por conexión a Internet. En 2024 y 2025 separa fija y móvil; 2023 se mantiene como conexión no especificada porque la formulación no hace la misma distinción. Se publican media, mediana y percentiles ponderados.\n\n`subtel_cost_barriers_2023_2025.csv` mide costo del equipo, costo elevado del servicio fijo y percepción de que la fija es más cara que la móvil dentro del universo que responde el bloque de no contratación de banda ancha fija. El enrutamiento de ese bloque varía entre olas, por lo que no se fuerza una tendencia longitudinal.\n\nNo se construye un índice de asequibilidad ni se divide por ingreso sin una definición longitudinal homogénea. La capa representa disposición declarada a pagar y barreras de costo, no tarifa contratada ni gasto real del hogar.\n\n'''
+          if '### Asequibilidad digital — SUBTEL 2023–2025' not in text:
+              text = text.replace(anchor, section + anchor)
+          text = text.replace('│   ├── censo_2024/\n', '│   ├── affordability/\n│   ├── censo_2024/\n')
+          text = text.replace('- acceso SUBTEL segmentado\n', '- acceso SUBTEL segmentado\n- asequibilidad SUBTEL desde disposición a pagar y barreras de costo\n')
+          p.write_text(text, encoding='utf-8')
+          PY
+      - name: Commit README and remove one-time workflow
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git rm .github/workflows/patch-readme-affordability.yml
+          git commit -m 'Document SUBTEL affordability layer'
+          git pull --rebase origin main
+          git push
