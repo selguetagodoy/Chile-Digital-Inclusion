@@ -1,0 +1,16 @@
+operator,profile_type,field,value,n_records,count,min,max,avg,sum,source_url
+Claro,category,nomb_red,RED ACCESO,76217,,,,,,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Claro_RedAcceso/FeatureServer/0
+Claro,category,tipo_tendi,Aereo,57258,,,,,,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Claro_RedAcceso/FeatureServer/0
+Claro,category,tipo_tendi,Mixto,8880,,,,,,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Claro_RedAcceso/FeatureServer/0
+Claro,category,tipo_tendi,En interior,5088,,,,,,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Claro_RedAcceso/FeatureServer/0
+Claro,category,tipo_tendi,Canalizado,3775,,,,,,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Claro_RedAcceso/FeatureServer/0
+Claro,category,tipo_tendi,Desconocida,1200,,,,,,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Claro_RedAcceso/FeatureServer/0
+Claro,category,tipo_tendi,En azotea,16,,,,,,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Claro_RedAcceso/FeatureServer/0
+Entel,category,tipo_red,Red Primaria,9334,,,,,,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_primarias/FeatureServer/0
+Entel,category,tipo_red,Red Uso Restringido,292,,,,,,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_primarias/FeatureServer/0
+Entel,category,fijacion,Aéreo,5992,,,,,,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_primarias/FeatureServer/0
+Entel,category,fijacion,Subterráneo,3346,,,,,,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_primarias/FeatureServer/0
+Entel,category,fijacion, ,207,,,,,,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_primarias/FeatureServer/0
+Entel,category,fijacion,Interior,81,,,,,,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_primarias/FeatureServer/0
+Claro,numeric_summary,capacidad,,,76217,0.0,192.0,27.306,2081199.0,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Claro_RedAcceso/FeatureServer/0
+Entel,numeric_summary,fiber_coun,,,9626,2,720,33.558,323030,https://licancabur.subtel.gob.cl/server/rest/services/Of468_Entel_RedAcceso_primarias/FeatureServer/0
