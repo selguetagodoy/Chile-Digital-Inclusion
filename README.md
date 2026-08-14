@@ -2,17 +2,35 @@
 
 Repositorio abierto para analizar inclusión, exclusión y desigualdad digital en Chile a partir de Censo 2024, CASEN 2024, Encuestas de Acceso y Usos de Internet de SUBTEL y calidad observada de red.
 
-El proyecto no trata acceso a Internet como sinónimo de inclusión digital. Mantiene separadas la desconexión dura, el tipo de conexión, el equipamiento, las habilidades, los usos funcionales, las desigualdades sociales y el desempeño de las redes.
+El proyecto no trata acceso a Internet como sinónimo de inclusión digital. Mantiene separadas la desconexión dura, el tipo de conexión, el equipamiento, las habilidades, los usos funcionales, las desigualdades sociales, la dimensión territorial y el desempeño de las redes.
 
 ## Cobertura actual
 
-La versión pública combina cuatro capas complementarias.
+La versión pública combina evidencia censal, encuestas sociales y de telecomunicaciones, desempeño observado de red y una nueva capa territorial comunal reproducible.
 
-### Censo 2024 y Atlas público
+### Censo 2024 — 346 comunas
 
-La capa de hogares conserva el snapshot nacional, agregados regionales, casos territoriales y variables de equipamiento y dependencia móvil.
+`data/censo_2024/` incorpora una capa pública comunal con las **346 comunas de Chile**.
 
-En el snapshot nacional se mantienen 445.840 hogares sin Internet, una tasa de 6,8%, 64,2% con Internet fijo y 54,7% con computador. Los datos territoriales se publican como agregados y no incluyen registros individuales.
+`communes_connectivity_2024.csv` contiene 26 campos de identificación y conectividad por comuna: hogares totales, hogares sin Internet, dependencia móvil, teléfono móvil, computador, Internet fija, móvil y satelital, además de la composición urbano-rural.
+
+`communes_social_context_2024.csv` agrega variables descriptivas del hogar y la vivienda: hacinamiento, tipo de tenencia, monoparentalidad, hogares con niños, niñas y adolescentes, personas mayores, discapacidad, jefatura femenina y hogares multigeneracionales.
+
+La fuente es Censo 2024 y la capa pública integrada utilizada por el Atlas de la Desconexión Digital. `hogares_trampa_movil` es una proxy operacional del proyecto y no una categoría oficial del Censo.
+
+### Maestro comunal público
+
+`data/communal_master/chile_digital_inclusion_communes_2026.csv` concentra en **una fila por comuna** 38 campos públicos de conectividad, estructura territorial y contexto social.
+
+El código de comuna funciona como llave para unir esta tabla con cartografía y con futuras capas territoriales de Ookla, SUBTEL y otras fuentes compatibles.
+
+La versión pública excluye deliberadamente índices internos, scores, segmentaciones y ponderadores propietarios. El archivo es una base observable para mapas, rankings descriptivos y análisis reproducible; no es el Índice de Vulnerabilidad Digital.
+
+### Geografía
+
+`geo/commune_codes.csv` contiene el catálogo de las 346 comunas y su jerarquía región–provincia–comuna.
+
+`geo/chile_communes.geojson` contiene la cartografía comunal ligera en WGS84 generada desde la capa pública División Comunal de la Biblioteca del Congreso Nacional. El servicio utilizado entrega 345 polígonos. La comuna de Antártica (12202) permanece en el catálogo y en la base comunal, pero no tiene geometría en esa fuente. La diferencia está documentada en `geo/geometry_coverage.csv` y no se completa con una geometría inventada.
 
 ### CASEN Digital Master 2024
 
@@ -35,11 +53,7 @@ El acceso pagado del hogar aumenta desde 70,2% en 2015 hasta 96,6% en 2025. El a
 
 Los hogares compuestos solo por personas mayores pasan de 54,6% de acceso en 2017 a 83,2% en 2025. La serie de habilidades 2023–2025 muestra que la expansión del acceso no elimina las diferencias de autonomía digital.
 
-Los archivos curados están en:
-
-```text
-data/subtel_longitudinal/
-```
+Los archivos curados están en `data/subtel_longitudinal/`.
 
 ### SUBTEL — procesamiento de bases oficiales
 
@@ -67,16 +81,12 @@ data/subtel_2011_person/    recuperación del archivo de personas 2011
 
 El catálogo de bases procesadas está en `data/subtel_microdata/processed_base_catalog.csv` y la metodología completa en `docs/subtel_microdata_pipeline.md`.
 
-Entre los dominios detectados para armonización están acceso del hogar, Internet fijo y móvil, región, ruralidad, edad, sexo, ingresos/GSE, dispositivos, motivos de no acceso, habilidades, banca y pagos, Estado digital, educación, trabajo, seguridad, discapacidad y pueblos originarios.
-
-La clasificación automática sirve para localizar preguntas equivalentes; no convierte por sí sola dos preguntas en una serie comparable. La homologación final exige revisar concepto, universo y categorías en cada cuestionario.
-
 ### Calidad observada — Ookla Q1 2026
 
 El repositorio incorpora Q1 2026 de Chile desde los Parquet oficiales de Ookla Open Data. El pipeline filtra los tiles globales y calcula indicadores nacionales ponderados por número de tests.
 
 | Red | Q4 2025 descarga | Q1 2026 descarga | Δ trimestral | Q1 carga | Q1 latencia |
-|---|---:|---:|---:|---:|---:|
+|---|---:|---:|---:|---:|
 | Fija | 392,10 Mbps | 397,33 Mbps | +1,33% | 336,12 Mbps | 8,96 ms |
 | Móvil | 105,66 Mbps | 98,87 Mbps | -6,43% | 21,43 Mbps | 33,71 ms |
 
@@ -87,8 +97,9 @@ La capa conserva además los tiles de Chile para permitir futuras agregaciones r
 ```text
 Chile-Digital-Inclusion/
 ├── data/
+│   ├── censo_2024/
+│   ├── communal_master/
 │   ├── casen_*.csv
-│   ├── censo_*.csv
 │   ├── subtel_*.csv
 │   ├── subtel_longitudinal/
 │   ├── subtel_microdata/
@@ -96,26 +107,18 @@ Chile-Digital-Inclusion/
 │   ├── subtel_2008/
 │   ├── subtel_2011_person/
 │   └── ookla/
+├── geo/
+│   ├── commune_codes.csv
+│   ├── chile_communes.geojson
+│   └── geometry_coverage.csv
 ├── docs/
-│   ├── methodology.md
-│   ├── data_dictionary.md
-│   ├── subtel_longitudinal_methodology.md
-│   ├── subtel_microdata_pipeline.md
-│   └── ookla_open_data.md
 ├── scripts/
-│   ├── build_ookla_chile_quarter.py
-│   ├── profile_subtel_microdata.py
-│   ├── build_subtel_weighted_profiles.py
-│   ├── classify_subtel_variables.py
-│   ├── build_subtel_crosswalk.py
-│   ├── profile_subtel_2008.py
-│   └── profile_subtel_2011_person.py
 └── .github/workflows/
 ```
 
 ## Reproducibilidad
 
-Los workflows de GitHub Actions vuelven a descargar las fuentes públicas y reconstruyen los productos derivados. Para SUBTEL, los SAV/ZIP/RAR viven únicamente durante la ejecución del workflow. Para Ookla, los Parquet globales se descargan y se recortan a Chile.
+Los workflows de GitHub Actions vuelven a descargar las fuentes públicas y reconstruyen los productos derivados. Para SUBTEL, los SAV/ZIP/RAR viven únicamente durante la ejecución del workflow. Para Ookla, los Parquet globales se descargan y se recortan a Chile. La cartografía comunal se reconstruye desde el servicio público de la Biblioteca del Congreso mediante `scripts/build_commune_geo.py`.
 
 ## Cómo leer los datos
 
@@ -132,12 +135,13 @@ Ookla mide desempeño donde existieron tests. Complementa, pero no reemplaza, la
 - Instituto Nacional de Estadísticas — Censo de Población y Vivienda 2024
 - Ministerio de Desarrollo Social y Familia — CASEN 2024
 - Subsecretaría de Telecomunicaciones — Encuestas de Acceso y Usos de Internet y estadísticas sectoriales
+- Biblioteca del Congreso Nacional — cartografía comunal
 - Ookla Open Data — calidad observada de red
 - Atlas de la Desconexión Digital de Chile 2026 — capa integrada pública
 
 ## Frontera de publicación
 
-La versión pública contiene datos agregados y trazables. No incorpora registros personales, identificadores directos, respuestas abiertas, microdatos originales de encuesta ni el Índice de Vulnerabilidad Digital completo.
+La versión pública contiene datos agregados y trazables. No incorpora registros personales, identificadores directos, respuestas abiertas, microdatos originales de encuesta, índices internos ni el Índice de Vulnerabilidad Digital completo.
 
 Los datos derivados de Ookla en `data/ookla/` se mantienen bajo los términos de licencia de la fuente.
 
