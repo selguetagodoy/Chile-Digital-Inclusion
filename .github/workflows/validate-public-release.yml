@@ -25,8 +25,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: public-release-validation
-  cancel-in-progress: true
+  group: main-writers
+  cancel-in-progress: false
 
 jobs:
   validate:
