@@ -47,7 +47,7 @@ Examples:
 
 ## Reconciliation note
 
-Two earlier root-level convenience tables in the repository use a custom `60-74` label and slightly different percentages. They are not used as the canonical published-age source for the article. For claims described as published SUBTEL age-group results, use this longitudinal canonical table and the official page-82 values above.
+The root-level convenience tables `data/subtel_2025_digital_skills_basic.csv` and `data/subtel_2025_digital_skills_intermediate.csv` were reconciled to the same official page-82 age groups and values. The repository therefore now uses `60+` consistently for these published 2025 skill estimates.
 
 ## Remaining limits
 
