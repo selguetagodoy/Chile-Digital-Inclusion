@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Chile Digital Inclusion</title>
+  <meta name="description" content="Observatorio comunal de inclusión digital en Chile con Censo 2024, SUBTEL, CASEN y Ookla Open Data.">
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQ3ynxNVZB9cfE0q4Jm9MZQnMDJ7G3s=" crossorigin="">
+  <link rel="stylesheet" href="assets/dashboard.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">Chile Digital Inclusion</p>
+      <h1>Acceso, autonomía y calidad digital por comuna</h1>
+      <p>Una lectura territorial de la brecha digital que separa acceso, tipo de conexión, equipamiento, contexto social y desempeño observado de red. La unidad principal de esta vista son las 346 comunas de Chile.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="kpis" aria-label="Indicadores nacionales agregados">
+      <article class="card">
+        <div class="label">Hogares observados</div>
+        <div class="value" id="kpi-households">—</div>
+        <div class="note">Suma comunal del maestro público</div>
+      </article>
+      <article class="card">
+        <div class="label">Hogares sin Internet</div>
+        <div class="value" id="kpi-disconnected">—</div>
+        <div class="note">Volumen y tasa sobre hogares válidos</div>
+      </article>
+      <article class="card">
+        <div class="label">Internet fija</div>
+        <div class="value" id="kpi-fixed">—</div>
+        <div class="note">Hogares con acceso fijo / hogares totales</div>
+      </article>
+      <article class="card">
+        <div class="label">Computador</div>
+        <div class="value" id="kpi-computer">—</div>
+        <div class="note">Equipamiento disponible en el hogar</div>
+      </article>
+    </section>
+
+    <div class="toolbar">
+      <div class="toolbar-group">
+        <div>
+          <label for="indicator">Indicador del mapa</label>
+          <select id="indicator"></select>
+        </div>
+        <div>
+          <label for="commune-search">Buscar comuna</label>
+          <input id="commune-search" type="search" placeholder="Ej. Alto Biobío">
+        </div>
+      </div>
+      <div class="status" id="data-status">Cargando datos…</div>
+    </div>
+
+    <section class="workspace">
+      <article class="panel">
+        <div class="panel-header">
+          <h2>Mapa comunal</h2>
+          <p>Haz clic en una comuna para abrir su ficha. Antártica permanece en el maestro estadístico pero no tiene polígono en la capa cartográfica BCN utilizada.</p>
+        </div>
+        <div id="map" role="img" aria-label="Mapa interactivo de comunas de Chile"></div>
+      </article>
+
+      <article class="panel">
+        <div class="panel-header">
+          <h2 id="ranking-title">Ranking</h2>
+          <p id="ranking-subtitle">Indicador seleccionado</p>
+        </div>
+        <div class="ranking">
+          <table>
+            <thead>
+              <tr><th>#</th><th>Comuna</th><th style="text-align:right">Valor</th></tr>
+            </thead>
+            <tbody id="ranking-body"></tbody>
+          </table>
+        </div>
+      </article>
+    </section>
+
+    <section class="panel detail">
+      <h2 id="detail-title">Ficha comunal</h2>
+      <div class="detail-grid" id="detail-grid"></div>
+    </section>
+
+    <p class="footer-note">
+      Fuentes principales: Censo de Población y Vivienda 2024, CASEN 2024, Encuestas de Acceso y Usos de Internet de SUBTEL y Ookla Open Data. Los indicadores provienen de universos estadísticos distintos y no deben interpretarse como equivalentes. Ookla representa desempeño observado donde existieron tests. La dependencia móvil es una proxy operacional del proyecto, no una categoría oficial del Censo. El repositorio público no incluye el Índice de Vulnerabilidad Digital completo ni ponderadores propietarios.
+    </p>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="assets/dashboard.js"></script>
+</body>
+</html>
