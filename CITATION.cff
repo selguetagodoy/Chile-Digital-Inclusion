@@ -11,9 +11,10 @@ date-released: 2026-08-14
 abstract: >-
   Open analytical repository for digital inclusion in Chile integrating
   communal household connectivity and social context, SUBTEL survey and
-  sector evidence, public 4G/5G network point records, and observed network
-  performance from Ookla Open Data. Statistical universes are kept separate
-  and the public repository excludes proprietary indices and weighting models.
+  sector evidence, public 4G/5G network point records, public RedAcceso fixed-network
+  linework and presence, administrative education-connectivity records from Mineduc,
+  and observed network performance from Ookla Open Data. Statistical universes are
+  kept separate and the public repository excludes proprietary indices and weighting models.
 keywords:
   - digital inclusion
   - digital divide
@@ -22,5 +23,7 @@ keywords:
   - public policy
   - 5G
   - broadband
+  - fixed networks
+  - digital education
   - data infrastructure
   - territorial analysis
