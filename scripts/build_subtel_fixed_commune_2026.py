@@ -25,10 +25,8 @@ REL={"rel":"http://schemas.openxmlformats.org/package/2006/relationships"}
 
 ALIASES = {
     "calera": "la calera",
-    "san pedro de la paz": "san pedro de la paz",
     "aisen": "aysen",
     "coihaique": "coyhaique",
-    "o higgins": "o'higgins",
 }
 
 def norm(s: str) -> str:
@@ -86,18 +84,22 @@ def latest_col(root,ss):
 def extract_sheet(z,ss,path):
     root=ET.fromstring(z.read(path)); target_col, rows=latest_col(root,ss)
     out=[]
+    current_region=None
     for rn in sorted(rows):
         if rn < 10: continue
         d=rows[rn]
-        region=str(d.get(2,"")).strip()
+        region_raw=str(d.get(2,"")).strip()
+        if region_raw:
+            try:
+                current_region=int(float(region_raw))
+            except ValueError:
+                pass
         commune=str(d.get(3,"")).strip()
         raw=str(d.get(target_col,"")).strip()
-        if not commune or not raw: continue
+        if not commune or not raw or current_region is None: continue
         try: val=int(round(float(raw)))
         except ValueError: continue
-        try: region_code=int(float(region))
-        except ValueError: continue
-        out.append({"region":region_code,"commune_name_source":commune,"value":val,"source_row":rn})
+        out.append({"region":current_region,"commune_name_source":commune,"value":val,"source_row":rn})
     return out, target_col
 
 def main():
@@ -110,9 +112,10 @@ def main():
 
     catalog=[]
     with COMMUNES.open(encoding="utf-8") as f:
-        for r in csv.DictReader(f):
-            catalog.append(r)
+        for r in csv.DictReader(f): catalog.append(r)
     lookup={(int(r["region"]),norm(r["comuna_nombre"])):r for r in catalog}
+    by_name={}
+    for r in catalog: by_name.setdefault(norm(r["comuna_nombre"]),[]).append(r)
 
     by_code={int(r["comuna"]): {**r} for r in catalog}
     unmatched=[]
@@ -121,8 +124,7 @@ def main():
             key=(r["region"],norm(r["commune_name_source"]))
             hit=lookup.get(key)
             if not hit:
-                # fallback name-only if unique nationally
-                hits=[x for x in catalog if norm(x["comuna_nombre"])==key[1]]
+                hits=by_name.get(key[1],[])
                 hit=hits[0] if len(hits)==1 else None
             if not hit:
                 unmatched.append([metric,r["region"],r["commune_name_source"],r["value"],r["source_row"]])
@@ -135,10 +137,7 @@ def main():
         total=r.get("total_fixed_connections_2026m03")
         residential=r.get("residential_fixed_connections_2026m03")
         share=round(residential/total*100,4) if total and residential is not None else None
-        rows.append([
-            r["region"],r["region_nombre"],r["provincia"],r["provincia_nombre"],r["comuna"],r["comuna_nombre"],
-            total,residential,share,"2026-03",URL,
-        ])
+        rows.append([r["region"],r["region_nombre"],r["provincia"],r["provincia_nombre"],r["comuna"],r["comuna_nombre"],total,residential,share,"2026-03",URL])
 
     with (OUT/"commune_fixed_connections_2026_03.csv").open("w",newline="",encoding="utf-8") as f:
         w=csv.writer(f); w.writerow(["region","region_nombre","provincia","provincia_nombre","comuna","comuna_nombre","fixed_connections_total","fixed_connections_residential","residential_share_pct","period","source_url"]); w.writerows(rows)
