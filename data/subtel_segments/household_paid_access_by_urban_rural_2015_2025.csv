@@ -1,0 +1,13 @@
+reference_year,survey_wave,segment_dimension,segment_variable,segment_code,segment_label,n_unweighted,weighted_households,weighted_households_with_paid_access,paid_access_pct,household_weight,access_variable,access_yes_code,source_url,sav_file
+2015,VII,urban_rural,zona,1.0,URBANO,3020,4602218.0,3331232.0,72.3832,factor_hogar_2016,P5,1.0,https://www.subtel.gob.cl/wp-content/uploads/2018/02/Base_septima_encuesta_Internet_factor_hogar_2016.sav,source_2015_VII.sav
+2015,VII,urban_rural,zona,2.0,RURAL,580,712335.0,383131.0,53.7852,factor_hogar_2016,P5,1.0,https://www.subtel.gob.cl/wp-content/uploads/2018/02/Base_septima_encuesta_Internet_factor_hogar_2016.sav,source_2015_VII.sav
+2016,VIII,urban_rural,zona_cod,1.0,Urbana,3033,4639622.0,3772858.0,81.3182,FACT_HOGAR,P5,1.0,https://www.subtel.gob.cl/wp-content/uploads/2018/02/BASE_DATOS_SUBTEL_8A_ENCUESTA_ACCESO_VF.sav,source_2016_VIII.sav
+2016,VIII,urban_rural,zona_cod,2.0,Rural,590,729154.0,484463.0,66.4418,FACT_HOGAR,P5,1.0,https://www.subtel.gob.cl/wp-content/uploads/2018/02/BASE_DATOS_SUBTEL_8A_ENCUESTA_ACCESO_VF.sav,source_2016_VIII.sav
+2017,IX,urban_rural,ZONA,1.0,URBANO,3100,5530683.5,4929018.2,89.1213,FACTOR_HOGAR,P5,1.0,https://www.subtel.gob.cl/wp-content/uploads/2018/07/BBDD_IX_Encuesta_VFINAL_PUB.sav,source_2017_IX.sav
+2017,IX,urban_rural,ZONA,2.0,RURAL,500,890664.0,683159.6,76.7023,FACTOR_HOGAR,P5,1.0,https://www.subtel.gob.cl/wp-content/uploads/2018/07/BBDD_IX_Encuesta_VFINAL_PUB.sav,source_2017_IX.sav
+2023,X,urban_rural,ZONA,1.0,URBANA,3320,4952298.997,4706427.319,95.0352,FE_HOGAR,P1,1.0,https://www.subtel.gob.cl/wp-content/uploads/2024/05/BBDD_Acceso_y_uso_Internet_v4.sav,source_2023_X.sav
+2023,X,urban_rural,ZONA,2.0,RURAL,1390,699337.999,625701.48,89.4705,FE_HOGAR,P1,1.0,https://www.subtel.gob.cl/wp-content/uploads/2024/05/BBDD_Acceso_y_uso_Internet_v4.sav,source_2023_X.sav
+2024,XI,urban_rural,ZONA,1.0,URBANA,3311,4952298.998,4793237.151,96.7881,POND_HOGAR_FE,P1,1.0,https://www.subtel.gob.cl/wp-content/uploads/2025/02/BBDD_Subtel2024_03022025.sav_.zip,BBDD_Subtel2024_03022025.sav
+2024,XI,urban_rural,ZONA,2.0,RURAL,1389,699337.998,660613.734,94.4627,POND_HOGAR_FE,P1,1.0,https://www.subtel.gob.cl/wp-content/uploads/2025/02/BBDD_Subtel2024_03022025.sav_.zip,BBDD_Subtel2024_03022025.sav
+2025,XII,urban_rural,ZONA,1.0,URBANA,3593,4952299.001,4792411.218,96.7714,FE_HOGAR,P1,1.0,https://www.subtel.gob.cl/wp-content/uploads/2026/02/BBDDSubtel2025_031225.sav_.zip,BBDDSubtel2025_031225.sav
+2025,XII,urban_rural,ZONA,2.0,RURAL,1407,699338.001,665074.791,95.1006,FE_HOGAR,P1,1.0,https://www.subtel.gob.cl/wp-content/uploads/2026/02/BBDDSubtel2025_031225.sav_.zip,BBDDSubtel2025_031225.sav
