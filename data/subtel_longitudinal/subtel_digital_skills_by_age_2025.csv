@@ -1,25 +1,25 @@
-reference_year,survey_wave,age_group,skill,value_pct,reference_group,gap_vs_30_44_pp,source_file,comparability_note
-2025,XII,16-29,word_processor,79.5,30-44,6.3,data/subtel_2025_digital_skills_basic.csv,Published age-group value; descriptive comparison only.
-2025,XII,30-44,word_processor,73.2,30-44,0.0,data/subtel_2025_digital_skills_basic.csv,Reference group used in the article.
-2025,XII,45-59,word_processor,44.7,30-44,-28.5,data/subtel_2025_digital_skills_basic.csv,Published age-group value; descriptive comparison only.
-2025,XII,60-74,word_processor,22.5,30-44,-50.7,data/subtel_2025_digital_skills_basic.csv,Published age-group value; no 75+ row is available in the source table and none is imputed.
-2025,XII,16-29,spreadsheet,64.4,30-44,0.7,data/subtel_2025_digital_skills_basic.csv,Published age-group value; descriptive comparison only.
-2025,XII,30-44,spreadsheet,63.7,30-44,0.0,data/subtel_2025_digital_skills_basic.csv,Reference group used in the article.
-2025,XII,45-59,spreadsheet,39.0,30-44,-24.7,data/subtel_2025_digital_skills_basic.csv,Published age-group value; descriptive comparison only.
-2025,XII,60-74,spreadsheet,18.7,30-44,-45.0,data/subtel_2025_digital_skills_basic.csv,Published age-group value; no 75+ row is available in the source table and none is imputed.
-2025,XII,16-29,presentation_software,76.2,30-44,11.0,data/subtel_2025_digital_skills_basic.csv,Published age-group value; descriptive comparison only.
-2025,XII,30-44,presentation_software,65.2,30-44,0.0,data/subtel_2025_digital_skills_basic.csv,Reference group used in the article.
-2025,XII,45-59,presentation_software,33.7,30-44,-31.5,data/subtel_2025_digital_skills_basic.csv,Published age-group value; descriptive comparison only.
-2025,XII,60-74,presentation_software,14.9,30-44,-50.3,data/subtel_2025_digital_skills_basic.csv,Published age-group value; no 75+ row is available in the source table and none is imputed.
-2025,XII,16-29,transfer_files,70.4,30-44,1.7,data/subtel_2025_digital_skills_intermediate.csv,Published age-group value; descriptive comparison only.
-2025,XII,30-44,transfer_files,68.7,30-44,0.0,data/subtel_2025_digital_skills_intermediate.csv,Reference group used in the article.
-2025,XII,45-59,transfer_files,40.2,30-44,-28.5,data/subtel_2025_digital_skills_intermediate.csv,Published age-group value; descriptive comparison only.
-2025,XII,60-74,transfer_files,18.3,30-44,-50.4,data/subtel_2025_digital_skills_intermediate.csv,Published age-group value; no 75+ row is available in the source table and none is imputed.
-2025,XII,16-29,connect_router_or_printer,70.9,30-44,5.2,data/subtel_2025_digital_skills_intermediate.csv,Published age-group value; descriptive comparison only.
-2025,XII,30-44,connect_router_or_printer,65.7,30-44,0.0,data/subtel_2025_digital_skills_intermediate.csv,Reference group used in the article.
-2025,XII,45-59,connect_router_or_printer,40.2,30-44,-25.5,data/subtel_2025_digital_skills_intermediate.csv,Published age-group value; descriptive comparison only.
-2025,XII,60-74,connect_router_or_printer,19.0,30-44,-46.7,data/subtel_2025_digital_skills_intermediate.csv,Published age-group value; no 75+ row is available in the source table and none is imputed.
-2025,XII,16-29,install_configure_apps,71.9,30-44,8.3,data/subtel_2025_digital_skills_intermediate.csv,Published age-group value; descriptive comparison only.
-2025,XII,30-44,install_configure_apps,63.6,30-44,0.0,data/subtel_2025_digital_skills_intermediate.csv,Reference group used in the article.
-2025,XII,45-59,install_configure_apps,39.8,30-44,-23.8,data/subtel_2025_digital_skills_intermediate.csv,Published age-group value; descriptive comparison only.
-2025,XII,60-74,install_configure_apps,18.7,30-44,-44.9,data/subtel_2025_digital_skills_intermediate.csv,Published age-group value; no 75+ row is available in the source table and none is imputed.
+reference_year,survey_wave,age_group,skill,value_pct,reference_group,gap_vs_30_44_pp,source_page,source_url,comparability_note
+2025,XII,16-29,word_processor,79.2,30-44,5.2,82,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Presentacion-Subtel-Acceso-y-Uso-Internet-2025_v1.pdf,Published age-group value in official SUBTEL presentation.
+2025,XII,30-44,word_processor,74.0,30-44,0.0,82,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Presentacion-Subtel-Acceso-y-Uso-Internet-2025_v1.pdf,Reference group used in the article.
+2025,XII,45-59,word_processor,46.2,30-44,-27.8,82,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Presentacion-Subtel-Acceso-y-Uso-Internet-2025_v1.pdf,Published age-group value in official SUBTEL presentation.
+2025,XII,60+,word_processor,23.8,30-44,-50.2,82,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Presentacion-Subtel-Acceso-y-Uso-Internet-2025_v1.pdf,Official published group is 60 or more; do not relabel as 60-74.
+2025,XII,16-29,spreadsheet,64.2,30-44,-0.4,82,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Presentacion-Subtel-Acceso-y-Uso-Internet-2025_v1.pdf,Published age-group value in official SUBTEL presentation.
+2025,XII,30-44,spreadsheet,64.6,30-44,0.0,82,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Presentacion-Subtel-Acceso-y-Uso-Internet-2025_v1.pdf,Reference group used in the article.
+2025,XII,45-59,spreadsheet,40.1,30-44,-24.5,82,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Presentacion-Subtel-Acceso-y-Uso-Internet-2025_v1.pdf,Published age-group value in official SUBTEL presentation.
+2025,XII,60+,spreadsheet,19.2,30-44,-45.4,82,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Presentacion-Subtel-Acceso-y-Uso-Internet-2025_v1.pdf,Official published group is 60 or more; do not relabel as 60-74.
+2025,XII,16-29,presentation_software,76.5,30-44,11.0,82,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Presentacion-Subtel-Acceso-y-Uso-Internet-2025_v1.pdf,Published age-group value in official SUBTEL presentation.
+2025,XII,30-44,presentation_software,65.5,30-44,0.0,82,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Presentacion-Subtel-Acceso-y-Uso-Internet-2025_v1.pdf,Reference group used in the article.
+2025,XII,45-59,presentation_software,34.7,30-44,-30.8,82,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Presentacion-Subtel-Acceso-y-Uso-Internet-2025_v1.pdf,Published age-group value in official SUBTEL presentation.
+2025,XII,60+,presentation_software,15.8,30-44,-49.7,82,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Presentacion-Subtel-Acceso-y-Uso-Internet-2025_v1.pdf,Official published group is 60 or more; do not relabel as 60-74.
+2025,XII,16-29,transfer_files,70.8,30-44,1.7,82,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Presentacion-Subtel-Acceso-y-Uso-Internet-2025_v1.pdf,Published age-group value in official SUBTEL presentation.
+2025,XII,30-44,transfer_files,69.1,30-44,0.0,82,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Presentacion-Subtel-Acceso-y-Uso-Internet-2025_v1.pdf,Reference group used in the article.
+2025,XII,45-59,transfer_files,41.2,30-44,-27.9,82,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Presentacion-Subtel-Acceso-y-Uso-Internet-2025_v1.pdf,Published age-group value in official SUBTEL presentation.
+2025,XII,60+,transfer_files,19.1,30-44,-50.0,82,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Presentacion-Subtel-Acceso-y-Uso-Internet-2025_v1.pdf,Official published group is 60 or more; do not relabel as 60-74.
+2025,XII,16-29,connect_router_or_printer,70.7,30-44,4.3,82,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Presentacion-Subtel-Acceso-y-Uso-Internet-2025_v1.pdf,Published age-group value in official SUBTEL presentation.
+2025,XII,30-44,connect_router_or_printer,66.4,30-44,0.0,82,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Presentacion-Subtel-Acceso-y-Uso-Internet-2025_v1.pdf,Reference group used in the article.
+2025,XII,45-59,connect_router_or_printer,41.2,30-44,-25.2,82,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Presentacion-Subtel-Acceso-y-Uso-Internet-2025_v1.pdf,Published age-group value in official SUBTEL presentation.
+2025,XII,60+,connect_router_or_printer,19.4,30-44,-47.0,82,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Presentacion-Subtel-Acceso-y-Uso-Internet-2025_v1.pdf,Official published group is 60 or more; do not relabel as 60-74.
+2025,XII,16-29,install_configure_apps,72.2,30-44,8.3,82,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Presentacion-Subtel-Acceso-y-Uso-Internet-2025_v1.pdf,Published age-group value in official SUBTEL presentation.
+2025,XII,30-44,install_configure_apps,63.9,30-44,0.0,82,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Presentacion-Subtel-Acceso-y-Uso-Internet-2025_v1.pdf,Reference group used in the article.
+2025,XII,45-59,install_configure_apps,40.8,30-44,-23.1,82,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Presentacion-Subtel-Acceso-y-Uso-Internet-2025_v1.pdf,Published age-group value in official SUBTEL presentation.
+2025,XII,60+,install_configure_apps,19.3,30-44,-44.6,82,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Presentacion-Subtel-Acceso-y-Uso-Internet-2025_v1.pdf,Official published group is 60 or more; do not relabel as 60-74.
