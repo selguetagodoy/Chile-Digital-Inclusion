@@ -1,0 +1,347 @@
+region,region_nombre,provincia,provincia_nombre,comuna,comuna_nombre,fixed_connections_total,fixed_connections_residential,residential_share_pct,period,source_url
+1,Tarapacá,11,Iquique,1101,Iquique,58491,52286,89.3915,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+1,Tarapacá,11,Iquique,1107,Alto Hospicio,25233,23982,95.0422,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+1,Tarapacá,14,Del Tamarugal,1401,Pozo Almonte,2890,2586,89.481,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+1,Tarapacá,14,Del Tamarugal,1402,Camiña,57,41,71.9298,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+1,Tarapacá,14,Del Tamarugal,1403,Colchane,149,126,84.5638,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+1,Tarapacá,14,Del Tamarugal,1404,Huara,352,299,84.9432,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+1,Tarapacá,14,Del Tamarugal,1405,Pica,791,695,87.8635,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+2,Antofagasta,21,Antofagasta,2101,Antofagasta,120596,111930,92.814,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+2,Antofagasta,21,Antofagasta,2102,Mejillones,3185,2858,89.7331,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+2,Antofagasta,21,Antofagasta,2103,Sierra Gorda,926,700,75.594,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+2,Antofagasta,21,Antofagasta,2104,Taltal,3217,2517,78.2406,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+2,Antofagasta,22,El Loa,2201,Calama,48122,45297,94.1295,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+2,Antofagasta,22,El Loa,2202,Ollagüe,59,43,72.8814,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+2,Antofagasta,22,El Loa,2203,San Pedro de Atacama,1663,1502,90.3187,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+2,Antofagasta,23,Tocopilla,2301,Tocopilla,6817,6429,94.3083,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+2,Antofagasta,23,Tocopilla,2302,María Elena,1428,1281,89.7059,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+3,Atacama,31,Copiapó,3101,Copiapó,46317,43864,94.7039,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+3,Atacama,31,Copiapó,3102,Caldera,5222,5035,96.419,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+3,Atacama,31,Copiapó,3103,Tierra Amarilla,2276,2130,93.5852,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+3,Atacama,32,Chañaral,3201,Chañaral,2427,2360,97.2394,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+3,Atacama,32,Chañaral,3202,Diego de Almagro,2432,2194,90.2138,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+3,Atacama,33,Huasco,3301,Vallenar,13992,13119,93.7607,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+3,Atacama,33,Huasco,3302,Alto del Carmen,228,197,86.4035,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+3,Atacama,33,Huasco,3303,Freirina,364,341,93.6813,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+3,Atacama,33,Huasco,3304,Huasco,1617,1513,93.5683,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+4,Coquimbo,41,Elqui,4101,La Serena,80881,76191,94.2014,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+4,Coquimbo,41,Elqui,4102,Coquimbo,75274,72293,96.0398,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+4,Coquimbo,41,Elqui,4103,Andacollo,1727,1697,98.2629,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+4,Coquimbo,41,Elqui,4104,La Higuera,450,432,96.0,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+4,Coquimbo,41,Elqui,4105,Paihuano,177,153,86.4407,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+4,Coquimbo,41,Elqui,4106,Vicuña,3243,3097,95.498,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+4,Coquimbo,42,Choapa,4201,Illapel,5342,5083,95.1516,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+4,Coquimbo,42,Choapa,4202,Canela,1199,1176,98.0817,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+4,Coquimbo,42,Choapa,4203,Los Vilos,5996,5729,95.547,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+4,Coquimbo,42,Choapa,4204,Salamanca,2287,2118,92.6104,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+4,Coquimbo,43,Limarí,4301,Ovalle,21612,20182,93.3833,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+4,Coquimbo,43,Limarí,4302,Combarbalá,1469,1389,94.5541,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+4,Coquimbo,43,Limarí,4303,Monte Patria,2333,2246,96.2709,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+4,Coquimbo,43,Limarí,4304,Punitaqui,1267,1219,96.2115,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+4,Coquimbo,43,Limarí,4305,Río Hurtado,172,137,79.6512,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,51,Valparaíso,5101,Valparaíso,88512,83865,94.7499,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,51,Valparaíso,5102,Casablanca,6193,5924,95.6564,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,51,Valparaíso,5103,Concón,20753,18986,91.4856,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,51,Valparaíso,5104,Juan Fernández,236,221,93.6441,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,51,Valparaíso,5105,Puchuncaví,8791,8656,98.4643,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,51,Valparaíso,5107,Quintero,9581,9246,96.5035,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,51,Valparaíso,5109,Viña del Mar,126819,118809,93.6839,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,52,Isla de Pascua,5201,Isla de Pascua,2542,2463,96.8922,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,53,Los Andes,5301,Los Andes,22063,20607,93.4007,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,53,Los Andes,5302,Calle Larga,4427,4277,96.6117,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,53,Los Andes,5303,Rinconada,3023,2939,97.2213,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,53,Los Andes,5304,San Esteban,4126,4001,96.9704,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,54,Petorca,5401,La Ligua,8011,7734,96.5423,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,54,Petorca,5402,Cabildo,2587,2507,96.9076,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,54,Petorca,5403,Papudo,2662,2489,93.5011,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,54,Petorca,5404,Petorca,886,810,91.4221,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,54,Petorca,5405,Zapallar,3388,3164,93.3884,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,55,Quillota,5501,Quillota,27359,26079,95.3215,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,55,Quillota,5502,Calera,14004,13439,95.9654,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,55,Quillota,5503,Hijuelas,3768,3707,98.3811,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,55,Quillota,5504,La Cruz,7449,7126,95.6638,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,55,Quillota,5506,Nogales,4543,4450,97.9529,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,56,San Antonio,5601,San Antonio,25163,24286,96.5147,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,56,San Antonio,5602,Algarrobo,8881,8475,95.4284,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,56,San Antonio,5603,Cartagena,7272,7247,99.6562,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,56,San Antonio,5604,El Quisco,8618,8556,99.2806,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,56,San Antonio,5605,El Tabo,7770,7593,97.722,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,56,San Antonio,5606,Santo Domingo,5090,4849,95.2652,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,57,San Felipe de Aconcagua,5701,San Felipe,20317,19367,95.3241,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,57,San Felipe de Aconcagua,5702,Catemu,1870,1823,97.4866,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,57,San Felipe de Aconcagua,5703,Llaillay,5647,5448,96.476,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,57,San Felipe de Aconcagua,5704,Panquehue,1657,1590,95.9565,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,57,San Felipe de Aconcagua,5705,Putaendo,2828,2770,97.9491,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,57,San Felipe de Aconcagua,5706,Santa María,2573,2482,96.4633,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,58,Marga Marga,5801,Quilpué,54829,52390,95.5516,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,58,Marga Marga,5802,Limache,15099,14491,95.9732,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,58,Marga Marga,5803,Olmué,4634,4514,97.4104,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+5,Valparaíso,58,Marga Marga,5804,Villa Alemana,49009,47000,95.9008,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,61,Cachapoal,6101,Rancagua,78248,74459,95.1577,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,61,Cachapoal,6102,Codegua,1672,1660,99.2823,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,61,Cachapoal,6103,Coinco,1513,1503,99.3391,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,61,Cachapoal,6104,Coltauco,3776,3735,98.9142,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,61,Cachapoal,6105,Doñihue,4477,4390,98.0567,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,61,Cachapoal,6106,Graneros,9191,9023,98.1721,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,61,Cachapoal,6107,Las Cabras,2245,2179,97.0601,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,61,Cachapoal,6108,Machalí,18088,17372,96.0416,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,61,Cachapoal,6109,Malloa,1295,1268,97.9151,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,61,Cachapoal,6110,Mostazal,4835,4710,97.4147,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,61,Cachapoal,6111,Olivar,2648,2555,96.4879,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,61,Cachapoal,6112,Peumo,1468,1455,99.1144,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,61,Cachapoal,6113,Pichidegua,1826,1800,98.5761,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,61,Cachapoal,6114,Quinta de Tilcoco,2309,2288,99.0905,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,61,Cachapoal,6115,Rengo,15316,14739,96.2327,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,61,Cachapoal,6116,Requínoa,4372,4225,96.6377,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,61,Cachapoal,6117,San Vicente,6644,6428,96.7489,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6201,Pichilemu,5930,5788,97.6054,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6202,La Estrella,602,584,97.01,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6203,Litueche,1240,1210,97.5806,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6204,Marchihue,635,605,95.2756,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6205,Navidad,2240,2220,99.1071,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,62,Cardenal Caro,6206,Paredones,270,246,91.1111,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,63,Colchagua,6301,San Fernando,18763,17088,91.0729,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,63,Colchagua,6302,Chépica,1142,1119,97.986,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,63,Colchagua,6303,Chimbarongo,3714,3590,96.6613,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,63,Colchagua,6304,Lolol,672,655,97.4702,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,63,Colchagua,6305,Nancagua,2462,2407,97.766,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,63,Colchagua,6306,Palmilla,539,526,97.5881,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,63,Colchagua,6307,Peralillo,926,910,98.2721,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,63,Colchagua,6308,Placilla,365,348,95.3425,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,63,Colchagua,6309,Pumanque,144,128,88.8889,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+6,Libertador General Bernardo O'Higgins,63,Colchagua,6310,Santa Cruz,7082,6522,92.0926,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,71,Talca,7101,Talca,68314,64108,93.8431,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,71,Talca,7102,Constitución,8120,7751,95.4557,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,71,Talca,7103,Curepto,388,369,95.1031,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,71,Talca,7104,Empedrado,278,269,96.7626,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,71,Talca,7105,Maule,10095,9816,97.2363,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,71,Talca,7106,Pelarco,410,386,94.1463,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,71,Talca,7107,Pencahue,588,520,88.4354,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,71,Talca,7108,Río Claro,875,865,98.8571,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,71,Talca,7109,San Clemente,5504,5308,96.439,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,71,Talca,7110,San Rafael,764,746,97.644,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,72,Cauquenes,7201,Cauquenes,9576,9287,96.982,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,72,Cauquenes,7202,Chanco,416,408,98.0769,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,72,Cauquenes,7203,Pelluhue,1831,1823,99.5631,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,73,Curicó,7301,Curicó,47247,44132,93.407,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,73,Curicó,7302,Hualañé,915,900,98.3607,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,73,Curicó,7303,Licantén,1498,1488,99.3324,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,73,Curicó,7304,Molina,6003,5797,96.5684,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,73,Curicó,7305,Rauco,1323,1313,99.2441,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,73,Curicó,7306,Romeral,2762,2589,93.7364,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,73,Curicó,7307,Sagrada Familia,308,288,93.5065,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,73,Curicó,7308,Teno,2497,2405,96.3156,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,73,Curicó,7309,Vichuquén,807,789,97.7695,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,74,Linares,7401,Linares,20174,18857,93.4718,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,74,Linares,7402,Colbún,1626,1594,98.032,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,74,Linares,7403,Longaví,4314,4208,97.5429,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,74,Linares,7404,Parral,11498,11110,96.6255,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,74,Linares,7405,Retiro,3684,3621,98.2899,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,74,Linares,7406,San Javier,6633,6205,93.5474,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,74,Linares,7407,Villa Alegre,1426,1405,98.5273,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+7,Maule,74,Linares,7408,Yerbas Buenas,1661,1556,93.6785,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,81,Concepción,8101,Concepción,6572,6346,96.5612,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,81,Concepción,8102,Coronel,6327,6265,99.0201,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,81,Concepción,8103,Chiguayante,94519,86548,91.5668,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,81,Concepción,8104,Florida,11552,11498,99.5325,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,81,Concepción,8105,Hualqui,5696,5621,98.6833,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,81,Concepción,8106,Lota,51272,49575,96.6902,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,81,Concepción,8107,Penco,3046,3008,98.7525,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,81,Concepción,8108,San Pedro de La paz,839,808,96.3051,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,81,Concepción,8109,Santa Juana,4998,4806,96.1585,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,81,Concepción,8110,Talcahuano,385,309,80.2597,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,81,Concepción,8111,Tomé,379,350,92.3483,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,81,Concepción,8112,Hualpén,5071,4968,97.9688,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,82,Arauco,8201,Lebu,13232,12936,97.763,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,82,Arauco,8202,Arauco,8677,8432,97.1764,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,82,Arauco,8203,Cañete,26835,26057,97.1008,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,82,Arauco,8204,Contulmo,4188,4119,98.3524,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,82,Arauco,8205,Curanilahue,4910,4868,99.1446,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,82,Arauco,8206,Los Álamos,570,554,97.193,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,82,Arauco,8207,Tirúa,1083,1061,97.9686,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,83,Biobío,8301,Los Ángeles,195,169,86.6667,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,83,Biobío,8302,Antuco,203,187,92.1182,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,83,Biobío,8303,Cabrero,5476,5336,97.4434,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,83,Biobío,8304,Laja,854,838,98.1265,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,83,Biobío,8305,Mulchén,540,536,99.2593,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,83,Biobío,8306,Nacimiento,2085,2043,97.9856,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,83,Biobío,8307,Negrete,3322,3288,98.9765,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,83,Biobío,8308,Quilaco,14420,13991,97.025,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,83,Biobío,8309,Quilleco,1860,1814,97.5269,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,83,Biobío,8310,San Rosendo,1854,1747,94.2287,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,83,Biobío,8311,Santa Bárbara,8129,7869,96.8016,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,83,Biobío,8312,Tucapel,4777,4673,97.8229,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,83,Biobío,8313,Yumbel,11487,11200,97.5015,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+8,Biobío,83,Biobío,8314,Alto Biobío,384,331,86.1979,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,91,Cautín,9101,Temuco,1596,1548,96.9925,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,91,Cautín,9102,Carahue,1772,1753,98.9278,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,91,Cautín,9103,Cunco,99016,92328,93.2455,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,91,Cautín,9104,Curarrehue,1104,1064,96.3768,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,91,Cautín,9105,Freire,9123,8826,96.7445,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,91,Cautín,9106,Galvarino,3900,3807,97.6154,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,91,Cautín,9107,Gorbea,17768,17114,96.3192,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,91,Cautín,9108,Lautaro,221851,211371,95.2761,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,91,Cautín,9109,Loncoche,7681,7289,94.8965,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,91,Cautín,9110,Melipeuco,1718,1629,94.8196,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,91,Cautín,9111,Nueva Imperial,536,484,90.2985,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,91,Cautín,9112,Padre Las Casas,244,230,94.2623,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,91,Cautín,9113,Perquenco,1665,1564,93.9339,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,91,Cautín,9114,Pitrufquén,1288,1244,96.5839,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,91,Cautín,9115,Pucón,4904,4737,96.5946,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,91,Cautín,9116,Saavedra,4034,3925,97.298,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,91,Cautín,9117,Teodoro Schmidt,1541,1488,96.5607,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,91,Cautín,9118,Toltén,46144,44174,95.7308,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,91,Cautín,9119,Vilcún,1054,1018,96.5844,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,91,Cautín,9120,Villarrica,14711,13991,95.1057,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,91,Cautín,9121,Cholchol,1330,1318,99.0977,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,92,Malleco,9201,Angol,8022,7598,94.7145,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,92,Malleco,9202,Collipulli,608,597,98.1908,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,92,Malleco,9203,Curacautín,1363,1351,99.1196,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,92,Malleco,9204,Ercilla,3241,3214,99.1669,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,92,Malleco,9205,Lonquimay,5253,5046,96.0594,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,92,Malleco,9206,Los Sauces,10252,9820,95.7862,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,92,Malleco,9207,Lumaco,856,774,90.4206,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,92,Malleco,9208,Purén,868,816,94.0092,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,92,Malleco,9209,Renaico,724,660,91.1602,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,92,Malleco,9210,Traiguén,465,418,89.8925,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+9,La Araucanía,92,Malleco,9211,Victoria,68933,65757,95.3926,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,101,Llanquihue,10101,Puerto Montt,185,155,83.7838,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,101,Llanquihue,10102,Calbuco,1586,1516,95.5864,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,101,Llanquihue,10103,Cochamó,584,508,86.9863,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,101,Llanquihue,10104,Fresia,1572,1526,97.0738,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,101,Llanquihue,10105,Frutillar,,,,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,101,Llanquihue,10106,Los Muermos,1510,1413,93.5762,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,101,Llanquihue,10107,Llanquihue,842,788,93.5867,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,101,Llanquihue,10108,Maullín,837,796,95.1016,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,101,Llanquihue,10109,Puerto Varas,560,535,95.5357,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,102,Chiloé,10201,Castro,500,463,92.6,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,102,Chiloé,10202,Ancud,3482,3362,96.5537,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,102,Chiloé,10203,Chonchi,805,746,92.6708,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,102,Chiloé,10204,Curaco de Vélez,1959,1920,98.0092,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,102,Chiloé,10205,Dalcahue,224,185,82.5893,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,102,Chiloé,10206,Puqueldón,55,44,80.0,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,102,Chiloé,10207,Queilén,,,,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,102,Chiloé,10208,Quellón,421,355,84.323,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,102,Chiloé,10209,Quemchi,43,33,76.7442,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,102,Chiloé,10210,Quinchao,8954,7941,88.6866,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,103,Osorno,10301,Osorno,15702,15007,95.5738,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,103,Osorno,10302,Puerto Octay,273,248,90.8425,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,103,Osorno,10303,Purranque,,,,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,103,Osorno,10304,Puyehue,25661,24387,95.0353,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,103,Osorno,10305,Río Negro,2141,1950,91.0789,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,103,Osorno,10306,San Juan de la Costa,90,72,80.0,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,103,Osorno,10307,San Pablo,44606,41205,92.3755,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,104,Palena,10401,Chaitén,3625,3473,95.8069,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,104,Palena,10402,Futaleufú,188991,180482,95.4977,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,104,Palena,10403,Hualaihué,5457,5191,95.1255,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+10,Los Lagos,104,Palena,10404,Palena,240,210,87.5,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+11,Aysén del General Carlos Ibáñez del Campo,111,Coyhaique,11101,Coyhaique,22256,21457,96.41,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+11,Aysén del General Carlos Ibáñez del Campo,111,Coyhaique,11102,Lago Verde,23225,22295,95.9957,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+11,Aysén del General Carlos Ibáñez del Campo,112,Aysén,11201,Aysén,73,66,90.411,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+11,Aysén del General Carlos Ibáñez del Campo,112,Aysén,11202,Cisnes,56671,51902,91.5848,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+11,Aysén del General Carlos Ibáñez del Campo,112,Aysén,11203,Guaitecas,3690,3600,97.561,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+11,Aysén del General Carlos Ibáñez del Campo,113,Capitán Prat,11301,Cochrane,2787,2755,98.8518,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+11,Aysén del General Carlos Ibáñez del Campo,113,Capitán Prat,11302,O'Higgins,29243,28302,96.7821,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+11,Aysén del General Carlos Ibáñez del Campo,113,Capitán Prat,11303,Tortel,30703,29529,96.1763,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+11,Aysén del General Carlos Ibáñez del Campo,114,General Carrera,11401,Chile Chico,203,181,89.1626,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+11,Aysén del General Carlos Ibáñez del Campo,114,General Carrera,11402,Río Ibáñez,40358,38452,95.2773,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+12,Magallanes y de la Antártica Chilena,121,Magallanes,12101,Punta Arenas,120747,116208,96.2409,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+12,Magallanes y de la Antártica Chilena,121,Magallanes,12102,Laguna Blanca,29079,26695,91.8016,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+12,Magallanes y de la Antártica Chilena,121,Magallanes,12103,Río Verde,25836,25156,97.368,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+12,Magallanes y de la Antártica Chilena,121,Magallanes,12104,San Gregorio,16739,16618,99.2771,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+12,Magallanes y de la Antártica Chilena,122,Antártica Chilena,12201,Cabo de Hornos,55642,53543,96.2277,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+12,Magallanes y de la Antártica Chilena,122,Antártica Chilena,12202,Antártica,6809,6731,98.8545,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+12,Magallanes y de la Antártica Chilena,123,Tierra del Fuego,12301,Porvenir,6633,6471,97.5577,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+12,Magallanes y de la Antártica Chilena,123,Tierra del Fuego,12302,Primavera,35929,34179,95.1293,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+12,Magallanes y de la Antártica Chilena,123,Tierra del Fuego,12303,Timaukel,29675,27221,91.7304,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+12,Magallanes y de la Antártica Chilena,124,Última Esperanza,12401,Natales,34165,32462,95.0154,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+12,Magallanes y de la Antártica Chilena,124,Última Esperanza,12402,Torres del Paine,23968,22750,94.9182,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13101,Santiago,828,738,89.1304,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13102,Cerrillos,42677,40490,94.8755,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13103,Cerro Navia,149918,145370,96.9663,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13104,Conchalí,20104,19371,96.354,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13105,El Bosque,21688,21078,97.1874,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13106,Estación Central,23818,23143,97.166,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13107,Huechuraba,24184,23391,96.721,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13108,Independencia,57726,55577,96.2772,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13109,La Cisterna,76440,63395,82.9343,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13110,La Florida,59019,56495,95.7234,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13111,La Granja,145884,142210,97.4816,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13112,La Pintana,51352,49052,95.5211,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13113,La Reina,36233,33812,93.3182,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13114,Las Condes,34637,33254,96.0072,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13115,Lo Barnechea,69599,67539,97.0402,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13116,Lo Espejo,26562,25177,94.7858,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13117,Lo Prado,2110,2011,95.3081,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13118,Macul,56238,52506,93.3639,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13119,Maipú,613,582,94.9429,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13120,Ñuñoa,16051,15403,95.9629,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13121,Pedro Aguirre Cerda,,,,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13122,Peñalolén,491,457,93.0754,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13123,Providencia,8949,8672,96.9047,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13124,Pudahuel,830,798,96.1446,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13125,Quilicura,2540,2461,96.8898,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13126,Quinta Normal,1160,1133,97.6724,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13127,Recoleta,3886,3767,96.9377,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13128,Renca,3010,2935,97.5083,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13129,San Joaquín,5695,5548,97.4188,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13130,San Miguel,86483,83483,96.5311,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13131,San Ramón,74,54,72.973,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,131,Santiago,13132,Vitacura,3695,3613,97.7808,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,132,Cordillera,13201,Puente Alto,2738,2690,98.2469,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,132,Cordillera,13202,Pirque,1714,1675,97.7246,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,132,Cordillera,13203,San José de Maipo,50222,48297,96.167,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,133,Chacabuco,13301,Colina,3303,3179,96.2458,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,133,Chacabuco,13302,Lampa,40106,37147,92.6221,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,133,Chacabuco,13303,Tiltil,,,,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,134,Maipo,13401,San Bernardo,5248,5050,96.2271,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,134,Maipo,13402,Buin,15737,15420,97.9856,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,134,Maipo,13403,Calera de Tango,22464,21907,97.5205,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,134,Maipo,13404,Paine,37131,31800,85.6427,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,135,Melipilla,13501,Melipilla,167630,146092,87.1515,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,135,Melipilla,13502,Alhué,31295,28367,90.6439,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,135,Melipilla,13503,Curacaví,109841,103201,93.9549,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,135,Melipilla,13504,María Pinto,15157,14808,97.6974,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,135,Melipilla,13505,San Pedro,59213,55813,94.258,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,136,Talagante,13601,Talagante,120,79,65.8333,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,136,Talagante,13602,El Monte,8466,8208,96.9525,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,136,Talagante,13603,Isla de Maipo,4430,4331,97.7652,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,136,Talagante,13604,Padre Hurtado,3428,3335,97.287,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+13,Metropolitana de Santiago,136,Talagante,13605,Peñaflor,2080448,1955094,93.9747,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+14,Los Ríos,141,Valdivia,14101,Valdivia,685,655,95.6204,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+14,Los Ríos,141,Valdivia,14102,Corral,838,817,97.494,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+14,Los Ríos,141,Valdivia,14103,Lanco,377,364,96.5517,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+14,Los Ríos,141,Valdivia,14104,Los Lagos,355,350,98.5915,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+14,Los Ríos,141,Valdivia,14105,Máfil,890,858,96.4045,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+14,Los Ríos,141,Valdivia,14106,Mariquina,2436,2418,99.2611,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+14,Los Ríos,141,Valdivia,14107,Paillaco,326,314,96.319,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+14,Los Ríos,141,Valdivia,14108,Panguipulli,3240,3178,98.0864,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+14,Los Ríos,142,Ranco,14201,La Unión,1565,1524,97.3802,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+14,Los Ríos,142,Ranco,14202,Futrono,2776,2748,98.9914,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+14,Los Ríos,142,Ranco,14203,Lago Ranco,632,618,97.7848,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+14,Los Ríos,142,Ranco,14204,Río Bueno,991,962,97.0737,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+15,Arica y Parinacota,151,Arica,15101,Arica,704,694,98.5795,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+15,Arica y Parinacota,151,Arica,15102,Camarones,1218,1205,98.9327,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+15,Arica y Parinacota,152,Parinacota,15201,Putre,459,444,96.732,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+15,Arica y Parinacota,152,Parinacota,15202,General Lagos,652,636,97.546,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+16,Ñuble,161,Diguillín,16101,Chillán,4859679,4595164,94.5569,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+16,Ñuble,161,Diguillín,16102,Bulnes,100615,96619,96.0284,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+16,Ñuble,161,Diguillín,16103,Chillán Viejo,38312,37843,98.7758,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+16,Ñuble,161,Diguillín,16104,El Carmen,59247,56751,95.7871,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+16,Ñuble,161,Diguillín,16105,Pemuco,17846,17422,97.6241,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+16,Ñuble,161,Diguillín,16106,Pinto,3541,3511,99.1528,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+16,Ñuble,161,Diguillín,16107,Quillón,794,772,97.2292,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+16,Ñuble,161,Diguillín,16108,San Ignacio,997,983,98.5958,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+16,Ñuble,161,Diguillín,16109,Yungay,878,867,98.7472,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+16,Ñuble,162,Itata,16201,Quirihue,4286,4229,98.6701,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+16,Ñuble,162,Itata,16202,Cobquecura,8253,8165,98.9337,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+16,Ñuble,162,Itata,16203,Coelemu,1518,1473,97.0356,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+16,Ñuble,162,Itata,16204,Ninhue,45275,43253,95.534,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+16,Ñuble,162,Itata,16205,Portezuelo,465280,446647,95.9953,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+16,Ñuble,162,Itata,16206,Ránquil,3010,2979,98.9701,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+16,Ñuble,162,Itata,16207,Trehuaco,,,,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+16,Ñuble,163,Punilla,16301,San Carlos,3833,3792,98.9303,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+16,Ñuble,163,Punilla,16302,Coihueco,28548,27682,96.9665,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+16,Ñuble,163,Punilla,16303,Ñiquén,456,410,89.9123,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+16,Ñuble,163,Punilla,16304,San Fabián,388,356,91.7526,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+16,Ñuble,163,Punilla,16305,San Nicolás,2722,2674,98.2366,2026-03,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
