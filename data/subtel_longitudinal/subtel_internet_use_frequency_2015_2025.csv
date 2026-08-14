@@ -1,0 +1,7 @@
+reference_year,survey_wave,daily_pct,several_times_week_pct,monthly_not_weekly_pct,less_than_monthly_pct,reference_window,comparability_note
+2015,VII,84.9,10.5,2.8,1.8,last_12_months,Retrospective series reported in the VIII survey.
+2016,VIII,89.2,8.0,1.8,0.9,last_12_months,Universe: Internet users in the previous 12 months.
+2017,IX,92.2,,,,last_12_months,The executive summary retains the daily-use result; other frequency categories are left blank rather than reconstructed.
+2023,X,92.5,6.1,1.1,0.4,last_12_months,Published categories sum to approximately 100 because of rounding.
+2024,XI,89.7,8.7,1.3,0.4,last_3_months,Recall window changed from 12 months to 3 months; compare cautiously with earlier waves.
+2025,XII,91.2,7.3,0.7,0.8,last_3_months,Same short recall window as 2024.
