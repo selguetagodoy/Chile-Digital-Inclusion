@@ -1,0 +1,34 @@
+name: Register SUBTEL sector series in release catalog
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/add_sector_series_to_release_catalog.py'
+      - '.github/workflows/register-subtel-sector-series-release.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  register:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/add_sector_series_to_release_catalog.py
+      - name: Commit catalog builder update
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add scripts/build_release_metadata.py
+          if git diff --cached --quiet; then
+            echo 'No release-catalog changes'
+          else
+            git commit -m 'Register longitudinal SUBTEL sector series in release catalog'
+            git pull --rebase origin main
+            git push
+          fi
