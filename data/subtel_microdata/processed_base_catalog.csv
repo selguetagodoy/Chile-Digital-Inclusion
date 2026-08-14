@@ -1,0 +1,13 @@
+reference_year,survey_wave,dataset_role,rows,columns,household_weight,person_weight,encoding,status,source_url
+2008,I,base_completa,6420,309,,,auto,processed_aggregate_only,https://www.subtel.gob.cl/images/stories/articles/subtel/asocfile/base_completa_270409_spss.rar
+2011,III,baseline_transversal,2010,269,Factor_Transv,Factor_Transv,auto,processed_aggregate_only,https://www.subtel.gob.cl/images/stories/apoyo_articulos/estudios/base_datos_final_2.zip
+2011,III,person,6310,21,,,latin1,processed_aggregate_only,https://www.subtel.gob.cl/images/stories/apoyo_articulos/estudios/base_datos_final_2.zip
+2012,IV,base_hogares,3756,395,,,,processed_unweighted_no_expansion_factor_selected,https://www.subtel.gob.cl/images/stories/apoyo_articulos/estudios/base_hogares_2012.zip
+2013,V,base_publica,9050,454,fact_hog,fact_selec,auto,processed_aggregate_only,https://www.subtel.gob.cl/wp-content/uploads/2015/04/encuesta_subtel_2013_20140522_publica.sav
+2014,VI,base_entrevistado,3633,388,FACTOR,FACTOR,auto,processed_aggregate_only,https://www.subtel.gob.cl/wp-content/uploads/2015/04/SUB_NACIONAL_ENTREVISTADO_VF_VPUBL.sav
+2015,VII,base_factor_hogar_corregido,3600,487,factor_hogar_2016,FACT_PER,auto,processed_aggregate_only,https://www.subtel.gob.cl/wp-content/uploads/2018/02/Base_septima_encuesta_Internet_factor_hogar_2016.sav
+2016,VIII,base_publica,3623,526,FACT_HOGAR,FACT_PER,auto,processed_aggregate_only,https://www.subtel.gob.cl/wp-content/uploads/2018/02/BASE_DATOS_SUBTEL_8A_ENCUESTA_ACCESO_VF.sav
+2017,IX,base_publica,3600,490,FACTOR_HOGAR,FACTOR_PERSONA,auto,processed_aggregate_only,https://www.subtel.gob.cl/wp-content/uploads/2018/07/BBDD_IX_Encuesta_VFINAL_PUB.sav
+2023,X,base_publica,4710,543,FE_HOGAR,FE_USO,auto,processed_aggregate_only,https://www.subtel.gob.cl/wp-content/uploads/2024/05/BBDD_Acceso_y_uso_Internet_v4.sav
+2024,XI,base_publica,4700,375,POND_HOGAR_FE,PON_PER_SIN_GSE_FE,auto,processed_aggregate_only,https://www.subtel.gob.cl/wp-content/uploads/2025/02/BBDD_Subtel2024_03022025.sav_.zip
+2025,XII,base_publica,5000,587,FE_HOGAR,FE_PERSONAS,auto,processed_aggregate_only,https://www.subtel.gob.cl/wp-content/uploads/2026/02/BBDDSubtel2025_031225.sav_.zip
