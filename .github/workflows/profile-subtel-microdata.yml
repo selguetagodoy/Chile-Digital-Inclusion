@@ -7,6 +7,7 @@ on:
     paths:
       - 'scripts/profile_subtel_microdata.py'
       - 'scripts/build_subtel_weighted_profiles.py'
+      - 'scripts/classify_subtel_variables.py'
       - '.github/workflows/profile-subtel-microdata.yml'
 
 permissions:
@@ -38,14 +39,18 @@ jobs:
         run: |
           python scripts/build_subtel_weighted_profiles.py
 
+      - name: Classify variables for harmonization
+        run: |
+          python scripts/classify_subtel_variables.py
+
       - name: Show profile summaries
         run: |
           echo '--- generic profile ---'
           cat data/subtel_microdata/profile_summary.json
           echo '--- weighted profile ---'
           cat data/subtel_weighted/summary.json
-          echo '--- datasets ---'
-          cat data/subtel_weighted/dataset_manifest.csv
+          echo '--- domain coverage ---'
+          cat data/subtel_microdata/harmonization_domain_coverage.csv
           echo '--- weighted processing errors ---'
           cat data/subtel_weighted/processing_errors.csv || true
 
@@ -57,6 +62,6 @@ jobs:
           if git diff --cached --quiet; then
             echo 'No changes to commit'
           else
-            git commit -m 'Build aggregate and weighted profiles from official SUBTEL survey bases'
+            git commit -m 'Build aggregate, weighted and harmonization profiles from SUBTEL surveys'
             git push
           fi
