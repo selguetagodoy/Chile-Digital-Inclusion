@@ -1,0 +1,88 @@
+column,excel_column,group_header,column_header,march_2026_total_row_value
+1,A,,,
+2,B,,,
+3,C,,Región,Total
+4,D,Conexiones ADSL,Entel-Chile S.A.,186
+5,E,Conexiones ADSL,CMET,0
+6,F,Conexiones ADSL,Telsur,6597
+7,G,Conexiones ADSL,Movistar,31
+8,H,Conexiones ADSL,CTR,403
+9,I,Conexiones ADSL,Entelphone,88
+10,J,Conexiones ADSL,GTD Manquehue,1211
+11,K,Conexiones ADSL,Telcoy,590
+12,L,Conexiones ADSL,Grupo Claro-VTR,240
+13,M,Conexiones ADSL,Netline,21
+14,N,Conexiones ADSL,Total Conexiones ADSL,9367
+15,O,Conexiones por HFC (Cable Modem),CMET,0
+16,P,Conexiones por HFC (Cable Modem),,
+17,Q,Conexiones por HFC (Cable Modem),Grupo Claro-VTR,516751
+18,R,Conexiones por HFC (Cable Modem),Mundo Pacífico,0
+19,S,Conexiones por HFC (Cable Modem),Total Conexiones HFC (Cable Modem),516751
+20,T,Conexiones WIMAX,Entel-Chile S.A.,30
+21,U,Conexiones WIMAX,CTR,34
+22,V,Conexiones WIMAX,Entelphone,4
+23,W,Conexiones WIMAX,,
+24,X,Conexiones WIMAX,Grupo Claro-VTR,0
+25,Y,Conexiones WIMAX,Total Conexiones WIMAX,68
+26,Z,Conexiones FTTX (Fibra Optica),Entel-Chile S.A.,44501
+27,AA,Conexiones FTTX (Fibra Optica),Telsur,171215
+28,AB,Conexiones FTTX (Fibra Optica),Grupo Claro-VTR,742896
+29,AC,Conexiones FTTX (Fibra Optica),Movistar,1311181
+30,AD,Conexiones FTTX (Fibra Optica),CTR,188
+31,AE,Conexiones FTTX (Fibra Optica),Entelphone,465816
+32,AF,Conexiones FTTX (Fibra Optica),STEL Access,0
+33,AG,Conexiones FTTX (Fibra Optica),GTD Manquehue,106554
+34,AH,Conexiones FTTX (Fibra Optica),Telcoy,15949
+35,AI,Conexiones FTTX (Fibra Optica),,
+36,AJ,Conexiones FTTX (Fibra Optica),Fullcom,0
+37,AK,Conexiones FTTX (Fibra Optica),Netline,13
+38,AL,Conexiones FTTX (Fibra Optica),E Money,0
+39,AM,Conexiones FTTX (Fibra Optica),Netglobalis,1387
+40,AN,Conexiones FTTX (Fibra Optica),UUNET,0
+41,AO,Conexiones FTTX (Fibra Optica),Mi Internet Spa,0
+42,AP,Conexiones FTTX (Fibra Optica),Comercial Washington Ernesto Oyarce Sazo,0
+43,AQ,Conexiones FTTX (Fibra Optica),Marco Antonio Borquez Santana Sistemas,467
+44,AR,Conexiones FTTX (Fibra Optica),Intersur Ltda.,7498
+45,AS,Conexiones FTTX (Fibra Optica),Servicios Zonales De Internet Ltda.,3083
+46,AT,Conexiones FTTX (Fibra Optica),Ingbell Chile Spa,4296
+47,AU,Conexiones FTTX (Fibra Optica),Directv,29288
+48,AV,Conexiones FTTX (Fibra Optica),Mundo Pacífico,1026796
+49,AW,Conexiones FTTX (Fibra Optica),WOM,215848
+50,AX,Conexiones FTTX (Fibra Optica),Global Crossing,653
+51,AY,Conexiones FTTX (Fibra Optica),Total Conexiones FTTX,4147629
+52,AZ,Otras Conexiones Alámbricas,AT&T Chile S.A.,
+53,BA,Otras Conexiones Alámbricas,Entel-Chile S.A.,
+54,BB,Otras Conexiones Alámbricas,Grupo Claro-VTR,10345
+55,BC,Otras Conexiones Alámbricas,Movistar,
+56,BD,Otras Conexiones Alámbricas,,
+57,BE,Otras Conexiones Alámbricas,,
+58,BF,Otras Conexiones Alámbricas,Netline,
+59,BG,Otras Conexiones Alámbricas,Netglobalis,2
+60,BH,Otras Conexiones Alámbricas,Mi Internet Spa,
+61,BI,Otras Conexiones Alámbricas,Total Otras Conexiones Alámbricas,10347
+62,BJ,Otras Conexiones Inalámbricas,Entel-Chile S.A.,325
+63,BK,Otras Conexiones Inalámbricas,Telsur,
+64,BL,Otras Conexiones Inalámbricas,Grupo Claro-VTR,10114
+65,BM,Otras Conexiones Inalámbricas,Movistar,95
+66,BN,Otras Conexiones Inalámbricas,CTR,243
+67,BO,Otras Conexiones Inalámbricas,Entelphone,1605
+68,BP,Otras Conexiones Inalámbricas,RTC,
+69,BQ,Otras Conexiones Inalámbricas,STEL Access,
+70,BR,Otras Conexiones Inalámbricas,,
+71,BS,Otras Conexiones Inalámbricas,Netline,625
+72,BT,Otras Conexiones Inalámbricas,Austro Internet,0
+73,BU,Otras Conexiones Inalámbricas,Netglobalis,53
+74,BV,Otras Conexiones Inalámbricas,Hughesnet,4409
+75,BW,Otras Conexiones Inalámbricas,Starlink,156623
+76,BX,Otras Conexiones Inalámbricas,Marco Antonio Borquez Santana Sistemas,1187
+77,BY,Otras Conexiones Inalámbricas,Ingbell Chile Spa,238
+78,BZ,Otras Conexiones Inalámbricas,Total Otras Conexiones Inalámbricas,175517
+79,CA,Otras Conexiones Inalámbricas,Total Conexiones,4859679
+80,CB,Otras Conexiones Inalámbricas,,
+81,CC,Otras Conexiones Inalámbricas,,
+82,CD,Otras Conexiones Inalámbricas,,
+83,CE,Otras Conexiones Inalámbricas,,
+84,CF,Otras Conexiones Inalámbricas,,
+85,CG,Otras Conexiones Inalámbricas,,
+86,CH,Otras Conexiones Inalámbricas,,
+87,CI,Otras Conexiones Inalámbricas,,
