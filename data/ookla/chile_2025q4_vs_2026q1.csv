@@ -1,0 +1,3 @@
+network,control_period,current_period,control_download_mbps,current_download_mbps,download_delta_mbps,download_delta_pct,control_upload_mbps,current_upload_mbps,upload_delta_mbps,upload_delta_pct,control_latency_ms,current_latency_ms,latency_delta_ms,latency_delta_pct,control_tests,current_tests
+fixed,2025Q4,2026Q1,392.099,397.329,5.23,1.334,333.084,336.119,3.035,0.911,8.713,8.955,0.242,2.777,518053,517216
+mobile,2025Q4,2026Q1,105.66,98.869,-6.791,-6.427,23.185,21.431,-1.754,-7.565,30.633,33.709,3.076,10.041,123193,125101
