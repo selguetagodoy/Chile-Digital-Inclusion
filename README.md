@@ -70,6 +70,16 @@ El pipeline publica **127 tabulados agregados** y usa el factor de expansión de
 
 Las cifras nacionales recalculadas reproducen la serie publicada con diferencias entre -0,31 y +0,05 puntos porcentuales. Para 2023–2025 no se reconstruyen quintiles desde tramos de ingreso cuando la base no entrega una categoría socioeconómica explícita y defendible.
 
+### Asequibilidad digital — SUBTEL 2023–2025
+
+`data/affordability/` agrega una capa de asequibilidad desde las propias encuestas SUBTEL. El repositorio distingue esta evidencia de los precios comerciales.
+
+`subtel_willingness_to_pay_2023_2025.csv` resume disposición máxima a pagar por conexión a Internet. En 2024 y 2025 separa fija y móvil; 2023 se mantiene como conexión no especificada porque la formulación no hace la misma distinción. Se publican media, mediana y percentiles ponderados.
+
+`subtel_cost_barriers_2023_2025.csv` mide costo del equipo, costo elevado del servicio fijo y percepción de que la fija es más cara que la móvil dentro del universo que responde el bloque de no contratación de banda ancha fija. El enrutamiento de ese bloque varía entre olas, por lo que no se fuerza una tendencia longitudinal.
+
+No se construye un índice de asequibilidad ni se divide por ingreso sin una definición longitudinal homogénea. La capa representa disposición declarada a pagar y barreras de costo, no tarifa contratada ni gasto real del hogar.
+
 ### SUBTEL — procesamiento de bases oficiales
 
 Además de las series curadas, el repositorio procesa directamente las bases públicas SPSS/SAV de SUBTEL. Actualmente cubre una base histórica de 2008 y las bases disponibles entre 2011 y 2025.
@@ -136,6 +146,7 @@ Chile-Digital-Inclusion/
 │   ├── dashboard.css
 │   └── dashboard.js
 ├── data/
+│   ├── affordability/
 │   ├── censo_2024/
 │   ├── communal_master/
 │   ├── metadata/
@@ -167,6 +178,7 @@ Los principales productos derivados tienen pipelines independientes para:
 - ponderación de hogar y persona
 - clasificación y crosswalk de variables
 - acceso SUBTEL segmentado
+- asequibilidad SUBTEL desde disposición a pagar y barreras de costo
 - descarga y control trimestral Ookla
 - agregación Ookla comunal y regional
 - cartografía comunal
