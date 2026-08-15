@@ -314,3 +314,4 @@ Los datos derivados de Ookla en `data/ookla/` se mantienen bajo los términos de
 Sebastian Elgueta Godoy
 
 Sociología, políticas públicas, telecomunicaciones e infraestructura digital.
+e.elguetagodoy@gmail.com
