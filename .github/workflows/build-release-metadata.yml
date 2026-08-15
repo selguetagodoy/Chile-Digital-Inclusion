@@ -36,20 +36,39 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Build layer catalog and file manifest
-        run: python scripts/build_release_metadata.py
-      - name: Commit metadata
+      - name: Rebuild and publish metadata safely
         run: |
+          set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/metadata/layer_catalog.csv data/metadata/release_manifest.csv
-          if git diff --cached --quiet; then
-            echo 'No release metadata changes'
-          else
+
+          for attempt in 1 2 3 4 5; do
+            echo "Metadata publication attempt ${attempt}"
+            git fetch origin main
+            git reset --hard origin/main
+
+            python scripts/build_release_metadata.py
+            git add data/metadata/layer_catalog.csv data/metadata/release_manifest.csv
+
+            if git diff --cached --quiet; then
+              echo 'Release metadata already current'
+              exit 0
+            fi
+
             git commit -m 'Refresh public layer catalog and release manifest'
-            git pull --rebase origin main
-            git push
-          fi
+            if git push origin HEAD:main; then
+              echo 'Release metadata published'
+              exit 0
+            fi
+
+            echo 'main advanced during metadata publication; rebuilding on the new head'
+            sleep $((attempt * 2))
+          done
+
+          echo 'Unable to publish release metadata after 5 rebuild attempts' >&2
+          exit 1
