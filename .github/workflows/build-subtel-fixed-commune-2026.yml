@@ -20,8 +20,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
       - name: Build commune fixed-connection layer
@@ -34,7 +34,7 @@ jobs:
           if git diff --cached --quiet; then
             echo 'No communal fixed-connection changes'
           else
-            git commit -m 'Publish SUBTEL fixed connections by commune March 2026'
+            git commit -m 'Publish corrected SUBTEL fixed connections by commune March 2026'
             git pull --rebase origin main
             git push
           fi
