@@ -10,6 +10,7 @@ on:
       - 'data/communal_master/**'
       - 'data/mobile_coverage_2025/**'
       - 'data/fixed_access_infrastructure/**'
+      - 'data/fixed_infrastructure_2026/**'
       - 'data/education_connectivity_2026/**'
       - 'data/subtel_sector_2026/**'
       - 'data/ookla/**'
@@ -18,6 +19,7 @@ on:
       - 'geo/**'
       - 'docs/reproducibility.md'
       - 'scripts/validate_public_release.py'
+      - 'scripts/validate_fixed_commune_reconstruction.py'
       - 'scripts/validate_release_metadata.py'
       - '.github/workflows/validate-public-release.yml'
   workflow_dispatch:
@@ -34,10 +36,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.12'
 
@@ -46,6 +48,9 @@ jobs:
 
       - name: Validate public data contract
         run: python scripts/validate_public_release.py
+
+      - name: Validate fixed commune reconstruction and master sync
+        run: python scripts/validate_fixed_commune_reconstruction.py
 
       - name: Validate release metadata contract
         run: python scripts/validate_release_metadata.py
