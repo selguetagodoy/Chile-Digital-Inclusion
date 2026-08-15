@@ -18,6 +18,12 @@ STRICT_WRITERS = os.getenv("STRICT_WRITERS", "0") == "1"
 
 LOCAL_SCRIPT_RE = re.compile(r"(?<![A-Za-z0-9_./-])(scripts/[A-Za-z0-9_./-]+\.(?:py|sh))")
 GLOB_CHARS = set("*?[")
+RETRY_MARKERS = (
+    "for attempt in",
+    "for i in",
+    "until git push",
+    "while ! git push",
+)
 
 
 def clean_token(token: str) -> str:
@@ -44,21 +50,33 @@ def literal_git_add_paths(text: str) -> list[str]:
     return paths
 
 
+def has_retry_loop(text: str) -> bool:
+    return any(marker in text for marker in RETRY_MARKERS)
+
+
 def writer_is_hardened(text: str) -> bool:
     if "git push" not in text:
         return True
-    retry_markers = (
-        "for attempt in",
-        "for i in",
-        "until git push",
-        "while ! git push",
-    )
-    if any(marker in text for marker in retry_markers):
+    if has_retry_loop(text):
         return True
     # A shared concurrency group serializes independent workflows that write to main.
     if re.search(r"(?m)^\s*group:\s*main-writers\s*$", text):
         return True
     return False
+
+
+def writer_has_safe_sync(text: str) -> bool:
+    """Accept rebase publishing or deterministic rebuild-on-latest-head publishing."""
+    if "git push" not in text:
+        return True
+    if "git pull --rebase origin main" in text:
+        return True
+    rebuild_on_head = (
+        "git fetch origin main" in text
+        and "git reset --hard origin/main" in text
+        and has_retry_loop(text)
+    )
+    return rebuild_on_head
 
 
 def main() -> int:
@@ -91,8 +109,10 @@ def main() -> int:
                 f"{rel}: writes to main without retry loop or shared main-writers concurrency"
             )
 
-        if "git push" in text and "git pull --rebase origin main" not in text:
-            warnings.append(f"{rel}: git push is not preceded by pull --rebase origin main")
+        if "git push" in text and not writer_has_safe_sync(text):
+            warnings.append(
+                f"{rel}: git push lacks a safe sync strategy (pull --rebase or rebuild on latest origin/main)"
+            )
 
     print(f"workflows_scanned={len(workflows)}")
     print(f"errors={len(errors)}")
