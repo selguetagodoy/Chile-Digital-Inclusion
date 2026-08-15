@@ -34,8 +34,10 @@ fixed_subscription_rows,PASS,346 commune rows
 fixed_subscription_reported,PASS,342 communes reported by source
 fixed_subscription_unmatched_source,PASS,0 unresolved source rows
 fixed_subscription_source_not_reported,PASS,4 catalogue communes not reported by source
+fixed_subscription_expected_source_not_reported,PASS,"codes=[10105, 10207, 10303, 13121] expected=[10105, 10207, 10303, 13121]"
 geo_features,PASS,345 BCN commune polygons
 geo_codes_in_master,PASS,345 geometry codes found in master
+geo_expected_missing_commune,PASS,missing=[12202] expected=[12202] (Antártica only)
 sector_required_indicators,PASS,missing=[]
 ookla_networks,PASS,"networks=['fixed', 'mobile']"
 education_program_records,PASS,793 program records
