@@ -3,9 +3,10 @@
 
 The workbook's commune labels are stale/misaligned after the Biobío/Ñuble split,
 but March-2026 values remain organized in 16 formula-defined regional blocks.
-This builder maps numeric rows inside each regional block to the current official
-commune catalogue in normalized alphabetical order and requires exact count and
-subtotal reconciliation for both total and residential connections.
+This builder maps rows inside each regional block to the current official commune
+catalogue in normalized alphabetical order and requires exact count and subtotal
+reconciliation for both total and residential connections. An explicit blank in
+a one-row-per-commune block is preserved as source_blank rather than imputed zero.
 """
 from __future__ import annotations
 
@@ -28,6 +29,7 @@ OUT = Path("data/fixed_infrastructure_2026")
 OUT.mkdir(parents=True, exist_ok=True)
 ALIASES = {"calera": "la calera", "aisen": "aysen", "coihaique": "coyhaique", "treguaco": "trehuaco", "til til": "tiltil"}
 REGION_CODES = list(range(1, 17))
+EXPECTED_SOURCE_BLANK_CODES = {12202}
 
 
 def norm(s):
@@ -86,7 +88,6 @@ def regional_formula_blocks(ws_values, ws_formulas, target_col):
                 "start_row": int(m.group(1)),
                 "end_row": int(m.group(2)),
                 "subtotal": as_int(ws_values.cell(rn, target_col).value),
-                "formula": formula,
             }
         )
     if len(blocks) != 16:
@@ -105,26 +106,36 @@ def build_metric(ws_values, ws_formulas, target_col, catalogue_by_region, metric
     for block in regional_formula_blocks(ws_values, ws_formulas, target_col):
         region = block["region"]
         communes = catalogue_by_region[region]
-        observations = []
+        block_slots = []
         for rn in range(block["start_row"], block["end_row"] + 1):
             formula = clean(ws_formulas.cell(rn, target_col).value)
-            if formula.startswith("="):
-                continue
-            value = as_int(ws_values.cell(rn, target_col).value)
-            if value is None:
-                continue
-            observations.append((rn, clean(ws_values.cell(rn, 3).value), value))
+            source_label = clean(ws_values.cell(rn, 3).value)
+            value = None if formula.startswith("=") else as_int(ws_values.cell(rn, target_col).value)
+            block_slots.append((rn, source_label, value))
+
+        # When the formula range has exactly one row per current commune, preserve
+        # blank cells positionally. Otherwise remove non-numeric auxiliary rows
+        # such as historical "Sin clasificación" rows and require the remaining
+        # numeric observations to equal the current commune count.
+        if len(block_slots) == len(communes):
+            observations = block_slots
+        else:
+            observations = [slot for slot in block_slots if slot[2] is not None]
 
         count_ok = len(observations) == len(communes)
-        value_sum = sum(v for _, _, v in observations)
+        value_sum = sum(v for _, _, v in observations if v is not None)
         subtotal = block["subtotal"]
         subtotal_ok = subtotal is not None and value_sum == subtotal
         label_matches = 0
+        blank_slots = 0
 
         if count_ok:
             for commune, (rn, source_label, value) in zip(communes, observations):
                 code = int(commune["comuna"])
-                mapped[code] = value
+                if value is not None:
+                    mapped[code] = value
+                else:
+                    blank_slots += 1
                 if norm(source_label) == norm(commune["comuna_nombre"]):
                     label_matches += 1
                 provenance.append(
@@ -135,7 +146,8 @@ def build_metric(ws_values, ws_formulas, target_col, catalogue_by_region, metric
                         "source_commune_label": source_label,
                         "mapped_commune": code,
                         "mapped_commune_name": commune["comuna_nombre"],
-                        "value": value,
+                        "value": "" if value is None else value,
+                        "source_cell_status": "blank" if value is None else "numeric",
                         "mapping_method": "regional_formula_block_order",
                         "block_start_row": block["start_row"],
                         "block_end_row": block["end_row"],
@@ -149,9 +161,11 @@ def build_metric(ws_values, ws_formulas, target_col, catalogue_by_region, metric
                 "region": region,
                 "block_start_row": block["start_row"],
                 "block_end_row": block["end_row"],
+                "block_rows": len(block_slots),
                 "regional_subtotal_row": block["subtotal_row"],
-                "numeric_commune_rows": len(observations),
+                "mapped_commune_slots": len(observations),
                 "catalogue_communes": len(communes),
+                "source_blank_slots": blank_slots,
                 "regional_subtotal": subtotal,
                 "mapped_value_sum": value_sum,
                 "subtotal_delta": "" if subtotal is None else value_sum - subtotal,
@@ -222,7 +236,7 @@ def main():
         total = metric_maps["total_fixed_connections_2026m03"].get(code)
         residential = metric_maps["residential_fixed_connections_2026m03"].get(code)
         share = round(residential / total * 100, 4) if total and residential is not None else None
-        status = "reported" if total is not None and residential is not None else "source_not_reported"
+        status = "reported" if total is not None and residential is not None else "source_blank"
         output_rows.append(
             [
                 r["region"], r["region_nombre"], r["provincia"], r["provincia_nombre"], r["comuna"], r["comuna_nombre"],
@@ -230,7 +244,7 @@ def main():
             ]
         )
         if status != "reported":
-            missing.append([r["region"], r["region_nombre"], r["comuna"], r["comuna_nombre"], total, residential])
+            missing.append([r["region"], r["region_nombre"], r["comuna"], r["comuna_nombre"], total, residential, status])
 
     with (OUT / "commune_fixed_connections_2026_03.csv").open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
@@ -243,24 +257,24 @@ def main():
 
     with (OUT / "source_match_qa.csv").open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
-        w.writerow(["metric", "region", "block_start_row", "block_end_row", "numeric_rows", "catalogue_communes", "regional_subtotal", "mapped_value_sum"])
+        w.writerow(["metric", "region", "block_start_row", "block_end_row", "mapped_slots", "catalogue_communes", "regional_subtotal", "mapped_value_sum"])
         w.writerows(all_issues)
 
     with (OUT / "source_not_reported_communes.csv").open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
-        w.writerow(["region", "region_nombre", "comuna", "comuna_nombre", "fixed_connections_total", "fixed_connections_residential"])
+        w.writerow(["region", "region_nombre", "comuna", "comuna_nombre", "fixed_connections_total", "fixed_connections_residential", "source_status"])
         w.writerows(missing)
 
     alignment_fields = [
-        "metric", "region", "block_start_row", "block_end_row", "regional_subtotal_row", "numeric_commune_rows",
-        "catalogue_communes", "regional_subtotal", "mapped_value_sum", "subtotal_delta",
-        "source_labels_matching_mapped_names", "count_status", "subtotal_status",
+        "metric", "region", "block_start_row", "block_end_row", "block_rows", "regional_subtotal_row",
+        "mapped_commune_slots", "catalogue_communes", "source_blank_slots", "regional_subtotal", "mapped_value_sum",
+        "subtotal_delta", "source_labels_matching_mapped_names", "count_status", "subtotal_status",
     ]
     write_dict_csv(OUT / "source_alignment_qa.csv", alignment_fields, all_alignment)
 
     provenance_fields = [
         "metric", "region", "source_row", "source_commune_label", "mapped_commune", "mapped_commune_name", "value",
-        "mapping_method", "block_start_row", "block_end_row", "regional_subtotal_row",
+        "source_cell_status", "mapping_method", "block_start_row", "block_end_row", "regional_subtotal_row",
     ]
     write_dict_csv(OUT / "source_row_mapping_2026_03.csv", provenance_fields, all_provenance)
 
@@ -272,12 +286,13 @@ def main():
 
     total_count = len(metric_maps["total_fixed_connections_2026m03"])
     residential_count = len(metric_maps["residential_fixed_connections_2026m03"])
-    print(f"communes total fixed reported: {total_count}/346")
-    print(f"communes residential fixed reported: {residential_count}/346")
-    print(f"catalogue communes not reported: {len(missing)}")
+    missing_codes = {int(r[2]) for r in missing}
+    print(f"communes total fixed numeric: {total_count}/346")
+    print(f"communes residential fixed numeric: {residential_count}/346")
+    print(f"explicit source blanks: {len(missing)} {sorted(missing_codes)}")
     print(f"regional alignment checks: {len(all_alignment)} all pass")
-    if total_count != 346 or residential_count != 346 or missing:
-        raise SystemExit("Formula-block reconstruction did not recover all 346 communes")
+    if total_count != 345 or residential_count != 345 or missing_codes != EXPECTED_SOURCE_BLANK_CODES:
+        raise SystemExit("Unexpected formula-block reconstruction coverage")
 
 
 if __name__ == "__main__":
