@@ -104,13 +104,15 @@ La metodología está en `docs/subtel_mobile_network_points_2025.md`.
 
 ### Conexiones fijas por comuna — SUBTEL marzo 2026
 
-`data/fixed_infrastructure_2026/` extrae directamente del workbook administrativo oficial las hojas `7.11.CO_FIJAS_COMUNA` y `7.11.1.CO_FIJAS_RES_COMUNA` para marzo de 2026.
+`data/fixed_infrastructure_2026/` reconstruye el corte comunal de marzo de 2026 desde las hojas oficiales `7.11.CO_FIJAS_COMUNA` y `7.11.1.CO_FIJAS_RES_COMUNA`.
 
-La fuente reporta **342 de las 346 comunas** del catálogo territorial. Frutillar, Queilén, Purranque y Pedro Aguirre Cerda no aparecen reportadas en esas hojas para el corte utilizado y se mantienen como faltantes; no se imputan como cero. El control de nombres fuente no deja filas comunales sin resolver.
+El workbook mantiene etiquetas comunales desalineadas en parte de la hoja después de la separación territorial Biobío–Ñuble. Por esa razón el pipeline **no empareja ciegamente nombre y celda**. Delimita los 16 bloques regionales mediante sus fórmulas de subtotal, ordena el catálogo comunal con la nomenclatura de la fuente y exige, para conexiones totales y residenciales, coincidencia en el número de comunas y conciliación exacta contra cada subtotal regional. Las 32 verificaciones regionales publicadas tienen delta cero.
+
+El resultado recupera valores numéricos para **345 de 346 comunas**. La única excepción es Antártica (12202), cuya posición comunal está presente en el bloque regional pero la celda fuente está explícitamente vacía; se conserva como `source_blank` y **no se imputa como cero**.
 
 El maestro integrado incorpora conexiones fijas totales, conexiones residenciales, participación residencial y una razón de conexiones residenciales por 100 hogares del Censo 2024. Esta última es una intensidad administrativa descriptiva y **no debe interpretarse como porcentaje de cobertura de hogares**.
 
-La trazabilidad está en `data/fixed_infrastructure_2026/extraction_manifest.csv` y la metodología en `data/fixed_infrastructure_2026/README.md`.
+La trazabilidad incluye `extraction_manifest.csv`, `source_alignment_qa.csv` y `source_row_mapping_2026_03.csv`. El audit de las filas originales se publica además en `data/subtel_sector_series/fixed_commune_source_rows_2026_03.csv`.
 
 ### Infraestructura fija pública — SUBTEL RedAcceso
 
