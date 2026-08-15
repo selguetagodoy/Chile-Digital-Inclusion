@@ -17,6 +17,7 @@ FIXED_QA = ROOT / 'data/fixed_access_infrastructure/presence_query_qa.csv'
 FIXED_SUB = ROOT / 'data/fixed_infrastructure_2026/commune_fixed_connections_2026_03.csv'
 FIXED_SUB_QA = ROOT / 'data/fixed_infrastructure_2026/source_match_qa.csv'
 FIXED_SUB_MISSING = ROOT / 'data/fixed_infrastructure_2026/source_not_reported_communes.csv'
+FIXED_SUB_ALIGNMENT = ROOT / 'data/fixed_infrastructure_2026/source_alignment_qa.csv'
 SECTOR = ROOT / 'data/subtel_sector_2026/sector_snapshot_2026q1.csv'
 OOKLA = ROOT / 'data/ookla/chile_2026q1_summary.csv'
 EDU_EST = ROOT / 'data/education_connectivity_2026/aulas_conectadas_2025_establishments.csv'
@@ -28,7 +29,7 @@ JS = ROOT / 'assets/dashboard.js'
 CSS = ROOT / 'assets/dashboard.css'
 REPORT = ROOT / 'data/metadata/public_release_validation.csv'
 
-EXPECTED_FIXED_SOURCE_NOT_REPORTED = {10105, 10207, 10303, 13121}
+EXPECTED_FIXED_SOURCE_BLANK = {12202}  # Antártica: explicit blank in the official March-2026 source block.
 EXPECTED_GEO_MISSING = {12202}  # Antártica: absent from the BCN commune polygon layer used here.
 
 REQUIRED_MASTER = {
@@ -77,7 +78,12 @@ def qa_value(rows, metric):
 
 def main() -> None:
     results = []
-    required_files = [MASTER, GEO, MOBILE, MOBILE_QA, FIXED, FIXED_QA, FIXED_SUB, FIXED_SUB_QA, FIXED_SUB_MISSING, SECTOR, OOKLA, EDU_EST, EDU_ENRICHED, EDU_COMMUNES, EDU_QA, INDEX, JS, CSS]
+    required_files = [
+        MASTER, GEO, MOBILE, MOBILE_QA, FIXED, FIXED_QA,
+        FIXED_SUB, FIXED_SUB_QA, FIXED_SUB_MISSING, FIXED_SUB_ALIGNMENT,
+        SECTOR, OOKLA, EDU_EST, EDU_ENRICHED, EDU_COMMUNES, EDU_QA,
+        INDEX, JS, CSS,
+    ]
     for path in required_files:
         results.append(check(f'file:{path}', path.exists(), 'required public file exists'))
 
@@ -119,14 +125,34 @@ def main() -> None:
     fixed_sub_unmatched = read_csv(FIXED_SUB_QA)
     fixed_sub_missing = read_csv(FIXED_SUB_MISSING)
     fixed_sub_missing_codes = {int(r['comuna']) for r in fixed_sub_missing}
+    fixed_sub_alignment = read_csv(FIXED_SUB_ALIGNMENT)
+    alignment_bad = [
+        r for r in fixed_sub_alignment
+        if r.get('count_status') != 'pass'
+        or r.get('subtotal_status') != 'pass'
+        or r.get('label_order_status') != 'pass'
+        or str(r.get('subtotal_delta', '')) not in {'0', '0.0'}
+    ]
+    source_blank_statuses = {r.get('source_status') for r in fixed_sub_missing}
+
     results.append(check('fixed_subscription_rows', len(fixed_sub) == 346, f'{len(fixed_sub)} commune rows'))
-    results.append(check('fixed_subscription_reported', fixed_sub_reported == 342, f'{fixed_sub_reported} communes reported by source'))
-    results.append(check('fixed_subscription_unmatched_source', len(fixed_sub_unmatched) == 0, f'{len(fixed_sub_unmatched)} unresolved source rows'))
-    results.append(check('fixed_subscription_source_not_reported', len(fixed_sub_missing) == 4, f'{len(fixed_sub_missing)} catalogue communes not reported by source'))
+    results.append(check('fixed_subscription_reported', fixed_sub_reported == 345, f'{fixed_sub_reported} communes with numeric source values'))
+    results.append(check('fixed_subscription_unmatched_source', len(fixed_sub_unmatched) == 0, f'{len(fixed_sub_unmatched)} unresolved regional reconciliation issues'))
+    results.append(check('fixed_subscription_source_blank_rows', len(fixed_sub_missing) == 1, f'{len(fixed_sub_missing)} explicit source blank rows'))
     results.append(check(
-        'fixed_subscription_expected_source_not_reported',
-        fixed_sub_missing_codes == EXPECTED_FIXED_SOURCE_NOT_REPORTED,
-        f'codes={sorted(fixed_sub_missing_codes)} expected={sorted(EXPECTED_FIXED_SOURCE_NOT_REPORTED)}',
+        'fixed_subscription_expected_source_blank',
+        fixed_sub_missing_codes == EXPECTED_FIXED_SOURCE_BLANK,
+        f'codes={sorted(fixed_sub_missing_codes)} expected={sorted(EXPECTED_FIXED_SOURCE_BLANK)}',
+    ))
+    results.append(check(
+        'fixed_subscription_source_blank_status',
+        source_blank_statuses == {'source_blank'},
+        f'statuses={sorted(source_blank_statuses)}',
+    ))
+    results.append(check(
+        'fixed_subscription_regional_alignment',
+        len(fixed_sub_alignment) == 32 and not alignment_bad,
+        f'checks={len(fixed_sub_alignment)} failed={len(alignment_bad)}; 16 regions × total/residential expected',
     ))
 
     with GEO.open(encoding='utf-8') as fh:
