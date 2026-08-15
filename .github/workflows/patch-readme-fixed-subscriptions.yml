@@ -11,12 +11,16 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: main-writers
+  cancel-in-progress: false
+
 jobs:
   patch:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
       - run: python scripts/patch_readme_fixed_subscriptions.py
@@ -28,7 +32,7 @@ jobs:
           if git diff --cached --quiet; then
             echo 'No README changes'
           else
-            git commit -m 'Document SUBTEL fixed subscriptions by commune'
+            git commit -m 'Document reconciled SUBTEL fixed subscriptions by commune'
             for attempt in 1 2 3 4; do
               git pull --rebase origin main
               if git push; then
