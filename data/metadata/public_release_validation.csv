@@ -8,6 +8,7 @@ file:data/fixed_access_infrastructure/presence_query_qa.csv,PASS,required public
 file:data/fixed_infrastructure_2026/commune_fixed_connections_2026_03.csv,PASS,required public file exists
 file:data/fixed_infrastructure_2026/source_match_qa.csv,PASS,required public file exists
 file:data/fixed_infrastructure_2026/source_not_reported_communes.csv,PASS,required public file exists
+file:data/fixed_infrastructure_2026/source_alignment_qa.csv,PASS,required public file exists
 file:data/subtel_sector_2026/sector_snapshot_2026q1.csv,PASS,required public file exists
 file:data/ookla/chile_2026q1_summary.csv,PASS,required public file exists
 file:data/education_connectivity_2026/aulas_conectadas_2025_establishments.csv,PASS,required public file exists
@@ -31,10 +32,12 @@ fixed_presence_max_operators,PASS,max operators/entities present=4
 fixed_presence_queries,PASS,2076 commune × layer queries
 fixed_presence_query_failures,PASS,failed=0
 fixed_subscription_rows,PASS,346 commune rows
-fixed_subscription_reported,PASS,342 communes reported by source
-fixed_subscription_unmatched_source,PASS,0 unresolved source rows
-fixed_subscription_source_not_reported,PASS,4 catalogue communes not reported by source
-fixed_subscription_expected_source_not_reported,PASS,"codes=[10105, 10207, 10303, 13121] expected=[10105, 10207, 10303, 13121]"
+fixed_subscription_reported,PASS,345 communes with numeric source values
+fixed_subscription_unmatched_source,PASS,0 unresolved regional reconciliation issues
+fixed_subscription_source_blank_rows,PASS,1 explicit source blank rows
+fixed_subscription_expected_source_blank,PASS,codes=[12202] expected=[12202]
+fixed_subscription_source_blank_status,PASS,statuses=['source_blank']
+fixed_subscription_regional_alignment,PASS,checks=32 failed=0; 16 regions × total/residential expected
 geo_features,PASS,345 BCN commune polygons
 geo_codes_in_master,PASS,345 geometry codes found in master
 geo_expected_missing_commune,PASS,missing=[12202] expected=[12202] (Antártica only)
