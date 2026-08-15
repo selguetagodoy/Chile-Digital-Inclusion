@@ -1,0 +1,783 @@
+metric,source_sheet,source_row,region_label,carried_region,commune_label,march_2026_value,march_2026_formula,is_formula
+total,7.11.CO_FIJAS_COMUNA,10,1,1,Alto Hospicio,25233,,no
+total,7.11.CO_FIJAS_COMUNA,11,,1,Camiña,57,,no
+total,7.11.CO_FIJAS_COMUNA,12,,1,Colchane,149,,no
+total,7.11.CO_FIJAS_COMUNA,13,,1,Huara,352,,no
+total,7.11.CO_FIJAS_COMUNA,14,,1,Iquique,58491,,no
+total,7.11.CO_FIJAS_COMUNA,15,,1,Pica,791,,no
+total,7.11.CO_FIJAS_COMUNA,16,,1,Pozo Almonte,2890,,no
+total,7.11.CO_FIJAS_COMUNA,17,,1,Sin clasificación,,,no
+total,7.11.CO_FIJAS_COMUNA,18,Total 1,1,,87963,=SUM(GV10:GV17),yes
+total,7.11.CO_FIJAS_COMUNA,19,2,2,Antofagasta,120596,,no
+total,7.11.CO_FIJAS_COMUNA,20,,2,Calama,48122,,no
+total,7.11.CO_FIJAS_COMUNA,21,,2,María Elena,1428,,no
+total,7.11.CO_FIJAS_COMUNA,22,,2,Mejillones,3185,,no
+total,7.11.CO_FIJAS_COMUNA,23,,2,Ollagüe,59,,no
+total,7.11.CO_FIJAS_COMUNA,24,,2,San Pedro de Atacama,1663,,no
+total,7.11.CO_FIJAS_COMUNA,25,,2,Sierra Gorda,926,,no
+total,7.11.CO_FIJAS_COMUNA,26,,2,Taltal,3217,,no
+total,7.11.CO_FIJAS_COMUNA,27,,2,Tocopilla,6817,,no
+total,7.11.CO_FIJAS_COMUNA,28,Total 2,2,,186013,=SUM(GV19:GV27),yes
+total,7.11.CO_FIJAS_COMUNA,29,3,3,Alto Del Carmen,228,,no
+total,7.11.CO_FIJAS_COMUNA,30,,3,Caldera,5222,,no
+total,7.11.CO_FIJAS_COMUNA,31,,3,Chañaral,2427,,no
+total,7.11.CO_FIJAS_COMUNA,32,,3,Copiapó,46317,,no
+total,7.11.CO_FIJAS_COMUNA,33,,3,Diego de Almagro,2432,,no
+total,7.11.CO_FIJAS_COMUNA,34,,3,Freirina,364,,no
+total,7.11.CO_FIJAS_COMUNA,35,,3,Huasco,1617,,no
+total,7.11.CO_FIJAS_COMUNA,36,,3,Tierra Amarilla,2276,,no
+total,7.11.CO_FIJAS_COMUNA,37,,3,Vallenar,13992,,no
+total,7.11.CO_FIJAS_COMUNA,38,,3,Sin clasificación,,,no
+total,7.11.CO_FIJAS_COMUNA,39,Total 3,3,,74875,=SUM(GV29:GV38),yes
+total,7.11.CO_FIJAS_COMUNA,40,4,4,Andacollo,1727,,no
+total,7.11.CO_FIJAS_COMUNA,41,,4,Canela,1199,,no
+total,7.11.CO_FIJAS_COMUNA,42,,4,Combarbalá,1469,,no
+total,7.11.CO_FIJAS_COMUNA,43,,4,Coquimbo,75274,,no
+total,7.11.CO_FIJAS_COMUNA,44,,4,Illapel,5342,,no
+total,7.11.CO_FIJAS_COMUNA,45,,4,La Higuera,450,,no
+total,7.11.CO_FIJAS_COMUNA,46,,4,La Serena,80881,,no
+total,7.11.CO_FIJAS_COMUNA,47,,4,Los Vilos,5996,,no
+total,7.11.CO_FIJAS_COMUNA,48,,4,Monte Patria,2333,,no
+total,7.11.CO_FIJAS_COMUNA,49,,4,Ovalle,21612,,no
+total,7.11.CO_FIJAS_COMUNA,50,,4,Paihuano,177,,no
+total,7.11.CO_FIJAS_COMUNA,51,,4,Punitaqui,1267,,no
+total,7.11.CO_FIJAS_COMUNA,52,,4,Río Hurtado,172,,no
+total,7.11.CO_FIJAS_COMUNA,53,,4,Salamanca,2287,,no
+total,7.11.CO_FIJAS_COMUNA,54,,4,Vicuña,3243,,no
+total,7.11.CO_FIJAS_COMUNA,55,,4,Sin clasificación,,,no
+total,7.11.CO_FIJAS_COMUNA,56,Total 4,4,,203429,=SUM(GV40:GV55),yes
+total,7.11.CO_FIJAS_COMUNA,57,5,5,Algarrobo,8881,,no
+total,7.11.CO_FIJAS_COMUNA,58,,5,Cabildo,2587,,no
+total,7.11.CO_FIJAS_COMUNA,59,,5,Calera,14004,,no
+total,7.11.CO_FIJAS_COMUNA,60,,5,Calle Larga,4427,,no
+total,7.11.CO_FIJAS_COMUNA,61,,5,Cartagena,7272,,no
+total,7.11.CO_FIJAS_COMUNA,62,,5,Casablanca,6193,,no
+total,7.11.CO_FIJAS_COMUNA,63,,5,Catemu,1870,,no
+total,7.11.CO_FIJAS_COMUNA,64,,5,Concón,20753,,no
+total,7.11.CO_FIJAS_COMUNA,65,,5,El Quisco,8618,,no
+total,7.11.CO_FIJAS_COMUNA,66,,5,El Tabo,7770,,no
+total,7.11.CO_FIJAS_COMUNA,67,,5,Hijuelas,3768,,no
+total,7.11.CO_FIJAS_COMUNA,68,,5,Isla de Pascua,2542,,no
+total,7.11.CO_FIJAS_COMUNA,69,,5,Juan Fernández,236,,no
+total,7.11.CO_FIJAS_COMUNA,70,,5,La Cruz,7449,,no
+total,7.11.CO_FIJAS_COMUNA,71,,5,La Ligua,8011,,no
+total,7.11.CO_FIJAS_COMUNA,72,,5,Limache,15099,,no
+total,7.11.CO_FIJAS_COMUNA,73,,5,Llaillay,5647,,no
+total,7.11.CO_FIJAS_COMUNA,74,,5,Los Andes,22063,,no
+total,7.11.CO_FIJAS_COMUNA,75,,5,Nogales,4543,,no
+total,7.11.CO_FIJAS_COMUNA,76,,5,Olmué,4634,,no
+total,7.11.CO_FIJAS_COMUNA,77,,5,Panquehue,1657,,no
+total,7.11.CO_FIJAS_COMUNA,78,,5,Papudo,2662,,no
+total,7.11.CO_FIJAS_COMUNA,79,,5,Petorca,886,,no
+total,7.11.CO_FIJAS_COMUNA,80,,5,Puchuncaví,8791,,no
+total,7.11.CO_FIJAS_COMUNA,81,,5,Putaendo,2828,,no
+total,7.11.CO_FIJAS_COMUNA,82,,5,Quillota,27359,,no
+total,7.11.CO_FIJAS_COMUNA,83,,5,Quilpué,54829,,no
+total,7.11.CO_FIJAS_COMUNA,84,,5,Quintero,9581,,no
+total,7.11.CO_FIJAS_COMUNA,85,,5,Rinconada,3023,,no
+total,7.11.CO_FIJAS_COMUNA,86,,5,San Antonio,25163,,no
+total,7.11.CO_FIJAS_COMUNA,87,,5,San Esteban,4126,,no
+total,7.11.CO_FIJAS_COMUNA,88,,5,San Felipe,20317,,no
+total,7.11.CO_FIJAS_COMUNA,89,,5,Santa María,2573,,no
+total,7.11.CO_FIJAS_COMUNA,90,,5,Santo Domingo,5090,,no
+total,7.11.CO_FIJAS_COMUNA,91,,5,Valparaíso,88512,,no
+total,7.11.CO_FIJAS_COMUNA,92,,5,Villa Alemana,49009,,no
+total,7.11.CO_FIJAS_COMUNA,93,,5,Viña del Mar,126819,,no
+total,7.11.CO_FIJAS_COMUNA,94,,5,Zapallar,3388,,no
+total,7.11.CO_FIJAS_COMUNA,95,Total 5,5,,592980,=SUM(GV57:GV94),yes
+total,7.11.CO_FIJAS_COMUNA,96,6,6,Chépica,1142,,no
+total,7.11.CO_FIJAS_COMUNA,97,,6,Chimbarongo,3714,,no
+total,7.11.CO_FIJAS_COMUNA,98,,6,Codegua,1672,,no
+total,7.11.CO_FIJAS_COMUNA,99,,6,Coinco,1513,,no
+total,7.11.CO_FIJAS_COMUNA,100,,6,Coltauco,3776,,no
+total,7.11.CO_FIJAS_COMUNA,101,,6,Doñihue,4477,,no
+total,7.11.CO_FIJAS_COMUNA,102,,6,Graneros,9191,,no
+total,7.11.CO_FIJAS_COMUNA,103,,6,La Estrella,602,,no
+total,7.11.CO_FIJAS_COMUNA,104,,6,Las Cabras,2245,,no
+total,7.11.CO_FIJAS_COMUNA,105,,6,Litueche,1240,,no
+total,7.11.CO_FIJAS_COMUNA,106,,6,Lolol,672,,no
+total,7.11.CO_FIJAS_COMUNA,107,,6,Machalí,18088,,no
+total,7.11.CO_FIJAS_COMUNA,108,,6,Malloa,1295,,no
+total,7.11.CO_FIJAS_COMUNA,109,,6,Marchihue,635,,no
+total,7.11.CO_FIJAS_COMUNA,110,,6,Mostazal,4835,,no
+total,7.11.CO_FIJAS_COMUNA,111,,6,Nancagua,2462,,no
+total,7.11.CO_FIJAS_COMUNA,112,,6,Navidad,2240,,no
+total,7.11.CO_FIJAS_COMUNA,113,,6,Olivar,2648,,no
+total,7.11.CO_FIJAS_COMUNA,114,,6,Palmilla,539,,no
+total,7.11.CO_FIJAS_COMUNA,115,,6,Paredones,270,,no
+total,7.11.CO_FIJAS_COMUNA,116,,6,Peralillo,926,,no
+total,7.11.CO_FIJAS_COMUNA,117,,6,Peumo,1468,,no
+total,7.11.CO_FIJAS_COMUNA,118,,6,Pichidegua,1826,,no
+total,7.11.CO_FIJAS_COMUNA,119,,6,Pichilemu,5930,,no
+total,7.11.CO_FIJAS_COMUNA,120,,6,Placilla,365,,no
+total,7.11.CO_FIJAS_COMUNA,121,,6,Pumanque,144,,no
+total,7.11.CO_FIJAS_COMUNA,122,,6,Quinta de Tilcoco,2309,,no
+total,7.11.CO_FIJAS_COMUNA,123,,6,Rancagua,78248,,no
+total,7.11.CO_FIJAS_COMUNA,124,,6,Rengo,15316,,no
+total,7.11.CO_FIJAS_COMUNA,125,,6,Requinoa,4372,,no
+total,7.11.CO_FIJAS_COMUNA,126,,6,San Fernando,18763,,no
+total,7.11.CO_FIJAS_COMUNA,127,,6,San Vicente,6644,,no
+total,7.11.CO_FIJAS_COMUNA,128,,6,Santa Cruz,7082,,no
+total,7.11.CO_FIJAS_COMUNA,129,Total 6,6,,206649,=SUM(GV96:GV128),yes
+total,7.11.CO_FIJAS_COMUNA,130,7,7,Cauquenes,9576,,no
+total,7.11.CO_FIJAS_COMUNA,131,,7,Chanco,416,,no
+total,7.11.CO_FIJAS_COMUNA,132,,7,Colbún,1626,,no
+total,7.11.CO_FIJAS_COMUNA,133,,7,Constitución,8120,,no
+total,7.11.CO_FIJAS_COMUNA,134,,7,Curepto,388,,no
+total,7.11.CO_FIJAS_COMUNA,135,,7,Curicó,47247,,no
+total,7.11.CO_FIJAS_COMUNA,136,,7,Empedrado,278,,no
+total,7.11.CO_FIJAS_COMUNA,137,,7,Hualañé,915,,no
+total,7.11.CO_FIJAS_COMUNA,138,,7,Licantén,1498,,no
+total,7.11.CO_FIJAS_COMUNA,139,,7,Linares,20174,,no
+total,7.11.CO_FIJAS_COMUNA,140,,7,Longaví,4314,,no
+total,7.11.CO_FIJAS_COMUNA,141,,7,Maule,10095,,no
+total,7.11.CO_FIJAS_COMUNA,142,,7,Molina,6003,,no
+total,7.11.CO_FIJAS_COMUNA,143,,7,Parral,11498,,no
+total,7.11.CO_FIJAS_COMUNA,144,,7,Pelarco,410,,no
+total,7.11.CO_FIJAS_COMUNA,145,,7,Pelluhue,1831,,no
+total,7.11.CO_FIJAS_COMUNA,146,,7,Pencahue,588,,no
+total,7.11.CO_FIJAS_COMUNA,147,,7,Rauco,1323,,no
+total,7.11.CO_FIJAS_COMUNA,148,,7,Retiro,3684,,no
+total,7.11.CO_FIJAS_COMUNA,149,,7,Río Claro,875,,no
+total,7.11.CO_FIJAS_COMUNA,150,,7,Romeral,2762,,no
+total,7.11.CO_FIJAS_COMUNA,151,,7,Sagrada Familia,308,,no
+total,7.11.CO_FIJAS_COMUNA,152,,7,San Clemente,5504,,no
+total,7.11.CO_FIJAS_COMUNA,153,,7,San Javier,6633,,no
+total,7.11.CO_FIJAS_COMUNA,154,,7,San Rafael,764,,no
+total,7.11.CO_FIJAS_COMUNA,155,,7,Talca,68314,,no
+total,7.11.CO_FIJAS_COMUNA,156,,7,Teno,2497,,no
+total,7.11.CO_FIJAS_COMUNA,157,,7,Vichuquén,807,,no
+total,7.11.CO_FIJAS_COMUNA,158,,7,Villa Alegre,1426,,no
+total,7.11.CO_FIJAS_COMUNA,159,,7,Yerbas Buenas,1661,,no
+total,7.11.CO_FIJAS_COMUNA,160,Total 7,7,,221535,=SUM(GV130:GV159),yes
+total,7.11.CO_FIJAS_COMUNA,161,8,8,Alto Biobío,384,,no
+total,7.11.CO_FIJAS_COMUNA,162,,8,Antuco,203,,no
+total,7.11.CO_FIJAS_COMUNA,163,,8,Arauco,8677,,no
+total,7.11.CO_FIJAS_COMUNA,164,,8,Bulnes,5656,,no
+total,7.11.CO_FIJAS_COMUNA,165,,8,Cabrero,5476,,no
+total,7.11.CO_FIJAS_COMUNA,166,,8,Cañete,26835,,no
+total,7.11.CO_FIJAS_COMUNA,167,,8,Chiguayante,94519,,no
+total,7.11.CO_FIJAS_COMUNA,168,,8,Chillán,1102,,no
+total,7.11.CO_FIJAS_COMUNA,169,,8,Chillán Viejo,38312,,no
+total,7.11.CO_FIJAS_COMUNA,170,,8,Cobquecura,8253,,no
+total,7.11.CO_FIJAS_COMUNA,171,,8,Coelemu,1518,,no
+total,7.11.CO_FIJAS_COMUNA,172,,8,Coihueco,28548,,no
+total,7.11.CO_FIJAS_COMUNA,173,,8,Concepción,6572,,no
+total,7.11.CO_FIJAS_COMUNA,174,,8,Contulmo,4188,,no
+total,7.11.CO_FIJAS_COMUNA,175,,8,Coronel,6327,,no
+total,7.11.CO_FIJAS_COMUNA,176,,8,Curanilahue,4910,,no
+total,7.11.CO_FIJAS_COMUNA,177,,8,El Carmen,59247,,no
+total,7.11.CO_FIJAS_COMUNA,178,,8,Florida,11552,,no
+total,7.11.CO_FIJAS_COMUNA,179,,8,Hualpén,5071,,no
+total,7.11.CO_FIJAS_COMUNA,180,,8,Hualqui,5696,,no
+total,7.11.CO_FIJAS_COMUNA,181,,8,Laja,854,,no
+total,7.11.CO_FIJAS_COMUNA,182,,8,Lebu,13232,,no
+total,7.11.CO_FIJAS_COMUNA,183,,8,Los Alamos,570,,no
+total,7.11.CO_FIJAS_COMUNA,184,,8,Los Angeles,195,,no
+total,7.11.CO_FIJAS_COMUNA,185,,8,Lota,51272,,no
+total,7.11.CO_FIJAS_COMUNA,186,,8,Mulchén,540,,no
+total,7.11.CO_FIJAS_COMUNA,187,,8,Nacimiento,2085,,no
+total,7.11.CO_FIJAS_COMUNA,188,,8,Negrete,3322,,no
+total,7.11.CO_FIJAS_COMUNA,189,,8,Ninhue,45275,,no
+total,7.11.CO_FIJAS_COMUNA,190,,8,Ñiquén,456,,no
+total,7.11.CO_FIJAS_COMUNA,191,,8,Pemuco,17846,,no
+total,7.11.CO_FIJAS_COMUNA,192,,8,Penco,3046,,no
+total,7.11.CO_FIJAS_COMUNA,193,,8,Pinto,3541,,no
+total,7.11.CO_FIJAS_COMUNA,194,,8,Portezuelo,465280,=SUM(GV161:GV193),yes
+total,7.11.CO_FIJAS_COMUNA,195,,8,Quilaco,14420,,no
+total,7.11.CO_FIJAS_COMUNA,196,,8,Quilleco,1860,,no
+total,7.11.CO_FIJAS_COMUNA,197,,8,Quillón,794,,no
+total,7.11.CO_FIJAS_COMUNA,198,,8,Quirihue,4286,,no
+total,7.11.CO_FIJAS_COMUNA,199,,8,Ranquil,3010,,no
+total,7.11.CO_FIJAS_COMUNA,200,,8,San Carlos,3833,,no
+total,7.11.CO_FIJAS_COMUNA,201,,8,San Fabián,388,,no
+total,7.11.CO_FIJAS_COMUNA,202,,8,San Ignacio,997,,no
+total,7.11.CO_FIJAS_COMUNA,203,,8,San Nicolás,2722,,no
+total,7.11.CO_FIJAS_COMUNA,204,,8,San Pedro de la Paz,839,,no
+total,7.11.CO_FIJAS_COMUNA,205,,8,San Rosendo,1854,,no
+total,7.11.CO_FIJAS_COMUNA,206,,8,Santa Bárbara,8129,,no
+total,7.11.CO_FIJAS_COMUNA,207,,8,Santa Juana,4998,,no
+total,7.11.CO_FIJAS_COMUNA,208,,8,Talcahuano,385,,no
+total,7.11.CO_FIJAS_COMUNA,209,,8,Tirúa,1083,,no
+total,7.11.CO_FIJAS_COMUNA,210,,8,Tomé,379,,no
+total,7.11.CO_FIJAS_COMUNA,211,,8,Treguaco,280,,no
+total,7.11.CO_FIJAS_COMUNA,212,,8,Tucapel,4777,,no
+total,7.11.CO_FIJAS_COMUNA,213,,8,Yumbel,11487,,no
+total,7.11.CO_FIJAS_COMUNA,214,,8,Yungay,878,,no
+total,7.11.CO_FIJAS_COMUNA,215,Total 8,8,,7205,,no
+total,7.11.CO_FIJAS_COMUNA,216,9,9,Angol,8022,,no
+total,7.11.CO_FIJAS_COMUNA,217,,9,Carahue,1772,,no
+total,7.11.CO_FIJAS_COMUNA,218,,9,Cholchol,1330,,no
+total,7.11.CO_FIJAS_COMUNA,219,,9,Collipulli,608,,no
+total,7.11.CO_FIJAS_COMUNA,220,,9,Cunco,99016,,no
+total,7.11.CO_FIJAS_COMUNA,221,,9,Curacautín,1363,,no
+total,7.11.CO_FIJAS_COMUNA,222,,9,Curarrehue,1104,,no
+total,7.11.CO_FIJAS_COMUNA,223,,9,Ercilla,3241,,no
+total,7.11.CO_FIJAS_COMUNA,224,,9,Freire,9123,,no
+total,7.11.CO_FIJAS_COMUNA,225,,9,Galvarino,3900,,no
+total,7.11.CO_FIJAS_COMUNA,226,,9,Gorbea,17768,,no
+total,7.11.CO_FIJAS_COMUNA,227,,9,Lautaro,221851,=SUM(GV195:GV226),yes
+total,7.11.CO_FIJAS_COMUNA,228,,9,Loncoche,7681,,no
+total,7.11.CO_FIJAS_COMUNA,229,,9,Lonquimay,5253,,no
+total,7.11.CO_FIJAS_COMUNA,230,,9,Los Sauces,10252,,no
+total,7.11.CO_FIJAS_COMUNA,231,,9,Lumaco,856,,no
+total,7.11.CO_FIJAS_COMUNA,232,,9,Melipeuco,1718,,no
+total,7.11.CO_FIJAS_COMUNA,233,,9,Nueva Imperial,536,,no
+total,7.11.CO_FIJAS_COMUNA,234,,9,Padre Las Casas,244,,no
+total,7.11.CO_FIJAS_COMUNA,235,,9,Perquenco,1665,,no
+total,7.11.CO_FIJAS_COMUNA,236,,9,Pitrufquén,1288,,no
+total,7.11.CO_FIJAS_COMUNA,237,,9,Pucón,4904,,no
+total,7.11.CO_FIJAS_COMUNA,238,,9,Purén,868,,no
+total,7.11.CO_FIJAS_COMUNA,239,,9,Renaico,724,,no
+total,7.11.CO_FIJAS_COMUNA,240,,9,Saavedra,4034,,no
+total,7.11.CO_FIJAS_COMUNA,241,,9,Temuco,1596,,no
+total,7.11.CO_FIJAS_COMUNA,242,,9,Teodoro Schmidt,1541,,no
+total,7.11.CO_FIJAS_COMUNA,243,,9,Toltén,46144,,no
+total,7.11.CO_FIJAS_COMUNA,244,,9,Traiguén,465,,no
+total,7.11.CO_FIJAS_COMUNA,245,,9,Victoria,68933,,no
+total,7.11.CO_FIJAS_COMUNA,246,,9,Vilcún,1054,,no
+total,7.11.CO_FIJAS_COMUNA,247,,9,Villarrica,14711,,no
+total,7.11.CO_FIJAS_COMUNA,248,Total 9,9,,187,,no
+total,7.11.CO_FIJAS_COMUNA,249,10,10,Ancud,3482,,no
+total,7.11.CO_FIJAS_COMUNA,250,,10,Calbuco,1586,,no
+total,7.11.CO_FIJAS_COMUNA,251,,10,Castro,500,,no
+total,7.11.CO_FIJAS_COMUNA,252,,10,Chaitén,3625,,no
+total,7.11.CO_FIJAS_COMUNA,253,,10,Chonchi,805,,no
+total,7.11.CO_FIJAS_COMUNA,254,,10,Cochamó,584,,no
+total,7.11.CO_FIJAS_COMUNA,255,,10,Curaco de Vélez,1959,,no
+total,7.11.CO_FIJAS_COMUNA,256,,10,Dalcahue,224,,no
+total,7.11.CO_FIJAS_COMUNA,257,,10,Fresia,1572,,no
+total,7.11.CO_FIJAS_COMUNA,258,,10,Frutillar,,,no
+total,7.11.CO_FIJAS_COMUNA,259,,10,Futaleufú,188991,=SUM(GV228:GV258),yes
+total,7.11.CO_FIJAS_COMUNA,260,,10,Hualaihue,5457,,no
+total,7.11.CO_FIJAS_COMUNA,261,,10,Llanquihue,842,,no
+total,7.11.CO_FIJAS_COMUNA,262,,10,Los Muermos,1510,,no
+total,7.11.CO_FIJAS_COMUNA,263,,10,Maullín,837,,no
+total,7.11.CO_FIJAS_COMUNA,264,,10,Osorno,15702,,no
+total,7.11.CO_FIJAS_COMUNA,265,,10,Palena,240,,no
+total,7.11.CO_FIJAS_COMUNA,266,,10,Puerto Montt,185,,no
+total,7.11.CO_FIJAS_COMUNA,267,,10,Puerto Octay,273,,no
+total,7.11.CO_FIJAS_COMUNA,268,,10,Puerto Varas,560,,no
+total,7.11.CO_FIJAS_COMUNA,269,,10,Puqueldón,55,,no
+total,7.11.CO_FIJAS_COMUNA,270,,10,Purranque,,,no
+total,7.11.CO_FIJAS_COMUNA,271,,10,Puyehue,25661,=SUM(GV260:GV270),yes
+total,7.11.CO_FIJAS_COMUNA,272,,10,Queilén,,,no
+total,7.11.CO_FIJAS_COMUNA,273,,10,Quellón,421,,no
+total,7.11.CO_FIJAS_COMUNA,274,,10,Quemchi,43,,no
+total,7.11.CO_FIJAS_COMUNA,275,,10,Quinchao,8954,,no
+total,7.11.CO_FIJAS_COMUNA,276,,10,Río Negro,2141,,no
+total,7.11.CO_FIJAS_COMUNA,277,,10,San Juan de la Costa,90,,no
+total,7.11.CO_FIJAS_COMUNA,278,,10,San Pablo,44606,,no
+total,7.11.CO_FIJAS_COMUNA,279,,10,Sin clasificación,30,,no
+total,7.11.CO_FIJAS_COMUNA,280,Total 10,10,,110,,no
+total,7.11.CO_FIJAS_COMUNA,281,11,11,Aisén,73,,no
+total,7.11.CO_FIJAS_COMUNA,282,,11,Chile Chico,203,,no
+total,7.11.CO_FIJAS_COMUNA,283,,11,Cisnes,56671,=SUM(GV272:GV282),yes
+total,7.11.CO_FIJAS_COMUNA,284,,11,Cochrane,2787,,no
+total,7.11.CO_FIJAS_COMUNA,285,,11,Coyhaique,22256,,no
+total,7.11.CO_FIJAS_COMUNA,286,,11,Guaitecas,3690,,no
+total,7.11.CO_FIJAS_COMUNA,287,,11,Lago Verde,23225,,no
+total,7.11.CO_FIJAS_COMUNA,288,,11,O'Higgins,29243,,no
+total,7.11.CO_FIJAS_COMUNA,289,,11,Río Ibáñez,40358,,no
+total,7.11.CO_FIJAS_COMUNA,290,,11,Tortel,30703,,no
+total,7.11.CO_FIJAS_COMUNA,291,,11,Sin clasificación,4398,,no
+total,7.11.CO_FIJAS_COMUNA,292,Total 11,11,,37489,,no
+total,7.11.CO_FIJAS_COMUNA,293,12,12,Antártica,6809,,no
+total,7.11.CO_FIJAS_COMUNA,294,,12,Cabo de Hornos,55642,,no
+total,7.11.CO_FIJAS_COMUNA,295,,12,Laguna Blanca,29079,,no
+total,7.11.CO_FIJAS_COMUNA,296,,12,Natales,34165,,no
+total,7.11.CO_FIJAS_COMUNA,297,,12,Porvenir,6633,,no
+total,7.11.CO_FIJAS_COMUNA,298,,12,Primavera,35929,,no
+total,7.11.CO_FIJAS_COMUNA,299,,12,Punta Arenas,120747,,no
+total,7.11.CO_FIJAS_COMUNA,300,,12,Río Verde,25836,,no
+total,7.11.CO_FIJAS_COMUNA,301,,12,San Gregorio,16739,,no
+total,7.11.CO_FIJAS_COMUNA,302,,12,Timaukel,29675,,no
+total,7.11.CO_FIJAS_COMUNA,303,,12,Torres del Paine,23968,,no
+total,7.11.CO_FIJAS_COMUNA,304,Total 12,12,,127236,,no
+total,7.11.CO_FIJAS_COMUNA,305,13,13,Alhué,31295,,no
+total,7.11.CO_FIJAS_COMUNA,306,,13,Buin,15737,,no
+total,7.11.CO_FIJAS_COMUNA,307,,13,Calera de Tango,22464,,no
+total,7.11.CO_FIJAS_COMUNA,308,,13,Cerrillos,42677,,no
+total,7.11.CO_FIJAS_COMUNA,309,,13,Cerro Navia,149918,,no
+total,7.11.CO_FIJAS_COMUNA,310,,13,Colina,3303,,no
+total,7.11.CO_FIJAS_COMUNA,311,,13,Conchalí,20104,,no
+total,7.11.CO_FIJAS_COMUNA,312,,13,Curacaví,109841,,no
+total,7.11.CO_FIJAS_COMUNA,313,,13,El Bosque,21688,,no
+total,7.11.CO_FIJAS_COMUNA,314,,13,El Monte,8466,,no
+total,7.11.CO_FIJAS_COMUNA,315,,13,Estación Central,23818,,no
+total,7.11.CO_FIJAS_COMUNA,316,,13,Huechuraba,24184,,no
+total,7.11.CO_FIJAS_COMUNA,317,,13,Independencia,57726,,no
+total,7.11.CO_FIJAS_COMUNA,318,,13,Isla de Maipo,4430,,no
+total,7.11.CO_FIJAS_COMUNA,319,,13,La Cisterna,76440,,no
+total,7.11.CO_FIJAS_COMUNA,320,,13,La Florida,59019,,no
+total,7.11.CO_FIJAS_COMUNA,321,,13,La Granja,145884,,no
+total,7.11.CO_FIJAS_COMUNA,322,,13,La Pintana,51352,,no
+total,7.11.CO_FIJAS_COMUNA,323,,13,La Reina,36233,,no
+total,7.11.CO_FIJAS_COMUNA,324,,13,Lampa,40106,,no
+total,7.11.CO_FIJAS_COMUNA,325,,13,Las Condes,34637,,no
+total,7.11.CO_FIJAS_COMUNA,326,,13,Lo Barnechea,69599,,no
+total,7.11.CO_FIJAS_COMUNA,327,,13,Lo Espejo,26562,,no
+total,7.11.CO_FIJAS_COMUNA,328,,13,Lo Prado,2110,,no
+total,7.11.CO_FIJAS_COMUNA,329,,13,Macul,56238,,no
+total,7.11.CO_FIJAS_COMUNA,330,,13,Maipú,613,,no
+total,7.11.CO_FIJAS_COMUNA,331,,13,María Pinto,15157,,no
+total,7.11.CO_FIJAS_COMUNA,332,,13,Melipilla,167630,,no
+total,7.11.CO_FIJAS_COMUNA,333,,13,Ñuñoa,16051,,no
+total,7.11.CO_FIJAS_COMUNA,334,,13,Padre Hurtado,3428,,no
+total,7.11.CO_FIJAS_COMUNA,335,,13,Paine,37131,,no
+total,7.11.CO_FIJAS_COMUNA,336,,13,Pedro Aguirre Cerda,,,no
+total,7.11.CO_FIJAS_COMUNA,337,,13,Peñaflor,2080448,=SUM(GV284:GV336),yes
+total,7.11.CO_FIJAS_COMUNA,338,,13,Peñalolén,491,,no
+total,7.11.CO_FIJAS_COMUNA,339,,13,Pirque,1714,,no
+total,7.11.CO_FIJAS_COMUNA,340,,13,Providencia,8949,,no
+total,7.11.CO_FIJAS_COMUNA,341,,13,Pudahuel,830,,no
+total,7.11.CO_FIJAS_COMUNA,342,,13,Puente Alto,2738,,no
+total,7.11.CO_FIJAS_COMUNA,343,,13,Quilicura,2540,,no
+total,7.11.CO_FIJAS_COMUNA,344,,13,Quinta Normal,1160,,no
+total,7.11.CO_FIJAS_COMUNA,345,,13,Recoleta,3886,,no
+total,7.11.CO_FIJAS_COMUNA,346,,13,Renca,3010,,no
+total,7.11.CO_FIJAS_COMUNA,347,,13,San Bernardo,5248,,no
+total,7.11.CO_FIJAS_COMUNA,348,,13,San Joaquín,5695,,no
+total,7.11.CO_FIJAS_COMUNA,349,,13,San José de Maipo,50222,,no
+total,7.11.CO_FIJAS_COMUNA,350,,13,San Miguel,86483,=SUM(GV338:GV349),yes
+total,7.11.CO_FIJAS_COMUNA,351,,13,San Pedro,59213,,no
+total,7.11.CO_FIJAS_COMUNA,352,,13,San Ramón,74,,no
+total,7.11.CO_FIJAS_COMUNA,353,,13,Santiago,828,,no
+total,7.11.CO_FIJAS_COMUNA,354,,13,Talagante,120,,no
+total,7.11.CO_FIJAS_COMUNA,355,,13,Til Til,60235,=SUM(GV351:GV354),yes
+total,7.11.CO_FIJAS_COMUNA,356,,13,Vitacura,3695,,no
+total,7.11.CO_FIJAS_COMUNA,357,,13,Sin clasificación,56683,,no
+total,7.11.CO_FIJAS_COMUNA,358,Total 13,13,,10232,,no
+total,7.11.CO_FIJAS_COMUNA,359,14,14,Corral,838,,no
+total,7.11.CO_FIJAS_COMUNA,360,,14,Futrono,2776,,no
+total,7.11.CO_FIJAS_COMUNA,361,,14,La Unión,1565,,no
+total,7.11.CO_FIJAS_COMUNA,362,,14,Lago Ranco,632,,no
+total,7.11.CO_FIJAS_COMUNA,363,,14,Lanco,377,,no
+total,7.11.CO_FIJAS_COMUNA,364,,14,Los Lagos,355,,no
+total,7.11.CO_FIJAS_COMUNA,365,,14,Mafil,890,,no
+total,7.11.CO_FIJAS_COMUNA,366,,14,Mariquina,2436,,no
+total,7.11.CO_FIJAS_COMUNA,367,,14,Paillaco,326,,no
+total,7.11.CO_FIJAS_COMUNA,368,,14,Panguipulli,3240,,no
+total,7.11.CO_FIJAS_COMUNA,369,,14,Río Bueno,991,,no
+total,7.11.CO_FIJAS_COMUNA,370,,14,Valdivia,685,,no
+total,7.11.CO_FIJAS_COMUNA,371,Total 14,14,,9043,,no
+total,7.11.CO_FIJAS_COMUNA,372,15,15,Arica,704,,no
+total,7.11.CO_FIJAS_COMUNA,373,,15,Camarones,1218,,no
+total,7.11.CO_FIJAS_COMUNA,374,,15,General Lagos,652,,no
+total,7.11.CO_FIJAS_COMUNA,375,,15,Putre,459,,no
+total,7.11.CO_FIJAS_COMUNA,376,Total 15,15,,2818,,no
+total,7.11.CO_FIJAS_COMUNA,377,16,16,Bulnes,100615,=SUM(GV356:GV376),yes
+total,7.11.CO_FIJAS_COMUNA,378,,16,Chillán,4859679,=+GV18+GV28+GV39+GV56+GV95+GV129+GV160+GV194+GV227+GV259+GV271+GV283+GV337+GV350+GV355+GV377,yes
+total,7.11.CO_FIJAS_COMUNA,379,,16,Chillán Viejo,,,no
+total,7.11.CO_FIJAS_COMUNA,380,,16,Cobquecura,,,no
+total,7.11.CO_FIJAS_COMUNA,381,,16,Coelemu,,,no
+total,7.11.CO_FIJAS_COMUNA,382,,16,Coihueco,,,no
+total,7.11.CO_FIJAS_COMUNA,383,,16,El Carmen,,,no
+total,7.11.CO_FIJAS_COMUNA,384,,16,Ninhue,,,no
+total,7.11.CO_FIJAS_COMUNA,385,,16,Ñiquén,,,no
+total,7.11.CO_FIJAS_COMUNA,386,,16,Pemuco,,,no
+total,7.11.CO_FIJAS_COMUNA,387,,16,Pinto,,,no
+total,7.11.CO_FIJAS_COMUNA,388,,16,Portezuelo,,,no
+total,7.11.CO_FIJAS_COMUNA,389,,16,Quillón,,,no
+total,7.11.CO_FIJAS_COMUNA,390,,16,Quirihue,,,no
+total,7.11.CO_FIJAS_COMUNA,391,,16,Ranquil,,,no
+total,7.11.CO_FIJAS_COMUNA,392,,16,San Carlos,,,no
+total,7.11.CO_FIJAS_COMUNA,393,,16,San Fabián,,,no
+total,7.11.CO_FIJAS_COMUNA,394,,16,San Ignacio,,,no
+total,7.11.CO_FIJAS_COMUNA,395,,16,San Nicolás,,,no
+total,7.11.CO_FIJAS_COMUNA,396,,16,Treguaco,,,no
+total,7.11.CO_FIJAS_COMUNA,397,,16,Yungay,,,no
+total,7.11.CO_FIJAS_COMUNA,398,Total 16,16,,,,no
+total,7.11.CO_FIJAS_COMUNA,399,Total general,16,,,,no
+total,7.11.CO_FIJAS_COMUNA,400,<< VOLVER,16,,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,10,1,1,Alto Hospicio,23982,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,11,,1,Camiña,41,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,12,,1,Colchane,126,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,13,,1,Huara,299,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,14,,1,Iquique,52286,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,15,,1,Pica,695,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,16,,1,Pozo Almonte,2586,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,17,,1,Sin clasificación,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,18,Total 1,1,,80015,=SUM(EK10:EK17),yes
+residential,7.11.1.CO_FIJAS_RES_COMUNA,19,2,2,Antofagasta,111930,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,20,,2,Calama,45297,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,21,,2,María Elena,1281,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,22,,2,Mejillones,2858,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,23,,2,Ollagüe,43,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,24,,2,San Pedro de Atacama,1502,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,25,,2,Sierra Gorda,700,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,26,,2,Taltal,2517,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,27,,2,Tocopilla,6429,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,28,Total 2,2,,172557,=SUM(EK19:EK27),yes
+residential,7.11.1.CO_FIJAS_RES_COMUNA,29,3,3,Alto Del Carmen,197,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,30,,3,Caldera,5035,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,31,,3,Chañaral,2360,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,32,,3,Copiapó,43864,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,33,,3,Diego de Almagro,2194,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,34,,3,Freirina,341,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,35,,3,Huasco,1513,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,36,,3,Tierra Amarilla,2130,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,37,,3,Vallenar,13119,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,38,,3,Sin clasificación,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,39,Total 3,3,,70753,=SUM(EK29:EK38),yes
+residential,7.11.1.CO_FIJAS_RES_COMUNA,40,4,4,Andacollo,1697,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,41,,4,Canela,1176,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,42,,4,Combarbalá,1389,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,43,,4,Coquimbo,72293,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,44,,4,Illapel,5083,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,45,,4,La Higuera,432,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,46,,4,La Serena,76191,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,47,,4,Los Vilos,5729,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,48,,4,Monte Patria,2246,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,49,,4,Ovalle,20182,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,50,,4,Paihuano,153,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,51,,4,Punitaqui,1219,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,52,,4,Río Hurtado,137,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,53,,4,Salamanca,2118,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,54,,4,Vicuña,3097,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,55,,4,Sin clasificación,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,56,Total 4,4,,193142,=SUM(EK40:EK55),yes
+residential,7.11.1.CO_FIJAS_RES_COMUNA,57,5,5,Algarrobo,8475,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,58,,5,Cabildo,2507,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,59,,5,Calera,13439,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,60,,5,Calle Larga,4277,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,61,,5,Cartagena,7247,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,62,,5,Casablanca,5924,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,63,,5,Catemu,1823,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,64,,5,Concón,18986,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,65,,5,El Quisco,8556,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,66,,5,El Tabo,7593,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,67,,5,Hijuelas,3707,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,68,,5,Isla de Pascua,2463,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,69,,5,Juan Fernández,221,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,70,,5,La Cruz,7126,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,71,,5,La Ligua,7734,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,72,,5,Limache,14491,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,73,,5,Llaillay,5448,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,74,,5,Los Andes,20607,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,75,,5,Nogales,4450,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,76,,5,Olmué,4514,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,77,,5,Panquehue,1590,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,78,,5,Papudo,2489,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,79,,5,Petorca,810,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,80,,5,Puchuncaví,8656,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,81,,5,Putaendo,2770,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,82,,5,Quillota,26079,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,83,,5,Quilpué,52390,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,84,,5,Quintero,9246,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,85,,5,Rinconada,2939,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,86,,5,San Antonio,24286,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,87,,5,San Esteban,4001,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,88,,5,San Felipe,19367,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,89,,5,Santa María,2482,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,90,,5,Santo Domingo,4849,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,91,,5,Valparaíso,83865,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,92,,5,Villa Alemana,47000,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,93,,5,Viña del Mar,118809,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,94,,5,Zapallar,3164,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,95,Total 5,5,,564380,=SUM(EK57:EK94),yes
+residential,7.11.1.CO_FIJAS_RES_COMUNA,96,6,6,Chépica,1119,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,97,,6,Chimbarongo,3590,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,98,,6,Codegua,1660,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,99,,6,Coinco,1503,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,100,,6,Coltauco,3735,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,101,,6,Doñihue,4390,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,102,,6,Graneros,9023,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,103,,6,La Estrella,584,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,104,,6,Las Cabras,2179,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,105,,6,Litueche,1210,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,106,,6,Lolol,655,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,107,,6,Machalí,17372,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,108,,6,Malloa,1268,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,109,,6,Marchihue,605,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,110,,6,Mostazal,4710,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,111,,6,Nancagua,2407,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,112,,6,Navidad,2220,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,113,,6,Olivar,2555,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,114,,6,Palmilla,526,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,115,,6,Paredones,246,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,116,,6,Peralillo,910,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,117,,6,Peumo,1455,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,118,,6,Pichidegua,1800,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,119,,6,Pichilemu,5788,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,120,,6,Placilla,348,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,121,,6,Pumanque,128,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,122,,6,Quinta de Tilcoco,2288,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,123,,6,Rancagua,74459,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,124,,6,Rengo,14739,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,125,,6,Requinoa,4225,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,126,,6,San Fernando,17088,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,127,,6,San Vicente,6428,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,128,,6,Santa Cruz,6522,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,129,Total 6,6,,197735,=SUM(EK96:EK128),yes
+residential,7.11.1.CO_FIJAS_RES_COMUNA,130,7,7,Cauquenes,9287,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,131,,7,Chanco,408,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,132,,7,Colbún,1594,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,133,,7,Constitución,7751,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,134,,7,Curepto,369,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,135,,7,Curicó,44132,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,136,,7,Empedrado,269,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,137,,7,Hualañé,900,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,138,,7,Licantén,1488,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,139,,7,Linares,18857,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,140,,7,Longaví,4208,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,141,,7,Maule,9816,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,142,,7,Molina,5797,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,143,,7,Parral,11110,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,144,,7,Pelarco,386,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,145,,7,Pelluhue,1823,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,146,,7,Pencahue,520,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,147,,7,Rauco,1313,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,148,,7,Retiro,3621,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,149,,7,Río Claro,865,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,150,,7,Romeral,2589,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,151,,7,Sagrada Familia,288,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,152,,7,San Clemente,5308,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,153,,7,San Javier,6205,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,154,,7,San Rafael,746,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,155,,7,Talca,64108,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,156,,7,Teno,2405,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,157,,7,Vichuquén,789,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,158,,7,Villa Alegre,1405,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,159,,7,Yerbas Buenas,1556,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,160,Total 7,7,,209913,=SUM(EK130:EK159),yes
+residential,7.11.1.CO_FIJAS_RES_COMUNA,161,8,8,Alto Biobío,331,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,162,,8,Antuco,187,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,163,,8,Arauco,8432,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,164,,8,Bulnes,5525,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,165,,8,Cabrero,5336,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,166,,8,Cañete,26057,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,167,,8,Chiguayante,86548,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,168,,8,Chillán,1089,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,169,,8,Chillán Viejo,37843,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,170,,8,Cobquecura,8165,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,171,,8,Coelemu,1473,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,172,,8,Coihueco,27682,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,173,,8,Concepción,6346,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,174,,8,Contulmo,4119,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,175,,8,Coronel,6265,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,176,,8,Curanilahue,4868,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,177,,8,El Carmen,56751,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,178,,8,Florida,11498,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,179,,8,Hualpén,4968,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,180,,8,Hualqui,5621,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,181,,8,Laja,838,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,182,,8,Lebu,12936,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,183,,8,Los Alamos,554,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,184,,8,Los Angeles,169,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,185,,8,Lota,49575,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,186,,8,Mulchén,536,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,187,,8,Nacimiento,2043,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,188,,8,Negrete,3288,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,189,,8,Ninhue,43253,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,190,,8,Ñiquén,410,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,191,,8,Pemuco,17422,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,192,,8,Penco,3008,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,193,,8,Pinto,3511,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,194,,8,Portezuelo,446647,=SUM(EK161:EK193),yes
+residential,7.11.1.CO_FIJAS_RES_COMUNA,195,,8,Quilaco,13991,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,196,,8,Quilleco,1814,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,197,,8,Quillón,772,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,198,,8,Quirihue,4229,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,199,,8,Ranquil,2979,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,200,,8,San Carlos,3792,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,201,,8,San Fabián,356,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,202,,8,San Ignacio,983,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,203,,8,San Nicolás,2674,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,204,,8,San Pedro de la Paz,808,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,205,,8,San Rosendo,1747,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,206,,8,Santa Bárbara,7869,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,207,,8,Santa Juana,4806,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,208,,8,Talcahuano,309,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,209,,8,Tirúa,1061,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,210,,8,Tomé,350,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,211,,8,Treguaco,256,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,212,,8,Tucapel,4673,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,213,,8,Yumbel,11200,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,214,,8,Yungay,867,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,215,Total 8,8,,6865,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,216,9,9,Angol,7598,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,217,,9,Carahue,1753,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,218,,9,Cholchol,1318,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,219,,9,Collipulli,597,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,220,,9,Cunco,92328,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,221,,9,Curacautín,1351,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,222,,9,Curarrehue,1064,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,223,,9,Ercilla,3214,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,224,,9,Freire,8826,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,225,,9,Galvarino,3807,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,226,,9,Gorbea,17114,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,227,,9,Lautaro,211371,=SUM(EK195:EK226),yes
+residential,7.11.1.CO_FIJAS_RES_COMUNA,228,,9,Loncoche,7289,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,229,,9,Lonquimay,5046,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,230,,9,Los Sauces,9820,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,231,,9,Lumaco,774,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,232,,9,Melipeuco,1629,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,233,,9,Nueva Imperial,484,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,234,,9,Padre Las Casas,230,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,235,,9,Perquenco,1564,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,236,,9,Pitrufquén,1244,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,237,,9,Pucón,4737,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,238,,9,Purén,816,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,239,,9,Renaico,660,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,240,,9,Saavedra,3925,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,241,,9,Temuco,1548,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,242,,9,Teodoro Schmidt,1488,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,243,,9,Toltén,44174,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,244,,9,Traiguén,418,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,245,,9,Victoria,65757,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,246,,9,Vilcún,1018,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,247,,9,Villarrica,13991,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,248,Total 9,9,,171,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,249,10,10,Ancud,3362,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,250,,10,Calbuco,1516,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,251,,10,Castro,463,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,252,,10,Chaitén,3473,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,253,,10,Chonchi,746,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,254,,10,Cochamó,508,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,255,,10,Curaco de Vélez,1920,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,256,,10,Dalcahue,185,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,257,,10,Fresia,1526,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,258,,10,Frutillar,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,259,,10,Futaleufú,180482,=SUM(EK228:EK258),yes
+residential,7.11.1.CO_FIJAS_RES_COMUNA,260,,10,Hualaihue,5191,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,261,,10,Llanquihue,788,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,262,,10,Los Muermos,1413,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,263,,10,Maullín,796,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,264,,10,Osorno,15007,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,265,,10,Palena,210,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,266,,10,Puerto Montt,155,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,267,,10,Puerto Octay,248,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,268,,10,Puerto Varas,535,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,269,,10,Puqueldón,44,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,270,,10,Purranque,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,271,,10,Puyehue,24387,=SUM(EK260:EK270),yes
+residential,7.11.1.CO_FIJAS_RES_COMUNA,272,,10,Queilén,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,273,,10,Quellón,355,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,274,,10,Quemchi,33,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,275,,10,Quinchao,7941,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,276,,10,Río Negro,1950,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,277,,10,San Juan de la Costa,72,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,278,,10,San Pablo,41205,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,279,,10,Sin clasificación,23,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,280,Total 10,10,,76,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,281,11,11,Aisén,66,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,282,,11,Chile Chico,181,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,283,,11,Cisnes,51902,=SUM(EK272:EK282),yes
+residential,7.11.1.CO_FIJAS_RES_COMUNA,284,,11,Cochrane,2755,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,285,,11,Coyhaique,21457,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,286,,11,Guaitecas,3600,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,287,,11,Lago Verde,22295,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,288,,11,O'Higgins,28302,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,289,,11,Río Ibáñez,38452,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,290,,11,Tortel,29529,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,291,,11,Sin clasificación,4248,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,292,Total 11,11,,36901,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,293,12,12,Antártica,6731,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,294,,12,Cabo de Hornos,53543,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,295,,12,Laguna Blanca,26695,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,296,,12,Natales,32462,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,297,,12,Porvenir,6471,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,298,,12,Primavera,34179,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,299,,12,Punta Arenas,116208,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,300,,12,Río Verde,25156,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,301,,12,San Gregorio,16618,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,302,,12,Timaukel,27221,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,303,,12,Torres del Paine,22750,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,304,Total 12,12,,111870,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,305,13,13,Alhué,28367,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,306,,13,Buin,15420,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,307,,13,Calera de Tango,21907,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,308,,13,Cerrillos,40490,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,309,,13,Cerro Navia,145370,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,310,,13,Colina,3179,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,311,,13,Conchalí,19371,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,312,,13,Curacaví,103201,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,313,,13,El Bosque,21078,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,314,,13,El Monte,8208,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,315,,13,Estación Central,23143,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,316,,13,Huechuraba,23391,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,317,,13,Independencia,55577,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,318,,13,Isla de Maipo,4331,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,319,,13,La Cisterna,63395,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,320,,13,La Florida,56495,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,321,,13,La Granja,142210,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,322,,13,La Pintana,49052,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,323,,13,La Reina,33812,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,324,,13,Lampa,37147,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,325,,13,Las Condes,33254,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,326,,13,Lo Barnechea,67539,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,327,,13,Lo Espejo,25177,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,328,,13,Lo Prado,2011,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,329,,13,Macul,52506,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,330,,13,Maipú,582,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,331,,13,María Pinto,14808,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,332,,13,Melipilla,146092,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,333,,13,Ñuñoa,15403,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,334,,13,Padre Hurtado,3335,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,335,,13,Paine,31800,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,336,,13,Pedro Aguirre Cerda,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,337,,13,Peñaflor,1955094,=SUM(EK284:EK336),yes
+residential,7.11.1.CO_FIJAS_RES_COMUNA,338,,13,Peñalolén,457,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,339,,13,Pirque,1675,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,340,,13,Providencia,8672,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,341,,13,Pudahuel,798,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,342,,13,Puente Alto,2690,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,343,,13,Quilicura,2461,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,344,,13,Quinta Normal,1133,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,345,,13,Recoleta,3767,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,346,,13,Renca,2935,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,347,,13,San Bernardo,5050,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,348,,13,San Joaquín,5548,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,349,,13,San José de Maipo,48297,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,350,,13,San Miguel,83483,=SUM(EK338:EK349),yes
+residential,7.11.1.CO_FIJAS_RES_COMUNA,351,,13,San Pedro,55813,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,352,,13,San Ramón,54,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,353,,13,Santiago,738,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,354,,13,Talagante,79,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,355,,13,Til Til,56684,=SUM(EK351:EK354),yes
+residential,7.11.1.CO_FIJAS_RES_COMUNA,356,,13,Vitacura,3613,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,357,,13,Sin clasificación,53960,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,358,Total 13,13,,9825,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,359,14,14,Corral,817,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,360,,14,Futrono,2748,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,361,,14,La Unión,1524,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,362,,14,Lago Ranco,618,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,363,,14,Lanco,364,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,364,,14,Los Lagos,350,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,365,,14,Mafil,858,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,366,,14,Mariquina,2418,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,367,,14,Paillaco,314,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,368,,14,Panguipulli,3178,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,369,,14,Río Bueno,962,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,370,,14,Valdivia,655,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,371,Total 14,14,,8653,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,372,15,15,Arica,694,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,373,,15,Camarones,1205,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,374,,15,General Lagos,636,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,375,,15,Putre,444,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,376,Total 15,15,,2783,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,377,16,16,Bulnes,96619,=SUM(EK356:EK376),yes
+residential,7.11.1.CO_FIJAS_RES_COMUNA,378,,16,Chillán,4595164,=+EK18+EK28+EK39+EK56+EK95+EK129+EK160+EK194+EK227+EK259+EK271+EK283+EK337+EK350+EK355+EK377,yes
+residential,7.11.1.CO_FIJAS_RES_COMUNA,379,,16,Chillán Viejo,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,380,,16,Cobquecura,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,381,,16,Coelemu,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,382,,16,Coihueco,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,383,,16,El Carmen,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,384,,16,Ninhue,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,385,,16,Ñiquén,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,386,,16,Pemuco,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,387,,16,Pinto,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,388,,16,Portezuelo,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,389,,16,Quillón,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,390,,16,Quirihue,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,391,,16,Ranquil,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,392,,16,San Carlos,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,393,,16,San Fabián,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,394,,16,San Ignacio,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,395,,16,San Nicolás,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,396,,16,Treguaco,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,397,,16,Yungay,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,398,Total 16,16,,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,399,Total general,16,,,,no
+residential,7.11.1.CO_FIJAS_RES_COMUNA,400,<< VOLVER,16,,,,no
