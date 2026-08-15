@@ -19,13 +19,14 @@ jobs:
   patch:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
       - run: python scripts/patch_validation_fixed_infrastructure.py
       - run: node --check assets/dashboard.js
       - run: python scripts/validate_public_release.py
+      - run: python scripts/validate_fixed_commune_reconstruction.py
       - name: Commit validator and QA report
         run: |
           git config user.name 'github-actions[bot]'
@@ -34,7 +35,7 @@ jobs:
           if git diff --cached --quiet; then
             echo 'No validation changes'
           else
-            git commit -m 'Validate fixed infrastructure in public release'
+            git commit -m 'Validate reconciled fixed infrastructure in public release'
             git pull --rebase origin main
             git push
           fi
