@@ -23,28 +23,29 @@ Antes de usar una variable deben revisarse `source_layer`, `statistical_unit`, `
 ```text
 Fuentes oficiales y abiertas
         │
-        ├── INE / Censo 2024 ────────────────┐
-        ├── MDSF / CASEN 2024 ───────────────┤
-        ├── SUBTEL encuestas SAV ────────────┤
-        ├── SUBTEL estadísticas sectoriales ─┤
-        ├── SUBTEL ArcGIS 4G/5G ─────────────┤
-        ├── SUBTEL ArcGIS RedAcceso ─────────┤
-        ├── Mineduc Aulas + Directorio RBD ──┤
-        ├── Ookla Open Data ─────────────────┤
-        └── BCN cartografía comunal ─────────┤
-                                             │
-                                             ▼
-                                  productos agregados por capa
-                                             │
-                                             ▼
-                                  controles QA / crosswalks
-                                             │
-                                             ▼
-                                  maestro comunal integrado
-                                             │
-                        ┌────────────────────┼────────────────────┐
-                        ▼                    ▼                    ▼
-                   diccionario          dashboard           release metadata
+        ├── INE / Censo 2024 ─────────────────────┐
+        ├── MDSF / CASEN 2024 ────────────────────┤
+        ├── SUBTEL encuestas SAV ─────────────────┤
+        ├── SUBTEL estadísticas sectoriales ──────┤
+        ├── SUBTEL conexiones fijas comunales ────┤
+        ├── SUBTEL ArcGIS 4G/5G ──────────────────┤
+        ├── SUBTEL ArcGIS RedAcceso ──────────────┤
+        ├── Mineduc Aulas + Directorio RBD ───────┤
+        ├── Ookla Open Data ──────────────────────┤
+        └── BCN cartografía comunal ──────────────┤
+                                                  │
+                                                  ▼
+                                       productos agregados por capa
+                                                  │
+                                                  ▼
+                                       controles QA / crosswalks
+                                                  │
+                                                  ▼
+                                       maestro comunal integrado
+                                                  │
+                             ┌────────────────────┼────────────────────┐
+                             ▼                    ▼                    ▼
+                        diccionario          dashboard           release metadata
 ```
 
 ## Capas y pipelines
@@ -93,6 +94,31 @@ La hoja histórica nacional de tecnología fija no se trata como una taxonomía 
 
 Las discrepancias entre publicaciones oficiales —como los 10.356.448 accesos 5G del XLSX mensual de marzo frente a 10.367.754 en el snapshot sectorial Q1— se conservan con procedencia separada y quedan visibles en `series_qa.csv`.
 
+### Conexiones fijas comunales SUBTEL — marzo 2026
+
+`build-subtel-fixed-commune-2026.yml` reconstruye el corte comunal de conexiones fijas totales y residenciales desde `7.11.CO_FIJAS_COMUNA` y `7.11.1.CO_FIJAS_RES_COMUNA`.
+
+La auditoría detectó que el workbook conserva etiquetas comunales desalineadas en parte de estas hojas y que algunas filas con nombre de comuna contienen fórmulas de subtotal regional. Por esa razón el pipeline no asocia ciegamente la etiqueta de la fila con el valor de marzo de 2026.
+
+La reconstrucción utiliza los 16 bloques regionales definidos por las fórmulas de subtotal, ordena las comunas actuales según la nomenclatura de la fuente y exige conciliación exacta de conteo y suma. El procedimiento se ejecuta de forma independiente para total y residencial, produciendo 32 controles región × métrica con delta cero.
+
+La capa canónica es:
+
+`data/fixed_infrastructure_2026/commune_fixed_connections_2026_03.csv`
+
+Contiene las 346 comunas. Existen valores numéricos para 345. Antártica (12202) ocupa una posición explícitamente vacía en la fuente y se conserva como `source_blank`; no se imputa como cero.
+
+La trazabilidad incluye:
+
+- `data/fixed_infrastructure_2026/source_alignment_qa.csv` — 32 conciliaciones regionales;
+- `data/fixed_infrastructure_2026/source_row_mapping_2026_03.csv` — 692 mapeos fila fuente → comuna;
+- `data/subtel_sector_series/fixed_commune_source_rows_2026_03.csv` — filas originales con etiqueta, valor y fórmula;
+- `scripts/validate_fixed_commune_reconstruction.py` — control de consistencia de la reconstrucción y de igualdad fuente → maestro.
+
+La metodología completa está en `docs/subtel_fixed_commune_2026.md`.
+
+Los conteos son conexiones administrativas. No equivalen a hogares únicos ni a porcentaje de cobertura. La razón por 100 hogares usa conexiones residenciales de marzo de 2026 y hogares del Censo 2024; es una medida de intensidad y puede superar 100.
+
 ### Redes móviles SUBTEL 4G/5G
 
 `catalog-subtel-mobile-coverage.yml` identifica los ocho servicios públicos de Claro, Entel, Movistar y WOM.
@@ -129,7 +155,7 @@ No se usa OCR para reconstruir listas de establecimientos cuando existe una fuen
 
 `build-communal-dictionary.yml` reconstruye el diccionario de variables del maestro.
 
-`validate-public-release.yml` verifica integridad estructural, llaves, conteos, QA espacial, crosswalk educativo y contrato del dashboard. Un release con checks fallidos no debe considerarse una versión consistente.
+`validate-public-release.yml` verifica integridad estructural, llaves, conteos, QA espacial, reconstrucción comunal fija, sincronización fuente → maestro, crosswalk educativo y contrato del dashboard. Un release con checks fallidos no debe considerarse una versión consistente.
 
 `build-release-metadata.yml` genera:
 
@@ -146,15 +172,16 @@ Para una reconstrucción completa desde fuentes externas, usar este orden lógic
 2. Censo/CASEN y capas base ya publicadas;
 3. encuestas SUBTEL y productos longitudinales;
 4. series administrativas SUBTEL de conexiones y tráfico;
-5. Ookla nacional y territorial;
-6. 4G/5G SUBTEL;
-7. RedAcceso SUBTEL;
-8. Mineduc Aulas Conectadas y Directorio RBD;
-9. integraciones al maestro;
-10. diccionario;
-11. dashboard;
-12. `validate-public-release.yml`;
-13. release metadata.
+5. conexiones fijas comunales SUBTEL y conciliación regional;
+6. Ookla nacional y territorial;
+7. 4G/5G SUBTEL;
+8. RedAcceso SUBTEL;
+9. Mineduc Aulas Conectadas y Directorio RBD;
+10. integraciones al maestro;
+11. diccionario;
+12. dashboard;
+13. `validate-public-release.yml`;
+14. release metadata.
 
 Los workflows están diseñados para poder ejecutarse por capa. No es necesario reconstruir todo el repositorio para actualizar una sola fuente.
 
@@ -164,6 +191,7 @@ Los workflows están diseñados para poder ejecutarse por capa. No es necesario 
 - CASEN utiliza personas ponderadas y no debe transformarse mecánicamente en una tasa censal comunal.
 - SUBTEL contiene universos de hogar y persona dentro de sus encuestas; cada estimación usa su ponderador correspondiente.
 - Estadísticas sectoriales SUBTEL trabajan con conexiones y estimaciones administrativas.
+- Conexiones fijas comunales SUBTEL son conteos administrativos reconstruidos y reconciliados por región; no equivalen a hogares únicos ni cobertura.
 - Ookla representa tests observados, no una muestra probabilística de hogares.
 - 4G/5G SUBTEL representa registros puntuales publicados de red.
 - RedAcceso representa trazados regulatorios publicados, no disponibilidad comercial universal.
@@ -190,4 +218,4 @@ La versión pública no contiene:
 
 `CITATION.cff` entrega la metadata de citación del repositorio. Las licencias y atribuciones de las fuentes originales siguen aplicándose a sus respectivas capas.
 
-Última revisión: 2026-08-14.
+Última revisión: 2026-08-15.
