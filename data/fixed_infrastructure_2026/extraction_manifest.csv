@@ -1,3 +1,3 @@
-metric,source_sheet,march_2026_column_number,source_url
-total_fixed_connections_2026m03,7.11.CO_FIJAS_COMUNA,204,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
-residential_fixed_connections_2026m03,7.11.1.CO_FIJAS_RES_COMUNA,141,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+metric,source_sheet,march_2026_column_number,mapping_method,source_url
+total_fixed_connections_2026m03,7.11.CO_FIJAS_COMUNA,204,regional_formula_block_order_with_subtotal_reconciliation,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx
+residential_fixed_connections_2026m03,7.11.1.CO_FIJAS_RES_COMUNA,141,regional_formula_block_order_with_subtotal_reconciliation,https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx

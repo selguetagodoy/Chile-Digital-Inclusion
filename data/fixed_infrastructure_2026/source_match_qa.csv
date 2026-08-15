@@ -1,1 +1,1 @@
-metric,source_region,source_commune,value,source_row
+metric,region,block_start_row,block_end_row,mapped_slots,catalogue_communes,regional_subtotal,mapped_value_sum

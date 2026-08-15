@@ -1,0 +1,693 @@
+metric,region,source_row,source_commune_label,mapped_commune,mapped_commune_name,value,source_cell_status,mapping_method,block_start_row,block_end_row,regional_subtotal_row
+total_fixed_connections_2026m03,1,10,Alto Hospicio,1107,Alto Hospicio,25233,numeric,regional_formula_block_order,10,17,18
+total_fixed_connections_2026m03,1,11,Camiña,1402,Camiña,57,numeric,regional_formula_block_order,10,17,18
+total_fixed_connections_2026m03,1,12,Colchane,1403,Colchane,149,numeric,regional_formula_block_order,10,17,18
+total_fixed_connections_2026m03,1,13,Huara,1404,Huara,352,numeric,regional_formula_block_order,10,17,18
+total_fixed_connections_2026m03,1,14,Iquique,1101,Iquique,58491,numeric,regional_formula_block_order,10,17,18
+total_fixed_connections_2026m03,1,15,Pica,1405,Pica,791,numeric,regional_formula_block_order,10,17,18
+total_fixed_connections_2026m03,1,16,Pozo Almonte,1401,Pozo Almonte,2890,numeric,regional_formula_block_order,10,17,18
+total_fixed_connections_2026m03,2,19,Antofagasta,2101,Antofagasta,120596,numeric,regional_formula_block_order,19,27,28
+total_fixed_connections_2026m03,2,20,Calama,2201,Calama,48122,numeric,regional_formula_block_order,19,27,28
+total_fixed_connections_2026m03,2,21,María Elena,2302,María Elena,1428,numeric,regional_formula_block_order,19,27,28
+total_fixed_connections_2026m03,2,22,Mejillones,2102,Mejillones,3185,numeric,regional_formula_block_order,19,27,28
+total_fixed_connections_2026m03,2,23,Ollagüe,2202,Ollagüe,59,numeric,regional_formula_block_order,19,27,28
+total_fixed_connections_2026m03,2,24,San Pedro de Atacama,2203,San Pedro de Atacama,1663,numeric,regional_formula_block_order,19,27,28
+total_fixed_connections_2026m03,2,25,Sierra Gorda,2103,Sierra Gorda,926,numeric,regional_formula_block_order,19,27,28
+total_fixed_connections_2026m03,2,26,Taltal,2104,Taltal,3217,numeric,regional_formula_block_order,19,27,28
+total_fixed_connections_2026m03,2,27,Tocopilla,2301,Tocopilla,6817,numeric,regional_formula_block_order,19,27,28
+total_fixed_connections_2026m03,3,29,Alto Del Carmen,3302,Alto del Carmen,228,numeric,regional_formula_block_order,29,38,39
+total_fixed_connections_2026m03,3,30,Caldera,3102,Caldera,5222,numeric,regional_formula_block_order,29,38,39
+total_fixed_connections_2026m03,3,31,Chañaral,3201,Chañaral,2427,numeric,regional_formula_block_order,29,38,39
+total_fixed_connections_2026m03,3,32,Copiapó,3101,Copiapó,46317,numeric,regional_formula_block_order,29,38,39
+total_fixed_connections_2026m03,3,33,Diego de Almagro,3202,Diego de Almagro,2432,numeric,regional_formula_block_order,29,38,39
+total_fixed_connections_2026m03,3,34,Freirina,3303,Freirina,364,numeric,regional_formula_block_order,29,38,39
+total_fixed_connections_2026m03,3,35,Huasco,3304,Huasco,1617,numeric,regional_formula_block_order,29,38,39
+total_fixed_connections_2026m03,3,36,Tierra Amarilla,3103,Tierra Amarilla,2276,numeric,regional_formula_block_order,29,38,39
+total_fixed_connections_2026m03,3,37,Vallenar,3301,Vallenar,13992,numeric,regional_formula_block_order,29,38,39
+total_fixed_connections_2026m03,4,40,Andacollo,4103,Andacollo,1727,numeric,regional_formula_block_order,40,55,56
+total_fixed_connections_2026m03,4,41,Canela,4202,Canela,1199,numeric,regional_formula_block_order,40,55,56
+total_fixed_connections_2026m03,4,42,Combarbalá,4302,Combarbalá,1469,numeric,regional_formula_block_order,40,55,56
+total_fixed_connections_2026m03,4,43,Coquimbo,4102,Coquimbo,75274,numeric,regional_formula_block_order,40,55,56
+total_fixed_connections_2026m03,4,44,Illapel,4201,Illapel,5342,numeric,regional_formula_block_order,40,55,56
+total_fixed_connections_2026m03,4,45,La Higuera,4104,La Higuera,450,numeric,regional_formula_block_order,40,55,56
+total_fixed_connections_2026m03,4,46,La Serena,4101,La Serena,80881,numeric,regional_formula_block_order,40,55,56
+total_fixed_connections_2026m03,4,47,Los Vilos,4203,Los Vilos,5996,numeric,regional_formula_block_order,40,55,56
+total_fixed_connections_2026m03,4,48,Monte Patria,4303,Monte Patria,2333,numeric,regional_formula_block_order,40,55,56
+total_fixed_connections_2026m03,4,49,Ovalle,4301,Ovalle,21612,numeric,regional_formula_block_order,40,55,56
+total_fixed_connections_2026m03,4,50,Paihuano,4105,Paihuano,177,numeric,regional_formula_block_order,40,55,56
+total_fixed_connections_2026m03,4,51,Punitaqui,4304,Punitaqui,1267,numeric,regional_formula_block_order,40,55,56
+total_fixed_connections_2026m03,4,52,Río Hurtado,4305,Río Hurtado,172,numeric,regional_formula_block_order,40,55,56
+total_fixed_connections_2026m03,4,53,Salamanca,4204,Salamanca,2287,numeric,regional_formula_block_order,40,55,56
+total_fixed_connections_2026m03,4,54,Vicuña,4106,Vicuña,3243,numeric,regional_formula_block_order,40,55,56
+total_fixed_connections_2026m03,5,57,Algarrobo,5602,Algarrobo,8881,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,58,Cabildo,5402,Cabildo,2587,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,59,Calera,5302,Calle Larga,14004,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,60,Calle Larga,5603,Cartagena,4427,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,61,Cartagena,5102,Casablanca,7272,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,62,Casablanca,5702,Catemu,6193,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,63,Catemu,5103,Concón,1870,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,64,Concón,5604,El Quisco,20753,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,65,El Quisco,5605,El Tabo,8618,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,66,El Tabo,5503,Hijuelas,7770,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,67,Hijuelas,5201,Isla de Pascua,3768,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,68,Isla de Pascua,5104,Juan Fernández,2542,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,69,Juan Fernández,5502,Calera,236,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,70,La Cruz,5504,La Cruz,7449,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,71,La Ligua,5401,La Ligua,8011,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,72,Limache,5802,Limache,15099,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,73,Llaillay,5703,Llaillay,5647,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,74,Los Andes,5301,Los Andes,22063,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,75,Nogales,5506,Nogales,4543,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,76,Olmué,5803,Olmué,4634,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,77,Panquehue,5704,Panquehue,1657,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,78,Papudo,5403,Papudo,2662,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,79,Petorca,5404,Petorca,886,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,80,Puchuncaví,5105,Puchuncaví,8791,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,81,Putaendo,5705,Putaendo,2828,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,82,Quillota,5501,Quillota,27359,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,83,Quilpué,5801,Quilpué,54829,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,84,Quintero,5107,Quintero,9581,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,85,Rinconada,5303,Rinconada,3023,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,86,San Antonio,5601,San Antonio,25163,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,87,San Esteban,5304,San Esteban,4126,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,88,San Felipe,5701,San Felipe,20317,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,89,Santa María,5706,Santa María,2573,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,90,Santo Domingo,5606,Santo Domingo,5090,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,91,Valparaíso,5101,Valparaíso,88512,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,92,Villa Alemana,5804,Villa Alemana,49009,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,93,Viña del Mar,5109,Viña del Mar,126819,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,94,Zapallar,5405,Zapallar,3388,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,6,96,Chépica,6302,Chépica,1142,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,97,Chimbarongo,6303,Chimbarongo,3714,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,98,Codegua,6102,Codegua,1672,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,99,Coinco,6103,Coinco,1513,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,100,Coltauco,6104,Coltauco,3776,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,101,Doñihue,6105,Doñihue,4477,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,102,Graneros,6106,Graneros,9191,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,103,La Estrella,6202,La Estrella,602,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,104,Las Cabras,6107,Las Cabras,2245,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,105,Litueche,6203,Litueche,1240,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,106,Lolol,6304,Lolol,672,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,107,Machalí,6108,Machalí,18088,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,108,Malloa,6109,Malloa,1295,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,109,Marchihue,6204,Marchihue,635,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,110,Mostazal,6110,Mostazal,4835,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,111,Nancagua,6305,Nancagua,2462,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,112,Navidad,6205,Navidad,2240,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,113,Olivar,6111,Olivar,2648,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,114,Palmilla,6306,Palmilla,539,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,115,Paredones,6206,Paredones,270,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,116,Peralillo,6307,Peralillo,926,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,117,Peumo,6112,Peumo,1468,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,118,Pichidegua,6113,Pichidegua,1826,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,119,Pichilemu,6201,Pichilemu,5930,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,120,Placilla,6308,Placilla,365,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,121,Pumanque,6309,Pumanque,144,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,122,Quinta de Tilcoco,6114,Quinta de Tilcoco,2309,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,123,Rancagua,6101,Rancagua,78248,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,124,Rengo,6115,Rengo,15316,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,125,Requinoa,6116,Requínoa,4372,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,126,San Fernando,6301,San Fernando,18763,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,127,San Vicente,6117,San Vicente,6644,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,6,128,Santa Cruz,6310,Santa Cruz,7082,numeric,regional_formula_block_order,96,128,129
+total_fixed_connections_2026m03,7,130,Cauquenes,7201,Cauquenes,9576,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,131,Chanco,7202,Chanco,416,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,132,Colbún,7402,Colbún,1626,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,133,Constitución,7102,Constitución,8120,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,134,Curepto,7103,Curepto,388,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,135,Curicó,7301,Curicó,47247,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,136,Empedrado,7104,Empedrado,278,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,137,Hualañé,7302,Hualañé,915,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,138,Licantén,7303,Licantén,1498,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,139,Linares,7401,Linares,20174,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,140,Longaví,7403,Longaví,4314,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,141,Maule,7105,Maule,10095,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,142,Molina,7304,Molina,6003,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,143,Parral,7404,Parral,11498,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,144,Pelarco,7106,Pelarco,410,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,145,Pelluhue,7203,Pelluhue,1831,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,146,Pencahue,7107,Pencahue,588,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,147,Rauco,7305,Rauco,1323,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,148,Retiro,7405,Retiro,3684,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,149,Río Claro,7108,Río Claro,875,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,150,Romeral,7306,Romeral,2762,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,151,Sagrada Familia,7307,Sagrada Familia,308,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,152,San Clemente,7109,San Clemente,5504,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,153,San Javier,7406,San Javier,6633,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,154,San Rafael,7110,San Rafael,764,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,155,Talca,7101,Talca,68314,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,156,Teno,7308,Teno,2497,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,157,Vichuquén,7309,Vichuquén,807,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,158,Villa Alegre,7407,Villa Alegre,1426,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,7,159,Yerbas Buenas,7408,Yerbas Buenas,1661,numeric,regional_formula_block_order,130,159,160
+total_fixed_connections_2026m03,8,161,Alto Biobío,8314,Alto Biobío,384,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,162,Antuco,8302,Antuco,203,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,163,Arauco,8202,Arauco,8677,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,164,Bulnes,8303,Cabrero,5656,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,165,Cabrero,8203,Cañete,5476,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,166,Cañete,8103,Chiguayante,26835,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,167,Chiguayante,8101,Concepción,94519,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,168,Chillán,8204,Contulmo,1102,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,169,Chillán Viejo,8102,Coronel,38312,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,170,Cobquecura,8205,Curanilahue,8253,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,171,Coelemu,8104,Florida,1518,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,172,Coihueco,8112,Hualpén,28548,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,173,Concepción,8105,Hualqui,6572,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,174,Contulmo,8304,Laja,4188,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,175,Coronel,8201,Lebu,6327,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,176,Curanilahue,8206,Los Álamos,4910,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,177,El Carmen,8301,Los Ángeles,59247,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,178,Florida,8106,Lota,11552,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,179,Hualpén,8305,Mulchén,5071,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,180,Hualqui,8306,Nacimiento,5696,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,181,Laja,8307,Negrete,854,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,182,Lebu,8107,Penco,13232,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,183,Los Alamos,8308,Quilaco,570,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,184,Los Angeles,8309,Quilleco,195,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,185,Lota,8108,San Pedro de La paz,51272,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,186,Mulchén,8310,San Rosendo,540,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,187,Nacimiento,8311,Santa Bárbara,2085,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,188,Negrete,8109,Santa Juana,3322,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,189,Ninhue,8110,Talcahuano,45275,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,190,Ñiquén,8207,Tirúa,456,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,191,Pemuco,8111,Tomé,17846,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,192,Penco,8312,Tucapel,3046,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,8,193,Pinto,8313,Yumbel,3541,numeric,regional_formula_block_order,161,193,194
+total_fixed_connections_2026m03,9,195,Quilaco,9201,Angol,14420,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,196,Quilleco,9102,Carahue,1860,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,197,Quillón,9121,Cholchol,794,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,198,Quirihue,9202,Collipulli,4286,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,199,Ranquil,9103,Cunco,3010,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,200,San Carlos,9203,Curacautín,3833,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,201,San Fabián,9104,Curarrehue,388,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,202,San Ignacio,9204,Ercilla,997,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,203,San Nicolás,9105,Freire,2722,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,204,San Pedro de la Paz,9106,Galvarino,839,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,205,San Rosendo,9107,Gorbea,1854,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,206,Santa Bárbara,9108,Lautaro,8129,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,207,Santa Juana,9109,Loncoche,4998,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,208,Talcahuano,9205,Lonquimay,385,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,209,Tirúa,9206,Los Sauces,1083,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,210,Tomé,9207,Lumaco,379,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,211,Treguaco,9110,Melipeuco,280,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,212,Tucapel,9111,Nueva Imperial,4777,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,213,Yumbel,9112,Padre Las Casas,11487,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,214,Yungay,9113,Perquenco,878,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,215,,9114,Pitrufquén,7205,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,216,Angol,9115,Pucón,8022,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,217,Carahue,9208,Purén,1772,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,218,Cholchol,9209,Renaico,1330,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,219,Collipulli,9116,Saavedra,608,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,220,Cunco,9101,Temuco,99016,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,221,Curacautín,9117,Teodoro Schmidt,1363,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,222,Curarrehue,9118,Toltén,1104,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,223,Ercilla,9210,Traiguén,3241,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,224,Freire,9211,Victoria,9123,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,225,Galvarino,9119,Vilcún,3900,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,9,226,Gorbea,9120,Villarrica,17768,numeric,regional_formula_block_order,195,226,227
+total_fixed_connections_2026m03,10,228,Loncoche,10202,Ancud,7681,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,229,Lonquimay,10102,Calbuco,5253,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,230,Los Sauces,10201,Castro,10252,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,231,Lumaco,10401,Chaitén,856,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,232,Melipeuco,10203,Chonchi,1718,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,233,Nueva Imperial,10103,Cochamó,536,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,234,Padre Las Casas,10204,Curaco de Vélez,244,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,235,Perquenco,10205,Dalcahue,1665,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,236,Pitrufquén,10104,Fresia,1288,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,237,Pucón,10105,Frutillar,4904,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,238,Purén,10402,Futaleufú,868,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,239,Renaico,10403,Hualaihué,724,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,240,Saavedra,10107,Llanquihue,4034,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,241,Temuco,10106,Los Muermos,1596,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,242,Teodoro Schmidt,10108,Maullín,1541,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,243,Toltén,10301,Osorno,46144,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,244,Traiguén,10404,Palena,465,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,245,Victoria,10101,Puerto Montt,68933,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,246,Vilcún,10302,Puerto Octay,1054,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,247,Villarrica,10109,Puerto Varas,14711,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,248,,10206,Puqueldón,187,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,249,Ancud,10303,Purranque,3482,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,250,Calbuco,10304,Puyehue,1586,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,251,Castro,10207,Queilén,500,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,252,Chaitén,10208,Quellón,3625,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,253,Chonchi,10209,Quemchi,805,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,254,Cochamó,10210,Quinchao,584,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,255,Curaco de Vélez,10305,Río Negro,1959,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,256,Dalcahue,10306,San Juan de la Costa,224,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,10,257,Fresia,10307,San Pablo,1572,numeric,regional_formula_block_order,228,258,259
+total_fixed_connections_2026m03,11,260,Hualaihue,11201,Aysén,5457,numeric,regional_formula_block_order,260,270,271
+total_fixed_connections_2026m03,11,261,Llanquihue,11401,Chile Chico,842,numeric,regional_formula_block_order,260,270,271
+total_fixed_connections_2026m03,11,262,Los Muermos,11202,Cisnes,1510,numeric,regional_formula_block_order,260,270,271
+total_fixed_connections_2026m03,11,263,Maullín,11301,Cochrane,837,numeric,regional_formula_block_order,260,270,271
+total_fixed_connections_2026m03,11,264,Osorno,11101,Coyhaique,15702,numeric,regional_formula_block_order,260,270,271
+total_fixed_connections_2026m03,11,265,Palena,11203,Guaitecas,240,numeric,regional_formula_block_order,260,270,271
+total_fixed_connections_2026m03,11,266,Puerto Montt,11102,Lago Verde,185,numeric,regional_formula_block_order,260,270,271
+total_fixed_connections_2026m03,11,267,Puerto Octay,11302,O'Higgins,273,numeric,regional_formula_block_order,260,270,271
+total_fixed_connections_2026m03,11,268,Puerto Varas,11402,Río Ibáñez,560,numeric,regional_formula_block_order,260,270,271
+total_fixed_connections_2026m03,11,269,Puqueldón,11303,Tortel,55,numeric,regional_formula_block_order,260,270,271
+total_fixed_connections_2026m03,12,272,Queilén,12202,Antártica,,blank,regional_formula_block_order,272,282,283
+total_fixed_connections_2026m03,12,273,Quellón,12201,Cabo de Hornos,421,numeric,regional_formula_block_order,272,282,283
+total_fixed_connections_2026m03,12,274,Quemchi,12102,Laguna Blanca,43,numeric,regional_formula_block_order,272,282,283
+total_fixed_connections_2026m03,12,275,Quinchao,12401,Natales,8954,numeric,regional_formula_block_order,272,282,283
+total_fixed_connections_2026m03,12,276,Río Negro,12301,Porvenir,2141,numeric,regional_formula_block_order,272,282,283
+total_fixed_connections_2026m03,12,277,San Juan de la Costa,12302,Primavera,90,numeric,regional_formula_block_order,272,282,283
+total_fixed_connections_2026m03,12,278,San Pablo,12101,Punta Arenas,44606,numeric,regional_formula_block_order,272,282,283
+total_fixed_connections_2026m03,12,279,Sin clasificación,12103,Río Verde,30,numeric,regional_formula_block_order,272,282,283
+total_fixed_connections_2026m03,12,280,,12104,San Gregorio,110,numeric,regional_formula_block_order,272,282,283
+total_fixed_connections_2026m03,12,281,Aisén,12303,Timaukel,73,numeric,regional_formula_block_order,272,282,283
+total_fixed_connections_2026m03,12,282,Chile Chico,12402,Torres del Paine,203,numeric,regional_formula_block_order,272,282,283
+total_fixed_connections_2026m03,13,284,Cochrane,13502,Alhué,2787,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,285,Coyhaique,13402,Buin,22256,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,286,Guaitecas,13403,Calera de Tango,3690,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,287,Lago Verde,13102,Cerrillos,23225,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,288,O'Higgins,13103,Cerro Navia,29243,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,289,Río Ibáñez,13301,Colina,40358,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,290,Tortel,13104,Conchalí,30703,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,291,Sin clasificación,13503,Curacaví,4398,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,292,,13105,El Bosque,37489,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,293,Antártica,13602,El Monte,6809,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,294,Cabo de Hornos,13106,Estación Central,55642,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,295,Laguna Blanca,13107,Huechuraba,29079,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,296,Natales,13108,Independencia,34165,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,297,Porvenir,13603,Isla de Maipo,6633,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,298,Primavera,13109,La Cisterna,35929,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,299,Punta Arenas,13110,La Florida,120747,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,300,Río Verde,13111,La Granja,25836,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,301,San Gregorio,13112,La Pintana,16739,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,302,Timaukel,13113,La Reina,29675,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,303,Torres del Paine,13302,Lampa,23968,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,304,,13114,Las Condes,127236,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,305,Alhué,13115,Lo Barnechea,31295,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,306,Buin,13116,Lo Espejo,15737,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,307,Calera de Tango,13117,Lo Prado,22464,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,308,Cerrillos,13118,Macul,42677,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,309,Cerro Navia,13119,Maipú,149918,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,310,Colina,13504,María Pinto,3303,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,311,Conchalí,13501,Melipilla,20104,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,312,Curacaví,13120,Ñuñoa,109841,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,313,El Bosque,13604,Padre Hurtado,21688,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,314,El Monte,13404,Paine,8466,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,315,Estación Central,13121,Pedro Aguirre Cerda,23818,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,316,Huechuraba,13605,Peñaflor,24184,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,317,Independencia,13122,Peñalolén,57726,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,318,Isla de Maipo,13202,Pirque,4430,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,319,La Cisterna,13123,Providencia,76440,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,320,La Florida,13124,Pudahuel,59019,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,321,La Granja,13201,Puente Alto,145884,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,322,La Pintana,13125,Quilicura,51352,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,323,La Reina,13126,Quinta Normal,36233,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,324,Lampa,13127,Recoleta,40106,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,325,Las Condes,13128,Renca,34637,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,326,Lo Barnechea,13401,San Bernardo,69599,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,327,Lo Espejo,13129,San Joaquín,26562,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,328,Lo Prado,13203,San José de Maipo,2110,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,329,Macul,13130,San Miguel,56238,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,330,Maipú,13505,San Pedro,613,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,331,María Pinto,13131,San Ramón,15157,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,332,Melipilla,13101,Santiago,167630,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,333,Ñuñoa,13601,Talagante,16051,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,334,Padre Hurtado,13303,Tiltil,3428,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,13,335,Paine,13132,Vitacura,37131,numeric,regional_formula_block_order,284,336,337
+total_fixed_connections_2026m03,14,338,Peñalolén,14102,Corral,491,numeric,regional_formula_block_order,338,349,350
+total_fixed_connections_2026m03,14,339,Pirque,14202,Futrono,1714,numeric,regional_formula_block_order,338,349,350
+total_fixed_connections_2026m03,14,340,Providencia,14201,La Unión,8949,numeric,regional_formula_block_order,338,349,350
+total_fixed_connections_2026m03,14,341,Pudahuel,14203,Lago Ranco,830,numeric,regional_formula_block_order,338,349,350
+total_fixed_connections_2026m03,14,342,Puente Alto,14103,Lanco,2738,numeric,regional_formula_block_order,338,349,350
+total_fixed_connections_2026m03,14,343,Quilicura,14104,Los Lagos,2540,numeric,regional_formula_block_order,338,349,350
+total_fixed_connections_2026m03,14,344,Quinta Normal,14105,Máfil,1160,numeric,regional_formula_block_order,338,349,350
+total_fixed_connections_2026m03,14,345,Recoleta,14106,Mariquina,3886,numeric,regional_formula_block_order,338,349,350
+total_fixed_connections_2026m03,14,346,Renca,14107,Paillaco,3010,numeric,regional_formula_block_order,338,349,350
+total_fixed_connections_2026m03,14,347,San Bernardo,14108,Panguipulli,5248,numeric,regional_formula_block_order,338,349,350
+total_fixed_connections_2026m03,14,348,San Joaquín,14204,Río Bueno,5695,numeric,regional_formula_block_order,338,349,350
+total_fixed_connections_2026m03,14,349,San José de Maipo,14101,Valdivia,50222,numeric,regional_formula_block_order,338,349,350
+total_fixed_connections_2026m03,15,351,San Pedro,15101,Arica,59213,numeric,regional_formula_block_order,351,354,355
+total_fixed_connections_2026m03,15,352,San Ramón,15102,Camarones,74,numeric,regional_formula_block_order,351,354,355
+total_fixed_connections_2026m03,15,353,Santiago,15202,General Lagos,828,numeric,regional_formula_block_order,351,354,355
+total_fixed_connections_2026m03,15,354,Talagante,15201,Putre,120,numeric,regional_formula_block_order,351,354,355
+total_fixed_connections_2026m03,16,356,Vitacura,16102,Bulnes,3695,numeric,regional_formula_block_order,356,376,377
+total_fixed_connections_2026m03,16,357,Sin clasificación,16101,Chillán,56683,numeric,regional_formula_block_order,356,376,377
+total_fixed_connections_2026m03,16,358,,16103,Chillán Viejo,10232,numeric,regional_formula_block_order,356,376,377
+total_fixed_connections_2026m03,16,359,Corral,16202,Cobquecura,838,numeric,regional_formula_block_order,356,376,377
+total_fixed_connections_2026m03,16,360,Futrono,16203,Coelemu,2776,numeric,regional_formula_block_order,356,376,377
+total_fixed_connections_2026m03,16,361,La Unión,16302,Coihueco,1565,numeric,regional_formula_block_order,356,376,377
+total_fixed_connections_2026m03,16,362,Lago Ranco,16104,El Carmen,632,numeric,regional_formula_block_order,356,376,377
+total_fixed_connections_2026m03,16,363,Lanco,16204,Ninhue,377,numeric,regional_formula_block_order,356,376,377
+total_fixed_connections_2026m03,16,364,Los Lagos,16303,Ñiquén,355,numeric,regional_formula_block_order,356,376,377
+total_fixed_connections_2026m03,16,365,Mafil,16105,Pemuco,890,numeric,regional_formula_block_order,356,376,377
+total_fixed_connections_2026m03,16,366,Mariquina,16106,Pinto,2436,numeric,regional_formula_block_order,356,376,377
+total_fixed_connections_2026m03,16,367,Paillaco,16205,Portezuelo,326,numeric,regional_formula_block_order,356,376,377
+total_fixed_connections_2026m03,16,368,Panguipulli,16107,Quillón,3240,numeric,regional_formula_block_order,356,376,377
+total_fixed_connections_2026m03,16,369,Río Bueno,16201,Quirihue,991,numeric,regional_formula_block_order,356,376,377
+total_fixed_connections_2026m03,16,370,Valdivia,16206,Ránquil,685,numeric,regional_formula_block_order,356,376,377
+total_fixed_connections_2026m03,16,371,,16301,San Carlos,9043,numeric,regional_formula_block_order,356,376,377
+total_fixed_connections_2026m03,16,372,Arica,16304,San Fabián,704,numeric,regional_formula_block_order,356,376,377
+total_fixed_connections_2026m03,16,373,Camarones,16108,San Ignacio,1218,numeric,regional_formula_block_order,356,376,377
+total_fixed_connections_2026m03,16,374,General Lagos,16305,San Nicolás,652,numeric,regional_formula_block_order,356,376,377
+total_fixed_connections_2026m03,16,375,Putre,16207,Trehuaco,459,numeric,regional_formula_block_order,356,376,377
+total_fixed_connections_2026m03,16,376,,16109,Yungay,2818,numeric,regional_formula_block_order,356,376,377
+residential_fixed_connections_2026m03,1,10,Alto Hospicio,1107,Alto Hospicio,23982,numeric,regional_formula_block_order,10,17,18
+residential_fixed_connections_2026m03,1,11,Camiña,1402,Camiña,41,numeric,regional_formula_block_order,10,17,18
+residential_fixed_connections_2026m03,1,12,Colchane,1403,Colchane,126,numeric,regional_formula_block_order,10,17,18
+residential_fixed_connections_2026m03,1,13,Huara,1404,Huara,299,numeric,regional_formula_block_order,10,17,18
+residential_fixed_connections_2026m03,1,14,Iquique,1101,Iquique,52286,numeric,regional_formula_block_order,10,17,18
+residential_fixed_connections_2026m03,1,15,Pica,1405,Pica,695,numeric,regional_formula_block_order,10,17,18
+residential_fixed_connections_2026m03,1,16,Pozo Almonte,1401,Pozo Almonte,2586,numeric,regional_formula_block_order,10,17,18
+residential_fixed_connections_2026m03,2,19,Antofagasta,2101,Antofagasta,111930,numeric,regional_formula_block_order,19,27,28
+residential_fixed_connections_2026m03,2,20,Calama,2201,Calama,45297,numeric,regional_formula_block_order,19,27,28
+residential_fixed_connections_2026m03,2,21,María Elena,2302,María Elena,1281,numeric,regional_formula_block_order,19,27,28
+residential_fixed_connections_2026m03,2,22,Mejillones,2102,Mejillones,2858,numeric,regional_formula_block_order,19,27,28
+residential_fixed_connections_2026m03,2,23,Ollagüe,2202,Ollagüe,43,numeric,regional_formula_block_order,19,27,28
+residential_fixed_connections_2026m03,2,24,San Pedro de Atacama,2203,San Pedro de Atacama,1502,numeric,regional_formula_block_order,19,27,28
+residential_fixed_connections_2026m03,2,25,Sierra Gorda,2103,Sierra Gorda,700,numeric,regional_formula_block_order,19,27,28
+residential_fixed_connections_2026m03,2,26,Taltal,2104,Taltal,2517,numeric,regional_formula_block_order,19,27,28
+residential_fixed_connections_2026m03,2,27,Tocopilla,2301,Tocopilla,6429,numeric,regional_formula_block_order,19,27,28
+residential_fixed_connections_2026m03,3,29,Alto Del Carmen,3302,Alto del Carmen,197,numeric,regional_formula_block_order,29,38,39
+residential_fixed_connections_2026m03,3,30,Caldera,3102,Caldera,5035,numeric,regional_formula_block_order,29,38,39
+residential_fixed_connections_2026m03,3,31,Chañaral,3201,Chañaral,2360,numeric,regional_formula_block_order,29,38,39
+residential_fixed_connections_2026m03,3,32,Copiapó,3101,Copiapó,43864,numeric,regional_formula_block_order,29,38,39
+residential_fixed_connections_2026m03,3,33,Diego de Almagro,3202,Diego de Almagro,2194,numeric,regional_formula_block_order,29,38,39
+residential_fixed_connections_2026m03,3,34,Freirina,3303,Freirina,341,numeric,regional_formula_block_order,29,38,39
+residential_fixed_connections_2026m03,3,35,Huasco,3304,Huasco,1513,numeric,regional_formula_block_order,29,38,39
+residential_fixed_connections_2026m03,3,36,Tierra Amarilla,3103,Tierra Amarilla,2130,numeric,regional_formula_block_order,29,38,39
+residential_fixed_connections_2026m03,3,37,Vallenar,3301,Vallenar,13119,numeric,regional_formula_block_order,29,38,39
+residential_fixed_connections_2026m03,4,40,Andacollo,4103,Andacollo,1697,numeric,regional_formula_block_order,40,55,56
+residential_fixed_connections_2026m03,4,41,Canela,4202,Canela,1176,numeric,regional_formula_block_order,40,55,56
+residential_fixed_connections_2026m03,4,42,Combarbalá,4302,Combarbalá,1389,numeric,regional_formula_block_order,40,55,56
+residential_fixed_connections_2026m03,4,43,Coquimbo,4102,Coquimbo,72293,numeric,regional_formula_block_order,40,55,56
+residential_fixed_connections_2026m03,4,44,Illapel,4201,Illapel,5083,numeric,regional_formula_block_order,40,55,56
+residential_fixed_connections_2026m03,4,45,La Higuera,4104,La Higuera,432,numeric,regional_formula_block_order,40,55,56
+residential_fixed_connections_2026m03,4,46,La Serena,4101,La Serena,76191,numeric,regional_formula_block_order,40,55,56
+residential_fixed_connections_2026m03,4,47,Los Vilos,4203,Los Vilos,5729,numeric,regional_formula_block_order,40,55,56
+residential_fixed_connections_2026m03,4,48,Monte Patria,4303,Monte Patria,2246,numeric,regional_formula_block_order,40,55,56
+residential_fixed_connections_2026m03,4,49,Ovalle,4301,Ovalle,20182,numeric,regional_formula_block_order,40,55,56
+residential_fixed_connections_2026m03,4,50,Paihuano,4105,Paihuano,153,numeric,regional_formula_block_order,40,55,56
+residential_fixed_connections_2026m03,4,51,Punitaqui,4304,Punitaqui,1219,numeric,regional_formula_block_order,40,55,56
+residential_fixed_connections_2026m03,4,52,Río Hurtado,4305,Río Hurtado,137,numeric,regional_formula_block_order,40,55,56
+residential_fixed_connections_2026m03,4,53,Salamanca,4204,Salamanca,2118,numeric,regional_formula_block_order,40,55,56
+residential_fixed_connections_2026m03,4,54,Vicuña,4106,Vicuña,3097,numeric,regional_formula_block_order,40,55,56
+residential_fixed_connections_2026m03,5,57,Algarrobo,5602,Algarrobo,8475,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,58,Cabildo,5402,Cabildo,2507,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,59,Calera,5302,Calle Larga,13439,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,60,Calle Larga,5603,Cartagena,4277,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,61,Cartagena,5102,Casablanca,7247,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,62,Casablanca,5702,Catemu,5924,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,63,Catemu,5103,Concón,1823,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,64,Concón,5604,El Quisco,18986,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,65,El Quisco,5605,El Tabo,8556,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,66,El Tabo,5503,Hijuelas,7593,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,67,Hijuelas,5201,Isla de Pascua,3707,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,68,Isla de Pascua,5104,Juan Fernández,2463,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,69,Juan Fernández,5502,Calera,221,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,70,La Cruz,5504,La Cruz,7126,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,71,La Ligua,5401,La Ligua,7734,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,72,Limache,5802,Limache,14491,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,73,Llaillay,5703,Llaillay,5448,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,74,Los Andes,5301,Los Andes,20607,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,75,Nogales,5506,Nogales,4450,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,76,Olmué,5803,Olmué,4514,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,77,Panquehue,5704,Panquehue,1590,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,78,Papudo,5403,Papudo,2489,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,79,Petorca,5404,Petorca,810,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,80,Puchuncaví,5105,Puchuncaví,8656,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,81,Putaendo,5705,Putaendo,2770,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,82,Quillota,5501,Quillota,26079,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,83,Quilpué,5801,Quilpué,52390,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,84,Quintero,5107,Quintero,9246,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,85,Rinconada,5303,Rinconada,2939,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,86,San Antonio,5601,San Antonio,24286,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,87,San Esteban,5304,San Esteban,4001,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,88,San Felipe,5701,San Felipe,19367,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,89,Santa María,5706,Santa María,2482,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,90,Santo Domingo,5606,Santo Domingo,4849,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,91,Valparaíso,5101,Valparaíso,83865,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,92,Villa Alemana,5804,Villa Alemana,47000,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,93,Viña del Mar,5109,Viña del Mar,118809,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,94,Zapallar,5405,Zapallar,3164,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,6,96,Chépica,6302,Chépica,1119,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,97,Chimbarongo,6303,Chimbarongo,3590,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,98,Codegua,6102,Codegua,1660,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,99,Coinco,6103,Coinco,1503,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,100,Coltauco,6104,Coltauco,3735,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,101,Doñihue,6105,Doñihue,4390,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,102,Graneros,6106,Graneros,9023,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,103,La Estrella,6202,La Estrella,584,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,104,Las Cabras,6107,Las Cabras,2179,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,105,Litueche,6203,Litueche,1210,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,106,Lolol,6304,Lolol,655,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,107,Machalí,6108,Machalí,17372,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,108,Malloa,6109,Malloa,1268,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,109,Marchihue,6204,Marchihue,605,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,110,Mostazal,6110,Mostazal,4710,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,111,Nancagua,6305,Nancagua,2407,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,112,Navidad,6205,Navidad,2220,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,113,Olivar,6111,Olivar,2555,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,114,Palmilla,6306,Palmilla,526,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,115,Paredones,6206,Paredones,246,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,116,Peralillo,6307,Peralillo,910,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,117,Peumo,6112,Peumo,1455,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,118,Pichidegua,6113,Pichidegua,1800,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,119,Pichilemu,6201,Pichilemu,5788,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,120,Placilla,6308,Placilla,348,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,121,Pumanque,6309,Pumanque,128,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,122,Quinta de Tilcoco,6114,Quinta de Tilcoco,2288,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,123,Rancagua,6101,Rancagua,74459,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,124,Rengo,6115,Rengo,14739,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,125,Requinoa,6116,Requínoa,4225,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,126,San Fernando,6301,San Fernando,17088,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,127,San Vicente,6117,San Vicente,6428,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,6,128,Santa Cruz,6310,Santa Cruz,6522,numeric,regional_formula_block_order,96,128,129
+residential_fixed_connections_2026m03,7,130,Cauquenes,7201,Cauquenes,9287,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,131,Chanco,7202,Chanco,408,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,132,Colbún,7402,Colbún,1594,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,133,Constitución,7102,Constitución,7751,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,134,Curepto,7103,Curepto,369,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,135,Curicó,7301,Curicó,44132,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,136,Empedrado,7104,Empedrado,269,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,137,Hualañé,7302,Hualañé,900,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,138,Licantén,7303,Licantén,1488,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,139,Linares,7401,Linares,18857,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,140,Longaví,7403,Longaví,4208,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,141,Maule,7105,Maule,9816,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,142,Molina,7304,Molina,5797,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,143,Parral,7404,Parral,11110,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,144,Pelarco,7106,Pelarco,386,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,145,Pelluhue,7203,Pelluhue,1823,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,146,Pencahue,7107,Pencahue,520,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,147,Rauco,7305,Rauco,1313,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,148,Retiro,7405,Retiro,3621,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,149,Río Claro,7108,Río Claro,865,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,150,Romeral,7306,Romeral,2589,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,151,Sagrada Familia,7307,Sagrada Familia,288,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,152,San Clemente,7109,San Clemente,5308,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,153,San Javier,7406,San Javier,6205,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,154,San Rafael,7110,San Rafael,746,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,155,Talca,7101,Talca,64108,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,156,Teno,7308,Teno,2405,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,157,Vichuquén,7309,Vichuquén,789,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,158,Villa Alegre,7407,Villa Alegre,1405,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,7,159,Yerbas Buenas,7408,Yerbas Buenas,1556,numeric,regional_formula_block_order,130,159,160
+residential_fixed_connections_2026m03,8,161,Alto Biobío,8314,Alto Biobío,331,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,162,Antuco,8302,Antuco,187,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,163,Arauco,8202,Arauco,8432,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,164,Bulnes,8303,Cabrero,5525,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,165,Cabrero,8203,Cañete,5336,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,166,Cañete,8103,Chiguayante,26057,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,167,Chiguayante,8101,Concepción,86548,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,168,Chillán,8204,Contulmo,1089,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,169,Chillán Viejo,8102,Coronel,37843,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,170,Cobquecura,8205,Curanilahue,8165,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,171,Coelemu,8104,Florida,1473,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,172,Coihueco,8112,Hualpén,27682,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,173,Concepción,8105,Hualqui,6346,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,174,Contulmo,8304,Laja,4119,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,175,Coronel,8201,Lebu,6265,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,176,Curanilahue,8206,Los Álamos,4868,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,177,El Carmen,8301,Los Ángeles,56751,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,178,Florida,8106,Lota,11498,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,179,Hualpén,8305,Mulchén,4968,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,180,Hualqui,8306,Nacimiento,5621,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,181,Laja,8307,Negrete,838,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,182,Lebu,8107,Penco,12936,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,183,Los Alamos,8308,Quilaco,554,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,184,Los Angeles,8309,Quilleco,169,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,185,Lota,8108,San Pedro de La paz,49575,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,186,Mulchén,8310,San Rosendo,536,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,187,Nacimiento,8311,Santa Bárbara,2043,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,188,Negrete,8109,Santa Juana,3288,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,189,Ninhue,8110,Talcahuano,43253,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,190,Ñiquén,8207,Tirúa,410,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,191,Pemuco,8111,Tomé,17422,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,192,Penco,8312,Tucapel,3008,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,8,193,Pinto,8313,Yumbel,3511,numeric,regional_formula_block_order,161,193,194
+residential_fixed_connections_2026m03,9,195,Quilaco,9201,Angol,13991,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,196,Quilleco,9102,Carahue,1814,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,197,Quillón,9121,Cholchol,772,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,198,Quirihue,9202,Collipulli,4229,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,199,Ranquil,9103,Cunco,2979,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,200,San Carlos,9203,Curacautín,3792,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,201,San Fabián,9104,Curarrehue,356,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,202,San Ignacio,9204,Ercilla,983,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,203,San Nicolás,9105,Freire,2674,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,204,San Pedro de la Paz,9106,Galvarino,808,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,205,San Rosendo,9107,Gorbea,1747,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,206,Santa Bárbara,9108,Lautaro,7869,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,207,Santa Juana,9109,Loncoche,4806,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,208,Talcahuano,9205,Lonquimay,309,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,209,Tirúa,9206,Los Sauces,1061,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,210,Tomé,9207,Lumaco,350,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,211,Treguaco,9110,Melipeuco,256,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,212,Tucapel,9111,Nueva Imperial,4673,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,213,Yumbel,9112,Padre Las Casas,11200,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,214,Yungay,9113,Perquenco,867,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,215,,9114,Pitrufquén,6865,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,216,Angol,9115,Pucón,7598,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,217,Carahue,9208,Purén,1753,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,218,Cholchol,9209,Renaico,1318,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,219,Collipulli,9116,Saavedra,597,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,220,Cunco,9101,Temuco,92328,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,221,Curacautín,9117,Teodoro Schmidt,1351,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,222,Curarrehue,9118,Toltén,1064,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,223,Ercilla,9210,Traiguén,3214,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,224,Freire,9211,Victoria,8826,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,225,Galvarino,9119,Vilcún,3807,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,9,226,Gorbea,9120,Villarrica,17114,numeric,regional_formula_block_order,195,226,227
+residential_fixed_connections_2026m03,10,228,Loncoche,10202,Ancud,7289,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,229,Lonquimay,10102,Calbuco,5046,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,230,Los Sauces,10201,Castro,9820,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,231,Lumaco,10401,Chaitén,774,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,232,Melipeuco,10203,Chonchi,1629,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,233,Nueva Imperial,10103,Cochamó,484,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,234,Padre Las Casas,10204,Curaco de Vélez,230,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,235,Perquenco,10205,Dalcahue,1564,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,236,Pitrufquén,10104,Fresia,1244,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,237,Pucón,10105,Frutillar,4737,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,238,Purén,10402,Futaleufú,816,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,239,Renaico,10403,Hualaihué,660,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,240,Saavedra,10107,Llanquihue,3925,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,241,Temuco,10106,Los Muermos,1548,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,242,Teodoro Schmidt,10108,Maullín,1488,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,243,Toltén,10301,Osorno,44174,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,244,Traiguén,10404,Palena,418,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,245,Victoria,10101,Puerto Montt,65757,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,246,Vilcún,10302,Puerto Octay,1018,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,247,Villarrica,10109,Puerto Varas,13991,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,248,,10206,Puqueldón,171,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,249,Ancud,10303,Purranque,3362,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,250,Calbuco,10304,Puyehue,1516,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,251,Castro,10207,Queilén,463,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,252,Chaitén,10208,Quellón,3473,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,253,Chonchi,10209,Quemchi,746,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,254,Cochamó,10210,Quinchao,508,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,255,Curaco de Vélez,10305,Río Negro,1920,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,256,Dalcahue,10306,San Juan de la Costa,185,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,10,257,Fresia,10307,San Pablo,1526,numeric,regional_formula_block_order,228,258,259
+residential_fixed_connections_2026m03,11,260,Hualaihue,11201,Aysén,5191,numeric,regional_formula_block_order,260,270,271
+residential_fixed_connections_2026m03,11,261,Llanquihue,11401,Chile Chico,788,numeric,regional_formula_block_order,260,270,271
+residential_fixed_connections_2026m03,11,262,Los Muermos,11202,Cisnes,1413,numeric,regional_formula_block_order,260,270,271
+residential_fixed_connections_2026m03,11,263,Maullín,11301,Cochrane,796,numeric,regional_formula_block_order,260,270,271
+residential_fixed_connections_2026m03,11,264,Osorno,11101,Coyhaique,15007,numeric,regional_formula_block_order,260,270,271
+residential_fixed_connections_2026m03,11,265,Palena,11203,Guaitecas,210,numeric,regional_formula_block_order,260,270,271
+residential_fixed_connections_2026m03,11,266,Puerto Montt,11102,Lago Verde,155,numeric,regional_formula_block_order,260,270,271
+residential_fixed_connections_2026m03,11,267,Puerto Octay,11302,O'Higgins,248,numeric,regional_formula_block_order,260,270,271
+residential_fixed_connections_2026m03,11,268,Puerto Varas,11402,Río Ibáñez,535,numeric,regional_formula_block_order,260,270,271
+residential_fixed_connections_2026m03,11,269,Puqueldón,11303,Tortel,44,numeric,regional_formula_block_order,260,270,271
+residential_fixed_connections_2026m03,12,272,Queilén,12202,Antártica,,blank,regional_formula_block_order,272,282,283
+residential_fixed_connections_2026m03,12,273,Quellón,12201,Cabo de Hornos,355,numeric,regional_formula_block_order,272,282,283
+residential_fixed_connections_2026m03,12,274,Quemchi,12102,Laguna Blanca,33,numeric,regional_formula_block_order,272,282,283
+residential_fixed_connections_2026m03,12,275,Quinchao,12401,Natales,7941,numeric,regional_formula_block_order,272,282,283
+residential_fixed_connections_2026m03,12,276,Río Negro,12301,Porvenir,1950,numeric,regional_formula_block_order,272,282,283
+residential_fixed_connections_2026m03,12,277,San Juan de la Costa,12302,Primavera,72,numeric,regional_formula_block_order,272,282,283
+residential_fixed_connections_2026m03,12,278,San Pablo,12101,Punta Arenas,41205,numeric,regional_formula_block_order,272,282,283
+residential_fixed_connections_2026m03,12,279,Sin clasificación,12103,Río Verde,23,numeric,regional_formula_block_order,272,282,283
+residential_fixed_connections_2026m03,12,280,,12104,San Gregorio,76,numeric,regional_formula_block_order,272,282,283
+residential_fixed_connections_2026m03,12,281,Aisén,12303,Timaukel,66,numeric,regional_formula_block_order,272,282,283
+residential_fixed_connections_2026m03,12,282,Chile Chico,12402,Torres del Paine,181,numeric,regional_formula_block_order,272,282,283
+residential_fixed_connections_2026m03,13,284,Cochrane,13502,Alhué,2755,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,285,Coyhaique,13402,Buin,21457,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,286,Guaitecas,13403,Calera de Tango,3600,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,287,Lago Verde,13102,Cerrillos,22295,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,288,O'Higgins,13103,Cerro Navia,28302,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,289,Río Ibáñez,13301,Colina,38452,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,290,Tortel,13104,Conchalí,29529,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,291,Sin clasificación,13503,Curacaví,4248,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,292,,13105,El Bosque,36901,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,293,Antártica,13602,El Monte,6731,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,294,Cabo de Hornos,13106,Estación Central,53543,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,295,Laguna Blanca,13107,Huechuraba,26695,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,296,Natales,13108,Independencia,32462,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,297,Porvenir,13603,Isla de Maipo,6471,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,298,Primavera,13109,La Cisterna,34179,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,299,Punta Arenas,13110,La Florida,116208,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,300,Río Verde,13111,La Granja,25156,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,301,San Gregorio,13112,La Pintana,16618,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,302,Timaukel,13113,La Reina,27221,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,303,Torres del Paine,13302,Lampa,22750,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,304,,13114,Las Condes,111870,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,305,Alhué,13115,Lo Barnechea,28367,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,306,Buin,13116,Lo Espejo,15420,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,307,Calera de Tango,13117,Lo Prado,21907,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,308,Cerrillos,13118,Macul,40490,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,309,Cerro Navia,13119,Maipú,145370,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,310,Colina,13504,María Pinto,3179,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,311,Conchalí,13501,Melipilla,19371,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,312,Curacaví,13120,Ñuñoa,103201,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,313,El Bosque,13604,Padre Hurtado,21078,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,314,El Monte,13404,Paine,8208,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,315,Estación Central,13121,Pedro Aguirre Cerda,23143,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,316,Huechuraba,13605,Peñaflor,23391,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,317,Independencia,13122,Peñalolén,55577,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,318,Isla de Maipo,13202,Pirque,4331,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,319,La Cisterna,13123,Providencia,63395,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,320,La Florida,13124,Pudahuel,56495,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,321,La Granja,13201,Puente Alto,142210,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,322,La Pintana,13125,Quilicura,49052,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,323,La Reina,13126,Quinta Normal,33812,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,324,Lampa,13127,Recoleta,37147,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,325,Las Condes,13128,Renca,33254,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,326,Lo Barnechea,13401,San Bernardo,67539,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,327,Lo Espejo,13129,San Joaquín,25177,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,328,Lo Prado,13203,San José de Maipo,2011,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,329,Macul,13130,San Miguel,52506,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,330,Maipú,13505,San Pedro,582,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,331,María Pinto,13131,San Ramón,14808,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,332,Melipilla,13101,Santiago,146092,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,333,Ñuñoa,13601,Talagante,15403,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,334,Padre Hurtado,13303,Tiltil,3335,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,13,335,Paine,13132,Vitacura,31800,numeric,regional_formula_block_order,284,336,337
+residential_fixed_connections_2026m03,14,338,Peñalolén,14102,Corral,457,numeric,regional_formula_block_order,338,349,350
+residential_fixed_connections_2026m03,14,339,Pirque,14202,Futrono,1675,numeric,regional_formula_block_order,338,349,350
+residential_fixed_connections_2026m03,14,340,Providencia,14201,La Unión,8672,numeric,regional_formula_block_order,338,349,350
+residential_fixed_connections_2026m03,14,341,Pudahuel,14203,Lago Ranco,798,numeric,regional_formula_block_order,338,349,350
+residential_fixed_connections_2026m03,14,342,Puente Alto,14103,Lanco,2690,numeric,regional_formula_block_order,338,349,350
+residential_fixed_connections_2026m03,14,343,Quilicura,14104,Los Lagos,2461,numeric,regional_formula_block_order,338,349,350
+residential_fixed_connections_2026m03,14,344,Quinta Normal,14105,Máfil,1133,numeric,regional_formula_block_order,338,349,350
+residential_fixed_connections_2026m03,14,345,Recoleta,14106,Mariquina,3767,numeric,regional_formula_block_order,338,349,350
+residential_fixed_connections_2026m03,14,346,Renca,14107,Paillaco,2935,numeric,regional_formula_block_order,338,349,350
+residential_fixed_connections_2026m03,14,347,San Bernardo,14108,Panguipulli,5050,numeric,regional_formula_block_order,338,349,350
+residential_fixed_connections_2026m03,14,348,San Joaquín,14204,Río Bueno,5548,numeric,regional_formula_block_order,338,349,350
+residential_fixed_connections_2026m03,14,349,San José de Maipo,14101,Valdivia,48297,numeric,regional_formula_block_order,338,349,350
+residential_fixed_connections_2026m03,15,351,San Pedro,15101,Arica,55813,numeric,regional_formula_block_order,351,354,355
+residential_fixed_connections_2026m03,15,352,San Ramón,15102,Camarones,54,numeric,regional_formula_block_order,351,354,355
+residential_fixed_connections_2026m03,15,353,Santiago,15202,General Lagos,738,numeric,regional_formula_block_order,351,354,355
+residential_fixed_connections_2026m03,15,354,Talagante,15201,Putre,79,numeric,regional_formula_block_order,351,354,355
+residential_fixed_connections_2026m03,16,356,Vitacura,16102,Bulnes,3613,numeric,regional_formula_block_order,356,376,377
+residential_fixed_connections_2026m03,16,357,Sin clasificación,16101,Chillán,53960,numeric,regional_formula_block_order,356,376,377
+residential_fixed_connections_2026m03,16,358,,16103,Chillán Viejo,9825,numeric,regional_formula_block_order,356,376,377
+residential_fixed_connections_2026m03,16,359,Corral,16202,Cobquecura,817,numeric,regional_formula_block_order,356,376,377
+residential_fixed_connections_2026m03,16,360,Futrono,16203,Coelemu,2748,numeric,regional_formula_block_order,356,376,377
+residential_fixed_connections_2026m03,16,361,La Unión,16302,Coihueco,1524,numeric,regional_formula_block_order,356,376,377
+residential_fixed_connections_2026m03,16,362,Lago Ranco,16104,El Carmen,618,numeric,regional_formula_block_order,356,376,377
+residential_fixed_connections_2026m03,16,363,Lanco,16204,Ninhue,364,numeric,regional_formula_block_order,356,376,377
+residential_fixed_connections_2026m03,16,364,Los Lagos,16303,Ñiquén,350,numeric,regional_formula_block_order,356,376,377
+residential_fixed_connections_2026m03,16,365,Mafil,16105,Pemuco,858,numeric,regional_formula_block_order,356,376,377
+residential_fixed_connections_2026m03,16,366,Mariquina,16106,Pinto,2418,numeric,regional_formula_block_order,356,376,377
+residential_fixed_connections_2026m03,16,367,Paillaco,16205,Portezuelo,314,numeric,regional_formula_block_order,356,376,377
+residential_fixed_connections_2026m03,16,368,Panguipulli,16107,Quillón,3178,numeric,regional_formula_block_order,356,376,377
+residential_fixed_connections_2026m03,16,369,Río Bueno,16201,Quirihue,962,numeric,regional_formula_block_order,356,376,377
+residential_fixed_connections_2026m03,16,370,Valdivia,16206,Ránquil,655,numeric,regional_formula_block_order,356,376,377
+residential_fixed_connections_2026m03,16,371,,16301,San Carlos,8653,numeric,regional_formula_block_order,356,376,377
+residential_fixed_connections_2026m03,16,372,Arica,16304,San Fabián,694,numeric,regional_formula_block_order,356,376,377
+residential_fixed_connections_2026m03,16,373,Camarones,16108,San Ignacio,1205,numeric,regional_formula_block_order,356,376,377
+residential_fixed_connections_2026m03,16,374,General Lagos,16305,San Nicolás,636,numeric,regional_formula_block_order,356,376,377
+residential_fixed_connections_2026m03,16,375,Putre,16207,Trehuaco,444,numeric,regional_formula_block_order,356,376,377
+residential_fixed_connections_2026m03,16,376,,16109,Yungay,2783,numeric,regional_formula_block_order,356,376,377
