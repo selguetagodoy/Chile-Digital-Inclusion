@@ -4,9 +4,9 @@
 The workbook's commune labels are stale/misaligned after the Biobío/Ñuble split,
 but March-2026 values remain organized in 16 formula-defined regional blocks.
 This builder maps rows inside each regional block to the current official commune
-catalogue in normalized alphabetical order and requires exact count and subtotal
-reconciliation for both total and residential connections. An explicit blank in
-a one-row-per-commune block is preserved as source_blank rather than imputed zero.
+catalogue using the source workbook's normalized alphabetical naming convention,
+and requires exact count and subtotal reconciliation for total and residential
+connections. An explicit blank is preserved as source_blank rather than imputed.
 """
 from __future__ import annotations
 
@@ -27,7 +27,13 @@ SHEETS = {
 COMMUNES = Path("geo/commune_codes.csv")
 OUT = Path("data/fixed_infrastructure_2026")
 OUT.mkdir(parents=True, exist_ok=True)
-ALIASES = {"calera": "la calera", "aisen": "aysen", "coihaique": "coyhaique", "treguaco": "trehuaco", "til til": "tiltil"}
+ALIASES = {
+    "calera": "la calera",
+    "aisen": "aysen",
+    "coihaique": "coyhaique",
+    "treguaco": "trehuaco",
+    "til til": "tiltil",
+}
 REGION_CODES = list(range(1, 17))
 EXPECTED_SOURCE_BLANK_CODES = {12202}
 
@@ -37,6 +43,17 @@ def norm(s):
     s = re.sub(r"[^a-z0-9]+", " ", s)
     s = re.sub(r"\s+", " ", s).strip()
     return ALIASES.get(s, s)
+
+
+def source_sort_key(name):
+    """Sort current commune names as the SUBTEL sheet names them.
+
+    The workbook uses the historical label "Calera" rather than "La Calera";
+    without this source-specific key all subsequent Valparaíso values shift by
+    one row even though the regional subtotal still reconciles.
+    """
+    key = norm(name)
+    return "calera" if key == "la calera" else key
 
 
 def clean(v):
@@ -113,10 +130,6 @@ def build_metric(ws_values, ws_formulas, target_col, catalogue_by_region, metric
             value = None if formula.startswith("=") else as_int(ws_values.cell(rn, target_col).value)
             block_slots.append((rn, source_label, value))
 
-        # When the formula range has exactly one row per current commune, preserve
-        # blank cells positionally. Otherwise remove non-numeric auxiliary rows
-        # such as historical "Sin clasificación" rows and require the remaining
-        # numeric observations to equal the current commune count.
         if len(block_slots) == len(communes):
             observations = block_slots
         else:
@@ -155,6 +168,11 @@ def build_metric(ws_values, ws_formulas, target_col, catalogue_by_region, metric
                     }
                 )
 
+        # Regions 1-7 precede the workbook's stale Biobío/Ñuble label shift.
+        # Their source labels therefore provide an independent check that the
+        # source-specific ordering rule is correct.
+        label_order_ok = region > 7 or (count_ok and label_matches == len(communes))
+
         alignment.append(
             {
                 "metric": metric,
@@ -170,13 +188,25 @@ def build_metric(ws_values, ws_formulas, target_col, catalogue_by_region, metric
                 "mapped_value_sum": value_sum,
                 "subtotal_delta": "" if subtotal is None else value_sum - subtotal,
                 "source_labels_matching_mapped_names": label_matches,
+                "label_order_status": "pass" if label_order_ok else "fail",
                 "count_status": "pass" if count_ok else "fail",
                 "subtotal_status": "pass" if subtotal_ok else "fail",
             }
         )
-        if not count_ok or not subtotal_ok:
+        if not count_ok or not subtotal_ok or not label_order_ok:
             issues.append(
-                [metric, region, block["start_row"], block["end_row"], len(observations), len(communes), subtotal, value_sum]
+                [
+                    metric,
+                    region,
+                    block["start_row"],
+                    block["end_row"],
+                    len(observations),
+                    len(communes),
+                    subtotal,
+                    value_sum,
+                    label_matches,
+                    "pass" if label_order_ok else "fail",
+                ]
             )
 
     return mapped, alignment, provenance, issues
@@ -202,7 +232,7 @@ def main():
     catalogue_by_region = {}
     for region in REGION_CODES:
         region_rows = [r for r in catalogue if int(r["region"]) == region]
-        catalogue_by_region[region] = sorted(region_rows, key=lambda r: norm(r["comuna_nombre"]))
+        catalogue_by_region[region] = sorted(region_rows, key=lambda r: source_sort_key(r["comuna_nombre"]))
 
     all_alignment = []
     all_provenance = []
@@ -257,18 +287,24 @@ def main():
 
     with (OUT / "source_match_qa.csv").open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
-        w.writerow(["metric", "region", "block_start_row", "block_end_row", "mapped_slots", "catalogue_communes", "regional_subtotal", "mapped_value_sum"])
+        w.writerow([
+            "metric", "region", "block_start_row", "block_end_row", "mapped_slots", "catalogue_communes",
+            "regional_subtotal", "mapped_value_sum", "source_label_matches", "label_order_status",
+        ])
         w.writerows(all_issues)
 
     with (OUT / "source_not_reported_communes.csv").open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
-        w.writerow(["region", "region_nombre", "comuna", "comuna_nombre", "fixed_connections_total", "fixed_connections_residential", "source_status"])
+        w.writerow([
+            "region", "region_nombre", "comuna", "comuna_nombre", "fixed_connections_total",
+            "fixed_connections_residential", "source_status",
+        ])
         w.writerows(missing)
 
     alignment_fields = [
         "metric", "region", "block_start_row", "block_end_row", "block_rows", "regional_subtotal_row",
         "mapped_commune_slots", "catalogue_communes", "source_blank_slots", "regional_subtotal", "mapped_value_sum",
-        "subtotal_delta", "source_labels_matching_mapped_names", "count_status", "subtotal_status",
+        "subtotal_delta", "source_labels_matching_mapped_names", "label_order_status", "count_status", "subtotal_status",
     ]
     write_dict_csv(OUT / "source_alignment_qa.csv", alignment_fields, all_alignment)
 
