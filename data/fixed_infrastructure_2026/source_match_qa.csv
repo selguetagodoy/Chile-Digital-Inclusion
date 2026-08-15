@@ -1,1 +1,1 @@
-metric,region,block_start_row,block_end_row,mapped_slots,catalogue_communes,regional_subtotal,mapped_value_sum
+metric,region,block_start_row,block_end_row,mapped_slots,catalogue_communes,regional_subtotal,mapped_value_sum,source_label_matches,label_order_status

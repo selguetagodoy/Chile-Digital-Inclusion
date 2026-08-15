@@ -41,17 +41,17 @@ total_fixed_connections_2026m03,4,53,Salamanca,4204,Salamanca,2287,numeric,regio
 total_fixed_connections_2026m03,4,54,Vicuña,4106,Vicuña,3243,numeric,regional_formula_block_order,40,55,56
 total_fixed_connections_2026m03,5,57,Algarrobo,5602,Algarrobo,8881,numeric,regional_formula_block_order,57,94,95
 total_fixed_connections_2026m03,5,58,Cabildo,5402,Cabildo,2587,numeric,regional_formula_block_order,57,94,95
-total_fixed_connections_2026m03,5,59,Calera,5302,Calle Larga,14004,numeric,regional_formula_block_order,57,94,95
-total_fixed_connections_2026m03,5,60,Calle Larga,5603,Cartagena,4427,numeric,regional_formula_block_order,57,94,95
-total_fixed_connections_2026m03,5,61,Cartagena,5102,Casablanca,7272,numeric,regional_formula_block_order,57,94,95
-total_fixed_connections_2026m03,5,62,Casablanca,5702,Catemu,6193,numeric,regional_formula_block_order,57,94,95
-total_fixed_connections_2026m03,5,63,Catemu,5103,Concón,1870,numeric,regional_formula_block_order,57,94,95
-total_fixed_connections_2026m03,5,64,Concón,5604,El Quisco,20753,numeric,regional_formula_block_order,57,94,95
-total_fixed_connections_2026m03,5,65,El Quisco,5605,El Tabo,8618,numeric,regional_formula_block_order,57,94,95
-total_fixed_connections_2026m03,5,66,El Tabo,5503,Hijuelas,7770,numeric,regional_formula_block_order,57,94,95
-total_fixed_connections_2026m03,5,67,Hijuelas,5201,Isla de Pascua,3768,numeric,regional_formula_block_order,57,94,95
-total_fixed_connections_2026m03,5,68,Isla de Pascua,5104,Juan Fernández,2542,numeric,regional_formula_block_order,57,94,95
-total_fixed_connections_2026m03,5,69,Juan Fernández,5502,Calera,236,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,59,Calera,5502,Calera,14004,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,60,Calle Larga,5302,Calle Larga,4427,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,61,Cartagena,5603,Cartagena,7272,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,62,Casablanca,5102,Casablanca,6193,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,63,Catemu,5702,Catemu,1870,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,64,Concón,5103,Concón,20753,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,65,El Quisco,5604,El Quisco,8618,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,66,El Tabo,5605,El Tabo,7770,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,67,Hijuelas,5503,Hijuelas,3768,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,68,Isla de Pascua,5201,Isla de Pascua,2542,numeric,regional_formula_block_order,57,94,95
+total_fixed_connections_2026m03,5,69,Juan Fernández,5104,Juan Fernández,236,numeric,regional_formula_block_order,57,94,95
 total_fixed_connections_2026m03,5,70,La Cruz,5504,La Cruz,7449,numeric,regional_formula_block_order,57,94,95
 total_fixed_connections_2026m03,5,71,La Ligua,5401,La Ligua,8011,numeric,regional_formula_block_order,57,94,95
 total_fixed_connections_2026m03,5,72,Limache,5802,Limache,15099,numeric,regional_formula_block_order,57,94,95
@@ -387,17 +387,17 @@ residential_fixed_connections_2026m03,4,53,Salamanca,4204,Salamanca,2118,numeric
 residential_fixed_connections_2026m03,4,54,Vicuña,4106,Vicuña,3097,numeric,regional_formula_block_order,40,55,56
 residential_fixed_connections_2026m03,5,57,Algarrobo,5602,Algarrobo,8475,numeric,regional_formula_block_order,57,94,95
 residential_fixed_connections_2026m03,5,58,Cabildo,5402,Cabildo,2507,numeric,regional_formula_block_order,57,94,95
-residential_fixed_connections_2026m03,5,59,Calera,5302,Calle Larga,13439,numeric,regional_formula_block_order,57,94,95
-residential_fixed_connections_2026m03,5,60,Calle Larga,5603,Cartagena,4277,numeric,regional_formula_block_order,57,94,95
-residential_fixed_connections_2026m03,5,61,Cartagena,5102,Casablanca,7247,numeric,regional_formula_block_order,57,94,95
-residential_fixed_connections_2026m03,5,62,Casablanca,5702,Catemu,5924,numeric,regional_formula_block_order,57,94,95
-residential_fixed_connections_2026m03,5,63,Catemu,5103,Concón,1823,numeric,regional_formula_block_order,57,94,95
-residential_fixed_connections_2026m03,5,64,Concón,5604,El Quisco,18986,numeric,regional_formula_block_order,57,94,95
-residential_fixed_connections_2026m03,5,65,El Quisco,5605,El Tabo,8556,numeric,regional_formula_block_order,57,94,95
-residential_fixed_connections_2026m03,5,66,El Tabo,5503,Hijuelas,7593,numeric,regional_formula_block_order,57,94,95
-residential_fixed_connections_2026m03,5,67,Hijuelas,5201,Isla de Pascua,3707,numeric,regional_formula_block_order,57,94,95
-residential_fixed_connections_2026m03,5,68,Isla de Pascua,5104,Juan Fernández,2463,numeric,regional_formula_block_order,57,94,95
-residential_fixed_connections_2026m03,5,69,Juan Fernández,5502,Calera,221,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,59,Calera,5502,Calera,13439,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,60,Calle Larga,5302,Calle Larga,4277,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,61,Cartagena,5603,Cartagena,7247,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,62,Casablanca,5102,Casablanca,5924,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,63,Catemu,5702,Catemu,1823,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,64,Concón,5103,Concón,18986,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,65,El Quisco,5604,El Quisco,8556,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,66,El Tabo,5605,El Tabo,7593,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,67,Hijuelas,5503,Hijuelas,3707,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,68,Isla de Pascua,5201,Isla de Pascua,2463,numeric,regional_formula_block_order,57,94,95
+residential_fixed_connections_2026m03,5,69,Juan Fernández,5104,Juan Fernández,221,numeric,regional_formula_block_order,57,94,95
 residential_fixed_connections_2026m03,5,70,La Cruz,5504,La Cruz,7126,numeric,regional_formula_block_order,57,94,95
 residential_fixed_connections_2026m03,5,71,La Ligua,5401,La Ligua,7734,numeric,regional_formula_block_order,57,94,95
 residential_fixed_connections_2026m03,5,72,Limache,5802,Limache,14491,numeric,regional_formula_block_order,57,94,95
