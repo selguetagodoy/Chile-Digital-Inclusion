@@ -28,6 +28,9 @@ JS = ROOT / 'assets/dashboard.js'
 CSS = ROOT / 'assets/dashboard.css'
 REPORT = ROOT / 'data/metadata/public_release_validation.csv'
 
+EXPECTED_FIXED_SOURCE_NOT_REPORTED = {10105, 10207, 10303, 13121}
+EXPECTED_GEO_MISSING = {12202}  # Antártica: absent from the BCN commune polygon layer used here.
+
 REQUIRED_MASTER = {
     'comuna', 'comuna_nombre', 'region', 'region_nombre',
     'hogares_total', 'hogares_sin_internet_pct', 'hogares_con_internet_fija_pct',
@@ -115,17 +118,29 @@ def main() -> None:
     fixed_sub_reported = sum(r['source_status'] == 'reported' for r in fixed_sub)
     fixed_sub_unmatched = read_csv(FIXED_SUB_QA)
     fixed_sub_missing = read_csv(FIXED_SUB_MISSING)
+    fixed_sub_missing_codes = {int(r['comuna']) for r in fixed_sub_missing}
     results.append(check('fixed_subscription_rows', len(fixed_sub) == 346, f'{len(fixed_sub)} commune rows'))
     results.append(check('fixed_subscription_reported', fixed_sub_reported == 342, f'{fixed_sub_reported} communes reported by source'))
     results.append(check('fixed_subscription_unmatched_source', len(fixed_sub_unmatched) == 0, f'{len(fixed_sub_unmatched)} unresolved source rows'))
     results.append(check('fixed_subscription_source_not_reported', len(fixed_sub_missing) == 4, f'{len(fixed_sub_missing)} catalogue communes not reported by source'))
+    results.append(check(
+        'fixed_subscription_expected_source_not_reported',
+        fixed_sub_missing_codes == EXPECTED_FIXED_SOURCE_NOT_REPORTED,
+        f'codes={sorted(fixed_sub_missing_codes)} expected={sorted(EXPECTED_FIXED_SOURCE_NOT_REPORTED)}',
+    ))
 
     with GEO.open(encoding='utf-8') as fh:
         geo = json.load(fh)
     features = geo.get('features', [])
     geo_codes = {int(f['properties']['commune_code']) for f in features}
+    geo_missing = set(master_codes) - geo_codes
     results.append(check('geo_features', len(features) == 345, f'{len(features)} BCN commune polygons'))
     results.append(check('geo_codes_in_master', geo_codes.issubset(set(master_codes)), f'{len(geo_codes)} geometry codes found in master'))
+    results.append(check(
+        'geo_expected_missing_commune',
+        geo_missing == EXPECTED_GEO_MISSING,
+        f'missing={sorted(geo_missing)} expected={sorted(EXPECTED_GEO_MISSING)} (Antártica only)',
+    ))
 
     sector = read_csv(SECTOR)
     sector_indicators = {r['indicator'] for r in sector}
