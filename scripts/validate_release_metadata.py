@@ -24,6 +24,7 @@ REQUIRED_CANONICAL = {
     'subtel_sector_longitudinal_2026m03',
     'subtel_oti_fixed_speed_2026m01',
     'subtel_mobile_network_2025m03',
+    'subtel_fixed_connections_communal_2026m03',
     'subtel_fixed_redacceso_presence',
     'mineduc_aulas_establishments_2025',
     'mineduc_aulas_communal_2025',
@@ -42,8 +43,12 @@ REQUIRED_MANIFEST_PATHS = {
     'index.html',
     'assets/dashboard.js',
     'data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv',
+    'data/fixed_infrastructure_2026/commune_fixed_connections_2026_03.csv',
+    'data/fixed_infrastructure_2026/source_alignment_qa.csv',
+    'data/fixed_infrastructure_2026/source_row_mapping_2026_03.csv',
     'data/metadata/public_release_validation.csv',
     'data/oti_2026/regional_fixed_speed_2026_01.csv',
+    'docs/subtel_fixed_commune_2026.md',
     'docs/oti_fixed_speed_2026.md',
     'docs/reproducibility.md',
     'docs/communal_master_dictionary.md',
@@ -88,6 +93,13 @@ def main() -> None:
     if int(master['rows']) != 346 or int(master['columns']) != 89:
         raise RuntimeError(f'Catalog master shape mismatch: rows={master["rows"]} cols={master["columns"]}')
 
+    fixed_commune = next(r for r in catalog if r['layer_id'] == 'subtel_fixed_connections_communal_2026m03')
+    if int(fixed_commune['rows']) != 346 or int(fixed_commune['columns']) != 13:
+        raise RuntimeError(
+            'SUBTEL fixed commune layer shape mismatch: '
+            f'rows={fixed_commune["rows"]} cols={fixed_commune["columns"]}'
+        )
+
     longitudinal = next(r for r in catalog if r['layer_id'] == 'subtel_sector_longitudinal_2026m03')
     if int(longitudinal['rows']) != 2010 or int(longitudinal['columns']) != 9:
         raise RuntimeError(
@@ -119,6 +131,7 @@ def main() -> None:
     print('release_metadata PASS')
     print('layers', len(catalog), 'canonical', len(canonical), 'manifest_files', len(manifest))
     print('master_shape', master['rows'], 'x', master['columns'])
+    print('fixed_commune_shape', fixed_commune['rows'], 'x', fixed_commune['columns'])
     print('sector_longitudinal_shape', longitudinal['rows'], 'x', longitudinal['columns'])
     print('oti_regions', oti['rows'])
 
