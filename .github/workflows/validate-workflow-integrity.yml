@@ -1,5 +1,6 @@
 name: Validate workflow integrity
 
+# Strict repository-wide workflow contract check.
 on:
   workflow_dispatch:
   push:
