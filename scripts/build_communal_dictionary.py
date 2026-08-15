@@ -113,11 +113,11 @@ def fixed_access_meta(col: str):
 
 def fixed_subscription_meta(col: str):
     mapping = {
-        'subtel_fixed_connections_total_2026m03': ('Conexiones fijas totales SUBTEL', 'conexión administrativa', 'número', 'Número de conexiones de Internet fija reportadas por SUBTEL para la comuna en marzo de 2026.'),
-        'subtel_fixed_connections_residential_2026m03': ('Conexiones fijas residenciales SUBTEL', 'conexión administrativa residencial', 'número', 'Número de conexiones residenciales de Internet fija reportadas por SUBTEL para la comuna en marzo de 2026.'),
-        'subtel_fixed_residential_share_pct_2026m03': ('Participación residencial de conexiones fijas', 'conexión administrativa', 'porcentaje', 'Proporción de conexiones fijas comunales clasificadas como residenciales en la fuente administrativa SUBTEL.'),
+        'subtel_fixed_connections_total_2026m03': ('Conexiones fijas totales SUBTEL', 'conexión administrativa', 'número', 'Número de conexiones de Internet fija reconstruidas para la comuna desde los bloques regionales reconciliados del workbook oficial SUBTEL de marzo de 2026.'),
+        'subtel_fixed_connections_residential_2026m03': ('Conexiones fijas residenciales SUBTEL', 'conexión administrativa residencial', 'número', 'Número de conexiones residenciales de Internet fija reconstruidas para la comuna desde los bloques regionales reconciliados del workbook oficial SUBTEL de marzo de 2026.'),
+        'subtel_fixed_residential_share_pct_2026m03': ('Participación residencial de conexiones fijas', 'conexión administrativa', 'porcentaje', 'Proporción de conexiones fijas comunales clasificadas como residenciales en la reconstrucción reconciliada de la fuente administrativa SUBTEL.'),
         'subtel_fixed_residential_per_100_censo_households_2026m03': ('Conexiones fijas residenciales por 100 hogares censales', 'conexión administrativa / hogar censal', 'razón por 100 hogares', 'Razón entre conexiones fijas residenciales SUBTEL de marzo de 2026 y hogares del Censo 2024. Es una intensidad administrativa descriptiva, no una tasa de cobertura y puede superar 100.'),
-        'subtel_fixed_source_status_2026m03': ('Estado de reporte SUBTEL fijo', 'fuente administrativa', 'categoría', 'Indica si la hoja comunal oficial SUBTEL reporta la comuna. Los casos no reportados se mantienen como faltantes y no se imputan como cero.'),
+        'subtel_fixed_source_status_2026m03': ('Estado de reporte SUBTEL fijo', 'fuente administrativa', 'categoría', 'Indica si la reconstrucción comunal dispone de valor numérico de fuente. Antártica (12202) conserva una celda fuente explícitamente vacía como source_blank; no se imputa como cero.'),
     }
     if col not in mapping:
         return None
@@ -159,7 +159,7 @@ def comparison_note(col: str) -> str:
     if col.endswith('_point_records_2025m03') or col.endswith('_operators_present_2025m03'): return 'Registros puntuales de red publicados por SUBTEL. No deben interpretarse como torres únicas ni como porcentaje de cobertura geográfica o poblacional.'
     if col.startswith('mineduc_aulas_'): return 'Registro administrativo de participación/selección en un programa educativo. No equivale a conectividad efectiva instalada ni a acceso domiciliario de estudiantes.'
     if col.startswith('fixed_access_public_'): return 'Trazados regulatorios públicos. Las capas pueden superponerse; no equivalen a disponibilidad comercial, fibra hasta el hogar ni porcentaje de cobertura.'
-    if col.startswith('subtel_fixed_'): return 'Conexiones administrativas no equivalen a hogares únicos ni a cobertura. Cuatro comunas no son reportadas en la hoja fuente de marzo de 2026 y permanecen como faltantes.'
+    if col.startswith('subtel_fixed_'): return 'Conexiones administrativas no equivalen a hogares únicos ni a cobertura. La reconstrucción reconcilia 16 subtotales regionales para total y residencial; Antártica (12202) conserva una celda fuente explícitamente vacía.'
     return 'Variable agregada; revisar metodología de la capa de origen antes de comparar universos.'
 
 
