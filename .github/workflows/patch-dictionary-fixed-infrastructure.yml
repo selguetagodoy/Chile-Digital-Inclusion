@@ -19,8 +19,8 @@ jobs:
   patch:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
       - run: pip install pandas
@@ -34,7 +34,7 @@ jobs:
           if git diff --cached --quiet; then
             echo 'No dictionary changes'
           else
-            git commit -m 'Document SUBTEL fixed infrastructure in communal dictionary'
+            git commit -m 'Document reconciled SUBTEL fixed infrastructure in communal dictionary'
             git pull --rebase origin main
             git push
           fi
