@@ -1,14 +1,11 @@
 #!/usr/bin/env python3
 """Build March-2026 fixed Internet connections by commune from official SUBTEL XLSX.
 
-The March-2026 workbook contains stale/misaligned commune labels in the 7.11
-sheets after the Biobío/Ñuble territorial split. Values themselves are grouped
-in 16 regional blocks whose subtotal formulas reconcile exactly. This builder
-therefore maps numeric rows inside each formula-defined regional block to the
-current official commune catalogue in normalized alphabetical order, validates
-row counts and regional subtotals, and publishes row-level mapping provenance.
-No missing commune is imputed and no subtotal/total formula cell is used as a
-commune observation.
+The workbook's commune labels are stale/misaligned after the Biobío/Ñuble split,
+but March-2026 values remain organized in 16 formula-defined regional blocks.
+This builder maps numeric rows inside each regional block to the current official
+commune catalogue in normalized alphabetical order and requires exact count and
+subtotal reconciliation for both total and residential connections.
 """
 from __future__ import annotations
 
@@ -17,9 +14,9 @@ import io
 import re
 import unicodedata
 import urllib.request
-import zipfile
 from pathlib import Path
-from xml.etree import ElementTree as ET
+
+import openpyxl
 
 URL = "https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx"
 SHEETS = {
@@ -29,11 +26,6 @@ SHEETS = {
 COMMUNES = Path("geo/commune_codes.csv")
 OUT = Path("data/fixed_infrastructure_2026")
 OUT.mkdir(parents=True, exist_ok=True)
-NS = {
-    "m": "http://schemas.openxmlformats.org/spreadsheetml/2006/main",
-    "r": "http://schemas.openxmlformats.org/officeDocument/2006/relationships",
-}
-REL = {"rel": "http://schemas.openxmlformats.org/package/2006/relationships"}
 ALIASES = {"calera": "la calera", "aisen": "aysen", "coihaique": "coyhaique", "treguaco": "trehuaco", "til til": "tiltil"}
 REGION_CODES = list(range(1, 17))
 
@@ -45,14 +37,15 @@ def norm(s):
     return ALIASES.get(s, s)
 
 
-def col_num(ref):
-    m = re.match(r"([A-Z]+)", ref)
-    n = 0
-    if not m:
-        return 0
-    for ch in m.group(1):
-        n = n * 26 + ord(ch) - 64
-    return n
+def clean(v):
+    return "" if v is None else str(v).strip().replace("\n", " ")
+
+
+def as_int(raw):
+    try:
+        return int(round(float(raw)))
+    except (TypeError, ValueError):
+        return None
 
 
 def col_letters(n):
@@ -63,92 +56,39 @@ def col_letters(n):
     return out
 
 
-def shared(z):
-    try:
-        root = ET.fromstring(z.read("xl/sharedStrings.xml"))
-    except KeyError:
-        return []
-    return ["".join(t.text or "" for t in si.iterfind(".//m:t", NS)) for si in root.findall("m:si", NS)]
-
-
-def value(c, ss):
-    if c.attrib.get("t") == "inlineStr":
-        return "".join(t.text or "" for t in c.iterfind(".//m:t", NS))
-    v = c.find("m:v", NS)
-    if v is None or v.text is None:
-        return ""
-    if c.attrib.get("t") == "s":
-        try:
-            return ss[int(v.text)]
-        except Exception:
-            return v.text
-    return v.text
-
-
-def formula(c):
-    f = c.find("m:f", NS)
-    return "" if f is None or f.text is None else f.text.strip()
-
-
-def sheet_map(z):
-    wb = ET.fromstring(z.read("xl/workbook.xml"))
-    rels = ET.fromstring(z.read("xl/_rels/workbook.xml.rels"))
-    rm = {r.attrib["Id"]: r.attrib["Target"] for r in rels.findall("rel:Relationship", REL)}
-    out = {}
-    for sh in wb.find("m:sheets", NS):
-        rid = sh.attrib[f"{{{NS['r']}}}id"]
-        t = rm[rid]
-        out[sh.attrib["name"]] = t.lstrip("/") if t.startswith("/") else "xl/" + t.lstrip("/")
-    return out
-
-
-def parse_rows(root, ss):
-    rows = {}
-    for row in root.findall(".//m:sheetData/m:row", NS):
-        rn = int(row.attrib.get("r", "0"))
-        cells = {}
-        for c in row.findall("m:c", NS):
-            col = col_num(c.attrib.get("r", ""))
-            cells[col] = {"value": value(c, ss), "formula": formula(c)}
-        rows[rn] = cells
-    return rows
-
-
-def latest_col(rows):
-    yrow, mrow = rows.get(8, {}), rows.get(9, {})
+def locate_period_column(ws):
     current_year = None
-    candidates = []
-    for col in sorted(set(yrow) | set(mrow)):
-        y = str(yrow.get(col, {}).get("value", "")).strip()
-        if re.fullmatch(r"20\d{2}", y):
+    matches = []
+    for col in range(1, ws.max_column + 1):
+        y = ws.cell(8, col).value
+        if isinstance(y, (int, float)) and int(y) == y and 2000 <= int(y) <= 2100:
             current_year = int(y)
-        month = str(mrow.get(col, {}).get("value", "")).strip().lower()
+        month = clean(ws.cell(9, col).value).lower()
         if current_year == 2026 and month in {"mar", "marzo"}:
-            candidates.append(col)
-    if not candidates:
+            matches.append(col)
+    if not matches:
         raise RuntimeError("Could not locate March 2026 column")
-    return max(candidates)
+    return max(matches)
 
 
-def as_int(raw):
-    try:
-        return int(round(float(str(raw).strip())))
-    except (TypeError, ValueError):
-        return None
-
-
-def regional_formula_blocks(rows, target_col):
-    target_letters = col_letters(target_col)
+def regional_formula_blocks(ws_values, ws_formulas, target_col):
+    letters = col_letters(target_col)
+    pattern = re.compile(rf"^=?SUM\(\$?{letters}\$?(\d+):\$?{letters}\$?(\d+)\)$", re.I)
     blocks = []
-    pattern = re.compile(rf"^SUM\(\$?{target_letters}\$?(\d+):\$?{target_letters}\$?(\d+)\)$", re.I)
-    for rn in sorted(rows):
-        cell = rows[rn].get(target_col, {})
-        f = str(cell.get("formula", "")).replace(" ", "")
-        m = pattern.match(f)
+    for rn in range(10, ws_formulas.max_row + 1):
+        formula = clean(ws_formulas.cell(rn, target_col).value).replace(" ", "")
+        m = pattern.match(formula)
         if not m:
             continue
-        start, end = int(m.group(1)), int(m.group(2))
-        blocks.append({"subtotal_row": rn, "start_row": start, "end_row": end, "subtotal": as_int(cell.get("value"))})
+        blocks.append(
+            {
+                "subtotal_row": rn,
+                "start_row": int(m.group(1)),
+                "end_row": int(m.group(2)),
+                "subtotal": as_int(ws_values.cell(rn, target_col).value),
+                "formula": formula,
+            }
+        )
     if len(blocks) != 16:
         raise RuntimeError(f"Expected 16 regional subtotal formula blocks, found {len(blocks)}")
     for region, block in zip(REGION_CODES, blocks):
@@ -156,25 +96,24 @@ def regional_formula_blocks(rows, target_col):
     return blocks
 
 
-def build_metric(rows, target_col, catalogue_by_region, metric):
+def build_metric(ws_values, ws_formulas, target_col, catalogue_by_region, metric):
     mapped = {}
     alignment = []
-    row_provenance = []
+    provenance = []
     issues = []
 
-    for block in regional_formula_blocks(rows, target_col):
+    for block in regional_formula_blocks(ws_values, ws_formulas, target_col):
         region = block["region"]
         communes = catalogue_by_region[region]
         observations = []
         for rn in range(block["start_row"], block["end_row"] + 1):
-            cell = rows.get(rn, {}).get(target_col, {})
-            if cell.get("formula"):
+            formula = clean(ws_formulas.cell(rn, target_col).value)
+            if formula.startswith("="):
                 continue
-            v = as_int(cell.get("value"))
-            if v is None:
+            value = as_int(ws_values.cell(rn, target_col).value)
+            if value is None:
                 continue
-            source_label = str(rows.get(rn, {}).get(3, {}).get("value", "")).strip()
-            observations.append((rn, source_label, v))
+            observations.append((rn, clean(ws_values.cell(rn, 3).value), value))
 
         count_ok = len(observations) == len(communes)
         value_sum = sum(v for _, _, v in observations)
@@ -183,12 +122,12 @@ def build_metric(rows, target_col, catalogue_by_region, metric):
         label_matches = 0
 
         if count_ok:
-            for commune, (rn, source_label, v) in zip(communes, observations):
+            for commune, (rn, source_label, value) in zip(communes, observations):
                 code = int(commune["comuna"])
-                mapped[code] = v
+                mapped[code] = value
                 if norm(source_label) == norm(commune["comuna_nombre"]):
                     label_matches += 1
-                row_provenance.append(
+                provenance.append(
                     {
                         "metric": metric,
                         "region": region,
@@ -196,7 +135,7 @@ def build_metric(rows, target_col, catalogue_by_region, metric):
                         "source_commune_label": source_label,
                         "mapped_commune": code,
                         "mapped_commune_name": commune["comuna_nombre"],
-                        "value": v,
+                        "value": value,
                         "mapping_method": "regional_formula_block_order",
                         "block_start_row": block["start_row"],
                         "block_end_row": block["end_row"],
@@ -226,20 +165,30 @@ def build_metric(rows, target_col, catalogue_by_region, metric):
                 [metric, region, block["start_row"], block["end_row"], len(observations), len(communes), subtotal, value_sum]
             )
 
-    return mapped, alignment, row_provenance, issues
+    return mapped, alignment, provenance, issues
+
+
+def write_dict_csv(path, fields, rows):
+    with path.open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=fields)
+        w.writeheader()
+        w.writerows(rows)
 
 
 def main():
-    req = urllib.request.Request(URL, headers={"User-Agent": "Mozilla/5.0 Chile-Digital-Inclusion/1.0"})
-    with urllib.request.urlopen(req, timeout=90) as r:
-        data = r.read()
+    request = urllib.request.Request(URL, headers={"User-Agent": "Mozilla/5.0 Chile-Digital-Inclusion/1.0"})
+    with urllib.request.urlopen(request, timeout=120) as response:
+        content = response.read()
+
+    wb_values = openpyxl.load_workbook(io.BytesIO(content), read_only=False, data_only=True)
+    wb_formulas = openpyxl.load_workbook(io.BytesIO(content), read_only=False, data_only=False)
 
     with COMMUNES.open(encoding="utf-8") as f:
         catalogue = list(csv.DictReader(f))
     catalogue_by_region = {}
     for region in REGION_CODES:
-        rows = [r for r in catalogue if int(r["region"]) == region]
-        catalogue_by_region[region] = sorted(rows, key=lambda r: norm(r["comuna_nombre"]))
+        region_rows = [r for r in catalogue if int(r["region"]) == region]
+        catalogue_by_region[region] = sorted(region_rows, key=lambda r: norm(r["comuna_nombre"]))
 
     all_alignment = []
     all_provenance = []
@@ -247,33 +196,34 @@ def main():
     metric_maps = {}
     cols = {}
 
-    with zipfile.ZipFile(io.BytesIO(data)) as z:
-        ss = shared(z)
-        sm = sheet_map(z)
-        for metric, sheet_name in SHEETS.items():
-            root = ET.fromstring(z.read(sm[sheet_name]))
-            rows = parse_rows(root, ss)
-            target_col = latest_col(rows)
-            cols[metric] = target_col
-            mapped, alignment, provenance, issues = build_metric(rows, target_col, catalogue_by_region, metric)
-            metric_maps[metric] = mapped
-            all_alignment.extend(alignment)
-            all_provenance.extend(provenance)
-            all_issues.extend(issues)
+    for metric, sheet_name in SHEETS.items():
+        if sheet_name not in wb_values.sheetnames:
+            raise RuntimeError(f"Expected sheet not found: {sheet_name}")
+        ws_values = wb_values[sheet_name]
+        ws_formulas = wb_formulas[sheet_name]
+        target_col = locate_period_column(ws_values)
+        cols[metric] = target_col
+        mapped, alignment, provenance, issues = build_metric(
+            ws_values, ws_formulas, target_col, catalogue_by_region, metric
+        )
+        metric_maps[metric] = mapped
+        all_alignment.extend(alignment)
+        all_provenance.extend(provenance)
+        all_issues.extend(issues)
 
     if all_issues:
         raise RuntimeError(f"Regional formula-block reconciliation failed: {all_issues}")
 
-    rows_out = []
-    missing = []
     by_code = {int(r["comuna"]): r for r in catalogue}
+    output_rows = []
+    missing = []
     for code in sorted(by_code):
         r = by_code[code]
         total = metric_maps["total_fixed_connections_2026m03"].get(code)
         residential = metric_maps["residential_fixed_connections_2026m03"].get(code)
         share = round(residential / total * 100, 4) if total and residential is not None else None
         status = "reported" if total is not None and residential is not None else "source_not_reported"
-        rows_out.append(
+        output_rows.append(
             [
                 r["region"], r["region_nombre"], r["provincia"], r["provincia_nombre"], r["comuna"], r["comuna_nombre"],
                 total, residential, share, status, "regional_formula_block_order", "2026-03", URL,
@@ -289,7 +239,7 @@ def main():
             "fixed_connections_total", "fixed_connections_residential", "residential_share_pct", "source_status",
             "source_mapping_method", "period", "source_url",
         ])
-        w.writerows(rows_out)
+        w.writerows(output_rows)
 
     with (OUT / "source_match_qa.csv").open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
@@ -301,24 +251,18 @@ def main():
         w.writerow(["region", "region_nombre", "comuna", "comuna_nombre", "fixed_connections_total", "fixed_connections_residential"])
         w.writerows(missing)
 
-    with (OUT / "source_alignment_qa.csv").open("w", newline="", encoding="utf-8") as f:
-        fields = [
-            "metric", "region", "block_start_row", "block_end_row", "regional_subtotal_row", "numeric_commune_rows",
-            "catalogue_communes", "regional_subtotal", "mapped_value_sum", "subtotal_delta",
-            "source_labels_matching_mapped_names", "count_status", "subtotal_status",
-        ]
-        w = csv.DictWriter(f, fieldnames=fields)
-        w.writeheader()
-        w.writerows(all_alignment)
+    alignment_fields = [
+        "metric", "region", "block_start_row", "block_end_row", "regional_subtotal_row", "numeric_commune_rows",
+        "catalogue_communes", "regional_subtotal", "mapped_value_sum", "subtotal_delta",
+        "source_labels_matching_mapped_names", "count_status", "subtotal_status",
+    ]
+    write_dict_csv(OUT / "source_alignment_qa.csv", alignment_fields, all_alignment)
 
-    with (OUT / "source_row_mapping_2026_03.csv").open("w", newline="", encoding="utf-8") as f:
-        fields = [
-            "metric", "region", "source_row", "source_commune_label", "mapped_commune", "mapped_commune_name", "value",
-            "mapping_method", "block_start_row", "block_end_row", "regional_subtotal_row",
-        ]
-        w = csv.DictWriter(f, fieldnames=fields)
-        w.writeheader()
-        w.writerows(all_provenance)
+    provenance_fields = [
+        "metric", "region", "source_row", "source_commune_label", "mapped_commune", "mapped_commune_name", "value",
+        "mapping_method", "block_start_row", "block_end_row", "regional_subtotal_row",
+    ]
+    write_dict_csv(OUT / "source_row_mapping_2026_03.csv", provenance_fields, all_provenance)
 
     with (OUT / "extraction_manifest.csv").open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
@@ -326,13 +270,13 @@ def main():
         for metric, sheet_name in SHEETS.items():
             w.writerow([metric, sheet_name, cols[metric], "regional_formula_block_order_with_subtotal_reconciliation", URL])
 
-    mt = sum(1 for r in rows_out if r[6] is not None)
-    mr = sum(1 for r in rows_out if r[7] is not None)
-    print(f"communes total fixed reported: {mt}/346")
-    print(f"communes residential fixed reported: {mr}/346")
+    total_count = len(metric_maps["total_fixed_connections_2026m03"])
+    residential_count = len(metric_maps["residential_fixed_connections_2026m03"])
+    print(f"communes total fixed reported: {total_count}/346")
+    print(f"communes residential fixed reported: {residential_count}/346")
     print(f"catalogue communes not reported: {len(missing)}")
-    print("regional alignment checks:", len(all_alignment), "all pass")
-    if mt != 346 or mr != 346 or missing:
+    print(f"regional alignment checks: {len(all_alignment)} all pass")
+    if total_count != 346 or residential_count != 346 or missing:
         raise SystemExit("Formula-block reconstruction did not recover all 346 communes")
 
 
