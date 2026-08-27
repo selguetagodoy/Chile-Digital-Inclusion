@@ -1,0 +1,49 @@
+name: Integrate SUBTEL June 2026 commune fixed layer
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/integrate_fixed_infrastructure_2026_06.py'
+      - 'data/fixed_infrastructure_2026/commune_fixed_connections_2026_06.csv'
+      - '.github/workflows/integrate-fixed-infrastructure-june-2026.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: main-writers
+  cancel-in-progress: false
+
+jobs:
+  integrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Integrate June fixed layer when available
+        id: integrate
+        run: |
+          if [ -f data/fixed_infrastructure_2026/commune_fixed_connections_2026_06.csv ]; then
+            python scripts/integrate_fixed_infrastructure_2026_06.py
+            echo 'built=yes' >> "$GITHUB_OUTPUT"
+          else
+            echo 'June commune source is not published in the repository yet.'
+            echo 'built=no' >> "$GITHUB_OUTPUT"
+          fi
+      - name: Commit integrated communal master
+        if: steps.integrate.outputs.built == 'yes'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv
+          if git diff --cached --quiet; then
+            echo 'No June fixed-layer integration changes'
+          else
+            git commit -m 'Integrate SUBTEL June 2026 fixed connections by commune'
+            git pull --rebase origin main
+            git push
+          fi
