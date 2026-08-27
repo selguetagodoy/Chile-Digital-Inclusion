@@ -76,7 +76,7 @@ def main():
         censo = {int(r['comuna']): r for r in csv.DictReader(fh)}
 
     with NATIONAL.open(encoding='utf-8') as fh:
-        national = {r['period']: int(round(float(r['fixed_connections']))) for r in csv.DictReader(fh) if r['period'] in PERIODS}
+        national = {r['period']: int(round(float(r['fixed_connections_total']))) for r in csv.DictReader(fh) if r['period'] in PERIODS}
     if set(national) != set(PERIODS):
         raise RuntimeError(f'Missing national controls for {sorted(set(PERIODS) - set(national))}')
 
@@ -159,8 +159,6 @@ def main():
         w = csv.DictWriter(fh, fieldnames=list(rows[0].keys()))
         w.writeheader(); w.writerows(rows)
 
-    # Scatter/ranking-ready subset: suppress very small household bases from rank tables,
-    # while retaining all 346 communes in the canonical panel.
     ranked = [r for r in rows if r['source_status_2026m06'] == 'reported' and r['censo_2024_households'] >= 1000]
     ranked.sort(key=lambda r: float(r['fixed_residential_per_100_censo_households_2026m06']))
     gap_rows = []
