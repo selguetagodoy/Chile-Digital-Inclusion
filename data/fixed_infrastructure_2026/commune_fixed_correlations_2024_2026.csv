@@ -1,0 +1,6 @@
+analysis,n_communes,pearson_r,spearman_rho,scope
+rurality_vs_fixed_intensity_2024,325,-0.819921,-0.840018,"communes with >=1000 Censo 2024 households and reported SUBTEL values; descriptive association, not causal"
+rurality_vs_fixed_intensity_2025,325,-0.800286,-0.827522,"communes with >=1000 Censo 2024 households and reported SUBTEL values; descriptive association, not causal"
+rurality_vs_fixed_intensity_2026,325,-0.784318,-0.816342,"communes with >=1000 Censo 2024 households and reported SUBTEL values; descriptive association, not causal"
+rurality_vs_intensity_change_2025_2026,325,-0.000278,0.237746,"communes with >=1000 Censo 2024 households and reported SUBTEL values; descriptive association, not causal"
+starting_intensity_2025_vs_change_2025_2026,325,-0.067138,-0.121666,"communes with >=1000 Censo 2024 households and reported SUBTEL values; descriptive association, not causal"

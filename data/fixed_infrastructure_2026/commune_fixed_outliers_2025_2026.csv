@@ -1,0 +1,81 @@
+ranking,rank,comuna,comuna_nombre,region_nombre,censo_2024_households,rural_households_pct,value,intensity_2024m06,intensity_2025m06,intensity_2026m06,change_pp_2025m06_to_2026m06
+highest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,1,2302,María Elena,Antofagasta,1649,6.4281,77.8047,14.0691,21.1643,98.9691,77.8047
+highest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,2,16103,Chillán Viejo,Ñuble,11764,17.1285,52.3971,43.2421,36.4502,88.8473,52.3971
+highest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,3,5201,Isla de Pascua,Valparaíso,2077,6.0183,36.3505,57.8719,88.0597,124.4102,36.3505
+highest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,4,8112,Hualpén,Biobío,30684,0.7659,30.7229,60.732,60.6635,91.3864,30.7229
+highest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,5,5403,Papudo,Valparaíso,2715,22.0994,28.2136,56.3904,66.0037,94.2173,28.2136
+highest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,6,3103,Tierra Amarilla,Atacama,3889,24.3764,27.0764,26.5107,30.342,57.4184,27.0764
+highest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,7,9114,Pitrufquén,La Araucanía,10272,37.8018,23.6565,48.4326,49.8345,73.491,23.6565
+highest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,8,1405,Pica,Tarapacá,2184,29.5788,23.5806,7.3718,9.478,33.0586,23.5806
+highest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,9,1404,Huara,Tarapacá,1039,57.9403,22.0404,7.411,8.5659,30.6064,22.0404
+highest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,10,7105,Maule,Maule,20409,21.9217,21.3631,24.842,26.7921,48.1552,21.3631
+highest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,11,2104,Taltal,Antofagasta,4129,8.5493,20.8525,50.4723,53.766,74.6186,20.8525
+highest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,12,3102,Caldera,Atacama,6984,12.7721,18.1701,51.0596,54.5103,72.6804,18.1701
+highest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,13,5804,Villa Alemana,Valparaíso,50084,1.172,16.4843,81.8265,82.4934,98.9777,16.4843
+highest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,14,9118,Toltén,La Araucanía,3860,75.3368,16.3731,14.5596,15.9585,32.3316,16.3731
+highest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,15,2203,San Pedro de Atacama,Antofagasta,3919,37.6882,16.3562,14.8252,24.9553,41.3116,16.3562
+highest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,16,8301,Los Ángeles,Biobío,78739,28.3735,16.2893,56.3723,57.0772,73.3664,16.2893
+highest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,17,8101,Concepción,Biobío,92197,2.0283,16.0179,83.468,83.634,99.6518,16.0179
+highest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,18,7306,Romeral,Maule,6128,51.8114,15.8779,28.4922,30.483,46.361,15.8779
+highest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,19,5405,Zapallar,Valparaíso,2815,38.6501,14.2096,85.222,99.325,113.5346,14.2096
+highest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,20,5302,Calle Larga,Valparaíso,5769,26.5384,13.4512,51.3261,61.0504,74.5016,13.4512
+lowest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,1,8110,Talcahuano,Biobío,51086,0.278,-10.6879,97.8879,100.4639,89.7761,-10.6879
+lowest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,2,7101,Talca,Maule,85310,4.8212,-5.2315,79.7796,80.6388,75.4073,-5.2315
+lowest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,3,16101,Chillán,Ñuble,70266,10.7335,-4.3577,77.1782,81.6967,77.339,-4.3577
+lowest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,4,8107,Penco,Biobío,16858,1.5838,-3.5888,76.9486,79.7544,76.1656,-3.5888
+lowest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,5,8206,Los Álamos,Biobío,7997,16.5437,-2.5635,60.5477,63.7239,61.1604,-2.5635
+lowest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,6,13118,Macul,Metropolitana de Santiago,47638,0.0,-2.2923,84.7685,87.4218,85.1295,-2.2923
+lowest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,7,13111,La Granja,Metropolitana de Santiago,37274,0.0,-2.0711,66.4082,68.6859,66.6148,-2.0711
+lowest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,8,8310,San Rosendo,Biobío,1323,21.0128,-1.8896,42.5548,42.4036,40.514,-1.8896
+lowest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,9,6110,Mostazal,Libertador General Bernardo O'Higgins,9140,21.9037,-1.5536,50.0328,52.6696,51.116,-1.5536
+lowest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,10,13121,Pedro Aguirre Cerda,Metropolitana de Santiago,32556,0.0,-1.4775,69.2622,71.0069,69.5294,-1.4775
+lowest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,11,13130,San Miguel,Metropolitana de Santiago,60402,0.0,-1.4188,88.8398,89.0716,87.6527,-1.4188
+lowest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,12,13108,Independencia,Metropolitana de Santiago,45569,0.0,-1.2157,70.6314,71.6693,70.4536,-1.2157
+lowest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,13,6301,San Fernando,Libertador General Bernardo O'Higgins,27372,12.7685,-1.0851,61.7529,63.3677,62.2826,-1.0851
+lowest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,14,6309,Pumanque,Libertador General Bernardo O'Higgins,1777,100.0,-1.0692,12.0428,9.0602,7.991,-1.0692
+lowest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,15,5103,Concón,Valparaíso,18259,8.1713,-1.0406,103.5708,104.4033,103.3627,-1.0406
+lowest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,16,13201,Puente Alto,Metropolitana de Santiago,183615,0.0033,-1.0342,78.0274,77.6075,76.5733,-1.0342
+lowest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,17,13127,Recoleta,Metropolitana de Santiago,56276,0.0,-1.0146,64.2761,65.6408,64.6261,-1.0146
+lowest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,18,13104,Conchalí,Metropolitana de Santiago,40890,0.0,-0.966,72.7268,73.0423,72.0763,-0.966
+lowest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,19,6308,Placilla,Libertador General Bernardo O'Higgins,3288,75.2433,-0.9428,12.1655,10.9793,10.0365,-0.9428
+lowest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,20,6117,San Vicente,Libertador General Bernardo O'Higgins,17860,45.4367,-0.9406,35.991,36.5062,35.5655,-0.9406
+highest_fixed_residential_per_100_censo_households_2026m06,1,5602,Algarrobo,Valparaíso,6448,30.3195,132.5062,106.4206,122.6737,132.5062,9.8325
+highest_fixed_residential_per_100_censo_households_2026m06,2,5201,Isla de Pascua,Valparaíso,2077,6.0183,124.4102,57.8719,88.0597,124.4102,36.3505
+highest_fixed_residential_per_100_censo_households_2026m06,3,5405,Zapallar,Valparaíso,2815,38.6501,113.5346,85.222,99.325,113.5346,14.2096
+highest_fixed_residential_per_100_censo_households_2026m06,4,5604,El Quisco,Valparaíso,7727,8.8521,111.7898,85.6348,98.8094,111.7898,12.9805
+highest_fixed_residential_per_100_censo_households_2026m06,5,5606,Santo Domingo,Valparaíso,4663,48.4023,105.683,91.0144,97.7268,105.683,7.9563
+highest_fixed_residential_per_100_censo_households_2026m06,6,5103,Concón,Valparaíso,18259,8.1713,103.3627,103.5708,104.4033,103.3627,-1.0406
+highest_fixed_residential_per_100_censo_households_2026m06,7,5605,El Tabo,Valparaíso,6787,4.3465,102.5048,83.1442,94.46,102.5048,8.0448
+highest_fixed_residential_per_100_censo_households_2026m06,8,13132,Vitacura,Metropolitana de Santiago,31142,0.0,102.145,99.1266,101.2363,102.145,0.9087
+highest_fixed_residential_per_100_censo_households_2026m06,9,5105,Puchuncaví,Valparaíso,8504,15.8984,102.1284,83.349,94.5673,102.1284,7.5611
+highest_fixed_residential_per_100_censo_households_2026m06,10,8101,Concepción,Biobío,92197,2.0283,99.6518,83.468,83.634,99.6518,16.0179
+highest_fixed_residential_per_100_censo_households_2026m06,11,5804,Villa Alemana,Valparaíso,50084,1.172,98.9777,81.8265,82.4934,98.9777,16.4843
+highest_fixed_residential_per_100_censo_households_2026m06,12,2302,María Elena,Antofagasta,1649,6.4281,98.9691,14.0691,21.1643,98.9691,77.8047
+highest_fixed_residential_per_100_censo_households_2026m06,13,13502,Alhué,Metropolitana de Santiago,2777,46.1289,98.4156,77.2056,97.2272,98.4156,1.1883
+highest_fixed_residential_per_100_censo_households_2026m06,14,8108,San Pedro de La paz,Biobío,52351,0.0783,96.7393,88.6612,88.5446,96.7393,8.1947
+highest_fixed_residential_per_100_censo_households_2026m06,15,13114,Las Condes,Metropolitana de Santiago,116322,0.0,95.7222,95.0861,96.0188,95.7222,-0.2966
+highest_fixed_residential_per_100_censo_households_2026m06,16,13120,Ñuñoa,Metropolitana de Santiago,108724,0.0,94.5375,90.3775,94.3812,94.5375,0.1564
+highest_fixed_residential_per_100_censo_households_2026m06,17,5403,Papudo,Valparaíso,2715,22.0994,94.2173,56.3904,66.0037,94.2173,28.2136
+highest_fixed_residential_per_100_censo_households_2026m06,18,8112,Hualpén,Biobío,30684,0.7659,91.3864,60.732,60.6635,91.3864,30.7229
+highest_fixed_residential_per_100_censo_households_2026m06,19,8102,Coronel,Biobío,41939,3.2929,91.0656,86.0392,88.1781,91.0656,2.8875
+highest_fixed_residential_per_100_censo_households_2026m06,20,13123,Providencia,Metropolitana de Santiago,69431,0.0,90.9046,89.5724,90.6468,90.9046,0.2578
+lowest_fixed_residential_per_100_censo_households_2026m06,1,7307,Sagrada Familia,Maule,6735,53.6451,4.2762,3.5189,3.7862,4.2762,0.49
+lowest_fixed_residential_per_100_censo_households_2026m06,2,8309,Quilleco,Biobío,3584,44.8661,4.8828,5.0223,3.9621,4.8828,0.9208
+lowest_fixed_residential_per_100_censo_households_2026m06,3,10306,San Juan de la Costa,Los Lagos,3343,100.0,6.1023,1.7948,3.799,6.1023,2.3033
+lowest_fixed_residential_per_100_censo_households_2026m06,4,16303,Ñiquén,Ñuble,4921,88.7624,7.3969,6.7872,5.8321,7.3969,1.5647
+lowest_fixed_residential_per_100_censo_households_2026m06,5,6309,Pumanque,Libertador General Bernardo O'Higgins,1777,100.0,7.991,12.0428,9.0602,7.991,-1.0692
+lowest_fixed_residential_per_100_censo_households_2026m06,6,4305,Río Hurtado,Coquimbo,1882,100.0,8.0765,2.0723,3.4538,8.0765,4.6227
+lowest_fixed_residential_per_100_censo_households_2026m06,7,9205,Lonquimay,La Araucanía,3774,63.4075,8.4791,5.8559,7.4722,8.4791,1.0069
+lowest_fixed_residential_per_100_censo_households_2026m06,8,6206,Paredones,Libertador General Bernardo O'Higgins,2857,75.7438,9.2405,4.4452,6.1953,9.2405,3.0452
+lowest_fixed_residential_per_100_censo_households_2026m06,9,5404,Petorca,Valparaíso,3820,62.6702,9.3979,7.3822,8.3246,9.3979,1.0733
+lowest_fixed_residential_per_100_censo_households_2026m06,10,4105,Paihuano,Coquimbo,1870,100.0,9.6791,4.6524,7.0053,9.6791,2.6738
+lowest_fixed_residential_per_100_censo_households_2026m06,11,6308,Placilla,Libertador General Bernardo O'Higgins,3288,75.2433,10.0365,12.1655,10.9793,10.0365,-0.9428
+lowest_fixed_residential_per_100_censo_households_2026m06,12,7103,Curepto,Maule,3791,67.3437,10.182,8.2828,9.5489,10.182,0.6331
+lowest_fixed_residential_per_100_censo_households_2026m06,13,9110,Melipeuco,La Araucanía,2632,61.0942,10.4863,6.307,7.2948,10.4863,3.1915
+lowest_fixed_residential_per_100_censo_households_2026m06,14,8302,Antuco,Biobío,1723,53.9756,10.9692,5.3395,9.4022,10.9692,1.567
+lowest_fixed_residential_per_100_censo_households_2026m06,15,3302,Alto del Carmen,Atacama,1922,100.0,11.2903,4.2664,7.4402,11.2903,3.8502
+lowest_fixed_residential_per_100_censo_households_2026m06,16,9207,Lumaco,La Araucanía,3404,57.5206,11.3102,5.8167,7.9025,11.3102,3.4078
+lowest_fixed_residential_per_100_censo_households_2026m06,17,8207,Tirúa,Biobío,3609,74.0371,11.4713,5.7634,8.0355,11.4713,3.4359
+lowest_fixed_residential_per_100_censo_households_2026m06,18,16305,San Nicolás,Ñuble,5445,67.64,11.9008,9.55,10.5051,11.9008,1.3958
+lowest_fixed_residential_per_100_censo_households_2026m06,19,10206,Puqueldón,Los Lagos,1558,100.0,11.9384,8.4724,9.1784,11.9384,2.7599
+lowest_fixed_residential_per_100_censo_households_2026m06,20,6306,Palmilla,Libertador General Bernardo O'Higgins,4455,74.6577,11.9416,10.303,11.3805,11.9416,0.5612
