@@ -7,6 +7,7 @@ on:
       - 'scripts/build_subtel_sector_series_2026.py'
       - 'scripts/build_subtel_market_dynamics_2026.py'
       - 'scripts/build_subtel_market_derived_2026.py'
+      - 'scripts/build_subtel_annual_june_market_panel.py'
       - 'scripts/qa_normalize_subtel_fixed_periods.py'
       - '.github/workflows/build-subtel-sector-series-2026.yml'
   workflow_dispatch:
@@ -33,6 +34,8 @@ jobs:
         run: python scripts/build_subtel_market_dynamics_2026.py
       - name: Build derived market analytics
         run: python scripts/build_subtel_market_derived_2026.py
+      - name: Build annual June comparison panels
+        run: python scripts/build_subtel_annual_june_market_panel.py
       - name: Normalize overlapping fixed periods and QA
         run: python scripts/qa_normalize_subtel_fixed_periods.py
       - name: Commit normalized sector series
@@ -64,7 +67,10 @@ jobs:
             data/subtel_sector_series/fixed_operator_connections_vs_traffic_growth.csv \
             data/subtel_sector_series/satellite_provider_dynamics_monthly.csv \
             data/subtel_sector_series/mobile_4g_5g_convergence_monthly.csv \
-            data/subtel_sector_series/mobile_4g_5g_convergence_summary.csv
+            data/subtel_sector_series/mobile_4g_5g_convergence_summary.csv \
+            data/subtel_sector_series/annual_june_national_market_panel.csv \
+            data/subtel_sector_series/annual_june_mobile_operator_panel.csv \
+            data/subtel_sector_series/annual_june_fixed_operator_panel.csv
           if git diff --cached --quiet; then
             echo 'No normalized sector-series changes'
           else
