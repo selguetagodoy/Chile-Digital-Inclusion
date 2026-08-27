@@ -1,0 +1,6 @@
+window,base_period,end_period,gap_base,gap_end,gap_closed,avg_gap_closure_per_month,months_to_crossover_from_june_2026,mechanical_crossover_month,projection_note
+1S2025,2024-12,2025-06,10095719,5544876,4550843,758473.833,,,
+2S2025,2025-06,2025-12,5544876,2972710,2572166,428694.333,,,
+1S2026,2025-12,2026-06,2972710,627542,2345168,390861.333,,,
+crossover_projection_1S2026_average,2026-06,,627542,,,390861.333,1.606,2026-08,Mechanical linear extrapolation; not a forecast
+crossover_projection_trailing_3m_average,2026-06,,627542,,,303438.333,2.068,2026-08,Mechanical linear extrapolation; not a forecast

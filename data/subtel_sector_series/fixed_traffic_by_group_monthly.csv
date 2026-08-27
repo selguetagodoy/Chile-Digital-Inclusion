@@ -1,0 +1,451 @@
+period,operator_group,traffic_tb,total_market_tb,share_pct,aggregation_note
+2019-01,Entel,75328.032219,724594.589339,10.395887,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-01,GTD,38876.651412,724594.589339,5.365297,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-01,Grupo Claro-VTR,360465.460015,724594.589339,49.747192,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-01,Movistar,206460.601989,724594.589339,28.493257,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-01,Mundo,42982.187385,724594.589339,5.931895,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-02,Entel,75517.545086,667794.85346,11.308495,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-02,GTD,34615.831261,667794.85346,5.183603,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-02,Grupo Claro-VTR,330158.658963,667794.85346,49.440132,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-02,Movistar,184188.068319,667794.85346,27.581535,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-02,Mundo,42857.256899,667794.85346,6.417728,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-03,Entel,79799.737299,664016.587757,12.017733,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-03,GTD,40267.574954,664016.587757,6.064242,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-03,Grupo Claro-VTR,305693.317289,664016.587757,46.037,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-03,Movistar,193916.190374,664016.587757,29.203516,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-03,Mundo,44047.791103,664016.587757,6.633538,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-04,Entel,84426.119998,707812.043599,11.92776,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-04,GTD,39096.584729,707812.043599,5.523583,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-04,Grupo Claro-VTR,347041.160364,707812.043599,49.030129,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-04,Movistar,193440.088622,707812.043599,27.329302,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-04,Mundo,43516.496198,707812.043599,6.14803,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-05,Entel,86751.819381,755253.990326,11.486443,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-05,GTD,42605.69873,755253.990326,5.641241,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-05,Grupo Claro-VTR,369361.027008,755253.990326,48.905538,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-05,Movistar,207663.559065,755253.990326,27.495857,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-05,Mundo,48624.078184,755253.990326,6.438109,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-06,Entel,87416.210156,783563.05984,11.156244,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-06,GTD,44027.734481,783563.05984,5.618914,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-06,Grupo Claro-VTR,384738.811464,783563.05984,49.101193,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-06,Movistar,212800.614342,783563.05984,27.158071,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-06,Mundo,54340.792896,783563.05984,6.935089,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-07,Entel,91812.560672,878244.53802,10.4541,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-07,GTD,49364.243645,878244.53802,5.620786,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-07,Grupo Claro-VTR,427979.724617,878244.53802,48.731271,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-07,Movistar,249571.628846,878244.53802,28.4171,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-07,Mundo,59275.841441,878244.53802,6.749355,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-08,Entel,93213.851279,841185.249382,11.081251,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-08,GTD,40695.172025,841185.249382,4.837837,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-08,Grupo Claro-VTR,418210.670417,841185.249382,49.716834,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-08,Movistar,237151.051451,841185.249382,28.192488,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-08,Mundo,51658.160526,841185.249382,6.141116,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-09,Entel,94738.365457,837105.676048,11.317372,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-09,GTD,47363.151115,837105.676048,5.657966,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-09,Grupo Claro-VTR,412916.819982,837105.676048,49.326726,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-09,Movistar,230158.007543,837105.676048,27.494498,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-09,Mundo,51657.913135,837105.676048,6.171015,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-10,Entel,104572.520499,925908.794766,11.294041,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-10,GTD,53828.582249,925908.794766,5.813594,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-10,Grupo Claro-VTR,459425.990426,925908.794766,49.618925,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-10,Movistar,260362.872379,925908.794766,28.11971,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-10,Mundo,47404.218602,925908.794766,5.11975,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-11,Entel,102592.141461,877550.452449,11.69074,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-11,GTD,51649.401848,877550.452449,5.885633,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-11,Grupo Claro-VTR,432089.122447,877550.452449,49.238095,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-11,Movistar,245385.941191,877550.452449,27.962602,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-11,Mundo,45529.364532,877550.452449,5.188233,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-12,Entel,104747.337192,916657.957465,11.427091,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-12,GTD,56023.491117,916657.957465,6.111712,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-12,Grupo Claro-VTR,446355.543747,916657.957465,48.693795,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-12,Movistar,246616.037074,916657.957465,26.903823,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2019-12,Mundo,62604.610884,916657.957465,6.829659,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-01,Entel,103967.428233,919275.672113,11.309712,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-01,GTD,53168.698272,919275.672113,5.78376,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-01,Grupo Claro-VTR,447016.118923,919275.672113,48.626993,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-01,Movistar,247229.668125,919275.672113,26.893964,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-01,Mundo,67580.914853,919275.672113,7.35154,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-02,Entel,105677.330054,864315.136312,12.226713,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-02,GTD,50671.116296,864315.136312,5.862574,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-02,Grupo Claro-VTR,421980.365446,864315.136312,48.822512,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-02,Movistar,227501.569066,864315.136312,26.3216,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-02,Mundo,58177.749152,864315.136312,6.731081,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-03,Entel,121344.666087,1133979.111902,10.700785,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-03,GTD,72696.538869,1133979.111902,6.410748,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-03,Grupo Claro-VTR,541634.665174,1133979.111902,47.764078,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-03,Movistar,301887.497442,1133979.111902,26.621963,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-03,Mundo,96112.153167,1133979.111902,8.475655,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-04,Entel,128854.831725,1230972.994363,10.467722,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-04,GTD,80467.901852,1230972.994363,6.536935,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-04,Grupo Claro-VTR,566262.151456,1230972.994363,46.001184,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-04,Movistar,333473.626489,1230972.994363,27.090247,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-04,Mundo,121687.272367,1230972.994363,9.885454,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-05,Entel,136090.643892,1302758.910424,10.446341,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-05,GTD,91957.870722,1302758.910424,7.058702,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-05,Grupo Claro-VTR,585612.787084,1302758.910424,44.951739,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-05,Movistar,342776.398138,1302758.910424,26.311576,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-05,Mundo,146114.491182,1302758.910424,11.215774,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-06,Entel,145918.252031,1324946.546082,11.013143,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-06,GTD,93782.293364,1324946.546082,7.078194,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-06,Grupo Claro-VTR,580430.251181,1324946.546082,43.807824,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-06,Movistar,351346.273226,1324946.546082,26.51777,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-06,Mundo,153280.055461,1324946.546082,11.568773,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-07,Entel,147261.653398,1380527.183017,10.667059,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-07,GTD,93595.272422,1380527.183017,6.779676,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-07,Grupo Claro-VTR,605084.451341,1380527.183017,43.829956,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-07,Movistar,370957.679358,1380527.183017,26.870726,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-07,Mundo,162396.242111,1380527.183017,11.76335,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-08,Entel,152931.65595,1427439.364926,10.713706,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-08,GTD,98510.222227,1427439.364926,6.901184,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-08,Grupo Claro-VTR,618194.435628,1427439.364926,43.30793,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-08,Movistar,374340.564688,1427439.364926,26.224621,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-08,Mundo,181687.128147,1427439.364926,12.728185,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-09,Entel,143952.14783,1351725.710877,10.649509,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-09,GTD,92145.903264,1351725.710877,6.816908,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-09,Grupo Claro-VTR,562026.780762,1351725.710877,41.578463,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-09,Movistar,374692.547067,1351725.710877,27.719569,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-09,Mundo,176740.719551,1351725.710877,13.075191,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-10,Entel,147485.530598,1385806.027202,10.642581,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-10,GTD,96619.918123,1385806.027202,6.97211,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-10,Grupo Claro-VTR,562019.976355,1385806.027202,40.555458,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-10,Movistar,389557.511563,1385806.027202,28.110537,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-10,Mundo,187782.058298,1385806.027202,13.550385,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-11,Entel,141563.212406,1392408.128931,10.16679,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-11,GTD,99288.427198,1392408.128931,7.130699,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-11,Grupo Claro-VTR,549380.389387,1392408.128931,39.455414,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-11,Movistar,399100.035814,1392408.128931,28.662576,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-11,Mundo,198960.174984,1392408.128931,14.288927,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-12,Entel,139153.251296,1478307.328318,9.413012,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-12,GTD,104981.385761,1478307.328318,7.101459,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-12,Grupo Claro-VTR,576811.318549,1478307.328318,39.018363,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-12,Movistar,428882.998165,1478307.328318,29.011762,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2020-12,Mundo,222224.999189,1478307.328318,15.032395,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-01,Entel,133675.839014,1493912.114688,8.948039,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-01,GTD,101814.313377,1493912.114688,6.815281,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-01,Grupo Claro-VTR,578697.926253,1493912.114688,38.73708,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-01,Movistar,437097.833914,1493912.114688,29.258604,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-01,Mundo,232844.698475,1493912.114688,15.586238,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-02,Entel,118245.350772,1341477.347376,8.814562,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-02,GTD,89710.002021,1341477.347376,6.687403,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-02,Grupo Claro-VTR,515795.879583,1341477.347376,38.449839,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-02,Movistar,390139.908323,1341477.347376,29.082855,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-02,Mundo,215956.095535,1341477.347376,16.098378,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-03,Entel,154621.260399,1650772.326651,9.366601,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-03,GTD,117360.064494,1650772.326651,7.109403,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-03,Grupo Claro-VTR,614049.875678,1650772.326651,37.197733,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-03,Movistar,496852.51792,1650772.326651,30.098186,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-03,Mundo,255766.764961,1650772.326651,15.493764,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-04,Entel,153124.57931,1722864.812303,8.887788,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-04,GTD,126912.19977,1722864.812303,7.366347,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-04,Grupo Claro-VTR,640018.800932,1722864.812303,37.148521,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-04,Movistar,509185.939913,1722864.812303,29.554608,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-04,Mundo,276639.159279,1722864.812303,16.056928,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-05,Entel,149021.265272,1724027.643792,8.643786,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-05,GTD,125318.413805,1724027.643792,7.268933,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-05,Grupo Claro-VTR,622757.746747,1724027.643792,36.12226,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-05,Movistar,522927.311292,1724027.643792,30.331724,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-05,Mundo,287094.936513,1724027.643792,16.652572,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-06,Entel,147658.614797,1761957.209177,8.380375,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-06,GTD,126565.967717,1761957.209177,7.18326,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-06,Grupo Claro-VTR,615082.449864,1761957.209177,34.909046,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-06,Movistar,547076.133353,1761957.209177,31.049343,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-06,Mundo,303601.607388,1761957.209177,17.23093,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-07,Entel,153543.269819,1801063.03127,8.525147,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-07,GTD,122808.834931,1801063.03127,6.818686,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-07,Grupo Claro-VTR,604521.089302,1801063.03127,33.564683,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-07,Movistar,563160.173691,1801063.03127,31.26821,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-07,Mundo,328094.214136,1801063.03127,18.216698,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-08,Entel,171408.070961,1814891.716137,9.444534,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-08,GTD,123785.613949,1814891.716137,6.820551,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-08,Grupo Claro-VTR,585731.066848,1814891.716137,32.27361,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-08,Movistar,559689.506724,1814891.716137,30.838727,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-08,Mundo,337157.459502,1814891.716137,18.577277,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-09,Entel,186782.251867,1743017.038432,10.716031,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-09,GTD,114791.757907,1743017.038432,6.585808,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-09,Grupo Claro-VTR,550414.95294,1743017.038432,31.578289,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-09,Movistar,532510.871231,1743017.038432,30.5511,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-09,Mundo,328650.269529,1743017.038432,18.855253,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-10,Entel,186717.70345,1863443.609113,10.020035,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-10,GTD,119369.70628,1863443.609113,6.405866,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-10,Grupo Claro-VTR,584623.036755,1863443.609113,31.373262,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-10,Movistar,577411.533925,1863443.609113,30.986263,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-10,Mundo,351667.915369,1863443.609113,18.871938,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-11,Entel,181832.317485,1811895.018944,10.035478,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-11,GTD,116135.398556,1811895.018944,6.40961,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-11,Grupo Claro-VTR,565776.533605,1811895.018944,31.22568,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-11,Movistar,563251.137795,1811895.018944,31.086301,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-11,Mundo,342824.620688,1811895.018944,18.920777,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-12,Entel,184533.589501,1889311.854929,9.767238,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-12,GTD,121329.360505,1889311.854929,6.421881,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-12,Grupo Claro-VTR,580544.652056,1889311.854929,30.727836,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-12,Movistar,586137.081563,1889311.854929,31.02384,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2021-12,Mundo,368250.756627,1889311.854929,19.491264,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-01,Entel,167697.633289,1919833.376237,8.73501,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-01,GTD,122019.254859,1919833.376237,6.355721,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-01,Grupo Claro-VTR,586445.419748,1919833.376237,30.546683,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-01,Movistar,603793.194116,1919833.376237,31.450292,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-01,Mundo,385185.260935,1919833.376237,20.063474,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-02,Entel,177535.098683,1727728.601782,10.275636,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-02,GTD,111737.790625,1727728.601782,6.467323,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-02,Grupo Claro-VTR,523585.408611,1727728.601782,30.304841,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-02,Movistar,560480.151332,1727728.601782,32.440289,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-02,Mundo,346186.587428,1727728.601782,20.037093,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-03,Entel,225776.252066,1940004.077924,11.637927,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-03,GTD,122431.180547,1940004.077924,6.310872,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-03,Grupo Claro-VTR,572330.522645,1940004.077924,29.501511,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-03,Movistar,578491.980754,1940004.077924,29.819112,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-03,Mundo,381816.530885,1940004.077924,19.681223,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-04,Entel,232684.223846,1956419.242964,11.893372,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-04,GTD,119587.739382,1956419.242964,6.112582,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-04,Grupo Claro-VTR,567063.39505,1956419.242964,28.984759,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-04,Movistar,597830.115572,1956419.242964,30.557362,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-04,Mundo,376290.360311,1956419.242964,19.233626,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-05,Entel,196641.972045,2053840.815975,9.574353,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-05,GTD,127748.53981,2053840.815975,6.219983,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-05,Grupo Claro-VTR,600441.197313,2053840.815975,29.235041,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-05,Movistar,665482.383947,2053840.815975,32.401848,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-05,Mundo,396106.747395,2053840.815975,19.286146,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-06,Entel,210226.322354,2128659.745269,9.875995,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-06,GTD,132981.272686,2128659.745269,6.247183,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-06,Grupo Claro-VTR,625812.178607,2128659.745269,29.399352,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-06,Movistar,684905.104655,2128659.745269,32.175415,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-06,Mundo,403410.305131,2128659.745269,18.951376,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-07,Entel,227734.342868,2205401.772063,10.326207,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-07,GTD,141213.59259,2205401.772063,6.403078,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-07,Grupo Claro-VTR,656457.485868,2205401.772063,29.765891,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-07,Movistar,677820.531113,2205401.772063,30.73456,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-07,Mundo,436317.842013,2205401.772063,19.784052,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-08,Entel,225455.959077,2182241.373547,10.331394,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-08,GTD,135597.430699,2182241.373547,6.213677,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-08,Grupo Claro-VTR,630081.623517,2182241.373547,28.873141,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-08,Movistar,688931.957464,2182241.373547,31.569925,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-08,Mundo,423480.015623,2182241.373547,19.405737,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-09,Entel,213449.885646,2108599.9286,10.122825,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-09,GTD,131396.286801,2108599.9286,6.231447,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-09,Grupo Claro-VTR,604792.948708,2108599.9286,28.682205,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-09,Movistar,663371.747181,2108599.9286,31.460294,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-09,Mundo,415269.222493,2108599.9286,19.694074,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-10,Entel,226493.784404,2218197.312321,10.210714,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-10,GTD,139754.80102,2218197.312321,6.300377,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-10,Grupo Claro-VTR,625408.025278,2218197.312321,28.194427,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-10,Movistar,707400.89037,2218197.312321,31.890801,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-10,Mundo,426645.093604,2218197.312321,19.233866,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-11,Entel,230187.016777,2232306.109031,10.311624,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-11,GTD,133842.473162,2232306.109031,5.995704,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-11,Grupo Claro-VTR,621937.348071,2232306.109031,27.860756,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-11,Movistar,723702.766373,2232306.109031,32.419513,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-11,Mundo,428512.055302,2232306.109031,19.195936,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-12,Entel,229585.086109,2295742.927818,10.00047,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-12,GTD,138841.980485,2295742.927818,6.047802,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-12,Grupo Claro-VTR,632335.846973,2295742.927818,27.543844,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-12,Movistar,739490.922033,2295742.927818,32.211399,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2022-12,Mundo,456787.764058,2295742.927818,19.897165,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-01,Entel,239186.803656,2431086.948806,9.838677,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-01,GTD,135207.789538,2431086.948806,5.561619,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-01,Grupo Claro-VTR,739095.835232,2431086.948806,30.401868,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-01,Movistar,735062.62377,2431086.948806,30.235966,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-01,Mundo,479353.171891,2431086.948806,19.717648,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-02,Entel,218051.908799,2161442.361521,10.088259,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-02,GTD,122807.891844,2161442.361521,5.681756,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-02,Grupo Claro-VTR,649259.451663,2161442.361521,30.03825,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-02,Movistar,657093.527857,2161442.361521,30.400696,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-02,Mundo,421386.823693,2161442.361521,19.495631,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-03,Entel,237214.357865,2410582.943661,9.840539,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-03,GTD,138442.36134,2410582.943661,5.743107,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-03,Grupo Claro-VTR,713856.785796,2410582.943661,29.61345,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-03,Movistar,718546.70402,2410582.943661,29.808006,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-03,Mundo,499103.123186,2410582.943661,20.704665,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-04,Entel,240157.75165,2359941.27425,10.176429,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-04,GTD,133363.683712,2359941.27425,5.651144,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-04,Grupo Claro-VTR,696567.330323,2359941.27425,29.516299,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-04,Movistar,698694.766816,2359941.27425,29.606447,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-04,Mundo,482079.46335,2359941.27425,20.427604,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-05,Entel,254452.008749,2495752.799911,10.195401,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-05,GTD,141276.849488,2495752.799911,5.660691,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-05,Grupo Claro-VTR,720092.506106,2495752.799911,28.852718,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-05,Movistar,744512.961338,2495752.799911,29.831198,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-05,Mundo,518154.661296,2495752.799911,20.761458,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-06,Entel,264751.927248,2553172.565339,10.369527,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-06,GTD,147006.249044,2553172.565339,5.757787,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-06,Grupo Claro-VTR,743660.635256,2553172.565339,29.126924,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-06,Movistar,769152.843856,2553172.565339,30.125376,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-06,Mundo,509295.319008,2553172.565339,19.947548,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-07,Entel,273609.731631,2635357.735921,10.382262,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-07,GTD,153388.675725,2635357.735921,5.820412,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-07,Grupo Claro-VTR,771112.001901,2635357.735921,29.26024,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-07,Movistar,785636.430086,2635357.735921,29.811377,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-07,Mundo,528827.763165,2635357.735921,20.066641,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-08,Entel,282115.00046,2618186.554152,10.775206,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-08,GTD,151285.377497,2618186.554152,5.77825,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-08,Grupo Claro-VTR,778392.395778,2618186.554152,29.730211,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-08,Movistar,771670.952439,2618186.554152,29.47349,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-08,Mundo,514324.731566,2618186.554152,19.644312,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-09,Entel,271540.330956,2573274.288452,10.552328,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-09,GTD,146423.881031,2573274.288452,5.690178,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-09,Grupo Claro-VTR,763807.48425,2573274.288452,29.682319,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-09,Movistar,752094.927435,2573274.288452,29.227157,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-09,Mundo,522102.22551,2573274.288452,20.289412,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-10,Entel,279900.635104,2591619.56579,10.800221,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-10,GTD,151373.78532,2591619.56579,5.840895,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-10,Grupo Claro-VTR,760009.05354,2591619.56579,29.325641,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-10,Movistar,762145.899729,2591619.56579,29.408093,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-10,Mundo,519546.260166,2591619.56579,20.047165,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-11,Entel,275274.564118,2534196.489504,10.8624,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-11,GTD,133690.081104,2534196.489504,5.275443,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-11,Grupo Claro-VTR,763476.65888,2534196.489504,30.126972,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-11,Movistar,738399.649745,2534196.489504,29.137427,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-11,Mundo,508005.630222,2534196.489504,20.046024,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-12,Entel,274951.953379,2648585.164368,10.381088,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-12,GTD,150082.456437,2648585.164368,5.666514,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-12,Grupo Claro-VTR,766657.217281,2648585.164368,28.945915,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-12,Movistar,783644.857537,2648585.164368,29.587301,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2023-12,Mundo,549076.467626,2648585.164368,20.730935,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-01,Entel,284063.258188,2649907.374117,10.719743,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-01,GTD,148046.839155,2649907.374117,5.586868,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-01,Grupo Claro-VTR,774182.005328,2649907.374117,29.215436,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-01,Movistar,765408.82831,2649907.374117,28.884362,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-01,Mundo,555427.831443,2649907.374117,20.960273,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-02,Entel,264058.518922,2543702.9851,10.380871,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-02,GTD,139406.860913,2543702.9851,5.480469,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-02,Grupo Claro-VTR,735246.149462,2543702.9851,28.90456,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-02,Movistar,713569.98908,2543702.9851,28.05241,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-02,Mundo,580287.78022,2543702.9851,22.812718,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-03,Entel,291817.531418,2665247.598964,10.948984,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-03,GTD,149754.92928,2665247.598964,5.6188,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-03,Grupo Claro-VTR,771999.852895,2665247.598964,28.965408,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-03,Movistar,774717.649796,2665247.598964,29.06738,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-03,Mundo,556390.437183,2665247.598964,20.87575,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-04,Entel,302003.615492,2648593.103969,11.402416,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-04,GTD,153076.862287,2648593.103969,5.779554,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-04,Grupo Claro-VTR,795728.489587,2648593.103969,30.04344,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-04,Movistar,745088.177712,2648593.103969,28.13147,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-04,Mundo,532116.796038,2648593.103969,20.090545,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-05,Entel,325777.799614,2854415.099857,11.413119,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-05,GTD,166789.007341,2854415.099857,5.843194,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-05,Grupo Claro-VTR,851210.036521,2854415.099857,29.820822,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-05,Movistar,795387.835564,2854415.099857,27.865178,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-05,Mundo,588509.021706,2854415.099857,20.6175,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-06,Entel,345585.298507,2904419.919388,11.8986,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-06,GTD,170089.221315,2904419.919388,5.85622,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-06,Grupo Claro-VTR,828648.14067,2904419.919388,28.53059,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-06,Movistar,808455.364583,2904419.919388,27.835347,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-06,Mundo,621557.942248,2904419.919388,21.400416,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-07,Entel,337327.344438,2879862.390875,11.713315,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-07,GTD,165084.409226,2879862.390875,5.732371,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-07,Grupo Claro-VTR,863540.788812,2879862.390875,29.985488,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-07,Movistar,781703.339221,2879862.390875,27.143774,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-07,Mundo,609248.906509,2879862.390875,21.155487,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-08,Entel,340092.701971,2799957.355902,12.146353,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-08,GTD,163591.315925,2799957.355902,5.842636,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-08,Grupo Claro-VTR,816948.14854,2799957.355902,29.177164,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-08,Movistar,767538.977519,2799957.355902,27.412524,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-08,Mundo,601962.42943,2799957.355902,21.498986,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-09,Entel,333718.828174,2743812.8926,12.162594,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-09,GTD,161378.07862,2743812.8926,5.881526,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-09,Grupo Claro-VTR,800647.149785,2743812.8926,29.180093,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-09,Movistar,734530.004741,2743812.8926,26.770412,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-09,Mundo,598433.239376,2743812.8926,21.810279,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-10,Entel,360201.941098,2828901.999287,12.732924,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-10,GTD,168919.863763,2828901.999287,5.971217,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-10,Grupo Claro-VTR,809657.210516,2828901.999287,28.6209,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-10,Movistar,741363.206644,2828901.999287,26.206748,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-10,Mundo,628358.900609,2828901.999287,22.212113,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-11,Entel,362980.545828,2799853.032755,12.964271,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-11,GTD,165058.070008,2799853.032755,5.895241,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-11,Grupo Claro-VTR,805518.909132,2799853.032755,28.770043,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-11,Movistar,735761.886411,2799853.032755,26.27859,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-11,Mundo,614626.80814,2799853.032755,21.95211,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-12,Entel,380012.587963,2877713.603801,13.205365,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-12,GTD,172544.905621,2877713.603801,5.995903,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-12,Grupo Claro-VTR,812967.452673,2877713.603801,28.250464,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-12,Movistar,775133.736654,2877713.603801,26.93575,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2024-12,Mundo,614626.80814,2877713.603801,21.358165,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-01,Entel,383082.914803,2902308.699094,13.199248,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-01,GTD,165583.45049,2902308.699094,5.705232,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-01,Grupo Claro-VTR,794180.427266,2902308.699094,27.363748,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-01,Movistar,765123.107519,2902308.699094,26.362568,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-01,Mundo,672223.095995,2902308.699094,23.161668,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-02,Entel,345538.443064,2795515.571887,12.360455,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-02,GTD,152592.465418,2795515.571887,5.458473,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-02,Grupo Claro-VTR,838852.308444,2795515.571887,30.00707,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-02,Movistar,727314.884564,2795515.571887,26.0172,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-02,Mundo,623282.424293,2795515.571887,22.295795,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-03,Entel,406117.384429,3034502.134662,13.383328,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-03,GTD,175778.119199,3034502.134662,5.792651,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-03,Grupo Claro-VTR,833646.707037,3034502.134662,27.472273,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-03,Movistar,777899.960223,3034502.134662,25.635176,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-03,Mundo,724272.778763,3034502.134662,23.867928,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-04,Entel,395330.654179,3050181.488177,12.96089,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-04,GTD,172201.449496,3050181.488177,5.645613,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-04,Grupo Claro-VTR,870203.70924,3050181.488177,28.529572,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-04,Movistar,773681.780172,3050181.488177,25.365106,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-04,Mundo,715404.634454,3050181.488177,23.454494,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-05,Entel,387346.891643,3179890.342079,12.18114,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-05,GTD,186589.833858,3179890.342079,5.867807,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-05,Grupo Claro-VTR,852114.07795,3179890.342079,26.796964,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-05,Movistar,834174.921779,3179890.342079,26.23282,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-05,Mundo,785762.050697,3179890.342079,24.710351,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-06,Entel,387306.33391,2915698.398943,13.283484,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-06,GTD,182268.177168,2915698.398943,6.25127,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-06,Grupo Claro-VTR,739604.021367,2915698.398943,25.366273,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-06,Movistar,821617.934461,2915698.398943,28.179113,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-06,Mundo,652182.503297,2915698.398943,22.367969,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-07,Entel,404304.736146,3073804.941965,13.153233,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-07,GTD,187266.768634,3073804.941965,6.092344,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-07,Grupo Claro-VTR,716417.801483,3073804.941965,23.307198,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-07,Movistar,838886.34975,3073804.941965,27.291463,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-07,Mundo,793671.246139,3073804.941965,25.820482,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-08,Entel,426025.723255,3113447.583301,13.683408,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-08,GTD,187141.341725,3113447.583301,6.010743,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-08,Grupo Claro-VTR,737302.595996,3113447.583301,23.681227,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-08,Movistar,831671.123303,3113447.583301,26.712225,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-08,Mundo,796581.339739,3113447.583301,25.585186,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-09,Entel,411572.125746,2981645.289599,13.803524,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-09,GTD,177600.264843,2981645.289599,5.956452,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-09,Grupo Claro-VTR,689007.264071,2981645.289599,23.108291,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-09,Movistar,790521.19369,2981645.289599,26.512919,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-09,Mundo,786426.257951,2981645.289599,26.375581,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-10,Entel,396106.703812,3024096.078881,13.09835,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-10,GTD,184799.213673,3024096.078881,6.110891,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-10,Grupo Claro-VTR,668634.022452,3024096.078881,22.110211,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-10,Movistar,830307.899239,3024096.078881,27.456399,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-10,Mundo,810797.744359,3024096.078881,26.811243,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-11,Entel,369833.589988,3044747.437861,12.14661,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-11,GTD,184286.008132,3044747.437861,6.052588,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-11,Grupo Claro-VTR,680077.874329,3044747.437861,22.336101,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-11,Movistar,816575.320126,3044747.437861,26.819148,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-11,Mundo,859596.079823,3044747.437861,28.232098,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-12,Entel,373441.484059,3240609.644121,11.523803,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-12,GTD,197410.501409,3240609.644121,6.09177,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-12,Grupo Claro-VTR,673214.578601,3240609.644121,20.774319,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-12,Movistar,948950.29901,3240609.644121,29.28308,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2025-12,Mundo,904034.680375,3240609.644121,27.897056,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-01,Entel,361710.367667,3163637.13244,11.433371,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-01,GTD,192837.410899,3163637.13244,6.095434,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-01,Grupo Claro-VTR,650066.943309,3163637.13244,20.548088,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-01,Movistar,892405.151796,3163637.13244,28.208202,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-01,Mundo,927696.230536,3163637.13244,29.323724,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-02,Entel,331050.95076,2868703.703562,11.540089,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-02,GTD,177079.787753,2868703.703562,6.172816,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-02,Grupo Claro-VTR,617165.009569,2868703.703562,21.513724,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-02,Movistar,763338.853182,2868703.703562,26.609191,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-02,Mundo,855830.226105,2868703.703562,29.833343,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-03,Entel,389012.942503,3017621.320375,12.891377,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-03,GTD,202881.651224,3017621.320375,6.723231,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-03,Grupo Claro-VTR,516189.737492,3017621.320375,17.105849,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-03,Movistar,829071.471126,3017621.320375,27.474338,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-03,Mundo,939664.301311,3017621.320375,31.139239,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-04,Entel,375592.066896,2911756.740624,12.899157,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-04,GTD,199662.426442,2911756.740624,6.857112,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-04,Grupo Claro-VTR,482885.269494,2911756.740624,16.583984,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-04,Movistar,813287.579822,2911756.740624,27.931165,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-04,Mundo,904198.872609,2911756.740624,31.05338,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-05,Entel,418773.20359,3253711.948915,12.870629,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-05,GTD,197013.676041,3253711.948915,6.055044,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-05,Grupo Claro-VTR,744838.519367,3253711.948915,22.891963,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-05,Movistar,812889.484537,3253711.948915,24.98345,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-05,Mundo,934366.639748,3253711.948915,28.716944,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-06,Entel,437315.339782,3427290.448144,12.759798,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-06,GTD,217626.327135,3427290.448144,6.349807,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-06,Grupo Claro-VTR,880963.870984,3427290.448144,25.704383,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-06,Movistar,812821.691219,3427290.448144,23.71616,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
+2026-06,Mundo,934366.639748,3427290.448144,27.262546,Entel=Entel S.A.+Entelphone; GTD=Telsur+GTD Manquehue; other groups preserve source label
