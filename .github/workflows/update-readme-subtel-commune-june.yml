@@ -1,0 +1,40 @@
+name: Update README for SUBTEL June commune layer
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update_readme_subtel_commune_june.py'
+      - 'data/fixed_infrastructure_2026/commune_fixed_connections_2026_06.csv'
+      - '.github/workflows/update-readme-subtel-commune-june.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: main-writers
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Update README
+        run: python scripts/update_readme_subtel_commune_june.py
+      - name: Commit README
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          if git diff --cached --quiet; then
+            echo 'No README changes'
+          else
+            git commit -m 'Document SUBTEL commune fixed data through June 2026'
+            git pull --rebase origin main
+            git push
+          fi
