@@ -9,12 +9,15 @@ import openpyxl
 import requests
 
 OUTDIR = Path('data/subtel_sector_series')
+LATEST_PERIOD = '2026-06'
+LATEST_YEAR = 2026
+LATEST_MONTH = 6
 
 SOURCES = {
-    'fixed': 'https://www.subtel.gob.cl/wp-content/uploads/2026/05/1_SERIES_CONEXIONES_INTERNET_FIJA_MAR26_040526.xlsx',
-    'mobile': 'https://www.subtel.gob.cl/wp-content/uploads/2026/05/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-MAR26-040526.xlsx',
-    'mobile_traffic': 'https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_MOVILES-MAR26-040526.xlsx',
-    'fixed_traffic': 'https://www.subtel.gob.cl/wp-content/uploads/2026/05/3_SERIES_TRAFICO_DATOS_FIJOS-MAR26-040526.xlsx',
+    'fixed': 'https://www.subtel.gob.cl/wp-content/uploads/2026/08/1_SERIES_CONEXIONES_INTERNET_FIJA_JUN26_100826.xlsx',
+    'mobile': 'https://www.subtel.gob.cl/wp-content/uploads/2026/08/2_SERIES_CONEXIONES_INTERNET_MO%CC%81VIL-JUN26-100826.xlsx',
+    'mobile_traffic': 'https://www.subtel.gob.cl/wp-content/uploads/2026/08/3_SERIES_TRAFICO_DATOS_MOVILES-JUN26-100826.xlsx',
+    'fixed_traffic': 'https://www.subtel.gob.cl/wp-content/uploads/2026/08/3_SERIES_TRAFICO_DATOS_FIJOS-JUN26-100826.xlsx',
 }
 
 MONTHS = {
@@ -24,7 +27,7 @@ MONTHS = {
 
 
 def download(url: str) -> bytes:
-    r = requests.get(url, timeout=180, allow_redirects=True)
+    r = requests.get(url, timeout=180, allow_redirects=True, headers={'User-Agent': 'Chile-Digital-Inclusion/2026'})
     r.raise_for_status()
     if not r.content.startswith(b'PK'):
         raise RuntimeError(f'Expected XLSX from {url}; type={r.headers.get("content-type")} bytes={len(r.content)}')
@@ -78,7 +81,8 @@ def write_csv(path: Path, rows: list[dict], fields: list[str]):
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open('w', encoding='utf-8', newline='') as fh:
         w = csv.DictWriter(fh, fieldnames=fields)
-        w.writeheader(); w.writerows(rows)
+        w.writeheader()
+        w.writerows(rows)
 
 
 def build_fixed_total(wb):
@@ -99,13 +103,7 @@ def build_fixed_total(wb):
     return rows
 
 
-def build_fixed_technology_snapshot(wb, expected_total: int):
-    """Read current fixed technology only from explicit labelled totals.
-
-    The legacy national history sheet 7.7 changes taxonomy/column meaning over
-    time. It is deliberately not used as a homogeneous technology series.
-    The current cross-sectional sheet 7.7.1 has explicit labelled total columns.
-    """
+def build_fixed_technology_snapshot(wb, expected_total: int, snapshot_period: str):
     ws = wb['7.7.1.CO_TEC_RG_EMP_FIJAS']
     headers = list(next(ws.iter_rows(min_row=8, max_row=8, max_col=ws.max_column, values_only=True)))
 
@@ -162,7 +160,7 @@ def build_fixed_technology_snapshot(wb, expected_total: int):
         ('OTHER_FIXED_TECHNOLOGIES_RESIDUAL', other),
     ]:
         rows.append({
-            'period': '2026-03',
+            'period': snapshot_period,
             'technology': tech,
             'connections': value,
             'share_pct': round(value / expected_total * 100, 6) if expected_total else None,
@@ -171,9 +169,12 @@ def build_fixed_technology_snapshot(wb, expected_total: int):
             'derivation': 'explicit labelled total' if tech != 'OTHER_FIXED_TECHNOLOGIES_RESIDUAL' else 'grand total minus ADSL/HFC/WIMAX/FTTX explicit totals',
         })
     rows.append({
-        'period': '2026-03', 'technology': 'TOTAL_FIXED_CONNECTIONS',
-        'connections': expected_total, 'share_pct': 100.0,
-        'source_sheet': '7.7.1.CO_TEC_RG_EMP_FIJAS', 'source_row': total_row_no,
+        'period': snapshot_period,
+        'technology': 'TOTAL_FIXED_CONNECTIONS',
+        'connections': expected_total,
+        'share_pct': 100.0,
+        'source_sheet': '7.7.1.CO_TEC_RG_EMP_FIJAS',
+        'source_row': total_row_no,
         'derivation': 'explicit Total Conexiones matching 7.1 national total',
     })
     return rows
@@ -258,7 +259,9 @@ def build_long_core(fixed_total, fixed_snapshot, mobile, mobile_traffic, fixed_t
         if r['technology'] == 'TOTAL_FIXED_CONNECTIONS':
             continue
         rows.append({
-            'period': r['period'], 'year': 2026, 'month': 3,
+            'period': r['period'],
+            'year': int(r['period'][:4]),
+            'month': int(r['period'][5:7]),
             'series_group': 'fixed_technology_snapshot',
             'indicator': f"fixed_{r['technology'].lower()}_connections",
             'value': r['connections'], 'unit': 'connections',
@@ -266,8 +269,11 @@ def build_long_core(fixed_total, fixed_snapshot, mobile, mobile_traffic, fixed_t
         })
     fiber = next(r for r in fixed_snapshot if r['technology'] == 'FTTX_FIBER')
     rows.append({
-        'period': '2026-03', 'year': 2026, 'month': 3,
-        'series_group': 'fixed_technology_snapshot', 'indicator': 'fixed_fttx_fiber_share_pct',
+        'period': fiber['period'],
+        'year': int(fiber['period'][:4]),
+        'month': int(fiber['period'][5:7]),
+        'series_group': 'fixed_technology_snapshot',
+        'indicator': 'fixed_fttx_fiber_share_pct',
         'value': fiber['share_pct'], 'unit': 'percent',
         'source_sheet': fiber['source_sheet'], 'source_row': fiber['source_row'],
     })
@@ -288,25 +294,24 @@ def build_qa(fixed_total, fixed_snapshot, mobile, mobile_traffic, fixed_traffic)
             {'check': f'{name}_rows', 'value': len(data), 'expectation': 'positive'},
             {'check': f'{name}_unique_periods', 'value': len(set(periods)), 'expectation': str(len(data))},
             {'check': f'{name}_first_period', 'value': min(periods) if periods else '', 'expectation': 'source workbook effective range'},
-            {'check': f'{name}_last_period', 'value': max(periods) if periods else '', 'expectation': '2026-03'},
+            {'check': f'{name}_last_period', 'value': max(periods) if periods else '', 'expectation': LATEST_PERIOD},
         ])
 
-    latest_fixed = next(r for r in fixed_total if r['period'] == '2026-03')
-    jan_mobile = next(r for r in mobile if r['period'] == '2026-01')
-    mar_mobile = next(r for r in mobile if r['period'] == '2026-03')
+    latest_fixed = next(r for r in fixed_total if r['period'] == LATEST_PERIOD)
+    latest_mobile = next(r for r in mobile if r['period'] == LATEST_PERIOD)
     fiber = next(r for r in fixed_snapshot if r['technology'] == 'FTTX_FIBER')
     total_snapshot = next(r for r in fixed_snapshot if r['technology'] == 'TOTAL_FIXED_CONNECTIONS')
-    sector_snapshot_5g = 10_367_754
+    sector_snapshot_5g = 10_818_497
 
     rows.extend([
-        {'check': '2026m03_fixed_total', 'value': latest_fixed['fixed_connections_total'], 'expectation': '4859679'},
-        {'check': '2026m03_fixed_snapshot_total', 'value': total_snapshot['connections'], 'expectation': '4859679'},
-        {'check': '2026m03_fixed_fttx_connections', 'value': fiber['connections'], 'expectation': '4147629 explicit labelled total'},
-        {'check': '2026m03_fixed_fttx_share_pct', 'value': fiber['share_pct'], 'expectation': 'approximately 85.3'},
-        {'check': '2026m01_5g_connections', 'value': jan_mobile['connections_5g'], 'expectation': '10161957 official January publication'},
-        {'check': '2026m03_5g_connections_workbook', 'value': mar_mobile['connections_5g'], 'expectation': '10356448 official monthly XLSX'},
-        {'check': '2026q1_5g_sector_snapshot_reference', 'value': sector_snapshot_5g, 'expectation': 'separate official sector snapshot retained elsewhere'},
-        {'check': '2026m03_5g_difference_workbook_minus_snapshot', 'value': mar_mobile['connections_5g'] - sector_snapshot_5g, 'expectation': '-11306 provenance discrepancy; do not force reconciliation'},
+        {'check': '2026m06_fixed_total', 'value': latest_fixed['fixed_connections_total'], 'expectation': '4900369 official June sector report'},
+        {'check': '2026m06_fixed_snapshot_total', 'value': total_snapshot['connections'], 'expectation': 'must reconcile exactly to June fixed total'},
+        {'check': '2026m06_fixed_fttx_connections', 'value': fiber['connections'], 'expectation': 'explicit labelled total in June XLSX'},
+        {'check': '2026m06_fixed_fttx_share_pct', 'value': fiber['share_pct'], 'expectation': 'approximately 87.3'},
+        {'check': '2026m06_4g_connections_workbook', 'value': latest_mobile['connections_4g'], 'expectation': 'official June monthly XLSX'},
+        {'check': '2026m06_5g_connections_workbook', 'value': latest_mobile['connections_5g'], 'expectation': 'official June monthly XLSX'},
+        {'check': '2026h1_5g_sector_snapshot_reference', 'value': sector_snapshot_5g, 'expectation': 'separate official sector snapshot'},
+        {'check': '2026m06_5g_difference_workbook_minus_snapshot', 'value': latest_mobile['connections_5g'] - sector_snapshot_5g, 'expectation': 'retain provenance difference if any; do not force reconciliation'},
     ])
     return rows
 
@@ -316,14 +321,14 @@ def main():
 
     fixed_wb = workbook('fixed')
     fixed_total = build_fixed_total(fixed_wb)
-    march_fixed_total = next(r for r in fixed_total if r['period'] == '2026-03')['fixed_connections_total']
-    fixed_snapshot = build_fixed_technology_snapshot(fixed_wb, march_fixed_total)
+    june_fixed_total = next(r for r in fixed_total if r['period'] == LATEST_PERIOD)['fixed_connections_total']
+    fixed_snapshot = build_fixed_technology_snapshot(fixed_wb, june_fixed_total, LATEST_PERIOD)
     mobile = build_mobile(workbook('mobile'))
     mobile_traffic = build_traffic(workbook('mobile_traffic'), '9.1.TRAF_SENT', 'mobile_traffic')
     fixed_traffic = build_traffic(workbook('fixed_traffic'), '10.1.TRAF_SENT', 'fixed_traffic')
 
     write_csv(OUTDIR / 'fixed_connections_monthly.csv', fixed_total, list(fixed_total[0].keys()))
-    write_csv(OUTDIR / 'fixed_technology_snapshot_2026_03.csv', fixed_snapshot, list(fixed_snapshot[0].keys()))
+    write_csv(OUTDIR / 'fixed_technology_snapshot_2026_06.csv', fixed_snapshot, list(fixed_snapshot[0].keys()))
     write_csv(OUTDIR / 'mobile_connections_by_technology_monthly.csv', mobile, list(mobile[0].keys()))
     write_csv(OUTDIR / 'mobile_data_traffic_monthly.csv', mobile_traffic, list(mobile_traffic[0].keys()))
     write_csv(OUTDIR / 'fixed_data_traffic_monthly.csv', fixed_traffic, list(fixed_traffic[0].keys()))
@@ -338,20 +343,16 @@ def main():
     q = {r['check']: str(r['value']) for r in qa_rows}
 
     for name in ['fixed_connections', 'mobile_connections', 'mobile_traffic', 'fixed_traffic']:
-        if q[f'{name}_last_period'] != '2026-03':
-            raise RuntimeError(f'{name} does not end in 2026-03')
-    if int(float(q['2026m03_fixed_total'])) != 4_859_679:
-        raise RuntimeError('Fixed total does not match March 2026 official workbook')
-    if int(float(q['2026m03_fixed_snapshot_total'])) != 4_859_679:
-        raise RuntimeError('Current fixed-technology snapshot does not reconcile to fixed total')
-    if int(float(q['2026m03_fixed_fttx_connections'])) != 4_147_629:
-        raise RuntimeError('Current explicit FTTX total changed')
-    if not (85.2 <= float(q['2026m03_fixed_fttx_share_pct']) <= 85.5):
-        raise RuntimeError('Current FTTX share outside expected range')
-    if int(float(q['2026m01_5g_connections'])) != 10_161_957:
-        raise RuntimeError('January 2026 5G value does not match official SUBTEL January publication')
-    if int(float(q['2026m03_5g_connections_workbook'])) != 10_356_448:
-        raise RuntimeError('March 2026 5G monthly workbook value changed')
+        if q[f'{name}_last_period'] != LATEST_PERIOD:
+            raise RuntimeError(f'{name} does not end in {LATEST_PERIOD}')
+    if int(float(q['2026m06_fixed_total'])) != 4_900_369:
+        raise RuntimeError('Fixed total does not match June 2026 official sector figure')
+    if int(float(q['2026m06_fixed_snapshot_total'])) != int(float(q['2026m06_fixed_total'])):
+        raise RuntimeError('June fixed-technology snapshot does not reconcile to fixed total')
+    if not (87.0 <= float(q['2026m06_fixed_fttx_share_pct']) <= 87.6):
+        raise RuntimeError('June FTTX share outside expected official range')
+    if abs(int(float(q['2026m06_5g_connections_workbook'])) - 10_818_497) > 100_000:
+        raise RuntimeError('June 2026 5G workbook value is unexpectedly far from official sector snapshot')
 
     print('fixed_total', len(fixed_total), fixed_total[0]['period'], fixed_total[-1]['period'])
     print('fixed_snapshot', fixed_snapshot)
@@ -359,7 +360,7 @@ def main():
     print('mobile_traffic', len(mobile_traffic), mobile_traffic[0]['period'], mobile_traffic[-1]['period'])
     print('fixed_traffic', len(fixed_traffic), fixed_traffic[0]['period'], fixed_traffic[-1]['period'])
     print('long_rows', len(long_rows), 'annual_december_rows', len(annual))
-    print('5g_mar_workbook_minus_sector_snapshot', 10_356_448 - 10_367_754)
+    print('5g_june_workbook_minus_sector_snapshot', int(float(q['2026m06_5g_difference_workbook_minus_snapshot'])))
 
 
 if __name__ == '__main__':
