@@ -75,13 +75,15 @@ Las cifras nacionales recalculadas reproducen la serie publicada con diferencias
 
 No se construye un índice de asequibilidad ni se divide por ingreso sin una definición longitudinal homogénea. La capa representa disposición declarada a pagar y barreras de costo, no tarifa contratada ni gasto real del hogar.
 
-### SUBTEL — contexto sectorial Q1 2026
+### SUBTEL — contexto sectorial 1S 2026
 
-`data/subtel_sector_2026/sector_snapshot_2026q1.csv` incorpora el cierre sectorial de marzo de 2026 publicado por SUBTEL.
+`data/subtel_sector_2026/sector_snapshot_2026q1.csv` conserva el cierre sectorial de marzo de 2026 y `data/subtel_sector_2026/sector_snapshot_2026q2.csv` incorpora el cierre de junio de 2026 publicado por SUBTEL.
 
-Entre los indicadores incluidos están 4.859.679 accesos de Internet fijo, 10.367.754 conexiones 5G, 85,3% de participación de fibra óptica dentro de las conexiones fijas y una penetración estimada de Internet fijo en 69,7% de los hogares. La estimación llega a 76,8% en hogares urbanos y 23,6% en hogares rurales.
+A junio de 2026 el snapshot oficial registra **4.900.369 accesos de Internet fijo**, **10.818.497 conexiones 5G**, **11,446 millones de conexiones 4G** y una brecha 4G–5G de **627.503 conexiones**. La fibra óptica representa **87,3%** de las conexiones fijas.
 
-Esta penetración es una estimación sectorial construida con conexiones residenciales y hogares del Censo 2024; no es equivalente a la estimación de acceso de una encuesta de hogares. La metodología está en `docs/subtel_sector_snapshot_2026q1.md`.
+La penetración sectorial estimada de Internet fijo alcanza **70,36% de los hogares**, con **77,3% urbano** y **25,5% rural**. Esta medida usa conexiones residenciales y hogares del Censo 2024; permanece separada de las estimaciones de acceso provenientes de encuestas de hogares.
+
+El tráfico acumulado de doce meses llega a **37,1211 EB fijo** y **7,7593 EB móvil**. Los snapshots, fuentes y discrepancias editoriales están documentados en `docs/subtel_sector_snapshot_2026q2.md`.
 
 ### Redes móviles 4G/5G — SUBTEL marzo 2025
 
@@ -166,17 +168,17 @@ data/subtel_2011_person/     recuperación agregada del archivo de personas 2011
 
 El catálogo de bases procesadas está en `data/subtel_microdata/processed_base_catalog.csv` y la metodología completa en `docs/subtel_microdata_pipeline.md`.
 
-### Serie administrativa SUBTEL — 2000/2009–marzo 2026
+### Serie administrativa SUBTEL — 2000/2009–junio 2026
 
-`data/subtel_sector_series/` normaliza los cuatro XLSX oficiales de SUBTEL publicados hasta marzo de 2026: conexiones fijas, conexiones móviles por tecnología, tráfico móvil y tráfico fijo.
+`data/subtel_sector_series/` normaliza los cuatro XLSX oficiales de SUBTEL con cierre en **junio de 2026**: conexiones fijas, conexiones móviles por tecnología, tráfico móvil y tráfico fijo.
 
-La tabla canónica `sector_core_monthly_long.csv` mantiene cada serie en su rango efectivo. El XLSX fijo contiene observaciones desde diciembre de 2000; la tecnología móvil parte en diciembre de 2009; el tráfico móvil en junio de 2017 y el tráfico fijo en enero de 2019. No se interpolan períodos anteriores.
+La tabla canónica `sector_core_monthly_long.csv` conserva el rango efectivo de cada fuente. Las conexiones fijas contienen observaciones desde diciembre de 2000; la tecnología móvil desde diciembre de 2009; el tráfico móvil desde junio de 2017 y el tráfico fijo desde enero de 2019. No se interpolan períodos anteriores.
 
-Para tecnología fija no se fuerza una falsa serie histórica: la hoja nacional cambia de taxonomía en el tiempo. El corte actual de marzo de 2026 usa las columnas explícitamente etiquetadas de la hoja vigente y registra **4.147.629 conexiones FTTX/fibra**, equivalentes a **85,35%** de 4.859.679 conexiones fijas.
+El corte mensual de junio de 2026 registra **4.900.369 conexiones fijas**, **22.620.235 conexiones móviles totales**, **11.446.039 conexiones 4G** y **10.818.497 conexiones 5G**. La hoja tecnológica fija registra **4.275.932 conexiones FTTX/fibra**, equivalentes a **87,257%** del total.
 
-El XLSX mensual registra **10.356.448 conexiones 5G en marzo de 2026**, mientras el snapshot sectorial Q1 conservado en otra capa oficial informa 10.367.754. La diferencia de 11.306 conexiones se mantiene documentada por procedencia y no se corrige artificialmente.
+La hoja fija contiene cierres anuales de diciembre que se solapan con la serie mensual desde 2010. El pipeline elimina ese doble registro y conserva una sola observación por período: el QA final registra **208 filas y 208 períodos únicos** para conexiones fijas.
 
-La metodología, rangos y controles están en `docs/subtel_sector_longitudinal.md`.
+Los workbooks más recientes pueden revisar cifras previamente publicadas. El repositorio trata el XLSX vigente como vintage canónico para la serie longitudinal y conserva los snapshots históricos con su cifra original y procedencia. La metodología y los controles están en `docs/subtel_sector_longitudinal.md` y `data/subtel_sector_series/series_qa.csv`.
 
 ### OTI — velocidad fija regional, enero 2026
 
@@ -211,7 +213,7 @@ assets/dashboard.css
 assets/dashboard.js
 ```
 
-La vista carga el maestro comunal integrado y el GeoJSON. Permite cambiar indicador, buscar comunas, revisar rankings y abrir una ficha territorial con conectividad, equipamiento, contexto social, registros 4G/5G, presencia RedAcceso, Aulas Conectadas y desempeño Ookla. También muestra un contexto sectorial nacional actualizado a marzo de 2026.
+La vista carga el maestro comunal integrado y el GeoJSON. Permite cambiar indicador, buscar comunas, revisar rankings y abrir una ficha territorial con conectividad, equipamiento, contexto social, registros 4G/5G, presencia RedAcceso, Aulas Conectadas y desempeño Ookla. También muestra un contexto sectorial nacional con fuentes actualizadas hasta junio de 2026.
 
 El código está listo para alojamiento estático. El workflow `.github/workflows/deploy-pages.yml` quedó preparado para GitHub Pages, pero el sitio debe habilitarse una vez en la configuración del repositorio antes de ejecutar el despliegue manual.
 
@@ -271,7 +273,7 @@ Los principales productos derivados tienen pipelines independientes para:
 - clasificación y crosswalk de variables
 - acceso SUBTEL segmentado
 - asequibilidad SUBTEL desde disposición a pagar y barreras de costo
-- snapshot sectorial SUBTEL Q1 2026
+- snapshots sectoriales SUBTEL Q1 y Q2 2026
 - catálogo de servicios 4G/5G SUBTEL
 - agregación espacial de registros móviles por comuna
 - integración de infraestructura móvil al maestro comunal
