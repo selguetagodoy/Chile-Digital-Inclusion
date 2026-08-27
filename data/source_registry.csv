@@ -3,6 +3,11 @@ censo2024,INE,Censo de Población y Vivienda 2024,household and territorial indi
 casen2024,Ministerio de Desarrollo Social y Familia,CASEN 2024,weighted-person and social-gap indicators
 subtel2025,SUBTEL,Encuestas de Acceso y Usos de Internet,household access and person 16+ use
 subtel2026q1,SUBTEL,Informe del Sector Telecomunicaciones Primer Trimestre 2026,sector connections technology mix household fixed penetration and traffic
+subtel2026q2,SUBTEL,Informe del Sector Telecomunicaciones Primer Semestre 2026,sector connections technology mix household fixed penetration traffic and operator shares
+subtel_fixed_series_2026m06,SUBTEL,Series conexiones Internet fija actualizadas a junio 2026,monthly longitudinal fixed internet connections
+subtel_mobile_series_2026m06,SUBTEL,Series conexiones Internet movil actualizadas a junio 2026,monthly longitudinal mobile internet connections
+subtel_mobile_traffic_2026m06,SUBTEL,Series trafico de datos moviles actualizadas a junio 2026,monthly longitudinal mobile data traffic
+subtel_fixed_traffic_2026m06,SUBTEL,Series trafico de datos fijos actualizadas a junio 2026,monthly longitudinal fixed data traffic
 subtel_oti_2026m01,SUBTEL / Organismo Técnico Independiente,Velocidad promedio de Internet fijo por región enero 2026,official regional fixed-speed measurement layer kept separate from Ookla and household access
 subtel_mobile_2025m03,SUBTEL,Servicios ArcGIS públicos 4G y 5G marzo 2025,public operator network point records aggregated by commune
 subtel_fixed_redacceso,SUBTEL,Servicios ArcGIS públicos Of468 RedAcceso,public fixed-access regulatory linework and attributes; not retail coverage
