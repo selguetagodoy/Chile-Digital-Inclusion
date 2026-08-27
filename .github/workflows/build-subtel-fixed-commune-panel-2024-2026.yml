@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/build_subtel_fixed_commune_panel_2024_2026.py'
+      - 'scripts/build_subtel_commune_dynamics_summary_2026.py'
       - 'scripts/build_subtel_fixed_commune_2026.py'
       - '.github/workflows/build-subtel-fixed-commune-panel-2024-2026.yml'
   workflow_dispatch:
@@ -27,6 +28,8 @@ jobs:
       - run: pip install openpyxl
       - name: Build and validate commune panel
         run: python scripts/build_subtel_fixed_commune_panel_2024_2026.py
+      - name: Build commune dynamics summary
+        run: python scripts/build_subtel_commune_dynamics_summary_2026.py
       - name: Commit commune panel
         run: |
           git config user.name 'github-actions[bot]'
@@ -36,7 +39,13 @@ jobs:
             data/fixed_infrastructure_2026/commune_fixed_low_intensity_rank_2026.csv \
             data/fixed_infrastructure_2026/source_alignment_qa_panel_2024_2026.csv \
             data/fixed_infrastructure_2026/source_row_mapping_panel_2024_2026.csv \
-            data/fixed_infrastructure_2026/extraction_manifest_panel_2024_2026.csv
+            data/fixed_infrastructure_2026/extraction_manifest_panel_2024_2026.csv \
+            data/fixed_infrastructure_2026/commune_fixed_correlations_2024_2026.csv \
+            data/fixed_infrastructure_2026/commune_fixed_rurality_bands_2024_2026.csv \
+            data/fixed_infrastructure_2026/commune_fixed_thresholds_2024_2026.csv \
+            data/fixed_infrastructure_2026/commune_fixed_outliers_2025_2026.csv \
+            data/fixed_infrastructure_2026/commune_fixed_low_intensity_by_region_2026.csv \
+            data/fixed_infrastructure_2026/commune_fixed_distribution_summary_2024_2026.csv
           if git diff --cached --quiet; then
             echo 'No commune-panel changes'
           else
