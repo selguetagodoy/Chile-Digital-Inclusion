@@ -1,5 +1,5 @@
 layer_id,path,source_family,reference_period,territorial_level,statistical_unit,role,canonical,license_note,exists,rows,columns
-communal_master_2026,data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv,Integrated public layer,2024-2026,commune,mixed; see variable dictionary,canonical integrated communal analytical table,yes,Mixed-source derivative; source-specific terms apply,yes,346,89
+communal_master_2026,data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv,Integrated public layer,2024-2026,commune,mixed; see variable dictionary,canonical integrated communal analytical table,yes,Mixed-source derivative; source-specific terms apply,yes,346,94
 censo_connectivity_2024,data/censo_2024/communes_connectivity_2024.csv,INE / Censo 2024,2024,commune,household,structural household connectivity and equipment,yes,Public source; retain source attribution,yes,346,26
 censo_social_context_2024,data/censo_2024/communes_social_context_2024.csv,INE / Censo 2024,2024,commune,household,communal household and social context,yes,Public source; retain source attribution,yes,346,18
 casen_national_2024,data/casen_national_2024.csv,MDSF / CASEN 2024,2024,national,weighted person,national access and social-gap benchmark,yes,Derived aggregate from public survey; retain source attribution,yes,1,9
