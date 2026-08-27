@@ -1,0 +1,7 @@
+period,metric,source_sheet,source_column_number,mapping_method,source_url,vintage
+2024-06,total,7.11.CO_FIJAS_COMUNA,183,regional_formula_block_order_with_subtotal_reconciliation,https://www.subtel.gob.cl/wp-content/uploads/2026/08/1_SERIES_CONEXIONES_INTERNET_FIJA_JUN26_100826.xlsx,2026-06 workbook
+2024-06,residential,7.11.1.CO_FIJAS_RES_COMUNA,120,regional_formula_block_order_with_subtotal_reconciliation,https://www.subtel.gob.cl/wp-content/uploads/2026/08/1_SERIES_CONEXIONES_INTERNET_FIJA_JUN26_100826.xlsx,2026-06 workbook
+2025-06,total,7.11.CO_FIJAS_COMUNA,195,regional_formula_block_order_with_subtotal_reconciliation,https://www.subtel.gob.cl/wp-content/uploads/2026/08/1_SERIES_CONEXIONES_INTERNET_FIJA_JUN26_100826.xlsx,2026-06 workbook
+2025-06,residential,7.11.1.CO_FIJAS_RES_COMUNA,132,regional_formula_block_order_with_subtotal_reconciliation,https://www.subtel.gob.cl/wp-content/uploads/2026/08/1_SERIES_CONEXIONES_INTERNET_FIJA_JUN26_100826.xlsx,2026-06 workbook
+2026-06,total,7.11.CO_FIJAS_COMUNA,207,regional_formula_block_order_with_subtotal_reconciliation,https://www.subtel.gob.cl/wp-content/uploads/2026/08/1_SERIES_CONEXIONES_INTERNET_FIJA_JUN26_100826.xlsx,2026-06 workbook
+2026-06,residential,7.11.1.CO_FIJAS_RES_COMUNA,144,regional_formula_block_order_with_subtotal_reconciliation,https://www.subtel.gob.cl/wp-content/uploads/2026/08/1_SERIES_CONEXIONES_INTERNET_FIJA_JUN26_100826.xlsx,2026-06 workbook
