@@ -12,12 +12,6 @@ def read(name):
         return list(csv.DictReader(fh))
 
 
-def num(v):
-    if v in (None, ''): return None
-    try: return float(v)
-    except: return None
-
-
 def write(name, rows):
     if not rows: raise RuntimeError(name)
     with (DATA/name).open('w', encoding='utf-8', newline='') as fh:
@@ -56,8 +50,8 @@ def main():
             'mobile_contract_connections_3g_4g_5g': mp.get('contract_3g_4g_5g_connections',''),
             'mobile_prepaid_share_pct': mp.get('prepaid_share_3g_4g_5g_pct',''),
             'mobile_contract_share_pct': mp.get('contract_share_3g_4g_5g_pct',''),
-            'mobile_traffic_tb': mobt.get('total_traffic_tb',''),
-            'fixed_traffic_tb': fixt.get('total_traffic_tb',''),
+            'mobile_traffic_tb': mobt.get('mobile_traffic_total_tb',''),
+            'fixed_traffic_tb': fixt.get('fixed_traffic_total_tb',''),
             'mobile_prepaid_gb_per_connection': ui.get('prepaid_gb_per_connection',''),
             'mobile_postpaid_gb_per_connection': ui.get('postpaid_gb_per_connection',''),
             'starlink_connections': s.get('starlink_connections',''),
