@@ -1,25 +1,25 @@
 check,value,expectation
-fixed_connections_rows,221,positive
-fixed_connections_unique_periods,205,221
+fixed_connections_rows,224,positive
+fixed_connections_unique_periods,208,224
 fixed_connections_first_period,2000-12,source workbook effective range
-fixed_connections_last_period,2026-03,2026-03
-mobile_connections_rows,196,positive
-mobile_connections_unique_periods,196,196
+fixed_connections_last_period,2026-06,2026-06
+mobile_connections_rows,199,positive
+mobile_connections_unique_periods,199,199
 mobile_connections_first_period,2009-12,source workbook effective range
-mobile_connections_last_period,2026-03,2026-03
-mobile_traffic_rows,106,positive
-mobile_traffic_unique_periods,106,106
+mobile_connections_last_period,2026-06,2026-06
+mobile_traffic_rows,109,positive
+mobile_traffic_unique_periods,109,109
 mobile_traffic_first_period,2017-06,source workbook effective range
-mobile_traffic_last_period,2026-03,2026-03
-fixed_traffic_rows,87,positive
-fixed_traffic_unique_periods,87,87
+mobile_traffic_last_period,2026-06,2026-06
+fixed_traffic_rows,90,positive
+fixed_traffic_unique_periods,90,90
 fixed_traffic_first_period,2019-01,source workbook effective range
-fixed_traffic_last_period,2026-03,2026-03
-2026m03_fixed_total,4859679,4859679
-2026m03_fixed_snapshot_total,4859679,4859679
-2026m03_fixed_fttx_connections,4147629,4147629 explicit labelled total
-2026m03_fixed_fttx_share_pct,85.347798,approximately 85.3
-2026m01_5g_connections,10161957,10161957 official January publication
-2026m03_5g_connections_workbook,10356448,10356448 official monthly XLSX
-2026q1_5g_sector_snapshot_reference,10367754,separate official sector snapshot retained elsewhere
-2026m03_5g_difference_workbook_minus_snapshot,-11306,-11306 provenance discrepancy; do not force reconciliation
+fixed_traffic_last_period,2026-06,2026-06
+2026m06_fixed_total,4900369,4900369 official June sector report
+2026m06_fixed_snapshot_total,4900369,must reconcile exactly to June fixed total
+2026m06_fixed_fttx_connections,4275932,explicit labelled total in June XLSX
+2026m06_fixed_fttx_share_pct,87.257347,approximately 87.3
+2026m06_4g_connections_workbook,11446039,official June monthly XLSX
+2026m06_5g_connections_workbook,10818497,official June monthly XLSX
+2026h1_5g_sector_snapshot_reference,10818497,separate official sector snapshot
+2026m06_5g_difference_workbook_minus_snapshot,0,retain provenance difference if any; do not force reconciliation
