@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/build_subtel_sector_series_2026.py'
+      - 'scripts/qa_normalize_subtel_fixed_periods.py'
       - '.github/workflows/build-subtel-sector-series-2026.yml'
   workflow_dispatch:
 
@@ -26,6 +27,8 @@ jobs:
       - run: pip install requests openpyxl
       - name: Build normalized series
         run: python scripts/build_subtel_sector_series_2026.py
+      - name: Normalize overlapping fixed periods and QA
+        run: python scripts/qa_normalize_subtel_fixed_periods.py
       - name: Commit normalized sector series
         run: |
           git config user.name 'github-actions[bot]'
