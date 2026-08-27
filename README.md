@@ -22,7 +22,7 @@ La fuente es Censo 2024 y la capa pública integrada utilizada por el Atlas de l
 
 `data/communal_master/chile_digital_inclusion_communes_2026.csv` es la base estructural de 346 comunas y 38 campos públicos.
 
-`data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv` agrega desempeño Ookla fijo y móvil Q1 2026, variaciones Q4 2025 → Q1 2026, registros públicos SUBTEL 4G/5G de marzo de 2025, presencia de capas públicas RedAcceso, Aulas Conectadas 2025 territorializado por RBD y conexiones fijas administrativas SUBTEL a marzo de 2026. Conserva las **346 comunas y contiene 89 variables**.
+`data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv` agrega desempeño Ookla fijo y móvil Q1 2026, variaciones Q4 2025 → Q1 2026, registros públicos SUBTEL 4G/5G de marzo de 2025, presencia de capas públicas RedAcceso, Aulas Conectadas 2025 territorializado por RBD y conexiones fijas administrativas SUBTEL a junio de 2026. Conserva las **346 comunas y contiene 89 variables**.
 
 La versión pública excluye deliberadamente índices internos, scores, segmentaciones y ponderadores propietarios. El archivo es una base observable para mapas, rankings descriptivos y análisis reproducible; no es el Índice de Vulnerabilidad Digital.
 
@@ -104,17 +104,15 @@ Productos principales:
 
 La metodología está en `docs/subtel_mobile_network_points_2025.md`.
 
-### Conexiones fijas por comuna — SUBTEL marzo 2026
+### Conexiones fijas por comuna — SUBTEL junio 2026
 
-`data/fixed_infrastructure_2026/` reconstruye el corte comunal de marzo de 2026 desde las hojas oficiales `7.11.CO_FIJAS_COMUNA` y `7.11.1.CO_FIJAS_RES_COMUNA`.
+`data/fixed_infrastructure_2026/` conserva el corte histórico de marzo y agrega el corte comunal vigente de **junio de 2026** desde las hojas oficiales `7.11.CO_FIJAS_COMUNA` y `7.11.1.CO_FIJAS_RES_COMUNA` del workbook SUBTEL actualizado a junio.
 
-El workbook mantiene etiquetas comunales desalineadas en parte de la hoja después de la separación territorial Biobío–Ñuble. Por esa razón el pipeline **no empareja ciegamente nombre y celda**. Delimita los 16 bloques regionales mediante sus fórmulas de subtotal, ordena el catálogo comunal con la nomenclatura de la fuente y exige, para conexiones totales y residenciales, coincidencia en el número de comunas y conciliación exacta contra cada subtotal regional. Las 32 verificaciones regionales publicadas tienen delta cero.
+La reconstrucción mantiene la regla validada de bloques regionales definidos por fórmulas de subtotal. Para junio, las **32 verificaciones regionales** —16 regiones × conexiones totales/residenciales— concilian con delta cero. Se recuperan valores numéricos para **345 de 346 comunas**; Antártica (12202) continúa explícitamente vacía en la fuente y se conserva como `source_blank`.
 
-El resultado recupera valores numéricos para **345 de 346 comunas**. La única excepción es Antártica (12202), cuya posición comunal está presente en el bloque regional pero la celda fuente está explícitamente vacía; se conserva como `source_blank` y **no se imputa como cero**.
+El corte comunal suma exactamente **4.900.369 conexiones fijas**, igual al total nacional oficial de junio de 2026. El archivo principal es `data/fixed_infrastructure_2026/commune_fixed_connections_2026_06.csv`; la trazabilidad incluye `source_alignment_qa_2026_06.csv`, `source_row_mapping_2026_06.csv` y `extraction_manifest_2026_06.csv`.
 
-El maestro integrado incorpora conexiones fijas totales, conexiones residenciales, participación residencial y una razón de conexiones residenciales por 100 hogares del Censo 2024. Esta última es una intensidad administrativa descriptiva y **no debe interpretarse como porcentaje de cobertura de hogares**.
-
-La trazabilidad incluye `extraction_manifest.csv`, `source_alignment_qa.csv` y `source_row_mapping_2026_03.csv`. El audit de las filas originales se publica además en `data/subtel_sector_series/fixed_commune_source_rows_2026_03.csv`.
+El maestro integrado conserva simultáneamente los campos de marzo y agrega cinco campos `2026m06`: conexiones fijas totales, residenciales, participación residencial, intensidad residencial por 100 hogares del Censo 2024 y estado de fuente. La intensidad por 100 hogares es un indicador administrativo descriptivo y no una tasa de cobertura.
 
 ### Infraestructura fija pública — SUBTEL RedAcceso
 
