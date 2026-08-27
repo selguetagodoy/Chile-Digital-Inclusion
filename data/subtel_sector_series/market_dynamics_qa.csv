@@ -1,0 +1,9 @@
+dataset,rows,first_period,last_period
+fixed_connections_by_plan_monthly.csv,199,2009-12,2026-06
+mobile_connections_by_plan_monthly.csv,150,2014-01,2026-06
+fixed_connections_by_operator_monthly.csv,1201,2007-12,2026-06
+mobile_connections_by_operator_monthly.csv,1639,2009-12,2026-06
+fixed_satellite_operator_connections_monthly.csv,129,2020-06,2026-06
+mobile_traffic_by_operator_monthly.csv,593,2017-06,2026-06
+fixed_traffic_by_operator_monthly.csv,938,2019-01,2026-06
+mobile_traffic_by_plan_monthly.csv,109,2017-06,2026-06
