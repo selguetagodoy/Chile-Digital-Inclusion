@@ -1,0 +1,3 @@
+metric,source_sheet,june_2026_column_number,mapping_method,source_url
+total_fixed_connections_2026m06,7.11.CO_FIJAS_COMUNA,207,regional_formula_block_order_with_subtotal_reconciliation,https://www.subtel.gob.cl/wp-content/uploads/2026/08/1_SERIES_CONEXIONES_INTERNET_FIJA_JUN26_100826.xlsx
+residential_fixed_connections_2026m06,7.11.1.CO_FIJAS_RES_COMUNA,144,regional_formula_block_order_with_subtotal_reconciliation,https://www.subtel.gob.cl/wp-content/uploads/2026/08/1_SERIES_CONEXIONES_INTERNET_FIJA_JUN26_100826.xlsx
