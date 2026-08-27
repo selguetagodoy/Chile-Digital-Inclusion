@@ -1,0 +1,43 @@
+name: Build SUBTEL fixed connections by commune June 2026
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_subtel_fixed_commune_2026_06.py'
+      - 'scripts/build_subtel_fixed_commune_2026.py'
+      - 'geo/commune_codes.csv'
+      - '.github/workflows/build-subtel-fixed-commune-june-2026.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: main-writers
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Install formula-aware workbook reader
+        run: pip install openpyxl
+      - name: Build June commune fixed-connection layer
+        run: python scripts/build_subtel_fixed_commune_2026_06.py
+      - name: Commit June communal fixed connection layer
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/fixed_infrastructure_2026/commune_fixed_connections_2026_06.csv data/fixed_infrastructure_2026/source_not_reported_communes_2026_06.csv data/fixed_infrastructure_2026/source_alignment_qa_2026_06.csv data/fixed_infrastructure_2026/source_row_mapping_2026_06.csv data/fixed_infrastructure_2026/extraction_manifest_2026_06.csv
+          if git diff --cached --quiet; then
+            echo 'No June communal fixed-connection changes'
+          else
+            git commit -m 'Publish SUBTEL fixed connections by commune June 2026'
+            git pull --rebase origin main
+            git push
+          fi
