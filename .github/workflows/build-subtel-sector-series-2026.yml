@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/build_subtel_sector_series_2026.py'
+      - 'scripts/build_subtel_market_dynamics_2026.py'
       - 'scripts/qa_normalize_subtel_fixed_periods.py'
       - 'scripts/update_readme_subtel_june.py'
       - '.github/workflows/build-subtel-sector-series-2026.yml'
@@ -26,8 +27,10 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install requests openpyxl
-      - name: Build normalized series
+      - name: Build normalized core series
         run: python scripts/build_subtel_sector_series_2026.py
+      - name: Build market dynamics longitudinal series
+        run: python scripts/build_subtel_market_dynamics_2026.py
       - name: Normalize overlapping fixed periods and QA
         run: python scripts/qa_normalize_subtel_fixed_periods.py
       - name: Update README sector references
@@ -36,7 +39,25 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add README.md data/subtel_sector_series/fixed_connections_monthly.csv data/subtel_sector_series/fixed_technology_snapshot_2026_06.csv data/subtel_sector_series/mobile_connections_by_technology_monthly.csv data/subtel_sector_series/mobile_data_traffic_monthly.csv data/subtel_sector_series/fixed_data_traffic_monthly.csv data/subtel_sector_series/sector_core_monthly_long.csv data/subtel_sector_series/sector_core_december_long_2000_2025.csv data/subtel_sector_series/series_qa.csv
+          git add README.md \
+            data/subtel_sector_series/fixed_connections_monthly.csv \
+            data/subtel_sector_series/fixed_technology_snapshot_2026_06.csv \
+            data/subtel_sector_series/mobile_connections_by_technology_monthly.csv \
+            data/subtel_sector_series/mobile_data_traffic_monthly.csv \
+            data/subtel_sector_series/fixed_data_traffic_monthly.csv \
+            data/subtel_sector_series/sector_core_monthly_long.csv \
+            data/subtel_sector_series/sector_core_december_long_2000_2025.csv \
+            data/subtel_sector_series/series_qa.csv \
+            data/subtel_sector_series/fixed_connections_by_plan_monthly.csv \
+            data/subtel_sector_series/mobile_connections_by_plan_monthly.csv \
+            data/subtel_sector_series/fixed_connections_by_operator_monthly.csv \
+            data/subtel_sector_series/mobile_connections_by_operator_monthly.csv \
+            data/subtel_sector_series/fixed_satellite_operator_connections_monthly.csv \
+            data/subtel_sector_series/mobile_traffic_by_operator_monthly.csv \
+            data/subtel_sector_series/fixed_traffic_by_operator_monthly.csv \
+            data/subtel_sector_series/mobile_traffic_by_plan_monthly.csv \
+            data/subtel_sector_series/market_dynamics_comparisons_2024_2026.csv \
+            data/subtel_sector_series/market_dynamics_qa.csv
           if git diff --cached --quiet; then
             echo 'No normalized sector-series changes'
           else
