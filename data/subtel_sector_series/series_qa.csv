@@ -1,6 +1,6 @@
 check,value,expectation
-fixed_connections_rows,224,positive
-fixed_connections_unique_periods,208,224
+fixed_connections_rows,208,208
+fixed_connections_unique_periods,208,208
 fixed_connections_first_period,2000-12,source workbook effective range
 fixed_connections_last_period,2026-06,2026-06
 mobile_connections_rows,199,positive
