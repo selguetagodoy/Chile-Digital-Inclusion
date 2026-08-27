@@ -6,6 +6,7 @@ on:
     paths:
       - 'scripts/build_subtel_sector_series_2026.py'
       - 'scripts/qa_normalize_subtel_fixed_periods.py'
+      - 'scripts/update_readme_subtel_june.py'
       - '.github/workflows/build-subtel-sector-series-2026.yml'
   workflow_dispatch:
 
@@ -29,11 +30,13 @@ jobs:
         run: python scripts/build_subtel_sector_series_2026.py
       - name: Normalize overlapping fixed periods and QA
         run: python scripts/qa_normalize_subtel_fixed_periods.py
+      - name: Update README sector references
+        run: python scripts/update_readme_subtel_june.py
       - name: Commit normalized sector series
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/subtel_sector_series/fixed_connections_monthly.csv data/subtel_sector_series/fixed_technology_snapshot_2026_06.csv data/subtel_sector_series/mobile_connections_by_technology_monthly.csv data/subtel_sector_series/mobile_data_traffic_monthly.csv data/subtel_sector_series/fixed_data_traffic_monthly.csv data/subtel_sector_series/sector_core_monthly_long.csv data/subtel_sector_series/sector_core_december_long_2000_2025.csv data/subtel_sector_series/series_qa.csv
+          git add README.md data/subtel_sector_series/fixed_connections_monthly.csv data/subtel_sector_series/fixed_technology_snapshot_2026_06.csv data/subtel_sector_series/mobile_connections_by_technology_monthly.csv data/subtel_sector_series/mobile_data_traffic_monthly.csv data/subtel_sector_series/fixed_data_traffic_monthly.csv data/subtel_sector_series/sector_core_monthly_long.csv data/subtel_sector_series/sector_core_december_long_2000_2025.csv data/subtel_sector_series/series_qa.csv
           if git diff --cached --quiet; then
             echo 'No normalized sector-series changes'
           else
