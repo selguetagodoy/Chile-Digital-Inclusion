@@ -1,4 +1,44 @@
 ranking,rank,comuna,comuna_nombre,region_nombre,censo_2024_households,rural_households_pct,value,intensity_2024m06,intensity_2025m06,intensity_2026m06,change_pp_2025m06_to_2026m06
+highest_fixed_residential_change_2025m06_to_2026m06,1,8101,Concepción,Biobío,92197,2.0283,14768.0,83.468,83.634,99.6518,16.0179
+highest_fixed_residential_change_2025m06_to_2026m06,2,13101,Santiago,Metropolitana de Santiago,208348,0.0,14312.0,71.5351,71.455,78.3242,6.8693
+highest_fixed_residential_change_2025m06_to_2026m06,3,8301,Los Ángeles,Biobío,78739,28.3735,12826.0,56.3723,57.0772,73.3664,16.2893
+highest_fixed_residential_change_2025m06_to_2026m06,4,8112,Hualpén,Biobío,30684,0.7659,9427.0,60.732,60.6635,91.3864,30.7229
+highest_fixed_residential_change_2025m06_to_2026m06,5,5804,Villa Alemana,Valparaíso,50084,1.172,8256.0,81.8265,82.4934,98.9777,16.4843
+highest_fixed_residential_change_2025m06_to_2026m06,6,16103,Chillán Viejo,Ñuble,11764,17.1285,6164.0,43.2421,36.4502,88.8473,52.3971
+highest_fixed_residential_change_2025m06_to_2026m06,7,9101,Temuco,La Araucanía,110729,6.8049,5053.0,78.8249,78.9071,83.4705,4.5634
+highest_fixed_residential_change_2025m06_to_2026m06,8,7105,Maule,Maule,20409,21.9217,4360.0,24.842,26.7921,48.1552,21.3631
+highest_fixed_residential_change_2025m06_to_2026m06,9,8108,San Pedro de La paz,Biobío,52351,0.0783,4290.0,88.6612,88.5446,96.7393,8.1947
+highest_fixed_residential_change_2025m06_to_2026m06,10,4101,La Serena,Coquimbo,86795,10.723,4226.0,81.3376,83.5947,88.4636,4.8689
+highest_fixed_residential_change_2025m06_to_2026m06,11,5109,Viña del Mar,Valparaíso,132347,0.0929,3062.0,85.4239,87.2766,89.5902,2.3136
+highest_fixed_residential_change_2025m06_to_2026m06,12,2101,Antofagasta,Antofagasta,135023,0.4244,2739.0,79.6287,81.3535,83.3821,2.0285
+highest_fixed_residential_change_2025m06_to_2026m06,13,9114,Pitrufquén,La Araucanía,10272,37.8018,2430.0,48.4326,49.8345,73.491,23.6565
+highest_fixed_residential_change_2025m06_to_2026m06,14,13301,Colina,Metropolitana de Santiago,51045,15.4942,2178.0,69.9579,72.6712,76.938,4.2668
+highest_fixed_residential_change_2025m06_to_2026m06,15,8111,Tomé,Biobío,20751,11.2187,2161.0,72.8399,75.4855,85.8995,10.414
+highest_fixed_residential_change_2025m06_to_2026m06,16,13110,La Florida,Metropolitana de Santiago,133971,0.0351,2116.0,83.2509,85.9455,87.5249,1.5794
+highest_fixed_residential_change_2025m06_to_2026m06,17,4102,Coquimbo,Coquimbo,90296,7.1354,2109.0,75.9679,77.5549,79.8906,2.3357
+highest_fixed_residential_change_2025m06_to_2026m06,18,13119,Maipú,Metropolitana de Santiago,167650,0.51,2098.0,84.9299,85.0623,86.3137,1.2514
+highest_fixed_residential_change_2025m06_to_2026m06,19,5701,San Felipe,Valparaíso,29681,12.6209,1652.0,61.4366,63.7849,69.3508,5.5659
+highest_fixed_residential_change_2025m06_to_2026m06,20,7404,Parral,Maule,17047,29.1136,1614.0,47.6682,57.975,67.443,9.4679
+lowest_fixed_residential_change_2025m06_to_2026m06,1,8110,Talcahuano,Biobío,51086,0.278,-5460.0,97.8879,100.4639,89.7761,-10.6879
+lowest_fixed_residential_change_2025m06_to_2026m06,2,7101,Talca,Maule,85310,4.8212,-4463.0,79.7796,80.6388,75.4073,-5.2315
+lowest_fixed_residential_change_2025m06_to_2026m06,3,16101,Chillán,Ñuble,70266,10.7335,-3062.0,77.1782,81.6967,77.339,-4.3577
+lowest_fixed_residential_change_2025m06_to_2026m06,4,13201,Puente Alto,Metropolitana de Santiago,183615,0.0033,-1899.0,78.0274,77.6075,76.5733,-1.0342
+lowest_fixed_residential_change_2025m06_to_2026m06,5,13118,Macul,Metropolitana de Santiago,47638,0.0,-1092.0,84.7685,87.4218,85.1295,-2.2923
+lowest_fixed_residential_change_2025m06_to_2026m06,6,13130,San Miguel,Metropolitana de Santiago,60402,0.0,-857.0,88.8398,89.0716,87.6527,-1.4188
+lowest_fixed_residential_change_2025m06_to_2026m06,7,13111,La Granja,Metropolitana de Santiago,37274,0.0,-772.0,66.4082,68.6859,66.6148,-2.0711
+lowest_fixed_residential_change_2025m06_to_2026m06,8,8107,Penco,Biobío,16858,1.5838,-605.0,76.9486,79.7544,76.1656,-3.5888
+lowest_fixed_residential_change_2025m06_to_2026m06,9,13127,Recoleta,Metropolitana de Santiago,56276,0.0,-571.0,64.2761,65.6408,64.6261,-1.0146
+lowest_fixed_residential_change_2025m06_to_2026m06,10,13108,Independencia,Metropolitana de Santiago,45569,0.0,-554.0,70.6314,71.6693,70.4536,-1.2157
+lowest_fixed_residential_change_2025m06_to_2026m06,11,13124,Pudahuel,Metropolitana de Santiago,74288,2.8672,-514.0,76.8994,77.8188,77.1269,-0.6919
+lowest_fixed_residential_change_2025m06_to_2026m06,12,13121,Pedro Aguirre Cerda,Metropolitana de Santiago,32556,0.0,-481.0,69.2622,71.0069,69.5294,-1.4775
+lowest_fixed_residential_change_2025m06_to_2026m06,13,13104,Conchalí,Metropolitana de Santiago,40890,0.0,-395.0,72.7268,73.0423,72.0763,-0.966
+lowest_fixed_residential_change_2025m06_to_2026m06,14,13114,Las Condes,Metropolitana de Santiago,116322,0.0,-345.0,95.0861,96.0188,95.7222,-0.2966
+lowest_fixed_residential_change_2025m06_to_2026m06,15,13402,Buin,Metropolitana de Santiago,37708,10.8889,-316.0,57.5342,56.6935,55.8555,-0.838
+lowest_fixed_residential_change_2025m06_to_2026m06,16,13126,Quinta Normal,Metropolitana de Santiago,45855,0.0,-314.0,73.534,74.0443,73.3595,-0.6848
+lowest_fixed_residential_change_2025m06_to_2026m06,17,6301,San Fernando,Libertador General Bernardo O'Higgins,27372,12.7685,-297.0,61.7529,63.3677,62.2826,-1.0851
+lowest_fixed_residential_change_2025m06_to_2026m06,18,13103,Cerro Navia,Metropolitana de Santiago,42018,0.0,-223.0,63.3133,67.2545,66.7238,-0.5307
+lowest_fixed_residential_change_2025m06_to_2026m06,19,8206,Los Álamos,Biobío,7997,16.5437,-205.0,60.5477,63.7239,61.1604,-2.5635
+lowest_fixed_residential_change_2025m06_to_2026m06,20,13106,Estación Central,Metropolitana de Santiago,68183,0.0,-197.0,75.1052,77.9696,77.6807,-0.2889
 highest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,1,2302,María Elena,Antofagasta,1649,6.4281,77.8047,14.0691,21.1643,98.9691,77.8047
 highest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,2,16103,Chillán Viejo,Ñuble,11764,17.1285,52.3971,43.2421,36.4502,88.8473,52.3971
 highest_fixed_residential_intensity_change_pp_2025m06_to_2026m06,3,5201,Isla de Pascua,Valparaíso,2077,6.0183,36.3505,57.8719,88.0597,124.4102,36.3505
