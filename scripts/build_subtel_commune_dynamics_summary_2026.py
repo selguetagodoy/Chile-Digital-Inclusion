@@ -156,6 +156,8 @@ def main():
         return out
 
     outliers = []
+    outliers += outlier_rows('fixed_residential_change_2025m06_to_2026m06', 'highest')
+    outliers += outlier_rows('fixed_residential_change_2025m06_to_2026m06', 'lowest')
     outliers += outlier_rows('fixed_residential_intensity_change_pp_2025m06_to_2026m06', 'highest')
     outliers += outlier_rows('fixed_residential_intensity_change_pp_2025m06_to_2026m06', 'lowest')
     outliers += outlier_rows('fixed_residential_per_100_censo_households_2026m06', 'highest')
