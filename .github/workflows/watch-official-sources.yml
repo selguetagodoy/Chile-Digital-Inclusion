@@ -1,0 +1,67 @@
+name: Watch official source publications
+
+on:
+  schedule:
+    - cron: '17 11 * * 1'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'config/source_watch.csv'
+      - 'scripts/watch_official_sources.py'
+      - '.github/workflows/watch-official-sources.yml'
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: main-writers
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Check official publication sources
+        id: watch
+        run: |
+          python scripts/watch_official_sources.py --github-output "$GITHUB_OUTPUT"
+
+      - name: Upload source-watch report
+        uses: actions/upload-artifact@v6
+        with:
+          name: official-source-watch-${{ github.run_id }}
+          path: data/metadata/source_watch_report.csv
+          retention-days: 30
+
+      - name: Commit source-watch state when it changes
+        if: steps.watch.outputs.state_changed == 'true'
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/metadata/source_watch_state.csv data/metadata/source_watch_report.csv
+          if git diff --cached --quiet; then
+            echo 'No persistent source-watch state change to publish'
+            exit 0
+          fi
+          git commit -m 'Refresh official source watch state'
+          git push origin HEAD:main
+
+      - name: Open review issue for changed or problematic sources
+        if: steps.watch.outputs.action_required == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "Official source change detected — ${{ steps.watch.outputs.checked_at }}" \
+            --body-file .source-watch-issue.md
