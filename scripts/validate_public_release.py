@@ -24,6 +24,11 @@ EDU_EST = ROOT / 'data/education_connectivity_2026/aulas_conectadas_2025_establi
 EDU_ENRICHED = ROOT / 'data/education_connectivity_2026/aulas_conectadas_2025_establishments_enriched.csv'
 EDU_COMMUNES = ROOT / 'data/education_connectivity_2026/aulas_conectadas_2025_commune_summary.csv'
 EDU_QA = ROOT / 'data/education_connectivity_2026/aulas_conectadas_2025_crosswalk_qa.csv'
+FDT_PROJECTS = ROOT / 'data/fdt_2026/fdt_projects_q1_2026.csv'
+FDT_UPDATES = ROOT / 'data/fdt_2026/fdt_project_updates_2026.csv'
+FDT_QA = ROOT / 'data/fdt_2026/qa_2026.csv'
+RESILIENCE = ROOT / 'data/network_resilience_2026/network_resilience_observations_2026.csv'
+RESILIENCE_QA = ROOT / 'data/network_resilience_2026/qa_2026.csv'
 INDEX = ROOT / 'index.html'
 JS = ROOT / 'assets/dashboard.js'
 CSS = ROOT / 'assets/dashboard.css'
@@ -50,6 +55,11 @@ REQUIRED_MASTER = {
     'subtel_fixed_residential_share_pct_2026m03',
     'subtel_fixed_residential_per_100_censo_households_2026m03',
     'subtel_fixed_source_status_2026m03',
+    'subtel_fixed_connections_total_2026m06',
+    'subtel_fixed_connections_residential_2026m06',
+    'subtel_fixed_residential_share_pct_2026m06',
+    'subtel_fixed_residential_per_100_censo_households_2026m06',
+    'subtel_fixed_source_status_2026m06',
 }
 REQUIRED_SECTOR = {
     'accesses_5g', 'fiber_share_fixed_connections',
@@ -82,6 +92,7 @@ def main() -> None:
         MASTER, GEO, MOBILE, MOBILE_QA, FIXED, FIXED_QA,
         FIXED_SUB, FIXED_SUB_QA, FIXED_SUB_MISSING, FIXED_SUB_ALIGNMENT,
         SECTOR, OOKLA, EDU_EST, EDU_ENRICHED, EDU_COMMUNES, EDU_QA,
+        FDT_PROJECTS, FDT_UPDATES, FDT_QA, RESILIENCE, RESILIENCE_QA,
         INDEX, JS, CSS,
     ]
     for path in required_files:
@@ -92,7 +103,7 @@ def main() -> None:
     master_codes = [int(r['comuna']) for r in master]
     results.append(check('master_rows', len(master) == 346, f'{len(master)} commune rows'))
     results.append(check('master_unique_communes', len(set(master_codes)) == 346, f'{len(set(master_codes))} unique commune codes'))
-    results.append(check('master_columns', len(master_fields) == 89, f'{len(master_fields)} variables'))
+    results.append(check('master_columns', len(master_fields) == 94, f'{len(master_fields)} variables'))
     missing_master = sorted(REQUIRED_MASTER - master_fields)
     results.append(check('master_required_fields', not missing_master, f'missing={missing_master}'))
 
