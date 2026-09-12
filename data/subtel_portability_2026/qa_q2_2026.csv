@@ -1,0 +1,6 @@
+check,expected,observed,status,note
+quarter_total_equals_mobile_plus_fixed,753930,753930,pass,742719 + 11211
+cumulative_total_equals_mobile_plus_fixed,44096038,44096038,pass,42255681 + 1840357
+mobile_plus_fixed_quarter_share,100.0,100.0,pass,98.5 + 1.5
+mobile_plus_fixed_cumulative_share,100.0,100.0,pass,95.8 + 4.2
+operator_net_variation_sum,, -527,not_reconciled,Published operator net variations are preserved exactly as reported; no balancing adjustment is applied because the source page does not explain the residual
