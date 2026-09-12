@@ -1,6 +1,6 @@
 # Diccionario del maestro comunal integrado
 
-El archivo documenta **89 variables** del maestro `chile_digital_inclusion_communes_2026_integrated.csv`.
+El archivo documenta **117 variables** del maestro `chile_digital_inclusion_communes_2026_integrated.csv`.
 
 La tabla canónica y legible por máquinas está en `data/metadata/communal_master_dictionary.csv`.
 
@@ -17,9 +17,10 @@ La tabla canónica y legible por máquinas está en `data/metadata/communal_mast
 
 ## Variables por capa
 
+- Ookla Open Data: 49
 - Censo/Atlas: 35
-- Ookla Open Data: 27
 - SUBTEL ArcGIS marzo 2025: 12
+- Capa integrada: 6
 - Mineduc Aulas Conectadas 2025: 5
 - SUBTEL conexiones fijas marzo 2026: 5
 - Atlas derivado: 3
