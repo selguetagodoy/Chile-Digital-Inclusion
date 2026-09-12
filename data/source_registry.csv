@@ -21,5 +21,6 @@ subtel_fixed_redacceso,SUBTEL,Servicios ArcGIS públicos Of468 RedAcceso,public 
 mineduc_aulas2025,Ministerio de Educación,Aulas Conectadas 2025 nómina oficial de seleccionados y lista de espera,public establishment-level administrative program records keyed by RBD
 mineduc_cpe2030_2026,Ministerio de Educación,Conectividad para la Educación 2030 documentación 2025-2026,program parameters standards and legal documentation
 ookla2025q4,Ookla,Speedtest Open Data Q4 2025,observed fixed and mobile quality control period
-ookla2026q1,Ookla,Speedtest Open Data Q1 2026,observed fixed and mobile quality national regional and communal
+ookla2026q1,Ookla,Speedtest Open Data Q1 2026,observed fixed and mobile quality national regional and communal control period
+ookla2026q2,Ookla,Speedtest Open Data Q2 2026,observed fixed and mobile quality national regional and communal current period
 atlas2026,Sebastian Elgueta Godoy / COTEL public outputs,Atlas de la Desconexión Digital 2026,integrated public analytical layer
