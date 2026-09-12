@@ -1,0 +1,57 @@
+name: Build Ookla Q2 validated speed rankings
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'data/ookla/territorial/chile_2026q1_vs_2026q2_change_validation.csv'
+      - 'scripts/build_ookla_q2_speed_rankings_validated.py'
+      - '.github/workflows/build-ookla-q2-speed-rankings-validated.yml'
+
+concurrency:
+  group: main-writers
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Install dependency
+        run: python -m pip install --disable-pip-version-check pandas
+      - name: Build validated rankings
+        run: python scripts/build_ookla_q2_speed_rankings_validated.py
+      - name: Validate output
+        run: |
+          python - <<'PY'
+          import pandas as pd
+          p = 'data/ookla/territorial/chile_2026q2_speed_rankings_validated.csv'
+          df = pd.read_csv(p)
+          assert set(df['network']) == {'fixed', 'mobile'}
+          assert len(df[df.network == 'fixed']) == 83
+          assert len(df[df.network == 'mobile']) == 99
+          assert df['above_mean_tests_reference'].astype(str).str.lower().eq('true').all()
+          assert df.groupby('network')['rank_speed_desc_validated'].min().eq(1).all()
+          print(df.groupby('network').size())
+          PY
+      - name: Commit output
+        run: |
+          git add data/ookla/territorial/chile_2026q2_speed_rankings_validated.csv
+          if git diff --cached --quiet; then
+            echo 'No ranking changes to commit.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Build validated Ookla Q2 speed rankings'
+          git pull --rebase origin main
+          git push origin HEAD:main
