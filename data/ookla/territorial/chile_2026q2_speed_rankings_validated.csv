@@ -1,0 +1,183 @@
+commune_code,commune,province,region,network,current_period,current_tests,current_download_mbps_test_weighted,mean_tests_q1_q2,mean_tests_q1_q2_reference,above_mean_tests_reference,rank_speed_desc_validated,rank_speed_asc_validated,validation_basis
+8102,Coronel,Concepción,Región del Bío-Bío,fixed,2026Q2,2154.0,497.944,2017.0,1545.807917888563,True,1,83,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13129,San Joaquín,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,2369.0,495.883,2273.5,1545.807917888563,True,2,82,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13109,La Cisterna,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,4305.0,493.703,4213.0,1545.807917888563,True,3,81,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13118,Macul,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,5938.0,486.881,6026.0,1545.807917888563,True,4,80,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13108,Independencia,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,2896.0,486.067,2870.5,1545.807917888563,True,5,79,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13130,San Miguel,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,7300.0,485.49,6763.5,1545.807917888563,True,6,78,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+8112,Hualpén,Concepción,Región del Bío-Bío,fixed,2026Q2,1819.0,482.729,1827.5,1545.807917888563,True,7,77,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13110,La Florida,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,15960.0,480.686,15148.0,1545.807917888563,True,8,76,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13112,La Pintana,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,2128.0,478.195,2121.5,1545.807917888563,True,9,75,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+1101,Iquique,Iquique,Región de Tarapacá,fixed,2026Q2,4994.0,475.773,5143.0,1545.807917888563,True,10,74,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+8101,Concepción,Concepción,Región del Bío-Bío,fixed,2026Q2,7401.0,472.629,6941.0,1545.807917888563,True,11,73,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13120,Ñuñoa,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,12725.0,471.979,12657.5,1545.807917888563,True,12,72,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13111,La Granja,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,3287.0,470.117,3108.5,1545.807917888563,True,13,71,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+16101,Chillán,Ñuble,Región de Ñuble,fixed,2026Q2,5076.0,469.508,4743.5,1545.807917888563,True,14,70,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13126,Quinta Normal,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,3158.0,468.05,3122.5,1545.807917888563,True,15,69,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+2101,Antofagasta,Antofagasta,Región de Antofagasta,fixed,2026Q2,11119.0,466.609,10709.0,1545.807917888563,True,16,68,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+8110,Talcahuano,Concepción,Región del Bío-Bío,fixed,2026Q2,2529.0,466.438,2506.0,1545.807917888563,True,17,67,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+10301,Osorno,Osorno,Región de Los Lagos,fixed,2026Q2,3819.0,464.052,3589.0,1545.807917888563,True,18,66,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13201,Puente Alto,Cordillera,Región Metropolitana de Santiago,fixed,2026Q2,15837.0,463.965,15254.0,1545.807917888563,True,19,65,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+1107,Alto Hospicio,Iquique,Región de Tarapacá,fixed,2026Q2,3648.0,462.565,3294.5,1545.807917888563,True,20,64,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13105,El Bosque,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,3600.0,456.034,3420.5,1545.807917888563,True,21,63,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13119,Maipú,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,16913.0,454.823,15598.0,1545.807917888563,True,22,62,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13104,Conchalí,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,3222.0,454.382,3142.0,1545.807917888563,True,23,61,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13102,Cerrillos,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,2883.0,453.124,2689.5,1545.807917888563,True,24,60,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+10101,Puerto Montt,Llanquihue,Región de Los Lagos,fixed,2026Q2,5820.0,451.684,5913.5,1545.807917888563,True,25,59,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13401,San Bernardo,Maipo,Región Metropolitana de Santiago,fixed,2026Q2,10939.0,451.427,9683.5,1545.807917888563,True,26,58,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13106,Estación Central,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,4933.0,450.197,4886.5,1545.807917888563,True,27,57,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+8108,San Pedro de la Paz,Concepción,Región del Bío-Bío,fixed,2026Q2,4736.0,449.961,4157.0,1545.807917888563,True,28,56,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13125,Quilicura,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,6964.0,448.311,6629.0,1545.807917888563,True,29,55,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+5701,San Felipe,San Felipe,Región de Valparaíso,fixed,2026Q2,2452.0,447.447,2021.5,1545.807917888563,True,30,54,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+5804,Villa Alemana,Marga Marga,Región de Valparaíso,fixed,2026Q2,5180.0,445.252,4737.5,1545.807917888563,True,31,53,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13101,Santiago,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,18376.0,445.19,17872.5,1545.807917888563,True,32,52,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+6108,Machalí,Cachapoal,Región del Libertador Bernardo O'Higgins,fixed,2026Q2,2161.0,444.871,2207.0,1545.807917888563,True,33,51,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+5801,Quilpué,Marga Marga,Región de Valparaíso,fixed,2026Q2,4486.0,444.224,4419.5,1545.807917888563,True,34,50,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13604,Padre Hurtado,Talagante,Región Metropolitana de Santiago,fixed,2026Q2,2902.0,443.435,2870.5,1545.807917888563,True,35,49,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13127,Recoleta,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,4033.0,443.337,3953.5,1545.807917888563,True,36,48,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+15101,Arica,Arica,Región de Arica y Parinacota,fixed,2026Q2,4871.0,442.97,4895.0,1545.807917888563,True,37,47,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+4101,La Serena,Elqui,Región de Coquimbo,fixed,2026Q2,7525.0,442.553,7821.0,1545.807917888563,True,38,46,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+7101,Talca,Talca,Región del Maule,fixed,2026Q2,5967.0,441.892,5731.0,1545.807917888563,True,39,45,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13605,Peñaflor,Talagante,Región Metropolitana de Santiago,fixed,2026Q2,2535.0,440.149,2731.0,1545.807917888563,True,40,44,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13122,Peñalolén,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,7443.0,439.921,7979.5,1545.807917888563,True,41,43,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13103,Cerro Navia,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,3092.0,437.96,2917.0,1545.807917888563,True,42,42,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+5109,Viña del Mar,Valparaíso,Región de Valparaíso,fixed,2026Q2,11444.0,436.858,11586.5,1545.807917888563,True,43,41,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+4102,Coquimbo,Elqui,Región de Coquimbo,fixed,2026Q2,7603.0,436.081,7494.5,1545.807917888563,True,44,40,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13116,Lo Espejo,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,1865.0,435.771,1674.0,1545.807917888563,True,45,39,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13124,Pudahuel,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,6906.0,435.663,6785.0,1545.807917888563,True,46,38,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+2201,Calama,El Loa,Región de Antofagasta,fixed,2026Q2,4060.0,435.439,4328.5,1545.807917888563,True,47,37,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+5501,Quillota,Quillota,Región de Valparaíso,fixed,2026Q2,2352.0,433.607,2341.5,1545.807917888563,True,48,36,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+6101,Rancagua,Cachapoal,Región del Libertador Bernardo O'Higgins,fixed,2026Q2,6412.0,433.51,6161.0,1545.807917888563,True,49,35,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13123,Providencia,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,10801.0,433.405,10331.5,1545.807917888563,True,50,34,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13128,Renca,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,4314.0,432.859,3773.5,1545.807917888563,True,51,33,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13117,Lo Prado,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,2191.0,432.19,2113.5,1545.807917888563,True,52,32,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+6115,Rengo,Cachapoal,Región del Libertador Bernardo O'Higgins,fixed,2026Q2,1642.0,431.79,1674.0,1545.807917888563,True,53,31,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13121,Pedro Aguirre Cerda,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,2326.0,428.994,2084.5,1545.807917888563,True,54,30,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+5301,Los Andes,Los Andes,Región de Valparaíso,fixed,2026Q2,1721.0,425.819,1573.0,1545.807917888563,True,55,29,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13113,La Reina,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,5134.0,425.513,5034.5,1545.807917888563,True,56,28,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13107,Huechuraba,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,6007.0,425.218,5671.5,1545.807917888563,True,57,27,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+8103,Chiguayante,Concepción,Región del Bío-Bío,fixed,2026Q2,2290.0,424.801,2062.5,1545.807917888563,True,58,26,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+9101,Temuco,Cautín,Región de La Araucanía,fixed,2026Q2,8783.0,424.505,8383.5,1545.807917888563,True,59,25,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+5103,Concón,Valparaíso,Región de Valparaíso,fixed,2026Q2,2741.0,424.495,2779.0,1545.807917888563,True,60,24,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+3101,Copiapó,Copiapó,Región de Atacama,fixed,2026Q2,5096.0,421.413,4452.5,1545.807917888563,True,61,23,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13402,Buin,Maipo,Región Metropolitana de Santiago,fixed,2026Q2,5241.0,421.099,4984.0,1545.807917888563,True,62,22,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+5101,Valparaíso,Valparaíso,Región de Valparaíso,fixed,2026Q2,6047.0,418.536,6553.5,1545.807917888563,True,63,21,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13114,Las Condes,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,23768.0,416.772,22517.0,1545.807917888563,True,64,20,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+5601,San Antonio,San Antonio,Región de Valparaíso,fixed,2026Q2,2205.0,416.361,2104.5,1545.807917888563,True,65,19,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+4301,Ovalle,Limarí,Región de Coquimbo,fixed,2026Q2,2101.0,407.545,2052.0,1545.807917888563,True,66,18,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+12101,Punta Arenas,Magallanes,Región de Magallanes y Antártica Chilena,fixed,2026Q2,1910.0,407.131,1663.5,1545.807917888563,True,67,17,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+14101,Valdivia,Valdivia,Región de Los Ríos,fixed,2026Q2,3725.0,406.888,3725.5,1545.807917888563,True,68,16,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13302,Lampa,Chacabuco,Región Metropolitana de Santiago,fixed,2026Q2,5846.0,396.427,5374.5,1545.807917888563,True,69,15,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+7301,Curicó,Curicó,Región del Maule,fixed,2026Q2,4299.0,395.739,4045.0,1545.807917888563,True,70,14,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+6301,San Fernando,Colchagua,Región del Libertador Bernardo O'Higgins,fixed,2026Q2,1787.0,387.923,1672.0,1545.807917888563,True,71,13,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+5802,Limache,Marga Marga,Región de Valparaíso,fixed,2026Q2,1692.0,384.506,1668.0,1545.807917888563,True,72,12,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13132,Vitacura,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,7534.0,379.975,6982.0,1545.807917888563,True,73,11,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13601,Talagante,Talagante,Región Metropolitana de Santiago,fixed,2026Q2,2270.0,376.464,2264.0,1545.807917888563,True,74,10,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13301,Colina,Chacabuco,Región Metropolitana de Santiago,fixed,2026Q2,9777.0,366.862,9408.0,1545.807917888563,True,75,9,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+7401,Linares,Linares,Región del Maule,fixed,2026Q2,2440.0,365.535,2555.0,1545.807917888563,True,76,8,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13404,Paine,Maipo,Región Metropolitana de Santiago,fixed,2026Q2,2170.0,353.642,2047.0,1545.807917888563,True,77,7,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+10109,Puerto Varas,Llanquihue,Región de Los Lagos,fixed,2026Q2,1994.0,348.78,2059.5,1545.807917888563,True,78,6,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+9120,Villarrica,Cautín,Región de La Araucanía,fixed,2026Q2,3063.0,346.053,3636.5,1545.807917888563,True,79,5,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+8301,Los Ángeles,Bío-Bío,Región del Bío-Bío,fixed,2026Q2,6196.0,345.257,5734.0,1545.807917888563,True,80,4,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13501,Melipilla,Melipilla,Región Metropolitana de Santiago,fixed,2026Q2,3714.0,331.227,3790.0,1545.807917888563,True,81,3,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13115,Lo Barnechea,Santiago,Región Metropolitana de Santiago,fixed,2026Q2,8536.0,322.39,8284.0,1545.807917888563,True,82,2,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+9115,Pucón,Cautín,Región de La Araucanía,fixed,2026Q2,1629.0,265.565,2054.5,1545.807917888563,True,83,1,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+5105,Puchuncaví,Valparaíso,Región de Valparaíso,mobile,2026Q2,340.0,160.744,421.5,357.533724340176,True,1,99,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+16305,San Nicolás,Punilla,Región de Ñuble,mobile,2026Q2,661.0,147.355,411.0,357.533724340176,True,2,98,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+5604,El Quisco,San Antonio,Región de Valparaíso,mobile,2026Q2,292.0,145.779,510.5,357.533724340176,True,3,97,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13114,Las Condes,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,4244.0,145.423,4965.5,357.533724340176,True,4,96,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13123,Providencia,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,2167.0,140.468,1959.0,357.533724340176,True,5,95,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13132,Vitacura,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,685.0,140.241,661.0,357.533724340176,True,6,94,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13104,Conchalí,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,581.0,132.751,587.0,357.533724340176,True,7,93,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13113,La Reina,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,707.0,128.408,701.0,357.533724340176,True,8,92,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13129,San Joaquín,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,422.0,126.168,411.5,357.533724340176,True,9,91,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13120,Ñuñoa,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,1507.0,125.832,1459.0,357.533724340176,True,10,90,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+5103,Concón,Valparaíso,Región de Valparaíso,mobile,2026Q2,389.0,123.724,405.0,357.533724340176,True,11,89,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13107,Huechuraba,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,921.0,122.282,863.5,357.533724340176,True,12,88,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13118,Macul,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,912.0,122.265,869.5,357.533724340176,True,13,87,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13128,Renca,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,625.0,121.14,651.0,357.533724340176,True,14,86,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+5701,San Felipe,San Felipe,Región de Valparaíso,mobile,2026Q2,512.0,120.886,492.5,357.533724340176,True,15,85,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13605,Peñaflor,Talagante,Región Metropolitana de Santiago,mobile,2026Q2,905.0,120.433,753.5,357.533724340176,True,16,84,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13122,Peñalolén,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,970.0,120.412,952.0,357.533724340176,True,17,83,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13110,La Florida,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,1799.0,119.509,1693.5,357.533724340176,True,18,82,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+6303,Chimbarongo,Colchagua,Región del Libertador Bernardo O'Higgins,mobile,2026Q2,673.0,119.072,738.0,357.533724340176,True,19,81,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13101,Santiago,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,5140.0,118.141,4934.5,357.533724340176,True,20,80,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+5605,El Tabo,San Antonio,Región de Valparaíso,mobile,2026Q2,202.0,116.788,443.0,357.533724340176,True,21,79,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+5804,Villa Alemana,Marga Marga,Región de Valparaíso,mobile,2026Q2,645.0,113.145,620.0,357.533724340176,True,22,78,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13105,El Bosque,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,435.0,112.192,405.5,357.533724340176,True,23,77,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13103,Cerro Navia,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,367.0,109.872,443.0,357.533724340176,True,24,76,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13127,Recoleta,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,803.0,109.755,688.5,357.533724340176,True,25,75,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13119,Maipú,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,2510.0,109.48,2488.0,357.533724340176,True,26,74,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+5301,Los Andes,Los Andes,Región de Valparaíso,mobile,2026Q2,449.0,108.782,602.0,357.533724340176,True,27,73,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13130,San Miguel,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,858.0,107.562,838.0,357.533724340176,True,28,72,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13126,Quinta Normal,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,615.0,106.234,576.5,357.533724340176,True,29,71,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13102,Cerrillos,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,465.0,104.73,468.0,357.533724340176,True,30,70,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+5801,Quilpué,Marga Marga,Región de Valparaíso,mobile,2026Q2,741.0,104.384,883.0,357.533724340176,True,31,69,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13111,La Granja,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,352.0,103.424,408.5,357.533724340176,True,32,68,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+5109,Viña del Mar,Valparaíso,Región de Valparaíso,mobile,2026Q2,2521.0,103.145,2792.0,357.533724340176,True,33,67,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+8203,Cañete,Arauco,Región del Bío-Bío,mobile,2026Q2,405.0,101.944,385.5,357.533724340176,True,34,66,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13109,La Cisterna,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,517.0,100.422,546.0,357.533724340176,True,35,65,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+3301,Vallenar,Huasco,Región de Atacama,mobile,2026Q2,397.0,99.88,369.0,357.533724340176,True,36,64,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+4101,La Serena,Elqui,Región de Coquimbo,mobile,2026Q2,1652.0,98.904,1648.5,357.533724340176,True,37,63,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13108,Independencia,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,487.0,98.714,470.5,357.533724340176,True,38,62,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+8108,San Pedro de la Paz,Concepción,Región del Bío-Bío,mobile,2026Q2,508.0,98.576,478.5,357.533724340176,True,39,61,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+9101,Temuco,Cautín,Región de La Araucanía,mobile,2026Q2,1883.0,98.141,1905.5,357.533724340176,True,40,60,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+7301,Curicó,Curicó,Región del Maule,mobile,2026Q2,868.0,97.985,829.5,357.533724340176,True,41,59,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+5101,Valparaíso,Valparaíso,Región de Valparaíso,mobile,2026Q2,1777.0,97.719,1812.0,357.533724340176,True,42,58,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13124,Pudahuel,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,1572.0,97.683,1520.0,357.533724340176,True,43,57,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+14101,Valdivia,Valdivia,Región de Los Ríos,mobile,2026Q2,1024.0,97.422,1038.0,357.533724340176,True,44,56,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13112,La Pintana,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,516.0,96.12,530.0,357.533724340176,True,45,55,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13402,Buin,Maipo,Región Metropolitana de Santiago,mobile,2026Q2,655.0,95.178,685.5,357.533724340176,True,46,54,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+8101,Concepción,Concepción,Región del Bío-Bío,mobile,2026Q2,1234.0,95.135,1272.0,357.533724340176,True,47,53,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13115,Lo Barnechea,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,536.0,93.882,481.5,357.533724340176,True,48,52,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+7101,Talca,Talca,Región del Maule,mobile,2026Q2,1387.0,93.241,1414.5,357.533724340176,True,49,51,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+6201,Pichilemu,Cardenal Caro,Región del Libertador Bernardo O'Higgins,mobile,2026Q2,222.0,93.028,384.0,357.533724340176,True,50,50,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+10301,Osorno,Osorno,Región de Los Lagos,mobile,2026Q2,970.0,92.929,924.0,357.533724340176,True,51,49,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13401,San Bernardo,Maipo,Región Metropolitana de Santiago,mobile,2026Q2,1817.0,92.899,1767.5,357.533724340176,True,52,48,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+5602,Algarrobo,San Antonio,Región de Valparaíso,mobile,2026Q2,501.0,91.893,561.5,357.533724340176,True,53,47,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+5601,San Antonio,San Antonio,Región de Valparaíso,mobile,2026Q2,665.0,91.308,773.0,357.533724340176,True,54,46,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13201,Puente Alto,Cordillera,Región Metropolitana de Santiago,mobile,2026Q2,2119.0,91.12,1998.0,357.533724340176,True,55,45,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13302,Lampa,Chacabuco,Región Metropolitana de Santiago,mobile,2026Q2,787.0,90.498,776.5,357.533724340176,True,56,44,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13106,Estación Central,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,775.0,89.567,768.0,357.533724340176,True,57,43,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13125,Quilicura,Santiago,Región Metropolitana de Santiago,mobile,2026Q2,1001.0,89.337,962.0,357.533724340176,True,58,42,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13601,Talagante,Talagante,Región Metropolitana de Santiago,mobile,2026Q2,445.0,89.136,462.0,357.533724340176,True,59,41,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+5401,La Ligua,Petorca,Región de Valparaíso,mobile,2026Q2,325.0,88.84,538.0,357.533724340176,True,60,40,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+6101,Rancagua,Cachapoal,Región del Libertador Bernardo O'Higgins,mobile,2026Q2,1258.0,88.536,1221.0,357.533724340176,True,61,39,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+3101,Copiapó,Copiapó,Región de Atacama,mobile,2026Q2,1146.0,87.58,989.0,357.533724340176,True,62,38,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+4102,Coquimbo,Elqui,Región de Coquimbo,mobile,2026Q2,1297.0,87.385,1646.0,357.533724340176,True,63,37,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+6301,San Fernando,Colchagua,Región del Libertador Bernardo O'Higgins,mobile,2026Q2,506.0,87.256,445.0,357.533724340176,True,64,36,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+16101,Chillán,Ñuble,Región de Ñuble,mobile,2026Q2,1077.0,86.985,1033.0,357.533724340176,True,65,35,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+10101,Puerto Montt,Llanquihue,Región de Los Lagos,mobile,2026Q2,1933.0,84.995,1776.0,357.533724340176,True,66,34,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+8301,Los Ángeles,Bío-Bío,Región del Bío-Bío,mobile,2026Q2,1438.0,84.894,1472.5,357.533724340176,True,67,33,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+5802,Limache,Marga Marga,Región de Valparaíso,mobile,2026Q2,575.0,84.659,494.0,357.533724340176,True,68,32,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13301,Colina,Chacabuco,Región Metropolitana de Santiago,mobile,2026Q2,1313.0,84.374,1142.0,357.533724340176,True,69,31,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+7304,Molina,Curicó,Región del Maule,mobile,2026Q2,355.0,84.241,391.0,357.533724340176,True,70,30,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+2201,Calama,El Loa,Región de Antofagasta,mobile,2026Q2,1034.0,82.813,1019.0,357.533724340176,True,71,29,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+15101,Arica,Arica,Región de Arica y Parinacota,mobile,2026Q2,1494.0,81.307,1304.5,357.533724340176,True,72,28,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+10109,Puerto Varas,Llanquihue,Región de Los Lagos,mobile,2026Q2,348.0,80.916,417.5,357.533724340176,True,73,27,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13604,Padre Hurtado,Talagante,Región Metropolitana de Santiago,mobile,2026Q2,444.0,80.512,370.0,357.533724340176,True,74,26,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+7102,Constitución,Talca,Región del Maule,mobile,2026Q2,483.0,79.988,411.5,357.533724340176,True,75,25,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+2101,Antofagasta,Antofagasta,Región de Antofagasta,mobile,2026Q2,1723.0,79.854,1715.0,357.533724340176,True,76,24,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13503,Curacaví,Melipilla,Región Metropolitana de Santiago,mobile,2026Q2,361.0,79.741,374.5,357.533724340176,True,77,23,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+9115,Pucón,Cautín,Región de La Araucanía,mobile,2026Q2,343.0,78.817,524.0,357.533724340176,True,78,22,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+8110,Talcahuano,Concepción,Región del Bío-Bío,mobile,2026Q2,617.0,77.958,561.0,357.533724340176,True,79,21,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+5102,Casablanca,Valparaíso,Región de Valparaíso,mobile,2026Q2,335.0,76.004,366.0,357.533724340176,True,80,20,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13501,Melipilla,Melipilla,Región Metropolitana de Santiago,mobile,2026Q2,834.0,73.912,939.5,357.533724340176,True,81,19,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+4301,Ovalle,Limarí,Región de Coquimbo,mobile,2026Q2,570.0,73.872,588.0,357.533724340176,True,82,18,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+13404,Paine,Maipo,Región Metropolitana de Santiago,mobile,2026Q2,373.0,73.145,400.5,357.533724340176,True,83,17,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+5501,Quillota,Quillota,Región de Valparaíso,mobile,2026Q2,549.0,73.027,542.5,357.533724340176,True,84,16,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+11101,Coyhaique,Coyhaique,Región de Aysén del Gral.Ibañez del Campo,mobile,2026Q2,380.0,72.745,383.0,357.533724340176,True,85,15,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+1101,Iquique,Iquique,Región de Tarapacá,mobile,2026Q2,870.0,71.311,768.5,357.533724340176,True,86,14,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+7401,Linares,Linares,Región del Maule,mobile,2026Q2,692.0,70.128,629.5,357.533724340176,True,87,13,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+4203,Los Vilos,Choapa,Región de Coquimbo,mobile,2026Q2,381.0,69.31,462.5,357.533724340176,True,88,12,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+6107,Las Cabras,Cachapoal,Región del Libertador Bernardo O'Higgins,mobile,2026Q2,323.0,67.626,397.0,357.533724340176,True,89,11,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+14108,Panguipulli,Valdivia,Región de Los Ríos,mobile,2026Q2,467.0,65.437,599.5,357.533724340176,True,90,10,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+9120,Villarrica,Cautín,Región de La Araucanía,mobile,2026Q2,581.0,63.324,783.5,357.533724340176,True,91,9,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+9108,Lautaro,Cautín,Región de La Araucanía,mobile,2026Q2,494.0,62.48,481.0,357.533724340176,True,92,8,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+9119,Vilcún,Cautín,Región de La Araucanía,mobile,2026Q2,432.0,61.903,411.5,357.533724340176,True,93,7,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+1107,Alto Hospicio,Iquique,Región de Tarapacá,mobile,2026Q2,696.0,59.783,609.0,357.533724340176,True,94,6,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+9112,Padre Las Casas,Cautín,Región de La Araucanía,mobile,2026Q2,604.0,58.654,480.0,357.533724340176,True,95,5,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+8207,Tirúa,Arauco,Región del Bío-Bío,mobile,2026Q2,434.0,56.482,389.0,357.533724340176,True,96,4,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+7105,Maule,Talca,Región del Maule,mobile,2026Q2,467.0,56.204,466.0,357.533724340176,True,97,3,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+9103,Cunco,Cautín,Región de La Araucanía,mobile,2026Q2,488.0,54.935,511.0,357.533724340176,True,98,2,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
+7404,Parral,Linares,Región del Maule,mobile,2026Q2,510.0,53.149,552.5,357.533724340176,True,99,1,above_mean_q1_q2_test_volume_descriptive_not_statistical_representativeness
