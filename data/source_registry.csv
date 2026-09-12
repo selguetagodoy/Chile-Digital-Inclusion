@@ -4,6 +4,7 @@ casen2024,Ministerio de Desarrollo Social y Familia,CASEN 2024,weighted-person a
 subtel2025,SUBTEL,Encuestas de Acceso y Usos de Internet,household access and person 16+ use
 subtel2026q1,SUBTEL,Informe del Sector Telecomunicaciones Primer Trimestre 2026,sector connections technology mix household fixed penetration and traffic
 subtel2026q2,SUBTEL,Informe del Sector Telecomunicaciones Primer Semestre 2026,sector connections technology mix household fixed penetration traffic and operator shares
+subtel_portability_2026q2,SUBTEL,Informe de Portabilidad Numérica Segundo Trimestre 2026,quarterly portability totals cumulative totals and mobile operator net variations
 subtel_fixed_series_2026m06,SUBTEL,Series conexiones Internet fija actualizadas a junio 2026,monthly longitudinal fixed internet connections
 subtel_mobile_series_2026m06,SUBTEL,Series conexiones Internet movil actualizadas a junio 2026,monthly longitudinal mobile internet connections
 subtel_mobile_traffic_2026m06,SUBTEL,Series trafico de datos moviles actualizadas a junio 2026,monthly longitudinal mobile data traffic
