@@ -1,5 +1,6 @@
 name: Build Ookla Q2 report tables
 
+# Report outputs are tracked before strict workflow-integrity validation.
 on:
   workflow_dispatch:
   push:
