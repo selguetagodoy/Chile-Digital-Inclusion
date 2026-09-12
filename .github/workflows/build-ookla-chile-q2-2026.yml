@@ -4,14 +4,10 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 env:
   PYTHONUNBUFFERED: '1'
-
-concurrency:
-  group: ookla-q2-2026
-  cancel-in-progress: true
 
 jobs:
   build:
@@ -83,31 +79,9 @@ jobs:
           print(coverage.to_string(index=False))
           PY
 
-      - name: Promote Q2 release references
+      - name: Validate reproducible release locally
         run: |
           python scripts/promote_ookla_q2_2026.py
           python scripts/build_release_metadata.py
           python scripts/validate_public_release.py
-
-      - name: Commit verified Q2 release
-        run: |
-          set -euo pipefail
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/ookla \
-                  data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv \
-                  data/source_registry.csv \
-                  data/metadata/source_freshness_2026-09-12.csv \
-                  data/metadata/layer_catalog.csv \
-                  data/metadata/release_manifest.csv \
-                  data/metadata/public_release_validation.csv \
-                  assets/dashboard.js \
-                  scripts/validate_public_release.py \
-                  scripts/build_release_metadata.py
-          if git diff --cached --quiet; then
-            echo 'No Q2 release changes to commit'
-            exit 0
-          fi
-          git commit -m 'Promote Ookla Q2 2026 as current release'
-          git pull --rebase origin "$GITHUB_REF_NAME"
-          git push origin HEAD:"$GITHUB_REF_NAME"
+          git diff --stat
