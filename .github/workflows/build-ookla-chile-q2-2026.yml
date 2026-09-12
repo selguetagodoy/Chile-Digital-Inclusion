@@ -1,0 +1,113 @@
+name: Build Ookla Chile Q2 2026
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  PYTHONUNBUFFERED: '1'
+
+concurrency:
+  group: ookla-q2-2026
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install duckdb fiona numpy pyarrow requests shapely pandas geopandas pyogrio
+
+      - name: Build Chile Q2 2026 and Q1 2026 control
+        run: |
+          python scripts/build_ookla_chile_quarter.py \
+            --year 2026 --quarter 2 \
+            --compare-year 2026 --compare-quarter 1
+
+      - name: Validate national outputs
+        run: |
+          python - <<'PY'
+          import csv
+          from pathlib import Path
+          summary = Path('data/ookla/chile_2026q2_summary.csv')
+          comparison = Path('data/ookla/chile_2026q1_vs_2026q2.csv')
+          assert summary.exists() and comparison.exists()
+          with summary.open(encoding='utf-8', newline='') as fh:
+              rows = list(csv.DictReader(fh))
+          assert len(rows) == 2
+          assert {r['network'] for r in rows} == {'fixed', 'mobile'}
+          assert {r['quarter'] for r in rows} == {'2'}
+          for row in rows:
+              assert int(row['tiles']) > 0 and int(row['tests']) > 0
+              assert row['source_url'].endswith(f"2026-04-01_performance_{row['network']}_tiles.parquet")
+          print('National Q2 validated')
+          PY
+
+      - name: Build Q2 communal and regional layers
+        run: python scripts/build_ookla_territorial_q2_2026.py
+
+      - name: Validate territorial outputs
+        run: |
+          python - <<'PY'
+          import pandas as pd
+          comm = pd.read_csv('data/ookla/territorial/chile_2026q2_communes.csv')
+          reg = pd.read_csv('data/ookla/territorial/chile_2026q2_regions.csv')
+          cmpc = pd.read_csv('data/ookla/territorial/chile_2026q1_vs_2026q2_communes.csv')
+          master = pd.read_csv('data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv')
+          coverage = pd.read_csv('data/ookla/territorial/spatial_assignment_coverage_q1_q2.csv')
+          assert set(comm['period']) == {'2026Q2'}
+          assert set(comm['network']) == {'fixed', 'mobile'}
+          assert set(reg['period']) == {'2026Q2'}
+          assert master['comuna'].nunique() == 346
+          assert master.shape[1] == 117, master.shape
+          assert 'ookla_fixed_download_mbps_2026q2' in master.columns
+          assert 'ookla_mobile_download_mbps_2026q2' in master.columns
+          assert 'ookla_fixed_download_delta_pct_q1_to_q2' in master.columns
+          assert 'ookla_mobile_download_delta_pct_q1_to_q2' in master.columns
+          assert set(coverage['period']) == {'2026Q1', '2026Q2'}
+          assert len(cmpc) > 0
+          print('Territorial Q2 validated:', comm.shape, reg.shape, master.shape)
+          print(coverage.to_string(index=False))
+          PY
+
+      - name: Promote Q2 release references
+        run: |
+          python scripts/promote_ookla_q2_2026.py
+          python scripts/build_release_metadata.py
+          python scripts/validate_public_release.py
+
+      - name: Commit verified Q2 release
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/ookla \
+                  data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv \
+                  data/source_registry.csv \
+                  data/metadata/source_freshness_2026-09-12.csv \
+                  data/metadata/layer_catalog.csv \
+                  data/metadata/release_manifest.csv \
+                  data/metadata/public_release_validation.csv \
+                  assets/dashboard.js \
+                  scripts/validate_public_release.py \
+                  scripts/build_release_metadata.py
+          if git diff --cached --quiet; then
+            echo 'No Q2 release changes to commit'
+            exit 0
+          fi
+          git commit -m 'Promote Ookla Q2 2026 as current release'
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin HEAD:"$GITHUB_REF_NAME"

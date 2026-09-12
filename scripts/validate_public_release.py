@@ -14,12 +14,12 @@ MOBILE = ROOT / 'data/mobile_coverage_2025/commune_mobile_network_points_2025_03
 MOBILE_QA = ROOT / 'data/mobile_coverage_2025/spatial_assignment_coverage.csv'
 FIXED = ROOT / 'data/fixed_access_infrastructure/commune_fixed_access_presence.csv'
 FIXED_QA = ROOT / 'data/fixed_access_infrastructure/presence_query_qa.csv'
-FIXED_SUB = ROOT / 'data/fixed_infrastructure_2026/commune_fixed_connections_2026_03.csv'
+FIXED_SUB = ROOT / 'data/fixed_infrastructure_2026/commune_fixed_connections_2026_06.csv'
 FIXED_SUB_QA = ROOT / 'data/fixed_infrastructure_2026/source_match_qa.csv'
 FIXED_SUB_MISSING = ROOT / 'data/fixed_infrastructure_2026/source_not_reported_communes.csv'
 FIXED_SUB_ALIGNMENT = ROOT / 'data/fixed_infrastructure_2026/source_alignment_qa.csv'
-SECTOR = ROOT / 'data/subtel_sector_2026/sector_snapshot_2026q1.csv'
-OOKLA = ROOT / 'data/ookla/chile_2026q1_summary.csv'
+SECTOR = ROOT / 'data/subtel_sector_2026/sector_snapshot_2026q2.csv'
+OOKLA = ROOT / 'data/ookla/chile_2026q2_summary.csv'
 EDU_EST = ROOT / 'data/education_connectivity_2026/aulas_conectadas_2025_establishments.csv'
 EDU_ENRICHED = ROOT / 'data/education_connectivity_2026/aulas_conectadas_2025_establishments_enriched.csv'
 EDU_COMMUNES = ROOT / 'data/education_connectivity_2026/aulas_conectadas_2025_commune_summary.csv'
@@ -42,7 +42,7 @@ REQUIRED_MASTER = {
     'hogares_total', 'hogares_sin_internet_pct', 'hogares_con_internet_fija_pct',
     'mobile_4g_point_records_2025m03', 'mobile_4g_operators_present_2025m03',
     'mobile_5g_point_records_2025m03', 'mobile_5g_operators_present_2025m03',
-    'ookla_fixed_download_mbps_2026q1', 'ookla_mobile_download_mbps_2026q1',
+    'ookla_fixed_download_mbps_2026q2', 'ookla_mobile_download_mbps_2026q2',
     'mineduc_aulas_selected_establishments_2025',
     'mineduc_aulas_waitlist_establishments_2025',
     'mineduc_aulas_selected_rural_establishments_2025',
@@ -53,7 +53,7 @@ REQUIRED_MASTER = {
     'subtel_fixed_connections_total_2026m03',
     'subtel_fixed_connections_residential_2026m03',
     'subtel_fixed_residential_share_pct_2026m03',
-    'subtel_fixed_residential_per_100_censo_households_2026m03',
+    'subtel_fixed_residential_per_100_censo_households_2026m06',
     'subtel_fixed_source_status_2026m03',
     'subtel_fixed_connections_total_2026m06',
     'subtel_fixed_connections_residential_2026m06',
@@ -103,7 +103,7 @@ def main() -> None:
     master_codes = [int(r['comuna']) for r in master]
     results.append(check('master_rows', len(master) == 346, f'{len(master)} commune rows'))
     results.append(check('master_unique_communes', len(set(master_codes)) == 346, f'{len(set(master_codes))} unique commune codes'))
-    results.append(check('master_columns', len(master_fields) == 94, f'{len(master_fields)} variables'))
+    results.append(check('master_columns', len(master_fields) == 117, f'{len(master_fields)} variables'))
     missing_master = sorted(REQUIRED_MASTER - master_fields)
     results.append(check('master_required_fields', not missing_master, f'missing={missing_master}'))
 
@@ -218,11 +218,11 @@ def main() -> None:
     for ref in [
         'chile_digital_inclusion_communes_2026_integrated.csv',
         'chile_communes.geojson',
-        'sector_snapshot_2026q1.csv',
+        'sector_snapshot_2026q2.csv',
         'mobile_5g_operators_present_2025m03',
         'mineduc_aulas_selected_establishments_2025',
         'fixed_access_public_operators_present',
-        'subtel_fixed_residential_per_100_censo_households_2026m03',
+        'subtel_fixed_residential_per_100_censo_households_2026m06',
     ]:
         results.append(check(f'dashboard_reference:{ref}', ref in js, 'dashboard references expected data/field'))
 

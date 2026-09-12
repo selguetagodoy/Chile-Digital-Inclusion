@@ -1,7 +1,7 @@
 const MASTER_INTEGRATED = 'data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv';
 const MASTER_BASE = 'data/communal_master/chile_digital_inclusion_communes_2026.csv';
 const GEO_URL = 'geo/chile_communes.geojson';
-const SECTOR_URL = 'data/subtel_sector_2026/sector_snapshot_2026q1.csv';
+const SECTOR_URL = 'data/subtel_sector_2026/sector_snapshot_2026q2.csv';
 
 const indicators = {
   hogares_sin_internet_pct: { label: 'Hogares sin Internet', unit: '%', digits: 1, higherConcern: true },
@@ -16,11 +16,11 @@ const indicators = {
   mobile_4g_operators_present_2025m03: { label: 'Operadores con registros 4G · mar 2025', unit: ' de 4', digits: 0, higherConcern: false },
   mobile_4g_point_records_2025m03: { label: 'Registros de red 4G · mar 2025', unit: '', digits: 0, higherConcern: false },
   fixed_access_public_operators_present: { label: 'Operadores con trazado RedAcceso público', unit: '', digits: 0, higherConcern: false },
-  subtel_fixed_residential_per_100_censo_households_2026m03: { label: 'Conexiones fijas residenciales por 100 hogares · mar 2026', unit: '', digits: 1, higherConcern: false },
-  ookla_fixed_download_mbps_2026q1: { label: 'Ookla fijo Q1 2026 · descarga', unit: ' Mbps', digits: 1, higherConcern: false },
-  ookla_mobile_download_mbps_2026q1: { label: 'Ookla móvil Q1 2026 · descarga', unit: ' Mbps', digits: 1, higherConcern: false },
-  ookla_fixed_latency_ms_2026q1: { label: 'Ookla fijo Q1 2026 · latencia', unit: ' ms', digits: 1, higherConcern: true },
-  ookla_mobile_latency_ms_2026q1: { label: 'Ookla móvil Q1 2026 · latencia', unit: ' ms', digits: 1, higherConcern: true },
+  subtel_fixed_residential_per_100_censo_households_2026m06: { label: 'Conexiones fijas residenciales por 100 hogares · jun 2026', unit: '', digits: 1, higherConcern: false },
+  ookla_fixed_download_mbps_2026q2: { label: 'Ookla fijo Q2 2026 · descarga', unit: ' Mbps', digits: 1, higherConcern: false },
+  ookla_mobile_download_mbps_2026q2: { label: 'Ookla móvil Q2 2026 · descarga', unit: ' Mbps', digits: 1, higherConcern: false },
+  ookla_fixed_latency_ms_2026q2: { label: 'Ookla fijo Q2 2026 · latencia', unit: ' ms', digits: 1, higherConcern: true },
+  ookla_mobile_latency_ms_2026q2: { label: 'Ookla móvil Q2 2026 · latencia', unit: ' ms', digits: 1, higherConcern: true },
 };
 
 const map = L.map('map', { zoomControl: true }).setView([-33.45, -70.65], 4);
@@ -69,7 +69,7 @@ function formatCompact(value) {
 async function loadMaster() {
   try {
     const rows = await d3.csv(MASTER_INTEGRATED);
-    document.getElementById('data-status').textContent = 'Maestro integrado · Censo/Atlas + SUBTEL 4G/5G/RedAcceso + Mineduc + Ookla Q1 2026';
+    document.getElementById('data-status').textContent = 'Maestro integrado · Censo/Atlas + SUBTEL 4G/5G/RedAcceso + Mineduc + Ookla Q2 2026';
     return rows;
   } catch (err) {
     const rows = await d3.csv(MASTER_BASE);
@@ -237,15 +237,15 @@ function updateDetail(code) {
     ['Aulas seleccionadas rurales', formatInt(d.mineduc_aulas_selected_rural_establishments_2025)],
     ['Aulas lista de espera', formatInt(d.mineduc_aulas_waitlist_establishments_2025)],
     ['Matrícula en seleccionados', formatInt(d.mineduc_aulas_selected_enrollment_2025)],
-    ['Fijo residencial / 100 hogares', formatValue(n(d.subtel_fixed_residential_per_100_censo_households_2026m03), indicators.subtel_fixed_residential_per_100_censo_households_2026m03)],
-    ['Conexiones fijas residenciales', formatInt(d.subtel_fixed_connections_residential_2026m03)],
+    ['Fijo residencial / 100 hogares', formatValue(n(d.subtel_fixed_residential_per_100_censo_households_2026m06), indicators.subtel_fixed_residential_per_100_censo_households_2026m06)],
+    ['Conexiones fijas residenciales', formatInt(d.subtel_fixed_connections_residential_2026m06)],
     ['Operadores RedAcceso público', formatInt(d.fixed_access_public_operators_present)],
     ['Capas RedAcceso públicas', formatInt(d.fixed_access_public_layers_present)],
     ['Trazado RedAcceso publicado', n(d.fixed_access_public_linework_length_km) === null ? 'N/D' : `${Number(d.fixed_access_public_linework_length_km).toLocaleString('es-CL', { maximumFractionDigits: 1 })} km`],
-    ['Ookla fijo', formatValue(n(d.ookla_fixed_download_mbps_2026q1), indicators.ookla_fixed_download_mbps_2026q1)],
-    ['Ookla móvil', formatValue(n(d.ookla_mobile_download_mbps_2026q1), indicators.ookla_mobile_download_mbps_2026q1)],
-    ['Tests fijo', formatInt(d.ookla_fixed_tests_2026q1)],
-    ['Tests móvil', formatInt(d.ookla_mobile_tests_2026q1)],
+    ['Ookla fijo', formatValue(n(d.ookla_fixed_download_mbps_2026q2), indicators.ookla_fixed_download_mbps_2026q2)],
+    ['Ookla móvil', formatValue(n(d.ookla_mobile_download_mbps_2026q2), indicators.ookla_mobile_download_mbps_2026q2)],
+    ['Tests fijo', formatInt(d.ookla_fixed_tests_2026q2)],
+    ['Tests móvil', formatInt(d.ookla_mobile_tests_2026q2)],
   ];
   document.getElementById('detail-grid').innerHTML = items.map(([label, value]) =>
     `<div class="detail-item"><span>${label}</span><strong>${value}</strong></div>`
