@@ -20,13 +20,15 @@ def main():
     fixed['report_validation'] = 'fixed_mean_tests_q1_q2_at_or_above_national_communal_mean'
     mobile['report_validation'] = 'mobile_mean_tests_q1_q2_at_or_above_1000'
     out = pd.concat([fixed, mobile], ignore_index=True)
-    out = out.sort_values(['network','download_delta_pct'], ascending=[True,False], kind='mergesort')
-    out['report_change_rank_desc'] = out.groupby('network')['download_delta_pct'].rank(method='min', ascending=False).astype(int)
-    out['report_change_rank_asc'] = out.groupby('network')['download_delta_pct'].rank(method='min', ascending=True).astype(int)
+    delta_pct = 'delta_pct_download_mbps_test_weighted'
+    delta_abs = 'delta_download_mbps_test_weighted'
+    out = out.sort_values(['network', delta_pct], ascending=[True,False], kind='mergesort')
+    out['report_change_rank_desc'] = out.groupby('network')[delta_pct].rank(method='min', ascending=False).astype(int)
+    out['report_change_rank_asc'] = out.groupby('network')[delta_pct].rank(method='min', ascending=True).astype(int)
     keep = ['commune_code','commune','province','region','network','control_period','control_tests',
             'control_download_mbps_test_weighted','current_period','current_tests',
-            'current_download_mbps_test_weighted','mean_tests_q1_q2','download_delta_mbps',
-            'download_delta_pct','report_change_rank_desc','report_change_rank_asc','report_validation']
+            'current_download_mbps_test_weighted','mean_tests_q1_q2',delta_abs,
+            delta_pct,'report_change_rank_desc','report_change_rank_asc','report_validation']
     out[keep].to_csv(CHANGE_OUT, index=False)
 
     rg = pd.read_csv(REGION_IN)
@@ -40,11 +42,11 @@ def main():
 
     print(f'changes: fixed={len(fixed)} mobile={len(mobile)}')
     for network in ['fixed','mobile']:
-        s = out[out.network == network].sort_values('download_delta_pct', ascending=False)
+        s = out[out.network == network].sort_values(delta_pct, ascending=False)
         print(network, 'improvements')
-        print(s.head(10)[['commune','download_delta_pct','mean_tests_q1_q2']].to_string(index=False))
+        print(s.head(10)[['commune',delta_pct,'mean_tests_q1_q2']].to_string(index=False))
         print(network, 'declines')
-        print(s.tail(10).sort_values('download_delta_pct')[['commune','download_delta_pct','mean_tests_q1_q2']].to_string(index=False))
+        print(s.tail(10).sort_values(delta_pct)[['commune',delta_pct,'mean_tests_q1_q2']].to_string(index=False))
 
 
 if __name__ == '__main__':
