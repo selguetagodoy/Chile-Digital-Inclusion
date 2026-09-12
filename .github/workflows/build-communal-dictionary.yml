@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/build_communal_dictionary.py'
+      - 'scripts/normalize_communal_dictionary.py'
       - 'data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv'
       - 'data/mobile_coverage_2025/commune_mobile_network_points_2025_03.csv'
       - '.github/workflows/build-communal-dictionary.yml'
@@ -32,6 +33,7 @@ jobs:
         run: |
           if [ -f data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv ]; then
             python scripts/build_communal_dictionary.py
+            python scripts/normalize_communal_dictionary.py
             echo 'built=yes' >> "$GITHUB_OUTPUT"
           else
             echo 'Integrated master not present yet; waiting for territorial workflow.'
