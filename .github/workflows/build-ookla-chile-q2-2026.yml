@@ -1,0 +1,97 @@
+name: Build Ookla Chile Q2 2026
+
+on:
+  push:
+    paths:
+      - '.github/workflows/build-ookla-chile-q2-2026.yml'
+      - 'scripts/build_ookla_chile_quarter.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  PYTHONUNBUFFERED: '1'
+
+concurrency:
+  group: main-writers
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install duckdb fiona numpy pyarrow requests shapely
+
+      - name: Build Chile Q2 2026 and Q1 2026 control
+        run: |
+          python scripts/build_ookla_chile_quarter.py \
+            --year 2026 --quarter 2 \
+            --compare-year 2026 --compare-quarter 1
+
+      - name: Validate generated summaries
+        run: |
+          python - <<'PY'
+          import csv
+          from pathlib import Path
+
+          summary = Path('data/ookla/chile_2026q2_summary.csv')
+          comparison = Path('data/ookla/chile_2026q1_vs_2026q2.csv')
+          assert summary.exists(), summary
+          assert comparison.exists(), comparison
+
+          with summary.open(encoding='utf-8', newline='') as fh:
+              rows = list(csv.DictReader(fh))
+          assert len(rows) == 2, len(rows)
+          assert {r['network'] for r in rows} == {'fixed', 'mobile'}
+          assert {r['year'] for r in rows} == {'2026'}
+          assert {r['quarter'] for r in rows} == {'2'}
+          for row in rows:
+              assert int(row['tiles']) > 0
+              assert int(row['tests']) > 0
+              assert row['source_url'].endswith(f"2026-04-01_performance_{row['network']}_tiles.parquet")
+
+          for network in ('fixed', 'mobile'):
+              tile_path = Path(f'data/ookla/chile_2026q2_{network}_tiles.csv')
+              assert tile_path.exists(), tile_path
+              assert tile_path.stat().st_size > 0
+
+          print('Q2 2026 Ookla national build validated:', rows)
+          PY
+
+      - name: Show generated summaries
+        run: |
+          cat data/ookla/chile_2026q2_summary.csv
+          echo
+          cat data/ookla/chile_2026q1_vs_2026q2.csv
+          du -h data/ookla/chile_2026q2_* data/ookla/chile_2026q1_vs_2026q2.csv
+
+      - name: Commit derived Chile data
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/ookla/chile_2026q2_summary.csv \
+                  data/ookla/chile_2026q2_fixed_tiles.csv \
+                  data/ookla/chile_2026q2_mobile_tiles.csv \
+                  data/ookla/chile_2026q1_control_summary.csv \
+                  data/ookla/chile_2026q1_vs_2026q2.csv
+          if git diff --cached --quiet; then
+            echo 'No Q2 changes to commit'
+            exit 0
+          fi
+          git commit -m 'Add Ookla Chile Q2 2026 derived data'
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin HEAD:"$GITHUB_REF_NAME"
