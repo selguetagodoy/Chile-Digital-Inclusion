@@ -44,13 +44,13 @@ jobs:
           PY
       - name: Commit outputs
         run: |
-          if git diff --quiet -- data/ookla/territorial/chile_2026q1_vs_2026q2_change_validation.csv data/ookla/territorial/chile_2026q1_vs_2026q2_test_reference.csv; then
-            echo 'No ranking changes to commit.'
+          git add data/ookla/territorial/chile_2026q1_vs_2026q2_change_validation.csv data/ookla/territorial/chile_2026q1_vs_2026q2_test_reference.csv
+          if git diff --cached --quiet; then
+            echo 'No validation output changes to commit.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/ookla/territorial/chile_2026q1_vs_2026q2_change_validation.csv data/ookla/territorial/chile_2026q1_vs_2026q2_test_reference.csv
           git commit -m 'Build Ookla Q1-Q2 commune change validation'
           git pull --rebase origin main
           git push origin HEAD:main
