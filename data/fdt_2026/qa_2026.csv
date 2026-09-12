@@ -1,0 +1,7 @@
+check,expected,observed,status,note
+q1_project_rows,14,14,pass,Table 1 project rows transcribed from pages 1-2 of the official Q1 2026 national FDT report
+q1_spectrum_obligation_rows,3,3,pass,Table 2 spectrum obligations transcribed separately because they are not subsidized FDT projects
+cpe2011_subsidy_missing,,blank,preserved,The Q1 summary table does not report a subsidy for Conectividad para la Educación 2011; no value is imputed
+aysen_benefit_scope_vintage,21 localities in Q1,33 localities on 2026-08-25,source_changed,The later official adjudication announcement reports a wider/current scope; both vintages are retained and not overwritten
+aysen_funding_precision,8018053000 exact Q1 subsidy,greater than 7600000000 in 2026-08-25 announcement,preserved,The later announcement uses a rounded lower-bound statement; the two source statements are not averaged or reconciled
+fon_status_semantics,implementation/operation progress,service availability enforcement,separate_metrics,Q1 implementation status and August availability compliance measure different concepts and are kept separate

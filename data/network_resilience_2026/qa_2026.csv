@@ -1,0 +1,6 @@
+check,status,note
+approximate_percentages_preserved,pass,Values reported as cerca de or más de retain qualifier fields and are not converted to exact observations
+failure_day_range_preserved,pass,The 14-16 day continuous-failure statement is stored as value_min=14 and value_max=16 with no midpoint
+emergency_snapshot_scope,pass,Emergency observations are event-specific and are not treated as normal-period network availability
+no_complement_inference,pass,The repository does not infer operating share as 100 minus out-of-service share where the source reports only one side
+pre_existing_outage_flag,pass,Caleta El Sauce greater-than-250-day unavailability is explicitly noted as predating the July 2026 emergency

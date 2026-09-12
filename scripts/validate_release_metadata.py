@@ -20,11 +20,15 @@ REQUIRED_CANONICAL = {
     'subtel_microdata_inventory',
     'subtel_segmented_access',
     'subtel_affordability',
-    'subtel_sector_2026q1',
-    'subtel_sector_longitudinal_2026m03',
+    'subtel_sector_2026q2',
+    'subtel_portability_2026q2',
+    'subtel_fdt_projects_2026q1',
+    'subtel_fdt_project_updates_2026',
+    'subtel_network_resilience_2026',
+    'subtel_sector_longitudinal_2026m06',
     'subtel_oti_fixed_speed_2026m01',
     'subtel_mobile_network_2025m03',
-    'subtel_fixed_connections_communal_2026m03',
+    'subtel_fixed_connections_communal_2026m06',
     'subtel_fixed_redacceso_presence',
     'mineduc_aulas_establishments_2025',
     'mineduc_aulas_communal_2025',
@@ -35,6 +39,7 @@ REQUIRED_CANONICAL = {
 
 EXPECTED_NONCANONICAL = {
     'subtel_fixed_redacceso_length_audit',
+    'subtel_fdt_spectrum_obligations_2026q1',
 }
 
 REQUIRED_MANIFEST_PATHS = {
@@ -43,13 +48,17 @@ REQUIRED_MANIFEST_PATHS = {
     'index.html',
     'assets/dashboard.js',
     'data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv',
-    'data/fixed_infrastructure_2026/commune_fixed_connections_2026_03.csv',
-    'data/fixed_infrastructure_2026/source_alignment_qa.csv',
-    'data/fixed_infrastructure_2026/source_row_mapping_2026_03.csv',
+    'data/fixed_infrastructure_2026/commune_fixed_connections_2026_06.csv',
+    'data/fixed_infrastructure_2026/source_alignment_qa_2026_06.csv',
+    'data/fixed_infrastructure_2026/source_row_mapping_2026_06.csv',
     'data/metadata/public_release_validation.csv',
     'data/oti_2026/regional_fixed_speed_2026_01.csv',
-    'docs/subtel_fixed_commune_2026.md',
-    'docs/oti_fixed_speed_2026.md',
+    'data/fdt_2026/fdt_projects_q1_2026.csv',
+    'data/fdt_2026/fdt_project_updates_2026.csv',
+    'data/fdt_2026/spectrum_obligations_q1_2026.csv',
+    'data/network_resilience_2026/network_resilience_observations_2026.csv',
+    'docs/fdt_2026.md',
+    'docs/network_resilience_2026.md',
     'docs/reproducibility.md',
     'docs/communal_master_dictionary.md',
     'geo/chile_communes.geojson',
@@ -59,6 +68,14 @@ REQUIRED_MANIFEST_PATHS = {
 def read_csv(path: Path):
     with path.open(encoding='utf-8-sig', newline='') as fh:
         return list(csv.DictReader(fh))
+
+
+def require_shape(catalog, layer_id: str, rows: int, columns: int | None = None) -> None:
+    item = next(r for r in catalog if r['layer_id'] == layer_id)
+    if int(item['rows']) != rows:
+        raise RuntimeError(f'{layer_id} row mismatch: {item["rows"]} != {rows}')
+    if columns is not None and int(item['columns']) != columns:
+        raise RuntimeError(f'{layer_id} column mismatch: {item["columns"]} != {columns}')
 
 
 def main() -> None:
@@ -85,31 +102,21 @@ def main() -> None:
             'Canonical layer contract changed. '
             f'Missing={sorted(REQUIRED_CANONICAL-canonical)} Extra={sorted(canonical-REQUIRED_CANONICAL)}'
         )
+
     unavailable = [r['layer_id'] for r in catalog if r['canonical'] == 'yes' and r['exists'] != 'yes']
     if unavailable:
         raise RuntimeError(f'Canonical catalog layers unavailable: {unavailable}')
 
-    master = next(r for r in catalog if r['layer_id'] == 'communal_master_2026')
-    if int(master['rows']) != 346 or int(master['columns']) != 89:
-        raise RuntimeError(f'Catalog master shape mismatch: rows={master["rows"]} cols={master["columns"]}')
-
-    fixed_commune = next(r for r in catalog if r['layer_id'] == 'subtel_fixed_connections_communal_2026m03')
-    if int(fixed_commune['rows']) != 346 or int(fixed_commune['columns']) != 13:
-        raise RuntimeError(
-            'SUBTEL fixed commune layer shape mismatch: '
-            f'rows={fixed_commune["rows"]} cols={fixed_commune["columns"]}'
-        )
-
-    longitudinal = next(r for r in catalog if r['layer_id'] == 'subtel_sector_longitudinal_2026m03')
-    if int(longitudinal['rows']) != 2010 or int(longitudinal['columns']) != 9:
-        raise RuntimeError(
-            'SUBTEL longitudinal sector layer shape mismatch: '
-            f'rows={longitudinal["rows"]} cols={longitudinal["columns"]}'
-        )
-
-    oti = next(r for r in catalog if r['layer_id'] == 'subtel_oti_fixed_speed_2026m01')
-    if int(oti['rows']) != 16:
-        raise RuntimeError(f'OTI regional layer must contain 16 regions, found {oti["rows"]}')
+    require_shape(catalog, 'communal_master_2026', 346, 94)
+    require_shape(catalog, 'subtel_sector_2026q2', 60, 9)
+    require_shape(catalog, 'subtel_portability_2026q2', 10, 10)
+    require_shape(catalog, 'subtel_sector_longitudinal_2026m06', 2020, 9)
+    require_shape(catalog, 'subtel_fixed_connections_communal_2026m06', 346, 13)
+    require_shape(catalog, 'subtel_oti_fixed_speed_2026m01', 16, 9)
+    require_shape(catalog, 'subtel_fdt_projects_2026q1', 14, 12)
+    require_shape(catalog, 'subtel_fdt_project_updates_2026', 2, 20)
+    require_shape(catalog, 'subtel_fdt_spectrum_obligations_2026q1', 3, 11)
+    require_shape(catalog, 'subtel_network_resilience_2026', 18, 14)
 
     manifest = read_csv(MANIFEST)
     if len(manifest) < 180:
@@ -130,10 +137,6 @@ def main() -> None:
 
     print('release_metadata PASS')
     print('layers', len(catalog), 'canonical', len(canonical), 'manifest_files', len(manifest))
-    print('master_shape', master['rows'], 'x', master['columns'])
-    print('fixed_commune_shape', fixed_commune['rows'], 'x', fixed_commune['columns'])
-    print('sector_longitudinal_shape', longitudinal['rows'], 'x', longitudinal['columns'])
-    print('oti_regions', oti['rows'])
 
 
 if __name__ == '__main__':
