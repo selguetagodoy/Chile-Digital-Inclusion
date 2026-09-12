@@ -1,0 +1,66 @@
+name: Build Ookla national longitudinal 2024-2026
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_ookla_national_longitudinal_2024_2026.py'
+      - '.github/workflows/build-ookla-national-longitudinal-2024-2026.yml'
+
+concurrency:
+  group: main-writers
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  PYTHONUNBUFFERED: '1'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install duckdb fiona numpy pyarrow requests shapely pandas
+      - name: Build national longitudinal series
+        run: python scripts/build_ookla_national_longitudinal_2024_2026.py
+      - name: Validate series
+        run: |
+          python - <<'PY'
+          import pandas as pd
+          p = 'data/ookla/chile_2024q1_2026q2_longitudinal.csv'
+          df = pd.read_csv(p)
+          assert len(df) == 20, df.shape
+          assert set(df.network) == {'fixed', 'mobile'}
+          assert df.period.nunique() == 10
+          assert set(df.period) == {'2024Q1','2024Q2','2024Q3','2024Q4','2025Q1','2025Q2','2025Q3','2025Q4','2026Q1','2026Q2'}
+          assert (df.tests > 0).all()
+          assert (df.tiles > 0).all()
+          assert df.download_mbps_test_weighted.notna().all()
+          assert df.upload_mbps_test_weighted.notna().all()
+          assert df.latency_ms_test_weighted.notna().all()
+          print(df[['period','network','download_mbps_test_weighted','upload_mbps_test_weighted','latency_ms_test_weighted','tests']].to_string(index=False))
+          PY
+      - name: Commit series
+        run: |
+          git add data/ookla/chile_2024q1_2026q2_longitudinal.csv
+          if git diff --cached --quiet; then
+            echo 'No longitudinal changes to commit.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Build Ookla national longitudinal series 2024-2026'
+          git pull --rebase origin main
+          git push origin HEAD:main
