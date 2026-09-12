@@ -1,0 +1,56 @@
+name: Build Ookla Q1-Q2 commune change validation
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'data/ookla/territorial/chile_2026q1_vs_2026q2_communes.csv'
+      - 'scripts/build_ookla_q1_q2_change_validation.py'
+      - '.github/workflows/build-ookla-q1-q2-change-validation.yml'
+
+concurrency:
+  group: main-writers
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Install dependency
+        run: python -m pip install --disable-pip-version-check pandas
+      - name: Build validation outputs
+        run: python scripts/build_ookla_q1_q2_change_validation.py
+      - name: Validate outputs
+        run: |
+          python - <<'PY'
+          import pandas as pd
+          detail = pd.read_csv('data/ookla/territorial/chile_2026q1_vs_2026q2_change_validation.csv')
+          summary = pd.read_csv('data/ookla/territorial/chile_2026q1_vs_2026q2_test_reference.csv')
+          assert {'fixed','mobile'} == set(summary['network'])
+          assert len(detail) > 600
+          assert detail['mean_tests_q1_q2_reference'].notna().all()
+          assert detail['above_mean_tests_reference'].notna().all()
+          print(summary.to_string(index=False))
+          PY
+      - name: Commit outputs
+        run: |
+          if git diff --quiet -- data/ookla/territorial/chile_2026q1_vs_2026q2_change_validation.csv data/ookla/territorial/chile_2026q1_vs_2026q2_test_reference.csv; then
+            echo 'No ranking changes to commit.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/ookla/territorial/chile_2026q1_vs_2026q2_change_validation.csv data/ookla/territorial/chile_2026q1_vs_2026q2_test_reference.csv
+          git commit -m 'Build Ookla Q1-Q2 commune change validation'
+          git pull --rebase origin main
+          git push origin HEAD:main
