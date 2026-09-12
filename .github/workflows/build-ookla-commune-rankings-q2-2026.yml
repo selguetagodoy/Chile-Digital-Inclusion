@@ -1,0 +1,58 @@
+name: Build Ookla Q2 2026 commune rankings
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_ookla_commune_rankings_q2_2026.py'
+      - 'data/ookla/territorial/chile_2026q2_communes.csv'
+      - '.github/workflows/build-ookla-commune-rankings-q2-2026.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: main-writers
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Install dependency
+        run: pip install pandas
+      - name: Build rankings
+        run: python scripts/build_ookla_commune_rankings_q2_2026.py
+      - name: Validate ranking output
+        run: |
+          python - <<'PY'
+          import pandas as pd
+          p='data/ookla/territorial/chile_2026q2_commune_rankings.csv'
+          df=pd.read_csv(p)
+          assert len(df) == 683, len(df)
+          assert set(df['network']) == {'fixed','mobile'}
+          assert set(df['period']) == {'2026Q2'}
+          for network, part in df.groupby('network'):
+              ranks=part['rank_download_desc'].dropna().astype(int)
+              assert ranks.min() == 1
+              assert ranks.max() <= len(part)
+          print(df.groupby('network').size())
+          PY
+      - name: Commit ranking output
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/ookla/territorial/chile_2026q2_commune_rankings.csv
+          if git diff --cached --quiet; then
+            echo 'No ranking changes to commit'
+            exit 0
+          fi
+          git commit -m 'Publish Ookla Q2 2026 commune rankings'
+          git pull --rebase origin main
+          git push origin HEAD:main
