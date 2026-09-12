@@ -1,13 +1,6 @@
 name: Build Ookla Chile Q2 2026
 
 on:
-  push:
-    branches: [feat/ookla-q2-2026]
-    paths:
-      - '.github/workflows/build-ookla-chile-q2-2026.yml'
-      - 'scripts/build_ookla_chile_quarter.py'
-      - 'scripts/build_ookla_territorial_q2_2026.py'
-      - 'scripts/promote_ookla_q2_2026.py'
   workflow_dispatch:
 
 permissions:
@@ -27,8 +20,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7
-        with:
-          ref: feat/ookla-q2-2026
 
       - name: Set up Python
         uses: actions/setup-python@v7
@@ -118,5 +109,5 @@ jobs:
             exit 0
           fi
           git commit -m 'Promote Ookla Q2 2026 as current release'
-          git pull --rebase origin feat/ookla-q2-2026
-          git push origin HEAD:feat/ookla-q2-2026
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin HEAD:"$GITHUB_REF_NAME"
