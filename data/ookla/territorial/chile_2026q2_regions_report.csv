@@ -1,0 +1,33 @@
+region_code,region,network,control_period,control_tests,control_download_mbps_test_weighted,current_period,current_tests,current_download_mbps_test_weighted,delta_pct_download_mbps_test_weighted,current_latency_ms_test_weighted,q2_speed_rank,q1_q2_change_rank
+1.0,Región de Tarapacá,fixed,2026Q1,8894,412.669,2026Q2,9461,444.943,7.821,24.624,1,7
+15.0,Región de Arica y Parinacota,fixed,2026Q1,4948,440.969,2026Q2,4910,440.62,-0.079,22.26,2,15
+2.0,Región de Antofagasta,fixed,2026Q1,16512,430.212,2026Q2,17063,438.324,1.886,17.499,3,14
+13.0,Región Metropolitana de Santiago,fixed,2026Q1,257810,417.511,2026Q2,279942,435.606,4.334,4.989,4,13
+8.0,Región del Bío-Bío,fixed,2026Q1,31217,410.855,2026Q2,34518,429.249,4.477,9.326,5,12
+4.0,Región de Coquimbo,fixed,2026Q1,20835,396.353,2026Q2,20409,420.378,6.062,11.002,6,11
+5.0,Región de Valparaíso,fixed,2026Q1,55722,392.486,2026Q2,55239,418.137,6.536,7.69,7,10
+10.0,Región de Los Lagos,fixed,2026Q1,17050,374.311,2026Q2,16673,415.379,10.972,11.892,8,4
+3.0,Región de Atacama,fixed,2026Q1,6938,411.644,2026Q2,8703,411.227,-0.101,15.858,9,16
+16.0,Región de Ñuble,fixed,2026Q1,9412,367.46,2026Q2,10630,404.964,10.206,10.449,10,6
+12.0,Región de Magallanes y Antártica Chilena,fixed,2026Q1,2478,332.187,2026Q2,2698,372.31,12.078,45.758,11,3
+6.0,Región del Libertador Bernardo O'Higgins,fixed,2026Q1,23334,344.952,2026Q2,23412,370.893,7.52,7.977,12,8
+7.0,Región del Maule,fixed,2026Q1,23611,344.839,2026Q2,25457,367.951,6.702,9.438,13,9
+9.0,Región de La Araucanía,fixed,2026Q1,24157,330.672,2026Q2,22099,366.7,10.895,13.383,14,5
+14.0,Región de Los Ríos,fixed,2026Q1,9700,288.603,2026Q2,7404,361.202,25.155,13.674,15,2
+11.0,Región de Aysén del Gral.Ibañez del Campo,fixed,2026Q1,1868,250.919,2026Q2,1139,317.169,26.403,18.486,16,1
+13.0,Región Metropolitana de Santiago,mobile,2026Q1,43970,127.788,2026Q2,45052,111.417,-12.811,23.575,1,16
+5.0,Región de Valparaíso,mobile,2026Q1,17791,92.639,2026Q2,13781,101.618,9.692,28.037,2,5
+16.0,Región de Ñuble,mobile,2026Q1,3390,85.207,2026Q2,3872,94.58,11.0,31.878,3,4
+6.0,Región del Libertador Bernardo O'Higgins,mobile,2026Q1,8134,90.156,2026Q2,7386,91.676,1.686,29.398,4,10
+3.0,Región de Atacama,mobile,2026Q1,2345,86.437,2026Q2,2657,91.639,6.018,36.148,5,7
+4.0,Región de Coquimbo,mobile,2026Q1,6097,78.082,2026Q2,5241,84.543,8.275,37.654,6,6
+8.0,Región del Bío-Bío,mobile,2026Q1,8296,83.738,2026Q2,8520,83.932,0.232,33.626,7,11
+10.0,Región de Los Lagos,mobile,2026Q1,5616,74.696,2026Q2,5412,83.773,12.152,42.088,8,2
+15.0,Región de Arica y Parinacota,mobile,2026Q1,1223,77.777,2026Q2,1598,79.611,2.358,55.118,9,9
+9.0,Región de La Araucanía,mobile,2026Q1,8874,76.454,2026Q2,7808,78.754,3.008,39.742,10,8
+14.0,Región de Los Ríos,mobile,2026Q1,3400,67.393,2026Q2,2973,74.875,11.102,45.347,11,3
+7.0,Región del Maule,mobile,2026Q1,8330,83.852,2026Q2,8243,74.216,-11.492,35.705,12,15
+2.0,Región de Antofagasta,mobile,2026Q1,3584,79.889,2026Q2,3858,74.1,-7.246,47.97,13,13
+11.0,Región de Aysén del Gral.Ibañez del Campo,mobile,2026Q1,740,79.023,2026Q2,567,71.328,-9.738,52.84,14,14
+12.0,Región de Magallanes y Antártica Chilena,mobile,2026Q1,483,62.559,2026Q2,765,71.239,13.875,86.731,15,1
+1.0,Región de Tarapacá,mobile,2026Q1,1674,71.905,2026Q2,2190,69.545,-3.282,51.098,16,12
