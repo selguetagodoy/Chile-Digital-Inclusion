@@ -36,12 +36,16 @@ jobs:
           import pandas as pd
           p = 'data/ookla/territorial/chile_2026q2_speed_rankings_validated.csv'
           df = pd.read_csv(p)
+          fixed = df[df.network == 'fixed']
+          mobile = df[df.network == 'mobile']
           assert set(df['network']) == {'fixed', 'mobile'}
-          assert len(df[df.network == 'fixed']) == 83
-          assert len(df[df.network == 'mobile']) == 99
-          assert df['above_mean_tests_reference'].astype(str).str.lower().eq('true').all()
+          assert len(fixed) == 83
+          assert len(mobile) == 25
+          assert fixed['above_mean_tests_reference'].astype(str).str.lower().eq('true').all()
+          assert mobile['mean_tests_q1_q2'].ge(1000).all()
           assert df.groupby('network')['rank_speed_desc_validated'].min().eq(1).all()
           print(df.groupby('network').size())
+          print('mobile minimum mean tests:', mobile['mean_tests_q1_q2'].min())
           PY
       - name: Commit output
         run: |
