@@ -1,0 +1,4 @@
+period,obligation_id,obligation_name,service,adjudication_year,obligation_end,benefit_scope,progress,source_page,source_id,source_url
+2026Q1,spectrum_26ghz,"Concurso 2,6 GHz",Oferta de transmisión de datos (Internet),2012,2043-03,15 regiones; 181 localidades,100% en operación,2,subtel_fdt_2026q1,https://www.subtel.gob.cl/wp-content/uploads/2026/04/Informe_Nacional_1er_Trim_2026.pdf
+2026Q1,spectrum_700mhz,Concurso 700 MHz,Oferta de transmisión de datos (Internet) y telefonía móvil,2014,2045-09,16 regiones; 1.281 localidades; 13 rutas,100% en operación,2,subtel_fdt_2026q1,https://www.subtel.gob.cl/wp-content/uploads/2026/04/Informe_Nacional_1er_Trim_2026.pdf
+2026Q1,spectrum_5g_700mhz,Concurso 5G 700 MHz,Oferta de transmisión de datos (Internet) y telefonía móvil con tecnología LTE Advanced Pro y 5G,2020,30 años,16 regiones; 366 localidades,100% en operación,2,subtel_fdt_2026q1,https://www.subtel.gob.cl/wp-content/uploads/2026/04/Informe_Nacional_1er_Trim_2026.pdf
