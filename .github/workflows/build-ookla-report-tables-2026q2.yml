@@ -1,0 +1,57 @@
+name: Build Ookla Q2 report tables
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/build_ookla_report_tables_2026q2.py'
+      - '.github/workflows/build-ookla-report-tables-2026q2.yml'
+      - 'data/ookla/territorial/chile_2026q1_vs_2026q2_change_validation.csv'
+      - 'data/ookla/territorial/chile_2026q1_vs_2026q2_regions.csv'
+
+concurrency:
+  group: main-writers
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --disable-pip-version-check pandas
+      - name: Build report tables
+        run: python scripts/build_ookla_report_tables_2026q2.py
+      - name: Validate report tables
+        run: |
+          python - <<'PY'
+          import pandas as pd
+          c = pd.read_csv('data/ookla/territorial/chile_2026q1_vs_2026q2_changes_report_validated.csv')
+          r = pd.read_csv('data/ookla/territorial/chile_2026q2_regions_report.csv')
+          assert len(c[c.network == 'fixed']) == 83
+          assert (c[c.network == 'mobile'].mean_tests_q1_q2 >= 1000).all()
+          assert len(r) == 32 and r.region.nunique() == 16
+          assert set(r.network) == {'fixed','mobile'}
+          print(c.groupby('network').size())
+          print(r.groupby('network').size())
+          PY
+      - name: Commit outputs
+        run: |
+          git add data/ookla/territorial/chile_2026q1_vs_2026q2_changes_report_validated.csv data/ookla/territorial/chile_2026q2_regions_report.csv
+          if git diff --cached --quiet; then
+            echo 'No report table changes to commit.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Build Ookla Q2 report tables'
+          git pull --rebase origin main
+          git push origin HEAD:main
