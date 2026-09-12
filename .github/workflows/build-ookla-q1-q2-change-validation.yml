@@ -44,6 +44,7 @@ jobs:
           PY
       - name: Commit outputs
         run: |
+          # Both generated products are tracked release-adjacent analytical outputs.
           git add data/ookla/territorial/chile_2026q1_vs_2026q2_change_validation.csv data/ookla/territorial/chile_2026q1_vs_2026q2_test_reference.csv
           if git diff --cached --quiet; then
             echo 'No validation output changes to commit.'
