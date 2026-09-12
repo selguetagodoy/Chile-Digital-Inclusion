@@ -1,0 +1,33 @@
+source_id: example_source
+publisher: Example Official Publisher
+dataset: Example Dataset
+source_url: https://example.org/data
+source_type: csv
+publication_date: null
+observation_start: null
+observation_end: null
+update_frequency: quarterly
+statistical_unit: household
+geographic_unit: commune
+unit: percent
+denominator_or_weight: households
+license: unknown
+retain_raw: true
+raw_path: data/raw/example_source
+processed_path: data/processed/example_source
+registry_path: data/source_registry.csv
+qa:
+  required_columns: []
+  key_columns: []
+  expected_min_rows: null
+  expected_max_rows: null
+  reconcile_totals: false
+  allow_missing: true
+  reject_duplicates: true
+publication:
+  public: true
+  requires_release_validation: true
+  status: pending_review
+notes: >-
+  Replace every placeholder with verified source information before using this
+  configuration in a production ingestion pipeline.
