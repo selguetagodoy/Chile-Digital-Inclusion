@@ -5,12 +5,12 @@ file:data/mobile_coverage_2025/commune_mobile_network_points_2025_03.csv,PASS,re
 file:data/mobile_coverage_2025/spatial_assignment_coverage.csv,PASS,required public file exists
 file:data/fixed_access_infrastructure/commune_fixed_access_presence.csv,PASS,required public file exists
 file:data/fixed_access_infrastructure/presence_query_qa.csv,PASS,required public file exists
-file:data/fixed_infrastructure_2026/commune_fixed_connections_2026_03.csv,PASS,required public file exists
+file:data/fixed_infrastructure_2026/commune_fixed_connections_2026_06.csv,PASS,required public file exists
 file:data/fixed_infrastructure_2026/source_match_qa.csv,PASS,required public file exists
 file:data/fixed_infrastructure_2026/source_not_reported_communes.csv,PASS,required public file exists
 file:data/fixed_infrastructure_2026/source_alignment_qa.csv,PASS,required public file exists
-file:data/subtel_sector_2026/sector_snapshot_2026q1.csv,PASS,required public file exists
-file:data/ookla/chile_2026q1_summary.csv,PASS,required public file exists
+file:data/subtel_sector_2026/sector_snapshot_2026q2.csv,PASS,required public file exists
+file:data/ookla/chile_2026q2_summary.csv,PASS,required public file exists
 file:data/education_connectivity_2026/aulas_conectadas_2025_establishments.csv,PASS,required public file exists
 file:data/education_connectivity_2026/aulas_conectadas_2025_establishments_enriched.csv,PASS,required public file exists
 file:data/education_connectivity_2026/aulas_conectadas_2025_commune_summary.csv,PASS,required public file exists
@@ -25,7 +25,7 @@ file:assets/dashboard.js,PASS,required public file exists
 file:assets/dashboard.css,PASS,required public file exists
 master_rows,PASS,346 commune rows
 master_unique_communes,PASS,346 unique commune codes
-master_columns,PASS,94 variables
+master_columns,PASS,117 variables
 master_required_fields,PASS,missing=[]
 mobile_rows,PASS,346 commune rows
 mobile_unique_communes,PASS,346 unique commune codes expected
@@ -60,8 +60,8 @@ education_rbd_unmatched,PASS,unmatched=0
 dashboard_dom_contract,PASS,missing_ids=[]
 dashboard_reference:chile_digital_inclusion_communes_2026_integrated.csv,PASS,dashboard references expected data/field
 dashboard_reference:chile_communes.geojson,PASS,dashboard references expected data/field
-dashboard_reference:sector_snapshot_2026q1.csv,PASS,dashboard references expected data/field
+dashboard_reference:sector_snapshot_2026q2.csv,PASS,dashboard references expected data/field
 dashboard_reference:mobile_5g_operators_present_2025m03,PASS,dashboard references expected data/field
 dashboard_reference:mineduc_aulas_selected_establishments_2025,PASS,dashboard references expected data/field
 dashboard_reference:fixed_access_public_operators_present,PASS,dashboard references expected data/field
-dashboard_reference:subtel_fixed_residential_per_100_censo_households_2026m03,PASS,dashboard references expected data/field
+dashboard_reference:subtel_fixed_residential_per_100_censo_households_2026m06,PASS,dashboard references expected data/field
