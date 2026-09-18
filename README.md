@@ -1,5 +1,8 @@
 # Chile Digital Inclusion
 
+**Public dataset landing page:** https://selguetagodoy.github.io/dataset-chile-digital-inclusion.html  
+**Author profile:** https://selguetagodoy.github.io/
+
 Repositorio abierto para analizar inclusión, exclusión y desigualdad digital en Chile a partir de Censo 2024, CASEN 2024, Encuestas de Acceso y Usos de Internet de SUBTEL, estadísticas sectoriales, registros públicos de redes móviles y fijas, conectividad educativa y calidad observada de red.
 
 El proyecto no trata acceso a Internet como sinónimo de inclusión digital. Mantiene separadas la desconexión dura, el tipo de conexión, el equipamiento, las habilidades, los usos funcionales, las desigualdades sociales, la infraestructura territorial y el desempeño de las redes.
