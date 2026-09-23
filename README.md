@@ -1,6 +1,8 @@
 # Chile Digital Inclusion
 
-**Latest release:** [v0.1.0](https://github.com/selguetagodoy/Chile-Digital-Inclusion/releases/tag/v0.1.0) · Zenodo integration enabled
+**Latest release:** [v0.1.0](https://github.com/selguetagodoy/Chile-Digital-Inclusion/releases/tag/v0.1.0) · [Concept DOI: 10.5281/zenodo.22921190](https://doi.org/10.5281/zenodo.22921190) · [Version DOI: 10.5281/zenodo.22921191](https://doi.org/10.5281/zenodo.22921191)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22921190.svg)](https://doi.org/10.5281/zenodo.22921190)
 
 **Public dataset landing page:** https://selguetagodoy.github.io/dataset-chile-digital-inclusion.html  
 **Author:** [Sebastián Elgueta Godoy](https://selguetagodoy.github.io/)  
