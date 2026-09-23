@@ -1,7 +1,8 @@
 # Chile Digital Inclusion
 
 **Public dataset landing page:** https://selguetagodoy.github.io/dataset-chile-digital-inclusion.html  
-**Author profile:** https://selguetagodoy.github.io/
+**Author:** [Sebastián Elgueta Godoy](https://selguetagodoy.github.io/)  
+**Professional profile:** https://selguetagodoy.github.io/bio.html
 
 Repositorio abierto para analizar inclusión, exclusión y desigualdad digital en Chile a partir de Censo 2024, CASEN 2024, Encuestas de Acceso y Usos de Internet de SUBTEL, estadísticas sectoriales, registros públicos de redes móviles y fijas, conectividad educativa y calidad observada de red.
 
@@ -314,7 +315,7 @@ Los datos derivados de Ookla en `data/ookla/` se mantienen bajo los términos de
 
 ## Autor
 
-Sebastian Elgueta Godoy
+**[Sebastián Elgueta Godoy](https://selguetagodoy.github.io/)**  
+Sociología · políticas públicas · telecomunicaciones · infraestructura digital · inclusión digital.
 
-Sociología, políticas públicas, telecomunicaciones e infraestructura digital.
-e.elguetagodoy@gmail.com
+[Investigación](https://selguetagodoy.github.io/investigacion.html) · [Publicaciones](https://selguetagodoy.github.io/publicaciones.html) · [LinkedIn](https://cl.linkedin.com/in/sebastian-elgueta-godoy)
