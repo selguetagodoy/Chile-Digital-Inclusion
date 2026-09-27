@@ -80,6 +80,9 @@
         },
         {
           "@id": "CITATION.md"
+        },
+        {
+          "@id": "citation.csl.json"
         }
       ]
     },
@@ -197,6 +200,12 @@
       "@type": "File",
       "name": "Human-readable citation guide",
       "encodingFormat": "text/markdown"
+    },
+    {
+      "@id": "citation.csl.json",
+      "@type": "File",
+      "name": "CSL-JSON citation metadata",
+      "encodingFormat": "application/vnd.citationstyles.csl+json"
     }
   ]
 }
