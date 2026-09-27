@@ -1,0 +1,26 @@
+[
+  {
+    "id": "https://doi.org/10.5281/zenodo.22921191",
+    "type": "dataset",
+    "title": "Chile Digital Inclusion",
+    "author": [
+      {
+        "family": "Elgueta Godoy",
+        "given": "Sebastián"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          23
+        ]
+      ]
+    },
+    "publisher": "Zenodo",
+    "version": "0.1.0",
+    "DOI": "10.5281/zenodo.22921191",
+    "URL": "https://selguetagodoy.github.io/dataset-chile-digital-inclusion.html"
+  }
+]
