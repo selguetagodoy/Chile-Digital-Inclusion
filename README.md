@@ -3,6 +3,7 @@
 **Latest release:** [v0.1.0](https://github.com/selguetagodoy/Chile-Digital-Inclusion/releases/tag/v0.1.0) · [Concept DOI: 10.5281/zenodo.22921190](https://doi.org/10.5281/zenodo.22921190) · [Version DOI: 10.5281/zenodo.22921191](https://doi.org/10.5281/zenodo.22921191)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22921190.svg)](https://doi.org/10.5281/zenodo.22921190)
+[![Official Source Watch](https://github.com/selguetagodoy/Chile-Digital-Inclusion/actions/workflows/watch-official-sources.yml/badge.svg)](https://github.com/selguetagodoy/Chile-Digital-Inclusion/actions/workflows/watch-official-sources.yml)
 
 **Public dataset landing page:** https://selguetagodoy.github.io/dataset-chile-digital-inclusion.html  
 **Author:** [Sebastián Elgueta Godoy](https://selguetagodoy.github.io/)  
@@ -317,6 +318,12 @@ La presencia de registros 4G/5G no debe convertirse mecánicamente en cobertura.
 La versión pública contiene datos agregados y trazables. No incorpora registros personales, identificadores directos, respuestas abiertas, microdatos originales de encuesta, índices internos ni el Índice de Vulnerabilidad Digital completo.
 
 Los datos derivados de Ookla en `data/ookla/` se mantienen bajo los términos de licencia de la fuente.
+
+## Provenance and source monitoring
+
+The project now documents its canonical evidence hierarchy in [SOURCE_OF_TRUTH.md](SOURCE_OF_TRUTH.md). Source identities are registered in `data/source_registry.csv`; monitored publication endpoints and change-detection rules live in `config/source_watch.csv` and [docs/source_watch.md](docs/source_watch.md).
+
+The existing watcher detects changes in official publication pages but **never promotes new values automatically**. Any update must pass human review for reference period, universe, methodology, unit, precision and vintage compatibility before it can enter a canonical layer.
 
 ## Autor
 
