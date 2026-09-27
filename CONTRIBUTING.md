@@ -4,7 +4,7 @@ Corrections and evidence-backed improvements are welcome. These repositories are
 
 ## Preferred route for data corrections
 
-Use the repository issue form **Data correction / evidence update**. It requires the minimum information needed to reproduce and evaluate a proposed change.
+Use the repository issue form **Evidence-backed correction**. It requires the minimum information needed to reproduce and evaluate a proposed change.
 
 A substantive correction should identify:
 
