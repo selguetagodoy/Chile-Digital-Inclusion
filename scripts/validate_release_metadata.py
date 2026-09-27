@@ -32,8 +32,8 @@ REQUIRED_CANONICAL = {
     'subtel_fixed_redacceso_presence',
     'mineduc_aulas_establishments_2025',
     'mineduc_aulas_communal_2025',
-    'ookla_national_2026q1',
-    'ookla_communal_2026q1',
+    'ookla_national_2026q2',
+    'ookla_communal_2026q2',
     'commune_geography',
 }
 
@@ -107,7 +107,7 @@ def main() -> None:
     if unavailable:
         raise RuntimeError(f'Canonical catalog layers unavailable: {unavailable}')
 
-    require_shape(catalog, 'communal_master_2026', 346, 94)
+    require_shape(catalog, 'communal_master_2026', 346, 117)
     require_shape(catalog, 'subtel_sector_2026q2', 60, 9)
     require_shape(catalog, 'subtel_portability_2026q2', 10, 10)
     require_shape(catalog, 'subtel_sector_longitudinal_2026m06', 2020, 9)
@@ -117,6 +117,8 @@ def main() -> None:
     require_shape(catalog, 'subtel_fdt_project_updates_2026', 2, 20)
     require_shape(catalog, 'subtel_fdt_spectrum_obligations_2026q1', 3, 11)
     require_shape(catalog, 'subtel_network_resilience_2026', 18, 14)
+    require_shape(catalog, 'ookla_national_2026q2', 2, 14)
+    require_shape(catalog, 'ookla_communal_2026q2', 683, 16)
 
     manifest = read_csv(MANIFEST)
     if len(manifest) < 180:
