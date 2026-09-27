@@ -7,6 +7,7 @@
 **Public dataset landing page:** https://selguetagodoy.github.io/dataset-chile-digital-inclusion.html  
 **Author:** [Sebastián Elgueta Godoy](https://selguetagodoy.github.io/)  
 **Professional profile:** https://selguetagodoy.github.io/bio.html
+**Thematic analysis:** [Inclusión y autonomía digital en Chile](https://selguetagodoy.github.io/inclusion-digital.html)
 
 Repositorio abierto para analizar inclusión, exclusión y desigualdad digital en Chile a partir de Censo 2024, CASEN 2024, Encuestas de Acceso y Usos de Internet de SUBTEL, estadísticas sectoriales, registros públicos de redes móviles y fijas, conectividad educativa y calidad observada de red.
 
