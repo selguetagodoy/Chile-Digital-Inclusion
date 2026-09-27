@@ -1,0 +1,45 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "Dataset",
+  "name": "Chile Digital Inclusion",
+  "description": "Open analytical dataset on digital inclusion, household connectivity, broadband, mobile and fixed infrastructure, education connectivity and observed network performance across Chile, with a 346-commune territorial layer.",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Sebastián",
+      "familyName": "Elgueta Godoy",
+      "url": "https://selguetagodoy.github.io/"
+    }
+  ],
+  "creator": [
+    {
+      "@type": "Person",
+      "givenName": "Sebastián",
+      "familyName": "Elgueta Godoy",
+      "url": "https://selguetagodoy.github.io/"
+    }
+  ],
+  "datePublished": "2026",
+  "version": "0.1.0",
+  "identifier": "https://doi.org/10.5281/zenodo.22921191",
+  "url": "https://selguetagodoy.github.io/dataset-chile-digital-inclusion.html",
+  "codeRepository": "https://github.com/selguetagodoy/Chile-Digital-Inclusion",
+  "relatedLink": [
+    "https://selguetagodoy.github.io/atlas-desconexion-digital-chile.html",
+    "https://selguetagodoy.github.io/inclusion-digital.html",
+    "https://doi.org/10.5281/zenodo.22921191"
+  ],
+  "keywords": [
+    "digital inclusion",
+    "digital divide",
+    "Chile",
+    "telecommunications",
+    "broadband",
+    "4G",
+    "5G",
+    "territorial analysis",
+    "public policy",
+    "connectivity"
+  ],
+  "inLanguage": "en"
+}
