@@ -36,7 +36,7 @@ La fuente es Censo 2024 y la capa pública integrada utilizada por el Atlas de l
 
 `data/communal_master/chile_digital_inclusion_communes_2026.csv` es la base estructural de 346 comunas y 38 campos públicos.
 
-`data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv` agrega desempeño Ookla fijo y móvil Q1 2026, variaciones Q4 2025 → Q1 2026, registros públicos SUBTEL 4G/5G de marzo de 2025, presencia de capas públicas RedAcceso, Aulas Conectadas 2025 territorializado por RBD y conexiones fijas administrativas SUBTEL a junio de 2026. Conserva las **346 comunas y contiene 89 variables**.
+`data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv` integra desempeño Ookla fijo y móvil de Q1 y Q2 2026, variaciones Q4 2025 → Q1 2026 y Q1 → Q2 2026, registros públicos SUBTEL 4G/5G de marzo de 2025, presencia de capas públicas RedAcceso, Aulas Conectadas 2025 territorializado por RBD y conexiones fijas administrativas SUBTEL a marzo y junio de 2026. Conserva las **346 comunas y contiene 117 variables**.
 
 La versión pública excluye deliberadamente índices internos, scores, segmentaciones y ponderadores propietarios. El archivo es una base observable para mapas, rankings descriptivos y análisis reproducible; no es el Índice de Vulnerabilidad Digital.
 
@@ -200,16 +200,16 @@ La capa se mantiene a nivel regional y no se replica dentro de las 346 filas del
 
 La metodología y la inconsistencia editorial de fecha presente en la página fuente están documentadas en `docs/oti_fixed_speed_2026.md`.
 
-### Calidad observada — Ookla Q1 2026
+### Calidad observada — Ookla Q1–Q2 2026
 
-El repositorio incorpora Q1 2026 de Chile desde los Parquet oficiales de Ookla Open Data. El pipeline filtra los tiles globales y calcula indicadores nacionales ponderados por número de tests.
+El repositorio incorpora Q1 y Q2 2026 de Chile desde los Parquet oficiales de Ookla Open Data. El pipeline filtra los tiles globales y calcula indicadores nacionales ponderados por número de tests. Q4 2025 se conserva como control comparable para medir el primer cambio trimestral hacia Q1.
 
-| Red | Q4 2025 descarga | Q1 2026 descarga | Δ trimestral | Q1 carga | Q1 latencia |
-|---|---:|---:|---:|---:|
-| Fija | 392,10 Mbps | 397,33 Mbps | +1,33% | 336,12 Mbps | 8,96 ms |
-| Móvil | 105,66 Mbps | 98,87 Mbps | -6,43% | 21,43 Mbps | 33,71 ms |
+| Red | Q1 2026 descarga | Q2 2026 descarga | Δ Q1→Q2 | Q2 carga | Q2 latencia |
+|---|---:|---:|---:|---:|---:|
+| Fija | 397,329 Mbps | 421,067 Mbps | +5,974% | 362,019 Mbps | 8,232 ms |
+| Móvil | 98,869 Mbps | 95,329 Mbps | -3,580% | 21,136 Mbps | 31,869 ms |
 
-`data/ookla/territorial/` lleva la misma lógica al territorio. Q1 2026 contiene **683 filas comuna × red** y **32 filas región × red**. También se reconstruye Q4 2025 con la misma metodología para calcular cambios trimestrales.
+`data/ookla/territorial/` lleva la misma lógica al territorio y publica ambos cortes. Q2 2026 contiene **683 filas comuna × red** y **32 filas región × red**. Los archivos de control preservan Q4 2025 → Q1 2026 y Q1 → Q2 2026 como comparaciones separadas, sin tratarlas como una serie continua ajena a la metodología de cada corte.
 
 La asignación espacial usa el centroide del tile dentro del polígono comunal BCN. El control de cobertura muestra que aproximadamente 99% de los tests queda asignado a una comuna.
 
