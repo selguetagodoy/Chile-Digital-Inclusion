@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - 'index.html'
+      - 'README.md'
       - 'assets/**'
       - 'data/communal_master/**'
       - 'data/mobile_coverage_2025/**'
