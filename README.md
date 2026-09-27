@@ -333,3 +333,10 @@ The existing watcher detects changes in official publication pages but **never p
 Sociología · políticas públicas · telecomunicaciones · infraestructura digital · inclusión digital.
 
 [Investigación](https://selguetagodoy.github.io/investigacion.html) · [Publicaciones](https://selguetagodoy.github.io/publicaciones.html) · [LinkedIn](https://cl.linkedin.com/in/sebastian-elgueta-godoy)
+
+## Related research
+
+- [Atlas de la Desconexión Digital de Chile](https://selguetagodoy.github.io/atlas-desconexion-digital-chile.html) — territorial interpretation of digital exclusion and vulnerability.
+- [Velocidades de Internet](https://selguetagodoy.github.io/dataset-velocidades-internet.html) — longitudinal Internet performance evidence.
+- [Latin America Digital Infrastructure](https://selguetagodoy.github.io/dataset-latin-america-digital-infrastructure.html) — regional infrastructure benchmark.
+
