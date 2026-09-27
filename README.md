@@ -341,6 +341,7 @@ Sociología · políticas públicas · telecomunicaciones · infraestructura dig
 - [CITATION.bib](CITATION.bib) — BibTeX citation
 - [codemeta.json](codemeta.json) — machine-readable research metadata
 - [datapackage.json](datapackage.json) — machine-readable public data resources
+- [PUBLIC_RESOURCES.md](PUBLIC_RESOURCES.md) — human-readable index of declared public resources
 - [NOTICE.md](NOTICE.md) — authorship and third-party reuse boundaries
 - [CHANGELOG.md](CHANGELOG.md) — version history and documented changes
 - [CONTRIBUTING.md](CONTRIBUTING.md) — evidence requirements for corrections and updates
