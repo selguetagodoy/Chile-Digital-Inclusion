@@ -1,0 +1,84 @@
+name: Evidence-backed correction
+description: Report a factual, source, metadata or comparability issue with supporting evidence.
+title: "[Correction] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the research record. Please provide enough evidence to reproduce the correction without inference.
+
+  - type: input
+    id: affected_file
+    attributes:
+      label: Affected file, row or field
+      description: Identify the exact repository location or analytical field.
+      placeholder: data/example.csv · row/commune/market · field_name
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_issue
+    attributes:
+      label: What appears to be incorrect?
+      description: State the current value, text, source reference or methodological treatment and why it should be reviewed.
+    validations:
+      required: true
+
+  - type: input
+    id: source_url
+    attributes:
+      label: Primary or authoritative source
+      description: Provide the exact public URL, DOI or persistent identifier.
+      placeholder: https://...
+    validations:
+      required: true
+
+  - type: input
+    id: reference_period
+    attributes:
+      label: Publication date and reference period
+      placeholder: Published YYYY-MM-DD · reference period YYYY/Q#/month
+    validations:
+      required: true
+
+  - type: textarea
+    id: universe_unit
+    attributes:
+      label: Universe, geography, unit and precision
+      description: Explain the statistical universe and measurement unit needed to interpret the proposed correction.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: evidence_type
+    attributes:
+      label: Evidence type
+      options:
+        - Direct published observation
+        - Administrative record
+        - Official statistical estimate
+        - Derived value reproducible from published inputs
+        - Proxy
+        - Metadata or documentation correction
+    validations:
+      required: true
+
+  - type: textarea
+    id: comparability
+    attributes:
+      label: Effect on comparability
+      description: Does the correction change a series, methodology, territorial definition, universe or historical vintage?
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Evidence checklist
+      options:
+        - label: I checked the original source rather than relying only on a screenshot, snippet or secondary summary.
+          required: true
+        - label: I am not proposing silent interpolation, extrapolation or overwriting of an earlier vintage.
+          required: true
+        - label: I identified any source-specific attribution or reuse requirements that may apply.
+          required: true
