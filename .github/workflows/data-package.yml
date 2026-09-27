@@ -1,0 +1,40 @@
+name: Data Package Integrity
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "geo/**"
+      - "sources.csv"
+      - "datapackage.json"
+      - "scripts/validate_datapackage.py"
+      - ".github/workflows/data-package.yml"
+  pull_request:
+    paths:
+      - "data/**"
+      - "geo/**"
+      - "sources.csv"
+      - "datapackage.json"
+      - "scripts/validate_datapackage.py"
+      - ".github/workflows/data-package.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: data-package-integrity-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+      - name: Validate Data Package integrity
+        run: python scripts/validate_datapackage.py
