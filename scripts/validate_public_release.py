@@ -33,6 +33,7 @@ INDEX = ROOT / 'index.html'
 JS = ROOT / 'assets/dashboard.js'
 CSS = ROOT / 'assets/dashboard.css'
 REPORT = ROOT / 'data/metadata/public_release_validation.csv'
+README = ROOT / 'README.md'
 
 EXPECTED_FIXED_SOURCE_BLANK = {12202}  # Antártica: explicit blank in the official March-2026 source block.
 EXPECTED_GEO_MISSING = {12202}  # Antártica: absent from the BCN commune polygon layer used here.
@@ -93,7 +94,7 @@ def main() -> None:
         FIXED_SUB, FIXED_SUB_QA, FIXED_SUB_MISSING, FIXED_SUB_ALIGNMENT,
         SECTOR, OOKLA, EDU_EST, EDU_ENRICHED, EDU_COMMUNES, EDU_QA,
         FDT_PROJECTS, FDT_UPDATES, FDT_QA, RESILIENCE, RESILIENCE_QA,
-        INDEX, JS, CSS,
+        INDEX, JS, CSS, README,
     ]
     for path in required_files:
         results.append(check(f'file:{path}', path.exists(), 'required public file exists'))
@@ -104,6 +105,12 @@ def main() -> None:
     results.append(check('master_rows', len(master) == 346, f'{len(master)} commune rows'))
     results.append(check('master_unique_communes', len(set(master_codes)) == 346, f'{len(set(master_codes))} unique commune codes'))
     results.append(check('master_columns', len(master_fields) == 117, f'{len(master_fields)} variables'))
+    readme = README.read_text(encoding='utf-8')
+    results.append(check(
+        'readme_master_column_count',
+        f'{len(master_fields)} variables' in readme,
+        f'README must state current integrated-master width: {len(master_fields)} variables',
+    ))
     missing_master = sorted(REQUIRED_MASTER - master_fields)
     results.append(check('master_required_fields', not missing_master, f'missing={missing_master}'))
 
@@ -187,6 +194,14 @@ def main() -> None:
     ookla = read_csv(OOKLA)
     networks = {r['network'] for r in ookla}
     results.append(check('ookla_networks', networks == {'fixed', 'mobile'}, f'networks={sorted(networks)}'))
+    latest_ookla_year = max(int(r['year']) for r in ookla)
+    latest_ookla_quarter = max(int(r['quarter']) for r in ookla if int(r['year']) == latest_ookla_year)
+    latest_ookla_label = f'Q{latest_ookla_quarter} {latest_ookla_year}'
+    results.append(check(
+        'readme_latest_ookla_period',
+        latest_ookla_label in readme,
+        f'README must mention latest Ookla cut: {latest_ookla_label}',
+    ))
 
     edu = read_csv(EDU_EST)
     edu_rbd = [r['rbd'] for r in edu]
