@@ -344,6 +344,7 @@ Sociología · políticas públicas · telecomunicaciones · infraestructura dig
 - [NOTICE.md](NOTICE.md) — authorship and third-party reuse boundaries
 - [CHANGELOG.md](CHANGELOG.md) — version history and documented changes
 - [CONTRIBUTING.md](CONTRIBUTING.md) — evidence requirements for corrections and updates
+- [RELEASE_POLICY.md](RELEASE_POLICY.md) — versioning and Zenodo archival policy
 
 ## Related research
 
