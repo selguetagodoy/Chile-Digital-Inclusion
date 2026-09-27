@@ -334,6 +334,14 @@ Sociología · políticas públicas · telecomunicaciones · infraestructura dig
 
 [Investigación](https://selguetagodoy.github.io/investigacion.html) · [Publicaciones](https://selguetagodoy.github.io/publicaciones.html) · [LinkedIn](https://cl.linkedin.com/in/sebastian-elgueta-godoy)
 
+
+## Citation and metadata
+
+- [CITATION.cff](CITATION.cff) — GitHub/academic citation metadata
+- [CITATION.bib](CITATION.bib) — BibTeX citation
+- [codemeta.json](codemeta.json) — machine-readable research metadata
+- [NOTICE.md](NOTICE.md) — authorship and third-party reuse boundaries
+
 ## Related research
 
 - [Atlas de la Desconexión Digital de Chile](https://selguetagodoy.github.io/atlas-desconexion-digital-chile.html) — territorial interpretation of digital exclusion and vulnerability.
