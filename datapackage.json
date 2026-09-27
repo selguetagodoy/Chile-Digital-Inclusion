@@ -46,8 +46,8 @@
       "path": "data/metadata/release_manifest.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 44454,
-      "git_blob_sha": "8a5970b6fb43bc0cfe5f378d5f5b6dc0f349aa19"
+      "bytes": 44562,
+      "git_blob_sha": "017f1eb7b626cf40254ba793c9fdae0d7f546a36"
     },
     {
       "name": "source-registry",
