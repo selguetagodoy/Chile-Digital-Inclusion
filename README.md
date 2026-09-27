@@ -341,6 +341,7 @@ Sociología · políticas públicas · telecomunicaciones · infraestructura dig
 
 ## Citation and metadata
 
+- [CITATION.md](CITATION.md) — copy-ready human citation guide
 - [CITATION.cff](CITATION.cff) — GitHub/academic citation metadata
 - [CITATION.bib](CITATION.bib) — BibTeX citation
 - [codemeta.json](codemeta.json) — machine-readable research metadata
