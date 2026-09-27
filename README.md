@@ -340,6 +340,7 @@ Sociología · políticas públicas · telecomunicaciones · infraestructura dig
 - [CITATION.cff](CITATION.cff) — GitHub/academic citation metadata
 - [CITATION.bib](CITATION.bib) — BibTeX citation
 - [codemeta.json](codemeta.json) — machine-readable research metadata
+- [datapackage.json](datapackage.json) — machine-readable public data resources
 - [NOTICE.md](NOTICE.md) — authorship and third-party reuse boundaries
 - [CHANGELOG.md](CHANGELOG.md) — version history and documented changes
 - [CONTRIBUTING.md](CONTRIBUTING.md) — evidence requirements for corrections and updates
