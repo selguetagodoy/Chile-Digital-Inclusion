@@ -16,6 +16,7 @@ Use the **version DOI** when citing the exact archived snapshot above. Use the *
 
 - [CITATION.cff](CITATION.cff)
 - [CITATION.bib](CITATION.bib)
+- [citation.csl.json](citation.csl.json)
 - [codemeta.json](codemeta.json)
 - [datapackage.json](datapackage.json)
 - [ro-crate-metadata.json](ro-crate-metadata.json)
