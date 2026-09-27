@@ -77,6 +77,9 @@
         },
         {
           "@id": "geo/chile_communes.geojson"
+        },
+        {
+          "@id": "CITATION.md"
         }
       ]
     },
@@ -188,6 +191,12 @@
       "name": "commune-geometries",
       "encodingFormat": "application/geo+json",
       "contentSize": "8692983 B"
+    },
+    {
+      "@id": "CITATION.md",
+      "@type": "File",
+      "name": "Human-readable citation guide",
+      "encodingFormat": "text/markdown"
     }
   ]
 }
