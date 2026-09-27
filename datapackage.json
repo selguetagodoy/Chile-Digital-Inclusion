@@ -21,49 +21,65 @@
       "name": "communal-master-integrated",
       "path": "data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv",
       "format": "csv",
-      "mediatype": "text/csv"
+      "mediatype": "text/csv",
+      "bytes": 261368,
+      "git_blob_sha": "1dcd748da69be09279b0c084b561a2afa1fb2083"
     },
     {
       "name": "communal-master-dictionary",
       "path": "data/metadata/communal_master_dictionary.csv",
       "format": "csv",
-      "mediatype": "text/csv"
+      "mediatype": "text/csv",
+      "bytes": 41651,
+      "git_blob_sha": "6e7a540c4c658c081600292e94f598c3cd69afff"
     },
     {
       "name": "layer-catalog",
       "path": "data/metadata/layer_catalog.csv",
       "format": "csv",
-      "mediatype": "text/csv"
+      "mediatype": "text/csv",
+      "bytes": 7928,
+      "git_blob_sha": "dfab1f61feb50f8323f7c310d9f1f21fd6ef231d"
     },
     {
       "name": "release-manifest",
       "path": "data/metadata/release_manifest.csv",
       "format": "csv",
-      "mediatype": "text/csv"
+      "mediatype": "text/csv",
+      "bytes": 44454,
+      "git_blob_sha": "8a5970b6fb43bc0cfe5f378d5f5b6dc0f349aa19"
     },
     {
       "name": "source-registry",
       "path": "data/source_registry.csv",
       "format": "csv",
-      "mediatype": "text/csv"
+      "mediatype": "text/csv",
+      "bytes": 3689,
+      "git_blob_sha": "9ffaf8c23e9ad8b14a8fd17e35e256f0932ac1d1"
     },
     {
       "name": "ookla-national-2026q2",
       "path": "data/ookla/chile_2026q2_summary.csv",
       "format": "csv",
-      "mediatype": "text/csv"
+      "mediatype": "text/csv",
+      "bytes": 849,
+      "git_blob_sha": "798204d7f0c1c3ab04e0bb2538e0741f04c88d15"
     },
     {
       "name": "ookla-communal-2026q2",
       "path": "data/ookla/territorial/chile_2026q2_communes.csv",
       "format": "csv",
-      "mediatype": "text/csv"
+      "mediatype": "text/csv",
+      "bytes": 109134,
+      "git_blob_sha": "fdf80eb96777fcb65468a74270236e6a3c21079e"
     },
     {
       "name": "commune-geometries",
       "path": "geo/chile_communes.geojson",
       "format": "geojson",
-      "mediatype": "application/geo+json"
+      "mediatype": "application/geo+json",
+      "bytes": 8692983,
+      "git_blob_sha": "423a083fcebede497053237cf82b9bed9e77599f"
     }
   ]
 }
