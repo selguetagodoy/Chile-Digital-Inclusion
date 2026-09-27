@@ -2,6 +2,8 @@
 
 ![Research project header](assets/research-card.svg)
 
+[![Data Package Integrity](https://github.com/selguetagodoy/Chile-Digital-Inclusion/actions/workflows/data-package.yml/badge.svg)](https://github.com/selguetagodoy/Chile-Digital-Inclusion/actions/workflows/data-package.yml)
+
 **Latest release:** [v0.1.0](https://github.com/selguetagodoy/Chile-Digital-Inclusion/releases/tag/v0.1.0) · [Concept DOI: 10.5281/zenodo.22921190](https://doi.org/10.5281/zenodo.22921190) · [Version DOI: 10.5281/zenodo.22921191](https://doi.org/10.5281/zenodo.22921191)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22921190.svg)](https://doi.org/10.5281/zenodo.22921190)
