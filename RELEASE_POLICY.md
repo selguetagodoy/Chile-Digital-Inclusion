@@ -37,3 +37,16 @@ Historical citable snapshots are not silently rewritten. A newer working branch 
 ## Third-party source rights
 
 Versioning this repository does not relicense upstream data. Source-specific attribution, reuse restrictions and licensing continue to apply as documented in `NOTICE.md`, source registries and original publisher terms.
+
+## Zenodo metadata source
+
+GitHub releases should use `CITATION.cff` as the primary repository metadata source for Zenodo archiving.
+
+Do **not** add a `.zenodo.json` file unless the project requires Zenodo-specific fields that CFF cannot express, such as grants, communities or other repository-specific overrides. Zenodo gives `.zenodo.json` precedence over `CITATION.cff`; adding it would therefore change the metadata source used for future archived releases.
+
+Before creating a new release:
+
+- confirm that `CITATION.cff` contains the intended title, author, citable version, release date, version DOI and canonical landing page;
+- confirm that `codemeta.json`, `CITATION.bib`, `datapackage.json` and `ro-crate-metadata.json` remain aligned;
+- archive only a deliberate versioned release;
+- verify the resulting Zenodo record after publication.
