@@ -1,0 +1,69 @@
+{
+  "profile": "data-package",
+  "name": "chile-digital-inclusion",
+  "title": "Chile Digital Inclusion",
+  "description": "Public analytical data package for digital inclusion, connectivity and telecommunications infrastructure in Chile.",
+  "version": "0.1.0",
+  "homepage": "https://selguetagodoy.github.io/dataset-chile-digital-inclusion.html",
+  "contributors": [
+    {
+      "title": "Sebastián Elgueta Godoy",
+      "role": "author",
+      "path": "https://selguetagodoy.github.io/"
+    }
+  ],
+  "citation": {
+    "concept_doi": "https://doi.org/10.5281/zenodo.22921190",
+    "version_doi": "https://doi.org/10.5281/zenodo.22921191"
+  },
+  "resources": [
+    {
+      "name": "communal-master-integrated",
+      "path": "data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "communal-master-dictionary",
+      "path": "data/metadata/communal_master_dictionary.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "layer-catalog",
+      "path": "data/metadata/layer_catalog.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "release-manifest",
+      "path": "data/metadata/release_manifest.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "source-registry",
+      "path": "data/source_registry.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "ookla-national-2026q2",
+      "path": "data/ookla/chile_2026q2_summary.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "ookla-communal-2026q2",
+      "path": "data/ookla/territorial/chile_2026q2_communes.csv",
+      "format": "csv",
+      "mediatype": "text/csv"
+    },
+    {
+      "name": "commune-geometries",
+      "path": "geo/chile_communes.geojson",
+      "format": "geojson",
+      "mediatype": "application/geo+json"
+    }
+  ]
+}
