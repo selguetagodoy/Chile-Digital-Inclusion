@@ -23,9 +23,11 @@ file:data/network_resilience_2026/qa_2026.csv,PASS,required public file exists
 file:index.html,PASS,required public file exists
 file:assets/dashboard.js,PASS,required public file exists
 file:assets/dashboard.css,PASS,required public file exists
+file:README.md,PASS,required public file exists
 master_rows,PASS,346 commune rows
 master_unique_communes,PASS,346 unique commune codes
 master_columns,PASS,117 variables
+readme_master_column_count,PASS,README must state current integrated-master width: 117 variables
 master_required_fields,PASS,missing=[]
 mobile_rows,PASS,346 commune rows
 mobile_unique_communes,PASS,346 unique commune codes expected
@@ -48,6 +50,7 @@ geo_codes_in_master,PASS,345 geometry codes found in master
 geo_expected_missing_commune,PASS,missing=[12202] expected=[12202] (Antártica only)
 sector_required_indicators,PASS,missing=[]
 ookla_networks,PASS,"networks=['fixed', 'mobile']"
+readme_latest_ookla_period,PASS,README must mention latest Ookla cut: Q2 2026
 education_program_records,PASS,793 program records
 education_unique_rbd,PASS,793 unique RBD
 education_selected,PASS,700 selected establishments
