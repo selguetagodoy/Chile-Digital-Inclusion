@@ -2,6 +2,7 @@ const MASTER_INTEGRATED = 'data/communal_master/chile_digital_inclusion_communes
 const MASTER_BASE = 'data/communal_master/chile_digital_inclusion_communes_2026.csv';
 const GEO_URL = 'geo/chile_communes.geojson';
 const SECTOR_URL = 'data/subtel_sector_2026/sector_snapshot_2026q2.csv';
+const AGE_USE_URL = 'data/subtel_longitudinal/subtel_internet_use_by_age_2025.csv';
 
 const indicators = {
   hogares_sin_internet_pct: { label: 'Hogares sin Internet', unit: '%', digits: 1, higherConcern: true },
@@ -31,6 +32,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 let master = [];
 let sector = [];
+let ageUse = [];
 let byCode = new Map();
 let geoLayer;
 let selectedIndicator = 'hogares_sin_internet_pct';
@@ -84,6 +86,49 @@ async function loadSector() {
   } catch (err) {
     console.warn('No se pudo cargar el snapshot sectorial SUBTEL', err);
     return [];
+  }
+}
+
+async function loadAgeUse() {
+  try {
+    return await d3.csv(AGE_USE_URL);
+  } catch (err) {
+    console.warn('No se pudo cargar el uso de Internet por edad SUBTEL 2025', err);
+    return [];
+  }
+}
+
+function renderAgeUse() {
+  const container = document.getElementById('age-use-bars');
+  const gapEl = document.getElementById('age-use-gap');
+  if (!container || !gapEl) return;
+
+  const rows = ageUse
+    .map(d => ({ ...d, age_order: Number(d.age_order), daily_use_pct: n(d.daily_use_pct) }))
+    .filter(d => d.daily_use_pct !== null)
+    .sort((a, b) => d3.ascending(a.age_order, b.age_order));
+
+  if (!rows.length) {
+    container.innerHTML = '<div class="age-empty">Sin datos disponibles</div>';
+    gapEl.textContent = 'N/D';
+    return;
+  }
+
+  container.innerHTML = rows.map(d => `
+    <div class="age-row">
+      <span class="age-label">${d.age_group}</span>
+      <div class="age-track" aria-hidden="true"><span class="age-fill" style="width:${d.daily_use_pct}%"></span></div>
+      <strong>${d.daily_use_pct.toLocaleString('es-CL', { minimumFractionDigits: 1, maximumFractionDigits: 1 })}%</strong>
+    </div>
+  `).join('');
+
+  const age3044 = rows.find(d => d.age_group === '30-44');
+  const age60 = rows.find(d => d.age_group === '60+');
+  if (age3044 && age60) {
+    const gap = age3044.daily_use_pct - age60.daily_use_pct;
+    gapEl.textContent = `${gap.toLocaleString('es-CL', { minimumFractionDigits: 1, maximumFractionDigits: 1 })} pp`;
+  } else {
+    gapEl.textContent = 'N/D';
   }
 }
 
@@ -292,15 +337,17 @@ function setupSearch() {
 
 async function init() {
   try {
-    const [rows, geojson, sectorRows] = await Promise.all([loadMaster(), d3.json(GEO_URL), loadSector()]);
+    const [rows, geojson, sectorRows, ageRows] = await Promise.all([loadMaster(), d3.json(GEO_URL), loadSector(), loadAgeUse()]);
     master = rows;
     sector = sectorRows;
+    ageUse = ageRows;
     byCode = new Map(master.map(d => [Number(d.comuna), d]));
     window.__geojson = geojson;
     populateIndicatorSelect();
     setupSearch();
     updateKPIs();
     updateSectorKPIs();
+    renderAgeUse();
     renderMap(geojson);
     renderRanking();
     const first = master.find(d => d.comuna_nombre === 'Santiago') || master[0];

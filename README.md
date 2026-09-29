@@ -71,6 +71,10 @@ El acceso pagado del hogar aumenta desde 70,2% en 2015 hasta 96,6% en 2025. El a
 
 Los hogares compuestos solo por personas mayores pasan de 54,6% de acceso en 2017 a 83,2% en 2025. La serie de habilidades 2023–2025 muestra que la expansión del acceso no elimina las diferencias de autonomía digital.
 
+En 2025, el uso diario de Internet también muestra una diferencia etaria: **96,9%** entre 16–29 años, **97,0%** entre 30–44, **90,9%** entre 45–59 y **74,4%** entre personas de 60 años o más. La diferencia entre 30–44 y 60+ alcanza **22,6 puntos porcentuales**. Este indicador corresponde a uso personal en los últimos tres meses y se mantiene separado de las medidas de acceso del hogar.
+
+El corte está publicado en `data/subtel_longitudinal/subtel_internet_use_by_age_2025.csv` y documentado en `docs/subtel_internet_use_by_age_2025.md`.
+
 Los archivos curados están en `data/subtel_longitudinal/`.
 
 ### SUBTEL — acceso segmentado

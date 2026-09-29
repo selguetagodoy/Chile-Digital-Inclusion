@@ -17,6 +17,7 @@ REQUIRED_CANONICAL = {
     'casen_national_2024',
     'casen_macrozone_2024',
     'subtel_longitudinal_access',
+    'subtel_internet_use_by_age_2025',
     'subtel_microdata_inventory',
     'subtel_segmented_access',
     'subtel_affordability',
@@ -108,6 +109,7 @@ def main() -> None:
         raise RuntimeError(f'Canonical catalog layers unavailable: {unavailable}')
 
     require_shape(catalog, 'communal_master_2026', 346, 117)
+    require_shape(catalog, 'subtel_internet_use_by_age_2025', 4, 10)
     require_shape(catalog, 'subtel_sector_2026q2', 60, 9)
     require_shape(catalog, 'subtel_portability_2026q2', 10, 10)
     require_shape(catalog, 'subtel_sector_longitudinal_2026m06', 2020, 9)

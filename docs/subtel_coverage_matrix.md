@@ -11,6 +11,7 @@ Este repositorio distingue tres niveles de procesamiento: series longitudinales 
 | Urbano / rural | Sí | Sí | Sí | Sí | Sí | Sí | Armonizado con notas |
 | Dispositivos del hogar | Sí | Sí | Sí | Sí | Sí | Sí | Armonizado con cambios de categorías |
 | Frecuencia de uso | Sí | Sí | Parcial | Sí | Sí | Sí | Quiebre de ventana desde 2024 |
+| Frecuencia de uso por edad | No | No | No | No | No | Sí | Corte etario publicado para uso diario en 2025 |
 | Hogares solo de personas mayores | No | No | Sí | Sí | Sí | Sí | Serie descriptiva |
 | Habilidades digitales | No | No | No | Sí | Sí | Sí | Serie comparable reciente |
 | Habilidades por edad | No | No | No | No | No | Sí | Disponible 2025 |
@@ -62,7 +63,7 @@ La clasificación automática sirve para encontrar preguntas candidatas. No conv
 
 El núcleo de acceso territorial está cerrado para las seis olas principales. Lo que permanece abierto corresponde a armonizaciones temáticas más exigentes, no a falta de extracción de microdatos:
 
-1. uso de Internet por edad y sexo con definición homogénea de usuario
+1. armonización longitudinal de uso de Internet por edad y sexo; el corte etario 2025 de uso diario ya está publicado por separado
 2. banca, pagos y Estado digital en series largas
 3. seguridad, privacidad, fraude y percepción de protección
 4. calidad y satisfacción percibida
@@ -77,4 +78,4 @@ Las bases SAV oficiales se descargan durante GitHub Actions y no se almacenan co
 
 Una variable entra en una serie longitudinal solo cuando pregunta, universo, período de recuerdo y categorías son suficientemente comparables. En caso contrario se conserva como evidencia de una ola específica.
 
-Última revisión: 2026-08-13.
+Última revisión: 2026-09-29.

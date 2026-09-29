@@ -1,0 +1,5 @@
+reference_year,survey_wave,age_group,age_order,daily_use_pct,reference_window,question_id,indicator,source_page,source_url
+2025,XII,16-29,1,96.9,last_3_months,Q10,Uso de Internet todos los días,46,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Informe-Final-Acceso-y-Uso-Internet-2025_03.pdf
+2025,XII,30-44,2,97.0,last_3_months,Q10,Uso de Internet todos los días,46,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Informe-Final-Acceso-y-Uso-Internet-2025_03.pdf
+2025,XII,45-59,3,90.9,last_3_months,Q10,Uso de Internet todos los días,46,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Informe-Final-Acceso-y-Uso-Internet-2025_03.pdf
+2025,XII,60+,4,74.4,last_3_months,Q10,Uso de Internet todos los días,46,https://www.subtel.gob.cl/wp-content/uploads/2026/02/Informe-Final-Acceso-y-Uso-Internet-2025_03.pdf

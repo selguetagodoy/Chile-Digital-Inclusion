@@ -54,6 +54,20 @@ main { max-width: 1440px; margin: 0 auto; padding: 28px clamp(16px, 4vw, 56px) 6
 .section-heading > p { max-width: 620px; margin: 0; color: var(--muted); font-size: 13px; line-height: 1.5; }
 .sector-kpis .card { border-top: 3px solid var(--accent); }
 
+.age-panel { margin-bottom: 18px; }
+.age-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(220px, .32fr); gap: 24px; padding: 20px; align-items: stretch; }
+.age-bars { display: grid; gap: 14px; align-content: center; }
+.age-row { display: grid; grid-template-columns: 64px minmax(0, 1fr) 58px; gap: 12px; align-items: center; }
+.age-label { font-size: 13px; font-weight: 750; }
+.age-row strong { text-align: right; font-variant-numeric: tabular-nums; }
+.age-track { height: 15px; background: var(--accent-soft); border-radius: 999px; overflow: hidden; }
+.age-fill { display: block; height: 100%; background: var(--accent); border-radius: inherit; }
+.age-callout { border-left: 1px solid var(--line); padding: 10px 6px 10px 22px; display: flex; flex-direction: column; justify-content: center; }
+.age-callout span { color: var(--muted); font-size: 11px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; }
+.age-callout strong { margin-top: 5px; font-size: clamp(34px, 5vw, 58px); letter-spacing: -.04em; }
+.age-callout p { margin: 4px 0 0; color: var(--muted); font-size: 12px; line-height: 1.45; }
+.age-empty { color: var(--muted); font-size: 13px; }
+
 .toolbar { display: flex; gap: 14px; align-items: end; justify-content: space-between; margin: 18px 0 14px; flex-wrap: wrap; }
 .toolbar-group { display: flex; gap: 12px; align-items: end; flex-wrap: wrap; }
 label { display: block; font-size: 12px; font-weight: 700; color: var(--muted); margin-bottom: 6px; }
@@ -101,6 +115,8 @@ td.value-cell { text-align: right; font-variant-numeric: tabular-nums; font-weig
 }
 @media (max-width: 720px) {
   .section-heading { align-items: flex-start; flex-direction: column; }
+  .age-layout { grid-template-columns: 1fr; }
+  .age-callout { border-left: 0; border-top: 1px solid var(--line); padding: 18px 0 0; }
 }
 @media (max-width: 620px) {
   .kpis { grid-template-columns: 1fr; }

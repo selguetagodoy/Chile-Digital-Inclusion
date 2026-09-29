@@ -9,6 +9,7 @@ Esta capa armoniza indicadores publicados en las Encuestas de Acceso y Usos de I
 - `data/subtel_longitudinal/subtel_household_digital_access_2015_2025.csv`
 - `data/subtel_longitudinal/subtel_household_devices_2015_2025.csv`
 - `data/subtel_longitudinal/subtel_internet_use_frequency_2015_2025.csv`
+- `data/subtel_longitudinal/subtel_internet_use_by_age_2025.csv`
 - `data/subtel_longitudinal/subtel_older_households_access_2017_2025.csv`
 - `data/subtel_longitudinal/subtel_digital_skills_2023_2025.csv`
 
@@ -25,6 +26,8 @@ Las formas de acceso se expresan como porcentaje del total de hogares. Por efect
 ### Frecuencia de uso
 
 Las mediciones 2015, 2016, 2017 y 2023 utilizan una ventana de referencia de doce meses. En 2024 la encuesta cambia a una ventana de tres meses. Por ello, el indicador de uso diario de 2024 y 2025 debe compararse con cautela respecto de las olas anteriores.
+
+Para 2025 se incorpora además un corte etario de la categoría “todos los días”: 96,9% en 16–29, 97,0% en 30–44, 90,9% en 45–59 y 74,4% en 60+. Es un corte transversal de personas de 16 años o más y no una serie longitudinal por edad.
 
 ### Personas mayores
 
@@ -46,4 +49,4 @@ La serie no debe resumirse en un único índice. El aumento del acceso puede coe
 
 Subsecretaría de Telecomunicaciones de Chile, Encuestas de Acceso y Usos de Internet. Catálogo oficial: `data/subtel_survey_catalog.csv`.
 
-Última revisión: 2026-08-13.
+Última revisión: 2026-09-29.
