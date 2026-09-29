@@ -38,8 +38,16 @@
       "path": "data/metadata/layer_catalog.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 7928,
-      "git_blob_sha": "dfab1f61feb50f8323f7c310d9f1f21fd6ef231d"
+      "bytes": 8258,
+      "git_blob_sha": "43b509f1631ee106f3825e44aa0484d40ddfbeba"
+    },
+    {
+      "name": "subtel-internet-use-by-age-2025",
+      "path": "data/subtel_longitudinal/subtel_internet_use_by_age_2025.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 825,
+      "git_blob_sha": "9120b757db810d3a25973eb50e620fb8d4440b34"
     },
     {
       "name": "source-registry",
