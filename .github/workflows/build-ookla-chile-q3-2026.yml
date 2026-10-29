@@ -1,0 +1,100 @@
+name: Build and publish Ookla Chile Q3 2026
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/build-ookla-chile-q3-2026.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: main-writers
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install duckdb fiona numpy pyarrow requests shapely pandas geopandas pyogrio
+      - name: Build national Q3 and Q2-Q3 comparison
+        run: |
+          python scripts/build_ookla_chile_quarter.py --year 2026 --quarter 3 --compare-year 2026 --compare-quarter 2
+      - name: Build Q3 communal and regional data
+        run: python scripts/build_ookla_territorial_q3_2026.py
+      - name: Build Q3 commune rankings
+        run: python scripts/build_ookla_commune_rankings_q3_2026.py
+      - name: Append Q3 to the 2024Q1-2026Q2 longitudinal series
+        run: python scripts/append_ookla_q3_longitudinal.py
+      - name: Validate derived Q3 files
+        run: |
+          python - <<'PY'
+          import pandas as pd
+          summary = pd.read_csv('data/ookla/chile_2026q3_summary.csv')
+          comm = pd.read_csv('data/ookla/territorial/chile_2026q3_communes.csv')
+          reg = pd.read_csv('data/ookla/territorial/chile_2026q3_regions.csv')
+          cmp = pd.read_csv('data/ookla/territorial/chile_2026q2_vs_2026q3_communes.csv')
+          coverage = pd.read_csv('data/ookla/territorial/spatial_assignment_coverage_q2_q3.csv')
+          master = pd.read_csv('data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv')
+          assert len(summary) == 2 and set(summary.network) == {'fixed','mobile'}
+          assert set(summary.quarter) == {3} and summary.tests.min() > 0
+          assert all('quarter=3' in u for u in summary.source_url)
+          assert set(comm.period) == {'2026Q3'}
+          assert set(comm.network) == {'fixed','mobile'} and 600 <= len(comm) <= 700
+          assert set(reg.period) == {'2026Q3'} and len(reg) == 32
+          assert len(cmp) > 0 and set(coverage.period) == {'2026Q2','2026Q3'}
+          assert master.comuna.nunique() == 346 and master.shape == (346, 140), master.shape
+          assert set(master.ookla_period) == {'2026Q3'}
+          for n in ('fixed','mobile'):
+            assert f'ookla_{n}_download_mbps_2026q2' in master.columns
+            assert f'ookla_{n}_download_mbps_2026q3' in master.columns
+            assert f'ookla_{n}_download_delta_pct_q2_to_q3' in master.columns
+          print('Q3 QA PASS', len(comm), len(reg), master.shape)
+          PY
+      - name: Promote new quarter without modifying historical cuts
+        run: python scripts/promote_ookla_q3_2026.py
+      - name: Build release metadata
+        run: python scripts/build_release_metadata.py
+      - name: Update Data Package resource hashes
+        run: python scripts/refresh_ookla_datapackage.py
+      - name: Validate public release, dashboard and Data Package
+        run: |
+          node --check assets/dashboard.js
+          python scripts/validate_datapackage.py
+          python scripts/validate_public_release.py
+          python scripts/validate_release_metadata.py
+          python scripts/build_release_metadata.py
+          python scripts/refresh_ookla_datapackage.py
+          python scripts/validate_release_metadata.py
+      - name: Commit published Q3 output
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md assets/dashboard.js datapackage.json \
+            docs/communal_master_dictionary.md \
+            data/ookla data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv \
+            data/metadata/communal_master_dictionary.csv \
+            data/metadata/layer_catalog.csv data/metadata/release_manifest.csv \
+            data/metadata/public_release_validation.csv \
+            scripts/validate_public_release.py scripts/validate_release_metadata.py scripts/build_release_metadata.py
+          if git diff --cached --quiet; then
+            echo 'No derived Q3 changes'
+          else
+            git commit -m 'Publish Ookla Chile Q3 2026 national and territorial data'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
