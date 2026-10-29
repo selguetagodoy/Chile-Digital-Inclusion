@@ -57,8 +57,9 @@ s = p.read_text(encoding="utf-8")
 s = s.replace("data/ookla/chile_2026q2_summary.csv", "data/ookla/chile_2026q3_summary.csv")
 s = s.replace("len(master_fields) == 117", "len(master_fields) == 140")
 needle = "    'ookla_fixed_download_mbps_2026q2', 'ookla_mobile_download_mbps_2026q2',"
-assert needle in s
-s = s.replace(needle, needle + "\n    'ookla_fixed_download_mbps_2026q3', 'ookla_mobile_download_mbps_2026q3',")
+if "    'ookla_fixed_download_mbps_2026q3', 'ookla_mobile_download_mbps_2026q3'," not in s:
+    assert needle in s
+    s = s.replace(needle, needle + "\n    'ookla_fixed_download_mbps_2026q3', 'ookla_mobile_download_mbps_2026q3',")
 p.write_text(s, encoding="utf-8")
 
 p = Path("scripts/build_release_metadata.py")
@@ -77,14 +78,14 @@ s = s.replace("ookla_communal_2026q2", "ookla_communal_2026q3")
 s = s.replace("require_shape(catalog, 'communal_master_2026', 346, 117)",
               "require_shape(catalog, 'communal_master_2026', 346, 140)")
 needle = "    require_shape(catalog, 'ookla_communal_2026q3', 683, 16)"
-assert needle in s
+# Idempotent migration: a prior run may have already replaced this validator.
 replacement = (
     "    q3_n = len(read_csv(Path('data/ookla/territorial/chile_2026q3_communes.csv')))\n"
     "    if not 600 <= q3_n <= 700:\n"
     "        raise RuntimeError(f'Unexpected Q3 commune-network rows: {q3_n}')\n"
     "    require_shape(catalog, 'ookla_communal_2026q3', q3_n, 16)"
 )
-p.write_text(s.replace(needle, replacement), encoding="utf-8")
+p.write_text(s.replace(needle, replacement) if needle in s else s, encoding="utf-8")
 
 with Path("data/ookla/chile_2026q3_summary.csv").open(encoding="utf-8", newline="") as f:
     summary = list(csv.DictReader(f))
