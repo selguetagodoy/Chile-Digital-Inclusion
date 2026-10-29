@@ -198,7 +198,7 @@ def main() -> None:
     q3_regions.to_csv(OUT / "chile_2026q3_regions.csv", index=False)
     comp_communes.to_csv(OUT / "chile_2026q2_vs_2026q3_communes.csv", index=False)
     comp_regions.to_csv(OUT / "chile_2026q2_vs_2026q3_regions.csv", index=False)
-    pd.DataFrame(coverage_rows).to_csv(OUT / "spatial_assignment_coverage_q1_q2.csv", index=False)
+    pd.DataFrame(coverage_rows).to_csv(OUT / "spatial_assignment_coverage_q2_q3.csv", index=False)
 
     integrated = update_master(q3_communes, comp_communes)
     integrated.to_csv(MASTER, index=False)
