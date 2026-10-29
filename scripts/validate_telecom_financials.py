@@ -19,7 +19,7 @@ NUMERIC = (
     "ebit_clp_mm", "net_income_clp_mm", "reported_leverage_ratio_x",
 )
 GRAINS = {"Q1", "Q2", "Q3", "Q4", "H1", "9M", "FY"}
-LATEST_CUTOFF = date(2026, 10, 29)
+LATEST_CUTOFF = date.today()
 
 
 def check():
