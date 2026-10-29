@@ -221,6 +221,16 @@ La asignación espacial usa el centroide del tile dentro del polígono comunal B
 
 Ookla mide desempeño donde existieron tests. Complementa, pero no reemplaza, las fuentes de acceso, adopción e infraestructura.
 
+### Economía sectorial — ingresos, EBITDA y CAPEX (2024–2026)
+
+`data/economics/telecom_financials_2024_2026.csv` incorpora **17 observaciones financieras** de Entel, GTD, WOM, América Móvil/ClaroVTR y Mundo, basadas en reportes de emisores, estados financieros, comunicados reproducidos y un informe de clasificación de riesgo. Contiene períodos históricos 2024, 2025 y hasta septiembre de 2026, según disponibilidad.
+
+La capa registra ingresos, EBITDA, margen, CAPEX, EBIT, resultado neto y una razón de apalancamiento reportada cuando están comprobados. **El perímetro es obligatorio**: Entel Chile y WOM no deben confundirse con GTD consolidado (internacional) ni con el Cono Sur de América Móvil (Chile, Paraguay y Uruguay). Mundo usa EBITDA ajustado por S&P y WOM informa EBITDA ajustado empresarial. Una celda vacía representa **no disponible / no verificado**, no cero.
+
+Los resultados son **empresa o grupo × período × perímetro**, no datos comunales: **no se añaden a las 346 comunas** ni se agregan como si representaran los ingresos totales del mercado chileno. La tabla pública del dashboard presenta últimos cortes por perímetro o todos los períodos; cada observación conserva enlace directo a su evidencia.
+
+**Datos y metodología:** [CSV económico-financiero](data/economics/telecom_financials_2024_2026.csv) · [Diccionario, metodología y fuentes](data/economics/README.md) · [Validador](scripts/validate_telecom_financials.py). Ejecución local: `python scripts/validate_telecom_financials.py`. La capa está en `main` y no reemplaza retrospectivamente el snapshot citable de Zenodo indicado en este README.
+
 ## Dashboard
 
 El repositorio incluye una interfaz estática en:
