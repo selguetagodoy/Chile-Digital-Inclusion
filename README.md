@@ -208,18 +208,26 @@ La metodología y la inconsistencia editorial de fecha presente en la página fu
 
 ### Calidad observada — Ookla Q1–Q3 2026
 
-El repositorio incorpora Q1 y Q2 2026 de Chile desde los Parquet oficiales de Ookla Open Data. El pipeline filtra los tiles globales y calcula indicadores nacionales ponderados por número de tests. Q4 2025 se conserva como control comparable para medir el primer cambio trimestral hacia Q1.
+El repositorio incorpora Q1, Q2 y Q3 2026 de Chile desde los Parquet oficiales de Ookla Open Data. El pipeline filtra los tiles globales y calcula indicadores nacionales ponderados por número de tests. Q4 2025 se conserva como control comparable para medir el primer cambio trimestral hacia Q1.
 
-| Red | Q1 2026 descarga | Q2 2026 descarga | Δ Q1→Q2 | Q2 carga | Q2 latencia |
-|---|---:|---:|---:|---:|---:|
-| Fija | 397,329 Mbps | 421,067 Mbps | +5,974% | 362,019 Mbps | 8,232 ms |
-| Móvil | 98,869 Mbps | 95,329 Mbps | -3,580% | 21,136 Mbps | 31,869 ms |
+| Red | Q1 descarga | Q2 descarga | Q3 descarga | Δ Q2→Q3 | Q3 carga | Q3 latencia |
+|---|---:|---:|---:|---:|---:|---:|
+| Fija | 397,329 Mbps | 421,067 Mbps | **422,733 Mbps** | +0,396% | 364,356 Mbps | 9,281 ms |
+| Móvil | 98,869 Mbps | 95,329 Mbps | **90,920 Mbps** | −4,625% | 20,343 Mbps | 36,679 ms |
 
-`data/ookla/territorial/` lleva la misma lógica al territorio y publica ambos cortes. Q2 2026 contiene **683 filas comuna × red** y **32 filas región × red**. Los archivos de control preservan Q4 2025 → Q1 2026 y Q1 → Q2 2026 como comparaciones separadas, sin tratarlas como una serie continua ajena a la metodología de cada corte.
+`data/ookla/territorial/` lleva la misma lógica al territorio y publica ambos cortes. Q2 contiene **683 filas comuna × red**; Q3 contiene **681 filas comuna × red** y **32 filas región × red**. Los indicadores Q3 del maestro utilizan la misma ventana julio–septiembre de 2026. Los archivos de control preservan Q4 2025 → Q1 2026 y Q1 → Q2 2026 como comparaciones separadas, sin tratarlas como una serie continua ajena a la metodología de cada corte.
 
 La asignación espacial usa el centroide del tile dentro del polígono comunal BCN. El control de cobertura muestra que aproximadamente 99% de los tests queda asignado a una comuna.
 
 Ookla mide desempeño donde existieron tests. Complementa, pero no reemplaza, las fuentes de acceso, adopción e infraestructura.
+
+### Inteligencia estratégica sectorial — competencia, resiliencia y nuevos negocios (2026)
+
+`data/sector_strategy_2026/` incorpora una capa derivada y trazable de **10 cruces de operador × servicio** (cuotas, conexiones y tráfico de junio 2025–2026), **6 cruces comunales de Coquimbo** (interrupciones oficiales de agosto con Ookla Q3 y Censo/SUBTEL) y **14 registros de acontecimientos oficiales** (5G privado industrial, FDT, cumplimiento, seguridad física y resiliencia). Incluye **14 controles de calidad** con resultado PASS.
+
+La comparación de tráfico y conexiones no constituye ARPU ni evaluación de rentabilidad. Las interrupciones de antenas son fotografías de emergencia y **no prueban causalidad** con la velocidad observada durante Q3. La banda 2.300–2.360 MHz representa **60 MHz totales**, es decir **20 MHz adicionales** al rango anterior; los pilotos industriales no son contratos realizados. El registro de portabilidad permanece en Q2 2026 hasta obtener un cierre Q3 oficial verificable.
+
+**Datos, reglas y fuentes:** [Inteligencia estratégica 2026](data/sector_strategy_2026/README.md) · [Cuotas, conexiones y tráfico](data/sector_strategy_2026/operator_market_traffic_bridge_2025_2026.csv) · [Resiliencia y Ookla Coquimbo](data/sector_strategy_2026/coquimbo_resilience_ookla_q3_2026.csv) · [Eventos oficiales](data/sector_strategy_2026/official_strategic_events_2026.csv) · [QA](data/sector_strategy_2026/qa_summary.csv).
 
 ### Economía sectorial — ingresos, EBITDA y CAPEX (2024–2026)
 
