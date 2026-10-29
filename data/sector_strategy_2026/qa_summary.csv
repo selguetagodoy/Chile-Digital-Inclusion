@@ -1,0 +1,15 @@
+check,status,detail
+market_rows,PASS,10 operator-service records
+service_grains,PASS,5 mobile internet plus 5 fixed internet operators
+unique_market_keys,PASS,unique operator per service
+net_adds_arithmetic,PASS,all yearly connection differences reconcile
+share_pp_arithmetic,PASS,all share point differences match rounded source
+gb_traffic_arithmetic,PASS,"monthly TB divided by June access, decimal 1000"
+outage_communes,PASS,six unique communes with post-event outage observation
+outage_source_dates,PASS,official August snapshot preserved
+dual_threshold_check,PASS,three-condition screen recomputed
+official_events,PASS,14 curated records
+events_unique,PASS,unique event metric IDs
+official_event_links,PASS,all source links are SUBTEL official URLs
+events_chronology,PASS,no post-cutoff future events
+private_band_delta,PASS,60 MHz total and 20 MHz newly added
