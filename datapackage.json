@@ -38,8 +38,8 @@
       "path": "data/metadata/layer_catalog.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 8258,
-      "git_blob_sha": "2b8ed5edd738a47edd7b4bcfc28a2df6796a9486"
+      "bytes": 9333,
+      "git_blob_sha": "3a8f3f7a1df9efc37c5aca323a38495d16643850"
     },
     {
       "name": "subtel-internet-use-by-age-2025",
@@ -88,6 +88,30 @@
       "mediatype": "text/csv",
       "bytes": 6944,
       "git_blob_sha": "4115830c8c9830efd4e15a71e3a11e72ab59c53f"
+    },
+    {
+      "name": "telecom-operator-market-traffic-2025-2026",
+      "path": "data/sector_strategy_2026/operator_market_traffic_bridge_2025_2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 3291,
+      "git_blob_sha": "e022fec5b42d8630de26ccc67b3b5d767afba16c"
+    },
+    {
+      "name": "telecom-resilience-quality-coquimbo-2026q3",
+      "path": "data/sector_strategy_2026/coquimbo_resilience_ookla_q3_2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 2905,
+      "git_blob_sha": "2b026a04e062ab3c5c6f3bc5c526d46697fdf17f"
+    },
+    {
+      "name": "telecom-official-strategic-events-2026",
+      "path": "data/sector_strategy_2026/official_strategic_events_2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 5574,
+      "git_blob_sha": "1f3d73f15bc520d043ae8acb05b4685030608397"
     }
   ]
 }
