@@ -54,8 +54,8 @@
       "path": "data/source_registry.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 3689,
-      "git_blob_sha": "9ffaf8c23e9ad8b14a8fd17e35e256f0932ac1d1"
+      "bytes": 4460,
+      "git_blob_sha": "d756b0c86c9fc2d47f3ca069da66f16f832cc14a"
     },
     {
       "name": "ookla-national-2026q3",
@@ -80,6 +80,14 @@
       "mediatype": "application/geo+json",
       "bytes": 8692983,
       "git_blob_sha": "423a083fcebede497053237cf82b9bed9e77599f"
+    },
+    {
+      "name": "telecom-financials-2024-2026",
+      "path": "data/economics/telecom_financials_2024_2026.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 6944,
+      "git_blob_sha": "4115830c8c9830efd4e15a71e3a11e72ab59c53f"
     }
   ]
 }
