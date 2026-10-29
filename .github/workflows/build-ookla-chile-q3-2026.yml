@@ -5,6 +5,11 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/build-ookla-chile-q3-2026.yml'
+      - 'scripts/build_ookla_territorial_q3_2026.py'
+      - 'scripts/build_ookla_commune_rankings_q3_2026.py'
+      - 'scripts/promote_ookla_q3_2026.py'
+      - 'scripts/append_ookla_q3_longitudinal.py'
+      - 'scripts/refresh_ookla_datapackage.py'
   workflow_dispatch:
 
 permissions:
