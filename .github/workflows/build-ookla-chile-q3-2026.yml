@@ -100,6 +100,7 @@ jobs:
             echo 'No derived Q3 changes'
           else
             git commit -m 'Publish Ookla Chile Q3 2026 national and territorial data'
-            git pull --rebase origin main
+            git fetch origin main
+            git merge --no-edit -X ours origin/main
             git push origin HEAD:main
           fi
