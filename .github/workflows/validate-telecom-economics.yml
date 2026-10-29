@@ -1,0 +1,26 @@
+name: Validate telecom economics dataset
+
+on:
+  push:
+    paths:
+      - 'data/economics/**'
+      - 'scripts/validate_telecom_financials.py'
+      - '.github/workflows/validate-telecom-economics.yml'
+  pull_request:
+    paths:
+      - 'data/economics/**'
+      - 'scripts/validate_telecom_financials.py'
+      - '.github/workflows/validate-telecom-economics.yml'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate financial dataset
+        run: python scripts/validate_telecom_financials.py
