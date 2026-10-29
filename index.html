@@ -75,6 +75,49 @@
 
     <div class="section-heading">
       <div>
+        <p class="eyebrow dark">Economía sectorial</p>
+        <h2>Ingresos, EBITDA e inversión · 2024–2026</h2>
+      </div>
+      <p>Resultados financieros publicados por empresas y clasificadoras. Cada dato conserva su perímetro geográfico, período y definición contable; no representa necesariamente un resultado exclusivo de Chile.</p>
+    </div>
+
+    <section class="panel finance-panel" aria-label="Indicadores económico-financieros de operadores de telecomunicaciones">
+      <div class="panel-header finance-header">
+        <div>
+          <h2>Resultados por operador y alcance de reporte</h2>
+          <p>Montos en millones de pesos chilenos corrientes. N/D significa dato no verificado; no significa cero.</p>
+        </div>
+        <div>
+          <label for="finance-filter">Corte publicado</label>
+          <select id="finance-filter">
+            <option value="latest">Último período por perímetro</option>
+            <option value="all">Todos los períodos disponibles</option>
+          </select>
+        </div>
+      </div>
+      <div class="finance-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>Empresa y ámbito</th>
+              <th>Período</th>
+              <th class="finance-num">Ingresos (MM$)</th>
+              <th class="finance-num">EBITDA (MM$)</th>
+              <th class="finance-num">Margen</th>
+              <th class="finance-num">CAPEX (MM$)</th>
+              <th>Documento</th>
+            </tr>
+          </thead>
+          <tbody id="finance-body">
+            <tr><td colspan="7">Cargando resultados financieros documentados…</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="finance-footnote">No sumar períodos acumulados con trimestres que ya contienen. GTD consolidado incluye operaciones internacionales, América Móvil Cono Sur incluye Chile, Paraguay y Uruguay, WOM publica EBITDA ajustado y Mundo presenta EBITDA ajustado por S&amp;P. El detalle metodológico está en <a href="data/economics/README.md">economía de operadores</a>.</p>
+    </section>
+
+    <div class="section-heading">
+      <div>
         <p class="eyebrow dark">Uso efectivo</p>
         <h2>Uso diario de Internet por edad · 2025</h2>
       </div>
