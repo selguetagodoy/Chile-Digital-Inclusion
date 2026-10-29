@@ -2,14 +2,6 @@ name: Deploy Chile Digital Inclusion Pages
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/deploy-pages.yml'
-  workflow_run:
-    workflows:
-      - 'Build and publish Ookla Chile Q3 2026'
-    types: [completed]
 
 permissions:
   contents: read
@@ -22,7 +14,6 @@ concurrency:
 
 jobs:
   deploy:
-    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
