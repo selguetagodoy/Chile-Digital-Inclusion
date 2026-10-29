@@ -2,7 +2,7 @@ path,file_type,bytes,rows,columns,sha256
 CITATION.cff,cff,1213,,,fdd6c8906c10496e1a0504b1a106427bb08c9af35ed64980f74b3779dcddc263
 README.md,md,28570,,,315196e7e0036447b791f3c37d654b0f02cebc1ed949135bb5c22de5e85d6992
 assets/dashboard.css,css,6038,,,0de91a9c3ca03b29b9af7a5159a4dadc1c09e6514f2fdef9e24d9a67b7bcc774
-assets/dashboard.js,js,16789,,,16a92d066f4698629ec9f354bf859e2d1df99f6aa187c8f4231179dd7915f44b
+assets/dashboard.js,js,20402,,,ddf99560688eb5c34049161d2a263489c6bceadd53249bd625d7ea1e28775337
 data/affordability/README.md,md,2601,,,6a9c27b8d5a4673b02e8ef9e24b27261c2a88dd3f90837b132cbc6e614485060
 data/affordability/affordability_mapping_manifest.csv,csv,634,3,9,d2e215a2dcbe595804b1cf7ec2017ef396bc4216ac0bc1dca47fa401c4f90e55
 data/affordability/candidate_variables_2023_2025.csv,csv,63105,165,14,03a17a5928436ce768c40c58fddc2c5ce10b1744d7204fcbad5d5797ad49c468
