@@ -19,10 +19,10 @@ const indicators = {
   mobile_4g_point_records_2025m03: { label: 'Registros de red 4G · mar 2025', unit: '', digits: 0, higherConcern: false },
   fixed_access_public_operators_present: { label: 'Operadores con trazado RedAcceso público', unit: '', digits: 0, higherConcern: false },
   subtel_fixed_residential_per_100_censo_households_2026m06: { label: 'Conexiones fijas residenciales por 100 hogares · jun 2026', unit: '', digits: 1, higherConcern: false },
-  ookla_fixed_download_mbps_2026q3: { label: 'Ookla fijo Q2 2026 · descarga', unit: ' Mbps', digits: 1, higherConcern: false },
-  ookla_mobile_download_mbps_2026q3: { label: 'Ookla móvil Q2 2026 · descarga', unit: ' Mbps', digits: 1, higherConcern: false },
-  ookla_fixed_latency_ms_2026q3: { label: 'Ookla fijo Q2 2026 · latencia', unit: ' ms', digits: 1, higherConcern: true },
-  ookla_mobile_latency_ms_2026q3: { label: 'Ookla móvil Q2 2026 · latencia', unit: ' ms', digits: 1, higherConcern: true },
+  ookla_fixed_download_mbps_2026q3: { label: 'Ookla fijo Q3 2026 · descarga', unit: ' Mbps', digits: 1, higherConcern: false },
+  ookla_mobile_download_mbps_2026q3: { label: 'Ookla móvil Q3 2026 · descarga', unit: ' Mbps', digits: 1, higherConcern: false },
+  ookla_fixed_latency_ms_2026q3: { label: 'Ookla fijo Q3 2026 · latencia', unit: ' ms', digits: 1, higherConcern: true },
+  ookla_mobile_latency_ms_2026q3: { label: 'Ookla móvil Q3 2026 · latencia', unit: ' ms', digits: 1, higherConcern: true },
 };
 
 const map = L.map('map', { zoomControl: true }).setView([-33.45, -70.65], 4);
