@@ -19,7 +19,7 @@ FIXED_SUB_QA = ROOT / 'data/fixed_infrastructure_2026/source_match_qa.csv'
 FIXED_SUB_MISSING = ROOT / 'data/fixed_infrastructure_2026/source_not_reported_communes.csv'
 FIXED_SUB_ALIGNMENT = ROOT / 'data/fixed_infrastructure_2026/source_alignment_qa.csv'
 SECTOR = ROOT / 'data/subtel_sector_2026/sector_snapshot_2026q2.csv'
-OOKLA = ROOT / 'data/ookla/chile_2026q2_summary.csv'
+OOKLA = ROOT / 'data/ookla/chile_2026q3_summary.csv'
 EDU_EST = ROOT / 'data/education_connectivity_2026/aulas_conectadas_2025_establishments.csv'
 EDU_ENRICHED = ROOT / 'data/education_connectivity_2026/aulas_conectadas_2025_establishments_enriched.csv'
 EDU_COMMUNES = ROOT / 'data/education_connectivity_2026/aulas_conectadas_2025_commune_summary.csv'
@@ -44,6 +44,7 @@ REQUIRED_MASTER = {
     'mobile_4g_point_records_2025m03', 'mobile_4g_operators_present_2025m03',
     'mobile_5g_point_records_2025m03', 'mobile_5g_operators_present_2025m03',
     'ookla_fixed_download_mbps_2026q2', 'ookla_mobile_download_mbps_2026q2',
+    'ookla_fixed_download_mbps_2026q3', 'ookla_mobile_download_mbps_2026q3',
     'mineduc_aulas_selected_establishments_2025',
     'mineduc_aulas_waitlist_establishments_2025',
     'mineduc_aulas_selected_rural_establishments_2025',
@@ -104,7 +105,7 @@ def main() -> None:
     master_codes = [int(r['comuna']) for r in master]
     results.append(check('master_rows', len(master) == 346, f'{len(master)} commune rows'))
     results.append(check('master_unique_communes', len(set(master_codes)) == 346, f'{len(set(master_codes))} unique commune codes'))
-    results.append(check('master_columns', len(master_fields) == 117, f'{len(master_fields)} variables'))
+    results.append(check('master_columns', len(master_fields) == 140, f'{len(master_fields)} variables'))
     readme = README.read_text(encoding='utf-8')
     results.append(check(
         'readme_master_column_count',

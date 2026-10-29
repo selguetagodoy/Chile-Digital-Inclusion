@@ -1,6 +1,6 @@
 # Diccionario del maestro comunal integrado
 
-El archivo documenta **117 variables** del maestro `chile_digital_inclusion_communes_2026_integrated.csv`.
+El archivo documenta **140 variables** del maestro `chile_digital_inclusion_communes_2026_integrated.csv`.
 
 La tabla canónica y legible por máquinas está en `data/metadata/communal_master_dictionary.csv`.
 
@@ -17,7 +17,7 @@ La tabla canónica y legible por máquinas está en `data/metadata/communal_mast
 
 ## Variables por capa
 
-- Ookla Open Data: 49
+- Ookla Open Data: 71
 - Censo/Atlas: 35
 - SUBTEL ArcGIS marzo 2025: 12
 - Capa integrada: 6
@@ -30,4 +30,4 @@ La tabla canónica y legible por máquinas está en `data/metadata/communal_mast
 
 Antes de construir rankings o modelos, revisar `statistical_unit`, `denominator_or_weight` y `comparability_note`. No deben mezclarse mecánicamente hogares censales, personas ponderadas de encuesta, tests de red, trazados regulatorios y registros de establecimientos.
 
-Última revisión: 2026-08-14.
+Última revisión: 2026-10-29.

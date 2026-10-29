@@ -22,16 +22,16 @@
       "path": "data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 261368,
-      "git_blob_sha": "1dcd748da69be09279b0c084b561a2afa1fb2083"
+      "bytes": 315159,
+      "git_blob_sha": "799d045f5f17138f4c39404a0630a91f84194fa5"
     },
     {
       "name": "communal-master-dictionary",
       "path": "data/metadata/communal_master_dictionary.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 41651,
-      "git_blob_sha": "6e7a540c4c658c081600292e94f598c3cd69afff"
+      "bytes": 49500,
+      "git_blob_sha": "fdc944f54d93d2afc1fe8d283c2239f9000955a6"
     },
     {
       "name": "layer-catalog",
@@ -39,7 +39,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "bytes": 8258,
-      "git_blob_sha": "43b509f1631ee106f3825e44aa0484d40ddfbeba"
+      "git_blob_sha": "2b8ed5edd738a47edd7b4bcfc28a2df6796a9486"
     },
     {
       "name": "subtel-internet-use-by-age-2025",
@@ -58,20 +58,20 @@
       "git_blob_sha": "9ffaf8c23e9ad8b14a8fd17e35e256f0932ac1d1"
     },
     {
-      "name": "ookla-national-2026q2",
-      "path": "data/ookla/chile_2026q2_summary.csv",
+      "name": "ookla-national-2026q3",
+      "path": "data/ookla/chile_2026q3_summary.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 849,
-      "git_blob_sha": "798204d7f0c1c3ab04e0bb2538e0741f04c88d15"
+      "bytes": 847,
+      "git_blob_sha": "987ddb3aa2d8059a7df3fbbdc558c15c8d6699d6"
     },
     {
-      "name": "ookla-communal-2026q2",
-      "path": "data/ookla/territorial/chile_2026q2_communes.csv",
+      "name": "ookla-communal-2026q3",
+      "path": "data/ookla/territorial/chile_2026q3_communes.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "bytes": 109134,
-      "git_blob_sha": "fdf80eb96777fcb65468a74270236e6a3c21079e"
+      "bytes": 108961,
+      "git_blob_sha": "c50506d32ec31903f17b08e80a794a5fda779c81"
     },
     {
       "name": "commune-geometries",

@@ -1,0 +1,33 @@
+region_code,region,period,network,tiles,tests,devices_sum_across_tiles,download_mbps_test_weighted,upload_mbps_test_weighted,latency_ms_test_weighted,loaded_latency_down_ms_test_weighted,loaded_latency_up_ms_test_weighted,aggregation
+1.0,Región de Tarapacá,2026Q3,fixed,361,12002,3994,446.843,368.977,25.121,348.515,287.509,tile averages weighted by tile test count
+2.0,Región de Antofagasta,2026Q3,fixed,754,21762,6629,444.052,370.863,18.562,305.582,253.898,tile averages weighted by tile test count
+3.0,Región de Atacama,2026Q3,fixed,601,15199,4160,419.17,363.283,23.691,294.867,290.087,tile averages weighted by tile test count
+4.0,Región de Coquimbo,2026Q3,fixed,1705,31870,10324,395.038,349.561,13.709,237.449,274.317,tile averages weighted by tile test count
+5.0,Región de Valparaíso,2026Q3,fixed,3396,66712,22084,418.178,347.973,8.114,227.484,238.014,tile averages weighted by tile test count
+6.0,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,2681,27238,9083,365.85,311.423,8.854,206.383,264.545,tile averages weighted by tile test count
+7.0,Región del Maule,2026Q3,fixed,2906,30731,10673,369.718,328.66,10.999,215.782,257.583,tile averages weighted by tile test count
+8.0,Región del Bío-Bío,2026Q3,fixed,2481,38625,13720,420.794,363.317,10.203,235.832,264.255,tile averages weighted by tile test count
+9.0,Región de La Araucanía,2026Q3,fixed,2766,28507,9789,346.073,284.539,14.669,223.492,273.972,tile averages weighted by tile test count
+10.0,Región de Los Lagos,2026Q3,fixed,2254,19976,6666,407.985,310.272,12.982,260.921,259.497,tile averages weighted by tile test count
+11.0,Región de Aysén del Gral.Ibañez del Campo,2026Q3,fixed,244,1185,530,334.905,236.053,18.051,322.579,332.97,tile averages weighted by tile test count
+12.0,Región de Magallanes y Antártica Chilena,2026Q3,fixed,282,2794,1066,419.568,303.297,44.537,343.629,288.28,tile averages weighted by tile test count
+13.0,Región Metropolitana de Santiago,2026Q3,fixed,5833,309718,109891,446.907,392.908,5.168,191.938,233.454,tile averages weighted by tile test count
+14.0,Región de Los Ríos,2026Q3,fixed,1188,9259,3102,308.718,229.05,16.955,224.234,252.424,tile averages weighted by tile test count
+15.0,Región de Arica y Parinacota,2026Q3,fixed,228,6145,1913,440.33,381.091,23.041,306.574,238.595,tile averages weighted by tile test count
+16.0,Región de Ñuble,2026Q3,fixed,1387,13429,4583,409.689,364.734,10.62,228.06,246.987,tile averages weighted by tile test count
+1.0,Región de Tarapacá,2026Q3,mobile,358,2164,1059,64.199,17.919,61.921,1518.834,1359.216,tile averages weighted by tile test count
+2.0,Región de Antofagasta,2026Q3,mobile,725,4774,1948,72.994,20.793,45.244,1763.145,1232.107,tile averages weighted by tile test count
+3.0,Región de Atacama,2026Q3,mobile,562,4577,1594,71.622,17.908,59.566,1638.489,1416.081,tile averages weighted by tile test count
+4.0,Región de Coquimbo,2026Q3,mobile,1349,8899,3467,72.802,16.977,58.039,1425.879,1588.73,tile averages weighted by tile test count
+5.0,Región de Valparaíso,2026Q3,mobile,2780,17311,7272,88.786,18.324,30.248,1297.632,1250.097,tile averages weighted by tile test count
+6.0,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,1614,7302,3065,86.868,18.21,32.142,1124.906,1357.462,tile averages weighted by tile test count
+7.0,Región del Maule,2026Q3,mobile,1997,9074,4002,85.171,18.566,36.633,1352.354,1312.931,tile averages weighted by tile test count
+8.0,Región del Bío-Bío,2026Q3,mobile,1926,10118,4550,83.144,18.562,38.301,1594.997,1434.15,tile averages weighted by tile test count
+9.0,Región de La Araucanía,2026Q3,mobile,1872,9500,3869,72.222,15.556,56.649,1413.095,1538.131,tile averages weighted by tile test count
+10.0,Región de Los Lagos,2026Q3,mobile,1550,6464,2819,82.874,19.346,42.655,1785.839,1289.579,tile averages weighted by tile test count
+11.0,Región de Aysén del Gral.Ibañez del Campo,2026Q3,mobile,208,606,298,77.488,16.339,50.655,1675.026,1441.068,tile averages weighted by tile test count
+12.0,Región de Magallanes y Antártica Chilena,2026Q3,mobile,180,679,272,83.923,20.685,103.486,1476.787,1267.622,tile averages weighted by tile test count
+13.0,Región Metropolitana de Santiago,2026Q3,mobile,4520,46578,22756,110.173,24.702,24.009,1198.892,1106.81,tile averages weighted by tile test count
+14.0,Región de Los Ríos,2026Q3,mobile,856,3247,1456,71.967,16.927,48.107,1488.954,1533.793,tile averages weighted by tile test count
+15.0,Región de Arica y Parinacota,2026Q3,mobile,246,1250,652,80.308,21.39,51.717,1651.719,1197.302,tile averages weighted by tile test count
+16.0,Región de Ñuble,2026Q3,mobile,999,4017,1830,92.413,17.772,33.601,1524.582,1392.047,tile averages weighted by tile test count

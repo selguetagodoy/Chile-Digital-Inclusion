@@ -38,7 +38,7 @@ La fuente es Censo 2024 y la capa pública integrada utilizada por el Atlas de l
 
 `data/communal_master/chile_digital_inclusion_communes_2026.csv` es la base estructural de 346 comunas y 38 campos públicos.
 
-`data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv` integra desempeño Ookla fijo y móvil de Q1 y Q2 2026, variaciones Q4 2025 → Q1 2026 y Q1 → Q2 2026, registros públicos SUBTEL 4G/5G de marzo de 2025, presencia de capas públicas RedAcceso, Aulas Conectadas 2025 territorializado por RBD y conexiones fijas administrativas SUBTEL a marzo y junio de 2026. Conserva las **346 comunas y contiene 117 variables**.
+`data/communal_master/chile_digital_inclusion_communes_2026_integrated.csv` integra desempeño Ookla fijo y móvil de Q1 y Q2 2026, variaciones Q4 2025 → Q1 2026 y Q1 → Q2 2026, registros públicos SUBTEL 4G/5G de marzo de 2025, presencia de capas públicas RedAcceso, Aulas Conectadas 2025 territorializado por RBD y conexiones fijas administrativas SUBTEL a marzo y junio de 2026. Conserva las **346 comunas y contiene 140 variables**.
 
 La versión pública excluye deliberadamente índices internos, scores, segmentaciones y ponderadores propietarios. El archivo es una base observable para mapas, rankings descriptivos y análisis reproducible; no es el Índice de Vulnerabilidad Digital.
 
@@ -206,7 +206,7 @@ La capa se mantiene a nivel regional y no se replica dentro de las 346 filas del
 
 La metodología y la inconsistencia editorial de fecha presente en la página fuente están documentadas en `docs/oti_fixed_speed_2026.md`.
 
-### Calidad observada — Ookla Q1–Q2 2026
+### Calidad observada — Ookla Q1–Q3 2026
 
 El repositorio incorpora Q1 y Q2 2026 de Chile desde los Parquet oficiales de Ookla Open Data. El pipeline filtra los tiles globales y calcula indicadores nacionales ponderados por número de tests. Q4 2025 se conserva como control comparable para medir el primer cambio trimestral hacia Q1.
 
@@ -363,3 +363,15 @@ Sociología · políticas públicas · telecomunicaciones · infraestructura dig
 - [Velocidades de Internet](https://selguetagodoy.github.io/dataset-velocidades-internet.html) — longitudinal Internet performance evidence.
 - [Latin America Digital Infrastructure](https://selguetagodoy.github.io/dataset-latin-america-digital-infrastructure.html) — regional infrastructure benchmark.
 
+
+
+### Ookla Q3 2026 — julio a septiembre
+
+Nuevas observaciones de Ookla Open Data publicadas el 9 de octubre de 2026; promedios nacionales ponderados por tests y asignación territorial por centroide a polígonos BCN. No son estimaciones de cobertura ni de penetración.
+
+| Red | Descarga (Mbps) | Carga (Mbps) | Latencia (ms) | Tests |
+|---|---:|---:|---:|---:|
+| fixed | 422.73 | 364.36 | 9.28 | 637455 |
+| mobile | 90.92 | 20.34 | 36.68 | 137207 |
+
+Datos publicados en data/ookla: resumen Q3, control Q2–Q3, serie 2024Q1–2026Q3, agregados comunales y regionales Q3, comparación territorial y rankings; se conservan todos los archivos históricos Q1 y Q2.

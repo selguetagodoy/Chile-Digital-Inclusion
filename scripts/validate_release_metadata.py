@@ -33,8 +33,8 @@ REQUIRED_CANONICAL = {
     'subtel_fixed_redacceso_presence',
     'mineduc_aulas_establishments_2025',
     'mineduc_aulas_communal_2025',
-    'ookla_national_2026q2',
-    'ookla_communal_2026q2',
+    'ookla_national_2026q3',
+    'ookla_communal_2026q3',
     'commune_geography',
 }
 
@@ -108,7 +108,7 @@ def main() -> None:
     if unavailable:
         raise RuntimeError(f'Canonical catalog layers unavailable: {unavailable}')
 
-    require_shape(catalog, 'communal_master_2026', 346, 117)
+    require_shape(catalog, 'communal_master_2026', 346, 140)
     require_shape(catalog, 'subtel_internet_use_by_age_2025', 4, 10)
     require_shape(catalog, 'subtel_sector_2026q2', 60, 9)
     require_shape(catalog, 'subtel_portability_2026q2', 10, 10)
@@ -119,8 +119,11 @@ def main() -> None:
     require_shape(catalog, 'subtel_fdt_project_updates_2026', 2, 20)
     require_shape(catalog, 'subtel_fdt_spectrum_obligations_2026q1', 3, 11)
     require_shape(catalog, 'subtel_network_resilience_2026', 18, 14)
-    require_shape(catalog, 'ookla_national_2026q2', 2, 14)
-    require_shape(catalog, 'ookla_communal_2026q2', 683, 16)
+    require_shape(catalog, 'ookla_national_2026q3', 2, 14)
+    q3_n = len(read_csv(Path('data/ookla/territorial/chile_2026q3_communes.csv')))
+    if not 600 <= q3_n <= 700:
+        raise RuntimeError(f'Unexpected Q3 commune-network rows: {q3_n}')
+    require_shape(catalog, 'ookla_communal_2026q3', q3_n, 16)
 
     manifest = read_csv(MANIFEST)
     if len(manifest) < 180:

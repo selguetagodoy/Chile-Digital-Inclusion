@@ -1,0 +1,5 @@
+period,network,tiles_total,tiles_assigned_to_commune,tile_assignment_pct,tests_total,tests_assigned_to_commune,test_assignment_pct,spatial_method
+2026Q2,fixed,26676,26415,99.022,542275,539757,99.536,Ookla tile centroid within BCN commune polygon
+2026Q2,mobile,20886,20667,98.951,120738,119923,99.325,Ookla tile centroid within BCN commune polygon
+2026Q3,fixed,29343,29067,99.059,638083,635152,99.541,Ookla tile centroid within BCN commune polygon
+2026Q3,mobile,21962,21742,98.998,137294,136560,99.465,Ookla tile centroid within BCN commune polygon

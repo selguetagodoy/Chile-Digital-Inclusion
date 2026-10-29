@@ -18,10 +18,10 @@ const indicators = {
   mobile_4g_point_records_2025m03: { label: 'Registros de red 4G · mar 2025', unit: '', digits: 0, higherConcern: false },
   fixed_access_public_operators_present: { label: 'Operadores con trazado RedAcceso público', unit: '', digits: 0, higherConcern: false },
   subtel_fixed_residential_per_100_censo_households_2026m06: { label: 'Conexiones fijas residenciales por 100 hogares · jun 2026', unit: '', digits: 1, higherConcern: false },
-  ookla_fixed_download_mbps_2026q2: { label: 'Ookla fijo Q2 2026 · descarga', unit: ' Mbps', digits: 1, higherConcern: false },
-  ookla_mobile_download_mbps_2026q2: { label: 'Ookla móvil Q2 2026 · descarga', unit: ' Mbps', digits: 1, higherConcern: false },
-  ookla_fixed_latency_ms_2026q2: { label: 'Ookla fijo Q2 2026 · latencia', unit: ' ms', digits: 1, higherConcern: true },
-  ookla_mobile_latency_ms_2026q2: { label: 'Ookla móvil Q2 2026 · latencia', unit: ' ms', digits: 1, higherConcern: true },
+  ookla_fixed_download_mbps_2026q3: { label: 'Ookla fijo Q2 2026 · descarga', unit: ' Mbps', digits: 1, higherConcern: false },
+  ookla_mobile_download_mbps_2026q3: { label: 'Ookla móvil Q2 2026 · descarga', unit: ' Mbps', digits: 1, higherConcern: false },
+  ookla_fixed_latency_ms_2026q3: { label: 'Ookla fijo Q2 2026 · latencia', unit: ' ms', digits: 1, higherConcern: true },
+  ookla_mobile_latency_ms_2026q3: { label: 'Ookla móvil Q2 2026 · latencia', unit: ' ms', digits: 1, higherConcern: true },
 };
 
 const map = L.map('map', { zoomControl: true }).setView([-33.45, -70.65], 4);
@@ -71,7 +71,7 @@ function formatCompact(value) {
 async function loadMaster() {
   try {
     const rows = await d3.csv(MASTER_INTEGRATED);
-    document.getElementById('data-status').textContent = 'Maestro integrado · Censo/Atlas + SUBTEL 4G/5G/RedAcceso + Mineduc + Ookla Q2 2026';
+    document.getElementById('data-status').textContent = 'Maestro integrado · Censo/Atlas + SUBTEL 4G/5G/RedAcceso + Mineduc + Ookla Q3 2026';
     return rows;
   } catch (err) {
     const rows = await d3.csv(MASTER_BASE);
@@ -287,10 +287,10 @@ function updateDetail(code) {
     ['Operadores RedAcceso público', formatInt(d.fixed_access_public_operators_present)],
     ['Capas RedAcceso públicas', formatInt(d.fixed_access_public_layers_present)],
     ['Trazado RedAcceso publicado', n(d.fixed_access_public_linework_length_km) === null ? 'N/D' : `${Number(d.fixed_access_public_linework_length_km).toLocaleString('es-CL', { maximumFractionDigits: 1 })} km`],
-    ['Ookla fijo', formatValue(n(d.ookla_fixed_download_mbps_2026q2), indicators.ookla_fixed_download_mbps_2026q2)],
-    ['Ookla móvil', formatValue(n(d.ookla_mobile_download_mbps_2026q2), indicators.ookla_mobile_download_mbps_2026q2)],
-    ['Tests fijo', formatInt(d.ookla_fixed_tests_2026q2)],
-    ['Tests móvil', formatInt(d.ookla_mobile_tests_2026q2)],
+    ['Ookla fijo', formatValue(n(d.ookla_fixed_download_mbps_2026q3), indicators.ookla_fixed_download_mbps_2026q3)],
+    ['Ookla móvil', formatValue(n(d.ookla_mobile_download_mbps_2026q3), indicators.ookla_mobile_download_mbps_2026q3)],
+    ['Tests fijo', formatInt(d.ookla_fixed_tests_2026q3)],
+    ['Tests móvil', formatInt(d.ookla_mobile_tests_2026q3)],
   ];
   document.getElementById('detail-grid').innerHTML = items.map(([label, value]) =>
     `<div class="detail-item"><span>${label}</span><strong>${value}</strong></div>`

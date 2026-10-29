@@ -1,0 +1,682 @@
+commune_code,commune,province,region,period,network,tiles,tests,download_mbps_test_weighted,rank_download_desc,upload_mbps_test_weighted,rank_upload_desc,latency_ms_test_weighted,rank_latency_asc,observed_communes_network
+10305,Río Negro,Osorno,Región de Los Lagos,2026Q3,fixed,38,308,584.21,1,443.599,11,9.925,119,342
+10104,Fresia,Llanquihue,Región de Los Lagos,2026Q3,fixed,39,318,581.926,2,492.766,2,10.651,135,342
+10303,Purranque,Osorno,Región de Los Lagos,2026Q3,fixed,55,390,543.77,3,449.409,6,10.185,126,342
+8310,San Rosendo,Bío-Bío,Región del Bío-Bío,2026Q3,fixed,8,58,516.511,4,336.333,108,17.086,220,342
+16107,Quillón,Ñuble,Región de Ñuble,2026Q3,fixed,79,409,510.44,5,448.055,7,12.227,161,342
+13110,La Florida,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,155,18384,504.593,6,461.678,3,4.386,17,342
+10106,Los Muermos,Llanquihue,Región de Los Lagos,2026Q3,fixed,59,234,501.301,7,377.487,67,14.077,184,342
+13130,San Miguel,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,38,7536,501.145,8,445.406,9,4.289,9,342
+8109,Santa Juana,Concepción,Región del Bío-Bío,2026Q3,fixed,34,268,499.88,9,346.552,98,13.44,176,342
+13109,La Cisterna,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,39,4669,492.237,10,446.423,8,4.383,16,342
+13118,Macul,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,52,6590,491.283,11,440.702,12,4.36,13,342
+13129,San Joaquín,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,37,2776,489.635,12,455.817,5,4.43,21,342
+8110,Talcahuano,Concepción,Región del Bío-Bío,2026Q3,fixed,121,3244,488.669,13,437.216,14,8.753,100,342
+9209,Renaico,Malleco,Región de La Araucanía,2026Q3,fixed,24,137,487.808,14,353.228,92,9.993,122,342
+1101,Iquique,Iquique,Región de Tarapacá,2026Q3,fixed,100,6610,487.719,15,409.152,33,24.303,282,342
+2201,Calama,El Loa,Región de Antofagasta,2026Q3,fixed,193,5727,487.059,16,393.652,48,23.834,279,342
+13120,Ñuñoa,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,61,13835,484.302,17,428.309,24,4.352,12,342
+5107,Quintero,Valparaíso,Región de Valparaíso,2026Q3,fixed,97,1871,483.781,18,401.667,38,8.218,84,342
+13119,Maipú,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,214,17433,479.895,19,443.785,10,5.701,40,342
+13131,San Ramón,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,25,1724,479.655,20,433.963,18,3.944,1,342
+13108,Independencia,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,27,3148,479.522,21,432.413,19,4.276,8,342
+8112,Hualpén,Concepción,Región del Bío-Bío,2026Q3,fixed,53,2022,479.136,22,430.764,21,7.703,75,342
+13113,La Reina,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,71,6936,478.176,23,423.837,25,4.946,29,342
+13121,Pedro Aguirre Cerda,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,32,2192,478.175,24,431.621,20,4.069,3,342
+13126,Quinta Normal,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,46,3551,477.701,25,436.304,16,4.164,6,342
+13111,La Granja,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,39,3403,477.297,26,436.422,15,4.418,19,342
+13201,Puente Alto,Cordillera,Región Metropolitana de Santiago,2026Q3,fixed,241,17437,473.921,27,430.04,22,4.624,24,342
+13106,Estación Central,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,50,5945,473.86,28,428.986,23,4.305,11,342
+13127,Recoleta,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,58,3975,473.035,29,434.624,17,4.304,10,342
+12303,Timaukel,Tierra del Fuego,Región de Magallanes y Antártica Chilena,2026Q3,fixed,1,1,473.028,30,38.341,313,52.0,336,342
+13101,Santiago,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,93,21016,470.211,31,416.909,28,4.439,22,342
+16101,Chillán,Ñuble,Región de Ñuble,2026Q3,fixed,316,6406,468.68,32,439.457,13,8.553,91,342
+8101,Concepción,Concepción,Región del Bío-Bío,2026Q3,fixed,182,7916,467.004,33,412.21,31,8.604,96,342
+13125,Quilicura,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,125,7529,466.377,34,399.824,41,4.547,23,342
+13128,Renca,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,73,4245,464.964,35,402.313,36,4.419,20,342
+13105,El Bosque,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,50,4377,463.837,36,417.539,27,4.39,18,342
+8107,Penco,Concepción,Región del Bío-Bío,2026Q3,fixed,52,997,462.653,37,400.435,39,10.088,123,342
+16103,Chillán Viejo,Ñuble,Región de Ñuble,2026Q3,fixed,58,922,462.549,38,458.023,4,8.937,105,342
+13104,Conchalí,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,40,3549,461.039,39,409.333,32,4.376,14,342
+13117,Lo Prado,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,27,2451,460.134,40,414.574,30,4.144,5,342
+8108,San Pedro de la Paz,Concepción,Región del Bío-Bío,2026Q3,fixed,130,4661,460.073,41,397.0,45,7.622,74,342
+6114,Quinta de Tilcoco,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,42,260,458.289,42,369.836,78,5.642,37,342
+13102,Cerrillos,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,60,3372,457.761,43,421.162,26,5.407,36,342
+7101,Talca,Talca,Región del Maule,2026Q3,fixed,297,7385,457.531,44,416.118,29,7.065,60,342
+16108,San Ignacio,Ñuble,Región de Ñuble,2026Q3,fixed,71,411,456.938,45,336.606,107,12.372,163,342
+5804,Villa Alemana,Marga Marga,Región de Valparaíso,2026Q3,fixed,120,5793,455.524,46,372.326,74,7.42,69,342
+13401,San Bernardo,Maipo,Región Metropolitana de Santiago,2026Q3,fixed,210,10337,455.348,47,397.42,44,4.895,27,342
+13124,Pudahuel,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,187,8462,453.108,48,398.68,43,5.147,30,342
+12301,Porvenir,Tierra del Fuego,Región de Magallanes y Antártica Chilena,2026Q3,fixed,9,17,451.894,49,335.678,111,60.529,339,342
+13123,Providencia,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,56,11415,450.854,50,385.547,52,5.204,31,342
+10302,Puerto Octay,Osorno,Región de Los Lagos,2026Q3,fixed,61,285,450.746,51,334.243,112,15.944,206,342
+10101,Puerto Montt,Llanquihue,Región de Los Lagos,2026Q3,fixed,557,7165,450.27,52,361.276,86,11.503,148,342
+3201,Chañaral,Chañaral,Región de Atacama,2026Q3,fixed,31,505,449.685,53,327.319,118,25.444,290,342
+12101,Punta Arenas,Magallanes,Región de Magallanes y Antártica Chilena,2026Q3,fixed,149,2018,448.87,54,322.326,122,44.471,329,342
+2101,Antofagasta,Antofagasta,Región de Antofagasta,2026Q3,fixed,269,14090,448.097,55,381.669,57,15.89,204,342
+3301,Vallenar,Huasco,Región de Atacama,2026Q3,fixed,117,2986,447.795,56,382.083,56,26.529,293,342
+5109,Viña del Mar,Valparaíso,Región de Valparaíso,2026Q3,fixed,250,13443,447.136,57,388.505,51,6.937,58,342
+5302,Calle Larga,Los Andes,Región de Valparaíso,2026Q3,fixed,62,881,446.624,58,378.154,66,7.543,72,342
+13122,Peñalolén,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,121,8535,445.936,59,379.819,62,4.8,26,342
+6115,Rengo,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,118,1657,445.411,60,371.207,75,6.934,57,342
+9206,Los Sauces,Malleco,Región de La Araucanía,2026Q3,fixed,8,71,445.091,61,383.775,54,8.507,89,342
+8102,Coronel,Concepción,Región del Bío-Bío,2026Q3,fixed,129,3052,444.898,62,392.575,49,8.344,85,342
+13103,Cerro Navia,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,38,3474,444.043,63,404.088,35,4.098,4,342
+5701,San Felipe,San Felipe,Región de Valparaíso,2026Q3,fixed,113,2099,443.734,64,338.797,106,7.116,62,342
+15101,Arica,Arica,Región de Arica y Parinacota,2026Q3,fixed,210,6108,441.949,65,383.238,55,22.925,267,342
+5103,Concón,Valparaíso,Región de Valparaíso,2026Q3,fixed,67,2732,440.752,66,381.639,58,7.096,61,342
+5702,Catemu,San Felipe,Región de Valparaíso,2026Q3,fixed,45,428,440.611,67,327.462,117,11.0,139,342
+4101,La Serena,Elqui,Región de Coquimbo,2026Q3,fixed,391,11165,439.495,68,389.519,50,12.168,159,342
+5801,Quilpué,Marga Marga,Región de Valparaíso,2026Q3,fixed,152,6487,439.418,69,370.997,76,7.889,78,342
+1107,Alto Hospicio,Iquique,Región de Tarapacá,2026Q3,fixed,85,4559,439.14,70,359.968,88,23.338,270,342
+6116,Requínoa,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,73,704,437.935,71,379.164,63,9.405,114,342
+13107,Huechuraba,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,83,5538,437.929,72,368.696,80,4.643,25,342
+13112,La Pintana,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,83,2651,435.23,73,400.242,40,4.174,7,342
+10301,Osorno,Osorno,Región de Los Lagos,2026Q3,fixed,278,3911,435.147,74,350.783,93,11.788,153,342
+5101,Valparaíso,Valparaíso,Región de Valparaíso,2026Q3,fixed,215,7962,434.199,75,364.949,82,6.903,56,342
+10201,Castro,Chiloe,Región de Los Lagos,2026Q3,fixed,99,1181,434.194,76,222.036,217,8.876,103,342
+16207,Treguaco,Itata,Región de Ñuble,2026Q3,fixed,7,20,434.006,77,286.27,149,9.6,116,342
+5301,Los Andes,Los Andes,Región de Valparaíso,2026Q3,fixed,76,2058,433.01,78,361.337,85,8.148,82,342
+7104,Empedrado,Talca,Región del Maule,2026Q3,fixed,4,7,432.831,79,499.943,1,8.143,81,342
+3101,Copiapó,Copiapó,Región de Atacama,2026Q3,fixed,220,8978,432.812,80,394.613,47,22.972,268,342
+6105,Doñihue,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,70,437,432.476,81,374.989,69,4.938,28,342
+13604,Padre Hurtado,Talagante,Región Metropolitana de Santiago,2026Q3,fixed,96,3882,432.476,81,394.916,46,11.794,154,342
+13114,Las Condes,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,170,26430,432.241,83,363.355,83,5.362,33,342
+6101,Rancagua,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,266,7115,432.139,84,373.163,72,5.653,38,342
+6108,Machalí,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,118,2606,432.121,85,378.568,65,6.505,53,342
+5502,Calera,Quillota,Región de Valparaíso,2026Q3,fixed,59,1171,430.479,86,357.056,90,8.758,101,342
+8206,Los Alamos,Arauco,Región del Bío-Bío,2026Q3,fixed,40,190,430.394,87,399.194,42,9.853,118,342
+6111,Olivar,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,40,259,429.341,88,344.635,102,5.394,35,342
+13302,Lampa,Chacabuco,Región Metropolitana de Santiago,2026Q3,fixed,274,5950,426.405,89,350.166,94,5.959,44,342
+2301,Tocopilla,Tocopilla,Región de Antofagasta,2026Q3,fixed,42,827,426.323,90,401.931,37,16.343,212,342
+8106,Lota,Concepción,Región del Bío-Bío,2026Q3,fixed,38,700,425.928,91,405.101,34,6.439,52,342
+13116,Lo Espejo,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,31,2055,425.362,92,381.148,60,4.048,2,342
+16203,Coelemu,Itata,Región de Ñuble,2026Q3,fixed,31,180,424.692,93,372.615,73,8.628,97,342
+9101,Temuco,Cautín,Región de La Araucanía,2026Q3,fixed,384,10326,421.087,94,378.825,64,10.751,137,342
+8202,Arauco,Arauco,Región del Bío-Bío,2026Q3,fixed,72,466,418.954,95,366.527,81,9.238,110,342
+5703,Llaillay,San Felipe,Región de Valparaíso,2026Q3,fixed,58,720,416.211,96,292.293,143,9.319,111,342
+12401,Natales,Ultima Esperanza,Región de Magallanes y Antártica Chilena,2026Q3,fixed,63,571,415.156,97,327.971,116,43.236,327,342
+7406,San Javier,Linares,Región del Maule,2026Q3,fixed,90,1253,414.626,98,373.818,71,11.022,141,342
+8103,Chiguayante,Concepción,Región del Bío-Bío,2026Q3,fixed,73,2069,414.06,99,374.458,70,7.141,63,342
+5605,El Tabo,San Antonio,Región de Valparaíso,2026Q3,fixed,76,774,413.958,100,381.627,59,5.278,32,342
+13605,Peñaflor,Talagante,Región Metropolitana de Santiago,2026Q3,fixed,109,2960,412.862,101,368.975,79,6.346,50,342
+16102,Bulnes,Ñuble,Región de Ñuble,2026Q3,fixed,63,452,412.851,102,384.319,53,12.783,165,342
+7303,Licantén,Curicó,Región del Maule,2026Q3,fixed,32,177,412.098,103,304.337,133,8.429,86,342
+5501,Quillota,Quillota,Región de Valparaíso,2026Q3,fixed,159,2968,411.606,104,344.945,101,10.424,131,342
+7102,Constitución,Talca,Región del Maule,2026Q3,fixed,77,820,409.711,105,310.469,129,13.199,169,342
+5601,San Antonio,San Antonio,Región de Valparaíso,2026Q3,fixed,138,2421,409.213,106,349.787,95,8.484,87,342
+4102,Coquimbo,Elqui,Región de Coquimbo,2026Q3,fixed,396,10983,408.71,107,380.748,61,12.855,166,342
+13402,Buin,Maipo,Región Metropolitana de Santiago,2026Q3,fixed,229,5033,408.285,108,363.181,84,5.85,43,342
+5802,Limache,Marga Marga,Región de Valparaíso,2026Q3,fixed,166,1922,404.88,109,304.054,134,9.014,107,342
+14101,Valdivia,Valdivia,Región de Los Ríos,2026Q3,fixed,308,3837,402.617,110,345.937,100,10.572,134,342
+5504,La Cruz,Quillota,Región de Valparaíso,2026Q3,fixed,55,691,402.568,111,327.983,115,7.929,79,342
+9201,Angol,Malleco,Región de La Araucanía,2026Q3,fixed,85,1305,402.209,112,335.996,110,8.877,104,342
+9111,Nueva Imperial,Cautín,Región de La Araucanía,2026Q3,fixed,60,682,400.041,113,284.343,152,16.229,210,342
+5304,San Esteban,Los Andes,Región de Valparaíso,2026Q3,fixed,55,568,395.89,114,280.955,158,10.428,132,342
+10105,Frutillar,Llanquihue,Región de Los Lagos,2026Q3,fixed,139,912,394.599,115,319.179,123,11.848,156,342
+8111,Tomé,Concepción,Región del Bío-Bío,2026Q3,fixed,77,802,393.995,116,348.503,96,8.556,93,342
+11101,Coyhaique,Coyhaique,Región de Aysén del Gral.Ibañez del Campo,2026Q3,fixed,122,750,392.67,117,299.634,138,17.635,230,342
+7201,Cauquenes,Cauquenes,Región del Maule,2026Q3,fixed,87,789,392.627,118,370.551,77,17.371,225,342
+4301,Ovalle,Limarí,Región de Coquimbo,2026Q3,fixed,210,3433,389.83,119,360.004,87,13.628,178,342
+7301,Curicó,Curicó,Región del Maule,2026Q3,fixed,303,5217,389.434,120,356.932,91,8.65,98,342
+13602,El Monte,Talagante,Región Metropolitana de Santiago,2026Q3,fixed,62,838,387.378,121,376.579,68,6.22,48,342
+5604,El Quisco,San Antonio,Región de Valparaíso,2026Q3,fixed,82,704,385.568,122,346.623,97,6.759,54,342
+6106,Graneros,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,66,916,385.154,123,346.25,99,5.689,39,342
+13301,Colina,Chacabuco,Región Metropolitana de Santiago,2026Q3,fixed,454,10378,384.922,124,297.066,140,5.848,42,342
+6103,Coinco,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,38,148,383.053,125,339.002,105,10.088,123,342
+3102,Caldera,Copiapó,Región de Atacama,2026Q3,fixed,51,1004,381.79,126,304.495,132,19.75,246,342
+6301,San Fernando,Colchagua,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,140,2165,381.306,127,336.196,109,7.381,66,342
+5401,La Ligua,Petorca,Región de Valparaíso,2026Q3,fixed,141,1330,379.335,128,289.415,145,9.358,113,342
+8203,Cañete,Arauco,Región del Bío-Bío,2026Q3,fixed,94,751,378.908,129,332.124,113,14.326,191,342
+13601,Talagante,Talagante,Región Metropolitana de Santiago,2026Q3,fixed,173,2615,378.245,130,343.72,103,7.044,59,342
+7304,Molina,Curicó,Región del Maule,2026Q3,fixed,124,1655,377.103,131,325.967,120,8.164,83,342
+9210,Traiguén,Malleco,Región de La Araucanía,2026Q3,fixed,30,211,377.028,132,281.879,155,7.27,65,342
+13132,Vitacura,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,87,8178,375.606,133,315.952,125,5.711,41,342
+13501,Melipilla,Melipilla,Región Metropolitana de Santiago,2026Q3,fixed,352,4225,373.746,134,324.015,121,6.391,51,342
+7401,Linares,Linares,Región del Maule,2026Q3,fixed,295,3313,371.922,135,339.654,104,11.666,150,342
+5704,Panquehue,San Felipe,Región de Valparaíso,2026Q3,fixed,38,206,369.187,136,300.177,136,8.485,88,342
+7203,Pelluhue,Cauquenes,Región del Maule,2026Q3,fixed,27,143,368.095,137,253.843,180,16.392,215,342
+3103,Tierra Amarilla,Copiapó,Región de Atacama,2026Q3,fixed,53,514,367.935,138,277.169,163,23.658,277,342
+5303,Rinconada,Los Andes,Región de Valparaíso,2026Q3,fixed,45,371,367.337,139,254.858,179,13.415,175,342
+5403,Papudo,Petorca,Región de Valparaíso,2026Q3,fixed,38,288,365.652,140,310.356,130,8.576,94,342
+10108,Maullín,Llanquihue,Región de Los Lagos,2026Q3,fixed,30,144,364.884,141,248.405,188,14.194,188,342
+8304,Laja,Bío-Bío,Región del Bío-Bío,2026Q3,fixed,37,261,364.258,142,288.965,148,13.364,172,342
+13603,Isla de Maipo,Talagante,Región Metropolitana de Santiago,2026Q3,fixed,124,1656,363.638,143,357.4,89,7.152,64,342
+8301,Los Ángeles,Bío-Bío,Región del Bío-Bío,2026Q3,fixed,647,6703,361.404,144,295.754,141,13.861,181,342
+9119,Vilcún,Cautín,Región de La Araucanía,2026Q3,fixed,81,473,361.397,145,250.517,185,17.48,228,342
+8311,Santa Bárbara,Bío-Bío,Región del Bío-Bío,2026Q3,fixed,42,265,360.002,146,208.321,228,17.479,227,342
+9108,Lautaro,Cautín,Región de La Araucanía,2026Q3,fixed,97,903,359.799,147,283.455,153,16.607,216,342
+13403,Calera de Tango,Maipo,Región Metropolitana de Santiago,2026Q3,fixed,98,1015,359.462,148,315.757,126,7.423,70,342
+10208,Quellón,Chiloe,Región de Los Lagos,2026Q3,fixed,60,485,359.368,149,194.018,237,17.268,222,342
+9112,Padre Las Casas,Cautín,Región de La Araucanía,2026Q3,fixed,148,1470,358.81,150,309.746,131,16.05,207,342
+7105,Maule,Talca,Región del Maule,2026Q3,fixed,138,1999,358.076,151,326.893,119,7.397,67,342
+9103,Cunco,Cautín,Región de La Araucanía,2026Q3,fixed,80,493,355.916,152,222.028,218,23.923,281,342
+13404,Paine,Maipo,Región Metropolitana de Santiago,2026Q3,fixed,314,2308,355.506,153,319.057,124,6.181,47,342
+10107,Llanquihue,Llanquihue,Región de Los Lagos,2026Q3,fixed,81,355,355.465,154,294.113,142,14.245,189,342
+4303,Monte Patria,Limarí,Región de Coquimbo,2026Q3,fixed,72,574,354.574,155,260.946,177,14.465,192,342
+10109,Puerto Varas,Llanquihue,Región de Los Lagos,2026Q3,fixed,309,2156,353.744,156,271.173,170,12.943,168,342
+3202,Diego de Almagro,Chañaral,Región de Atacama,2026Q3,fixed,50,445,353.619,157,267.751,172,23.807,278,342
+6104,Coltauco,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,111,641,353.052,158,313.594,127,8.512,90,342
+5705,Putaendo,San Felipe,Región de Valparaíso,2026Q3,fixed,78,435,352.675,159,279.302,161,11.674,151,342
+16301,San Carlos,Punilla,Región de Ñuble,2026Q3,fixed,181,1808,352.361,160,282.647,154,9.929,120,342
+8306,Nacimiento,Bío-Bío,Región del Bío-Bío,2026Q3,fixed,51,559,349.84,161,277.006,164,15.222,199,342
+5105,Puchuncaví,Valparaíso,Región de Valparaíso,2026Q3,fixed,127,975,349.49,162,241.653,197,9.031,108,342
+7108,Río Claro,Talca,Región del Maule,2026Q3,fixed,65,211,346.364,163,303.587,135,7.768,77,342
+8105,Hualqui,Concepción,Región del Bío-Bío,2026Q3,fixed,53,417,345.794,164,312.941,128,11.439,147,342
+4203,Los Vilos,Choapa,Región de Coquimbo,2026Q3,fixed,78,691,345.437,165,275.357,168,15.709,202,342
+8204,Contulmo,Arauco,Región del Bío-Bío,2026Q3,fixed,10,27,343.323,166,246.324,192,12.63,164,342
+16201,Quirihue,Itata,Región de Ñuble,2026Q3,fixed,27,222,341.243,167,270.921,171,11.014,140,342
+9120,Villarrica,Cautín,Región de La Araucanía,2026Q3,fixed,489,4050,340.765,168,260.821,178,12.315,162,342
+14103,Lanco,Valdivia,Región de Los Ríos,2026Q3,fixed,36,192,339.288,169,229.472,210,12.938,167,342
+6201,Pichilemu,Cardenal Caro,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,82,935,338.313,170,253.082,181,17.374,226,342
+13303,Tiltil,Chacabuco,Región Metropolitana de Santiago,2026Q3,fixed,68,687,335.584,171,197.98,233,6.153,46,342
+16202,Cobquecura,Itata,Región de Ñuble,2026Q3,fixed,27,99,333.847,172,226.982,213,26.566,294,342
+8201,Lebu,Arauco,Región del Bío-Bío,2026Q3,fixed,44,198,333.114,173,271.633,169,9.828,117,342
+13502,Alhué,Melipilla,Región Metropolitana de Santiago,2026Q3,fixed,24,101,329.85,174,253.062,182,7.485,71,342
+5602,Algarrobo,San Antonio,Región de Valparaíso,2026Q3,fixed,110,961,329.656,175,278.316,162,11.161,143,342
+16302,Coihueco,Punilla,Región de Ñuble,2026Q3,fixed,85,391,329.478,176,276.942,165,11.381,146,342
+6110,Mostazal,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,90,813,329.335,177,289.751,144,6.844,55,342
+14201,La Unión,Ranco,Región de Los Ríos,2026Q3,fixed,97,613,328.734,178,248.437,187,15.928,205,342
+6310,Santa Cruz,Colchagua,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,106,939,327.369,179,275.6,167,10.299,128,342
+5603,Cartagena,San Antonio,Región de Valparaíso,2026Q3,fixed,61,817,327.082,180,331.419,114,4.379,15,342
+5506,Nogales,Quillota,Región de Valparaíso,2026Q3,fixed,84,588,325.737,181,231.405,206,13.378,174,342
+6102,Codegua,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,57,305,324.257,182,281.196,156,6.269,49,342
+4302,Combarbalá,Limarí,Región de Coquimbo,2026Q3,fixed,53,435,324.068,183,285.268,150,13.993,183,342
+13203,San José de Maipo,Cordillera,Región Metropolitana de Santiago,2026Q3,fixed,79,493,322.928,184,280.265,159,5.383,34,342
+5503,Hijuelas,Quillota,Región de Valparaíso,2026Q3,fixed,77,916,320.822,185,276.242,166,11.831,155,342
+10206,Puqueldón,Chiloe,Región de Los Lagos,2026Q3,fixed,4,9,320.769,186,182.77,242,12.0,158,342
+10307,San Pablo,Osorno,Región de Los Lagos,2026Q3,fixed,36,169,319.575,187,197.062,235,17.799,234,342
+6307,Peralillo,Colchagua,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,57,586,319.458,188,264.595,175,9.94,121,342
+7407,Villa Alegre,Linares,Región del Maule,2026Q3,fixed,41,347,318.293,189,289.251,146,8.599,95,342
+7103,Curepto,Talca,Región del Maule,2026Q3,fixed,30,125,315.32,190,210.732,225,19.336,244,342
+16104,El Carmen,Ñuble,Región de Ñuble,2026Q3,fixed,50,266,315.297,191,299.718,137,10.707,136,342
+5803,Olmué,Marga Marga,Región de Valparaíso,2026Q3,fixed,99,840,315.088,192,216.986,221,10.21,127,342
+7404,Parral,Linares,Región del Maule,2026Q3,fixed,108,978,314.925,193,284.763,151,11.297,145,342
+5706,Santa María,San Felipe,Región de Valparaíso,2026Q3,fixed,56,270,314.343,194,244.349,195,7.733,76,342
+6113,Pichidegua,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,91,474,314.032,195,279.575,160,7.418,68,342
+8313,Yumbel,Bío-Bío,Región del Bío-Bío,2026Q3,fixed,70,522,313.368,196,208.69,226,18.266,238,342
+2102,Mejillones,Antofagasta,Región de Antofagasta,2026Q3,fixed,28,197,312.158,197,289.231,147,11.685,152,342
+8312,Tucapel,Bío-Bío,Región del Bío-Bío,2026Q3,fixed,47,416,309.128,198,281.182,157,10.776,138,342
+9109,Loncoche,Cautín,Región de La Araucanía,2026Q3,fixed,131,757,308.962,199,207.242,229,16.982,219,342
+13202,Pirque,Cordillera,Región Metropolitana de Santiago,2026Q3,fixed,157,626,308.655,200,252.98,183,6.133,45,342
+3304,Huasco,Huasco,Región de Atacama,2026Q3,fixed,31,411,308.573,201,232.703,205,17.71,232,342
+14105,Máfil,Valdivia,Región de Los Ríos,2026Q3,fixed,23,80,307.825,202,153.682,265,21.1,257,342
+8305,Mulchén,Bío-Bío,Región del Bío-Bío,2026Q3,fixed,54,412,307.312,203,235.715,202,13.532,177,342
+14107,Paillaco,Valdivia,Región de Los Ríos,2026Q3,fixed,57,443,306.491,204,238.077,199,15.203,198,342
+16304,San Fabián,Punilla,Región de Ñuble,2026Q3,fixed,20,96,304.521,205,227.392,212,16.365,213,342
+4106,Vicuña,Elqui,Región de Coquimbo,2026Q3,fixed,107,1184,302.424,206,233.097,204,21.442,258,342
+4304,Punitaqui,Limarí,Región de Coquimbo,2026Q3,fixed,31,135,302.364,207,299.409,139,20.948,252,342
+9107,Gorbea,Cautín,Región de La Araucanía,2026Q3,fixed,42,249,301.498,208,247.595,189,16.064,208,342
+5102,Casablanca,Valparaíso,Región de Valparaíso,2026Q3,fixed,123,1056,301.388,209,262.393,176,13.366,173,342
+13115,Lo Barnechea,Santiago,Región Metropolitana de Santiago,2026Q3,fixed,200,11525,300.914,210,229.069,211,8.024,80,342
+5606,Santo Domingo,San Antonio,Región de Valparaíso,2026Q3,fixed,99,690,298.693,211,241.693,196,9.536,115,342
+8205,Curanilahue,Arauco,Región del Bío-Bío,2026Q3,fixed,36,276,297.666,212,267.458,174,8.554,92,342
+4201,Illapel,Choapa,Región de Coquimbo,2026Q3,fixed,105,1188,297.437,213,246.648,191,16.157,209,342
+16109,Yungay,Ñuble,Región de Ñuble,2026Q3,fixed,45,192,295.69,214,231.073,208,14.755,195,342
+11201,Aysén,Aysén,Región de Aysén del Gral.Ibañez del Campo,2026Q3,fixed,54,215,295.089,215,172.198,251,15.153,197,342
+6109,Malloa,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,44,187,292.304,216,231.084,207,11.872,157,342
+14102,Corral,Valdivia,Región de Los Ríos,2026Q3,fixed,15,69,291.75,217,185.484,239,13.971,182,342
+9211,Victoria,Malleco,Región de La Araucanía,2026Q3,fixed,74,489,290.65,218,217.361,220,21.006,254,342
+16206,Ranquil,Itata,Región de Ñuble,2026Q3,fixed,23,77,289.258,219,214.312,222,22.714,266,342
+8308,Quilaco,Bío-Bío,Región del Bío-Bío,2026Q3,fixed,26,95,285.757,220,169.644,252,20.989,253,342
+7402,Colbún,Linares,Región del Maule,2026Q3,fixed,85,453,284.933,221,247.356,190,16.958,218,342
+6202,La Estrella,Cardenal Caro,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,28,88,284.575,222,156.176,262,17.909,236,342
+10103,Cochamó,Llanquihue,Región de Los Lagos,2026Q3,fixed,35,96,282.691,223,190.867,238,22.042,262,342
+4103,Andacollo,Elqui,Región de Coquimbo,2026Q3,fixed,21,173,282.476,224,246.15,193,18.133,237,342
+7302,Hualañé,Curicó,Región del Maule,2026Q3,fixed,28,98,282.142,225,267.475,173,22.286,263,342
+5405,Zapallar,Petorca,Región de Valparaíso,2026Q3,fixed,79,452,282.021,226,156.72,258,14.646,194,342
+6107,Las Cabras,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,192,959,281.534,227,237.425,200,14.188,187,342
+8303,Cabrero,Bío-Bío,Región del Bío-Bío,2026Q3,fixed,106,639,281.194,228,230.109,209,13.285,170,342
+6112,Peumo,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,54,431,280.117,229,250.012,186,8.988,106,342
+4202,Canela,Choapa,Región de Coquimbo,2026Q3,fixed,49,231,279.023,230,140.018,269,17.342,224,342
+11401,Chile Chico,General Carrera,Región de Aysén del Gral.Ibañez del Campo,2026Q3,fixed,14,60,278.544,231,116.764,280,25.333,286,342
+2104,Taltal,Antofagasta,Región de Antofagasta,2026Q3,fixed,42,164,278.416,232,168.693,253,29.476,305,342
+9115,Pucón,Cautín,Región de La Araucanía,2026Q3,fixed,290,2180,276.635,233,236.948,201,16.291,211,342
+6305,Nancagua,Colchagua,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,59,271,274.168,234,245.155,194,10.181,125,342
+4305,Río Hurtado,Limarí,Región de Coquimbo,2026Q3,fixed,21,214,273.689,235,36.265,315,24.346,283,342
+7307,Sagrada Familia,Curicó,Región del Maule,2026Q3,fixed,88,444,273.497,236,223.361,216,8.7,99,342
+7109,San Clemente,Talca,Región del Maule,2026Q3,fixed,170,1059,271.831,237,212.255,223,21.966,261,342
+16106,Pinto,Ñuble,Región de Ñuble,2026Q3,fixed,102,538,270.529,238,173.082,250,17.323,223,342
+9114,Pitrufquén,Cautín,Región de La Araucanía,2026Q3,fixed,89,594,269.35,239,208.383,227,20.045,248,342
+14106,Mariquina,Valdivia,Región de Los Ríos,2026Q3,fixed,78,426,263.366,240,175.367,248,19.446,245,342
+7306,Romeral,Curicó,Región del Maule,2026Q3,fixed,96,656,261.822,241,233.683,203,12.223,160,342
+9118,Toltén,Cautín,Región de La Araucanía,2026Q3,fixed,19,39,260.345,242,178.98,243,20.179,249,342
+7305,Rauco,Curicó,Región del Maule,2026Q3,fixed,43,204,259.546,243,226.127,214,36.843,321,342
+16204,Ninhue,Itata,Región de Ñuble,2026Q3,fixed,13,59,255.521,244,178.784,245,16.746,217,342
+7107,Pencahue,Talca,Región del Maule,2026Q3,fixed,38,152,254.449,245,156.673,259,29.507,306,342
+6117,San Vicente,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,161,971,254.3,246,197.831,234,8.812,102,342
+9102,Carahue,Cautín,Región de La Araucanía,2026Q3,fixed,58,239,252.662,247,211.563,224,15.142,196,342
+14204,Río Bueno,Ranco,Región de Los Ríos,2026Q3,fixed,88,982,252.569,248,121.603,278,20.689,250,342
+12102,Laguna Blanca,Magallanes,Región de Magallanes y Antártica Chilena,2026Q3,fixed,6,7,252.089,249,26.417,327,45.429,330,342
+9204,Ercilla,Malleco,Región de La Araucanía,2026Q3,fixed,16,112,251.252,250,252.286,184,14.098,185,342
+8307,Negrete,Bío-Bío,Región del Bío-Bío,2026Q3,fixed,28,76,249.813,251,149.801,266,19.211,242,342
+4204,Salamanca,Choapa,Región de Coquimbo,2026Q3,fixed,130,1248,248.518,252,157.394,257,17.894,235,342
+10403,Hualaihué,Palena,Región de Los Lagos,2026Q3,fixed,35,168,246.957,253,240.088,198,13.78,180,342
+6303,Chimbarongo,Colchagua,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,106,771,246.351,254,206.291,230,11.616,149,342
+7309,Vichuquén,Curicó,Región del Maule,2026Q3,fixed,38,182,245.682,255,195.065,236,54.593,338,342
+8104,Florida,Concepción,Región del Bío-Bío,2026Q3,fixed,43,116,245.231,256,149.262,267,21.026,255,342
+13503,Curacaví,Melipilla,Región Metropolitana de Santiago,2026Q3,fixed,169,1210,244.986,257,205.337,232,9.068,109,342
+7308,Teno,Curicó,Región del Maule,2026Q3,fixed,145,846,243.752,258,183.276,240,16.381,214,342
+9106,Galvarino,Cautín,Región de La Araucanía,2026Q3,fixed,19,200,243.351,259,205.912,231,14.325,190,342
+6302,Chépica,Colchagua,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,88,771,238.356,260,218.588,219,10.397,130,342
+9121,Cholchol,Cautín,Región de La Araucanía,2026Q3,fixed,21,142,233.335,261,159.847,256,11.106,142,342
+7202,Chanco,Cauquenes,Región del Maule,2026Q3,fixed,24,118,233.153,262,178.023,246,45.737,331,342
+6306,Palmilla,Colchagua,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,66,334,232.221,263,173.747,249,13.749,179,342
+7408,Yerbas Buenas,Linares,Región del Maule,2026Q3,fixed,87,528,232.213,264,225.254,215,13.343,171,342
+7110,San Rafael,Talca,Región del Maule,2026Q3,fixed,50,210,226.468,265,121.462,279,18.743,240,342
+6205,Navidad,Cardenal Caro,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,71,255,223.738,266,155.423,263,37.224,322,342
+11301,Cochrane,Capitán Prat,Región de Aysén del Gral.Ibañez del Campo,2026Q3,fixed,16,32,221.013,267,136.813,273,21.656,259,342
+7403,Longaví,Linares,Región del Maule,2026Q3,fixed,145,614,220.484,268,178.809,244,11.238,144,342
+6204,Marchigüe,Cardenal Caro,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,38,120,220.249,269,125.586,276,15.783,203,342
+13504,María Pinto,Melipilla,Región Metropolitana de Santiago,2026Q3,fixed,64,322,220.231,270,163.098,254,10.45,133,342
+6304,Lolol,Colchagua,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,46,339,219.211,271,182.887,241,17.18,221,342
+16303,Ñiquén,Punilla,Región de Ñuble,2026Q3,fixed,73,333,218.874,272,177.266,247,14.577,193,342
+14202,Futrono,Ranco,Región de Los Ríos,2026Q3,fixed,123,704,218.271,273,154.69,264,23.405,272,342
+15201,Putre,Parinacota,Región de Arica y Parinacota,2026Q3,fixed,12,27,211.682,274,30.163,320,40.407,325,342
+9117,Teodoro Schmidt,Cautín,Región de La Araucanía,2026Q3,fixed,30,171,207.131,275,137.807,272,33.257,315,342
+10210,Quinchao,Chiloe,Región de Los Lagos,2026Q3,fixed,6,80,205.258,276,40.85,311,23.613,275,342
+9202,Collipulli,Malleco,Región de La Araucanía,2026Q3,fixed,49,307,203.251,277,160.12,255,14.182,186,342
+9116,Saavedra,Cautín,Región de La Araucanía,2026Q3,fixed,21,256,202.57,278,65.318,303,25.43,288,342
+9208,Purén,Malleco,Región de La Araucanía,2026Q3,fixed,23,163,201.028,279,121.659,277,23.405,272,342
+9205,Lonquimay,Malleco,Región de La Araucanía,2026Q3,fixed,31,223,199.51,280,92.261,292,22.368,264,342
+16305,San Nicolás,Punilla,Región de Ñuble,2026Q3,fixed,69,360,199.317,281,128.34,274,17.622,229,342
+1402,Camiña,Tamarugal,Región de Tarapacá,2026Q3,fixed,4,7,196.317,282,32.334,317,109.714,342,342
+14104,Los Lagos,Valdivia,Región de Los Ríos,2026Q3,fixed,61,560,192.079,283,96.976,290,27.946,301,342
+7405,Retiro,Linares,Región del Maule,2026Q3,fixed,91,433,189.87,284,156.619,261,10.393,129,342
+9203,Curacautín,Malleco,Región de La Araucanía,2026Q3,fixed,113,537,188.848,285,110.333,283,25.227,285,342
+4104,La Higuera,Elqui,Región de Coquimbo,2026Q3,fixed,26,140,188.142,286,139.189,271,23.629,276,342
+7106,Pelarco,Talca,Región del Maule,2026Q3,fixed,60,315,186.499,287,156.655,260,15.441,201,342
+10202,Ancud,Chiloe,Región de Los Lagos,2026Q3,fixed,105,595,185.633,288,93.645,291,20.867,251,342
+5402,Cabildo,Petorca,Región de Valparaíso,2026Q3,fixed,74,718,183.586,289,140.757,268,9.341,112,342
+12302,Primavera,Tierra del Fuego,Región de Magallanes y Antártica Chilena,2026Q3,fixed,8,20,183.517,290,28.802,324,62.15,340,342
+14203,Lago Ranco,Ranco,Región de Los Ríos,2026Q3,fixed,94,429,182.953,291,84.05,295,27.951,302,342
+3302,Alto del Carmen,Huasco,Región de Atacama,2026Q3,fixed,21,187,182.036,292,24.279,329,26.872,297,342
+14108,Panguipulli,Valdivia,Región de Los Ríos,2026Q3,fixed,208,924,180.151,293,79.127,297,23.883,280,342
+1403,Colchane,Tamarugal,Región de Tarapacá,2026Q3,fixed,5,6,179.913,294,28.254,325,50.333,335,342
+3303,Freirina,Huasco,Región de Atacama,2026Q3,fixed,27,169,179.381,295,29.587,323,40.722,326,342
+10102,Calbuco,Llanquihue,Región de Los Lagos,2026Q3,fixed,46,181,177.331,296,44.097,309,25.669,291,342
+6308,Placilla,Colchagua,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,26,78,175.763,297,128.111,275,18.436,239,342
+16105,Pemuco,Ñuble,Región de Ñuble,2026Q3,fixed,30,147,174.545,298,100.179,288,21.054,256,342
+5404,Petorca,Petorca,Región de Valparaíso,2026Q3,fixed,22,106,171.361,299,108.027,285,17.66,231,342
+1405,Pica,Tamarugal,Región de Tarapacá,2026Q3,fixed,53,292,167.85,300,113.479,282,46.055,332,342
+9104,Curarrehue,Cautín,Región de La Araucanía,2026Q3,fixed,48,201,167.512,301,139.934,270,22.428,265,342
+10203,Chonchi,Chiloe,Región de Los Lagos,2026Q3,fixed,31,82,166.662,302,51.999,306,29.415,304,342
+16205,Portezuelo,Itata,Región de Ñuble,2026Q3,fixed,17,41,166.004,303,108.929,284,21.927,260,342
+1401,Pozo Almonte,Tamarugal,Región de Tarapacá,2026Q3,fixed,96,480,163.643,304,97.361,289,34.038,316,342
+6206,Paredones,Cardenal Caro,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,32,100,160.754,305,107.061,286,19.3,243,342
+10304,Puyehue,Osorno,Región de Los Lagos,2026Q3,fixed,63,483,160.068,306,77.805,299,25.443,289,342
+4105,Paihuano,Elqui,Región de Coquimbo,2026Q3,fixed,15,76,157.029,307,22.422,330,31.829,313,342
+10204,Curaco de Vélez,Chiloe,Región de Los Lagos,2026Q3,fixed,10,51,156.005,308,44.382,308,25.412,287,342
+12103,Río Verde,Magallanes,Región de Magallanes y Antártica Chilena,2026Q3,fixed,2,2,149.631,309,42.29,310,35.0,318,342
+1404,Huara,Tamarugal,Región de Tarapacá,2026Q3,fixed,18,48,148.704,310,54.303,304,74.917,341,342
+13505,San Pedro,Melipilla,Región Metropolitana de Santiago,2026Q3,fixed,68,746,144.668,311,101.058,287,7.548,73,342
+9105,Freire,Cautín,Región de La Araucanía,2026Q3,fixed,124,1083,144.029,312,77.985,298,27.032,299,342
+2103,Sierra Gorda,Antofagasta,Región de Antofagasta,2026Q3,fixed,86,276,142.862,313,37.81,314,30.551,310,342
+10402,Futaleufú,Palena,Región de Los Lagos,2026Q3,fixed,10,31,142.562,314,87.344,294,15.419,200,342
+9113,Perquenco,Cautín,Región de La Araucanía,2026Q3,fixed,29,234,141.336,315,69.269,302,29.521,307,342
+6309,Pumanque,Colchagua,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,23,94,140.72,316,81.572,296,23.128,269,342
+2202,Ollagüe,El Loa,Región de Antofagasta,2026Q3,fixed,3,5,139.45,317,18.906,336,31.2,311,342
+10209,Quemchi,Chiloe,Región de Los Lagos,2026Q3,fixed,12,26,136.992,318,35.241,316,26.923,298,342
+8302,Antuco,Bío-Bío,Región del Bío-Bío,2026Q3,fixed,28,179,136.801,319,88.799,293,19.017,241,342
+8309,Quilleco,Bío-Bío,Región del Bío-Bío,2026Q3,fixed,32,77,136.291,320,76.831,300,31.338,312,342
+10205,Dalcahue,Chiloe,Región de Los Lagos,2026Q3,fixed,17,43,135.516,321,30.106,321,27.791,300,342
+12104,San Gregorio,Magallanes,Región de Magallanes y Antártica Chilena,2026Q3,fixed,10,30,131.877,322,22.301,331,53.467,337,342
+6203,Litueche,Cardenal Caro,Región del Libertador Bernardo O'Higgins,2026Q3,fixed,82,509,131.788,323,54.007,305,25.676,292,342
+11202,Cisnes,Aysén,Región de Aysén del Gral.Ibañez del Campo,2026Q3,fixed,17,67,131.479,324,70.734,301,17.731,233,342
+8314,Alto Biobío,Bío-Bío,Región del Bío-Bío,2026Q3,fixed,8,144,131.448,325,113.883,281,20.007,247,342
+12201,Cabo de Hornos,Antártica Chilena,Región de Magallanes y Antártica Chilena,2026Q3,fixed,8,19,130.746,326,21.384,332,50.053,334,342
+2302,María Elena,Tocopilla,Región de Antofagasta,2026Q3,fixed,31,189,129.132,327,20.479,334,29.598,308,342
+11302,O'Higgins,Capitán Prat,Región de Aysén del Gral.Ibañez del Campo,2026Q3,fixed,4,4,127.709,328,39.39,312,34.5,317,342
+2203,San Pedro de Atacama,El Loa,Región de Antofagasta,2026Q3,fixed,60,287,125.922,329,24.818,328,30.415,309,342
+10306,San Juan de la Costa,Osorno,Región de Los Lagos,2026Q3,fixed,16,46,121.539,330,26.616,326,26.783,296,342
+10401,Chaitén,Palena,Región de Los Lagos,2026Q3,fixed,17,57,121.045,331,32.155,318,24.649,284,342
+8207,Tirúa,Arauco,Región del Bío-Bío,2026Q3,fixed,16,47,115.271,332,19.377,335,35.149,319,342
+11402,Río Ibáñez,General Carrera,Región de Aysén del Gral.Ibañez del Campo,2026Q3,fixed,14,52,105.414,333,30.268,319,23.596,274,342
+9110,Melipeuco,Cautín,Región de La Araucanía,2026Q3,fixed,26,71,86.679,334,17.238,339,35.521,320,342
+15102,Camarones,Arica,Región de Arica y Parinacota,2026Q3,fixed,5,8,86.408,335,21.129,333,48.875,333,342
+12402,Torres del Paine,Ultima Esperanza,Región de Magallanes y Antártica Chilena,2026Q3,fixed,26,109,83.196,336,18.55,338,43.468,328,342
+11102,Lago Verde,Coyhaique,Región de Aysén del Gral.Ibañez del Campo,2026Q3,fixed,2,4,81.278,337,29.72,322,26.75,295,342
+9207,Lumaco,Malleco,Región de La Araucanía,2026Q3,fixed,27,139,78.733,338,18.559,337,38.82,323,342
+10207,Queilén,Chiloe,Región de Los Lagos,2026Q3,fixed,1,7,68.583,339,44.983,307,28.0,303,342
+10404,Palena,Palena,Región de Los Lagos,2026Q3,fixed,5,8,59.25,340,17.189,340,23.375,271,342
+11303,Tortel,Capitán Prat,Región de Aysén del Gral.Ibañez del Campo,2026Q3,fixed,1,1,4.325,341,1.248,341,33.0,314,342
+15202,General Lagos,Parinacota,Región de Arica y Parinacota,2026Q3,fixed,1,2,0.238,342,0.328,342,40.0,324,342
+10402,Futaleufú,Palena,Región de Los Lagos,2026Q3,mobile,3,4,187.636,1,21.678,73,36.75,166,339
+12302,Primavera,Tierra del Fuego,Región de Magallanes y Antártica Chilena,2026Q3,mobile,6,15,185.851,2,30.91,7,69.533,310,339
+6305,Nancagua,Colchagua,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,21,83,155.18,3,23.165,47,27.675,78,339
+13403,Calera de Tango,Maipo,Región Metropolitana de Santiago,2026Q3,mobile,46,291,154.412,4,27.075,16,18.082,1,339
+10106,Los Muermos,Llanquihue,Región de Los Lagos,2026Q3,mobile,34,177,150.93,5,14.617,241,35.085,149,339
+13122,Peñalolén,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,113,1441,150.81,6,32.129,5,21.547,17,339
+12301,Porvenir,Tierra del Fuego,Región de Magallanes y Antártica Chilena,2026Q3,mobile,8,11,148.622,7,28.904,12,67.818,305,339
+6103,Coinco,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,20,81,144.735,8,16.927,176,25.963,58,339
+13123,Providencia,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,55,2383,144.348,9,35.592,2,27.17,73,339
+13502,Alhué,Melipilla,Región Metropolitana de Santiago,2026Q3,mobile,14,29,143.902,10,22.281,61,31.724,121,339
+5605,El Tabo,San Antonio,Región de Valparaíso,2026Q3,mobile,60,263,140.958,11,26.626,18,23.452,36,339
+5105,Puchuncaví,Valparaíso,Región de Valparaíso,2026Q3,mobile,87,375,135.313,12,29.32,10,25.736,57,339
+16305,San Nicolás,Punilla,Región de Ñuble,2026Q3,mobile,43,403,133.043,13,6.135,331,31.05,111,339
+13114,Las Condes,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,149,3445,132.703,14,30.737,8,25.331,51,339
+13113,La Reina,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,61,590,132.095,15,30.921,6,22.1,23,339
+13120,Ñuñoa,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,60,1472,130.383,16,29.452,9,21.294,14,339
+12402,Torres del Paine,Ultima Esperanza,Región de Magallanes y Antártica Chilena,2026Q3,mobile,5,10,128.185,17,18.186,146,60.1,288,339
+5103,Concón,Valparaíso,Región de Valparaíso,2026Q3,mobile,76,637,127.615,18,24.222,35,26.832,66,339
+6306,Palmilla,Colchagua,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,38,140,127.027,19,23.905,40,35.471,153,339
+6114,Quinta de Tilcoco,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,21,74,126.283,20,24.058,37,22.595,29,339
+10201,Castro,Chiloe,Región de Los Lagos,2026Q3,mobile,45,161,123.801,21,24.589,27,41.174,194,339
+13132,Vitacura,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,75,699,123.43,22,25.451,21,23.122,34,339
+13129,San Joaquín,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,37,419,123.059,23,25.122,24,24.575,44,339
+11201,Aysén,Aysén,Región de Aysén del Gral.Ibañez del Campo,2026Q3,mobile,45,137,122.882,24,24.699,26,50.664,255,339
+7407,Villa Alegre,Linares,Región del Maule,2026Q3,mobile,37,111,122.796,25,19.202,120,29.766,96,339
+6111,Olivar,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,23,55,122.711,26,24.289,33,21.855,20,339
+6112,Peumo,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,23,87,122.421,27,22.495,57,53.736,270,339
+13118,Macul,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,53,976,121.989,28,27.337,15,19.08,2,339
+13104,Conchalí,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,39,660,121.833,29,22.19,65,21.385,16,339
+8206,Los Alamos,Arauco,Región del Bío-Bío,2026Q3,mobile,26,61,121.347,30,17.943,157,59.361,282,339
+6304,Lolol,Colchagua,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,43,119,119.467,31,26.031,19,58.975,280,339
+5704,Panquehue,San Felipe,Región de Valparaíso,2026Q3,mobile,34,197,118.147,32,17.094,173,29.761,95,339
+10303,Purranque,Osorno,Región de Los Lagos,2026Q3,mobile,88,143,117.252,33,20.801,89,37.378,171,339
+16205,Portezuelo,Itata,Región de Ñuble,2026Q3,mobile,19,40,116.331,34,17.161,170,25.55,55,339
+13108,Independencia,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,27,520,116.018,35,27.677,14,19.281,3,339
+13125,Quilicura,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,135,1038,115.998,36,21.881,71,20.779,9,339
+10307,San Pablo,Osorno,Región de Los Lagos,2026Q3,mobile,36,135,115.921,37,20.589,92,39.556,185,339
+8112,Hualpén,Concepción,Región del Bío-Bío,2026Q3,mobile,58,331,115.248,38,24.574,29,28.798,84,339
+13127,Recoleta,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,55,610,114.919,39,24.465,30,22.105,25,339
+13303,Tiltil,Chacabuco,Región Metropolitana de Santiago,2026Q3,mobile,52,164,114.637,40,20.477,94,27.03,70,339
+10107,Llanquihue,Llanquihue,Región de Los Lagos,2026Q3,mobile,31,100,113.985,41,20.157,97,42.65,204,339
+13602,El Monte,Talagante,Región Metropolitana de Santiago,2026Q3,mobile,54,205,113.599,42,18.481,137,30.571,106,339
+13107,Huechuraba,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,81,1009,112.768,43,26.966,17,20.541,7,339
+13101,Santiago,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,92,5440,111.59,44,28.919,11,22.058,22,339
+13117,Lo Prado,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,27,352,110.47,45,23.969,39,21.861,21,339
+13119,Maipú,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,218,2503,110.037,46,25.491,20,21.788,18,339
+7108,Río Claro,Talca,Región del Maule,2026Q3,mobile,45,111,109.292,47,19.94,106,26.829,65,339
+5304,San Esteban,Los Andes,Región de Valparaíso,2026Q3,mobile,45,168,109.155,48,12.574,279,25.286,49,339
+7303,Licantén,Curicó,Región del Maule,2026Q3,mobile,17,51,108.149,49,18.754,131,59.059,281,339
+13130,San Miguel,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,38,806,108.096,50,25.023,25,21.056,11,339
+13121,Pedro Aguirre Cerda,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,32,375,107.988,51,23.049,49,22.515,28,339
+12201,Cabo de Hornos,Antártica Chilena,Región de Magallanes y Antártica Chilena,2026Q3,mobile,10,102,107.721,52,32.401,4,67.333,303,339
+13102,Cerrillos,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,59,543,106.935,53,20.706,90,20.269,6,339
+13110,La Florida,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,145,1977,106.406,54,23.69,42,25.152,47,339
+13103,Cerro Navia,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,39,356,106.179,55,19.023,123,19.972,4,339
+13109,La Cisterna,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,39,526,106.016,56,24.32,31,20.717,8,339
+13131,San Ramón,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,24,359,105.169,57,21.924,70,20.231,5,339
+13203,San José de Maipo,Cordillera,Región Metropolitana de Santiago,2026Q3,mobile,59,174,105.117,58,21.963,68,23.707,38,339
+10209,Quemchi,Chiloe,Región de Los Lagos,2026Q3,mobile,8,41,105.024,59,12.987,269,43.293,207,339
+8103,Chiguayante,Concepción,Región del Bío-Bío,2026Q3,mobile,51,215,104.999,60,24.082,36,42.079,199,339
+10204,Curaco de Vélez,Chiloe,Región de Los Lagos,2026Q3,mobile,11,94,104.601,61,41.21,1,33.681,138,339
+5109,Viña del Mar,Valparaíso,Región de Valparaíso,2026Q3,mobile,238,2711,104.55,62,24.261,34,23.001,33,339
+16107,Quillón,Ñuble,Región de Ñuble,2026Q3,mobile,57,211,104.486,63,25.279,23,31.72,119,339
+5302,Calle Larga,Los Andes,Región de Valparaíso,2026Q3,mobile,36,76,104.019,64,15.346,220,21.803,19,339
+13126,Quinta Normal,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,46,623,103.867,65,23.988,38,21.194,12,339
+16105,Pemuco,Ñuble,Región de Ñuble,2026Q3,mobile,40,208,103.732,66,19.967,104,32.462,128,339
+5602,Algarrobo,San Antonio,Región de Valparaíso,2026Q3,mobile,76,334,103.526,67,17.776,160,30.344,103,339
+13401,San Bernardo,Maipo,Región Metropolitana de Santiago,2026Q3,mobile,217,1758,103.316,68,22.939,51,24.357,43,339
+10210,Quinchao,Chiloe,Región de Los Lagos,2026Q3,mobile,5,14,103.047,69,17.484,164,37.071,168,339
+6113,Pichidegua,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,43,114,102.515,70,19.721,111,50.044,251,339
+4103,Andacollo,Elqui,Región de Coquimbo,2026Q3,mobile,24,78,102.508,71,17.29,169,43.885,214,339
+13116,Lo Espejo,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,31,334,102.077,72,19.068,122,28.117,80,339
+8313,Yumbel,Bío-Bío,Región del Bío-Bío,2026Q3,mobile,53,180,101.709,73,21.532,78,38.683,181,339
+7109,San Clemente,Talca,Región del Maule,2026Q3,mobile,106,348,101.531,74,21.137,83,30.635,107,339
+13402,Buin,Maipo,Región Metropolitana de Santiago,2026Q3,mobile,142,595,101.498,75,20.219,96,28.082,79,339
+5301,Los Andes,Los Andes,Región de Valparaíso,2026Q3,mobile,84,610,101.445,76,16.407,188,27.1,72,339
+13603,Isla de Maipo,Talagante,Región Metropolitana de Santiago,2026Q3,mobile,51,180,101.247,77,13.467,258,21.372,15,339
+6105,Doñihue,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,46,127,101.079,78,18.181,148,22.661,30,339
+16103,Chillán Viejo,Ñuble,Región de Ñuble,2026Q3,mobile,52,142,101.073,79,14.961,229,27.528,75,339
+10101,Puerto Montt,Llanquihue,Región de Los Lagos,2026Q3,mobile,339,1705,101.005,80,22.876,52,37.873,175,339
+6303,Chimbarongo,Colchagua,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,84,436,100.761,81,24.585,28,26.495,64,339
+5604,El Quisco,San Antonio,Región de Valparaíso,2026Q3,mobile,68,327,100.532,82,18.982,125,27.596,77,339
+5706,Santa María,San Felipe,Región de Valparaíso,2026Q3,mobile,27,95,100.523,83,15.523,214,21.232,13,339
+5803,Olmué,Marga Marga,Región de Valparaíso,2026Q3,mobile,63,248,100.243,84,15.707,208,30.121,101,339
+7401,Linares,Linares,Región del Maule,2026Q3,mobile,147,790,100.105,85,18.944,128,28.619,83,339
+13106,Estación Central,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,50,831,99.841,86,23.715,41,25.36,54,339
+5403,Papudo,Petorca,Región de Valparaíso,2026Q3,mobile,30,90,99.818,87,19.934,107,47.311,237,339
+16206,Ranquil,Itata,Región de Ñuble,2026Q3,mobile,33,178,99.812,88,20.924,88,31.736,122,339
+6116,Requínoa,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,56,398,99.681,89,17.893,158,23.992,41,339
+16109,Yungay,Ñuble,Región de Ñuble,2026Q3,mobile,39,123,99.566,90,20.957,87,48.407,243,339
+8202,Arauco,Arauco,Región del Bío-Bío,2026Q3,mobile,72,234,99.434,91,21.979,67,37.436,172,339
+13601,Talagante,Talagante,Región Metropolitana de Santiago,2026Q3,mobile,107,529,99.156,92,21.662,74,27.272,74,339
+5402,Cabildo,Petorca,Región de Valparaíso,2026Q3,mobile,44,175,98.615,93,19.887,108,45.651,227,339
+13201,Puente Alto,Cordillera,Región Metropolitana de Santiago,2026Q3,mobile,222,2168,98.071,94,22.687,55,24.318,42,339
+7101,Talca,Talca,Región del Maule,2026Q3,mobile,211,1692,98.003,95,22.852,53,29.181,91,339
+9102,Carahue,Cautín,Región de La Araucanía,2026Q3,mobile,41,146,97.819,96,17.629,161,45.808,229,339
+7402,Colbún,Linares,Región del Maule,2026Q3,mobile,44,133,97.489,97,15.55,212,30.962,110,339
+7110,San Rafael,Talca,Región del Maule,2026Q3,mobile,28,72,97.2,98,20.622,91,26.875,67,339
+13128,Renca,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,72,823,97.058,99,19.021,124,22.964,32,339
+16303,Ñiquén,Punilla,Región de Ñuble,2026Q3,mobile,58,164,96.659,100,16.059,200,36.39,163,339
+8308,Quilaco,Bío-Bío,Región del Bío-Bío,2026Q3,mobile,22,47,96.438,101,13.431,259,48.149,241,339
+16301,San Carlos,Punilla,Región de Ñuble,2026Q3,mobile,106,428,96.389,102,19.607,114,32.96,132,339
+13124,Pudahuel,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,196,1506,96.387,103,19.875,109,30.556,105,339
+7309,Vichuquén,Curicó,Región del Maule,2026Q3,mobile,32,100,96.242,104,17.545,163,32.89,131,339
+5405,Zapallar,Petorca,Región de Valparaíso,2026Q3,mobile,53,183,96.033,105,14.052,246,30.639,108,339
+9209,Renaico,Malleco,Región de La Araucanía,2026Q3,mobile,17,43,95.975,106,16.328,191,45.0,222,339
+13301,Colina,Chacabuco,Región Metropolitana de Santiago,2026Q3,mobile,253,1188,95.732,107,18.757,130,23.86,40,339
+6106,Graneros,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,32,131,95.702,108,19.674,112,23.145,35,339
+6307,Peralillo,Colchagua,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,32,99,95.558,109,22.249,63,54.222,273,339
+8101,Concepción,Concepción,Región del Bío-Bío,2026Q3,mobile,151,1480,94.63,110,23.122,48,34.392,143,339
+6102,Codegua,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,17,51,94.437,111,20.985,86,29.529,92,339
+7301,Curicó,Curicó,Región del Maule,2026Q3,mobile,194,1088,94.345,112,19.454,115,24.854,46,339
+8203,Cañete,Arauco,Región del Bío-Bío,2026Q3,mobile,102,591,94.265,113,20.027,103,37.865,174,339
+16204,Ninhue,Itata,Región de Ñuble,2026Q3,mobile,11,35,94.212,114,9.119,319,28.457,82,339
+13112,La Pintana,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,80,626,93.631,115,17.411,165,23.752,39,339
+7305,Rauco,Curicó,Región del Maule,2026Q3,mobile,14,57,93.581,116,17.297,168,29.807,97,339
+7102,Constitución,Talca,Región del Maule,2026Q3,mobile,93,513,93.102,117,23.534,44,34.942,148,339
+5801,Quilpué,Marga Marga,Región de Valparaíso,2026Q3,mobile,130,1164,92.485,118,18.415,140,26.171,59,339
+9116,Saavedra,Cautín,Región de La Araucanía,2026Q3,mobile,37,244,92.419,119,15.64,210,44.77,220,339
+13115,Lo Barnechea,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,129,667,91.905,120,18.972,127,30.063,100,339
+8312,Tucapel,Bío-Bío,Región del Bío-Bío,2026Q3,mobile,34,194,91.768,121,18.441,138,31.928,123,339
+6310,Santa Cruz,Colchagua,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,61,212,91.42,122,19.14,121,26.198,62,339
+8201,Lebu,Arauco,Región del Bío-Bío,2026Q3,mobile,33,181,91.262,123,22.494,58,38.569,180,339
+10208,Quellón,Chiloe,Región de Los Lagos,2026Q3,mobile,22,42,91.215,124,25.427,22,35.643,155,339
+8307,Negrete,Bío-Bío,Región del Bío-Bío,2026Q3,mobile,25,156,91.122,125,21.004,85,34.641,144,339
+9101,Temuco,Cautín,Región de La Araucanía,2026Q3,mobile,266,2302,91.094,126,22.487,59,52.285,265,339
+6101,Rancagua,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,173,1430,91.004,127,22.319,60,22.775,31,339
+16101,Chillán,Ñuble,Región de Ñuble,2026Q3,mobile,199,1012,90.672,128,21.558,76,31.347,115,339
+9201,Angol,Malleco,Región de La Araucanía,2026Q3,mobile,85,215,90.655,129,16.694,181,35.674,157,339
+5703,Llaillay,San Felipe,Región de Valparaíso,2026Q3,mobile,72,289,90.564,130,15.788,204,31.46,117,339
+6201,Pichilemu,Cardenal Caro,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,53,164,90.174,131,16.778,179,52.207,264,339
+13111,La Granja,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,39,425,89.963,132,17.347,167,24.647,45,339
+1402,Camiña,Tamarugal,Región de Tarapacá,2026Q3,mobile,4,20,89.952,133,16.221,195,69.25,309,339
+10301,Osorno,Osorno,Región de Los Lagos,2026Q3,mobile,187,1061,89.25,134,23.654,43,37.198,170,339
+8110,Talcahuano,Concepción,Región del Bío-Bío,2026Q3,mobile,100,565,89.209,135,20.028,101,32.34,127,339
+4101,La Serena,Elqui,Región de Coquimbo,2026Q3,mobile,267,1952,89.031,136,21.118,84,34.871,147,339
+9110,Melipeuco,Cautín,Región de La Araucanía,2026Q3,mobile,25,99,88.982,137,14.766,235,49.172,244,339
+13105,El Bosque,Santiago,Región Metropolitana de Santiago,2026Q3,mobile,48,489,88.28,138,18.277,144,22.104,24,339
+10108,Maullín,Llanquihue,Región de Los Lagos,2026Q3,mobile,57,154,88.216,139,16.386,189,37.948,177,339
+8108,San Pedro de la Paz,Concepción,Región del Bío-Bío,2026Q3,mobile,102,636,87.868,140,18.043,153,29.035,87,339
+14204,Río Bueno,Ranco,Región de Los Ríos,2026Q3,mobile,53,149,87.755,141,19.408,116,41.819,197,339
+6104,Coltauco,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,39,108,87.683,142,23.381,45,25.315,50,339
+14103,Lanco,Valdivia,Región de Los Ríos,2026Q3,mobile,29,88,87.484,143,13.941,248,40.023,190,339
+14102,Corral,Valdivia,Región de Los Ríos,2026Q3,mobile,13,29,87.153,144,19.871,110,42.276,201,339
+14101,Valdivia,Valdivia,Región de Los Ríos,2026Q3,mobile,180,1128,86.757,145,21.264,81,39.281,183,339
+13605,Peñaflor,Talagante,Región Metropolitana de Santiago,2026Q3,mobile,94,600,86.641,146,19.311,118,28.317,81,339
+5601,San Antonio,San Antonio,Región de Valparaíso,2026Q3,mobile,136,864,86.433,147,22.002,66,25.35,53,339
+4106,Vicuña,Elqui,Región de Coquimbo,2026Q3,mobile,85,480,86.095,148,16.817,178,42.14,200,339
+8104,Florida,Concepción,Región del Bío-Bío,2026Q3,mobile,48,181,86.006,149,13.788,252,32.602,129,339
+5804,Villa Alemana,Marga Marga,Región de Valparaíso,2026Q3,mobile,102,1065,85.868,150,14.924,232,45.654,228,339
+6108,Machalí,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,95,478,85.845,151,13.984,247,23.68,37,339
+8102,Coronel,Concepción,Región del Bío-Bío,2026Q3,mobile,109,610,85.252,152,16.273,193,32.166,125,339
+7403,Longaví,Linares,Región del Maule,2026Q3,mobile,70,227,84.939,153,20.087,99,49.414,249,339
+15101,Arica,Arica,Región de Arica y Parinacota,2026Q3,mobile,204,1093,84.621,154,22.753,54,49.179,245,339
+6301,San Fernando,Colchagua,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,93,388,84.613,155,18.179,149,26.454,63,339
+6115,Rengo,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,71,261,84.386,156,16.679,183,25.222,48,339
+2301,Tocopilla,Tocopilla,Región de Antofagasta,2026Q3,mobile,34,247,84.16,157,18.691,133,49.259,247,339
+16202,Cobquecura,Itata,Región de Ñuble,2026Q3,mobile,16,19,83.788,158,28.898,13,46.368,233,339
+3201,Chañaral,Chañaral,Región de Atacama,2026Q3,mobile,48,243,82.795,159,21.938,69,71.959,314,339
+8107,Penco,Concepción,Región del Bío-Bío,2026Q3,mobile,39,134,82.242,160,23.011,50,29.157,89,339
+14203,Lago Ranco,Ranco,Región de Los Ríos,2026Q3,mobile,44,90,82.114,161,12.313,285,60.044,287,339
+10109,Puerto Varas,Llanquihue,Región de Los Lagos,2026Q3,mobile,113,372,81.909,162,19.941,105,50.914,256,339
+4102,Coquimbo,Elqui,Región de Coquimbo,2026Q3,mobile,305,2155,81.773,163,19.273,119,54.108,271,339
+10105,Frutillar,Llanquihue,Región de Los Lagos,2026Q3,mobile,61,259,81.579,164,17.355,166,36.147,160,339
+13604,Padre Hurtado,Talagante,Región Metropolitana de Santiago,2026Q3,mobile,73,416,81.495,165,18.117,151,22.478,27,339
+5101,Valparaíso,Valparaíso,Región de Valparaíso,2026Q3,mobile,206,1850,81.493,166,20.148,98,25.344,52,339
+3303,Freirina,Huasco,Región de Atacama,2026Q3,mobile,29,291,81.349,167,18.52,136,52.196,263,339
+8309,Quilleco,Bío-Bío,Región del Bío-Bío,2026Q3,mobile,14,28,80.855,168,14.933,231,29.893,98,339
+7406,San Javier,Linares,Región del Maule,2026Q3,mobile,95,424,80.618,169,15.519,215,99.455,333,339
+11301,Cochrane,Capitán Prat,Región de Aysén del Gral.Ibañez del Campo,2026Q3,mobile,7,20,80.493,170,8.632,320,45.05,223,339
+8306,Nacimiento,Bío-Bío,Región del Bío-Bío,2026Q3,mobile,39,217,80.342,171,16.678,184,35.664,156,339
+8301,Los Ángeles,Bío-Bío,Región del Bío-Bío,2026Q3,mobile,304,1740,80.263,172,18.186,146,36.216,161,339
+12401,Natales,Ultima Esperanza,Región de Magallanes y Antártica Chilena,2026Q3,mobile,51,237,80.131,173,16.378,190,67.996,306,339
+8310,San Rosendo,Bío-Bío,Región del Bío-Bío,2026Q3,mobile,5,12,79.992,174,17.786,159,51.583,260,339
+9210,Traiguén,Malleco,Región de La Araucanía,2026Q3,mobile,29,146,79.767,175,15.768,206,43.459,209,339
+14107,Paillaco,Valdivia,Región de Los Ríos,2026Q3,mobile,60,208,79.505,176,22.263,62,43.654,211,339
+9115,Pucón,Cautín,Región de La Araucanía,2026Q3,mobile,117,379,79.436,177,16.818,177,45.499,225,339
+5705,Putaendo,San Felipe,Región de Valparaíso,2026Q3,mobile,42,181,79.197,178,12.711,276,47.309,236,339
+4304,Punitaqui,Limarí,Región de Coquimbo,2026Q3,mobile,32,170,79.13,179,14.854,233,124.629,336,339
+7408,Yerbas Buenas,Linares,Región del Maule,2026Q3,mobile,80,323,78.6,180,18.237,145,31.232,113,339
+12101,Punta Arenas,Magallanes,Región de Magallanes y Antártica Chilena,2026Q3,mobile,82,251,78.538,181,21.555,77,163.629,339,339
+16106,Pinto,Ñuble,Región de Ñuble,2026Q3,mobile,53,140,78.391,182,13.017,268,52.414,267,339
+9109,Loncoche,Cautín,Región de La Araucanía,2026Q3,mobile,64,171,78.125,183,13.873,250,37.942,176,339
+4104,La Higuera,Elqui,Región de Coquimbo,2026Q3,mobile,37,120,78.044,184,18.75,132,41.767,196,339
+6107,Las Cabras,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,98,385,77.823,185,15.153,225,54.19,272,339
+3101,Copiapó,Copiapó,Región de Atacama,2026Q3,mobile,186,1451,77.806,186,19.389,117,39.877,189,339
+4105,Paihuano,Elqui,Región de Coquimbo,2026Q3,mobile,33,131,77.759,187,16.752,180,71.031,313,339
+16102,Bulnes,Ñuble,Región de Ñuble,2026Q3,mobile,67,164,77.55,188,18.039,154,35.25,151,339
+6302,Chépica,Colchagua,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,40,112,77.46,189,13.756,253,26.188,61,339
+10401,Chaitén,Palena,Región de Los Lagos,2026Q3,mobile,11,22,76.952,190,18.975,126,36.909,167,339
+2201,Calama,El Loa,Región de Antofagasta,2026Q3,mobile,205,1090,76.664,191,21.532,78,52.024,262,339
+13202,Pirque,Cordillera,Región Metropolitana de Santiago,2026Q3,mobile,52,138,76.61,192,15.18,224,39.717,186,339
+2101,Antofagasta,Antofagasta,Región de Antofagasta,2026Q3,mobile,238,2525,76.583,193,22.215,64,40.727,193,339
+2102,Mejillones,Antofagasta,Región de Antofagasta,2026Q3,mobile,48,205,76.323,194,21.776,72,36.712,165,339
+7404,Parral,Linares,Región del Maule,2026Q3,mobile,73,308,76.172,195,22.633,56,47.373,238,339
+9112,Padre Las Casas,Cautín,Región de La Araucanía,2026Q3,mobile,136,548,76.108,196,18.083,152,40.325,191,339
+13404,Paine,Maipo,Región Metropolitana de Santiago,2026Q3,mobile,139,413,76.071,197,15.029,228,30.206,102,339
+6110,Mostazal,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,53,221,75.794,198,16.173,197,31.077,112,339
+7304,Molina,Curicó,Región del Maule,2026Q3,mobile,128,387,75.519,199,15.959,201,31.315,114,339
+10104,Fresia,Llanquihue,Región de Los Lagos,2026Q3,mobile,53,110,75.508,200,14.058,245,43.9,215,339
+4305,Río Hurtado,Limarí,Región de Coquimbo,2026Q3,mobile,18,113,75.212,201,12.458,283,42.0,198,339
+10102,Calbuco,Llanquihue,Región de Los Lagos,2026Q3,mobile,43,122,75.209,202,15.072,227,35.23,150,339
+9114,Pitrufquén,Cautín,Región de La Araucanía,2026Q3,mobile,51,180,75.037,203,12.196,287,40.489,192,339
+5606,Santo Domingo,San Antonio,Región de Valparaíso,2026Q3,mobile,65,271,75.003,204,11.708,295,31.421,116,339
+13501,Melipilla,Melipilla,Región Metropolitana de Santiago,2026Q3,mobile,224,1144,74.848,205,17.096,172,29.535,93,339
+11202,Cisnes,Aysén,Región de Aysén del Gral.Ibañez del Campo,2026Q3,mobile,6,17,74.739,206,16.169,198,44.941,221,339
+1101,Iquique,Iquique,Región de Tarapacá,2026Q3,mobile,97,833,74.659,207,21.186,82,59.887,285,339
+3302,Alto del Carmen,Huasco,Región de Atacama,2026Q3,mobile,16,52,74.555,208,20.454,95,47.058,235,339
+8106,Lota,Concepción,Región del Bío-Bío,2026Q3,mobile,29,182,74.531,209,13.192,262,28.879,85,339
+8305,Mulchén,Bío-Bío,Región del Bío-Bío,2026Q3,mobile,49,366,74.49,210,16.468,187,58.495,279,339
+9111,Nueva Imperial,Cautín,Región de La Araucanía,2026Q3,mobile,77,270,74.41,211,18.288,143,43.13,206,339
+7105,Maule,Talca,Región del Maule,2026Q3,mobile,85,366,74.384,212,16.486,186,31.65,118,339
+5102,Casablanca,Valparaíso,Región de Valparaíso,2026Q3,mobile,99,343,74.109,213,14.758,237,33.437,135,339
+14108,Panguipulli,Valdivia,Región de Los Ríos,2026Q3,mobile,106,405,73.92,214,14.956,230,51.558,259,339
+5701,San Felipe,San Felipe,Región de Valparaíso,2026Q3,mobile,87,570,73.919,215,15.777,205,27.061,71,339
+14105,Máfil,Valdivia,Región de Los Ríos,2026Q3,mobile,23,111,73.765,216,11.526,298,46.306,232,339
+7106,Pelarco,Talca,Región del Maule,2026Q3,mobile,25,78,73.748,217,14.711,239,34.744,145,339
+9206,Los Sauces,Malleco,Región de La Araucanía,2026Q3,mobile,23,105,73.563,218,18.421,139,76.524,323,339
+16108,San Ignacio,Ñuble,Región de Ñuble,2026Q3,mobile,45,237,73.559,219,17.122,171,32.662,130,339
+3304,Huasco,Huasco,Región de Atacama,2026Q3,mobile,41,922,73.402,220,18.413,141,96.35,332,339
+6202,La Estrella,Cardenal Caro,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,42,248,73.179,221,15.537,213,32.109,124,339
+6205,Navidad,Cardenal Caro,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,50,201,72.902,222,16.24,194,53.473,269,339
+7307,Sagrada Familia,Curicó,Región del Maule,2026Q3,mobile,43,123,72.309,223,13.748,254,34.293,142,339
+5501,Quillota,Quillota,Región de Valparaíso,2026Q3,mobile,118,691,72.05,224,15.551,211,27.019,68,339
+3102,Caldera,Copiapó,Región de Atacama,2026Q3,mobile,57,209,72.022,225,18.848,129,49.761,250,339
+13503,Curacaví,Melipilla,Región Metropolitana de Santiago,2026Q3,mobile,110,411,71.926,226,15.905,202,43.54,210,339
+5603,Cartagena,San Antonio,Región de Valparaíso,2026Q3,mobile,54,320,71.847,227,14.326,244,25.578,56,339
+13505,San Pedro,Melipilla,Región Metropolitana de Santiago,2026Q3,mobile,47,322,71.734,228,16.276,192,27.028,69,339
+1405,Pica,Tamarugal,Región de Tarapacá,2026Q3,mobile,43,152,71.561,229,20.028,101,68.243,307,339
+10302,Puerto Octay,Osorno,Región de Los Lagos,2026Q3,mobile,51,150,71.152,230,19.616,113,69.06,308,339
+8304,Laja,Bío-Bío,Región del Bío-Bío,2026Q3,mobile,53,150,71.022,231,15.105,226,31.72,119,339
+8109,Santa Juana,Concepción,Región del Bío-Bío,2026Q3,mobile,38,160,70.991,232,11.727,294,45.138,224,339
+3202,Diego de Almagro,Chañaral,Región de Atacama,2026Q3,mobile,44,254,70.489,233,15.182,223,45.606,226,339
+13302,Lampa,Chacabuco,Región Metropolitana de Santiago,2026Q3,mobile,191,921,69.879,234,16.688,182,22.343,26,339
+6117,San Vicente,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,67,213,69.669,235,14.66,240,29.014,86,339
+9107,Gorbea,Cautín,Región de La Araucanía,2026Q3,mobile,45,259,69.613,236,12.509,281,39.351,184,339
+11101,Coyhaique,Coyhaique,Región de Aysén del Gral.Ibañez del Campo,2026Q3,mobile,89,294,69.428,237,15.698,209,49.388,248,339
+5503,Hijuelas,Quillota,Región de Valparaíso,2026Q3,mobile,56,139,69.049,238,9.76,316,27.532,76,339
+6206,Paredones,Cardenal Caro,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,35,103,68.854,239,17.961,156,78.563,326,339
+5303,Rinconada,Los Andes,Región de Valparaíso,2026Q3,mobile,38,161,68.688,240,13.683,255,26.186,60,339
+4302,Combarbalá,Limarí,Región de Coquimbo,2026Q3,mobile,27,196,68.652,241,21.652,75,41.398,195,339
+8111,Tomé,Concepción,Región del Bío-Bío,2026Q3,mobile,69,238,68.63,242,17.066,174,34.824,146,339
+9205,Lonquimay,Malleco,Región de La Araucanía,2026Q3,mobile,22,135,68.537,243,10.965,303,79.607,328,339
+4301,Ovalle,Limarí,Región de Coquimbo,2026Q3,mobile,159,1094,68.52,244,18.321,142,66.907,302,339
+10403,Hualaihué,Palena,Región de Los Lagos,2026Q3,mobile,22,46,68.162,245,20.067,100,57.935,278,339
+5502,Calera,Quillota,Región de Valparaíso,2026Q3,mobile,52,383,68.037,246,16.214,196,32.191,126,339
+7203,Pelluhue,Cauquenes,Región del Maule,2026Q3,mobile,21,259,68.005,247,11.823,291,74.278,320,339
+16203,Coelemu,Itata,Región de Ñuble,2026Q3,mobile,37,88,67.925,248,16.094,199,34.091,139,339
+10306,San Juan de la Costa,Osorno,Región de Los Lagos,2026Q3,mobile,30,93,67.778,249,32.742,3,38.344,179,339
+4203,Los Vilos,Choapa,Región de Coquimbo,2026Q3,mobile,73,431,67.16,250,15.856,203,65.049,295,339
+5107,Quintero,Valparaíso,Región de Valparaíso,2026Q3,mobile,91,448,66.598,251,14.54,242,29.167,90,339
+9203,Curacautín,Malleco,Región de La Araucanía,2026Q3,mobile,37,123,66.453,252,10.229,312,50.439,252,339
+1401,Pozo Almonte,Tamarugal,Región de Tarapacá,2026Q3,mobile,79,445,66.082,253,16.649,185,75.618,322,339
+9211,Victoria,Malleco,Región de La Araucanía,2026Q3,mobile,52,227,65.664,254,13.52,256,39.78,188,339
+7202,Chanco,Cauquenes,Región del Maule,2026Q3,mobile,14,42,65.548,255,24.316,32,78.905,327,339
+7201,Cauquenes,Cauquenes,Región del Maule,2026Q3,mobile,91,449,65.336,256,14.784,234,33.031,133,339
+14104,Los Lagos,Valdivia,Región de Los Ríos,2026Q3,mobile,59,140,64.958,257,15.722,207,67.464,304,339
+5702,Catemu,San Felipe,Región de Valparaíso,2026Q3,mobile,46,253,64.829,258,12.289,286,63.229,292,339
+8205,Curanilahue,Arauco,Región del Bío-Bío,2026Q3,mobile,38,115,64.656,259,17.597,162,51.183,258,339
+7103,Curepto,Talca,Región del Maule,2026Q3,mobile,34,146,64.336,260,18.015,155,43.678,213,339
+4201,Illapel,Choapa,Región de Coquimbo,2026Q3,mobile,80,434,64.119,261,15.392,218,66.071,297,339
+6109,Malloa,Cachapoal,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,29,114,63.957,262,13.14,265,29.088,88,339
+10205,Dalcahue,Chiloe,Región de Los Lagos,2026Q3,mobile,16,36,63.854,263,10.971,301,52.389,266,339
+5802,Limache,Marga Marga,Región de Valparaíso,2026Q3,mobile,121,687,63.817,264,12.062,288,34.103,141,339
+16201,Quirihue,Itata,Región de Ñuble,2026Q3,mobile,26,169,63.608,265,12.614,278,34.095,140,339
+5401,La Ligua,Petorca,Región de Valparaíso,2026Q3,mobile,111,587,62.765,266,15.465,216,42.528,203,339
+2203,San Pedro de Atacama,El Loa,Región de Antofagasta,2026Q3,mobile,46,169,62.546,267,18.535,135,47.799,239,339
+14201,La Unión,Ranco,Región de Los Ríos,2026Q3,mobile,79,262,62.469,268,18.595,134,36.355,162,339
+9121,Cholchol,Cautín,Región de La Araucanía,2026Q3,mobile,24,64,62.304,269,14.339,243,89.391,330,339
+9103,Cunco,Cautín,Región de La Araucanía,2026Q3,mobile,67,679,61.846,270,9.92,314,135.784,338,339
+9202,Collipulli,Malleco,Región de La Araucanía,2026Q3,mobile,56,230,61.38,271,15.273,221,38.191,178,339
+8303,Cabrero,Bío-Bío,Región del Bío-Bío,2026Q3,mobile,70,245,60.788,272,12.872,273,37.559,173,339
+9113,Perquenco,Cautín,Región de La Araucanía,2026Q3,mobile,23,44,60.461,273,13.941,248,50.545,254,339
+6204,Marchigüe,Cardenal Caro,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,43,177,59.798,274,14.726,238,44.073,217,339
+5506,Nogales,Quillota,Región de Valparaíso,2026Q3,mobile,59,176,59.709,275,12.371,284,36.511,164,339
+9119,Vilcún,Cautín,Región de La Araucanía,2026Q3,mobile,73,284,59.461,276,11.561,297,30.849,109,339
+9117,Teodoro Schmidt,Cautín,Región de La Araucanía,2026Q3,mobile,40,143,59.425,277,9.64,317,42.524,202,339
+16104,El Carmen,Ñuble,Región de Ñuble,2026Q3,mobile,24,67,59.187,278,23.247,46,33.582,137,339
+16207,Treguaco,Itata,Región de Ñuble,2026Q3,mobile,19,37,59.09,279,12.541,280,39.73,187,339
+3301,Vallenar,Huasco,Región de Atacama,2026Q3,mobile,99,1015,58.845,280,15.359,219,61.167,291,339
+7308,Teno,Curicó,Región del Maule,2026Q3,mobile,114,231,58.763,281,12.924,272,35.584,154,339
+10305,Río Negro,Osorno,Región de Los Lagos,2026Q3,mobile,49,134,58.249,282,12.022,290,66.851,301,339
+9108,Lautaro,Cautín,Región de La Araucanía,2026Q3,mobile,79,554,57.9,283,9.13,318,59.787,284,339
+6308,Placilla,Colchagua,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,21,133,56.258,284,10.399,310,35.293,152,339
+15201,Putre,Parinacota,Región de Arica y Parinacota,2026Q3,mobile,24,100,55.937,285,10.676,306,66.77,300,339
+2104,Taltal,Antofagasta,Región de Antofagasta,2026Q3,mobile,29,118,55.866,286,18.145,150,47.898,240,339
+9207,Lumaco,Malleco,Región de La Araucanía,2026Q3,mobile,31,100,55.344,287,13.869,251,71.0,312,339
+8105,Hualqui,Concepción,Región del Bío-Bío,2026Q3,mobile,44,128,54.747,288,13.388,260,35.844,159,339
+14202,Futrono,Ranco,Región de Los Ríos,2026Q3,mobile,154,339,54.371,289,11.779,292,54.764,275,339
+4204,Salamanca,Choapa,Región de Coquimbo,2026Q3,mobile,116,548,53.716,290,10.808,305,52.522,268,339
+9120,Villarrica,Cautín,Región de La Araucanía,2026Q3,mobile,175,1116,53.305,291,11.328,300,45.946,230,339
+9204,Ercilla,Malleco,Región de La Araucanía,2026Q3,mobile,22,67,53.146,292,21.456,80,73.149,318,339
+9208,Purén,Malleco,Región de La Araucanía,2026Q3,mobile,19,51,52.968,293,8.499,321,73.118,317,339
+7302,Hualañé,Curicó,Región del Maule,2026Q3,mobile,31,91,52.696,294,12.642,277,30.505,104,339
+6203,Litueche,Cardenal Caro,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,37,122,52.649,295,10.968,302,46.5,234,339
+1404,Huara,Tamarugal,Región de Tarapacá,2026Q3,mobile,42,120,51.346,296,13.299,261,65.7,296,339
+9105,Freire,Cautín,Región de La Araucanía,2026Q3,mobile,74,275,51.1,297,12.751,274,43.102,205,339
+5504,La Cruz,Quillota,Región de Valparaíso,2026Q3,mobile,37,127,51.028,298,10.542,309,29.63,94,339
+11401,Chile Chico,General Carrera,Región de Aysén del Gral.Ibañez del Campo,2026Q3,mobile,35,72,50.433,299,8.162,323,59.917,286,339
+13504,María Pinto,Melipilla,Región Metropolitana de Santiago,2026Q3,mobile,29,109,50.374,300,13.044,267,20.936,10,339
+8204,Contulmo,Arauco,Región del Bío-Bío,2026Q3,mobile,31,76,50.267,301,17.064,175,33.566,136,339
+1107,Alto Hospicio,Iquique,Región de Tarapacá,2026Q3,mobile,78,557,49.572,302,15.411,217,50.469,253,339
+16302,Coihueco,Punilla,Región de Ñuble,2026Q3,mobile,41,105,49.461,303,15.248,222,37.171,169,339
+11402,Río Ibáñez,General Carrera,Región de Aysén del Gral.Ibañez del Campo,2026Q3,mobile,25,62,49.407,304,13.519,257,49.242,246,339
+3103,Tierra Amarilla,Copiapó,Región de Atacama,2026Q3,mobile,42,140,49.208,305,12.044,289,48.179,242,339
+7107,Pencahue,Talca,Región del Maule,2026Q3,mobile,28,94,48.061,306,10.639,307,44.213,219,339
+2103,Sierra Gorda,Antofagasta,Región de Antofagasta,2026Q3,mobile,86,280,46.18,307,13.162,263,51.657,261,339
+7405,Retiro,Linares,Región del Maule,2026Q3,mobile,54,131,45.98,308,7.907,324,43.908,216,339
+7306,Romeral,Curicó,Región del Maule,2026Q3,mobile,34,281,45.024,309,12.507,282,29.961,99,339
+9106,Galvarino,Cautín,Región de La Araucanía,2026Q3,mobile,31,187,44.767,310,14.759,236,127.07,337,339
+8311,Santa Bárbara,Bío-Bío,Región del Bío-Bío,2026Q3,mobile,40,119,44.719,311,10.936,304,60.227,290,339
+9118,Toltén,Cautín,Región de La Araucanía,2026Q3,mobile,21,91,44.023,312,9.897,315,109.758,335,339
+5404,Petorca,Petorca,Región de Valparaíso,2026Q3,mobile,37,253,43.573,313,10.607,308,70.126,311,339
+15102,Camarones,Arica,Región de Arica y Parinacota,2026Q3,mobile,13,41,43.088,314,11.52,299,76.829,325,339
+16304,San Fabián,Punilla,Región de Ñuble,2026Q3,mobile,14,47,42.782,315,12.747,275,33.298,134,339
+4202,Canela,Choapa,Región de Coquimbo,2026Q3,mobile,30,84,42.435,316,10.11,313,59.512,283,339
+7104,Empedrado,Talca,Región del Maule,2026Q3,mobile,9,48,40.172,317,11.733,293,55.979,276,339
+8207,Tirúa,Arauco,Región del Bío-Bío,2026Q3,mobile,35,282,40.074,318,13.149,264,64.504,294,339
+8302,Antuco,Bío-Bío,Región del Bío-Bío,2026Q3,mobile,31,176,38.922,319,12.979,270,91.903,331,339
+2202,Ollagüe,El Loa,Región de Antofagasta,2026Q3,mobile,3,22,37.111,320,6.138,330,44.136,218,339
+10304,Puyehue,Osorno,Región de Los Lagos,2026Q3,mobile,68,175,36.196,321,6.687,328,75.263,321,339
+2302,María Elena,Tocopilla,Región de Antofagasta,2026Q3,mobile,36,118,35.572,322,12.943,271,64.39,293,339
+12104,San Gregorio,Magallanes,Región de Magallanes y Antártica Chilena,2026Q3,mobile,9,32,35.192,323,11.627,296,66.75,299,339
+10202,Ancud,Chiloe,Región de Los Lagos,2026Q3,mobile,83,855,34.913,324,13.137,266,46.213,231,339
+11302,O'Higgins,Capitán Prat,Región de Aysén del Gral.Ibañez del Campo,2026Q3,mobile,1,4,34.087,325,7.283,325,51.0,257,339
+15202,General Lagos,Parinacota,Región de Arica y Parinacota,2026Q3,mobile,5,16,33.355,326,20.499,93,66.625,298,339
+10203,Chonchi,Chiloe,Región de Los Lagos,2026Q3,mobile,27,142,33.201,327,5.298,333,43.359,208,339
+4303,Monte Patria,Limarí,Región de Coquimbo,2026Q3,mobile,63,913,31.594,328,6.514,329,105.279,334,339
+9104,Curarrehue,Cautín,Región de La Araucanía,2026Q3,mobile,13,23,31.057,329,10.284,311,39.217,182,339
+12102,Laguna Blanca,Magallanes,Región de Magallanes y Antártica Chilena,2026Q3,mobile,5,12,29.373,330,7.251,326,86.5,329,339
+10103,Cochamó,Llanquihue,Región de Los Lagos,2026Q3,mobile,36,64,28.291,331,3.464,335,60.203,289,339
+1403,Colchane,Tamarugal,Región de Tarapacá,2026Q3,mobile,15,37,23.801,332,4.632,334,73.162,319,339
+10206,Puqueldón,Chiloe,Región de Los Lagos,2026Q3,mobile,11,29,23.7,333,8.28,322,43.655,212,339
+14106,Mariquina,Valdivia,Región de Los Ríos,2026Q3,mobile,56,298,22.043,334,7.183,327,76.768,324,339
+8314,Alto Biobío,Bío-Bío,Región del Bío-Bío,2026Q3,mobile,12,88,19.614,335,5.325,332,72.92,316,339
+6309,Pumanque,Colchagua,Región del Libertador Bernardo O'Higgins,2026Q3,mobile,15,237,18.784,336,2.981,336,35.7,158,339
+12303,Timaukel,Tierra del Fuego,Región de Magallanes y Antártica Chilena,2026Q3,mobile,4,9,12.064,337,2.839,337,72.111,315,339
+10404,Palena,Palena,Región de Los Lagos,2026Q3,mobile,8,21,8.587,338,2.707,338,54.286,274,339
+10207,Queilén,Chiloe,Región de Los Lagos,2026Q3,mobile,2,3,5.137,339,0.484,339,57.0,277,339
