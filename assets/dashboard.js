@@ -3,6 +3,7 @@ const MASTER_BASE = 'data/communal_master/chile_digital_inclusion_communes_2026.
 const GEO_URL = 'geo/chile_communes.geojson';
 const SECTOR_URL = 'data/subtel_sector_2026/sector_snapshot_2026q2.csv';
 const AGE_USE_URL = 'data/subtel_longitudinal/subtel_internet_use_by_age_2025.csv';
+const FINANCE_URL = 'data/economics/telecom_financials_2024_2026.csv';
 
 const indicators = {
   hogares_sin_internet_pct: { label: 'Hogares sin Internet', unit: '%', digits: 1, higherConcern: true },
@@ -33,6 +34,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 let master = [];
 let sector = [];
 let ageUse = [];
+let financials = [];
 let byCode = new Map();
 let geoLayer;
 let selectedIndicator = 'hogares_sin_internet_pct';
@@ -96,6 +98,94 @@ async function loadAgeUse() {
     console.warn('No se pudo cargar el uso de Internet por edad SUBTEL 2025', err);
     return [];
   }
+}
+
+async function loadFinancials() {
+  try {
+    return await d3.csv(FINANCE_URL);
+  } catch (err) {
+    console.warn('No se pudieron cargar los resultados financieros', err);
+    return [];
+  }
+}
+
+function escapeFinanceText(value) {
+  return String(value == null ? '' : value).replace(/[&<>"']/g, c =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+}
+
+function financeNumber(value, fractionDigits = 0) {
+  if (value === null || value === undefined || String(value).trim() === '') return 'N/D';
+  const parsed = Number(value);
+  if (!Number.isFinite(parsed)) return 'N/D';
+  return parsed.toLocaleString('es-CL', {
+    minimumFractionDigits: fractionDigits,
+    maximumFractionDigits: fractionDigits,
+  });
+}
+
+const financeScopes = {
+  chile_operations: 'Operaciones Chile',
+  group_consolidated: 'Grupo consolidado · internacional',
+  chile_revenue_segment: 'Ingresos Chile · sin EBITDA desagregado',
+  southern_cone_segment: 'Cono Sur · Chile, Paraguay y Uruguay',
+  chile_business_rating_adjusted: 'Chile · cifras ajustadas por S&P',
+};
+const financeEbitdaBases = {
+  adjusted_company_reported: 'Ajustado · empresa',
+  sp_global_ratings_adjusted: 'Ajustado · S&P',
+  company_reported_excludes_ifrs15_16: 'Excluye IFRS 15/16',
+  company_reported: 'Según reporte del emisor',
+};
+
+function renderFinancials() {
+  const target = document.getElementById('finance-body');
+  if (!target) return;
+  if (!financials.length) {
+    target.innerHTML = '<tr><td colspan="7">No hay resultados financieros disponibles.</td></tr>';
+    return;
+  }
+  const view = document.getElementById('finance-filter')?.value || 'latest';
+  let rows = [...financials];
+  rows.sort((a, b) =>
+    d3.descending(a.period_end, b.period_end) ||
+    d3.ascending(a.company, b.company) ||
+    d3.ascending(a.scope, b.scope)
+  );
+  if (view === 'latest') {
+    const keys = new Set();
+    rows = rows.filter(d => {
+      const key = d.company + '|' + d.scope;
+      if (keys.has(key)) return false;
+      keys.add(key);
+      return true;
+    });
+  }
+  target.innerHTML = rows.map(d => {
+    const caption = financeScopes[d.scope] || d.geography;
+    const amount = financeNumber(d.revenue_clp_mm);
+    const ebitda = financeNumber(d.ebitda_clp_mm);
+    const margin = d.ebitda_margin_pct === '' ? 'N/D' : financeNumber(d.ebitda_margin_pct, 1) + '%';
+    const capex = financeNumber(d.capex_clp_mm);
+    const ebitdaBasis = financeEbitdaBases[d.ebitda_basis] || d.ebitda_basis;
+    const safeURL = /^https:\/\/[a-z0-9.-]+\//i.test(d.source_url || '') ?
+      escapeFinanceText(d.source_url) : null;
+    const source = safeURL ?
+      `<a href="${safeURL}" target="_blank" rel="noopener noreferrer" aria-label="Abrir fuente de ${escapeFinanceText(d.company)}">Ver fuente</a>` : 'N/D';
+    return `<tr title="${escapeFinanceText(d.notes)}">
+      <td><strong>${escapeFinanceText(d.company)}</strong><small>${escapeFinanceText(caption)}</small></td>
+      <td>${escapeFinanceText(d.period)}</td>
+      <td class="finance-num">${amount}</td>
+      <td class="finance-num">${ebitda}<small>${escapeFinanceText(ebitdaBasis)}</small></td>
+      <td class="finance-num">${margin}</td>
+      <td class="finance-num">${capex}</td>
+      <td>${source}</td>
+    </tr>`;
+  }).join('');
+}
+
+function setupFinanceFilter() {
+  document.getElementById('finance-filter')?.addEventListener('change', renderFinancials);
 }
 
 function renderAgeUse() {
@@ -337,10 +427,11 @@ function setupSearch() {
 
 async function init() {
   try {
-    const [rows, geojson, sectorRows, ageRows] = await Promise.all([loadMaster(), d3.json(GEO_URL), loadSector(), loadAgeUse()]);
+    const [rows, geojson, sectorRows, ageRows, financialRows] = await Promise.all([loadMaster(), d3.json(GEO_URL), loadSector(), loadAgeUse(), loadFinancials()]);
     master = rows;
     sector = sectorRows;
     ageUse = ageRows;
+    financials = financialRows;
     byCode = new Map(master.map(d => [Number(d.comuna), d]));
     window.__geojson = geojson;
     populateIndicatorSelect();
@@ -348,6 +439,8 @@ async function init() {
     updateKPIs();
     updateSectorKPIs();
     renderAgeUse();
+    setupFinanceFilter();
+    renderFinancials();
     renderMap(geojson);
     renderRanking();
     const first = master.find(d => d.comuna_nombre === 'Santiago') || master[0];
