@@ -83,6 +83,27 @@
         },
         {
           "@id": "citation.csl.json"
+        },
+        {
+          "@id": "data/subtel_longitudinal/subtel_internet_use_by_age_2025.csv"
+        },
+        {
+          "@id": "data/ookla/chile_2026q3_summary.csv"
+        },
+        {
+          "@id": "data/ookla/territorial/chile_2026q3_communes.csv"
+        },
+        {
+          "@id": "data/economics/telecom_financials_2024_2026.csv"
+        },
+        {
+          "@id": "data/sector_strategy_2026/operator_market_traffic_bridge_2025_2026.csv"
+        },
+        {
+          "@id": "data/sector_strategy_2026/coquimbo_resilience_ookla_q3_2026.csv"
+        },
+        {
+          "@id": "data/sector_strategy_2026/official_strategic_events_2026.csv"
         }
       ]
     },
@@ -206,6 +227,55 @@
       "@type": "File",
       "name": "CSL-JSON citation metadata",
       "encodingFormat": "application/vnd.citationstyles.csl+json"
+    },
+    {
+      "@id": "data/subtel_longitudinal/subtel_internet_use_by_age_2025.csv",
+      "@type": "File",
+      "name": "subtel-internet-use-by-age-2025",
+      "encodingFormat": "text/csv",
+      "contentSize": "825 B"
+    },
+    {
+      "@id": "data/ookla/chile_2026q3_summary.csv",
+      "@type": "File",
+      "name": "ookla-national-2026q3",
+      "encodingFormat": "text/csv",
+      "contentSize": "847 B"
+    },
+    {
+      "@id": "data/ookla/territorial/chile_2026q3_communes.csv",
+      "@type": "File",
+      "name": "ookla-communal-2026q3",
+      "encodingFormat": "text/csv",
+      "contentSize": "108961 B"
+    },
+    {
+      "@id": "data/economics/telecom_financials_2024_2026.csv",
+      "@type": "File",
+      "name": "telecom-financials-2024-2026",
+      "encodingFormat": "text/csv",
+      "contentSize": "6944 B"
+    },
+    {
+      "@id": "data/sector_strategy_2026/operator_market_traffic_bridge_2025_2026.csv",
+      "@type": "File",
+      "name": "telecom-operator-market-traffic-2025-2026",
+      "encodingFormat": "text/csv",
+      "contentSize": "3291 B"
+    },
+    {
+      "@id": "data/sector_strategy_2026/coquimbo_resilience_ookla_q3_2026.csv",
+      "@type": "File",
+      "name": "telecom-resilience-quality-coquimbo-2026q3",
+      "encodingFormat": "text/csv",
+      "contentSize": "2905 B"
+    },
+    {
+      "@id": "data/sector_strategy_2026/official_strategic_events_2026.csv",
+      "@type": "File",
+      "name": "telecom-official-strategic-events-2026",
+      "encodingFormat": "text/csv",
+      "contentSize": "5574 B"
     }
   ]
 }
